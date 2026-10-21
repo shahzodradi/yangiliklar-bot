@@ -27,7 +27,10 @@
   "https://github.com/deepseek-ai/DeepInfer": 1792497718.339631,
   "https://www.ft.com/content/f2a2a578-5a2e-42ff-b4c9-8bafff271b37?syn-25a6b1a6=1": 1792549928.952863,
   "https://fortune.com/2026/10/20/spacex-q3-profit-ai-si-elon-musk/": 1792549928.952863,
-  "https://www.ft.com/content/45fbf130-f82c-465d-bc97-5b18c20fbe27?syn-25a6b1a6=1": 1792549928.952863
+  "https://www.ft.com/content/45fbf130-f82c-465d-bc97-5b18c20fbe27?syn-25a6b1a6=1": 1792549928.952863,
+  "https://www.bbc.co.uk/news/articles/cmlyl09xjke4o?at_medium=RSS&at_campaign=rss": 1792551703.877849,
+  "https://www.businessinsider.com/fireworks-ai-is-seeking-new-funding-at-around-valuation-2026-10": 1792551703.877849,
+  "https://the-decoder.com/mistral-ai-launches-voxtral-3-a-full-voice-agent-stack-that-listens-thinks-and-talks-in-real-time/": 1792551703.877849
  },
  "fails": 0,
  "sent": [
@@ -138,6 +141,18 @@
   {
    "t": 1792549928.952863,
    "title": "OpenAI ‘agents’ disabled their own monitoring systems"
+  },
+  {
+   "t": 1792551703.877849,
+   "title": "Elon Musk says Tesla-SpaceX merger being considered"
+  },
+  {
+   "t": 1792551703.877849,
+   "title": "Infrastructure startup Fireworks AI is in early talks for new funding at a valuation between $30 billion and $40 billion"
+  },
+  {
+   "t": 1792551703.877849,
+   "title": "Mistral AI launches Voxtral 3, a full voice agent stack that listens, thinks, and talks in real time"
   }
  ]
 }
