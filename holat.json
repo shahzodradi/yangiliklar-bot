@@ -39,7 +39,10 @@
   "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/": 1792554320.7940435,
   "https://the-decoder.com/us-bans-deepseek-technology-across-federal-civilian-agencies/": 1792580154.7415302,
   "https://www.gazeta.uz/oz/2026/10/21/qashqadaryo/": 1792580154.7415302,
-  "https://www.businessinsider.com/tiktok-pivots-ad-dollars-youtube-and-pinterest-after-meta-ban-2026-10": 1792580154.7415302
+  "https://www.businessinsider.com/tiktok-pivots-ad-dollars-youtube-and-pinterest-after-meta-ban-2026-10": 1792580154.7415302,
+  "https://www.cnbc.com/2026/10/20/netflix-nflx-earnings-q3-2026.html": 1792599808.0598543,
+  "https://www.socialmediatoday.com/news/youtube-inks-affiliate-deal-with-aliexpress/833542/": 1792599808.0598543,
+  "https://www.cnbc.com/2026/10/20/boeing-737-max-10-certification.html": 1792599808.0598543
  },
  "fails": 0,
  "sent": [
@@ -198,6 +201,18 @@
   {
    "t": 1792580154.7415302,
    "title": "TikTok is shifting advertising to YouTube after Meta says 'no thanks'"
+  },
+  {
+   "t": 1792599808.0598543,
+   "title": "Netflix posts third-quarter earnings beat, but shares fall on advertising and revenue guidance"
+  },
+  {
+   "t": 1792599808.0598543,
+   "title": "YouTube inks affiliate deal with AliExpress"
+  },
+  {
+   "t": 1792599808.0598543,
+   "title": "Boeing wins FAA approval for 737 Max 10 after years of delays as Duffy says certification process should be faster"
   }
  ]
 }
