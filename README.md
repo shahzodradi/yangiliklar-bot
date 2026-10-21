@@ -13,6 +13,9 @@ har bir fikr yonida manba havolasi bor. Kompaniyaning o'z odamlari, bitim ishtir
 - **Cloudflare Worker** (`cloudflare-worker/`, yangiliklar-tugma.shahzodabdurahmanov0.workers.dev):
   Telegram'dagi **🗞 Hozirgi yangiliklar** tugmasi yoki `/yangiliklar` bosilganda GitHub'dagi botni ishga tushiradi,
   yangiliklar 1-2 daqiqada keladi. Kalitlar: `wrangler secret put ...`.
+- **Guruhlar:** botni Telegram guruhiga (yoki kanalga admin qilib) qo'shsangiz, yangiliklar u yerga ham boradi.
+  Worker guruhni `guruhlar.json` ga qo'shadi (`.github/workflows/guruh.yml` orqali), botni chiqarsangiz o'chiradi.
+  Faqat siz qo'shgan guruhlar hisobga olinadi: begona qo'shsa, bot o'sha guruhdan chiqib ketadi.
 - Kompyuterdagi eski Task Scheduler vazifalari ("Yangiliklar bot", "Yangiliklar bot tugma") o'chirib qo'yilgan.
 
 ## Fayllar
