@@ -30,7 +30,10 @@
   "https://www.ft.com/content/45fbf130-f82c-465d-bc97-5b18c20fbe27?syn-25a6b1a6=1": 1792549928.952863,
   "https://www.bbc.co.uk/news/articles/cmlyl09xjke4o?at_medium=RSS&at_campaign=rss": 1792551703.877849,
   "https://www.businessinsider.com/fireworks-ai-is-seeking-new-funding-at-around-valuation-2026-10": 1792551703.877849,
-  "https://the-decoder.com/mistral-ai-launches-voxtral-3-a-full-voice-agent-stack-that-listens-thinks-and-talks-in-real-time/": 1792551703.877849
+  "https://the-decoder.com/mistral-ai-launches-voxtral-3-a-full-voice-agent-stack-that-listens-thinks-and-talks-in-real-time/": 1792551703.877849,
+  "https://the-decoder.com/elevenlabs-releases-two-new-speech-to-speech-models-designed-for-real-time-ai-conversations/": 1792553464.8868952,
+  "https://www.theverge.com/tech/1014999/google-gemini-ai-cars-android-auto": 1792553464.8868952,
+  "https://www.theverge.com/tech/1014246/adobe-lightroom-mobile-ai-quick-action-open-eyes-closed-blink-repair": 1792553464.8868952
  },
  "fails": 0,
  "sent": [
@@ -153,6 +156,18 @@
   {
    "t": 1792551703.877849,
    "title": "Mistral AI launches Voxtral 3, a full voice agent stack that listens, thinks, and talks in real time"
+  },
+  {
+   "t": 1792553464.8868952,
+   "title": "Elevenlabs releases two new speech-to-speech models designed for real-time AI conversations"
+  },
+  {
+   "t": 1792553464.8868952,
+   "title": "Google’s more personalized Gemini AI is heading to your car"
+  },
+  {
+   "t": 1792553464.8868952,
+   "title": "Adobe Lightroom mobile can now open closed eyes in photos with a simple tap"
   }
  ]
 }
