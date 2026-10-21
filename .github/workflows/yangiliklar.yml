@@ -12,6 +12,10 @@ on:
         description: "Tugma bosilganda yuborilgan ⏳ xabar ID si"
         required: false
         default: ""
+      wait_chat:
+        description: "⏳ xabar turgan chat (shaxsiy chat yoki guruh)"
+        required: false
+        default: ""
 
 # Bir vaqtda bitta ish: holat.json ikki marta yozilmasin, bir yangilik ikki marta kelmasin
 concurrency:
@@ -39,9 +43,10 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           EVENT: ${{ github.event_name }}
           WAIT_ID: ${{ github.event.inputs.wait_id }}
+          WAIT_CHAT: ${{ github.event.inputs.wait_chat }}
         run: |
           if [ "$EVENT" = "workflow_dispatch" ]; then
-            python bot.py --tugma "$WAIT_ID"
+            python bot.py --tugma "$WAIT_ID" "$WAIT_CHAT"
           else
             python bot.py
           fi

@@ -7,7 +7,7 @@ Ishga tushirish:
     python bot.py --chat-id  # botga /start yozgandan keyin chat ID ni .env ga yozadi
     python bot.py --sozla    # token va kalitni kiritish (tekshirib saqlaydi)
     python bot.py --tinglash # Telegram'dagi "Hozirgi yangiliklar" tugmasini kutadi (fon jarayoni)
-    python bot.py --tugma ID # bulutda: tugma bosilgandagi ish, ID = Apps Script yuborgan ⏳ xabar
+    python bot.py --tugma ID CHAT  # bulutda: tugma bosilgandagi ish (⏳ xabar ID si va u turgan chat)
 """
 import calendar
 import html
@@ -769,7 +769,7 @@ def release_lock():
     LOCK_FILE.unlink(missing_ok=True)
 
 
-def run_digest(env, dry=False, fast=False):
+def run_digest(env, dry=False, fast=False, extra_chats=()):
     """Yangi yangiliklarni yig'ib yuboradi. Yuborilganlar sonini, xato bo'lsa None qaytaradi."""
     state = load_state()
     fetched = fetch_all()
@@ -813,6 +813,8 @@ def run_digest(env, dry=False, fast=False):
             print(f"{post['caption']}\n[rasm: {url or 'yo‘q'}]\n")
         return len(posts)
     groups = load_groups()
+    known = {str(g["id"]) for g in groups} | {str(env["TELEGRAM_CHAT_ID"])}
+    groups += [{"id": int(c)} for c in extra_chats if str(c) not in known]  # buyruq kelgan, hali ro'yxatda yo'q guruh
     for n, (post, (_, img)) in enumerate(zip(posts, images)):  # faqat birinchisi ovoz bilan keladi
         kind, file_id = send_post(env, env["TELEGRAM_CHAT_ID"], post, n > 0, img, keyboard=True)
         log.info("Yuborildi (%s): %s", kind, post["link"])
@@ -831,11 +833,11 @@ def run_digest(env, dry=False, fast=False):
     return len(posts)
 
 
-def finish_wait(env, wait_id, sent):
+def finish_wait(env, wait_id, sent, chat=None):
     """⏳ xabarini yangiliklar kelgach o'chiradi, kelmasa sababini yozadi."""
     if not wait_id:
         return
-    chat = env["TELEGRAM_CHAT_ID"]
+    chat = chat or env["TELEGRAM_CHAT_ID"]
     if sent:
         tg(env, "deleteMessage", {"chat_id": chat, "message_id": wait_id})
         return
@@ -911,10 +913,11 @@ def main():
     if listening:
         return listen(env)
     if "--tugma" in sys.argv:  # bulut (GitHub Actions): bir vaqtda bitta ish, qulf kerak emas
-        arg = sys.argv[sys.argv.index("--tugma") + 1:]
-        wait_id = int(arg[0]) if arg and arg[0].isdigit() else None
-        sent = run_digest(env, fast=True)
-        finish_wait(env, wait_id, sent)
+        arg = sys.argv[sys.argv.index("--tugma") + 1:] + ["", ""]
+        wait_id = int(arg[0]) if arg[0].isdigit() else None
+        wait_chat = arg[1] if arg[1].lstrip("-").isdigit() else None
+        sent = run_digest(env, fast=True, extra_chats=[wait_chat] if wait_chat else ())
+        finish_wait(env, wait_id, sent, wait_chat)
         return 0 if sent is not None else 1
     if dry:
         return 0 if run_digest(env, dry=True) is not None else 1

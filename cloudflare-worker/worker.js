@@ -48,13 +48,22 @@ async function handle(update, env) {
     await dispatchGroup(env, 'qosh', msg.migrate_to_chat_id, msg.chat.title || '');
     return;
   }
-  if (String((msg.chat || {}).id) !== String(env.TELEGRAM_CHAT_ID)) return;  // boshqalarga javob yo'q
+  if (String((msg.from || {}).id) !== String(env.TELEGRAM_CHAT_ID)) return;  // faqat egasining buyruqlari
+  const chat = msg.chat || {};
+  const inGroup = chat.type !== 'private';
   const text = (msg.text || '').trim();
   if (text === BUTTON || text.startsWith('/yangiliklar')) {
-    await startRun(env);
+    if (inGroup) await dispatchGroup(env, 'qosh', chat.id, chat.title || '');  // ro'yxatda bo'lmasa qo'shiladi
+    await startRun(env, chat.id);
   } else if (text.startsWith('/start')) {
-    await tg(env, 'sendMessage', {chat_id: env.TELEGRAM_CHAT_ID, reply_markup: KEYBOARD,
-      text: `Yangiliklar har 3 soatda keladi. Oldinroq ko'rmoqchi bo'lsangiz, pastdagi «${BUTTON}» tugmasini bosing.`});
+    if (inGroup) {
+      await dispatchGroup(env, 'qosh', chat.id, chat.title || '');
+      await tg(env, 'sendMessage', {chat_id: chat.id,
+        text: "✅ Yangiliklar shu guruhga ham keladi: har kuni 08:00–23:00 oralig'ida, har 3 soatda."});
+    } else {
+      await tg(env, 'sendMessage', {chat_id: chat.id, reply_markup: KEYBOARD,
+        text: `Yangiliklar har 3 soatda keladi. Oldinroq ko'rmoqchi bo'lsangiz, pastdagi «${BUTTON}» tugmasini bosing.`});
+    }
   }
 }
 
@@ -89,22 +98,22 @@ function dispatchGroup(env, amal, chatId, nomi) {
   });
 }
 
-async function startRun(env) {
+async function startRun(env, chatId) {
   // Tugma ketma-ket bosilsa, navbatdagi yoki ishlayotgan ish bo'lsa, yangisi boshlanmaydi
   const runs = await github(env, `/actions/workflows/${WORKFLOW}/runs?event=workflow_dispatch&per_page=5`)
     .then((r) => r.json()).catch(() => ({}));
   const busy = (runs.workflow_runs || []).some((r) => ['queued', 'in_progress', 'waiting', 'pending'].includes(r.status));
   if (busy) {
-    await tg(env, 'sendMessage', {chat_id: env.TELEGRAM_CHAT_ID, text: '⏳ Yangiliklar allaqachon tayyorlanyapti, birozdan keyin keladi.'});
+    await tg(env, 'sendMessage', {chat_id: chatId, text: '⏳ Yangiliklar allaqachon tayyorlanyapti, birozdan keyin keladi.'});
     return;
   }
-  const wait = await tg(env, 'sendMessage', {chat_id: env.TELEGRAM_CHAT_ID, text: "⏳ Yangiliklar yig'ilyapti, 1-2 daqiqa..."});
+  const wait = await tg(env, 'sendMessage', {chat_id: chatId, text: "⏳ Yangiliklar yig'ilyapti, 1-2 daqiqa..."});
   const waitId = wait.ok ? String(wait.result.message_id) : '';
   const res = await github(env, `/actions/workflows/${WORKFLOW}/dispatches`, {
-    method: 'POST', body: JSON.stringify({ref: 'main', inputs: {wait_id: waitId}}),
+    method: 'POST', body: JSON.stringify({ref: 'main', inputs: {wait_id: waitId, wait_chat: String(chatId)}}),
   });
   if (res.status !== 204 && waitId) {
-    await tg(env, 'editMessageText', {chat_id: env.TELEGRAM_CHAT_ID, message_id: Number(waitId),
+    await tg(env, 'editMessageText', {chat_id: chatId, message_id: Number(waitId),
       text: `⚠️ Bot ishga tushmadi (GitHub javobi ${res.status}).`});
   }
 }
