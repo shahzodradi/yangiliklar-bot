@@ -33,7 +33,10 @@
   "https://the-decoder.com/mistral-ai-launches-voxtral-3-a-full-voice-agent-stack-that-listens-thinks-and-talks-in-real-time/": 1792551703.877849,
   "https://the-decoder.com/elevenlabs-releases-two-new-speech-to-speech-models-designed-for-real-time-ai-conversations/": 1792553464.8868952,
   "https://www.theverge.com/tech/1014999/google-gemini-ai-cars-android-auto": 1792553464.8868952,
-  "https://www.theverge.com/tech/1014246/adobe-lightroom-mobile-ai-quick-action-open-eyes-closed-blink-repair": 1792553464.8868952
+  "https://www.theverge.com/tech/1014246/adobe-lightroom-mobile-ai-quick-action-open-eyes-closed-blink-repair": 1792553464.8868952,
+  "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/": 1792554320.7940435,
+  "https://github.com/google-pytorch/torch_tpu": 1792554320.7940435,
+  "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/": 1792554320.7940435
  },
  "fails": 0,
  "sent": [
@@ -168,6 +171,18 @@
   {
    "t": 1792553464.8868952,
    "title": "Adobe Lightroom mobile can now open closed eyes in photos with a simple tap"
+  },
+  {
+   "t": 1792554320.7940435,
+   "title": "Google has joined Amazon in attacking Nvidia’s stronghold with AI app developers"
+  },
+  {
+   "t": 1792554320.7940435,
+   "title": "Google open-sources TorchTPU, a native PyTorch back end for TPUs"
+  },
+  {
+   "t": 1792554320.7940435,
+   "title": "OpenAI acquires startup Orchestra Bio⁠ to beef up its biotech business"
   }
  ]
 }
