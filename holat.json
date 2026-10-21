@@ -42,94 +42,13 @@
   "https://www.businessinsider.com/tiktok-pivots-ad-dollars-youtube-and-pinterest-after-meta-ban-2026-10": 1792580154.7415302,
   "https://www.cnbc.com/2026/10/20/netflix-nflx-earnings-q3-2026.html": 1792599808.0598543,
   "https://www.socialmediatoday.com/news/youtube-inks-affiliate-deal-with-aliexpress/833542/": 1792599808.0598543,
-  "https://www.cnbc.com/2026/10/20/boeing-737-max-10-certification.html": 1792599808.0598543
+  "https://www.cnbc.com/2026/10/20/boeing-737-max-10-certification.html": 1792599808.0598543,
+  "https://techcrunch.com/2026/10/21/year-old-ai-lab-flapping-airplanes-raises-1b-at-a-6b-valuation/": 1792616762.3943284,
+  "https://techcrunch.com/2026/10/21/legal-ai-startup-legora-raises-550m-series-e-at-8-8b-valuation/": 1792616762.3943284,
+  "https://www.businessinsider.com/anthropic-answers-meta-openai-new-personal-agent-claude-duet-2026-10": 1792616762.3943284
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1792480055.2493784,
-   "title": "Beeline Uzbekistan egasi qator shartlar bilan Perfectum’ni sotib olishga ruxsat oldi"
-  },
-  {
-   "t": 1792480055.2493784,
-   "title": "AI assistant startup Town nabs unicorn valuation 4 months after launch"
-  },
-  {
-   "t": 1792480055.2493784,
-   "title": "US bans DeepSeek AI from government use as tech tension with China continues"
-  },
-  {
-   "t": 1792480055.2493784,
-   "title": "AI debt worries spark surge in default insurance trading"
-  },
-  {
-   "t": 1792480055.2493784,
-   "title": "O‘zbekiston prezidenti Franklin Templeton, Wabtec va Traxys rahbarlarini qabul qildi"
-  },
-  {
-   "t": 1792480055.2493784,
-   "title": "South Korean data centre builder tumbles 33% on trading debut"
-  },
-  {
-   "t": 1792480055.2493784,
-   "title": "Job vacancies fall as small firms cut back on recruitment"
-  },
-  {
-   "t": 1792480055.2493784,
-   "title": "Apple breaks its silence on the privacy crackdown that’s roiled the online ad industry"
-  },
-  {
-   "t": 1792480055.2493784,
-   "title": "Налоговый комитет выпустил ИИ-модуль для экспресс-аудита бизнеса"
-  },
-  {
-   "t": 1792480055.2493784,
-   "title": "Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool"
-  },
-  {
-   "t": 1792480055.2493784,
-   "title": "Kling AI drops version 4.0 with stereo audio, multilingual lip sync, and a lighter Flash variant"
-  },
-  {
-   "t": 1792480055.2493784,
-   "title": "Instagram Chief says stronger AI slop prevention is needed"
-  },
-  {
-   "t": 1792480194.2950525,
-   "title": "Tenstorrent hits $6.2B valuation to scale open-weight AI chips"
-  },
-  {
-   "t": 1792480194.2950525,
-   "title": "Nscale and Anthropic are reportedly in talks for yet another $45B compute deal"
-  },
-  {
-   "t": 1792480194.2950525,
-   "title": "MiniMax M3.1 Flash shows China's AI price race has no floor in sight"
-  },
-  {
-   "t": 1792483100.1781135,
-   "title": "Zuckerberg spent years building on Apple’s terms. His $100 billion-plus AI bet is about owning everything"
-  },
-  {
-   "t": 1792483100.1781135,
-   "title": "Tolan snags $30M for its AI companion that helps users navigate life"
-  },
-  {
-   "t": 1792483100.1781135,
-   "title": "The neocloud shakeout is coming, and Nvidia has the most to lose"
-  },
-  {
-   "t": 1792487023.6069267,
-   "title": "Nvidia launches new open models to run agents in the enterprise and on PCs"
-  },
-  {
-   "t": 1792487023.6069267,
-   "title": "Узбекистан и США подписали 54 соглашения на $12 млрд"
-  },
-  {
-   "t": 1792487023.6069267,
-   "title": "Robot factories and hypersonic missiles: JPMorgan Chase's first $5 billion of defense investments"
-  },
   {
    "t": 1792497718.339631,
    "title": "Otter.ai raises $320 million from General Catalyst’s growth fund for its meeting tool"
@@ -213,6 +132,18 @@
   {
    "t": 1792599808.0598543,
    "title": "Boeing wins FAA approval for 737 Max 10 after years of delays as Duffy says certification process should be faster"
+  },
+  {
+   "t": 1792616762.3943284,
+   "title": "Year-old AI lab Flapping Airplanes raises $1B at a $6B valuation"
+  },
+  {
+   "t": 1792616762.3943284,
+   "title": "Legal AI startup Legora raises $550M Series E at $8.8B valuation"
+  },
+  {
+   "t": 1792616762.3943284,
+   "title": "Anthropic answers Meta and OpenAI with a new personal agent, Claude Duet"
   }
  ]
 }
