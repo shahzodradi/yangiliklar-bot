@@ -36,7 +36,10 @@
   "https://www.theverge.com/tech/1014246/adobe-lightroom-mobile-ai-quick-action-open-eyes-closed-blink-repair": 1792553464.8868952,
   "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/": 1792554320.7940435,
   "https://github.com/google-pytorch/torch_tpu": 1792554320.7940435,
-  "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/": 1792554320.7940435
+  "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/": 1792554320.7940435,
+  "https://the-decoder.com/us-bans-deepseek-technology-across-federal-civilian-agencies/": 1792580154.7415302,
+  "https://www.gazeta.uz/oz/2026/10/21/qashqadaryo/": 1792580154.7415302,
+  "https://www.businessinsider.com/tiktok-pivots-ad-dollars-youtube-and-pinterest-after-meta-ban-2026-10": 1792580154.7415302
  },
  "fails": 0,
  "sent": [
@@ -183,6 +186,18 @@
   {
    "t": 1792554320.7940435,
    "title": "OpenAI acquires startup Orchestra Bio⁠ to beef up its biotech business"
+  },
+  {
+   "t": 1792580154.7415302,
+   "title": "US bans Deepseek technology across federal civilian agencies"
+  },
+  {
+   "t": 1792580154.7415302,
+   "title": "Prezident Qashqadaryoda qiymati 6 mlrd dollardan ziyod obyektlar faoliyati va qurilishini boshlab berdi"
+  },
+  {
+   "t": 1792580154.7415302,
+   "title": "TikTok is shifting advertising to YouTube after Meta says 'no thanks'"
   }
  ]
 }
