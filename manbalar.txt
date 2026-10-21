@@ -1,0 +1,41 @@
+# Yangiliklar manbalari: har qatorda "Nomi | RSS havola"
+# Qator boshiga # qo'ysangiz, o'sha manba o'chadi.
+
+# --- AI va texnologiya ---
+TechCrunch AI | https://techcrunch.com/category/artificial-intelligence/feed/
+The Verge AI | https://www.theverge.com/rss/ai-artificial-intelligence/index.xml
+The Decoder | https://the-decoder.com/feed/
+VentureBeat AI | https://venturebeat.com/category/ai/feed/
+MIT Tech Review | https://www.technologyreview.com/topic/artificial-intelligence/feed
+Wired AI | https://www.wired.com/feed/tag/ai/latest/rss
+Hacker News | https://hnrss.org/frontpage?points=250
+OpenAI | https://openai.com/news/rss.xml
+Google AI | https://blog.google/technology/ai/rss/
+Hugging Face | https://huggingface.co/blog/feed.xml
+Ben's Bites | https://www.bensbites.com/feed
+Product Hunt | https://www.producthunt.com/feed
+
+# --- Ijtimoiy tarmoqlar, creator'lar, marketing ---
+Social Media Today | https://www.socialmediatoday.com/feeds/news/
+TechCrunch Social | https://techcrunch.com/category/social/feed/
+The Verge Creators | https://www.theverge.com/rss/creators/index.xml
+Meta Newsroom | https://about.fb.com/feed/
+# Buffer | https://buffer.com/resources/rss/
+
+# --- O'sish: startaplar, investitsiyalar ---
+TechCrunch Startups | https://techcrunch.com/category/startups/feed/
+TechCrunch Venture | https://techcrunch.com/category/venture/feed/
+# Lenny's Newsletter | https://www.lennysnewsletter.com/feed
+# Andrew Chen | https://andrewchen.substack.com/feed
+
+# --- Biznes va iqtisodiyot ---
+BBC Business | https://feeds.bbci.co.uk/news/business/rss.xml
+CNBC Business | https://www.cnbc.com/id/10001147/device/rss/rss.html
+Financial Times | https://www.ft.com/rss/home
+Fortune | https://fortune.com/feed/
+NYT Business | https://rss.nytimes.com/services/xml/rss/nyt/Business.xml
+Business Insider | https://feeds.businessinsider.com/custom/all
+
+# --- O'zbekiston ---
+Spot.uz | https://www.spot.uz/rss
+Gazeta.uz | https://www.gazeta.uz/oz/rss/

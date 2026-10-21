@@ -1,0 +1,7 @@
+.env
+.env.*
+*.log
+*.log.*
+ishlayapti.lock
+__pycache__/
+apps-script/*_tayyor.gs

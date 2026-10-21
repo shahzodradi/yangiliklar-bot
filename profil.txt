@@ -1,0 +1,17 @@
+Dunyoda texnologiya, AI, biznes va o'sish (startaplar, marketing) sohasida nimalar bo'layotganidan xabardor bo'lib turmoqchiman.
+Biznesga oid har qanday muhim yangilik menga kerak.
+
+Qiziq:
+- AI: yangi modellar va vositalar, katta yangilanishlar (OpenAI, Anthropic, Google, Meta, xAI, xitoy laboratoriyalari va h.k.)
+- video va rasm AI: Seedance, Kling, Runway, Veo, Sora, Midjourney va shunga o'xshashlar
+- katta texnologik kompaniyalar: yangi mahsulotlar, qurilmalar, muhim qarorlar, yirik bitimlar
+- ijtimoiy tarmoqlar: Instagram, TikTok, YouTube, Telegram, X'dagi yangi funksiyalar va o'zgarishlar
+- biznes: kompaniyalar, bozorlar, yirik bitimlar va qo'shib olishlar, daromad hisobotlari, iqtisodiyot, savdo, narxlar, bank va moliya
+- o'sish: startaplar va investitsiyalar, tez o'sayotgan kompaniyalar, reklama va marketing bozoridagi o'zgarishlar
+- O'zbekistondagi biznes, iqtisodiyot, texnologiya, telekom, startap va IT yangiliklari
+
+Qiziq emas:
+- siyosat va sud janjallari (agar biznes yoki texnologiyaga katta ta'sir qilmasa)
+- sport, shou-biznes, jinoyat
+- maslahat maqolalari, "qanday qilish kerak" qo'llanmalar, reklama
+- sof dasturchilik va ilmiy tafsilotlar

@@ -1,0 +1,143 @@
+{
+ "seen": {
+  "https://www.gazeta.uz/oz/2026/10/20/perfectum/": 1792480055.2493784,
+  "https://techcrunch.com/2026/10/19/ai-assistant-startup-town-nabs-unicorn-valuation-four-months-after-launch/": 1792480055.2493784,
+  "https://www.bbc.co.uk/news/articles/cjkgeq0k1wevo?at_medium=RSS&at_campaign=rss": 1792480055.2493784,
+  "https://www.ft.com/content/6dd31584-064c-4015-bf5d-e5747799ccd5?syn-25a6b1a6=1": 1792480055.2493784,
+  "https://www.gazeta.uz/oz/2026/10/19/us-business/": 1792480055.2493784,
+  "https://www.ft.com/content/cddafc0a-1ae6-467b-84b8-34c172002b6a?syn-25a6b1a6=1": 1792480055.2493784,
+  "https://www.bbc.co.uk/news/articles/c6eq327pzr53o?at_medium=RSS&at_campaign=rss": 1792480055.2493784,
+  "https://www.businessinsider.com/apple-explains-new-safari-ad-tracking-privacy-restrictions-2026-10": 1792480055.2493784,
+  "https://www.spot.uz/ru/2026/10/20/ai-express-audit/": 1792480055.2493784,
+  "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/": 1792480055.2493784,
+  "https://the-decoder.com/kling-ai-drops-version-4-0-with-stereo-audio-multilingual-lip-sync-and-a-lighter-flash-variant/": 1792480055.2493784,
+  "https://www.lennysnewsletter.com/p/claude-cuts-my-tiktok-how-this-creator": 1792480055.2493784,
+  "https://www.socialmediatoday.com/news/instagram-chief-says-stronger-ai-slop-prevention-is-needed/833416/": 1792480055.2493784,
+  "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/": 1792480194.2950525,
+  "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/": 1792480194.2950525,
+  "https://the-decoder.com/minimax-m3-1-flash-shows-chinas-ai-price-race-has-no-floor-in-sight/": 1792480194.2950525,
+  "https://fortune.com/2026/10/20/zuckerberg-apple-lesson-meta-100-billion-ai-bet/": 1792483100.1781135,
+  "https://techcrunch.com/2026/10/19/tolan-snags-30m-for-its-ai-companion-that-helps-users-navigate-life/": 1792483100.1781135,
+  "https://the-decoder.com/the-neocloud-shakeout-is-coming-and-nvidia-has-the-most-to-lose/": 1792483100.1781135,
+  "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/": 1792487023.6069267,
+  "https://www.spot.uz/ru/2026/10/20/usa-agreements/": 1792487023.6069267,
+  "https://www.cnbc.com/2026/10/19/jpmorgan-security-defense-investments.html": 1792487023.6069267,
+  "https://techcrunch.com/2026/10/20/otter-ai-raises-320-million-from-general-catalysts-growth-fund-for-its-meeting-tool/": 1792497718.339631,
+  "https://techcrunch.com/2026/10/20/yelp-can-now-call-on-your-behalf-to-check-wait-times-at-a-restaurant/": 1792497718.339631,
+  "https://github.com/deepseek-ai/DeepInfer": 1792497718.339631,
+  "https://www.ft.com/content/f2a2a578-5a2e-42ff-b4c9-8bafff271b37?syn-25a6b1a6=1": 1792549928.952863,
+  "https://fortune.com/2026/10/20/spacex-q3-profit-ai-si-elon-musk/": 1792549928.952863,
+  "https://www.ft.com/content/45fbf130-f82c-465d-bc97-5b18c20fbe27?syn-25a6b1a6=1": 1792549928.952863
+ },
+ "fails": 0,
+ "sent": [
+  {
+   "t": 1792480055.2493784,
+   "title": "Beeline Uzbekistan egasi qator shartlar bilan Perfectum’ni sotib olishga ruxsat oldi"
+  },
+  {
+   "t": 1792480055.2493784,
+   "title": "AI assistant startup Town nabs unicorn valuation 4 months after launch"
+  },
+  {
+   "t": 1792480055.2493784,
+   "title": "US bans DeepSeek AI from government use as tech tension with China continues"
+  },
+  {
+   "t": 1792480055.2493784,
+   "title": "AI debt worries spark surge in default insurance trading"
+  },
+  {
+   "t": 1792480055.2493784,
+   "title": "O‘zbekiston prezidenti Franklin Templeton, Wabtec va Traxys rahbarlarini qabul qildi"
+  },
+  {
+   "t": 1792480055.2493784,
+   "title": "South Korean data centre builder tumbles 33% on trading debut"
+  },
+  {
+   "t": 1792480055.2493784,
+   "title": "Job vacancies fall as small firms cut back on recruitment"
+  },
+  {
+   "t": 1792480055.2493784,
+   "title": "Apple breaks its silence on the privacy crackdown that’s roiled the online ad industry"
+  },
+  {
+   "t": 1792480055.2493784,
+   "title": "Налоговый комитет выпустил ИИ-модуль для экспресс-аудита бизнеса"
+  },
+  {
+   "t": 1792480055.2493784,
+   "title": "Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool"
+  },
+  {
+   "t": 1792480055.2493784,
+   "title": "Kling AI drops version 4.0 with stereo audio, multilingual lip sync, and a lighter Flash variant"
+  },
+  {
+   "t": 1792480055.2493784,
+   "title": "Instagram Chief says stronger AI slop prevention is needed"
+  },
+  {
+   "t": 1792480194.2950525,
+   "title": "Tenstorrent hits $6.2B valuation to scale open-weight AI chips"
+  },
+  {
+   "t": 1792480194.2950525,
+   "title": "Nscale and Anthropic are reportedly in talks for yet another $45B compute deal"
+  },
+  {
+   "t": 1792480194.2950525,
+   "title": "MiniMax M3.1 Flash shows China's AI price race has no floor in sight"
+  },
+  {
+   "t": 1792483100.1781135,
+   "title": "Zuckerberg spent years building on Apple’s terms. His $100 billion-plus AI bet is about owning everything"
+  },
+  {
+   "t": 1792483100.1781135,
+   "title": "Tolan snags $30M for its AI companion that helps users navigate life"
+  },
+  {
+   "t": 1792483100.1781135,
+   "title": "The neocloud shakeout is coming, and Nvidia has the most to lose"
+  },
+  {
+   "t": 1792487023.6069267,
+   "title": "Nvidia launches new open models to run agents in the enterprise and on PCs"
+  },
+  {
+   "t": 1792487023.6069267,
+   "title": "Узбекистан и США подписали 54 соглашения на $12 млрд"
+  },
+  {
+   "t": 1792487023.6069267,
+   "title": "Robot factories and hypersonic missiles: JPMorgan Chase's first $5 billion of defense investments"
+  },
+  {
+   "t": 1792497718.339631,
+   "title": "Otter.ai raises $320 million from General Catalyst’s growth fund for its meeting tool"
+  },
+  {
+   "t": 1792497718.339631,
+   "title": "Yelp can now call on your behalf to check wait times at a restaurant"
+  },
+  {
+   "t": 1792497718.339631,
+   "title": "DeepSeek just open-sourced its inference engine"
+  },
+  {
+   "t": 1792549928.952863,
+   "title": "SpaceX and Tesla boards explore potential merger"
+  },
+  {
+   "t": 1792549928.952863,
+   "title": "SpaceX posts first operating profit as public company as AI revenue nearly triples to $7.6 billion—cruising past Starlink"
+  },
+  {
+   "t": 1792549928.952863,
+   "title": "OpenAI ‘agents’ disabled their own monitoring systems"
+  }
+ ]
+}
