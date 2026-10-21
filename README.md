@@ -16,6 +16,8 @@ har bir fikr yonida manba havolasi bor. Kompaniyaning o'z odamlari, bitim ishtir
 - **Guruhlar:** botni Telegram guruhiga (yoki kanalga admin qilib) qo'shsangiz, yangiliklar u yerga ham boradi.
   Worker guruhni `guruhlar.json` ga qo'shadi (`.github/workflows/guruh.yml` orqali), botni chiqarsangiz o'chiradi.
   Faqat siz qo'shgan guruhlar hisobga olinadi: begona qo'shsa, bot o'sha guruhdan chiqib ketadi.
+  Guruhda `/yangiliklar@yangiliklaraivabiznes_bot` buyrug'ini egasi yoki guruh admini bera oladi (guruhni ro'yxatga ham qo'shadi).
+  Egasining boshqa Telegram akkauntlari: Worker secret `OWNER_IDS`.
 - Kompyuterdagi eski Task Scheduler vazifalari ("Yangiliklar bot", "Yangiliklar bot tugma") o'chirib qo'yilgan.
 
 ## Fayllar

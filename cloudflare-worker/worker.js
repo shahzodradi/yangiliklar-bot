@@ -5,7 +5,8 @@
 // Bot guruhga qo'shilsa yoki chiqarilsa, guruh.yml orqali guruhlar.json ro'yxatini yangilaydi
 // (yangiliklar shu guruhlarga ham boradi). Faqat egasi qo'shgan guruhlar hisobga olinadi.
 //
-// Secrets (wrangler secret put): TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID, GITHUB_TOKEN, WEBHOOK_SECRET.
+// Secrets (wrangler secret put): TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID, GITHUB_TOKEN, WEBHOOK_SECRET,
+// OWNER_IDS (egasining boshqa Telegram akkauntlari, vergul bilan).
 // GITHUB_TOKEN: fine-grained, faqat shu repo, Actions: Read and write.
 
 const BUTTON = '🗞 Hozirgi yangiliklar';
@@ -48,10 +49,11 @@ async function handle(update, env) {
     await dispatchGroup(env, 'qosh', msg.migrate_to_chat_id, msg.chat.title || '');
     return;
   }
-  if (String((msg.from || {}).id) !== String(env.TELEGRAM_CHAT_ID)) return;  // faqat egasining buyruqlari
   const chat = msg.chat || {};
   const inGroup = chat.type !== 'private';
   const text = (msg.text || '').trim();
+  if (!text.startsWith('/') && text !== BUTTON) return;  // oddiy xabarlar bilan ishi yo'q
+  if (!(await allowed(env, msg))) return;  // faqat egasi yoki shu guruhning admini
   if (text === BUTTON || text.startsWith('/yangiliklar')) {
     if (inGroup) await dispatchGroup(env, 'qosh', chat.id, chat.title || '');  // ro'yxatda bo'lmasa qo'shiladi
     await startRun(env, chat.id);
@@ -67,6 +69,21 @@ async function handle(update, env) {
   }
 }
 
+function isOwner(env, userId) {
+  const owners = [env.TELEGRAM_CHAT_ID, ...String(env.OWNER_IDS || '').split(',')].map((x) => String(x).trim());
+  return owners.includes(String(userId));
+}
+
+async function allowed(env, msg) {
+  const chat = msg.chat || {};
+  if (isOwner(env, (msg.from || {}).id)) return true;  // egasi (istalgan akkaunti)
+  if (chat.type === 'private') return false;
+  if (msg.sender_chat && msg.sender_chat.id === chat.id) return true;  // anonim admin (guruh nomidan)
+  const member = await tg(env, 'getChatMember', {chat_id: chat.id, user_id: msg.from.id});
+  const ok = member.ok && ['creator', 'administrator'].includes(member.result.status);
+  return ok;
+}
+
 const INSIDE = ['member', 'administrator', 'creator', 'restricted'];
 
 async function handleMembership(m, env) {
@@ -76,7 +93,7 @@ async function handleMembership(m, env) {
   const was = INSIDE.includes(m.old_chat_member.status);
   const now = INSIDE.includes(m.new_chat_member.status);
   if (!was && now) {
-    if (String(m.from.id) !== String(env.TELEGRAM_CHAT_ID)) {  // begona qo'shgan bo'lsa, chiqib ketadi
+    if (!isOwner(env, m.from.id)) {  // begona qo'shgan bo'lsa, chiqib ketadi
       await tg(env, 'sendMessage', {chat_id: chat.id, text: "Bu bot faqat egasi qo'shgan guruhlarda ishlaydi."});
       await tg(env, 'leaveChat', {chat_id: chat.id});
       return;

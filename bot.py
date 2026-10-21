@@ -230,6 +230,7 @@ VAZIFA:
    Bir voqea haqidagi takror maqolalardan faqat bittasini ol. "BUGUN YUBORILGAN" ro'yxatidagi voqealarni
    boshqa nashrdan bo'lsa ham qayta olma.
    Maslahat maqolalari, qo'llanmalar, "eng yaxshi 10 ta" ro'yxatlar va reklamani olma.
+   Kod repozitoriylarini (GitHub sahifalari) olma: ular yangilik emas, ko'pincha boshqa maqoladagi voqeaning takrori.
 2. Har biri uchun o'zbek tilida (lotin yozuvi, o‘ g‘ va ’ belgilari bilan; maqola rus yoki ingliz tilida
    bo'lsa ham, kirill harflarisiz) yoz:
    - "sarlavha": qisqa, aniq sarlavha (12 so'zgacha), clickbait'siz.
