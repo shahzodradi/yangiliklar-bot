@@ -33,6 +33,7 @@ STATE_FILE = DIR / "holat.json"
 SOURCES_FILE = DIR / "manbalar.txt"
 PROFILE_FILE = DIR / "profil.txt"
 LOCK_FILE = DIR / "ishlayapti.lock"
+GROUPS_FILE = DIR / "guruhlar.json"  # bot qo'shilgan guruhlar (Cloudflare Worker + guruh.yml yangilaydi)
 
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/130 Safari/537.36"
 MAX_AGE_HOURS = 24          # bugungi yangiliklar: oxirgi 24 soat
@@ -613,10 +614,30 @@ def download_image(url):
     return data, ctype
 
 
-def tg_photo(env, data, ctype, caption, silent):
+def load_groups():
+    try:
+        return [g for g in json.loads(GROUPS_FILE.read_text(encoding="utf-8")) if g.get("id")]
+    except FileNotFoundError:
+        return []
+    except Exception as e:
+        log.warning("guruhlar.json o'qilmadi: %s", e)
+        return []
+
+
+def tg_photo(env, chat_id, photo, caption, silent, keyboard):
+    """photo: (bayt, turi) yoki shu rasmning Telegram'dagi file_id si (qayta yuklamaslik uchun)."""
+    if isinstance(photo, str):
+        payload = {"chat_id": chat_id, "photo": photo, "caption": caption, "parse_mode": "HTML",
+                   "disable_notification": silent}
+        if keyboard:
+            payload["reply_markup"] = KEYBOARD
+        return tg(env, "sendPhoto", payload)
+    data, ctype = photo
     boundary = uuid.uuid4().hex
-    fields = {"chat_id": env["TELEGRAM_CHAT_ID"], "caption": caption, "parse_mode": "HTML",
-              "disable_notification": "true" if silent else "false", "reply_markup": json.dumps(KEYBOARD)}
+    fields = {"chat_id": chat_id, "caption": caption, "parse_mode": "HTML",
+              "disable_notification": "true" if silent else "false"}
+    if keyboard:
+        fields["reply_markup"] = json.dumps(KEYBOARD)
     body = b""
     for k, v in fields.items():
         body += f"--{boundary}\r\nContent-Disposition: form-data; name=\"{k}\"\r\n\r\n{v}\r\n".encode()
@@ -639,19 +660,20 @@ def find_image(post):
     return None, None
 
 
-def send_post(env, post, silent, img):
-    if img:
+def send_post(env, chat_id, post, silent, photo, keyboard):
+    """Bitta yangilikni bitta chatga yuboradi. (tur, rasmning file_id si) qaytaradi."""
+    if photo:
         try:
-            tg_photo(env, *img, post["caption"], silent)
-            return "rasm bilan"
+            r = tg_photo(env, chat_id, photo, post["caption"], silent, keyboard)
+            return "rasm bilan", r["result"]["photo"][-1]["file_id"]
         except Exception as e:
             log.warning("Rasm yuborilmadi (%s), matn yuboriladi", e)
-    tg(env, "sendMessage", {
-        "chat_id": env["TELEGRAM_CHAT_ID"], "text": post["caption"], "parse_mode": "HTML",
-        "disable_notification": silent, "reply_markup": KEYBOARD,
-        "link_preview_options": {"url": post["link"], "prefer_large_media": True, "show_above_text": True},
-    })
-    return "matn"
+    payload = {"chat_id": chat_id, "text": post["caption"], "parse_mode": "HTML", "disable_notification": silent,
+               "link_preview_options": {"url": post["link"], "prefer_large_media": True, "show_above_text": True}}
+    if keyboard:
+        payload["reply_markup"] = KEYBOARD
+    tg(env, "sendMessage", payload)
+    return "matn", None
 
 
 def send(env, text):
@@ -790,8 +812,17 @@ def run_digest(env, dry=False, fast=False):
         for post, (url, _) in zip(posts, images):
             print(f"{post['caption']}\n[rasm: {url or 'yo‘q'}]\n")
         return len(posts)
+    groups = load_groups()
     for n, (post, (_, img)) in enumerate(zip(posts, images)):  # faqat birinchisi ovoz bilan keladi
-        log.info("Yuborildi (%s): %s", send_post(env, post, n > 0, img), post["link"])
+        kind, file_id = send_post(env, env["TELEGRAM_CHAT_ID"], post, n > 0, img, keyboard=True)
+        log.info("Yuborildi (%s): %s", kind, post["link"])
+        for g in groups:  # guruhlarda tugma yo'q, u faqat egasining chatida
+            try:
+                send_post(env, g["id"], post, n > 0, file_id or img, keyboard=False)
+            except Exception as e:
+                log.warning("Guruhga yuborilmadi: %s (%s)", g.get("nomi") or g["id"], e)
+    if groups and posts:
+        log.info("Guruhlarga ham yuborildi: %s", ", ".join(str(g.get("nomi") or g["id"]) for g in groups))
     now = time.time()
     for post in posts:  # faqat yuborilganlar belgilanadi: qolganlari keyingi safar yana nomzod
         state["seen"][post["link"]] = now

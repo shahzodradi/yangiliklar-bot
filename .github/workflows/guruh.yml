@@ -1,0 +1,56 @@
+# Bot guruhga qo'shilsa yoki chiqarilsa, Cloudflare Worker shu workflow'ni ishga tushiradi va
+# guruhlar.json ro'yxatini yangilaydi. Yangiliklar shu ro'yxatdagi guruhlarga ham yuboriladi.
+name: Guruhlar
+
+on:
+  workflow_dispatch:
+    inputs:
+      amal:
+        description: "qosh yoki olib"
+        required: true
+      chat_id:
+        description: "Guruh ID si"
+        required: true
+      nomi:
+        description: "Guruh nomi"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+jobs:
+  yangilash:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v5
+      - name: Ro'yxatni yangilash
+        env:
+          AMAL: ${{ inputs.amal }}
+          CHAT_ID: ${{ inputs.chat_id }}
+          NOMI: ${{ inputs.nomi }}
+        run: |
+          git config user.name "yangiliklar-bot"
+          git config user.email "yangiliklar-bot@users.noreply.github.com"
+          # Yangiliklar workflow'i ham holat.json ni push qiladi: to'qnashsa, eng yangisidan qayta urinadi
+          for i in 1 2 3 4 5; do
+            git fetch -q origin main && git reset -q --hard origin/main
+            python3 - <<'EOF'
+          import json, os, time
+          from pathlib import Path
+          p = Path("guruhlar.json")
+          groups = json.loads(p.read_text(encoding="utf-8")) if p.exists() else []
+          chat_id = int(os.environ["CHAT_ID"])
+          groups = [g for g in groups if g["id"] != chat_id]
+          if os.environ["AMAL"] == "qosh":
+              groups.append({"id": chat_id, "nomi": os.environ.get("NOMI", ""), "qoshilgan": time.strftime("%Y-%m-%d")})
+          p.write_text(json.dumps(groups, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+          print(f"{len(groups)} ta guruh:", ", ".join(g["nomi"] or str(g["id"]) for g in groups))
+          EOF
+            git add guruhlar.json
+            git diff --cached --quiet && exit 0
+            git commit -q -m "guruhlar: $AMAL $CHAT_ID" && git push -q && exit 0
+            sleep 5
+          done
+          exit 1
