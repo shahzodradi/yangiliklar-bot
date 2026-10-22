@@ -51,58 +51,13 @@
   "https://www.theverge.com/ai-artificial-intelligence/1015715/walmart-ai-shopping-agents": 1792656714.5221858,
   "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/": 1792678586.9982464,
   "https://www.bbc.co.uk/news/articles/cm4g1p347qgxo?at_medium=RSS&at_campaign=rss": 1792678586.9982464,
-  "https://the-decoder.com/openais-gpt-5-6-sol-and-gemini-4-argon-discovered-the-critical-php-vulnerability-affecting-millions-of-websites/": 1792678586.9982464
+  "https://the-decoder.com/openais-gpt-5-6-sol-and-gemini-4-argon-discovered-the-critical-php-vulnerability-affecting-millions-of-websites/": 1792678586.9982464,
+  "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/": 1792695627.5345564,
+  "https://techcrunch.com/2026/10/22/former-openai-science-lead-launches-warp-science-to-automate-wet-labs-with-robots/": 1792695627.5345564,
+  "https://www.socialmediatoday.com/news/meta-adds-users-and-revenue-as-ai-costs-climb/833671/": 1792695627.5345564
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1792549928.952863,
-   "title": "SpaceX and Tesla boards explore potential merger"
-  },
-  {
-   "t": 1792549928.952863,
-   "title": "SpaceX posts first operating profit as public company as AI revenue nearly triples to $7.6 billion—cruising past Starlink"
-  },
-  {
-   "t": 1792549928.952863,
-   "title": "OpenAI ‘agents’ disabled their own monitoring systems"
-  },
-  {
-   "t": 1792551703.877849,
-   "title": "Elon Musk says Tesla-SpaceX merger being considered"
-  },
-  {
-   "t": 1792551703.877849,
-   "title": "Infrastructure startup Fireworks AI is in early talks for new funding at a valuation between $30 billion and $40 billion"
-  },
-  {
-   "t": 1792551703.877849,
-   "title": "Mistral AI launches Voxtral 3, a full voice agent stack that listens, thinks, and talks in real time"
-  },
-  {
-   "t": 1792553464.8868952,
-   "title": "Elevenlabs releases two new speech-to-speech models designed for real-time AI conversations"
-  },
-  {
-   "t": 1792553464.8868952,
-   "title": "Google’s more personalized Gemini AI is heading to your car"
-  },
-  {
-   "t": 1792553464.8868952,
-   "title": "Adobe Lightroom mobile can now open closed eyes in photos with a simple tap"
-  },
-  {
-   "t": 1792554320.7940435,
-   "title": "Google has joined Amazon in attacking Nvidia’s stronghold with AI app developers"
-  },
-  {
-   "t": 1792554320.7940435,
-   "title": "Google open-sources TorchTPU, a native PyTorch back end for TPUs"
-  },
-  {
-   "t": 1792554320.7940435,
-   "title": "OpenAI acquires startup Orchestra Bio⁠ to beef up its biotech business"
-  },
   {
    "t": 1792580154.7415302,
    "title": "US bans Deepseek technology across federal civilian agencies"
@@ -162,6 +117,18 @@
   {
    "t": 1792678586.9982464,
    "title": "OpenAI's GPT-5.6 Sol and Google's Gemini 4 Argon found critical PHP flaw affecting millions of websites"
+  },
+  {
+   "t": 1792695627.5345564,
+   "title": "Uber puts all 30,000 employees on ChatGPT Work"
+  },
+  {
+   "t": 1792695627.5345564,
+   "title": "Former OpenAI science lead launches Warp Science to automate wet labs with robots"
+  },
+  {
+   "t": 1792695627.5345564,
+   "title": "Meta adds users and revenue as AI costs climb"
   }
  ]
 }
