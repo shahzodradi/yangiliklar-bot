@@ -45,22 +45,13 @@
   "https://www.cnbc.com/2026/10/20/boeing-737-max-10-certification.html": 1792599808.0598543,
   "https://techcrunch.com/2026/10/21/year-old-ai-lab-flapping-airplanes-raises-1b-at-a-6b-valuation/": 1792616762.3943284,
   "https://techcrunch.com/2026/10/21/legal-ai-startup-legora-raises-550m-series-e-at-8-8b-valuation/": 1792616762.3943284,
-  "https://www.businessinsider.com/anthropic-answers-meta-openai-new-personal-agent-claude-duet-2026-10": 1792616762.3943284
+  "https://www.businessinsider.com/anthropic-answers-meta-openai-new-personal-agent-claude-duet-2026-10": 1792616762.3943284,
+  "https://www.nytimes.com/2026/10/21/business/elon-musk-spacex-tesla-merger.html": 1792656714.5221858,
+  "https://the-decoder.com/google-cloud-now-offers-openai-models-alongside-gemini-and-claude-becoming-the-only-major-provider-with-all-three/": 1792656714.5221858,
+  "https://www.theverge.com/ai-artificial-intelligence/1015715/walmart-ai-shopping-agents": 1792656714.5221858
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1792497718.339631,
-   "title": "Otter.ai raises $320 million from General Catalyst’s growth fund for its meeting tool"
-  },
-  {
-   "t": 1792497718.339631,
-   "title": "Yelp can now call on your behalf to check wait times at a restaurant"
-  },
-  {
-   "t": 1792497718.339631,
-   "title": "DeepSeek just open-sourced its inference engine"
-  },
   {
    "t": 1792549928.952863,
    "title": "SpaceX and Tesla boards explore potential merger"
@@ -144,6 +135,18 @@
   {
    "t": 1792616762.3943284,
    "title": "Anthropic answers Meta and OpenAI with a new personal agent, Claude Duet"
+  },
+  {
+   "t": 1792656714.5221858,
+   "title": "Elon Musk Says SpaceX and Tesla Are Exploring a Merger"
+  },
+  {
+   "t": 1792656714.5221858,
+   "title": "Google Cloud now offers OpenAI models alongside Gemini and Claude, becoming the only major provider with all three"
+  },
+  {
+   "t": 1792656714.5221858,
+   "title": "Walmart is inviting AI agents to shop for you"
   }
  ]
 }
