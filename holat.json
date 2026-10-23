@@ -54,34 +54,13 @@
   "https://the-decoder.com/openais-gpt-5-6-sol-and-gemini-4-argon-discovered-the-critical-php-vulnerability-affecting-millions-of-websites/": 1792678586.9982464,
   "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/": 1792695627.5345564,
   "https://techcrunch.com/2026/10/22/former-openai-science-lead-launches-warp-science-to-automate-wet-labs-with-robots/": 1792695627.5345564,
-  "https://www.socialmediatoday.com/news/meta-adds-users-and-revenue-as-ai-costs-climb/833671/": 1792695627.5345564
+  "https://www.socialmediatoday.com/news/meta-adds-users-and-revenue-as-ai-costs-climb/833671/": 1792695627.5345564,
+  "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/": 1792742949.219039,
+  "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/": 1792742949.219039,
+  "https://www.gazeta.uz/oz/2026/10/23/uzbekneftegaz-cnpc/": 1792742949.219039
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1792580154.7415302,
-   "title": "US bans Deepseek technology across federal civilian agencies"
-  },
-  {
-   "t": 1792580154.7415302,
-   "title": "Prezident Qashqadaryoda qiymati 6 mlrd dollardan ziyod obyektlar faoliyati va qurilishini boshlab berdi"
-  },
-  {
-   "t": 1792580154.7415302,
-   "title": "TikTok is shifting advertising to YouTube after Meta says 'no thanks'"
-  },
-  {
-   "t": 1792599808.0598543,
-   "title": "Netflix posts third-quarter earnings beat, but shares fall on advertising and revenue guidance"
-  },
-  {
-   "t": 1792599808.0598543,
-   "title": "YouTube inks affiliate deal with AliExpress"
-  },
-  {
-   "t": 1792599808.0598543,
-   "title": "Boeing wins FAA approval for 737 Max 10 after years of delays as Duffy says certification process should be faster"
-  },
   {
    "t": 1792616762.3943284,
    "title": "Year-old AI lab Flapping Airplanes raises $1B at a $6B valuation"
@@ -129,6 +108,18 @@
   {
    "t": 1792695627.5345564,
    "title": "Meta adds users and revenue as AI costs climb"
+  },
+  {
+   "t": 1792742949.219039,
+   "title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO"
+  },
+  {
+   "t": 1792742949.219039,
+   "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony.ai and Nvidia"
+  },
+  {
+   "t": 1792742949.219039,
+   "title": "“O‘zbekneftgaz” va CNPC yoqilg‘i yetkazib berish va M-25 konidagi avariya oqibatlarini bartaraf etishni muhokama qildi"
   }
  ]
 }
