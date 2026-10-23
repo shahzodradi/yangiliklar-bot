@@ -19,6 +19,10 @@ har bir fikr yonida manba havolasi bor. Kompaniyaning o'z odamlari, bitim ishtir
   Faqat siz qo'shgan guruhlar hisobga olinadi: begona qo'shsa, bot o'sha guruhdan chiqib ketadi.
   Guruhda `/yangiliklar@yangiliklaraivabiznes_bot` buyrug'ini egasi yoki guruh admini bera oladi (guruhni ro'yxatga ham qo'shadi).
   Egasining boshqa Telegram akkauntlari: Worker secret `OWNER_IDS`.
+- **Mavzu buyruqlari** (shaxsiy chatda tugmalar, guruhda buyruqlar; egasi yoki guruh admini):
+  `/ai` yoki **🤖 AI yangiliklari**: faqat sun'iy intellekt. `/ilm` yoki **🔬 Ilm va yutuqlar**: ilm-fan kashfiyotlari,
+  o'quvchi va talabalar yutuqlari, ta'lim. Bu yangiliklar faqat so'ragan chatga keladi va umumiy lentaga ta'sir qilmaydi
+  (`holat.json` dagi `mavzu` bo'limi).
 - Kompyuterdagi eski Task Scheduler vazifalari ("Yangiliklar bot", "Yangiliklar bot tugma") o'chirib qo'yilgan.
 
 ## Fayllar
