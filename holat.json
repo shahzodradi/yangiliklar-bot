@@ -132,7 +132,10 @@
   "seen": {
    "https://www.sciencedaily.com/releases/2026/10/261022081312.htm": 1792757487.5167089,
    "https://uza.uz/uz/posts/toshkentda-1-ming-400-nafar-talaba-universitet-diplomini-oldi_926851": 1792757487.5167089,
-   "https://www.newscientist.com/article/2595244-tiny-solar-flares-recreated-in-the-lab-may-explain-corona-mystery/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS": 1792757487.5167089
+   "https://www.newscientist.com/article/2595244-tiny-solar-flares-recreated-in-the-lab-may-explain-corona-mystery/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS": 1792757487.5167089,
+   "https://www.nature.com/articles/d41586-026-03417-0": 1792758522.5565586,
+   "https://www.sciencedaily.com/releases/2026/10/261022081309.htm": 1792758522.5565586,
+   "https://www.sciencedaily.com/releases/2026/10/261021231241.htm": 1792758522.5565586
   },
   "sent": [
    {
@@ -148,6 +151,21 @@
    {
     "t": 1792757487.5167089,
     "title": "Tiny ‘solar flares’ recreated in the lab may explain corona mystery",
+    "soha": "ilm-fan"
+   },
+   {
+    "t": 1792758522.5565586,
+    "title": "Moderna mRNA vaccine almost halves the risk of skin cancer returning",
+    "soha": "ilm-fan"
+   },
+   {
+    "t": 1792758522.5565586,
+    "title": "Breakthrough PTSD treatment achieves 68% remission rate in clinical trial",
+    "soha": "ilm-fan"
+   },
+   {
+    "t": 1792758522.5565586,
+    "title": "40 years later, Chernobyl's nuclear fallout is not what scientists expected",
     "soha": "ilm-fan"
    }
   ]
