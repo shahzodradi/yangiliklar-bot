@@ -60,7 +60,10 @@
   "https://www.gazeta.uz/oz/2026/10/23/uzbekneftegaz-cnpc/": 1792742949.219039,
   "https://the-decoder.com/anthropics-claude-now-writes-code-and-proves-it-safe-automatically/": 1792757173.8791854,
   "https://www.theverge.com/ai-artificial-intelligence/1016879/spacex-tesla-cursed-katamari": 1792757173.8791854,
-  "https://www.sciencedaily.com/releases/2026/10/261021231244.htm": 1792757173.8791854
+  "https://www.sciencedaily.com/releases/2026/10/261021231244.htm": 1792757173.8791854,
+  "https://www.nature.com/articles/d41586-026-03417-0": 1792764006.3345666,
+  "https://www.gazeta.uz/oz/2026/10/23/wosune-international-uzb/": 1792764006.3345666,
+  "https://thepienews.com/enroly-uk-cas-issuance-falls-24-as-visa-refusals-jump-44/": 1792764006.3345666
  },
  "fails": 0,
  "sent": [
@@ -126,6 +129,21 @@
    "t": 1792757173.8791854,
    "title": "Nearly 3,000 exploding stars challenge our understanding of the Universe",
    "soha": "ilm-fan"
+  },
+  {
+   "t": 1792764006.3345666,
+   "title": "Moderna mRNA vaccine almost halves the risk of skin cancer returning",
+   "soha": "ilm-fan"
+  },
+  {
+   "t": 1792764006.3345666,
+   "title": "Amerikalik investor Qashqadaryoda sabzavotlarni qayta ishlash zavodini kengaytirmoqchi",
+   "soha": "O'zbekiston"
+  },
+  {
+   "t": 1792764006.3345666,
+   "title": "Enroly: UK CAS issuance falls 24% as visa refusals jump 44%",
+   "soha": "ta'lim va talabalar"
   }
  ],
  "mavzu": {
