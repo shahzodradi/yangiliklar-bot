@@ -127,5 +127,29 @@
    "title": "Nearly 3,000 exploding stars challenge our understanding of the Universe",
    "soha": "ilm-fan"
   }
- ]
+ ],
+ "mavzu": {
+  "seen": {
+   "https://www.sciencedaily.com/releases/2026/10/261022081312.htm": 1792757487.5167089,
+   "https://uza.uz/uz/posts/toshkentda-1-ming-400-nafar-talaba-universitet-diplomini-oldi_926851": 1792757487.5167089,
+   "https://www.newscientist.com/article/2595244-tiny-solar-flares-recreated-in-the-lab-may-explain-corona-mystery/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS": 1792757487.5167089
+  },
+  "sent": [
+   {
+    "t": 1792757487.5167089,
+    "title": "Cambridge scientists create a $10 chip that could put a medical lab on your wrist",
+    "soha": "ilm-fan"
+   },
+   {
+    "t": 1792757487.5167089,
+    "title": "Тошкентда 1 минг 400 нафар талаба университет дипломини олди",
+    "soha": "ta'lim va talabalar"
+   },
+   {
+    "t": 1792757487.5167089,
+    "title": "Tiny ‘solar flares’ recreated in the lab may explain corona mystery",
+    "soha": "ilm-fan"
+   }
+  ]
+ }
 }
