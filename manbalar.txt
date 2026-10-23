@@ -36,6 +36,21 @@ Fortune | https://fortune.com/feed/
 NYT Business | https://rss.nytimes.com/services/xml/rss/nyt/Business.xml
 Business Insider | https://feeds.businessinsider.com/custom/all
 
-# --- O'zbekiston ---
+# --- Ilm-fan: dunyodagi kashfiyotlar va natijalar ---
+ScienceDaily | https://www.sciencedaily.com/rss/top/science.xml
+New Scientist | https://www.newscientist.com/feed/home/
+Phys.org | https://phys.org/rss-feed/
+BBC Science | https://feeds.bbci.co.uk/news/science_and_environment/rss.xml
+Nature | https://www.nature.com/nature.rss
+Quanta Magazine | https://www.quantamagazine.org/feed/
+
+# --- Ta'lim va talabalar ---
+BBC Education | https://feeds.bbci.co.uk/news/education/rss.xml
+The PIE News | https://thepienews.com/feed/
+
+# --- O'zbekiston (biznes, ta'lim, o'quvchi va talabalar yutuqlari) ---
 Spot.uz | https://www.spot.uz/rss
 Gazeta.uz | https://www.gazeta.uz/oz/rss/
+Kun.uz | https://kun.uz/news/rss
+Daryo | https://daryo.uz/feed/
+UzA | https://uza.uz/uz/rss

@@ -1,6 +1,7 @@
 # Yangiliklar bot
 
-AI, texnologiya, biznes, ijtimoiy tarmoqlar va o'sish yangiliklarini 26 ta manbadan yig'adi.
+AI, texnologiya, biznes, ilm-fan, ta'lim (o'quvchi va talabalar yutuqlari ham) va O'zbekiston yangiliklarini 37 ta manbadan yig'adi.
+Har safar 3 ta yangilik har xil sohadan keladi, so'nggi 24 soatda kam yuborilgan soha ustun.
 Gemini eng muhimlarini tanlab, o'zbekchaga qisqa qilib yozadi va Telegram'ga yuboradi (@yangiliklaraivabiznes_bot).
 Har yangilik: rasm, qisqa mazmun, mustaqil mutaxassislar fikri va "nimaga olib kelishi mumkin".
 Mutaxassislar fikri haqiqiy maqolalardan olinadi (asl maqola + Bing News topgan Reuters, Yahoo Finance va h.k.),

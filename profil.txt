@@ -1,4 +1,4 @@
-Dunyoda texnologiya, AI, biznes va o'sish (startaplar, marketing) sohasida nimalar bo'layotganidan xabardor bo'lib turmoqchiman.
+Dunyoda texnologiya, AI, biznes, o'sish (startaplar, marketing), ilm-fan va ta'lim sohasida nimalar bo'layotganidan xabardor bo'lib turmoqchiman.
 Biznesga oid har qanday muhim yangilik menga kerak.
 
 Qiziq:
@@ -9,9 +9,13 @@ Qiziq:
 - biznes: kompaniyalar, bozorlar, yirik bitimlar va qo'shib olishlar, daromad hisobotlari, iqtisodiyot, savdo, narxlar, bank va moliya
 - o'sish: startaplar va investitsiyalar, tez o'sayotgan kompaniyalar, reklama va marketing bozoridagi o'zgarishlar
 - O'zbekistondagi biznes, iqtisodiyot, texnologiya, telekom, startap va IT yangiliklari
+- ilm-fan: dunyodagi muhim ilmiy kashfiyotlar va natijalar (tibbiyot, kosmos, fizika, biologiya, iqlim, AI tadqiqotlari)
+- ta'lim: O'zbekiston va dunyodagi ta'lim yangiliklari, universitetlar, grantlar, stipendiyalar, xalqaro talabalar
+- o'quvchi va talabalar yutuqlari: O'zbekistonlik o'quvchi va talabalarning xalqaro olimpiada, tanlov va grantlardagi
+  g'alabalari; chet eldagi o'zbek talabalari va dunyodagi talabalarning katta muvaffaqiyatlari
 
 Qiziq emas:
 - siyosat va sud janjallari (agar biznes yoki texnologiyaga katta ta'sir qilmasa)
 - sport, shou-biznes, jinoyat
 - maslahat maqolalari, "qanday qilish kerak" qo'llanmalar, reklama
-- sof dasturchilik va ilmiy tafsilotlar
+- sof dasturchilik; ilmiy maqolalarning faqat mutaxassis tushunadigan texnik tafsilotlari (kashfiyotning o'zi qiziq)

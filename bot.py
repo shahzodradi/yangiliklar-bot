@@ -21,6 +21,7 @@ import urllib.error
 import urllib.request
 import uuid
 from urllib.parse import parse_qs, urlencode, urljoin, urlparse
+from collections import Counter
 from concurrent.futures import ThreadPoolExecutor
 from logging.handlers import RotatingFileHandler
 from pathlib import Path
@@ -40,9 +41,10 @@ MAX_AGE_HOURS = 24          # bugungi yangiliklar: oxirgi 24 soat
 FALLBACK_AGE_HOURS = 48     # bugungilarning hammasi yuborilgan bo'lsa, shuncha soatgacha olinadi
 SENT_KEEP_HOURS = 36        # takrorlamaslik uchun yuborilgan sarlavhalar shuncha saqlanadi
 PER_SOURCE_LIMIT = 8        # bitta manbadan bir martada ko'pi bilan nechta
-MAX_CANDIDATES = 120        # Gemini'ga yuboriladigan nomzodlar soni
+MAX_CANDIDATES = 160        # Gemini'ga yuboriladigan nomzodlar soni
 MAX_PICKS = 3               # bir martada ko'pi bilan nechta yangilik
-SELECT_POOL = 5             # shundan tanlanadi: mutaxassis fikri topilganlari ustun
+SELECT_POOL = 6             # shundan tanlanadi: avval har xil sohalar, keyin mutaxassis fikri borlari
+SOHALAR = ["AI va texnologiya", "biznes", "ilm-fan", "ta'lim va talabalar", "O'zbekiston", "boshqa"]
 SEEN_KEEP_DAYS = 10
 GEMINI_BASE = "https://generativelanguage.googleapis.com/v1beta"
 # Asosiy model sifatliroq, lekin bepul tarifda 1-3 daqiqa javob beradi (bot fonda ishlaydi, muammo emas).
@@ -227,6 +229,8 @@ VAZIFA:
 1. Ro'yxatdan shu sohalardagi eng muhim {max_picks} ta yangilikni tanla: dunyoda nima bo'layotganini
    bilish uchun kerak bo'ladiganlarini. Har doim {max_picks} ta qaytar (ro'yxatda kamroq bo'lsa, borini),
    eng muhimidan boshlab tartiblab; bo'sh ro'yxat qaytarma. Har biriga 1-10 baho qo'y.
+   Sohalar aralash bo'lsin: imkon qadar har xil sohalardan tanla (AI va texnologiya, biznes, ilm-fan,
+   ta'lim va talabalar, O'zbekiston).
    Bir voqea haqidagi takror maqolalardan faqat bittasini ol. "BUGUN YUBORILGAN" ro'yxatidagi voqealarni
    boshqa nashrdan bo'lsa ham qayta olma.
    Maslahat maqolalari, qo'llanmalar, "eng yaxshi 10 ta" ro'yxatlar va reklamani olma.
@@ -238,10 +242,12 @@ VAZIFA:
      O'quvchiga murojaat qilma, maslahat berma, o'zingdan tahlil va xulosa qo'shma.
    - "qidiruv": shu voqeani boshqa nashrlardan topish uchun 3-6 so'zli inglizcha qidiruv so'rovi
      (kompaniya, mahsulot va voqea nomlari, masalan "Amazon TorchNeuron Nvidia").
+   - "soha": ro'yxatdagi qiymatlardan biri. O'zbekistonlik o'quvchi va talabalar yutuqlari va ta'lim yangiliklari
+     "ta'lim va talabalar"; O'zbekistonning biznes, iqtisodiyot va texnologiya yangiliklari "O'zbekiston".
    Brend, mahsulot va kompaniya nomlarini tarjima qilma.
 
 Faqat shu JSON formatda javob ber:
-{{"tanlov": [{{"id": 0, "baho": 8, "sarlavha": "...", "mazmun": "...", "qidiruv": "..."}}]}}
+{{"tanlov": [{{"id": 0, "baho": 8, "sarlavha": "...", "mazmun": "...", "qidiruv": "...", "soha": "..."}}]}}
 
 BUGUN YUBORILGAN (bu voqealarni takrorlama):
 {sent}
@@ -258,8 +264,8 @@ RESPONSE_SCHEMA = {
             "type": "OBJECT",
             "properties": {"id": {"type": "INTEGER"}, "baho": {"type": "INTEGER"},
                            "sarlavha": {"type": "STRING"}, "mazmun": {"type": "STRING"},
-                           "qidiruv": {"type": "STRING"}},
-            "required": ["id", "baho", "sarlavha", "mazmun", "qidiruv"]}},
+                           "qidiruv": {"type": "STRING"}, "soha": {"type": "STRING", "enum": SOHALAR}},
+            "required": ["id", "baho", "sarlavha", "mazmun", "qidiruv", "soha"]}},
     },
     "required": ["tanlov"],
 }
@@ -532,7 +538,7 @@ def build_posts(result, candidates):
         c = candidates[p["id"]]
         posts.append({"title": p.get("sarlavha") or c["title"], "text": (p.get("mazmun") or "").strip()[:450],
                       "orig_title": c["title"], "query": (p.get("qidiruv") or c["title"]).strip(),
-                      "link": c["link"], "source": c["source"],
+                      "link": c["link"], "source": c["source"], "soha": p.get("soha") or "boshqa",
                       "feed_image": c.get("image"), "page": None, "experts": None,
                       "effect": None})
     return posts
@@ -770,6 +776,20 @@ def release_lock():
     LOCK_FILE.unlink(missing_ok=True)
 
 
+def choose_posts(posts, recent=None):
+    """MAX_PICKS tasini tanlaydi: har xil sohalardan; so'nggi 24 soatda kam yuborilgan soha ustun,
+    soha ichida mutaxassis fikri borlari ustun, qolgani muhimlik tartibida."""
+    recent = recent or {}
+    ranked = sorted(posts, key=lambda p: (p["soha"] == "boshqa", recent.get(p["soha"], 0), not p["experts"]))
+    chosen, used = [], set()
+    for p in ranked:
+        if p["soha"] not in used and len(chosen) < MAX_PICKS:
+            chosen.append(p)
+            used.add(p["soha"])
+    chosen += [p for p in ranked if p not in chosen][:MAX_PICKS - len(chosen)]
+    return chosen
+
+
 def run_digest(env, dry=False, fast=False, extra_chats=()):
     """Yangi yangiliklarni yig'ib yuboradi. Yuborilganlar sonini, xato bo'lsa None qaytaradi."""
     state = load_state()
@@ -802,9 +822,8 @@ def run_digest(env, dry=False, fast=False, extra_chats=()):
             for post, page in zip(posts, ex.map(lambda p: fetch_html(p["link"]), posts)):
                 post["page"] = page
         add_expert_views(env, posts, fast)
-        # Mutaxassis fikri borlari ustun, lekin yuborish tartibi muhimlik bo'yicha qoladi
-        chosen = sorted(posts, key=lambda p: not p["experts"])[:MAX_PICKS]
-        posts = [p for p in posts if p in chosen]
+        recent = Counter(x.get("soha") for x in state.get("sent", []) if time.time() - x["t"] < 86400)
+        posts = [p for p in posts if p in choose_posts(posts, recent)]  # yuborish tartibi muhimlik bo'yicha qoladi
         for post in posts:
             post["caption"] = make_caption(post)
     with ThreadPoolExecutor(MAX_PICKS) as ex:
@@ -829,7 +848,7 @@ def run_digest(env, dry=False, fast=False, extra_chats=()):
     now = time.time()
     for post in posts:  # faqat yuborilganlar belgilanadi: qolganlari keyingi safar yana nomzod
         state["seen"][post["link"]] = now
-        state.setdefault("sent", []).append({"t": now, "title": post["orig_title"]})
+        state.setdefault("sent", []).append({"t": now, "title": post["orig_title"], "soha": post["soha"]})
     save_state(state)
     return len(posts)
 
