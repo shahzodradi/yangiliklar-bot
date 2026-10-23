@@ -16,6 +16,10 @@ on:
         description: "⏳ xabar turgan chat (shaxsiy chat yoki guruh)"
         required: false
         default: ""
+      mavzu:
+        description: "Mavzu buyrug'i: ai yoki ilm (bo'sh bo'lsa umumiy yangiliklar)"
+        required: false
+        default: ""
 
 # Bir vaqtda bitta ish: holat.json ikki marta yozilmasin, bir yangilik ikki marta kelmasin
 concurrency:
@@ -44,9 +48,10 @@ jobs:
           EVENT: ${{ github.event_name }}
           WAIT_ID: ${{ github.event.inputs.wait_id }}
           WAIT_CHAT: ${{ github.event.inputs.wait_chat }}
+          MAVZU: ${{ github.event.inputs.mavzu }}
         run: |
           if [ "$EVENT" = "workflow_dispatch" ]; then
-            python bot.py --tugma "$WAIT_ID" "$WAIT_CHAT"
+            python bot.py --tugma "$WAIT_ID" "$WAIT_CHAT" "$MAVZU"
           else
             python bot.py
           fi

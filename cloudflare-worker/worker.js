@@ -10,7 +10,14 @@
 // GITHUB_TOKEN: fine-grained, faqat shu repo, Actions: Read and write.
 
 const BUTTON = '🗞 Hozirgi yangiliklar';
-const KEYBOARD = {keyboard: [[{text: BUTTON}]], resize_keyboard: true, is_persistent: true};
+const AI_BUTTON = '🤖 AI yangiliklari';
+const ILM_BUTTON = '🔬 Ilm va yutuqlar';
+const KEYBOARD = {keyboard: [[{text: BUTTON}], [{text: AI_BUTTON}, {text: ILM_BUTTON}]],
+                  resize_keyboard: true, is_persistent: true};
+// Buyruq yoki tugma -> mavzu ('' = umumiy yangiliklar, hamma chatlarga; ai/ilm = faqat so'ragan chatga)
+const COMMANDS = {[BUTTON]: '', '/yangiliklar': '', [AI_BUTTON]: 'ai', '/ai': 'ai', [ILM_BUTTON]: 'ilm', '/ilm': 'ilm'};
+const WAIT_TEXT = {'': "⏳ Yangiliklar yig'ilyapti, 1-2 daqiqa...", ai: "⏳ AI yangiliklari yig'ilyapti, 1-2 daqiqa...",
+                   ilm: "⏳ Ilm-fan va yutuqlar yig'ilyapti, 1-2 daqiqa..."};
 const WORKFLOW = 'yangiliklar.yml';
 
 export default {
@@ -52,12 +59,13 @@ async function handle(update, env) {
   const chat = msg.chat || {};
   const inGroup = chat.type !== 'private';
   const text = (msg.text || '').trim();
-  if (!text.startsWith('/') && text !== BUTTON) return;  // oddiy xabarlar bilan ishi yo'q
+  const command = text.startsWith('/') ? text.split(/[\s@]/)[0].toLowerCase() : text;  // "/ai@bot" -> "/ai"
+  if (!(command in COMMANDS) && command !== '/start') return;  // oddiy xabarlar bilan ishi yo'q
   if (!(await allowed(env, msg))) return;  // faqat egasi yoki shu guruhning admini
-  if (text === BUTTON || text.startsWith('/yangiliklar')) {
+  if (command in COMMANDS) {
     if (inGroup) await dispatchGroup(env, 'qosh', chat.id, chat.title || '');  // ro'yxatda bo'lmasa qo'shiladi
-    await startRun(env, chat.id);
-  } else if (text.startsWith('/start')) {
+    await startRun(env, chat.id, COMMANDS[command]);
+  } else if (command === '/start') {
     if (inGroup) {
       await dispatchGroup(env, 'qosh', chat.id, chat.title || '');
       await tg(env, 'sendMessage', {chat_id: chat.id,
@@ -115,7 +123,7 @@ function dispatchGroup(env, amal, chatId, nomi) {
   });
 }
 
-async function startRun(env, chatId) {
+async function startRun(env, chatId, mavzu = '') {
   // Tugma ketma-ket bosilsa, navbatdagi yoki ishlayotgan ish bo'lsa, yangisi boshlanmaydi
   const runs = await github(env, `/actions/workflows/${WORKFLOW}/runs?event=workflow_dispatch&per_page=5`)
     .then((r) => r.json()).catch(() => ({}));
@@ -124,10 +132,10 @@ async function startRun(env, chatId) {
     await tg(env, 'sendMessage', {chat_id: chatId, text: '⏳ Yangiliklar allaqachon tayyorlanyapti, birozdan keyin keladi.'});
     return;
   }
-  const wait = await tg(env, 'sendMessage', {chat_id: chatId, text: "⏳ Yangiliklar yig'ilyapti, 1-2 daqiqa..."});
+  const wait = await tg(env, 'sendMessage', {chat_id: chatId, text: WAIT_TEXT[mavzu]});
   const waitId = wait.ok ? String(wait.result.message_id) : '';
   const res = await github(env, `/actions/workflows/${WORKFLOW}/dispatches`, {
-    method: 'POST', body: JSON.stringify({ref: 'main', inputs: {wait_id: waitId, wait_chat: String(chatId)}}),
+    method: 'POST', body: JSON.stringify({ref: 'main', inputs: {wait_id: waitId, wait_chat: String(chatId), mavzu}}),
   });
   if (res.status !== 204 && waitId) {
     await tg(env, 'editMessageText', {chat_id: chatId, message_id: Number(waitId),

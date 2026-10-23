@@ -7,7 +7,7 @@ Ishga tushirish:
     python bot.py --chat-id  # botga /start yozgandan keyin chat ID ni .env ga yozadi
     python bot.py --sozla    # token va kalitni kiritish (tekshirib saqlaydi)
     python bot.py --tinglash # Telegram'dagi "Hozirgi yangiliklar" tugmasini kutadi (fon jarayoni)
-    python bot.py --tugma ID CHAT  # bulutda: tugma bosilgandagi ish (⏳ xabar ID si va u turgan chat)
+    python bot.py --tugma ID CHAT [ai|ilm]  # bulutda: tugma/buyruq (⏳ xabar ID si, u turgan chat, mavzu)
 """
 import calendar
 import html
@@ -44,6 +44,14 @@ PER_SOURCE_LIMIT = 8        # bitta manbadan bir martada ko'pi bilan nechta
 MAX_CANDIDATES = 160        # Gemini'ga yuboriladigan nomzodlar soni
 MAX_PICKS = 3               # bir martada ko'pi bilan nechta yangilik
 SELECT_POOL = 6             # shundan tanlanadi: avval har xil sohalar, keyin mutaxassis fikri borlari
+# Mavzu buyruqlari (/ai, /ilm): faqat shu mavzudagi yangiliklar, faqat so'ragan chatga
+MAVZULAR = {
+    "ai": "Sun'iy intellekt: yangi AI modellar va vositalar, AI kompaniyalari va ularning qarorlari, AI tadqiqotlari, "
+          "AI bitimlari, qonunlari va bozori.",
+    "ilm": "Ilm-fan va yutuqlar: dunyodagi muhim ilmiy kashfiyotlar va natijalar; O'zbekistonlik o'quvchi va "
+           "talabalarning xalqaro olimpiada, tanlov, grant va stipendiyalardagi g'alabalari; chet eldagi o'zbek "
+           "talabalari va dunyodagi talabalarning katta muvaffaqiyatlari; ta'limdagi muhim yangiliklar.",
+}
 SOHALAR = ["AI va texnologiya", "biznes", "ilm-fan", "ta'lim va talabalar", "O'zbekiston", "boshqa"]
 SEEN_KEEP_DAYS = 10
 GEMINI_BASE = "https://generativelanguage.googleapis.com/v1beta"
@@ -109,6 +117,10 @@ def save_state(state):
     cutoff = time.time() - SEEN_KEEP_DAYS * 86400
     state["seen"] = {k: t for k, t in state["seen"].items() if t > cutoff}
     state["sent"] = [x for x in state.get("sent", []) if x["t"] > time.time() - SENT_KEEP_HOURS * 3600]
+    if "mavzu" in state:
+        topic = state["mavzu"]
+        topic["seen"] = {k: t for k, t in topic["seen"].items() if t > cutoff}
+        topic["sent"] = [x for x in topic["sent"] if x["t"] > time.time() - SENT_KEEP_HOURS * 3600]
     STATE_FILE.write_text(json.dumps(state, ensure_ascii=False, indent=1), encoding="utf-8")
 
 
@@ -203,12 +215,12 @@ def fetch_all():
         return [item for items in ex.map(fetch_source, read_sources()) for item in items]
 
 
-def pick_candidates(fetched, state, max_age_hours):
+def pick_candidates(fetched, exclude, max_age_hours):
     """Hali yuborilmagan, max_age_hours ichidagi yangiliklar; har manbadan eng yangilari."""
     now = time.time()
     by_source = {}
     for i in fetched:
-        if i["link"] not in state["seen"] and (i["ts"] is None or now - i["ts"] < max_age_hours * 3600):
+        if i["link"] not in exclude and (i["ts"] is None or now - i["ts"] < max_age_hours * 3600):
             by_source.setdefault(i["source"], []).append(i)
     candidates = []
     for items in by_source.values():
@@ -224,7 +236,7 @@ PROMPT = """Sen yangiliklar muharririsan. Quyida o'quvchi qiziqadigan sohalar va
 
 O'QUVCHI QIZIQISHLARI:
 {profile}
-
+{mavzu}
 VAZIFA:
 1. Ro'yxatdan shu sohalardagi eng muhim {max_picks} ta yangilikni tanla: dunyoda nima bo'layotganini
    bilish uchun kerak bo'ladiganlarini. Har doim {max_picks} ta qaytar (ro'yxatda kamroq bo'lsa, borini),
@@ -315,10 +327,13 @@ def ask_models(env, prompt, schema, fast):
     raise RuntimeError(last_error)
 
 
-def ask_gemini(env, candidates, sent_titles, fast=False):
+def ask_gemini(env, candidates, sent_titles, fast=False, mavzu=None):
     items = [{"id": i, "manba": c["source"], "sarlavha": c["title"], "qisqa": c["summary"]}
              for i, c in enumerate(candidates)]
-    prompt = PROMPT.format(profile=PROFILE_FILE.read_text(encoding="utf-8").strip(), max_picks=SELECT_POOL,
+    topic = (f"\nBU SAFAR FAQAT SHU MAVZU: {MAVZULAR[mavzu]}\nBoshqa mavzudagi yangiliklarni umuman olma, "
+             "sohalar aralashligi talabi bu safar yo'q. Bo'sh ro'yxat qaytarma: shu mavzudagilar kam bo'lsa, "
+             "mavzuga eng yaqinlarini ol.\n") if mavzu else ""
+    prompt = PROMPT.format(profile=PROFILE_FILE.read_text(encoding="utf-8").strip(), max_picks=SELECT_POOL, mavzu=topic,
                            sent="\n".join(f"- {t}" for t in sent_titles) or "(hali yo'q)",
                            items=json.dumps(items, ensure_ascii=False))
     return ask_models(env, prompt, RESPONSE_SCHEMA, fast)
@@ -522,7 +537,10 @@ def add_expert_views(env, posts, fast):
 
 # Tugma har bir xabarga biriktiriladi: tugmali xabar o'chirilsa ham, keyingisi uni qaytaradi.
 BUTTON = "🗞 Hozirgi yangiliklar"
-KEYBOARD = {"keyboard": [[{"text": BUTTON}]], "resize_keyboard": True, "is_persistent": True}
+AI_BUTTON = "🤖 AI yangiliklari"
+ILM_BUTTON = "🔬 Ilm va yutuqlar"
+KEYBOARD = {"keyboard": [[{"text": BUTTON}], [{"text": AI_BUTTON}, {"text": ILM_BUTTON}]],
+            "resize_keyboard": True, "is_persistent": True}
 
 
 def tg(env, method, data=None, timeout=30, retries=2):
@@ -790,21 +808,25 @@ def choose_posts(posts, recent=None):
     return chosen
 
 
-def run_digest(env, dry=False, fast=False, extra_chats=()):
-    """Yangi yangiliklarni yig'ib yuboradi. Yuborilganlar sonini, xato bo'lsa None qaytaradi."""
+def run_digest(env, dry=False, fast=False, extra_chats=(), mavzu=None):
+    """Yangi yangiliklarni yig'ib yuboradi. Yuborilganlar sonini, xato bo'lsa None qaytaradi.
+    mavzu ("ai"/"ilm") bo'lsa: faqat shu mavzu, faqat so'ragan chatga; umumiy lentaga ta'sir qilmaydi."""
     state = load_state()
+    topic = state.setdefault("mavzu", {"seen": {}, "sent": []}) if mavzu else None
     fetched = fetch_all()
-    candidates = pick_candidates(fetched, state, MAX_AGE_HOURS)
+    exclude = set(state["seen"]) | (set(topic["seen"]) if topic else set())
+    candidates = pick_candidates(fetched, exclude, MAX_AGE_HOURS)
     if not candidates:  # bugungilarning hammasi yuborilgan bo'lsa, kechagilar ham olinadi
-        candidates = pick_candidates(fetched, state, FALLBACK_AGE_HOURS)
+        candidates = pick_candidates(fetched, exclude, FALLBACK_AGE_HOURS)
     log.info("Yig'ildi: %d ta, yuborilmagan nomzod: %d ta", len(fetched), len(candidates))
     if not candidates:
         return 0
     now = time.time()
-    sent_titles = [x["title"] for x in state.get("sent", []) if now - x["t"] < 86400][-40:]
+    sent_list = state.get("sent", []) + (topic["sent"] if topic else [])
+    sent_titles = [x["title"] for x in sent_list if now - x["t"] < 86400][-40:]
 
     try:
-        result = ask_gemini(env, candidates, sent_titles, fast=fast)
+        result = ask_gemini(env, candidates, sent_titles, fast=fast, mavzu=mavzu)
     except Exception as e:
         state["fails"] = state.get("fails", 0) + 1
         log.error("Gemini xatosi (%d-marta): %s", state["fails"], e)
@@ -822,7 +844,7 @@ def run_digest(env, dry=False, fast=False, extra_chats=()):
             for post, page in zip(posts, ex.map(lambda p: fetch_html(p["link"]), posts)):
                 post["page"] = page
         add_expert_views(env, posts, fast)
-        recent = Counter(x.get("soha") for x in state.get("sent", []) if time.time() - x["t"] < 86400)
+        recent = None if mavzu else Counter(x.get("soha") for x in state.get("sent", []) if time.time() - x["t"] < 86400)
         posts = [p for p in posts if p in choose_posts(posts, recent)]  # yuborish tartibi muhimlik bo'yicha qoladi
         for post in posts:
             post["caption"] = make_caption(post)
@@ -832,23 +854,29 @@ def run_digest(env, dry=False, fast=False, extra_chats=()):
         for post, (url, _) in zip(posts, images):
             print(f"{post['caption']}\n[rasm: {url or 'yo‘q'}]\n")
         return len(posts)
-    groups = load_groups()
-    known = {str(g["id"]) for g in groups} | {str(env["TELEGRAM_CHAT_ID"])}
-    groups += [{"id": int(c)} for c in extra_chats if str(c) not in known]  # buyruq kelgan, hali ro'yxatda yo'q guruh
+    owner = str(env["TELEGRAM_CHAT_ID"])
+    if mavzu:  # mavzu bo'yicha so'rov: faqat so'ragan chatga
+        targets = {str(c): str(c) for c in (extra_chats or [owner])}
+    else:  # umumiy lenta: egasi + ro'yxatdagi guruhlar + buyruq kelgan, hali ro'yxatda yo'q guruh
+        targets = {owner: "egasi"}
+        targets.update({str(g["id"]): g.get("nomi") or str(g["id"]) for g in load_groups()})
+        targets.update({str(c): str(c) for c in extra_chats if str(c) not in targets})
     for n, (post, (_, img)) in enumerate(zip(posts, images)):  # faqat birinchisi ovoz bilan keladi
-        kind, file_id = send_post(env, env["TELEGRAM_CHAT_ID"], post, n > 0, img, keyboard=True)
-        log.info("Yuborildi (%s): %s", kind, post["link"])
-        for g in groups:  # guruhlarda tugma yo'q, u faqat egasining chatida
+        photo, kind = img, "yuborilmadi"
+        for chat_id, name in targets.items():  # tugma faqat shaxsiy chatlarda (ID musbat), guruhlarda yo'q
             try:
-                send_post(env, g["id"], post, n > 0, file_id or img, keyboard=False)
+                kind, file_id = send_post(env, chat_id, post, n > 0, photo, keyboard=not chat_id.startswith("-"))
+                photo = file_id or photo  # keyingi chatlarga yuklangan rasm qayta ishlatiladi
             except Exception as e:
-                log.warning("Guruhga yuborilmadi: %s (%s)", g.get("nomi") or g["id"], e)
-    if groups and posts:
-        log.info("Guruhlarga ham yuborildi: %s", ", ".join(str(g.get("nomi") or g["id"]) for g in groups))
+                log.warning("Yuborilmadi: %s (%s)", name, e)
+        log.info("Yuborildi (%s): %s", kind, post["link"])
+    if posts:
+        log.info("Qayerga: %s%s", ", ".join(targets.values()), f" (mavzu: {mavzu})" if mavzu else "")
     now = time.time()
+    record = topic if mavzu else state
     for post in posts:  # faqat yuborilganlar belgilanadi: qolganlari keyingi safar yana nomzod
-        state["seen"][post["link"]] = now
-        state.setdefault("sent", []).append({"t": now, "title": post["orig_title"], "soha": post["soha"]})
+        record["seen"][post["link"]] = now
+        record.setdefault("sent", []).append({"t": now, "title": post["orig_title"], "soha": post["soha"]})
     save_state(state)
     return len(posts)
 
@@ -933,10 +961,11 @@ def main():
     if listening:
         return listen(env)
     if "--tugma" in sys.argv:  # bulut (GitHub Actions): bir vaqtda bitta ish, qulf kerak emas
-        arg = sys.argv[sys.argv.index("--tugma") + 1:] + ["", ""]
+        arg = sys.argv[sys.argv.index("--tugma") + 1:] + ["", "", ""]
         wait_id = int(arg[0]) if arg[0].isdigit() else None
         wait_chat = arg[1] if arg[1].lstrip("-").isdigit() else None
-        sent = run_digest(env, fast=True, extra_chats=[wait_chat] if wait_chat else ())
+        mavzu = arg[2] if arg[2] in MAVZULAR else None
+        sent = run_digest(env, fast=True, extra_chats=[wait_chat] if wait_chat else (), mavzu=mavzu)
         finish_wait(env, wait_id, sent, wait_chat)
         return 0 if sent is not None else 1
     if dry:
