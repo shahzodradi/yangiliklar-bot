@@ -63,7 +63,10 @@
   "https://www.sciencedaily.com/releases/2026/10/261021231244.htm": 1792757173.8791854,
   "https://www.nature.com/articles/d41586-026-03417-0": 1792764006.3345666,
   "https://www.gazeta.uz/oz/2026/10/23/wosune-international-uzb/": 1792764006.3345666,
-  "https://thepienews.com/enroly-uk-cas-issuance-falls-24-as-visa-refusals-jump-44/": 1792764006.3345666
+  "https://thepienews.com/enroly-uk-cas-issuance-falls-24-as-visa-refusals-jump-44/": 1792764006.3345666,
+  "https://the-decoder.com/canva-launches-craft-its-first-in-house-image-model/": 1792781876.6800025,
+  "https://www.cnbc.com/2026/10/23/american-express-job-cuts.html": 1792781876.6800025,
+  "https://www.gazeta.uz/oz/2026/10/23/nuclear/": 1792781876.6800025
  },
  "fails": 0,
  "sent": [
@@ -144,6 +147,21 @@
    "t": 1792764006.3345666,
    "title": "Enroly: UK CAS issuance falls 24% as visa refusals jump 44%",
    "soha": "ta'lim va talabalar"
+  },
+  {
+   "t": 1792781876.6800025,
+   "title": "Canva launches Craft, its first in-house image model",
+   "soha": "AI va texnologiya"
+  },
+  {
+   "t": 1792781876.6800025,
+   "title": "American Express is cutting 5% of its workforce to 'prepare for AI'",
+   "soha": "biznes"
+  },
+  {
+   "t": 1792781876.6800025,
+   "title": "“Rosatom” rahbari O‘zbekiston prezidenti bilan uchrashdi va AES qurilishi bilan tanishdi",
+   "soha": "O'zbekiston"
   }
  ],
  "mavzu": {
