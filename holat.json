@@ -57,22 +57,13 @@
   "https://www.socialmediatoday.com/news/meta-adds-users-and-revenue-as-ai-costs-climb/833671/": 1792695627.5345564,
   "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/": 1792742949.219039,
   "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/": 1792742949.219039,
-  "https://www.gazeta.uz/oz/2026/10/23/uzbekneftegaz-cnpc/": 1792742949.219039
+  "https://www.gazeta.uz/oz/2026/10/23/uzbekneftegaz-cnpc/": 1792742949.219039,
+  "https://the-decoder.com/anthropics-claude-now-writes-code-and-proves-it-safe-automatically/": 1792757173.8791854,
+  "https://www.theverge.com/ai-artificial-intelligence/1016879/spacex-tesla-cursed-katamari": 1792757173.8791854,
+  "https://www.sciencedaily.com/releases/2026/10/261021231244.htm": 1792757173.8791854
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1792616762.3943284,
-   "title": "Year-old AI lab Flapping Airplanes raises $1B at a $6B valuation"
-  },
-  {
-   "t": 1792616762.3943284,
-   "title": "Legal AI startup Legora raises $550M Series E at $8.8B valuation"
-  },
-  {
-   "t": 1792616762.3943284,
-   "title": "Anthropic answers Meta and OpenAI with a new personal agent, Claude Duet"
-  },
   {
    "t": 1792656714.5221858,
    "title": "Elon Musk Says SpaceX and Tesla Are Exploring a Merger"
@@ -120,6 +111,21 @@
   {
    "t": 1792742949.219039,
    "title": "“O‘zbekneftgaz” va CNPC yoqilg‘i yetkazib berish va M-25 konidagi avariya oqibatlarini bartaraf etishni muhokama qildi"
+  },
+  {
+   "t": 1792757173.8791854,
+   "title": "Anthropic's Claude now writes code and proves it safe automatically",
+   "soha": "AI va texnologiya"
+  },
+  {
+   "t": 1792757173.8791854,
+   "title": "Sure, let’s smoosh SpaceX and Tesla together, who cares",
+   "soha": "biznes"
+  },
+  {
+   "t": 1792757173.8791854,
+   "title": "Nearly 3,000 exploding stars challenge our understanding of the Universe",
+   "soha": "ilm-fan"
   }
  ]
 }
