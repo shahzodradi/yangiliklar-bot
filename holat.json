@@ -69,7 +69,10 @@
   "https://www.gazeta.uz/oz/2026/10/23/nuclear/": 1792781876.6800025,
   "https://the-decoder.com/chinese-ai-model-kimi-k3-1-pro-is-closing-in-on-anthropics-claude-opus-5-5/": 1792828316.321185,
   "https://www.gazeta.uz/oz/2026/10/24/fines/": 1792828316.321185,
-  "https://thepienews.com/three-signals-shaping-australian-international-education-ahead-of-aiec-2026/": 1792828316.321185
+  "https://thepienews.com/three-signals-shaping-australian-international-education-ahead-of-aiec-2026/": 1792828316.321185,
+  "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/": 1792847079.4948387,
+  "https://techcrunch.com/2026/10/23/agent-cloud-startup-daytona-hits-1b-valuation-backed-by-firstmark-and-a-whos-who-of-angels/": 1792847079.4948387,
+  "https://www.quantamagazine.org/malaria-parasite-caught-in-the-act-of-breaking-and-entering-20261023/": 1792847079.4948387
  },
  "fails": 0,
  "sent": [
@@ -144,6 +147,21 @@
    "t": 1792828316.321185,
    "title": "Three signals shaping Australian international education ahead of AIEC 2026",
    "soha": "ta'lim va talabalar"
+  },
+  {
+   "t": 1792847079.4948387,
+   "title": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
+   "soha": "AI va texnologiya"
+  },
+  {
+   "t": 1792847079.4948387,
+   "title": "Agent cloud startup Daytona hits $1B valuation backed by FirstMark and a who’s who of angels",
+   "soha": "biznes"
+  },
+  {
+   "t": 1792847079.4948387,
+   "title": "Malaria Parasite Caught in the Act of Breaking and Entering",
+   "soha": "ilm-fan"
   }
  ],
  "mavzu": {
