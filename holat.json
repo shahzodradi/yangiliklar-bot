@@ -66,46 +66,13 @@
   "https://thepienews.com/enroly-uk-cas-issuance-falls-24-as-visa-refusals-jump-44/": 1792764006.3345666,
   "https://the-decoder.com/canva-launches-craft-its-first-in-house-image-model/": 1792781876.6800025,
   "https://www.cnbc.com/2026/10/23/american-express-job-cuts.html": 1792781876.6800025,
-  "https://www.gazeta.uz/oz/2026/10/23/nuclear/": 1792781876.6800025
+  "https://www.gazeta.uz/oz/2026/10/23/nuclear/": 1792781876.6800025,
+  "https://the-decoder.com/chinese-ai-model-kimi-k3-1-pro-is-closing-in-on-anthropics-claude-opus-5-5/": 1792828316.321185,
+  "https://www.gazeta.uz/oz/2026/10/24/fines/": 1792828316.321185,
+  "https://thepienews.com/three-signals-shaping-australian-international-education-ahead-of-aiec-2026/": 1792828316.321185
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1792656714.5221858,
-   "title": "Elon Musk Says SpaceX and Tesla Are Exploring a Merger"
-  },
-  {
-   "t": 1792656714.5221858,
-   "title": "Google Cloud now offers OpenAI models alongside Gemini and Claude, becoming the only major provider with all three"
-  },
-  {
-   "t": 1792656714.5221858,
-   "title": "Walmart is inviting AI agents to shop for you"
-  },
-  {
-   "t": 1792678586.9982464,
-   "title": "DeepSeek reportedly raises $15B days after US restrictions"
-  },
-  {
-   "t": 1792678586.9982464,
-   "title": "Barclays cutting 5,000 jobs as it increases reliance on AI"
-  },
-  {
-   "t": 1792678586.9982464,
-   "title": "OpenAI's GPT-5.6 Sol and Google's Gemini 4 Argon found critical PHP flaw affecting millions of websites"
-  },
-  {
-   "t": 1792695627.5345564,
-   "title": "Uber puts all 30,000 employees on ChatGPT Work"
-  },
-  {
-   "t": 1792695627.5345564,
-   "title": "Former OpenAI science lead launches Warp Science to automate wet labs with robots"
-  },
-  {
-   "t": 1792695627.5345564,
-   "title": "Meta adds users and revenue as AI costs climb"
-  },
   {
    "t": 1792742949.219039,
    "title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO"
@@ -162,6 +129,21 @@
    "t": 1792781876.6800025,
    "title": "“Rosatom” rahbari O‘zbekiston prezidenti bilan uchrashdi va AES qurilishi bilan tanishdi",
    "soha": "O'zbekiston"
+  },
+  {
+   "t": 1792828316.321185,
+   "title": "Chinese AI model Kimi K3.1 Pro is closing in on Anthropic's Claude Opus 5.5",
+   "soha": "AI va texnologiya"
+  },
+  {
+   "t": 1792828316.321185,
+   "title": "O‘zbekistonda xorijiy hamkorlaridan pul ololmagan eksportchilar uchun jarimalar yengillashtiriladi",
+   "soha": "O'zbekiston"
+  },
+  {
+   "t": 1792828316.321185,
+   "title": "Three signals shaping Australian international education ahead of AIEC 2026",
+   "soha": "ta'lim va talabalar"
   }
  ],
  "mavzu": {
