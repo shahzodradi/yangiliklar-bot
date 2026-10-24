@@ -75,7 +75,10 @@
   "https://www.quantamagazine.org/malaria-parasite-caught-in-the-act-of-breaking-and-entering-20261023/": 1792847079.4948387,
   "https://kun.uz/news/2026/10/24/yangi-toskentda-fulhemfutbol-akademiyasi-ocilisi-mumkin": 1792864129.7260945,
   "https://www.sciencedaily.com/releases/2026/10/261023023734.htm": 1792864129.7260945,
-  "https://www.cnbc.com/2026/10/23/airfare-airline-capacity.html": 1792864129.7260945
+  "https://www.cnbc.com/2026/10/23/airfare-airline-capacity.html": 1792864129.7260945,
+  "https://the-decoder.com/blocks-new-ai-model-dessa-was-trained-entirely-on-human-speech-to-catch-emotions-text-based-models-miss/": 1792872185.266755,
+  "https://www.sciencedaily.com/releases/2026/10/261023002905.htm": 1792872185.266755,
+  "https://www.bbc.co.uk/news/articles/c6vgx1ldvz5vo?at_medium=RSS&at_campaign=rss": 1792872185.266755
  },
  "fails": 0,
  "sent": [
@@ -180,6 +183,21 @@
    "t": 1792864129.7260945,
    "title": "Fewer people are flying as airfare soars. Here's why airlines aren't worried",
    "soha": "biznes"
+  },
+  {
+   "t": 1792872185.266755,
+   "title": "Block's new AI model Dessa was trained entirely on human speech to catch emotions text-based models miss",
+   "soha": "AI va texnologiya"
+  },
+  {
+   "t": 1792872185.266755,
+   "title": "Scientists discover a hidden switch that burns fat and blocks new fat cells",
+   "soha": "ilm-fan"
+  },
+  {
+   "t": 1792872185.266755,
+   "title": "Britain's posh schools are heading to India for students and profits",
+   "soha": "ta'lim va talabalar"
   }
  ],
  "mavzu": {
