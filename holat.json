@@ -72,7 +72,10 @@
   "https://thepienews.com/three-signals-shaping-australian-international-education-ahead-of-aiec-2026/": 1792828316.321185,
   "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/": 1792847079.4948387,
   "https://techcrunch.com/2026/10/23/agent-cloud-startup-daytona-hits-1b-valuation-backed-by-firstmark-and-a-whos-who-of-angels/": 1792847079.4948387,
-  "https://www.quantamagazine.org/malaria-parasite-caught-in-the-act-of-breaking-and-entering-20261023/": 1792847079.4948387
+  "https://www.quantamagazine.org/malaria-parasite-caught-in-the-act-of-breaking-and-entering-20261023/": 1792847079.4948387,
+  "https://kun.uz/news/2026/10/24/yangi-toskentda-fulhemfutbol-akademiyasi-ocilisi-mumkin": 1792864129.7260945,
+  "https://www.sciencedaily.com/releases/2026/10/261023023734.htm": 1792864129.7260945,
+  "https://www.cnbc.com/2026/10/23/airfare-airline-capacity.html": 1792864129.7260945
  },
  "fails": 0,
  "sent": [
@@ -162,6 +165,21 @@
    "t": 1792847079.4948387,
    "title": "Malaria Parasite Caught in the Act of Breaking and Entering",
    "soha": "ilm-fan"
+  },
+  {
+   "t": 1792864129.7260945,
+   "title": "Yangi Toşkentda “Fulhem”futbol akademiyasi oçilişi mumkin.",
+   "soha": "O'zbekiston"
+  },
+  {
+   "t": 1792864129.7260945,
+   "title": "NASA’s asteroid Bennu samples reveal a 4.5-billion-year-old secret",
+   "soha": "ilm-fan"
+  },
+  {
+   "t": 1792864129.7260945,
+   "title": "Fewer people are flying as airfare soars. Here's why airlines aren't worried",
+   "soha": "biznes"
   }
  ],
  "mavzu": {
