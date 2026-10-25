@@ -81,7 +81,10 @@
   "https://www.bbc.co.uk/news/articles/c6vgx1ldvz5vo?at_medium=RSS&at_campaign=rss": 1792872185.266755,
   "https://the-decoder.com/openai-offers-discounts-up-to-90-percent-to-poach-anthropics-biggest-customers/": 1792915221.045475,
   "https://uza.uz/uz/posts/texnikum-oquvchisining-loyihasi-evropa-mutaxassislari-etiborida-video_927519": 1792915221.045475,
-  "https://www.spot.uz/ru/2026/10/24/npp-construction/": 1792915221.045475
+  "https://www.spot.uz/ru/2026/10/24/npp-construction/": 1792915221.045475,
+  "https://the-decoder.com/nvidia-open-sources-flora-to-make-robot-video-labeling-125x-cheaper-than-gpt-6-astra/": 1792935329.6691954,
+  "https://www.ft.com/content/8f034740-12a8-47fe-9010-149f87e70f8e?syn-25a6b1a6=1": 1792935329.6691954,
+  "https://www.sciencedaily.com/releases/2026/10/261024222000.htm": 1792935329.6691954
  },
  "fails": 0,
  "sent": [
@@ -159,6 +162,21 @@
    "t": 1792915221.045475,
    "title": "В 2027 году на строительстве АЭС в Узбекистане начнутся масштабные работы — «Росатом»",
    "soha": "O'zbekiston"
+  },
+  {
+   "t": 1792935329.6691954,
+   "title": "Nvidia open-sources Flora to make robot video labeling 125x cheaper than GPT-6 Astra",
+   "soha": "AI va texnologiya"
+  },
+  {
+   "t": 1792935329.6691954,
+   "title": "Audi to build $4bn US plant as it grapples with tariffs",
+   "soha": "biznes"
+  },
+  {
+   "t": 1792935329.6691954,
+   "title": "Three giant black holes discovered in a galaxy from the dawn of time",
+   "soha": "ilm-fan"
   }
  ],
  "mavzu": {
