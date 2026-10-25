@@ -84,7 +84,10 @@
   "https://www.spot.uz/ru/2026/10/24/npp-construction/": 1792915221.045475,
   "https://the-decoder.com/nvidia-open-sources-flora-to-make-robot-video-labeling-125x-cheaper-than-gpt-6-astra/": 1792935329.6691954,
   "https://www.ft.com/content/8f034740-12a8-47fe-9010-149f87e70f8e?syn-25a6b1a6=1": 1792935329.6691954,
-  "https://www.sciencedaily.com/releases/2026/10/261024222000.htm": 1792935329.6691954
+  "https://www.sciencedaily.com/releases/2026/10/261024222000.htm": 1792935329.6691954,
+  "https://www.ft.com/content/1c3065cf-538f-433a-9749-0355a3642c7c?syn-25a6b1a6=1": 1792951368.521204,
+  "https://www.sciencedaily.com/releases/2026/10/261023023736.htm": 1792951368.521204,
+  "https://www.gazeta.uz/oz/2026/10/25/plastic-deposit/": 1792951368.521204
  },
  "fails": 0,
  "sent": [
@@ -177,6 +180,21 @@
    "t": 1792935329.6691954,
    "title": "Three giant black holes discovered in a galaxy from the dawn of time",
    "soha": "ilm-fan"
+  },
+  {
+   "t": 1792951368.521204,
+   "title": "Luxury groups’ value drops by €250bn as Chinese consumer demand fades",
+   "soha": "biznes"
+  },
+  {
+   "t": 1792951368.521204,
+   "title": "Astronomers may have discovered the first moon beyond our Solar System",
+   "soha": "ilm-fan"
+  },
+  {
+   "t": 1792951368.521204,
+   "title": "O‘zbekistonda shisha, plastik idishlar va bankalar uchun majburiy depozit tizimi joriy etilishi mumkin",
+   "soha": "O'zbekiston"
   }
  ],
  "mavzu": {
