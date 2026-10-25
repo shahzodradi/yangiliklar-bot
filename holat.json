@@ -78,67 +78,13 @@
   "https://www.cnbc.com/2026/10/23/airfare-airline-capacity.html": 1792864129.7260945,
   "https://the-decoder.com/blocks-new-ai-model-dessa-was-trained-entirely-on-human-speech-to-catch-emotions-text-based-models-miss/": 1792872185.266755,
   "https://www.sciencedaily.com/releases/2026/10/261023002905.htm": 1792872185.266755,
-  "https://www.bbc.co.uk/news/articles/c6vgx1ldvz5vo?at_medium=RSS&at_campaign=rss": 1792872185.266755
+  "https://www.bbc.co.uk/news/articles/c6vgx1ldvz5vo?at_medium=RSS&at_campaign=rss": 1792872185.266755,
+  "https://the-decoder.com/openai-offers-discounts-up-to-90-percent-to-poach-anthropics-biggest-customers/": 1792915221.045475,
+  "https://uza.uz/uz/posts/texnikum-oquvchisining-loyihasi-evropa-mutaxassislari-etiborida-video_927519": 1792915221.045475,
+  "https://www.spot.uz/ru/2026/10/24/npp-construction/": 1792915221.045475
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1792742949.219039,
-   "title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO"
-  },
-  {
-   "t": 1792742949.219039,
-   "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony.ai and Nvidia"
-  },
-  {
-   "t": 1792742949.219039,
-   "title": "“O‘zbekneftgaz” va CNPC yoqilg‘i yetkazib berish va M-25 konidagi avariya oqibatlarini bartaraf etishni muhokama qildi"
-  },
-  {
-   "t": 1792757173.8791854,
-   "title": "Anthropic's Claude now writes code and proves it safe automatically",
-   "soha": "AI va texnologiya"
-  },
-  {
-   "t": 1792757173.8791854,
-   "title": "Sure, let’s smoosh SpaceX and Tesla together, who cares",
-   "soha": "biznes"
-  },
-  {
-   "t": 1792757173.8791854,
-   "title": "Nearly 3,000 exploding stars challenge our understanding of the Universe",
-   "soha": "ilm-fan"
-  },
-  {
-   "t": 1792764006.3345666,
-   "title": "Moderna mRNA vaccine almost halves the risk of skin cancer returning",
-   "soha": "ilm-fan"
-  },
-  {
-   "t": 1792764006.3345666,
-   "title": "Amerikalik investor Qashqadaryoda sabzavotlarni qayta ishlash zavodini kengaytirmoqchi",
-   "soha": "O'zbekiston"
-  },
-  {
-   "t": 1792764006.3345666,
-   "title": "Enroly: UK CAS issuance falls 24% as visa refusals jump 44%",
-   "soha": "ta'lim va talabalar"
-  },
-  {
-   "t": 1792781876.6800025,
-   "title": "Canva launches Craft, its first in-house image model",
-   "soha": "AI va texnologiya"
-  },
-  {
-   "t": 1792781876.6800025,
-   "title": "American Express is cutting 5% of its workforce to 'prepare for AI'",
-   "soha": "biznes"
-  },
-  {
-   "t": 1792781876.6800025,
-   "title": "“Rosatom” rahbari O‘zbekiston prezidenti bilan uchrashdi va AES qurilishi bilan tanishdi",
-   "soha": "O'zbekiston"
-  },
   {
    "t": 1792828316.321185,
    "title": "Chinese AI model Kimi K3.1 Pro is closing in on Anthropic's Claude Opus 5.5",
@@ -198,6 +144,21 @@
    "t": 1792872185.266755,
    "title": "Britain's posh schools are heading to India for students and profits",
    "soha": "ta'lim va talabalar"
+  },
+  {
+   "t": 1792915221.045475,
+   "title": "OpenAI offers discounts up to 90 percent to poach Anthropic's biggest customers",
+   "soha": "AI va texnologiya"
+  },
+  {
+   "t": 1792915221.045475,
+   "title": "Техникум ўқувчисининг лойиҳаси - Европа мутахассислари эътиборида (+видео)",
+   "soha": "ta'lim va talabalar"
+  },
+  {
+   "t": 1792915221.045475,
+   "title": "В 2027 году на строительстве АЭС в Узбекистане начнутся масштабные работы — «Росатом»",
+   "soha": "O'zbekiston"
   }
  ],
  "mavzu": {
@@ -213,36 +174,6 @@
    "https://www.bbc.co.uk/news/articles/c6vgx1ldvz5vo?at_medium=RSS&at_campaign=rss": 1792859570.2212596
   },
   "sent": [
-   {
-    "t": 1792757487.5167089,
-    "title": "Cambridge scientists create a $10 chip that could put a medical lab on your wrist",
-    "soha": "ilm-fan"
-   },
-   {
-    "t": 1792757487.5167089,
-    "title": "Тошкентда 1 минг 400 нафар талаба университет дипломини олди",
-    "soha": "ta'lim va talabalar"
-   },
-   {
-    "t": 1792757487.5167089,
-    "title": "Tiny ‘solar flares’ recreated in the lab may explain corona mystery",
-    "soha": "ilm-fan"
-   },
-   {
-    "t": 1792758522.5565586,
-    "title": "Moderna mRNA vaccine almost halves the risk of skin cancer returning",
-    "soha": "ilm-fan"
-   },
-   {
-    "t": 1792758522.5565586,
-    "title": "Breakthrough PTSD treatment achieves 68% remission rate in clinical trial",
-    "soha": "ilm-fan"
-   },
-   {
-    "t": 1792758522.5565586,
-    "title": "40 years later, Chernobyl's nuclear fallout is not what scientists expected",
-    "soha": "ilm-fan"
-   },
    {
     "t": 1792859570.2212596,
     "title": "Newly identified protein pathway helps HIV stay hidden despite treatment",
