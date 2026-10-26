@@ -93,25 +93,13 @@
   "https://www.gazeta.uz/oz/2026/10/26/serbia/": 1793003085.912557,
   "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/": 1793029585.2413666,
   "https://the-decoder.com/meta-plans-up-to-95-billion-in-stock-sales-to-fund-its-ai-buildout/": 1793029585.2413666,
-  "https://www.sciencedaily.com/releases/2026/10/261025073034.htm": 1793029585.2413666
+  "https://www.sciencedaily.com/releases/2026/10/261025073034.htm": 1793029585.2413666,
+  "https://the-decoder.com/toyota-is-betting-6-4-billion-a-year-on-humanoid-robots-and-factory-automation/": 1793052722.4625688,
+  "https://www.sciencedaily.com/releases/2026/10/261025073036.htm": 1793052722.4625688,
+  "https://www.gazeta.uz/oz/2026/10/26/cinema/": 1793052722.4625688
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1792915221.045475,
-   "title": "OpenAI offers discounts up to 90 percent to poach Anthropic's biggest customers",
-   "soha": "AI va texnologiya"
-  },
-  {
-   "t": 1792915221.045475,
-   "title": "Техникум ўқувчисининг лойиҳаси - Европа мутахассислари эътиборида (+видео)",
-   "soha": "ta'lim va talabalar"
-  },
-  {
-   "t": 1792915221.045475,
-   "title": "В 2027 году на строительстве АЭС в Узбекистане начнутся масштабные работы — «Росатом»",
-   "soha": "O'zbekiston"
-  },
   {
    "t": 1792935329.6691954,
    "title": "Nvidia open-sources Flora to make robot video labeling 125x cheaper than GPT-6 Astra",
@@ -171,6 +159,21 @@
    "t": 1793029585.2413666,
    "title": "Chinese scientists discover “D-rex,” a giant fungus with roots stretching back 65 million years",
    "soha": "ilm-fan"
+  },
+  {
+   "t": 1793052722.4625688,
+   "title": "Toyota is betting $6.4 billion a year on humanoid robots and factory automation",
+   "soha": "biznes"
+  },
+  {
+   "t": 1793052722.4625688,
+   "title": "Archaeologists may have just found the world's oldest shipwreck",
+   "soha": "ilm-fan"
+  },
+  {
+   "t": 1793052722.4625688,
+   "title": "Toshkentda 10 gektar maydonda “O‘zbekfilm kino shaharchasi” va Dolby Atmos studiyasiga ega dublyaj markazi quriladi",
+   "soha": "O'zbekiston"
   }
  ],
  "mavzu": {
