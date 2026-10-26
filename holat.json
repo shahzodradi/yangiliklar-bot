@@ -90,7 +90,10 @@
   "https://www.gazeta.uz/oz/2026/10/25/plastic-deposit/": 1792951368.521204,
   "https://minimaxir.com/2026/10/cheap-llms/": 1793003085.912557,
   "https://www.gazeta.uz/oz/2026/10/26/islomiy-bank/": 1793003085.912557,
-  "https://www.gazeta.uz/oz/2026/10/26/serbia/": 1793003085.912557
+  "https://www.gazeta.uz/oz/2026/10/26/serbia/": 1793003085.912557,
+  "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/": 1793029585.2413666,
+  "https://the-decoder.com/meta-plans-up-to-95-billion-in-stock-sales-to-fund-its-ai-buildout/": 1793029585.2413666,
+  "https://www.sciencedaily.com/releases/2026/10/261025073034.htm": 1793029585.2413666
  },
  "fails": 0,
  "sent": [
@@ -153,6 +156,21 @@
    "t": 1793003085.912557,
    "title": "Serbiya sobiq prezidenti Aleksandr Vuchichning partiyasi parlament saylovlarida mag‘lubiyatga uchradi",
    "soha": "ta'lim va talabalar"
+  },
+  {
+   "t": 1793029585.2413666,
+   "title": "Anthropic officially files for its public debut",
+   "soha": "AI va texnologiya"
+  },
+  {
+   "t": 1793029585.2413666,
+   "title": "Meta plans up to $95 billion in stock sales to fund its AI buildout",
+   "soha": "biznes"
+  },
+  {
+   "t": 1793029585.2413666,
+   "title": "Chinese scientists discover “D-rex,” a giant fungus with roots stretching back 65 million years",
+   "soha": "ilm-fan"
   }
  ],
  "mavzu": {
