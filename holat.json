@@ -87,70 +87,13 @@
   "https://www.sciencedaily.com/releases/2026/10/261024222000.htm": 1792935329.6691954,
   "https://www.ft.com/content/1c3065cf-538f-433a-9749-0355a3642c7c?syn-25a6b1a6=1": 1792951368.521204,
   "https://www.sciencedaily.com/releases/2026/10/261023023736.htm": 1792951368.521204,
-  "https://www.gazeta.uz/oz/2026/10/25/plastic-deposit/": 1792951368.521204
+  "https://www.gazeta.uz/oz/2026/10/25/plastic-deposit/": 1792951368.521204,
+  "https://minimaxir.com/2026/10/cheap-llms/": 1793003085.912557,
+  "https://www.gazeta.uz/oz/2026/10/26/islomiy-bank/": 1793003085.912557,
+  "https://www.gazeta.uz/oz/2026/10/26/serbia/": 1793003085.912557
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1792828316.321185,
-   "title": "Chinese AI model Kimi K3.1 Pro is closing in on Anthropic's Claude Opus 5.5",
-   "soha": "AI va texnologiya"
-  },
-  {
-   "t": 1792828316.321185,
-   "title": "O‘zbekistonda xorijiy hamkorlaridan pul ololmagan eksportchilar uchun jarimalar yengillashtiriladi",
-   "soha": "O'zbekiston"
-  },
-  {
-   "t": 1792828316.321185,
-   "title": "Three signals shaping Australian international education ahead of AIEC 2026",
-   "soha": "ta'lim va talabalar"
-  },
-  {
-   "t": 1792847079.4948387,
-   "title": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
-   "soha": "AI va texnologiya"
-  },
-  {
-   "t": 1792847079.4948387,
-   "title": "Agent cloud startup Daytona hits $1B valuation backed by FirstMark and a who’s who of angels",
-   "soha": "biznes"
-  },
-  {
-   "t": 1792847079.4948387,
-   "title": "Malaria Parasite Caught in the Act of Breaking and Entering",
-   "soha": "ilm-fan"
-  },
-  {
-   "t": 1792864129.7260945,
-   "title": "Yangi Toşkentda “Fulhem”futbol akademiyasi oçilişi mumkin.",
-   "soha": "O'zbekiston"
-  },
-  {
-   "t": 1792864129.7260945,
-   "title": "NASA’s asteroid Bennu samples reveal a 4.5-billion-year-old secret",
-   "soha": "ilm-fan"
-  },
-  {
-   "t": 1792864129.7260945,
-   "title": "Fewer people are flying as airfare soars. Here's why airlines aren't worried",
-   "soha": "biznes"
-  },
-  {
-   "t": 1792872185.266755,
-   "title": "Block's new AI model Dessa was trained entirely on human speech to catch emotions text-based models miss",
-   "soha": "AI va texnologiya"
-  },
-  {
-   "t": 1792872185.266755,
-   "title": "Scientists discover a hidden switch that burns fat and blocks new fat cells",
-   "soha": "ilm-fan"
-  },
-  {
-   "t": 1792872185.266755,
-   "title": "Britain's posh schools are heading to India for students and profits",
-   "soha": "ta'lim va talabalar"
-  },
   {
    "t": 1792915221.045475,
    "title": "OpenAI offers discounts up to 90 percent to poach Anthropic's biggest customers",
@@ -195,6 +138,21 @@
    "t": 1792951368.521204,
    "title": "O‘zbekistonda shisha, plastik idishlar va bankalar uchun majburiy depozit tizimi joriy etilishi mumkin",
    "soha": "O'zbekiston"
+  },
+  {
+   "t": 1793003085.912557,
+   "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+   "soha": "AI va texnologiya"
+  },
+  {
+   "t": 1793003085.912557,
+   "title": "Markaziy bank Open bank’ka islomiy bank faoliyati uchun ilk litsenziyani berdi",
+   "soha": "O'zbekiston"
+  },
+  {
+   "t": 1793003085.912557,
+   "title": "Serbiya sobiq prezidenti Aleksandr Vuchichning partiyasi parlament saylovlarida mag‘lubiyatga uchradi",
+   "soha": "ta'lim va talabalar"
   }
  ],
  "mavzu": {
@@ -209,22 +167,6 @@
    "https://www.sciencedaily.com/releases/2026/10/261023023734.htm": 1792859570.2212596,
    "https://www.bbc.co.uk/news/articles/c6vgx1ldvz5vo?at_medium=RSS&at_campaign=rss": 1792859570.2212596
   },
-  "sent": [
-   {
-    "t": 1792859570.2212596,
-    "title": "Newly identified protein pathway helps HIV stay hidden despite treatment",
-    "soha": "ilm-fan"
-   },
-   {
-    "t": 1792859570.2212596,
-    "title": "NASA’s asteroid Bennu samples reveal a 4.5-billion-year-old secret",
-    "soha": "ilm-fan"
-   },
-   {
-    "t": 1792859570.2212596,
-    "title": "Britain's posh schools are heading to India for students and profits",
-    "soha": "ta'lim va talabalar"
-   }
-  ]
+  "sent": []
  }
 }
