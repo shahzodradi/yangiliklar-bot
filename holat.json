@@ -96,40 +96,13 @@
   "https://www.sciencedaily.com/releases/2026/10/261025073034.htm": 1793029585.2413666,
   "https://the-decoder.com/toyota-is-betting-6-4-billion-a-year-on-humanoid-robots-and-factory-automation/": 1793052722.4625688,
   "https://www.sciencedaily.com/releases/2026/10/261025073036.htm": 1793052722.4625688,
-  "https://www.gazeta.uz/oz/2026/10/26/cinema/": 1793052722.4625688
+  "https://www.gazeta.uz/oz/2026/10/26/cinema/": 1793052722.4625688,
+  "https://the-decoder.com/anthropic-opens-its-books-for-wall-street-showing-record-revenue-and-mounting-obligations/": 1793090210.074481,
+  "https://www.gazeta.uz/oz/2026/10/27/healthcare-uzb/": 1793090210.074481,
+  "https://daryo.uz/2026/10/27/ozbekistonda-tibbiyot-talabalari-haftasiga-uch-kun-bemorlar-bilan-ishlashni-organadi/": 1793090210.074481
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1792935329.6691954,
-   "title": "Nvidia open-sources Flora to make robot video labeling 125x cheaper than GPT-6 Astra",
-   "soha": "AI va texnologiya"
-  },
-  {
-   "t": 1792935329.6691954,
-   "title": "Audi to build $4bn US plant as it grapples with tariffs",
-   "soha": "biznes"
-  },
-  {
-   "t": 1792935329.6691954,
-   "title": "Three giant black holes discovered in a galaxy from the dawn of time",
-   "soha": "ilm-fan"
-  },
-  {
-   "t": 1792951368.521204,
-   "title": "Luxury groups’ value drops by €250bn as Chinese consumer demand fades",
-   "soha": "biznes"
-  },
-  {
-   "t": 1792951368.521204,
-   "title": "Astronomers may have discovered the first moon beyond our Solar System",
-   "soha": "ilm-fan"
-  },
-  {
-   "t": 1792951368.521204,
-   "title": "O‘zbekistonda shisha, plastik idishlar va bankalar uchun majburiy depozit tizimi joriy etilishi mumkin",
-   "soha": "O'zbekiston"
-  },
   {
    "t": 1793003085.912557,
    "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
@@ -174,6 +147,21 @@
    "t": 1793052722.4625688,
    "title": "Toshkentda 10 gektar maydonda “O‘zbekfilm kino shaharchasi” va Dolby Atmos studiyasiga ega dublyaj markazi quriladi",
    "soha": "O'zbekiston"
+  },
+  {
+   "t": 1793090210.074481,
+   "title": "Anthropic opens its books for Wall Street, showing record revenue and mounting obligations",
+   "soha": "AI va texnologiya"
+  },
+  {
+   "t": 1793090210.074481,
+   "title": "O‘zbekistonda bepul dorilar va tekshiruvlar ro‘yxati kengaytiriladi",
+   "soha": "O'zbekiston"
+  },
+  {
+   "t": 1793090210.074481,
+   "title": "O‘zbekistonda tibbiyot talabalari haftasiga uch kun bemorlar bilan ishlashni o‘rganadi",
+   "soha": "ta'lim va talabalar"
   }
  ],
  "mavzu": {
