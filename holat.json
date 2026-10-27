@@ -102,25 +102,13 @@
   "https://daryo.uz/2026/10/27/ozbekistonda-tibbiyot-talabalari-haftasiga-uch-kun-bemorlar-bilan-ishlashni-organadi/": 1793090210.074481,
   "https://www.spot.uz/ru/2026/10/27/ipad-mini/": 1793113457.5440161,
   "https://www.sciencedaily.com/releases/2026/10/261026225603.htm": 1793113457.5440161,
-  "https://www.gazeta.uz/oz/2026/10/27/doctors-uzb/": 1793113457.5440161
+  "https://www.gazeta.uz/oz/2026/10/27/doctors-uzb/": 1793113457.5440161,
+  "https://www.spot.uz/ru/2026/10/27/pay-apple/": 1793137364.785196,
+  "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/": 1793137364.785196,
+  "https://the-decoder.com/meta-gets-3-billion-from-nvidia-and-plans-to-spend-more-on-nvidia-chips/": 1793137364.785196
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1793003085.912557,
-   "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
-   "soha": "AI va texnologiya"
-  },
-  {
-   "t": 1793003085.912557,
-   "title": "Markaziy bank Open bank’ka islomiy bank faoliyati uchun ilk litsenziyani berdi",
-   "soha": "O'zbekiston"
-  },
-  {
-   "t": 1793003085.912557,
-   "title": "Serbiya sobiq prezidenti Aleksandr Vuchichning partiyasi parlament saylovlarida mag‘lubiyatga uchradi",
-   "soha": "ta'lim va talabalar"
-  },
   {
    "t": 1793029585.2413666,
    "title": "Anthropic officially files for its public debut",
@@ -180,6 +168,21 @@
    "t": 1793113457.5440161,
    "title": "O‘zbekistonda shifokor va hamshiralar maoshi KPI va bemorlar bahosiga bog‘lanadi",
    "soha": "ta'lim va talabalar"
+  },
+  {
+   "t": 1793137364.785196,
+   "title": "Apple Pay скоро начнет поддерживать карты Uzcard и Humo — Центробанк",
+   "soha": "O'zbekiston"
+  },
+  {
+   "t": 1793137364.785196,
+   "title": "Google’s Genie 4 world model adds audio, more realistic worlds, and real-time steering",
+   "soha": "AI va texnologiya"
+  },
+  {
+   "t": 1793137364.785196,
+   "title": "Meta gets $3 billion from Nvidia and plans to spend more on Nvidia chips",
+   "soha": "biznes"
   }
  ],
  "mavzu": {
