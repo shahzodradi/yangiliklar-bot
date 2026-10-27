@@ -99,7 +99,10 @@
   "https://www.gazeta.uz/oz/2026/10/26/cinema/": 1793052722.4625688,
   "https://the-decoder.com/anthropic-opens-its-books-for-wall-street-showing-record-revenue-and-mounting-obligations/": 1793090210.074481,
   "https://www.gazeta.uz/oz/2026/10/27/healthcare-uzb/": 1793090210.074481,
-  "https://daryo.uz/2026/10/27/ozbekistonda-tibbiyot-talabalari-haftasiga-uch-kun-bemorlar-bilan-ishlashni-organadi/": 1793090210.074481
+  "https://daryo.uz/2026/10/27/ozbekistonda-tibbiyot-talabalari-haftasiga-uch-kun-bemorlar-bilan-ishlashni-organadi/": 1793090210.074481,
+  "https://www.spot.uz/ru/2026/10/27/ipad-mini/": 1793113457.5440161,
+  "https://www.sciencedaily.com/releases/2026/10/261026225603.htm": 1793113457.5440161,
+  "https://www.gazeta.uz/oz/2026/10/27/doctors-uzb/": 1793113457.5440161
  },
  "fails": 0,
  "sent": [
@@ -161,6 +164,21 @@
   {
    "t": 1793090210.074481,
    "title": "O‘zbekistonda tibbiyot talabalari haftasiga uch kun bemorlar bilan ishlashni o‘rganadi",
+   "soha": "ta'lim va talabalar"
+  },
+  {
+   "t": 1793113457.5440161,
+   "title": "Apple выпустила новый iPad mini с OLED-экраном и чипом A20 Pro",
+   "soha": "AI va texnologiya"
+  },
+  {
+   "t": 1793113457.5440161,
+   "title": "James Webb discovers a scorching lava planet with a “giant sunscreen”",
+   "soha": "ilm-fan"
+  },
+  {
+   "t": 1793113457.5440161,
+   "title": "O‘zbekistonda shifokor va hamshiralar maoshi KPI va bemorlar bahosiga bog‘lanadi",
    "soha": "ta'lim va talabalar"
   }
  ],
