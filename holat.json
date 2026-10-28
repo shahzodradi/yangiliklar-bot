@@ -108,25 +108,13 @@
   "https://the-decoder.com/meta-gets-3-billion-from-nvidia-and-plans-to-spend-more-on-nvidia-chips/": 1793137364.785196,
   "https://techcrunch.com/2026/10/27/guidewire-buys-hyperexponential-for-1-7b-in-cash/": 1793178946.358577,
   "https://www.bbc.co.uk/news/articles/cmx28de233r2o?at_medium=RSS&at_campaign=rss": 1793178946.358577,
-  "https://www.gazeta.uz/oz/2026/10/28/dok1-maks/": 1793178946.358577
+  "https://www.gazeta.uz/oz/2026/10/28/dok1-maks/": 1793178946.358577,
+  "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/": 1793209778.1095405,
+  "https://www.newscientist.com/article/2596282-there-may-be-a-new-dwarf-planet-just-beyond-pluto/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS": 1793209778.1095405,
+  "https://thepienews.com/australia-loses-ground-to-uk-and-us-in-international-student-race/": 1793209778.1095405
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1793052722.4625688,
-   "title": "Toyota is betting $6.4 billion a year on humanoid robots and factory automation",
-   "soha": "biznes"
-  },
-  {
-   "t": 1793052722.4625688,
-   "title": "Archaeologists may have just found the world's oldest shipwreck",
-   "soha": "ilm-fan"
-  },
-  {
-   "t": 1793052722.4625688,
-   "title": "Toshkentda 10 gektar maydonda “O‘zbekfilm kino shaharchasi” va Dolby Atmos studiyasiga ega dublyaj markazi quriladi",
-   "soha": "O'zbekiston"
-  },
   {
    "t": 1793090210.074481,
    "title": "Anthropic opens its books for Wall Street, showing record revenue and mounting obligations",
@@ -186,6 +174,21 @@
    "t": 1793178946.358577,
    "title": "“Dok-1 Maks” jabrlanuvchilariga davlat budjetidan kompensatsiyaning qolgan 65,2 mlrd so‘mi to‘lab berildi — SSV",
    "soha": "O'zbekiston"
+  },
+  {
+   "t": 1793209778.1095405,
+   "title": "VCs will make billions on Anthropic’s IPO, but Amazon is set to make much (much) more",
+   "soha": "AI va texnologiya"
+  },
+  {
+   "t": 1793209778.1095405,
+   "title": "There may be a new dwarf planet just beyond Pluto",
+   "soha": "ilm-fan"
+  },
+  {
+   "t": 1793209778.1095405,
+   "title": "Australia loses ground to UK and US in international student race",
+   "soha": "ta'lim va talabalar"
   }
  ],
  "mavzu": {
