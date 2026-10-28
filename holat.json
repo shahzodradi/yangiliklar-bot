@@ -105,25 +105,13 @@
   "https://www.gazeta.uz/oz/2026/10/27/doctors-uzb/": 1793113457.5440161,
   "https://www.spot.uz/ru/2026/10/27/pay-apple/": 1793137364.785196,
   "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/": 1793137364.785196,
-  "https://the-decoder.com/meta-gets-3-billion-from-nvidia-and-plans-to-spend-more-on-nvidia-chips/": 1793137364.785196
+  "https://the-decoder.com/meta-gets-3-billion-from-nvidia-and-plans-to-spend-more-on-nvidia-chips/": 1793137364.785196,
+  "https://techcrunch.com/2026/10/27/guidewire-buys-hyperexponential-for-1-7b-in-cash/": 1793178946.358577,
+  "https://www.bbc.co.uk/news/articles/cmx28de233r2o?at_medium=RSS&at_campaign=rss": 1793178946.358577,
+  "https://www.gazeta.uz/oz/2026/10/28/dok1-maks/": 1793178946.358577
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1793029585.2413666,
-   "title": "Anthropic officially files for its public debut",
-   "soha": "AI va texnologiya"
-  },
-  {
-   "t": 1793029585.2413666,
-   "title": "Meta plans up to $95 billion in stock sales to fund its AI buildout",
-   "soha": "biznes"
-  },
-  {
-   "t": 1793029585.2413666,
-   "title": "Chinese scientists discover “D-rex,” a giant fungus with roots stretching back 65 million years",
-   "soha": "ilm-fan"
-  },
   {
    "t": 1793052722.4625688,
    "title": "Toyota is betting $6.4 billion a year on humanoid robots and factory automation",
@@ -183,6 +171,21 @@
    "t": 1793137364.785196,
    "title": "Meta gets $3 billion from Nvidia and plans to spend more on Nvidia chips",
    "soha": "biznes"
+  },
+  {
+   "t": 1793178946.358577,
+   "title": "Guidewire buys Hyperexponential for $1.7B in cash",
+   "soha": "biznes"
+  },
+  {
+   "t": 1793178946.358577,
+   "title": "Nanotyrannus skeleton sells for $47.3m in New York auction",
+   "soha": "ilm-fan"
+  },
+  {
+   "t": 1793178946.358577,
+   "title": "“Dok-1 Maks” jabrlanuvchilariga davlat budjetidan kompensatsiyaning qolgan 65,2 mlrd so‘mi to‘lab berildi — SSV",
+   "soha": "O'zbekiston"
   }
  ],
  "mavzu": {
