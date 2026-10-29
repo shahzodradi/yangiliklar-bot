@@ -117,25 +117,13 @@
   "https://www.gazeta.uz/oz/2026/10/28/pegasus-airlines-uzbekistan/": 1793225340.4836736,
   "https://thepienews.com/breaking-uk-to-extend-graduate-visa-to-two-years-for-graduates-of-high-compliance-universities/": 1793265288.8171856,
   "https://www.ft.com/content/1639620b-99e7-47ed-8484-49646816489e?syn-25a6b1a6=1": 1793265288.8171856,
-  "https://www.gazeta.uz/oz/2026/10/29/adm-global/": 1793265288.8171856
+  "https://www.gazeta.uz/oz/2026/10/29/adm-global/": 1793265288.8171856,
+  "https://the-decoder.com/paris-based-mistral-releases-le-chonk-a-strong-coding-model-that-still-trails-china-overall/": 1793296757.8884542,
+  "https://www.sciencedaily.com/releases/2026/10/261028232719.htm": 1793296757.8884542,
+  "https://daryo.uz/2026/10/29/oylik-1-5-ming-yevrogacha-ozbekistonliklar-germaniyada-oqish-va-ishlashga-taklif-etilmoqda/": 1793296757.8884542
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1793137364.785196,
-   "title": "Apple Pay скоро начнет поддерживать карты Uzcard и Humo — Центробанк",
-   "soha": "O'zbekiston"
-  },
-  {
-   "t": 1793137364.785196,
-   "title": "Google’s Genie 4 world model adds audio, more realistic worlds, and real-time steering",
-   "soha": "AI va texnologiya"
-  },
-  {
-   "t": 1793137364.785196,
-   "title": "Meta gets $3 billion from Nvidia and plans to spend more on Nvidia chips",
-   "soha": "biznes"
-  },
   {
    "t": 1793178946.358577,
    "title": "Guidewire buys Hyperexponential for $1.7B in cash",
@@ -195,6 +183,21 @@
    "t": 1793265288.8171856,
    "title": "ADM Global O‘zbekistonda gibrid va elektromobillar chiqarishni boshlaydi",
    "soha": "O'zbekiston"
+  },
+  {
+   "t": 1793296757.8884542,
+   "title": "Paris-based Mistral releases \"Le Chonk,\" a strong coding model that still trails China overall",
+   "soha": "AI va texnologiya"
+  },
+  {
+   "t": 1793296757.8884542,
+   "title": "Einstein's equations may explain the universe without dark energy",
+   "soha": "ilm-fan"
+  },
+  {
+   "t": 1793296757.8884542,
+   "title": "Oylik 1,5 ming yevrogacha: o‘zbekistonliklar Germaniyada o‘qish va ishlashga taklif etilmoqda",
+   "soha": "ta'lim va talabalar"
   }
  ],
  "mavzu": {
