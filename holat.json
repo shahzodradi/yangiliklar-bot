@@ -120,25 +120,13 @@
   "https://www.gazeta.uz/oz/2026/10/29/adm-global/": 1793265288.8171856,
   "https://the-decoder.com/paris-based-mistral-releases-le-chonk-a-strong-coding-model-that-still-trails-china-overall/": 1793296757.8884542,
   "https://www.sciencedaily.com/releases/2026/10/261028232719.htm": 1793296757.8884542,
-  "https://daryo.uz/2026/10/29/oylik-1-5-ming-yevrogacha-ozbekistonliklar-germaniyada-oqish-va-ishlashga-taklif-etilmoqda/": 1793296757.8884542
+  "https://daryo.uz/2026/10/29/oylik-1-5-ming-yevrogacha-ozbekistonliklar-germaniyada-oqish-va-ishlashga-taklif-etilmoqda/": 1793296757.8884542,
+  "https://www.nytimes.com/2026/10/29/technology/doordash-instacart-acquisition-delivery.html": 1793312173.7838242,
+  "https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs": 1793312173.7838242,
+  "https://www.sciencedaily.com/releases/2026/10/261028232715.htm": 1793312173.7838242
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1793178946.358577,
-   "title": "Guidewire buys Hyperexponential for $1.7B in cash",
-   "soha": "biznes"
-  },
-  {
-   "t": 1793178946.358577,
-   "title": "Nanotyrannus skeleton sells for $47.3m in New York auction",
-   "soha": "ilm-fan"
-  },
-  {
-   "t": 1793178946.358577,
-   "title": "“Dok-1 Maks” jabrlanuvchilariga davlat budjetidan kompensatsiyaning qolgan 65,2 mlrd so‘mi to‘lab berildi — SSV",
-   "soha": "O'zbekiston"
-  },
   {
    "t": 1793209778.1095405,
    "title": "VCs will make billions on Anthropic’s IPO, but Amazon is set to make much (much) more",
@@ -198,6 +186,21 @@
    "t": 1793296757.8884542,
    "title": "Oylik 1,5 ming yevrogacha: o‘zbekistonliklar Germaniyada o‘qish va ishlashga taklif etilmoqda",
    "soha": "ta'lim va talabalar"
+  },
+  {
+   "t": 1793312173.7838242,
+   "title": "DoorDash to Buy Instacart for $17 Billion, Uniting 2 Delivery Giants",
+   "soha": "biznes"
+  },
+  {
+   "t": 1793312173.7838242,
+   "title": "You can generate and edit Google Docs files directly in Gemini chats now",
+   "soha": "AI va texnologiya"
+  },
+  {
+   "t": 1793312173.7838242,
+   "title": "NASA discovers Jupiter’s invisible shield is more complex than Earth’s",
+   "soha": "ilm-fan"
   }
  ],
  "mavzu": {
