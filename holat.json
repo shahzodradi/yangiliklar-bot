@@ -114,25 +114,13 @@
   "https://thepienews.com/australia-loses-ground-to-uk-and-us-in-international-student-race/": 1793209778.1095405,
   "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier": 1793225340.4836736,
   "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/": 1793225340.4836736,
-  "https://www.gazeta.uz/oz/2026/10/28/pegasus-airlines-uzbekistan/": 1793225340.4836736
+  "https://www.gazeta.uz/oz/2026/10/28/pegasus-airlines-uzbekistan/": 1793225340.4836736,
+  "https://thepienews.com/breaking-uk-to-extend-graduate-visa-to-two-years-for-graduates-of-high-compliance-universities/": 1793265288.8171856,
+  "https://www.ft.com/content/1639620b-99e7-47ed-8484-49646816489e?syn-25a6b1a6=1": 1793265288.8171856,
+  "https://www.gazeta.uz/oz/2026/10/29/adm-global/": 1793265288.8171856
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1793113457.5440161,
-   "title": "Apple выпустила новый iPad mini с OLED-экраном и чипом A20 Pro",
-   "soha": "AI va texnologiya"
-  },
-  {
-   "t": 1793113457.5440161,
-   "title": "James Webb discovers a scorching lava planet with a “giant sunscreen”",
-   "soha": "ilm-fan"
-  },
-  {
-   "t": 1793113457.5440161,
-   "title": "O‘zbekistonda shifokor va hamshiralar maoshi KPI va bemorlar bahosiga bog‘lanadi",
-   "soha": "ta'lim va talabalar"
-  },
   {
    "t": 1793137364.785196,
    "title": "Apple Pay скоро начнет поддерживать карты Uzcard и Humo — Центробанк",
@@ -191,6 +179,21 @@
   {
    "t": 1793225340.4836736,
    "title": "Turkiyaning Pegasus loukosteri O‘zbekistonning uchta shahriga ucha boshlaydi",
+   "soha": "O'zbekiston"
+  },
+  {
+   "t": 1793265288.8171856,
+   "title": "Breaking: UK to extend graduate visa to two years for graduates of “high-compliance universities”",
+   "soha": "ta'lim va talabalar"
+  },
+  {
+   "t": 1793265288.8171856,
+   "title": "US tech stocks set to fall after earnings fuel AI spending concerns",
+   "soha": "biznes"
+  },
+  {
+   "t": 1793265288.8171856,
+   "title": "ADM Global O‘zbekistonda gibrid va elektromobillar chiqarishni boshlaydi",
    "soha": "O'zbekiston"
   }
  ],
