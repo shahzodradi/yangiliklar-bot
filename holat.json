@@ -104,25 +104,13 @@
   "https://www.gazeta.uz/oz/2026/10/30/anadolu-group/": 1793352451.6935034,
   "https://the-decoder.com/open-weight-model-glm-5-3-built-full-firefox-exploit-chains-with-zero-human-input-in-under-48-hours/": 1793381932.826099,
   "https://daryo.uz/2026/10/30/aholining-ichimlik-va-oqava-suvidan-qarzdorligi-430-mlrd-somdan-oshdi-ozsuvtaminot-aj/": 1793381932.826099,
-  "https://www.sciencedaily.com/releases/2026/10/261028234703.htm": 1793381932.826099
+  "https://www.sciencedaily.com/releases/2026/10/261028234703.htm": 1793381932.826099,
+  "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission": 1793397082.4133868,
+  "https://www.gazeta.uz/oz/2026/10/30/airports/": 1793397082.4133868,
+  "https://www.sciencedaily.com/releases/2026/10/261027231200.htm": 1793397082.4133868
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1793265288.8171856,
-   "title": "Breaking: UK to extend graduate visa to two years for graduates of “high-compliance universities”",
-   "soha": "ta'lim va talabalar"
-  },
-  {
-   "t": 1793265288.8171856,
-   "title": "US tech stocks set to fall after earnings fuel AI spending concerns",
-   "soha": "biznes"
-  },
-  {
-   "t": 1793265288.8171856,
-   "title": "ADM Global O‘zbekistonda gibrid va elektromobillar chiqarishni boshlaydi",
-   "soha": "O'zbekiston"
-  },
   {
    "t": 1793296757.8884542,
    "title": "Paris-based Mistral releases \"Le Chonk,\" a strong coding model that still trails China overall",
@@ -181,6 +169,21 @@
   {
    "t": 1793381932.826099,
    "title": "Physicists created a tiny universe and watched time emerge without a clock",
+   "soha": "ilm-fan"
+  },
+  {
+   "t": 1793397082.4133868,
+   "title": "Google’s satellite AI server transmits its first response to Earth",
+   "soha": "AI va texnologiya"
+  },
+  {
+   "t": 1793397082.4133868,
+   "title": "O‘zbekiston aeroportlari 9 oyda 12,6 mlndan ortiq yo‘lovchiga xizmat ko‘rsatdi",
+   "soha": "O'zbekiston"
+  },
+  {
+   "t": 1793397082.4133868,
+   "title": "Scientists confirm global warming is accelerating faster than ever recorded",
    "soha": "ilm-fan"
   }
  ],
