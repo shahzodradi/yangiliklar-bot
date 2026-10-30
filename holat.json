@@ -1,8 +1,5 @@
 {
  "seen": {
-  "https://techcrunch.com/2026/10/20/otter-ai-raises-320-million-from-general-catalysts-growth-fund-for-its-meeting-tool/": 1792497718.339631,
-  "https://techcrunch.com/2026/10/20/yelp-can-now-call-on-your-behalf-to-check-wait-times-at-a-restaurant/": 1792497718.339631,
-  "https://github.com/deepseek-ai/DeepInfer": 1792497718.339631,
   "https://www.ft.com/content/f2a2a578-5a2e-42ff-b4c9-8bafff271b37?syn-25a6b1a6=1": 1792549928.952863,
   "https://fortune.com/2026/10/20/spacex-q3-profit-ai-si-elon-musk/": 1792549928.952863,
   "https://www.ft.com/content/45fbf130-f82c-465d-bc97-5b18c20fbe27?syn-25a6b1a6=1": 1792549928.952863,
@@ -104,25 +101,13 @@
   "https://www.sciencedaily.com/releases/2026/10/261028232715.htm": 1793312173.7838242,
   "https://www.bbc.co.uk/news/articles/cwg7xp8kx4v5o?at_medium=RSS&at_campaign=rss": 1793352451.6935034,
   "https://www.gazeta.uz/oz/2026/10/30/sindarov/": 1793352451.6935034,
-  "https://www.gazeta.uz/oz/2026/10/30/anadolu-group/": 1793352451.6935034
+  "https://www.gazeta.uz/oz/2026/10/30/anadolu-group/": 1793352451.6935034,
+  "https://the-decoder.com/open-weight-model-glm-5-3-built-full-firefox-exploit-chains-with-zero-human-input-in-under-48-hours/": 1793381932.826099,
+  "https://daryo.uz/2026/10/30/aholining-ichimlik-va-oqava-suvidan-qarzdorligi-430-mlrd-somdan-oshdi-ozsuvtaminot-aj/": 1793381932.826099,
+  "https://www.sciencedaily.com/releases/2026/10/261028234703.htm": 1793381932.826099
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1793225340.4836736,
-   "title": "Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity",
-   "soha": "AI va texnologiya"
-  },
-  {
-   "t": 1793225340.4836736,
-   "title": "Microsoft just shared Azure’s actual revenue in dollars: $33.2 billion",
-   "soha": "biznes"
-  },
-  {
-   "t": 1793225340.4836736,
-   "title": "Turkiyaning Pegasus loukosteri O‘zbekistonning uchta shahriga ucha boshlaydi",
-   "soha": "O'zbekiston"
-  },
   {
    "t": 1793265288.8171856,
    "title": "Breaking: UK to extend graduate visa to two years for graduates of “high-compliance universities”",
@@ -182,6 +167,21 @@
    "t": 1793352451.6935034,
    "title": "Anadolu Group O‘zbekiston bozoriga o‘zining chakana savdo tarmog‘ini olib kirmoqchi",
    "soha": "O'zbekiston"
+  },
+  {
+   "t": 1793381932.826099,
+   "title": "Open-weight model GLM 5.3 built full Firefox exploit chains with zero human input in under 48 hours",
+   "soha": "AI va texnologiya"
+  },
+  {
+   "t": 1793381932.826099,
+   "title": "Aholining ichimlik va oqava suvidan qarzdorligi 430 mlrd soʻmdan oshdi — “Oʻzsuvtaʼminot” AJ",
+   "soha": "O'zbekiston"
+  },
+  {
+   "t": 1793381932.826099,
+   "title": "Physicists created a tiny universe and watched time emerge without a clock",
+   "soha": "ilm-fan"
   }
  ],
  "mavzu": {
