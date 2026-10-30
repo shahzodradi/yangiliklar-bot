@@ -1,27 +1,5 @@
 {
  "seen": {
-  "https://www.gazeta.uz/oz/2026/10/20/perfectum/": 1792480055.2493784,
-  "https://techcrunch.com/2026/10/19/ai-assistant-startup-town-nabs-unicorn-valuation-four-months-after-launch/": 1792480055.2493784,
-  "https://www.bbc.co.uk/news/articles/cjkgeq0k1wevo?at_medium=RSS&at_campaign=rss": 1792480055.2493784,
-  "https://www.ft.com/content/6dd31584-064c-4015-bf5d-e5747799ccd5?syn-25a6b1a6=1": 1792480055.2493784,
-  "https://www.gazeta.uz/oz/2026/10/19/us-business/": 1792480055.2493784,
-  "https://www.ft.com/content/cddafc0a-1ae6-467b-84b8-34c172002b6a?syn-25a6b1a6=1": 1792480055.2493784,
-  "https://www.bbc.co.uk/news/articles/c6eq327pzr53o?at_medium=RSS&at_campaign=rss": 1792480055.2493784,
-  "https://www.businessinsider.com/apple-explains-new-safari-ad-tracking-privacy-restrictions-2026-10": 1792480055.2493784,
-  "https://www.spot.uz/ru/2026/10/20/ai-express-audit/": 1792480055.2493784,
-  "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/": 1792480055.2493784,
-  "https://the-decoder.com/kling-ai-drops-version-4-0-with-stereo-audio-multilingual-lip-sync-and-a-lighter-flash-variant/": 1792480055.2493784,
-  "https://www.lennysnewsletter.com/p/claude-cuts-my-tiktok-how-this-creator": 1792480055.2493784,
-  "https://www.socialmediatoday.com/news/instagram-chief-says-stronger-ai-slop-prevention-is-needed/833416/": 1792480055.2493784,
-  "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/": 1792480194.2950525,
-  "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/": 1792480194.2950525,
-  "https://the-decoder.com/minimax-m3-1-flash-shows-chinas-ai-price-race-has-no-floor-in-sight/": 1792480194.2950525,
-  "https://fortune.com/2026/10/20/zuckerberg-apple-lesson-meta-100-billion-ai-bet/": 1792483100.1781135,
-  "https://techcrunch.com/2026/10/19/tolan-snags-30m-for-its-ai-companion-that-helps-users-navigate-life/": 1792483100.1781135,
-  "https://the-decoder.com/the-neocloud-shakeout-is-coming-and-nvidia-has-the-most-to-lose/": 1792483100.1781135,
-  "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/": 1792487023.6069267,
-  "https://www.spot.uz/ru/2026/10/20/usa-agreements/": 1792487023.6069267,
-  "https://www.cnbc.com/2026/10/19/jpmorgan-security-defense-investments.html": 1792487023.6069267,
   "https://techcrunch.com/2026/10/20/otter-ai-raises-320-million-from-general-catalysts-growth-fund-for-its-meeting-tool/": 1792497718.339631,
   "https://techcrunch.com/2026/10/20/yelp-can-now-call-on-your-behalf-to-check-wait-times-at-a-restaurant/": 1792497718.339631,
   "https://github.com/deepseek-ai/DeepInfer": 1792497718.339631,
@@ -123,25 +101,13 @@
   "https://daryo.uz/2026/10/29/oylik-1-5-ming-yevrogacha-ozbekistonliklar-germaniyada-oqish-va-ishlashga-taklif-etilmoqda/": 1793296757.8884542,
   "https://www.nytimes.com/2026/10/29/technology/doordash-instacart-acquisition-delivery.html": 1793312173.7838242,
   "https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs": 1793312173.7838242,
-  "https://www.sciencedaily.com/releases/2026/10/261028232715.htm": 1793312173.7838242
+  "https://www.sciencedaily.com/releases/2026/10/261028232715.htm": 1793312173.7838242,
+  "https://www.bbc.co.uk/news/articles/cwg7xp8kx4v5o?at_medium=RSS&at_campaign=rss": 1793352451.6935034,
+  "https://www.gazeta.uz/oz/2026/10/30/sindarov/": 1793352451.6935034,
+  "https://www.gazeta.uz/oz/2026/10/30/anadolu-group/": 1793352451.6935034
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1793209778.1095405,
-   "title": "VCs will make billions on Anthropic’s IPO, but Amazon is set to make much (much) more",
-   "soha": "AI va texnologiya"
-  },
-  {
-   "t": 1793209778.1095405,
-   "title": "There may be a new dwarf planet just beyond Pluto",
-   "soha": "ilm-fan"
-  },
-  {
-   "t": 1793209778.1095405,
-   "title": "Australia loses ground to UK and US in international student race",
-   "soha": "ta'lim va talabalar"
-  },
   {
    "t": 1793225340.4836736,
    "title": "Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity",
@@ -201,6 +167,21 @@
    "t": 1793312173.7838242,
    "title": "NASA discovers Jupiter’s invisible shield is more complex than Earth’s",
    "soha": "ilm-fan"
+  },
+  {
+   "t": 1793352451.6935034,
+   "title": "Crypto giant Binance hit by $6.3bn hack suspected to be largest in history",
+   "soha": "biznes"
+  },
+  {
+   "t": 1793352451.6935034,
+   "title": "Javohir Sindarov shaxmat toji uchun bahs oldidan AQShdagi turnir g‘olibi bo‘ldi",
+   "soha": "ta'lim va talabalar"
+  },
+  {
+   "t": 1793352451.6935034,
+   "title": "Anadolu Group O‘zbekiston bozoriga o‘zining chakana savdo tarmog‘ini olib kirmoqchi",
+   "soha": "O'zbekiston"
   }
  ],
  "mavzu": {
