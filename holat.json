@@ -1,11 +1,5 @@
 {
  "seen": {
-  "https://the-decoder.com/us-bans-deepseek-technology-across-federal-civilian-agencies/": 1792580154.7415302,
-  "https://www.gazeta.uz/oz/2026/10/21/qashqadaryo/": 1792580154.7415302,
-  "https://www.businessinsider.com/tiktok-pivots-ad-dollars-youtube-and-pinterest-after-meta-ban-2026-10": 1792580154.7415302,
-  "https://www.cnbc.com/2026/10/20/netflix-nflx-earnings-q3-2026.html": 1792599808.0598543,
-  "https://www.socialmediatoday.com/news/youtube-inks-affiliate-deal-with-aliexpress/833542/": 1792599808.0598543,
-  "https://www.cnbc.com/2026/10/20/boeing-737-max-10-certification.html": 1792599808.0598543,
   "https://techcrunch.com/2026/10/21/year-old-ai-lab-flapping-airplanes-raises-1b-at-a-6b-valuation/": 1792616762.3943284,
   "https://techcrunch.com/2026/10/21/legal-ai-startup-legora-raises-550m-series-e-at-8-8b-valuation/": 1792616762.3943284,
   "https://www.businessinsider.com/anthropic-answers-meta-openai-new-personal-agent-claude-duet-2026-10": 1792616762.3943284,
@@ -98,25 +92,13 @@
   "https://www.sciencedaily.com/releases/2026/10/261027231200.htm": 1793397082.4133868,
   "https://www.ft.com/content/7a3ad950-1b3b-4d9e-8c15-65a61ae6180f?syn-25a6b1a6=1": 1793438163.3781204,
   "https://www.bbc.co.uk/news/articles/cm9qzdqpxy48o?at_medium=RSS&at_campaign=rss": 1793438163.3781204,
-  "https://thepienews.com/australia-consults-on-student-visa-overhaul-as-refusals-hit-key-markets/": 1793438163.3781204
+  "https://thepienews.com/australia-consults-on-student-visa-overhaul-as-refusals-hit-key-markets/": 1793438163.3781204,
+  "https://kun.uz/news/2026/10/31/apple-yana-dunyoning-eng-qimmat-kompaniyasiga-aylandi-58826": 1793465088.5538116,
+  "https://www.sciencedaily.com/releases/2026/10/261029072142.htm": 1793465088.5538116,
+  "https://thepienews.com/times-higher-education-to-wind-down-bmi-by-end-of-2026/": 1793465088.5538116
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1793312173.7838242,
-   "title": "DoorDash to Buy Instacart for $17 Billion, Uniting 2 Delivery Giants",
-   "soha": "biznes"
-  },
-  {
-   "t": 1793312173.7838242,
-   "title": "You can generate and edit Google Docs files directly in Gemini chats now",
-   "soha": "AI va texnologiya"
-  },
-  {
-   "t": 1793312173.7838242,
-   "title": "NASA discovers Jupiter’s invisible shield is more complex than Earth’s",
-   "soha": "ilm-fan"
-  },
   {
    "t": 1793352451.6935034,
    "title": "Crypto giant Binance hit by $6.3bn hack suspected to be largest in history",
@@ -175,6 +157,21 @@
   {
    "t": 1793438163.3781204,
    "title": "Australia consults on student visa overhaul as refusals hit key markets",
+   "soha": "ta'lim va talabalar"
+  },
+  {
+   "t": 1793465088.5538116,
+   "title": "Apple yana dunyoning eng qimmat kompaniyasiga aylandi",
+   "soha": "biznes"
+  },
+  {
+   "t": 1793465088.5538116,
+   "title": "A simple blood test could reveal Alzheimer’s risk 10 years before symptoms",
+   "soha": "ilm-fan"
+  },
+  {
+   "t": 1793465088.5538116,
+   "title": "Times Higher Education to wind down BMI by end of 2026",
    "soha": "ta'lim va talabalar"
   }
  ],
