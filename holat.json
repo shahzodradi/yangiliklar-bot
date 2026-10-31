@@ -1,17 +1,5 @@
 {
  "seen": {
-  "https://www.ft.com/content/f2a2a578-5a2e-42ff-b4c9-8bafff271b37?syn-25a6b1a6=1": 1792549928.952863,
-  "https://fortune.com/2026/10/20/spacex-q3-profit-ai-si-elon-musk/": 1792549928.952863,
-  "https://www.ft.com/content/45fbf130-f82c-465d-bc97-5b18c20fbe27?syn-25a6b1a6=1": 1792549928.952863,
-  "https://www.bbc.co.uk/news/articles/cmlyl09xjke4o?at_medium=RSS&at_campaign=rss": 1792551703.877849,
-  "https://www.businessinsider.com/fireworks-ai-is-seeking-new-funding-at-around-valuation-2026-10": 1792551703.877849,
-  "https://the-decoder.com/mistral-ai-launches-voxtral-3-a-full-voice-agent-stack-that-listens-thinks-and-talks-in-real-time/": 1792551703.877849,
-  "https://the-decoder.com/elevenlabs-releases-two-new-speech-to-speech-models-designed-for-real-time-ai-conversations/": 1792553464.8868952,
-  "https://www.theverge.com/tech/1014999/google-gemini-ai-cars-android-auto": 1792553464.8868952,
-  "https://www.theverge.com/tech/1014246/adobe-lightroom-mobile-ai-quick-action-open-eyes-closed-blink-repair": 1792553464.8868952,
-  "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/": 1792554320.7940435,
-  "https://github.com/google-pytorch/torch_tpu": 1792554320.7940435,
-  "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/": 1792554320.7940435,
   "https://the-decoder.com/us-bans-deepseek-technology-across-federal-civilian-agencies/": 1792580154.7415302,
   "https://www.gazeta.uz/oz/2026/10/21/qashqadaryo/": 1792580154.7415302,
   "https://www.businessinsider.com/tiktok-pivots-ad-dollars-youtube-and-pinterest-after-meta-ban-2026-10": 1792580154.7415302,
@@ -107,25 +95,13 @@
   "https://www.sciencedaily.com/releases/2026/10/261028234703.htm": 1793381932.826099,
   "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission": 1793397082.4133868,
   "https://www.gazeta.uz/oz/2026/10/30/airports/": 1793397082.4133868,
-  "https://www.sciencedaily.com/releases/2026/10/261027231200.htm": 1793397082.4133868
+  "https://www.sciencedaily.com/releases/2026/10/261027231200.htm": 1793397082.4133868,
+  "https://www.ft.com/content/7a3ad950-1b3b-4d9e-8c15-65a61ae6180f?syn-25a6b1a6=1": 1793438163.3781204,
+  "https://www.bbc.co.uk/news/articles/cm9qzdqpxy48o?at_medium=RSS&at_campaign=rss": 1793438163.3781204,
+  "https://thepienews.com/australia-consults-on-student-visa-overhaul-as-refusals-hit-key-markets/": 1793438163.3781204
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1793296757.8884542,
-   "title": "Paris-based Mistral releases \"Le Chonk,\" a strong coding model that still trails China overall",
-   "soha": "AI va texnologiya"
-  },
-  {
-   "t": 1793296757.8884542,
-   "title": "Einstein's equations may explain the universe without dark energy",
-   "soha": "ilm-fan"
-  },
-  {
-   "t": 1793296757.8884542,
-   "title": "Oylik 1,5 ming yevrogacha: o‘zbekistonliklar Germaniyada o‘qish va ishlashga taklif etilmoqda",
-   "soha": "ta'lim va talabalar"
-  },
   {
    "t": 1793312173.7838242,
    "title": "DoorDash to Buy Instacart for $17 Billion, Uniting 2 Delivery Giants",
@@ -185,6 +161,21 @@
    "t": 1793397082.4133868,
    "title": "Scientists confirm global warming is accelerating faster than ever recorded",
    "soha": "ilm-fan"
+  },
+  {
+   "t": 1793438163.3781204,
+   "title": "OpenAI slashes funding target by $10bn as tech anxieties mount",
+   "soha": "AI va texnologiya"
+  },
+  {
+   "t": 1793438163.3781204,
+   "title": "Google value plunges by $500bn as its own AI search hits ad sales",
+   "soha": "biznes"
+  },
+  {
+   "t": 1793438163.3781204,
+   "title": "Australia consults on student visa overhaul as refusals hit key markets",
+   "soha": "ta'lim va talabalar"
   }
  ],
  "mavzu": {
