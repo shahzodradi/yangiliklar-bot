@@ -95,7 +95,10 @@
   "https://thepienews.com/australia-consults-on-student-visa-overhaul-as-refusals-hit-key-markets/": 1793438163.3781204,
   "https://kun.uz/news/2026/10/31/apple-yana-dunyoning-eng-qimmat-kompaniyasiga-aylandi-58826": 1793465088.5538116,
   "https://www.sciencedaily.com/releases/2026/10/261029072142.htm": 1793465088.5538116,
-  "https://thepienews.com/times-higher-education-to-wind-down-bmi-by-end-of-2026/": 1793465088.5538116
+  "https://thepienews.com/times-higher-education-to-wind-down-bmi-by-end-of-2026/": 1793465088.5538116,
+  "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&at_campaign=rss": 1793479939.3847501,
+  "https://the-decoder.com/microsoft-offers-a-quarter-of-its-workforce-voluntary-severance-while-shielding-ai-critical-teams/": 1793479939.3847501,
+  "https://kun.uz/news/2026/10/31/gcf-ozbekiston-ekologiyasi-uchun-1037-mln-evro-ajratadi-58653": 1793479939.3847501
  },
  "fails": 0,
  "sent": [
@@ -173,6 +176,21 @@
    "t": 1793465088.5538116,
    "title": "Times Higher Education to wind down BMI by end of 2026",
    "soha": "ta'lim va talabalar"
+  },
+  {
+   "t": 1793479939.3847501,
+   "title": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
+   "soha": "biznes"
+  },
+  {
+   "t": 1793479939.3847501,
+   "title": "Microsoft offers a quarter of its workforce voluntary severance while shielding AI-critical teams",
+   "soha": "AI va texnologiya"
+  },
+  {
+   "t": 1793479939.3847501,
+   "title": "GCF Özbekiston ekologiyasi uçun 103,7 mln yevro ajratadi",
+   "soha": "O'zbekiston"
   }
  ],
  "mavzu": {
