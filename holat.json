@@ -1,11 +1,5 @@
 {
  "seen": {
-  "https://techcrunch.com/2026/10/21/year-old-ai-lab-flapping-airplanes-raises-1b-at-a-6b-valuation/": 1792616762.3943284,
-  "https://techcrunch.com/2026/10/21/legal-ai-startup-legora-raises-550m-series-e-at-8-8b-valuation/": 1792616762.3943284,
-  "https://www.businessinsider.com/anthropic-answers-meta-openai-new-personal-agent-claude-duet-2026-10": 1792616762.3943284,
-  "https://www.nytimes.com/2026/10/21/business/elon-musk-spacex-tesla-merger.html": 1792656714.5221858,
-  "https://the-decoder.com/google-cloud-now-offers-openai-models-alongside-gemini-and-claude-becoming-the-only-major-provider-with-all-three/": 1792656714.5221858,
-  "https://www.theverge.com/ai-artificial-intelligence/1015715/walmart-ai-shopping-agents": 1792656714.5221858,
   "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/": 1792678586.9982464,
   "https://www.bbc.co.uk/news/articles/cm4g1p347qgxo?at_medium=RSS&at_campaign=rss": 1792678586.9982464,
   "https://the-decoder.com/openais-gpt-5-6-sol-and-gemini-4-argon-discovered-the-critical-php-vulnerability-affecting-millions-of-websites/": 1792678586.9982464,
@@ -98,55 +92,13 @@
   "https://thepienews.com/times-higher-education-to-wind-down-bmi-by-end-of-2026/": 1793465088.5538116,
   "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&at_campaign=rss": 1793479939.3847501,
   "https://the-decoder.com/microsoft-offers-a-quarter-of-its-workforce-voluntary-severance-while-shielding-ai-critical-teams/": 1793479939.3847501,
-  "https://kun.uz/news/2026/10/31/gcf-ozbekiston-ekologiyasi-uchun-1037-mln-evro-ajratadi-58653": 1793479939.3847501
+  "https://kun.uz/news/2026/10/31/gcf-ozbekiston-ekologiyasi-uchun-1037-mln-evro-ajratadi-58653": 1793479939.3847501,
+  "https://the-decoder.com/openais-upcoming-chat-and-work-merger-in-chatgpt-signals-the-end-of-all-you-can-prompt-pricing/": 1793527302.0416381,
+  "https://www.spot.uz/ru/2026/10/31/delever/": 1793527302.0416381,
+  "https://phys.org/news/2026-10-superconducting-cables-link-large-quantum.html": 1793527302.0416381
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1793352451.6935034,
-   "title": "Crypto giant Binance hit by $6.3bn hack suspected to be largest in history",
-   "soha": "biznes"
-  },
-  {
-   "t": 1793352451.6935034,
-   "title": "Javohir Sindarov shaxmat toji uchun bahs oldidan AQShdagi turnir g‘olibi bo‘ldi",
-   "soha": "ta'lim va talabalar"
-  },
-  {
-   "t": 1793352451.6935034,
-   "title": "Anadolu Group O‘zbekiston bozoriga o‘zining chakana savdo tarmog‘ini olib kirmoqchi",
-   "soha": "O'zbekiston"
-  },
-  {
-   "t": 1793381932.826099,
-   "title": "Open-weight model GLM 5.3 built full Firefox exploit chains with zero human input in under 48 hours",
-   "soha": "AI va texnologiya"
-  },
-  {
-   "t": 1793381932.826099,
-   "title": "Aholining ichimlik va oqava suvidan qarzdorligi 430 mlrd soʻmdan oshdi — “Oʻzsuvtaʼminot” AJ",
-   "soha": "O'zbekiston"
-  },
-  {
-   "t": 1793381932.826099,
-   "title": "Physicists created a tiny universe and watched time emerge without a clock",
-   "soha": "ilm-fan"
-  },
-  {
-   "t": 1793397082.4133868,
-   "title": "Google’s satellite AI server transmits its first response to Earth",
-   "soha": "AI va texnologiya"
-  },
-  {
-   "t": 1793397082.4133868,
-   "title": "O‘zbekiston aeroportlari 9 oyda 12,6 mlndan ortiq yo‘lovchiga xizmat ko‘rsatdi",
-   "soha": "O'zbekiston"
-  },
-  {
-   "t": 1793397082.4133868,
-   "title": "Scientists confirm global warming is accelerating faster than ever recorded",
-   "soha": "ilm-fan"
-  },
   {
    "t": 1793438163.3781204,
    "title": "OpenAI slashes funding target by $10bn as tech anxieties mount",
@@ -191,6 +143,21 @@
    "t": 1793479939.3847501,
    "title": "GCF Özbekiston ekologiyasi uçun 103,7 mln yevro ajratadi",
    "soha": "O'zbekiston"
+  },
+  {
+   "t": 1793527302.0416381,
+   "title": "OpenAI's upcoming chat-and-work merger in ChatGPT signals the end of all-you-can-prompt pricing",
+   "soha": "AI va texnologiya"
+  },
+  {
+   "t": 1793527302.0416381,
+   "title": "Стартап Delever получил $380 тысяч от AloqaVentures и Nexus Club",
+   "soha": "O'zbekiston"
+  },
+  {
+   "t": 1793527302.0416381,
+   "title": "Four superconducting cables link two large quantum processors into one",
+   "soha": "ilm-fan"
   }
  ],
  "mavzu": {
