@@ -1,8 +1,5 @@
 {
  "seen": {
-  "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/": 1792695627.5345564,
-  "https://techcrunch.com/2026/10/22/former-openai-science-lead-launches-warp-science-to-automate-wet-labs-with-robots/": 1792695627.5345564,
-  "https://www.socialmediatoday.com/news/meta-adds-users-and-revenue-as-ai-costs-climb/833671/": 1792695627.5345564,
   "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/": 1792742949.219039,
   "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/": 1792742949.219039,
   "https://www.gazeta.uz/oz/2026/10/23/uzbekneftegaz-cnpc/": 1792742949.219039,
@@ -95,25 +92,13 @@
   "https://phys.org/news/2026-10-superconducting-cables-link-large-quantum.html": 1793527302.0416381,
   "https://uza.uz/uz/posts/halqaro-matematika-olimpiadasida-yuqori-natizhaga-erishgan-oquvchilarimiz-tantanali-kutib-olindi_931057": 1793554382.5781279,
   "https://www.bbc.co.uk/news/articles/c6rry8x9d9qko?at_medium=RSS&at_campaign=rss": 1793554382.5781279,
-  "https://www.sciencedaily.com/releases/2026/10/261030003017.htm": 1793554382.5781279
+  "https://www.sciencedaily.com/releases/2026/10/261030003017.htm": 1793554382.5781279,
+  "https://www.nytimes.com/2026/10/30/business/binance-hack-crypto-price-what.html": 1793568988.6094766,
+  "https://www.businessinsider.com/elon-musk-colossus-2-campus-spam-gun-range-2026-11": 1793568988.6094766,
+  "https://www.businessinsider.com/math-ai-mathematicians-careers-jobs-future-mit-2026-11": 1793568988.6094766
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1793438163.3781204,
-   "title": "OpenAI slashes funding target by $10bn as tech anxieties mount",
-   "soha": "AI va texnologiya"
-  },
-  {
-   "t": 1793438163.3781204,
-   "title": "Google value plunges by $500bn as its own AI search hits ad sales",
-   "soha": "biznes"
-  },
-  {
-   "t": 1793438163.3781204,
-   "title": "Australia consults on student visa overhaul as refusals hit key markets",
-   "soha": "ta'lim va talabalar"
-  },
   {
    "t": 1793465088.5538116,
    "title": "Apple yana dunyoning eng qimmat kompaniyasiga aylandi",
@@ -173,6 +158,21 @@
    "t": 1793554382.5781279,
    "title": "Scientists use sound waves to deliver a new attack on deadly brain cancer",
    "soha": "ilm-fan"
+  },
+  {
+   "t": 1793568988.6094766,
+   "title": "Binance Lost Over $6 Billion in Crypto Hack. Here’s What to Know.",
+   "soha": "biznes"
+  },
+  {
+   "t": 1793568988.6094766,
+   "title": "Elon Musk says he is taking over an old Spam factory and a gun range to expand his Colossus 2 AI complex",
+   "soha": "AI va texnologiya"
+  },
+  {
+   "t": 1793568988.6094766,
+   "title": "Young mathematicians are reconsidering their careers: 'None of the individual work will matter'",
+   "soha": "ta'lim va talabalar"
   }
  ],
  "mavzu": {
