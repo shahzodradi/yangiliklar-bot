@@ -1,8 +1,5 @@
 {
  "seen": {
-  "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/": 1792678586.9982464,
-  "https://www.bbc.co.uk/news/articles/cm4g1p347qgxo?at_medium=RSS&at_campaign=rss": 1792678586.9982464,
-  "https://the-decoder.com/openais-gpt-5-6-sol-and-gemini-4-argon-discovered-the-critical-php-vulnerability-affecting-millions-of-websites/": 1792678586.9982464,
   "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/": 1792695627.5345564,
   "https://techcrunch.com/2026/10/22/former-openai-science-lead-launches-warp-science-to-automate-wet-labs-with-robots/": 1792695627.5345564,
   "https://www.socialmediatoday.com/news/meta-adds-users-and-revenue-as-ai-costs-climb/833671/": 1792695627.5345564,
@@ -95,7 +92,10 @@
   "https://kun.uz/news/2026/10/31/gcf-ozbekiston-ekologiyasi-uchun-1037-mln-evro-ajratadi-58653": 1793479939.3847501,
   "https://the-decoder.com/openais-upcoming-chat-and-work-merger-in-chatgpt-signals-the-end-of-all-you-can-prompt-pricing/": 1793527302.0416381,
   "https://www.spot.uz/ru/2026/10/31/delever/": 1793527302.0416381,
-  "https://phys.org/news/2026-10-superconducting-cables-link-large-quantum.html": 1793527302.0416381
+  "https://phys.org/news/2026-10-superconducting-cables-link-large-quantum.html": 1793527302.0416381,
+  "https://uza.uz/uz/posts/halqaro-matematika-olimpiadasida-yuqori-natizhaga-erishgan-oquvchilarimiz-tantanali-kutib-olindi_931057": 1793554382.5781279,
+  "https://www.bbc.co.uk/news/articles/c6rry8x9d9qko?at_medium=RSS&at_campaign=rss": 1793554382.5781279,
+  "https://www.sciencedaily.com/releases/2026/10/261030003017.htm": 1793554382.5781279
  },
  "fails": 0,
  "sent": [
@@ -157,6 +157,21 @@
   {
    "t": 1793527302.0416381,
    "title": "Four superconducting cables link two large quantum processors into one",
+   "soha": "ilm-fan"
+  },
+  {
+   "t": 1793554382.5781279,
+   "title": "Халқаро математика олимпиадасида юқори натижага эришган ўқувчиларимиз тантанали кутиб олинди",
+   "soha": "ta'lim va talabalar"
+  },
+  {
+   "t": 1793554382.5781279,
+   "title": "Thousands of jobs at Virgin Media O2 to be cut",
+   "soha": "biznes"
+  },
+  {
+   "t": 1793554382.5781279,
+   "title": "Scientists use sound waves to deliver a new attack on deadly brain cancer",
    "soha": "ilm-fan"
   }
  ],
