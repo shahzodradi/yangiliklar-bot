@@ -1,14 +1,5 @@
 {
  "seen": {
-  "https://the-decoder.com/anthropics-claude-now-writes-code-and-proves-it-safe-automatically/": 1792757173.8791854,
-  "https://www.theverge.com/ai-artificial-intelligence/1016879/spacex-tesla-cursed-katamari": 1792757173.8791854,
-  "https://www.sciencedaily.com/releases/2026/10/261021231244.htm": 1792757173.8791854,
-  "https://www.nature.com/articles/d41586-026-03417-0": 1792764006.3345666,
-  "https://www.gazeta.uz/oz/2026/10/23/wosune-international-uzb/": 1792764006.3345666,
-  "https://thepienews.com/enroly-uk-cas-issuance-falls-24-as-visa-refusals-jump-44/": 1792764006.3345666,
-  "https://the-decoder.com/canva-launches-craft-its-first-in-house-image-model/": 1792781876.6800025,
-  "https://www.cnbc.com/2026/10/23/american-express-job-cuts.html": 1792781876.6800025,
-  "https://www.gazeta.uz/oz/2026/10/23/nuclear/": 1792781876.6800025,
   "https://the-decoder.com/chinese-ai-model-kimi-k3-1-pro-is-closing-in-on-anthropics-claude-opus-5-5/": 1792828316.321185,
   "https://www.gazeta.uz/oz/2026/10/24/fines/": 1792828316.321185,
   "https://thepienews.com/three-signals-shaping-australian-international-education-ahead-of-aiec-2026/": 1792828316.321185,
@@ -95,7 +86,10 @@
   "https://www.businessinsider.com/math-ai-mathematicians-careers-jobs-future-mit-2026-11": 1793568988.6094766,
   "https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/": 1793614990.3598292,
   "https://www.sciencedaily.com/releases/2026/10/261031011638.htm": 1793614990.3598292,
-  "https://www.gazeta.uz/oz/2026/11/02/private-employment-agencies/": 1793614990.3598292
+  "https://www.gazeta.uz/oz/2026/11/02/private-employment-agencies/": 1793614990.3598292,
+  "https://the-decoder.com/saudi-aramco-takes-49-percent-stake-in-ai-firm-humain-with-2-6-billion-deal/": 1793654107.3412218,
+  "https://kun.uz/news/2026/11/02/alisher-usmonov-evropa-ittifoqiga-qarshi-germaniya-sudida-muhim-galabaga-erishdi-die-welt-58994": 1793654107.3412218,
+  "https://www.sciencedaily.com/releases/2026/11/261101010533.htm": 1793654107.3412218
  },
  "fails": 0,
  "sent": [
@@ -158,16 +152,25 @@
    "t": 1793614990.3598292,
    "title": "O‘zbekistonliklarni xorijda ishga joylashtirishni xususiy agentliklarga topshirish rejalashtirilmoqda — prezident",
    "soha": "O'zbekiston"
+  },
+  {
+   "t": 1793654107.3412218,
+   "title": "Saudi Aramco takes 49 percent stake in AI firm Humain with $2.6 billion deal",
+   "soha": "biznes"
+  },
+  {
+   "t": 1793654107.3412218,
+   "title": "Alişer Usmonov Yevropa Ittifoqiga qarşi Germaniya sudida muhim ğalabaga erişdi - Die Welt",
+   "soha": "O'zbekiston"
+  },
+  {
+   "t": 1793654107.3412218,
+   "title": "IceCube detects ghost particles with 10 billion times the energy of solar neutrinos",
+   "soha": "ilm-fan"
   }
  ],
  "mavzu": {
   "seen": {
-   "https://www.sciencedaily.com/releases/2026/10/261022081312.htm": 1792757487.5167089,
-   "https://uza.uz/uz/posts/toshkentda-1-ming-400-nafar-talaba-universitet-diplomini-oldi_926851": 1792757487.5167089,
-   "https://www.newscientist.com/article/2595244-tiny-solar-flares-recreated-in-the-lab-may-explain-corona-mystery/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS": 1792757487.5167089,
-   "https://www.nature.com/articles/d41586-026-03417-0": 1792758522.5565586,
-   "https://www.sciencedaily.com/releases/2026/10/261022081309.htm": 1792758522.5565586,
-   "https://www.sciencedaily.com/releases/2026/10/261021231241.htm": 1792758522.5565586,
    "https://phys.org/news/2026-10-newly-protein-pathway-hiv-stay.html": 1792859570.2212596,
    "https://www.sciencedaily.com/releases/2026/10/261023023734.htm": 1792859570.2212596,
    "https://www.bbc.co.uk/news/articles/c6vgx1ldvz5vo?at_medium=RSS&at_campaign=rss": 1792859570.2212596
