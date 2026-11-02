@@ -1,8 +1,5 @@
 {
  "seen": {
-  "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/": 1792742949.219039,
-  "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/": 1792742949.219039,
-  "https://www.gazeta.uz/oz/2026/10/23/uzbekneftegaz-cnpc/": 1792742949.219039,
   "https://the-decoder.com/anthropics-claude-now-writes-code-and-proves-it-safe-automatically/": 1792757173.8791854,
   "https://www.theverge.com/ai-artificial-intelligence/1016879/spacex-tesla-cursed-katamari": 1792757173.8791854,
   "https://www.sciencedaily.com/releases/2026/10/261021231244.htm": 1792757173.8791854,
@@ -95,40 +92,13 @@
   "https://www.sciencedaily.com/releases/2026/10/261030003017.htm": 1793554382.5781279,
   "https://www.nytimes.com/2026/10/30/business/binance-hack-crypto-price-what.html": 1793568988.6094766,
   "https://www.businessinsider.com/elon-musk-colossus-2-campus-spam-gun-range-2026-11": 1793568988.6094766,
-  "https://www.businessinsider.com/math-ai-mathematicians-careers-jobs-future-mit-2026-11": 1793568988.6094766
+  "https://www.businessinsider.com/math-ai-mathematicians-careers-jobs-future-mit-2026-11": 1793568988.6094766,
+  "https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/": 1793614990.3598292,
+  "https://www.sciencedaily.com/releases/2026/10/261031011638.htm": 1793614990.3598292,
+  "https://www.gazeta.uz/oz/2026/11/02/private-employment-agencies/": 1793614990.3598292
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1793465088.5538116,
-   "title": "Apple yana dunyoning eng qimmat kompaniyasiga aylandi",
-   "soha": "biznes"
-  },
-  {
-   "t": 1793465088.5538116,
-   "title": "A simple blood test could reveal Alzheimer’s risk 10 years before symptoms",
-   "soha": "ilm-fan"
-  },
-  {
-   "t": 1793465088.5538116,
-   "title": "Times Higher Education to wind down BMI by end of 2026",
-   "soha": "ta'lim va talabalar"
-  },
-  {
-   "t": 1793479939.3847501,
-   "title": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
-   "soha": "biznes"
-  },
-  {
-   "t": 1793479939.3847501,
-   "title": "Microsoft offers a quarter of its workforce voluntary severance while shielding AI-critical teams",
-   "soha": "AI va texnologiya"
-  },
-  {
-   "t": 1793479939.3847501,
-   "title": "GCF Özbekiston ekologiyasi uçun 103,7 mln yevro ajratadi",
-   "soha": "O'zbekiston"
-  },
   {
    "t": 1793527302.0416381,
    "title": "OpenAI's upcoming chat-and-work merger in ChatGPT signals the end of all-you-can-prompt pricing",
@@ -173,6 +143,21 @@
    "t": 1793568988.6094766,
    "title": "Young mathematicians are reconsidering their careers: 'None of the individual work will matter'",
    "soha": "ta'lim va talabalar"
+  },
+  {
+   "t": 1793614990.3598292,
+   "title": "Hundreds of Mundane AI Apps Are Hiding Sexually Abusive Deepfake Features",
+   "soha": "AI va texnologiya"
+  },
+  {
+   "t": 1793614990.3598292,
+   "title": "Ancient ape fossil in Egypt could rewrite the story of human origins",
+   "soha": "ilm-fan"
+  },
+  {
+   "t": 1793614990.3598292,
+   "title": "O‘zbekistonliklarni xorijda ishga joylashtirishni xususiy agentliklarga topshirish rejalashtirilmoqda — prezident",
+   "soha": "O'zbekiston"
   }
  ],
  "mavzu": {
