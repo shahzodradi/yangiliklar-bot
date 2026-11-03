@@ -1,11 +1,5 @@
 {
  "seen": {
-  "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/": 1792847079.4948387,
-  "https://techcrunch.com/2026/10/23/agent-cloud-startup-daytona-hits-1b-valuation-backed-by-firstmark-and-a-whos-who-of-angels/": 1792847079.4948387,
-  "https://www.quantamagazine.org/malaria-parasite-caught-in-the-act-of-breaking-and-entering-20261023/": 1792847079.4948387,
-  "https://kun.uz/news/2026/10/24/yangi-toskentda-fulhemfutbol-akademiyasi-ocilisi-mumkin": 1792864129.7260945,
-  "https://www.sciencedaily.com/releases/2026/10/261023023734.htm": 1792864129.7260945,
-  "https://www.cnbc.com/2026/10/23/airfare-airline-capacity.html": 1792864129.7260945,
   "https://the-decoder.com/blocks-new-ai-model-dessa-was-trained-entirely-on-human-speech-to-catch-emotions-text-based-models-miss/": 1792872185.266755,
   "https://www.sciencedaily.com/releases/2026/10/261023002905.htm": 1792872185.266755,
   "https://www.bbc.co.uk/news/articles/c6vgx1ldvz5vo?at_medium=RSS&at_campaign=rss": 1792872185.266755,
@@ -92,7 +86,10 @@
   "https://thepienews.com/uk-to-raise-hpi-visa-cap-as-eligibility-expands-to-top-150-universities/": 1793701306.28906,
   "https://www.ft.com/content/1902df70-1380-4588-bad5-171352b575f2?syn-25a6b1a6=1": 1793702335.6798816,
   "https://www.gazeta.uz/oz/2026/11/03/hotels-bukhara/": 1793702335.6798816,
-  "https://www.sciencedaily.com/releases/2026/10/261031221211.htm": 1793702335.6798816
+  "https://www.sciencedaily.com/releases/2026/10/261031221211.htm": 1793702335.6798816,
+  "https://www.theverge.com/ai-artificial-intelligence/1025482/openai-says-chatgpt-is-catching-up-to-google-in-search": 1793732282.5975866,
+  "https://www.cnbc.com/2026/11/03/ferrari-race-earnings-q3-2026.html": 1793732282.5975866,
+  "https://www.sciencedaily.com/releases/2026/11/261102075903.htm": 1793732282.5975866
  },
  "fails": 0,
  "sent": [
@@ -155,14 +152,25 @@
    "t": 1793702335.6798816,
    "title": "Large Hadron Collider reveals evidence of Big Bang matter in surprisingly small collisions",
    "soha": "ilm-fan"
+  },
+  {
+   "t": 1793732282.5975866,
+   "title": "OpenAI says ChatGPT is catching up to Google in search",
+   "soha": "AI va texnologiya"
+  },
+  {
+   "t": 1793732282.5975866,
+   "title": "Ferrari raises 2026 guidance after Q3 earnings beat",
+   "soha": "biznes"
+  },
+  {
+   "t": 1793732282.5975866,
+   "title": "All 5 genetic “letters” of DNA and RNA discovered in a 4.5-billion-year-old asteroid",
+   "soha": "ilm-fan"
   }
  ],
  "mavzu": {
-  "seen": {
-   "https://phys.org/news/2026-10-newly-protein-pathway-hiv-stay.html": 1792859570.2212596,
-   "https://www.sciencedaily.com/releases/2026/10/261023023734.htm": 1792859570.2212596,
-   "https://www.bbc.co.uk/news/articles/c6vgx1ldvz5vo?at_medium=RSS&at_campaign=rss": 1792859570.2212596
-  },
+  "seen": {},
   "sent": []
  }
 }
