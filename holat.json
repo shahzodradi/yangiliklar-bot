@@ -1,8 +1,5 @@
 {
  "seen": {
-  "https://the-decoder.com/chinese-ai-model-kimi-k3-1-pro-is-closing-in-on-anthropics-claude-opus-5-5/": 1792828316.321185,
-  "https://www.gazeta.uz/oz/2026/10/24/fines/": 1792828316.321185,
-  "https://thepienews.com/three-signals-shaping-australian-international-education-ahead-of-aiec-2026/": 1792828316.321185,
   "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/": 1792847079.4948387,
   "https://techcrunch.com/2026/10/23/agent-cloud-startup-daytona-hits-1b-valuation-backed-by-firstmark-and-a-whos-who-of-angels/": 1792847079.4948387,
   "https://www.quantamagazine.org/malaria-parasite-caught-in-the-act-of-breaking-and-entering-20261023/": 1792847079.4948387,
@@ -89,55 +86,13 @@
   "https://www.gazeta.uz/oz/2026/11/02/private-employment-agencies/": 1793614990.3598292,
   "https://the-decoder.com/saudi-aramco-takes-49-percent-stake-in-ai-firm-humain-with-2-6-billion-deal/": 1793654107.3412218,
   "https://kun.uz/news/2026/11/02/alisher-usmonov-evropa-ittifoqiga-qarshi-germaniya-sudida-muhim-galabaga-erishdi-die-welt-58994": 1793654107.3412218,
-  "https://www.sciencedaily.com/releases/2026/11/261101010533.htm": 1793654107.3412218
+  "https://www.sciencedaily.com/releases/2026/11/261101010533.htm": 1793654107.3412218,
+  "https://fortune.com/2026/11/02/palantir-q3-results-stock-ai-trade-selloff/": 1793701306.28906,
+  "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/": 1793701306.28906,
+  "https://thepienews.com/uk-to-raise-hpi-visa-cap-as-eligibility-expands-to-top-150-universities/": 1793701306.28906
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1793527302.0416381,
-   "title": "OpenAI's upcoming chat-and-work merger in ChatGPT signals the end of all-you-can-prompt pricing",
-   "soha": "AI va texnologiya"
-  },
-  {
-   "t": 1793527302.0416381,
-   "title": "Стартап Delever получил $380 тысяч от AloqaVentures и Nexus Club",
-   "soha": "O'zbekiston"
-  },
-  {
-   "t": 1793527302.0416381,
-   "title": "Four superconducting cables link two large quantum processors into one",
-   "soha": "ilm-fan"
-  },
-  {
-   "t": 1793554382.5781279,
-   "title": "Халқаро математика олимпиадасида юқори натижага эришган ўқувчиларимиз тантанали кутиб олинди",
-   "soha": "ta'lim va talabalar"
-  },
-  {
-   "t": 1793554382.5781279,
-   "title": "Thousands of jobs at Virgin Media O2 to be cut",
-   "soha": "biznes"
-  },
-  {
-   "t": 1793554382.5781279,
-   "title": "Scientists use sound waves to deliver a new attack on deadly brain cancer",
-   "soha": "ilm-fan"
-  },
-  {
-   "t": 1793568988.6094766,
-   "title": "Binance Lost Over $6 Billion in Crypto Hack. Here’s What to Know.",
-   "soha": "biznes"
-  },
-  {
-   "t": 1793568988.6094766,
-   "title": "Elon Musk says he is taking over an old Spam factory and a gun range to expand his Colossus 2 AI complex",
-   "soha": "AI va texnologiya"
-  },
-  {
-   "t": 1793568988.6094766,
-   "title": "Young mathematicians are reconsidering their careers: 'None of the individual work will matter'",
-   "soha": "ta'lim va talabalar"
-  },
   {
    "t": 1793614990.3598292,
    "title": "Hundreds of Mundane AI Apps Are Hiding Sexually Abusive Deepfake Features",
@@ -167,6 +122,21 @@
    "t": 1793654107.3412218,
    "title": "IceCube detects ghost particles with 10 billion times the energy of solar neutrinos",
    "soha": "ilm-fan"
+  },
+  {
+   "t": 1793701306.28906,
+   "title": "Palantir posts ‘highest-ever’ revenue growth rate of 96% as investors’ patience rests on a hair trigger",
+   "soha": "biznes"
+  },
+  {
+   "t": 1793701306.28906,
+   "title": "Anthropic warns that it’s very close to RSI capability, aka self-building AI",
+   "soha": "AI va texnologiya"
+  },
+  {
+   "t": 1793701306.28906,
+   "title": "UK to raise HPI visa cap as eligibility expands to top 150 universities",
+   "soha": "ta'lim va talabalar"
   }
  ],
  "mavzu": {
