@@ -1,11 +1,5 @@
 {
  "seen": {
-  "https://the-decoder.com/nvidia-open-sources-flora-to-make-robot-video-labeling-125x-cheaper-than-gpt-6-astra/": 1792935329.6691954,
-  "https://www.ft.com/content/8f034740-12a8-47fe-9010-149f87e70f8e?syn-25a6b1a6=1": 1792935329.6691954,
-  "https://www.sciencedaily.com/releases/2026/10/261024222000.htm": 1792935329.6691954,
-  "https://www.ft.com/content/1c3065cf-538f-433a-9749-0355a3642c7c?syn-25a6b1a6=1": 1792951368.521204,
-  "https://www.sciencedaily.com/releases/2026/10/261023023736.htm": 1792951368.521204,
-  "https://www.gazeta.uz/oz/2026/10/25/plastic-deposit/": 1792951368.521204,
   "https://minimaxir.com/2026/10/cheap-llms/": 1793003085.912557,
   "https://www.gazeta.uz/oz/2026/10/26/islomiy-bank/": 1793003085.912557,
   "https://www.gazeta.uz/oz/2026/10/26/serbia/": 1793003085.912557,
@@ -86,7 +80,10 @@
   "https://www.sciencedaily.com/releases/2026/11/261102075903.htm": 1793732282.5975866,
   "https://thepienews.com/canada-eu-alliance-to-expand-opportunities-for-students/": 1793787535.564443,
   "https://kun.uz/news/2026/11/04/buxoro-yangi-aeroportini-mustaqillik-bayramigacha-foydalanishga-topshirish-vazifasi-qoyildi-59233": 1793787535.564443,
-  "https://www.newscientist.com/article/2595321-the-nuclear-repository-in-finland-designed-to-outlast-modern-civilisation/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS": 1793787535.564443
+  "https://www.newscientist.com/article/2595321-the-nuclear-repository-in-finland-designed-to-outlast-modern-civilisation/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS": 1793787535.564443,
+  "https://the-decoder.com/gpt-6-astra-sees-the-matrix-and-reprograms-other-ai-models-directly-through-their-weights/": 1793819495.5311983,
+  "https://www.cnbc.com/2026/11/04/cvs-to-split-off-drugstore-business.html": 1793819495.5311983,
+  "https://www.sciencedaily.com/releases/2026/11/261104004909.htm": 1793819495.5311983
  },
  "fails": 0,
  "sent": [
@@ -148,6 +145,21 @@
   {
    "t": 1793787535.564443,
    "title": "The nuclear waste repository in Finland designed to outlast modern civilisation",
+   "soha": "ilm-fan"
+  },
+  {
+   "t": 1793819495.5311983,
+   "title": "GPT-6 Astra sees the matrix and reprograms other AI models directly through their weights",
+   "soha": "AI va texnologiya"
+  },
+  {
+   "t": 1793819495.5311983,
+   "title": "CVS to split off drugstore business in major breakup of healthcare giant; shares fall 10%",
+   "soha": "biznes"
+  },
+  {
+   "t": 1793819495.5311983,
+   "title": "AI helps Stanford scientists discover a “natural Ozempic” with a surprising advantage",
    "soha": "ilm-fan"
   }
  ],
