@@ -1,11 +1,5 @@
 {
  "seen": {
-  "https://the-decoder.com/blocks-new-ai-model-dessa-was-trained-entirely-on-human-speech-to-catch-emotions-text-based-models-miss/": 1792872185.266755,
-  "https://www.sciencedaily.com/releases/2026/10/261023002905.htm": 1792872185.266755,
-  "https://www.bbc.co.uk/news/articles/c6vgx1ldvz5vo?at_medium=RSS&at_campaign=rss": 1792872185.266755,
-  "https://the-decoder.com/openai-offers-discounts-up-to-90-percent-to-poach-anthropics-biggest-customers/": 1792915221.045475,
-  "https://uza.uz/uz/posts/texnikum-oquvchisining-loyihasi-evropa-mutaxassislari-etiborida-video_927519": 1792915221.045475,
-  "https://www.spot.uz/ru/2026/10/24/npp-construction/": 1792915221.045475,
   "https://the-decoder.com/nvidia-open-sources-flora-to-make-robot-video-labeling-125x-cheaper-than-gpt-6-astra/": 1792935329.6691954,
   "https://www.ft.com/content/8f034740-12a8-47fe-9010-149f87e70f8e?syn-25a6b1a6=1": 1792935329.6691954,
   "https://www.sciencedaily.com/releases/2026/10/261024222000.htm": 1792935329.6691954,
@@ -89,40 +83,13 @@
   "https://www.sciencedaily.com/releases/2026/10/261031221211.htm": 1793702335.6798816,
   "https://www.theverge.com/ai-artificial-intelligence/1025482/openai-says-chatgpt-is-catching-up-to-google-in-search": 1793732282.5975866,
   "https://www.cnbc.com/2026/11/03/ferrari-race-earnings-q3-2026.html": 1793732282.5975866,
-  "https://www.sciencedaily.com/releases/2026/11/261102075903.htm": 1793732282.5975866
+  "https://www.sciencedaily.com/releases/2026/11/261102075903.htm": 1793732282.5975866,
+  "https://thepienews.com/canada-eu-alliance-to-expand-opportunities-for-students/": 1793787535.564443,
+  "https://kun.uz/news/2026/11/04/buxoro-yangi-aeroportini-mustaqillik-bayramigacha-foydalanishga-topshirish-vazifasi-qoyildi-59233": 1793787535.564443,
+  "https://www.newscientist.com/article/2595321-the-nuclear-repository-in-finland-designed-to-outlast-modern-civilisation/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS": 1793787535.564443
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1793614990.3598292,
-   "title": "Hundreds of Mundane AI Apps Are Hiding Sexually Abusive Deepfake Features",
-   "soha": "AI va texnologiya"
-  },
-  {
-   "t": 1793614990.3598292,
-   "title": "Ancient ape fossil in Egypt could rewrite the story of human origins",
-   "soha": "ilm-fan"
-  },
-  {
-   "t": 1793614990.3598292,
-   "title": "O‘zbekistonliklarni xorijda ishga joylashtirishni xususiy agentliklarga topshirish rejalashtirilmoqda — prezident",
-   "soha": "O'zbekiston"
-  },
-  {
-   "t": 1793654107.3412218,
-   "title": "Saudi Aramco takes 49 percent stake in AI firm Humain with $2.6 billion deal",
-   "soha": "biznes"
-  },
-  {
-   "t": 1793654107.3412218,
-   "title": "Alişer Usmonov Yevropa Ittifoqiga qarşi Germaniya sudida muhim ğalabaga erişdi - Die Welt",
-   "soha": "O'zbekiston"
-  },
-  {
-   "t": 1793654107.3412218,
-   "title": "IceCube detects ghost particles with 10 billion times the energy of solar neutrinos",
-   "soha": "ilm-fan"
-  },
   {
    "t": 1793701306.28906,
    "title": "Palantir posts ‘highest-ever’ revenue growth rate of 96% as investors’ patience rests on a hair trigger",
@@ -166,6 +133,21 @@
   {
    "t": 1793732282.5975866,
    "title": "All 5 genetic “letters” of DNA and RNA discovered in a 4.5-billion-year-old asteroid",
+   "soha": "ilm-fan"
+  },
+  {
+   "t": 1793787535.564443,
+   "title": "Canada-EU alliance to expand opportunities for students",
+   "soha": "ta'lim va talabalar"
+  },
+  {
+   "t": 1793787535.564443,
+   "title": "Buxoro yangi aeroportini Mustaqillik bayramigaça foydalanişga topşiriş vazifasi qöyildi",
+   "soha": "O'zbekiston"
+  },
+  {
+   "t": 1793787535.564443,
+   "title": "The nuclear waste repository in Finland designed to outlast modern civilisation",
    "soha": "ilm-fan"
   }
  ],
