@@ -35,6 +35,9 @@ Tanlov: Runway festival | https://www.bing.com/news/search?q=Runway+AI+Film+Fest
 Tanlov: Higgsfield tanlov | https://www.bing.com/news/search?q=Higgsfield+contest&format=rss&setlang=en | 168
 Tanlov: san'at tanlovi | https://www.bing.com/news/search?q=AI+art+competition+winner&format=rss&setlang=en | 168
 Tanlov: musiqa tanlovi | https://www.bing.com/news/search?q=AI+music+contest&format=rss&setlang=en | 168
+Tanlov: finalistlar | https://www.bing.com/news/search?q=AI+film+festival+finalists&format=rss&setlang=en | 168
+Tanlov: eng yaxshi AI filmlar | https://www.bing.com/news/search?q=best+AI+short+films&format=rss&setlang=en | 168
+Tanlov: g'oliblar e'lon qilindi | https://www.bing.com/news/search?q=AI+video+winners+announced&format=rss&setlang=en | 168
 
 # --- AI rasm generatsiyasi (72 soatlik) ---
 Rasm: AI rasm generator | https://www.bing.com/news/search?q=AI+image+generator&format=rss&setlang=en | 72

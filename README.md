@@ -3,7 +3,9 @@
 Faqat generativ AI media: video (Seedance, Kling, Veo, Sora, Runway...), rasm (Midjourney, GPT Image, Nano Banana,
 Flux...) va musiqa (Suno, Udio, Lyria...) generatsiyasidagi har bir yangilik, o'sish, reyting, shu sohalardagi
 tanlov, festival va g'oliblar. Har safar: tanlovlar (hammasi) + video/rasm/musiqa (8 tagacha) + umumiy AI'dan
-content maker uchun foydali 1 ta. 56 ta manba (AI saytlari + Bing News qidiruvlari: media 72 soatlik, tanlovlar 7 kunlik).
+content maker uchun foydali 1 ta.
+Har post: sarlavha, 📝 qisqa mazmun, mutaxassislar fikri, oqibat. Tanlov postidan keyin maqoladagi videolar
+(YouTube, Vimeo, X, TikTok, Instagram) havolalari alohida xabarda keladi. 56 ta manba (AI saytlari + Bing News qidiruvlari: media 72 soatlik, tanlovlar 7 kunlik).
 Gemini eng muhimlarini tanlab, o'zbekchaga qisqa qilib yozadi va Telegram'ga yuboradi (@yangiliklaraivabiznes_bot).
 Har yangilik: rasm, qisqa mazmun, mustaqil mutaxassislar fikri va "nimaga olib kelishi mumkin".
 Mutaxassislar fikri haqiqiy maqolalardan olinadi (asl maqola + Bing News topgan Reuters, Yahoo Finance va h.k.),

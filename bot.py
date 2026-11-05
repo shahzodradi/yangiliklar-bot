@@ -252,20 +252,21 @@ VAZIFA:
    foydalanuvchilar va daromad o'sishi, investitsiyalar, reytinglar va arenalardagi o'rinlar, litsenziya va
    kelishuvlar, AI filmlar va kliplar - HAR BIR alohida voqeani qaytar, {media_max} tagacha.
    TANLOVLAR: biror kompaniya yoki tashkilot AI video, rasm, musiqa yoki film tanlovi, konkurs, challenge, hackathon
-   yoki festival e'lon qilsa, yoki qaysidir AI ish g'olib bo'lsa (mukofot, sovrin, reytingda birinchi o'rin) -
-   bularni HAR DOIM, hammasini qaytar, baho 10.
+   yoki festival e'lon qilsa, qaysidir AI ish g'olib bo'lsa (mukofot, sovrin, reytingda birinchi o'rin), yoki
+   kompaniya, tanlov yoki nashr qaysidir AI videolarni eng yaxshi/kuchli deb tanlasa (g'oliblar, finalistlar,
+   "staff picks", haftaning eng yaxshi AI videolari) - bularni HAR DOIM, hammasini qaytar, baho 10.
    Qolgan AI yangiliklaridan faqat content maker uchun foydali bo'lgan {other_max} tasini qaytar (yangi multimodal
    model, creator'lar uchun vosita va h.k.); kompaniyalar sotib olishi, dasturchilik vositalari kabilarni olma.
    Muhimlik bo'yicha tartibla, bo'sh ro'yxat qaytarma.
    Har biriga 1-10 baho qo'y.
    Bir voqea haqidagi takror maqolalardan faqat bittasini ol. "BUGUN YUBORILGAN" ro'yxatidagi voqealarni
    boshqa nashrdan bo'lsa ham qayta olma.
-   Reklama, promo-kodlar, "qanday prompt yozish" qo'llanmalari, "eng yaxshi 10 ta" ro'yxatlar, eski voqealarni
+   Reklama, promo-kodlar, "qanday prompt yozish" qo'llanmalari, "eng yaxshi 10 ta vosita" ro'yxatlari, eski voqealarni
    eslatuvchi sharhlar va kod repozitoriylarini (GitHub) olma.
 2. Har biri uchun o'zbek tilida (lotin yozuvi, o‘ g‘ va ’ belgilari bilan; maqola rus yoki ingliz tilida
    bo'lsa ham, kirill harflarisiz) yoz:
    - "sarlavha": qisqa, aniq sarlavha (12 so'zgacha), clickbait'siz.
-   - "mazmun": 2 gap, oddiy yangilik uslubida: nima bo'ldi, kim, asosiy raqamlar va tafsilotlar.
+   - "mazmun": qisqa, 1-2 gap (250 belgigacha), oddiy yangilik uslubida: nima bo'ldi, kim, asosiy raqamlar.
      O'quvchiga murojaat qilma, maslahat berma, o'zingdan tahlil va xulosa qo'shma.
    - "qidiruv": shu voqeani boshqa nashrlardan topish uchun 3-6 so'zli inglizcha qidiruv so'rovi
      (kompaniya, mahsulot va voqea nomlari, masalan "Amazon TorchNeuron Nvidia").
@@ -595,7 +596,7 @@ def shorten(text, limit):
 
 def make_caption(post):
     esc = html.escape
-    head = f"<b>{esc(post['title'])}</b>\n\n{esc(post['text'])}"
+    head = f"<b>{esc(post['title'])}</b>\n\n📝 {esc(post['text'])}"
     foot = f"<a href=\"{esc(post['link'], quote=True)}\">{esc(post['source'])} →</a>"
     experts = post["experts"]
 
@@ -689,6 +690,38 @@ def tg_photo(env, chat_id, photo, caption, silent, keyboard):
         headers={"Content-Type": f"multipart/form-data; boundary={boundary}"})
     with urllib.request.urlopen(req, timeout=60) as r:
         return json.loads(r.read())
+
+
+VIDEO_PATTERNS = [  # maqola ichidagi video havolalari -> (toza havola, turi)
+    (r"(?:youtube(?:-nocookie)?\.com/(?:embed/|watch\?v=|shorts/|live/)|youtu\.be/)([A-Za-z0-9_-]{11})",
+     lambda m: f"https://www.youtube.com/watch?v={m.group(1)}", "YouTube"),
+    (r"(?:player\.)?vimeo\.com/(?:video/)?(\d{6,})", lambda m: f"https://vimeo.com/{m.group(1)}", "Vimeo"),
+    (r"(?:twitter|x)\.com/([A-Za-z0-9_]{1,15})/status/(\d{8,})",
+     lambda m: f"https://x.com/{m.group(1)}/status/{m.group(2)}", "X"),
+    (r"tiktok\.com/@([A-Za-z0-9_.]+)/video/(\d{8,})",
+     lambda m: f"https://www.tiktok.com/@{m.group(1)}/video/{m.group(2)}", "TikTok"),
+    (r"instagram\.com/(?:reel|p)/([A-Za-z0-9_-]{6,})", lambda m: f"https://www.instagram.com/reel/{m.group(1)}/", "Instagram"),
+]
+
+
+def video_links(page, limit=8):
+    """Maqola sahifasidagi videolar (YouTube, Vimeo, X, TikTok, Instagram): [(havola, turi)]."""
+    found = {}
+    for pattern, build, kind in VIDEO_PATTERNS:
+        for m in re.finditer(pattern, page or ""):
+            found.setdefault(build(m), kind)
+    return list(found.items())[:limit]
+
+
+def send_videos(env, chat_id, videos, keyboard):
+    """Tanlov postidan keyin: videolar havolalari, birinchisining oynasi Telegram'da ochiladi."""
+    lines = ["🎥 <b>Tanlovdagi videolar:</b>"]
+    lines += [f"{n}. <a href=\"{html.escape(url, quote=True)}\">{kind} video</a>" for n, (url, kind) in enumerate(videos, 1)]
+    payload = {"chat_id": chat_id, "text": "\n".join(lines), "parse_mode": "HTML", "disable_notification": True,
+               "link_preview_options": {"url": videos[0][0], "prefer_large_media": True}}
+    if keyboard:
+        payload["reply_markup"] = KEYBOARD
+    tg(env, "sendMessage", payload)
 
 
 def find_image(post):
@@ -860,6 +893,7 @@ def run_digest(env, dry=False, fast=False, extra_chats=(), mavzu=None):
         add_expert_views(env, posts, fast)
         for post in posts:
             post["caption"] = make_caption(post)
+            post["videos"] = video_links(post["page"]) if post["soha"] == "AI tanlov" else []
     with ThreadPoolExecutor(max(len(posts), 1)) as ex:
         images = list(ex.map(find_image, posts))
     if dry:
@@ -879,6 +913,8 @@ def run_digest(env, dry=False, fast=False, extra_chats=(), mavzu=None):
             try:
                 kind, file_id = send_post(env, chat_id, post, n > 0, photo, keyboard=not chat_id.startswith("-"))
                 photo = file_id or photo  # keyingi chatlarga yuklangan rasm qayta ishlatiladi
+                if post.get("videos"):
+                    send_videos(env, chat_id, post["videos"], keyboard=not chat_id.startswith("-"))
             except Exception as e:
                 log.warning("Yuborilmadi: %s (%s)", name, e)
         log.info("Yuborildi (%s): %s", kind, post["link"])
