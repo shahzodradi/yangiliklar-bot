@@ -1,6 +1,6 @@
 # Yangiliklar manbalari: har qatorda "Nomi | RSS havola | soat" (soat ixtiyoriy: shu manbadan necha
 # soatlik yangilik olinadi, standart 24). Qator boshiga # qo'ysangiz, o'sha manba o'chadi.
-# Bot faqat AI yangiliklari uchun: asosiy urg'u AI video.
+# Bot faqat AI yangiliklari uchun: asosiy urg'u AI video, rasm va musiqa generatsiyasi (content maker).
 
 # --- AI video (yangiliklari kam chiqadi, shuning uchun 72 soatlik) ---
 Video: AI video generator | https://www.bing.com/news/search?q=AI+video+generator&format=rss&setlang=en | 72
@@ -22,6 +22,37 @@ Video: tanlovlar | https://www.bing.com/news/search?q=AI+short+film+competition+
 Video: reytinglar | https://www.bing.com/news/search?q=text-to-video+leaderboard+arena&format=rss&setlang=en | 72
 Video: investitsiyalar | https://www.bing.com/news/search?q=AI+video+startup+funding&format=rss&setlang=en | 72
 Curious Refuge | https://curiousrefuge.com/blog?format=rss | 72
+
+# --- AI video, rasm, musiqa tanlovlari va g'oliblari (kam chiqadi: 7 kunlik, har biri doim yuboriladi) ---
+Tanlov: tanlov | https://www.bing.com/news/search?q=AI+video+contest&format=rss&setlang=en | 168
+Tanlov: film tanlovi | https://www.bing.com/news/search?q=AI+film+competition&format=rss&setlang=en | 168
+Tanlov: film g'oliblari | https://www.bing.com/news/search?q=AI+filmmaking+competition+winners&format=rss&setlang=en | 168
+Tanlov: mukofotlar | https://www.bing.com/news/search?q=AI+short+film+award&format=rss&setlang=en | 168
+Tanlov: hackathon | https://www.bing.com/news/search?q=AI+video+hackathon&format=rss&setlang=en | 168
+Tanlov: musiqa klipi | https://www.bing.com/news/search?q=AI+music+video+competition&format=rss&setlang=en | 168
+Tanlov: sovrinlar | https://www.bing.com/news/search?q=generative+AI+film+prize&format=rss&setlang=en | 168
+Tanlov: Runway festival | https://www.bing.com/news/search?q=Runway+AI+Film+Festival&format=rss&setlang=en | 168
+Tanlov: Higgsfield tanlov | https://www.bing.com/news/search?q=Higgsfield+contest&format=rss&setlang=en | 168
+Tanlov: san'at tanlovi | https://www.bing.com/news/search?q=AI+art+competition+winner&format=rss&setlang=en | 168
+Tanlov: musiqa tanlovi | https://www.bing.com/news/search?q=AI+music+contest&format=rss&setlang=en | 168
+
+# --- AI rasm generatsiyasi (72 soatlik) ---
+Rasm: AI rasm generator | https://www.bing.com/news/search?q=AI+image+generator&format=rss&setlang=en | 72
+Rasm: Midjourney | https://www.bing.com/news/search?q=Midjourney&format=rss&setlang=en | 72
+Rasm: Nano Banana | https://www.bing.com/news/search?q=Google+Nano+Banana+image&format=rss&setlang=en | 72
+Rasm: GPT Image | https://www.bing.com/news/search?q=OpenAI+GPT+image&format=rss&setlang=en | 72
+Rasm: Flux | https://www.bing.com/news/search?q=Black+Forest+Labs+Flux&format=rss&setlang=en | 72
+Rasm: Ideogram | https://www.bing.com/news/search?q=Ideogram+AI&format=rss&setlang=en | 72
+Rasm: Leonardo | https://www.bing.com/news/search?q=Leonardo.Ai+image&format=rss&setlang=en | 72
+Rasm: Krea | https://www.bing.com/news/search?q=Krea+AI&format=rss&setlang=en | 72
+
+# --- AI musiqa generatsiyasi (72 soatlik) ---
+Musiqa: Suno | https://www.bing.com/news/search?q=Suno+AI&format=rss&setlang=en | 72
+Musiqa: Udio | https://www.bing.com/news/search?q=Udio+AI+music&format=rss&setlang=en | 72
+Musiqa: AI musiqa generator | https://www.bing.com/news/search?q=AI+music+generator&format=rss&setlang=en | 72
+Musiqa: ElevenLabs music | https://www.bing.com/news/search?q=ElevenLabs+music&format=rss&setlang=en | 72
+Musiqa: Lyria | https://www.bing.com/news/search?q=Google+Lyria+music&format=rss&setlang=en | 72
+Musiqa: musiqa kelishuvlari | https://www.bing.com/news/search?q=AI+music+record+label+deal&format=rss&setlang=en | 72
 
 # --- AI: modellar, kompaniyalar, vositalar ---
 TechCrunch AI | https://techcrunch.com/category/artificial-intelligence/feed/

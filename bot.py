@@ -41,16 +41,17 @@ FALLBACK_AGE_HOURS = 48     # bugungilarning hammasi yuborilgan bo'lsa, shuncha 
 SENT_KEEP_HOURS = 36        # takrorlamaslik uchun yuborilgan sarlavhalar shuncha saqlanadi
 PER_SOURCE_LIMIT = 8        # bitta manbadan bir martada ko'pi bilan nechta
 MAX_CANDIDATES = 200        # Gemini'ga yuboriladigan nomzodlar soni
-MAX_VIDEO = 6               # bir martada AI video yangiliklari: hammasi, shuncha tagacha
-MAX_OTHER = 2               # bir martada qolgan AI yangiliklaridan eng muhimlari
-SELECT_POOL = MAX_VIDEO + MAX_OTHER + 1  # Gemini shuncha tagacha tanlaydi
+MAX_MEDIA = 8               # bir martada AI video/rasm/musiqa yangiliklari: hammasi, shuncha tagacha
+MAX_OTHER = 1               # bir martada qolgan AI'dan: faqat content maker uchun foydalisi
+SELECT_POOL = MAX_MEDIA + MAX_OTHER + 2  # Gemini shuncha tagacha tanlaydi (tanlovlar bundan tashqari ham kirishi mumkin)
 # Mavzu buyruqlari: faqat shu mavzudagi yangiliklar, faqat so'ragan chatga
 MAVZULAR = {
-    "ai": "Sun'iy intellekt: barcha AI yangiliklari, AI video ham.",
-    "video": "Faqat AI video: video generatsiya modellari va vositalari, yangi versiyalar va funksiyalar, narxlar, "
-             "o'sish va investitsiyalar, reytinglar, tanlov va festival g'oliblari, AI filmlar.",
+    "ai": "Sun'iy intellekt: barcha AI yangiliklari (AI video, rasm va musiqa ham).",
+    "video": "Faqat generativ AI media: video, rasm va musiqa generatsiyasi (modellar, vositalar, yangi versiyalar va "
+             "funksiyalar, narxlar, o'sish va investitsiyalar, reytinglar), shu sohalardagi tanlovlar va g'oliblar.",
 }
-SOHALAR = ["AI video", "AI"]
+SOHALAR = ["AI tanlov", "AI video", "AI rasm", "AI musiqa", "AI"]  # tanlov: konkurs/festival/g'oliblar, doim yuboriladi
+MEDIA = ("AI video", "AI rasm", "AI musiqa")
 SEEN_KEEP_DAYS = 10
 GEMINI_BASE = "https://generativelanguage.googleapis.com/v1beta"
 # Asosiy model sifatliroq, lekin bepul tarifda 1-3 daqiqa javob beradi (bot fonda ishlaydi, muammo emas).
@@ -244,11 +245,18 @@ O'QUVCHI QIZIQISHLARI:
 {mavzu}
 VAZIFA:
 1. Ro'yxatdan FAQAT sun'iy intellektga oid yangiliklarni tanla, boshqa hech narsa olma.
-   AI VIDEO (video generatsiya modellari va vositalari: Seedance, Kling, Veo, Sora, Runway, Hailuo, Pika, Luma,
-   Higgsfield, Wan, Midjourney video, Firefly va h.k.: yangi modellar va versiyalar, funksiyalar, narxlar,
-   foydalanuvchilar va daromad o'sishi, investitsiyalar, reytinglar va arenalardagi o'rinlar, tanlov va festival
-   g'oliblari, AI filmlar) bo'yicha HAR BIR alohida voqeani qaytar, {video_max} tagacha.
-   Qolgan AI yangiliklaridan eng muhim {other_max} tasini qaytar. Muhimlik bo'yicha tartibla, bo'sh ro'yxat qaytarma.
+   O'quvchi AI video content maker: AI bilan video, rasm va musiqa yaratadi.
+   GENERATIV MEDIA: AI VIDEO (Seedance, Kling, Veo, Sora, Runway, Hailuo, Pika, Luma, Higgsfield, Wan, Midjourney video,
+   Firefly va h.k.), AI RASM (Midjourney, GPT Image, Nano Banana, Flux, Ideogram, Leonardo, Krea, Firefly va h.k.),
+   AI MUSIQA (Suno, Udio, ElevenLabs music, Lyria va h.k.): yangi modellar va versiyalar, funksiyalar, narxlar,
+   foydalanuvchilar va daromad o'sishi, investitsiyalar, reytinglar va arenalardagi o'rinlar, litsenziya va
+   kelishuvlar, AI filmlar va kliplar - HAR BIR alohida voqeani qaytar, {media_max} tagacha.
+   TANLOVLAR: biror kompaniya yoki tashkilot AI video, rasm, musiqa yoki film tanlovi, konkurs, challenge, hackathon
+   yoki festival e'lon qilsa, yoki qaysidir AI ish g'olib bo'lsa (mukofot, sovrin, reytingda birinchi o'rin) -
+   bularni HAR DOIM, hammasini qaytar, baho 10.
+   Qolgan AI yangiliklaridan faqat content maker uchun foydali bo'lgan {other_max} tasini qaytar (yangi multimodal
+   model, creator'lar uchun vosita va h.k.); kompaniyalar sotib olishi, dasturchilik vositalari kabilarni olma.
+   Muhimlik bo'yicha tartibla, bo'sh ro'yxat qaytarma.
    Har biriga 1-10 baho qo'y.
    Bir voqea haqidagi takror maqolalardan faqat bittasini ol. "BUGUN YUBORILGAN" ro'yxatidagi voqealarni
    boshqa nashrdan bo'lsa ham qayta olma.
@@ -261,7 +269,8 @@ VAZIFA:
      O'quvchiga murojaat qilma, maslahat berma, o'zingdan tahlil va xulosa qo'shma.
    - "qidiruv": shu voqeani boshqa nashrlardan topish uchun 3-6 so'zli inglizcha qidiruv so'rovi
      (kompaniya, mahsulot va voqea nomlari, masalan "Amazon TorchNeuron Nvidia").
-   - "soha": "AI video" (video generatsiyaga oid bo'lsa) yoki "AI" (qolgan AI yangiliklari).
+   - "soha": "AI tanlov" (AI video/rasm/musiqa/film tanlovi, konkurs, festival e'loni yoki g'oliblari),
+     "AI video", "AI rasm", "AI musiqa" (shu generatsiyaga oid qolgan yangiliklar) yoki "AI" (qolgan AI yangiliklari).
    Brend, mahsulot va kompaniya nomlarini tarjima qilma.
 
 Faqat shu JSON formatda javob ber:
@@ -296,7 +305,7 @@ def call_model(env, prompt, model, extra, timeout, schema):
                              "responseSchema": schema, **extra},
     }
     started = time.time()
-    for attempt in range(2):
+    for attempt, pause in enumerate((10, 25, None)):  # 503 "band" bo'lsa 3 marta urinadi
         try:
             raw = http(f"{GEMINI_BASE}/models/{model}:generateContent", payload,
                        headers={"x-goog-api-key": env["GEMINI_API_KEY"]}, timeout=timeout, retries=0)
@@ -304,8 +313,8 @@ def call_model(env, prompt, model, extra, timeout, schema):
         except urllib.error.HTTPError as e:
             body = e.read()[:400]
             # Kunlik limit tugagan bo'lsa, qayta urinish befoyda: darhol keyingi modelga o'tiladi
-            if e.code in (429, 500, 503) and b"PerDay" not in body and attempt == 0:
-                time.sleep(10)
+            if e.code in (429, 500, 503) and b"PerDay" not in body and pause:
+                time.sleep(pause)
                 continue
             raise RuntimeError(f"{model}: HTTP {e.code} {body!r}") from None
     resp = json.loads(raw)
@@ -340,7 +349,7 @@ def ask_gemini(env, candidates, sent_titles, fast=False, mavzu=None):
              "sohalar aralashligi talabi bu safar yo'q. Bo'sh ro'yxat qaytarma: shu mavzudagilar kam bo'lsa, "
              "mavzuga eng yaqinlarini ol.\n") if mavzu else ""
     prompt = PROMPT.format(profile=PROFILE_FILE.read_text(encoding="utf-8").strip(), max_picks=SELECT_POOL, mavzu=topic,
-                           video_max=MAX_VIDEO, other_max=MAX_OTHER + 1,
+                           media_max=MAX_MEDIA, other_max=MAX_OTHER + 1,
                            sent="\n".join(f"- {t}" for t in sent_titles) or "(hali yo'q)",
                            items=json.dumps(items, ensure_ascii=False))
     return ask_models(env, prompt, RESPONSE_SCHEMA, fast)
@@ -479,8 +488,8 @@ def related_articles(query, skip_url):
     return urls[:8]
 
 
-def gather_texts(post):
-    """[(domen, url, matn)]: asl maqola + boshqa nashrlardagi RELATED_TEXTS tagacha maqola."""
+def gather_texts(post, related=RELATED_TEXTS):
+    """[(domen, url, matn)]: asl maqola + boshqa nashrlardagi `related` tagacha maqola."""
     texts = []
     own = article_text(post["page"])
     if len(own) > 400:
@@ -489,14 +498,15 @@ def gather_texts(post):
     with ThreadPoolExecutor(8) as ex:
         pages = list(ex.map(lambda u: fetch_html(u, timeout=6), urls))
     others = [(domain(u), u, article_text(pg)) for u, pg in zip(urls, pages)]
-    texts += [t for t in others if len(t[2]) > 800][:RELATED_TEXTS]
+    texts += [t for t in others if len(t[2]) > 800][:related]
     return texts
 
 
 def add_expert_views(env, posts, fast):
     """post["experts"]: topilgan fikrlar ro'yxati; None bo'lsa tekshirib bo'lmadi."""
+    related = RELATED_TEXTS if len(posts) <= 4 else 1  # yangilik ko'p bo'lsa so'rov kichikroq va tezroq bo'lsin
     with ThreadPoolExecutor(len(posts)) as ex:
-        all_texts = list(ex.map(gather_texts, posts))
+        all_texts = list(ex.map(lambda p: gather_texts(p, related), posts))
     blocks = []
     for n, (post, texts) in enumerate(zip(posts, all_texts), 1):
         blocks.append(f"=== YANGILIK {n}: {post['orig_title']}")
@@ -544,7 +554,7 @@ def add_expert_views(env, posts, fast):
 
 # Tugma har bir xabarga biriktiriladi: tugmali xabar o'chirilsa ham, keyingisi uni qaytaradi.
 BUTTON = "🗞 Hozirgi yangiliklar"
-VIDEO_BUTTON = "🎬 AI video"
+VIDEO_BUTTON = "🎬 Video · Rasm · Musiqa"
 KEYBOARD = {"keyboard": [[{"text": BUTTON}, {"text": VIDEO_BUTTON}]], "resize_keyboard": True, "is_persistent": True}
 
 
@@ -800,11 +810,13 @@ def release_lock():
 
 
 def choose_posts(posts, only_video=False):
-    """Yuboriladiganlar: AI video yangiliklarining hammasi (MAX_VIDEO tagacha) + qolgan AI'dan eng muhim
-    MAX_OTHER tasi. Gemini muhimlik bo'yicha tartiblagan, tartib saqlanadi."""
-    video = [p for p in posts if p["soha"] == "AI video"][:MAX_VIDEO]
-    other = [] if only_video else [p for p in posts if p["soha"] != "AI video"][:MAX_OTHER]
-    return [p for p in posts if p in video or p in other]
+    """Yuboriladiganlar: tanlovlar va g'oliblar (hammasi, birinchi) + AI video/rasm/musiqa yangiliklari
+    (MAX_MEDIA tagacha) + qolgan AI'dan MAX_OTHER tasi. Qolgan tartib Gemini'niki (muhimlik).
+    only_video: "🎬 Video · Rasm · Musiqa" tugmasi, faqat generativ media."""
+    contests = [p for p in posts if p["soha"] == "AI tanlov"]
+    media = [p for p in posts if p["soha"] in MEDIA][:MAX_MEDIA]
+    other = [] if only_video else [p for p in posts if p["soha"] not in MEDIA + ("AI tanlov",)][:MAX_OTHER]
+    return contests + [p for p in posts if p in media or p in other]
 
 
 def run_digest(env, dry=False, fast=False, extra_chats=(), mavzu=None):
@@ -839,7 +851,8 @@ def run_digest(env, dry=False, fast=False, extra_chats=(), mavzu=None):
     posts = build_posts(result, candidates)
     log.info("Tanlandi: %d ta", len(posts))
     posts = choose_posts(posts, only_video=mavzu == "video")
-    log.info("Yuboriladi: %d ta (AI video: %d)", len(posts), sum(p["soha"] == "AI video" for p in posts))
+    log.info("Yuboriladi: %d ta (tanlov: %d, video/rasm/musiqa: %d)", len(posts),
+             sum(p["soha"] == "AI tanlov" for p in posts), sum(p["soha"] in MEDIA for p in posts))
     if posts:  # mutaxassislar fikri faqat yuboriladiganlar uchun qidiriladi
         with ThreadPoolExecutor(len(posts)) as ex:
             for post, page in zip(posts, ex.map(lambda p: fetch_html(p["link"]), posts)):
@@ -932,7 +945,7 @@ def listen(env):
                 elif text.startswith("/start"):
                     tg(env, "sendMessage", {
                         "chat_id": env["TELEGRAM_CHAT_ID"], "reply_markup": KEYBOARD,
-                        "text": "Yangiliklar har 3 soatda keladi. Oldinroq ko'rmoqchi bo'lsangiz, "
+                        "text": "AI yangiliklari har 2 soatda keladi. Oldinroq ko'rmoqchi bo'lsangiz, "
                                 "pastdagi «" + BUTTON + "» tugmasini bosing."})
         except Exception as e:
             log.warning("Tinglashda xato: %s", e)

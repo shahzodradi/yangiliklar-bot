@@ -1,9 +1,9 @@
-# Yangiliklar bot (faqat AI)
+# AI Video Yangiliklar (content maker uchun)
 
-Faqat sun'iy intellekt yangiliklari, asosiy urg'u AI video: Seedance, Kling, Veo, Sora, Runway, Hailuo, Pika, Luma,
-Higgsfield va boshqalardagi har bir yangilik, o'sish, reyting, tanlov va festival g'oliblari.
-Har safar: AI video yangiliklarining hammasi (6 tagacha) + qolgan AI'dan eng muhim 2 tasi. 31 ta manba
-(AI saytlari + model nomlari bo'yicha Bing News qidiruvlari, AI video uchun 72 soatlik).
+Faqat generativ AI media: video (Seedance, Kling, Veo, Sora, Runway...), rasm (Midjourney, GPT Image, Nano Banana,
+Flux...) va musiqa (Suno, Udio, Lyria...) generatsiyasidagi har bir yangilik, o'sish, reyting, shu sohalardagi
+tanlov, festival va g'oliblar. Har safar: tanlovlar (hammasi) + video/rasm/musiqa (8 tagacha) + umumiy AI'dan
+content maker uchun foydali 1 ta. 56 ta manba (AI saytlari + Bing News qidiruvlari: media 72 soatlik, tanlovlar 7 kunlik).
 Gemini eng muhimlarini tanlab, o'zbekchaga qisqa qilib yozadi va Telegram'ga yuboradi (@yangiliklaraivabiznes_bot).
 Har yangilik: rasm, qisqa mazmun, mustaqil mutaxassislar fikri va "nimaga olib kelishi mumkin".
 Mutaxassislar fikri haqiqiy maqolalardan olinadi (asl maqola + Bing News topgan Reuters, Yahoo Finance va h.k.),
@@ -11,7 +11,8 @@ har bir fikr yonida manba havolasi bor. Kompaniyaning o'z odamlari, bitim ishtir
 
 ## Qayerda ishlaydi (kompyuter o'chiq bo'lsa ham)
 - **GitHub Actions** (`.github/workflows/yangiliklar.yml`, repo: shahzodradi/yangiliklar-bot, private):
-  Toshkent vaqti bilan 08, 11, 14, 17, 20, 23 da bugungi yangiliklardan eng muhim 3 tasini yuboradi.
+  Toshkent vaqti bilan har 2 soatda (08:00–24:00): AI video tanlovlari va g'oliblari (hammasi), AI video yangiliklari
+  (6 tagacha) va umumiy AI'dan 2 ta.
   `holat.json` (yuborilganlar) har ishdan keyin repo'ga saqlanadi. Kalitlar: GitHub → Settings → Secrets.
 - **Cloudflare Worker** (`cloudflare-worker/`, yangiliklar-tugma.shahzodabdurahmanov0.workers.dev):
   Telegram'dagi **🗞 Hozirgi yangiliklar** tugmasi yoki `/yangiliklar` bosilganda GitHub'dagi botni ishga tushiradi,
@@ -22,7 +23,7 @@ har bir fikr yonida manba havolasi bor. Kompaniyaning o'z odamlari, bitim ishtir
   Guruhda `/yangiliklar@yangiliklaraivabiznes_bot` buyrug'ini egasi yoki guruh admini bera oladi (guruhni ro'yxatga ham qo'shadi).
   Egasining boshqa Telegram akkauntlari: Worker secret `OWNER_IDS`.
 - **Buyruqlar** (shaxsiy chatda tugmalar, guruhda buyruqlar; egasi yoki guruh admini):
-  **🗞 Hozirgi yangiliklar** / `/yangiliklar`: AI yangiliklari hamma chatlarga. **🎬 AI video** / `/video`: faqat AI video,
+  **🗞 Hozirgi yangiliklar** / `/yangiliklar`: AI yangiliklari hamma chatlarga. **🎬 Video · Rasm · Musiqa** / `/video`: faqat generativ media,
   faqat so'ragan chatga (`/ai` ham bor: hamma AI, faqat so'ragan chatga). Mavzu so'rovlari umumiy lentaga ta'sir qilmaydi.
 - Kompyuterdagi eski Task Scheduler vazifalari ("Yangiliklar bot", "Yangiliklar bot tugma") o'chirib qo'yilgan.
 

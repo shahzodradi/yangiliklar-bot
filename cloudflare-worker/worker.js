@@ -10,12 +10,13 @@
 // GITHUB_TOKEN: fine-grained, faqat shu repo, Actions: Read and write.
 
 const BUTTON = '🗞 Hozirgi yangiliklar';
-const VIDEO_BUTTON = '🎬 AI video';
+const VIDEO_BUTTON = '🎬 Video · Rasm · Musiqa';
 const KEYBOARD = {keyboard: [[{text: BUTTON}, {text: VIDEO_BUTTON}]], resize_keyboard: true, is_persistent: true};
 // Buyruq yoki tugma -> mavzu ('' = umumiy AI yangiliklari, hamma chatlarga; ai/video = faqat so'ragan chatga)
-const COMMANDS = {[BUTTON]: '', '/yangiliklar': '', '/ai': 'ai', [VIDEO_BUTTON]: 'video', '/video': 'video'};
+const COMMANDS = {[BUTTON]: '', '/yangiliklar': '', '/ai': 'ai', [VIDEO_BUTTON]: 'video', '/video': 'video',
+                  '🎬 AI video': 'video', '/media': 'video'};  // eski tugma yozuvi ham ishlaydi
 const WAIT_TEXT = {'': "⏳ AI yangiliklari yig'ilyapti, 1-2 daqiqa...", ai: "⏳ AI yangiliklari yig'ilyapti, 1-2 daqiqa...",
-                   video: "⏳ AI video yangiliklari yig'ilyapti, 1-2 daqiqa..."};
+                   video: "⏳ AI video, rasm va musiqa yangiliklari yig'ilyapti, 1-2 daqiqa..."};
 const WORKFLOW = 'yangiliklar.yml';
 
 export default {
@@ -67,10 +68,10 @@ async function handle(update, env) {
     if (inGroup) {
       await dispatchGroup(env, 'qosh', chat.id, chat.title || '');
       await tg(env, 'sendMessage', {chat_id: chat.id,
-        text: "✅ AI yangiliklari shu guruhga ham keladi: har kuni 08:00–23:00 oralig'ida, har 3 soatda."});
+        text: "✅ AI yangiliklari shu guruhga ham keladi: har kuni 08:00–24:00 oralig'ida, har 2 soatda."});
     } else {
       await tg(env, 'sendMessage', {chat_id: chat.id, reply_markup: KEYBOARD,
-        text: `AI yangiliklari har 3 soatda keladi. Oldinroq ko'rmoqchi bo'lsangiz «${BUTTON}», faqat AI video uchun «${VIDEO_BUTTON}» tugmasini bosing.`});
+        text: `AI yangiliklari har 2 soatda keladi. Oldinroq ko'rmoqchi bo'lsangiz «${BUTTON}», faqat AI video, rasm va musiqa uchun «${VIDEO_BUTTON}» tugmasini bosing.`});
     }
   }
 }
@@ -105,7 +106,7 @@ async function handleMembership(m, env) {
       return;
     }
     await tg(env, 'sendMessage', {chat_id: chat.id,
-      text: "✅ AI yangiliklari endi shu guruhga ham keladi: har kuni 08:00–23:00 oralig'ida, har 3 soatda."});
+      text: "✅ AI yangiliklari endi shu guruhga ham keladi: har kuni 08:00–24:00 oralig'ida, har 2 soatda."});
     await tg(env, 'sendMessage', {chat_id: env.TELEGRAM_CHAT_ID, text: `✅ «${name}» guruhi ro'yxatga qo'shildi.`});
     await dispatchGroup(env, 'qosh', chat.id, chat.title || '');
   } else if (was && !now) {

@@ -1,16 +1,17 @@
-Faqat sun'iy intellekt (AI) yangiliklari kerak, boshqa hech narsa.
-Eng muhimi AI video: video generatsiyadagi har bir yangilik, o'sish va g'alaba menga kerak.
+Men AI video content maker'man: AI bilan video, rasm va musiqa yarataman.
+Menga faqat shu sohaga oid AI yangiliklari kerak va shart, boshqa hech narsa.
 
-Qiziq:
+Qiziq (har biri, hammasi):
 - AI video: Seedance, Kling, Veo, Sora, Runway, Hailuo, Pika, Luma, Higgsfield, Wan, Midjourney video, Adobe Firefly
-  va boshqalar: yangi modellar va versiyalar, funksiyalar, narxlar, foydalanuvchilar va daromad o'sishi,
-  investitsiyalar, reytinglar (video arenalardagi o'rinlar), tanlov va festival g'oliblari (kim nima yutdi),
-  AI filmlar va kliplar
-- AI modellar va vositalar: OpenAI, Anthropic, Google, Meta, xAI, xitoy laboratoriyalarining yangi modellari,
-  rasm va ovoz AI
-- AI kompaniyalari: yirik bitimlar, investitsiyalar, muhim qarorlar, qonunlar
+- AI rasm: Midjourney, GPT Image, Nano Banana, Flux, Ideogram, Leonardo, Krea, Firefly
+- AI musiqa: Suno, Udio, ElevenLabs music, Google Lyria
+  Ularning yangi modellari va versiyalari, funksiyalari, narxlari, foydalanuvchi va daromad o'sishi, investitsiyalari,
+  reytinglari (arenalardagi o'rinlar), litsenziya va kelishuvlari, AI filmlar va kliplar
+- tanlovlar va g'oliblar: AI video, rasm, musiqa va film tanlovlari, konkurslar, challenge, hackathon, festivallar,
+  kim nima yutdi
+- umumiy AI'dan faqat content maker uchun foydali narsalar (yangi multimodal modellar, creator vositalari)
 
 Qiziq emas:
-- AI bilan bog'liq bo'lmagan har qanday yangilik (biznes, ilm-fan, ta'lim, siyosat, sport va h.k.)
+- AI bilan bog'liq bo'lmagan har qanday yangilik
+- content yaratishga aloqasi yo'q AI yangiliklari: dasturchilik vositalari, kompaniyalar sotib olishi, chiplar, siyosat
 - promo-kodlar, reklama, "qanday prompt yozish" qo'llanmalari, "eng yaxshi 10 ta" ro'yxatlar
-- sof dasturchilik va kod repozitoriylari
