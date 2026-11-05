@@ -7,7 +7,7 @@ Ishga tushirish:
     python bot.py --chat-id  # botga /start yozgandan keyin chat ID ni .env ga yozadi
     python bot.py --sozla    # token va kalitni kiritish (tekshirib saqlaydi)
     python bot.py --tinglash # Telegram'dagi "Hozirgi yangiliklar" tugmasini kutadi (fon jarayoni)
-    python bot.py --tugma ID CHAT [ai|ilm]  # bulutda: tugma/buyruq (⏳ xabar ID si, u turgan chat, mavzu)
+    python bot.py --tugma ID CHAT [ai|video]  # bulutda: tugma/buyruq (⏳ xabar ID si, u turgan chat, mavzu)
 """
 import calendar
 import html
@@ -21,7 +21,6 @@ import urllib.error
 import urllib.request
 import uuid
 from urllib.parse import parse_qs, urlencode, urljoin, urlparse
-from collections import Counter
 from concurrent.futures import ThreadPoolExecutor
 from logging.handlers import RotatingFileHandler
 from pathlib import Path
@@ -41,18 +40,17 @@ MAX_AGE_HOURS = 24          # bugungi yangiliklar: oxirgi 24 soat
 FALLBACK_AGE_HOURS = 48     # bugungilarning hammasi yuborilgan bo'lsa, shuncha soatgacha olinadi
 SENT_KEEP_HOURS = 36        # takrorlamaslik uchun yuborilgan sarlavhalar shuncha saqlanadi
 PER_SOURCE_LIMIT = 8        # bitta manbadan bir martada ko'pi bilan nechta
-MAX_CANDIDATES = 160        # Gemini'ga yuboriladigan nomzodlar soni
-MAX_PICKS = 3               # bir martada ko'pi bilan nechta yangilik
-SELECT_POOL = 6             # shundan tanlanadi: avval har xil sohalar, keyin mutaxassis fikri borlari
-# Mavzu buyruqlari (/ai, /ilm): faqat shu mavzudagi yangiliklar, faqat so'ragan chatga
+MAX_CANDIDATES = 200        # Gemini'ga yuboriladigan nomzodlar soni
+MAX_VIDEO = 6               # bir martada AI video yangiliklari: hammasi, shuncha tagacha
+MAX_OTHER = 2               # bir martada qolgan AI yangiliklaridan eng muhimlari
+SELECT_POOL = MAX_VIDEO + MAX_OTHER + 1  # Gemini shuncha tagacha tanlaydi
+# Mavzu buyruqlari: faqat shu mavzudagi yangiliklar, faqat so'ragan chatga
 MAVZULAR = {
-    "ai": "Sun'iy intellekt: yangi AI modellar va vositalar, AI kompaniyalari va ularning qarorlari, AI tadqiqotlari, "
-          "AI bitimlari, qonunlari va bozori.",
-    "ilm": "Ilm-fan va yutuqlar: dunyodagi muhim ilmiy kashfiyotlar va natijalar; O'zbekistonlik o'quvchi va "
-           "talabalarning xalqaro olimpiada, tanlov, grant va stipendiyalardagi g'alabalari; chet eldagi o'zbek "
-           "talabalari va dunyodagi talabalarning katta muvaffaqiyatlari; ta'limdagi muhim yangiliklar.",
+    "ai": "Sun'iy intellekt: barcha AI yangiliklari, AI video ham.",
+    "video": "Faqat AI video: video generatsiya modellari va vositalari, yangi versiyalar va funksiyalar, narxlar, "
+             "o'sish va investitsiyalar, reytinglar, tanlov va festival g'oliblari, AI filmlar.",
 }
-SOHALAR = ["AI va texnologiya", "biznes", "ilm-fan", "ta'lim va talabalar", "O'zbekiston", "boshqa"]
+SOHALAR = ["AI video", "AI"]
 SEEN_KEEP_DAYS = 10
 GEMINI_BASE = "https://generativelanguage.googleapis.com/v1beta"
 # Asosiy model sifatliroq, lekin bepul tarifda 1-3 daqiqa javob beradi (bot fonda ishlaydi, muammo emas).
@@ -153,8 +151,9 @@ def read_sources():
     for line in SOURCES_FILE.read_text(encoding="utf-8").splitlines():
         line = line.strip()
         if line and not line.startswith("#") and "|" in line:
-            name, url = (p.strip() for p in line.split("|", 1))
-            out.append((name, url))
+            parts = [p.strip() for p in line.split("|")]
+            max_age = int(parts[2]) if len(parts) > 2 and parts[2].isdigit() else None
+            out.append((parts[0], parts[1], max_age))
     return out
 
 
@@ -185,7 +184,7 @@ def feed_image(e):
 
 
 def fetch_source(src):
-    name, url = src
+    name, url, max_age = (tuple(src) + (None,))[:3]
     try:
         raw = http(url, headers={"Accept": "application/rss+xml, application/atom+xml, application/xml, */*"},
                    timeout=20, retries=1)
@@ -198,9 +197,14 @@ def fetch_source(src):
         link = e.get("link")
         if not link:
             continue
+        source = name
+        if "bing.com/news/apiclick" in link:  # Bing qidiruvi: asl maqola havolasi va nashr nomi
+            link = parse_qs(urlparse(link).query).get("url", [link])[0]
+            source = domain(link)
         ts = e.get("published_parsed") or e.get("updated_parsed")
         items.append({
-            "source": name,
+            "source": source,
+            "max_age": max_age,
             "link": link,
             "title": clean(e.get("title"), 200),
             "summary": clean(e.get("summary") or e.get("description"), 300),
@@ -220,7 +224,8 @@ def pick_candidates(fetched, exclude, max_age_hours):
     now = time.time()
     by_source = {}
     for i in fetched:
-        if i["link"] not in exclude and (i["ts"] is None or now - i["ts"] < max_age_hours * 3600):
+        limit = max(max_age_hours, i.get("max_age") or 0)
+        if i["link"] not in exclude and (i["ts"] is None or now - i["ts"] < limit * 3600):
             by_source.setdefault(i["source"], []).append(i)
     candidates = []
     for items in by_source.values():
@@ -238,15 +243,17 @@ O'QUVCHI QIZIQISHLARI:
 {profile}
 {mavzu}
 VAZIFA:
-1. Ro'yxatdan shu sohalardagi eng muhim {max_picks} ta yangilikni tanla: dunyoda nima bo'layotganini
-   bilish uchun kerak bo'ladiganlarini. Har doim {max_picks} ta qaytar (ro'yxatda kamroq bo'lsa, borini),
-   eng muhimidan boshlab tartiblab; bo'sh ro'yxat qaytarma. Har biriga 1-10 baho qo'y.
-   Sohalar aralash bo'lsin: imkon qadar har xil sohalardan tanla (AI va texnologiya, biznes, ilm-fan,
-   ta'lim va talabalar, O'zbekiston).
+1. Ro'yxatdan FAQAT sun'iy intellektga oid yangiliklarni tanla, boshqa hech narsa olma.
+   AI VIDEO (video generatsiya modellari va vositalari: Seedance, Kling, Veo, Sora, Runway, Hailuo, Pika, Luma,
+   Higgsfield, Wan, Midjourney video, Firefly va h.k.: yangi modellar va versiyalar, funksiyalar, narxlar,
+   foydalanuvchilar va daromad o'sishi, investitsiyalar, reytinglar va arenalardagi o'rinlar, tanlov va festival
+   g'oliblari, AI filmlar) bo'yicha HAR BIR alohida voqeani qaytar, {video_max} tagacha.
+   Qolgan AI yangiliklaridan eng muhim {other_max} tasini qaytar. Muhimlik bo'yicha tartibla, bo'sh ro'yxat qaytarma.
+   Har biriga 1-10 baho qo'y.
    Bir voqea haqidagi takror maqolalardan faqat bittasini ol. "BUGUN YUBORILGAN" ro'yxatidagi voqealarni
    boshqa nashrdan bo'lsa ham qayta olma.
-   Maslahat maqolalari, qo'llanmalar, "eng yaxshi 10 ta" ro'yxatlar va reklamani olma.
-   Kod repozitoriylarini (GitHub sahifalari) olma: ular yangilik emas, ko'pincha boshqa maqoladagi voqeaning takrori.
+   Reklama, promo-kodlar, "qanday prompt yozish" qo'llanmalari, "eng yaxshi 10 ta" ro'yxatlar, eski voqealarni
+   eslatuvchi sharhlar va kod repozitoriylarini (GitHub) olma.
 2. Har biri uchun o'zbek tilida (lotin yozuvi, o‘ g‘ va ’ belgilari bilan; maqola rus yoki ingliz tilida
    bo'lsa ham, kirill harflarisiz) yoz:
    - "sarlavha": qisqa, aniq sarlavha (12 so'zgacha), clickbait'siz.
@@ -254,8 +261,7 @@ VAZIFA:
      O'quvchiga murojaat qilma, maslahat berma, o'zingdan tahlil va xulosa qo'shma.
    - "qidiruv": shu voqeani boshqa nashrlardan topish uchun 3-6 so'zli inglizcha qidiruv so'rovi
      (kompaniya, mahsulot va voqea nomlari, masalan "Amazon TorchNeuron Nvidia").
-   - "soha": ro'yxatdagi qiymatlardan biri. O'zbekistonlik o'quvchi va talabalar yutuqlari va ta'lim yangiliklari
-     "ta'lim va talabalar"; O'zbekistonning biznes, iqtisodiyot va texnologiya yangiliklari "O'zbekiston".
+   - "soha": "AI video" (video generatsiyaga oid bo'lsa) yoki "AI" (qolgan AI yangiliklari).
    Brend, mahsulot va kompaniya nomlarini tarjima qilma.
 
 Faqat shu JSON formatda javob ber:
@@ -334,6 +340,7 @@ def ask_gemini(env, candidates, sent_titles, fast=False, mavzu=None):
              "sohalar aralashligi talabi bu safar yo'q. Bo'sh ro'yxat qaytarma: shu mavzudagilar kam bo'lsa, "
              "mavzuga eng yaqinlarini ol.\n") if mavzu else ""
     prompt = PROMPT.format(profile=PROFILE_FILE.read_text(encoding="utf-8").strip(), max_picks=SELECT_POOL, mavzu=topic,
+                           video_max=MAX_VIDEO, other_max=MAX_OTHER + 1,
                            sent="\n".join(f"- {t}" for t in sent_titles) or "(hali yo'q)",
                            items=json.dumps(items, ensure_ascii=False))
     return ask_models(env, prompt, RESPONSE_SCHEMA, fast)
@@ -349,7 +356,7 @@ TRUSTED = ("reuters.com", "bloomberg.com", "cnbc.com", "ft.com", "wsj.com", "nyt
            "forbes.com", "semafor.com", "theinformation.com", "marketwatch.com", "yahoo.com", "scmp.com",
            "channelnewsasia.com", "engadget.com", "zdnet.com", "technologyreview.com", "barrons.com",
            "nikkei.com", "fastcompany.com", "theregister.com", "spot.uz", "gazeta.uz", "kun.uz", "daryo.uz")
-RELATED_TEXTS = 3  # asl maqoladan tashqari nechta nashr o'qiladi
+RELATED_TEXTS = 2  # asl maqoladan tashqari nechta nashr o'qiladi
 SEARCH_SITES = ("reuters.com", "cnbc.com", "bloomberg.com", "ft.com", "theverge.com", "techcrunch.com", "fortune.com",
                 "businessinsider.com", "axios.com", "apnews.com", "bbc.com", "theguardian.com", "yahoo.com",
                 "wired.com", "forbes.com")
@@ -537,10 +544,8 @@ def add_expert_views(env, posts, fast):
 
 # Tugma har bir xabarga biriktiriladi: tugmali xabar o'chirilsa ham, keyingisi uni qaytaradi.
 BUTTON = "🗞 Hozirgi yangiliklar"
-AI_BUTTON = "🤖 AI yangiliklari"
-ILM_BUTTON = "🔬 Ilm va yutuqlar"
-KEYBOARD = {"keyboard": [[{"text": BUTTON}], [{"text": AI_BUTTON}, {"text": ILM_BUTTON}]],
-            "resize_keyboard": True, "is_persistent": True}
+VIDEO_BUTTON = "🎬 AI video"
+KEYBOARD = {"keyboard": [[{"text": BUTTON}, {"text": VIDEO_BUTTON}]], "resize_keyboard": True, "is_persistent": True}
 
 
 def tg(env, method, data=None, timeout=30, retries=2):
@@ -794,18 +799,12 @@ def release_lock():
     LOCK_FILE.unlink(missing_ok=True)
 
 
-def choose_posts(posts, recent=None):
-    """MAX_PICKS tasini tanlaydi: har xil sohalardan; so'nggi 24 soatda kam yuborilgan soha ustun,
-    soha ichida mutaxassis fikri borlari ustun, qolgani muhimlik tartibida."""
-    recent = recent or {}
-    ranked = sorted(posts, key=lambda p: (p["soha"] == "boshqa", recent.get(p["soha"], 0), not p["experts"]))
-    chosen, used = [], set()
-    for p in ranked:
-        if p["soha"] not in used and len(chosen) < MAX_PICKS:
-            chosen.append(p)
-            used.add(p["soha"])
-    chosen += [p for p in ranked if p not in chosen][:MAX_PICKS - len(chosen)]
-    return chosen
+def choose_posts(posts, only_video=False):
+    """Yuboriladiganlar: AI video yangiliklarining hammasi (MAX_VIDEO tagacha) + qolgan AI'dan eng muhim
+    MAX_OTHER tasi. Gemini muhimlik bo'yicha tartiblagan, tartib saqlanadi."""
+    video = [p for p in posts if p["soha"] == "AI video"][:MAX_VIDEO]
+    other = [] if only_video else [p for p in posts if p["soha"] != "AI video"][:MAX_OTHER]
+    return [p for p in posts if p in video or p in other]
 
 
 def run_digest(env, dry=False, fast=False, extra_chats=(), mavzu=None):
@@ -839,16 +838,16 @@ def run_digest(env, dry=False, fast=False, extra_chats=(), mavzu=None):
 
     posts = build_posts(result, candidates)
     log.info("Tanlandi: %d ta", len(posts))
-    if posts:
+    posts = choose_posts(posts, only_video=mavzu == "video")
+    log.info("Yuboriladi: %d ta (AI video: %d)", len(posts), sum(p["soha"] == "AI video" for p in posts))
+    if posts:  # mutaxassislar fikri faqat yuboriladiganlar uchun qidiriladi
         with ThreadPoolExecutor(len(posts)) as ex:
             for post, page in zip(posts, ex.map(lambda p: fetch_html(p["link"]), posts)):
                 post["page"] = page
         add_expert_views(env, posts, fast)
-        recent = None if mavzu else Counter(x.get("soha") for x in state.get("sent", []) if time.time() - x["t"] < 86400)
-        posts = [p for p in posts if p in choose_posts(posts, recent)]  # yuborish tartibi muhimlik bo'yicha qoladi
         for post in posts:
             post["caption"] = make_caption(post)
-    with ThreadPoolExecutor(MAX_PICKS) as ex:
+    with ThreadPoolExecutor(max(len(posts), 1)) as ex:
         images = list(ex.map(find_image, posts))
     if dry:
         for post, (url, _) in zip(posts, images):

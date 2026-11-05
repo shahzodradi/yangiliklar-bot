@@ -1,7 +1,9 @@
-# Yangiliklar bot
+# Yangiliklar bot (faqat AI)
 
-AI, texnologiya, biznes, ilm-fan, ta'lim (o'quvchi va talabalar yutuqlari ham) va O'zbekiston yangiliklarini 37 ta manbadan yig'adi.
-Har safar 3 ta yangilik har xil sohadan keladi, so'nggi 24 soatda kam yuborilgan soha ustun.
+Faqat sun'iy intellekt yangiliklari, asosiy urg'u AI video: Seedance, Kling, Veo, Sora, Runway, Hailuo, Pika, Luma,
+Higgsfield va boshqalardagi har bir yangilik, o'sish, reyting, tanlov va festival g'oliblari.
+Har safar: AI video yangiliklarining hammasi (6 tagacha) + qolgan AI'dan eng muhim 2 tasi. 31 ta manba
+(AI saytlari + model nomlari bo'yicha Bing News qidiruvlari, AI video uchun 72 soatlik).
 Gemini eng muhimlarini tanlab, o'zbekchaga qisqa qilib yozadi va Telegram'ga yuboradi (@yangiliklaraivabiznes_bot).
 Har yangilik: rasm, qisqa mazmun, mustaqil mutaxassislar fikri va "nimaga olib kelishi mumkin".
 Mutaxassislar fikri haqiqiy maqolalardan olinadi (asl maqola + Bing News topgan Reuters, Yahoo Finance va h.k.),
@@ -19,10 +21,9 @@ har bir fikr yonida manba havolasi bor. Kompaniyaning o'z odamlari, bitim ishtir
   Faqat siz qo'shgan guruhlar hisobga olinadi: begona qo'shsa, bot o'sha guruhdan chiqib ketadi.
   Guruhda `/yangiliklar@yangiliklaraivabiznes_bot` buyrug'ini egasi yoki guruh admini bera oladi (guruhni ro'yxatga ham qo'shadi).
   Egasining boshqa Telegram akkauntlari: Worker secret `OWNER_IDS`.
-- **Mavzu buyruqlari** (shaxsiy chatda tugmalar, guruhda buyruqlar; egasi yoki guruh admini):
-  `/ai` yoki **🤖 AI yangiliklari**: faqat sun'iy intellekt. `/ilm` yoki **🔬 Ilm va yutuqlar**: ilm-fan kashfiyotlari,
-  o'quvchi va talabalar yutuqlari, ta'lim. Bu yangiliklar faqat so'ragan chatga keladi va umumiy lentaga ta'sir qilmaydi
-  (`holat.json` dagi `mavzu` bo'limi).
+- **Buyruqlar** (shaxsiy chatda tugmalar, guruhda buyruqlar; egasi yoki guruh admini):
+  **🗞 Hozirgi yangiliklar** / `/yangiliklar`: AI yangiliklari hamma chatlarga. **🎬 AI video** / `/video`: faqat AI video,
+  faqat so'ragan chatga (`/ai` ham bor: hamma AI, faqat so'ragan chatga). Mavzu so'rovlari umumiy lentaga ta'sir qilmaydi.
 - Kompyuterdagi eski Task Scheduler vazifalari ("Yangiliklar bot", "Yangiliklar bot tugma") o'chirib qo'yilgan.
 
 ## Fayllar

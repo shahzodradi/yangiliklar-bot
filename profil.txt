@@ -1,21 +1,16 @@
-Dunyoda texnologiya, AI, biznes, o'sish (startaplar, marketing), ilm-fan va ta'lim sohasida nimalar bo'layotganidan xabardor bo'lib turmoqchiman.
-Biznesga oid har qanday muhim yangilik menga kerak.
+Faqat sun'iy intellekt (AI) yangiliklari kerak, boshqa hech narsa.
+Eng muhimi AI video: video generatsiyadagi har bir yangilik, o'sish va g'alaba menga kerak.
 
 Qiziq:
-- AI: yangi modellar va vositalar, katta yangilanishlar (OpenAI, Anthropic, Google, Meta, xAI, xitoy laboratoriyalari va h.k.)
-- video va rasm AI: Seedance, Kling, Runway, Veo, Sora, Midjourney va shunga o'xshashlar
-- katta texnologik kompaniyalar: yangi mahsulotlar, qurilmalar, muhim qarorlar, yirik bitimlar
-- ijtimoiy tarmoqlar: Instagram, TikTok, YouTube, Telegram, X'dagi yangi funksiyalar va o'zgarishlar
-- biznes: kompaniyalar, bozorlar, yirik bitimlar va qo'shib olishlar, daromad hisobotlari, iqtisodiyot, savdo, narxlar, bank va moliya
-- o'sish: startaplar va investitsiyalar, tez o'sayotgan kompaniyalar, reklama va marketing bozoridagi o'zgarishlar
-- O'zbekistondagi biznes, iqtisodiyot, texnologiya, telekom, startap va IT yangiliklari
-- ilm-fan: dunyodagi muhim ilmiy kashfiyotlar va natijalar (tibbiyot, kosmos, fizika, biologiya, iqlim, AI tadqiqotlari)
-- ta'lim: O'zbekiston va dunyodagi ta'lim yangiliklari, universitetlar, grantlar, stipendiyalar, xalqaro talabalar
-- o'quvchi va talabalar yutuqlari: O'zbekistonlik o'quvchi va talabalarning xalqaro olimpiada, tanlov va grantlardagi
-  g'alabalari; chet eldagi o'zbek talabalari va dunyodagi talabalarning katta muvaffaqiyatlari
+- AI video: Seedance, Kling, Veo, Sora, Runway, Hailuo, Pika, Luma, Higgsfield, Wan, Midjourney video, Adobe Firefly
+  va boshqalar: yangi modellar va versiyalar, funksiyalar, narxlar, foydalanuvchilar va daromad o'sishi,
+  investitsiyalar, reytinglar (video arenalardagi o'rinlar), tanlov va festival g'oliblari (kim nima yutdi),
+  AI filmlar va kliplar
+- AI modellar va vositalar: OpenAI, Anthropic, Google, Meta, xAI, xitoy laboratoriyalarining yangi modellari,
+  rasm va ovoz AI
+- AI kompaniyalari: yirik bitimlar, investitsiyalar, muhim qarorlar, qonunlar
 
 Qiziq emas:
-- siyosat va sud janjallari (agar biznes yoki texnologiyaga katta ta'sir qilmasa)
-- sport, shou-biznes, jinoyat
-- maslahat maqolalari, "qanday qilish kerak" qo'llanmalar, reklama
-- sof dasturchilik; ilmiy maqolalarning faqat mutaxassis tushunadigan texnik tafsilotlari (kashfiyotning o'zi qiziq)
+- AI bilan bog'liq bo'lmagan har qanday yangilik (biznes, ilm-fan, ta'lim, siyosat, sport va h.k.)
+- promo-kodlar, reklama, "qanday prompt yozish" qo'llanmalari, "eng yaxshi 10 ta" ro'yxatlar
+- sof dasturchilik va kod repozitoriylari

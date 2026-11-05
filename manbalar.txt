@@ -1,56 +1,81 @@
-# Yangiliklar manbalari: har qatorda "Nomi | RSS havola"
-# Qator boshiga # qo'ysangiz, o'sha manba o'chadi.
+# Yangiliklar manbalari: har qatorda "Nomi | RSS havola | soat" (soat ixtiyoriy: shu manbadan necha
+# soatlik yangilik olinadi, standart 24). Qator boshiga # qo'ysangiz, o'sha manba o'chadi.
+# Bot faqat AI yangiliklari uchun: asosiy urg'u AI video.
 
-# --- AI va texnologiya ---
+# --- AI video (yangiliklari kam chiqadi, shuning uchun 72 soatlik) ---
+Video: AI video generator | https://www.bing.com/news/search?q=AI+video+generator&format=rss&setlang=en | 72
+Video: Seedance | https://www.bing.com/news/search?q=Seedance+ByteDance+video&format=rss&setlang=en | 72
+Video: Kling | https://www.bing.com/news/search?q=Kuaishou+Kling&format=rss&setlang=en | 72
+Video: Kling model | https://www.bing.com/news/search?q=Kling+3.0&format=rss&setlang=en | 72
+Video: Veo | https://www.bing.com/news/search?q=Google+Veo+video+model&format=rss&setlang=en | 72
+Video: Sora | https://www.bing.com/news/search?q=OpenAI+Sora+video&format=rss&setlang=en | 72
+Video: Runway | https://www.bing.com/news/search?q=Runway+AI+video&format=rss&setlang=en | 72
+Video: Hailuo | https://www.bing.com/news/search?q=Hailuo+MiniMax+video&format=rss&setlang=en | 72
+Video: Pika | https://www.bing.com/news/search?q=Pika+Labs&format=rss&setlang=en | 72
+Video: Luma | https://www.bing.com/news/search?q=Luma+AI+Dream+Machine&format=rss&setlang=en | 72
+Video: Higgsfield | https://www.bing.com/news/search?q=Higgsfield+AI&format=rss&setlang=en | 72
+Video: Wan | https://www.bing.com/news/search?q=Alibaba+Wan+video+model&format=rss&setlang=en | 72
+Video: Midjourney | https://www.bing.com/news/search?q=Midjourney+video&format=rss&setlang=en | 72
+Video: Firefly | https://www.bing.com/news/search?q=Adobe+Firefly+video&format=rss&setlang=en | 72
+Video: festivallar | https://www.bing.com/news/search?q=AI+film+festival+winner&format=rss&setlang=en | 72
+Video: tanlovlar | https://www.bing.com/news/search?q=AI+short+film+competition+winner&format=rss&setlang=en | 72
+Video: reytinglar | https://www.bing.com/news/search?q=text-to-video+leaderboard+arena&format=rss&setlang=en | 72
+Video: investitsiyalar | https://www.bing.com/news/search?q=AI+video+startup+funding&format=rss&setlang=en | 72
+Curious Refuge | https://curiousrefuge.com/blog?format=rss | 72
+
+# --- AI: modellar, kompaniyalar, vositalar ---
 TechCrunch AI | https://techcrunch.com/category/artificial-intelligence/feed/
 The Verge AI | https://www.theverge.com/rss/ai-artificial-intelligence/index.xml
 The Decoder | https://the-decoder.com/feed/
 VentureBeat AI | https://venturebeat.com/category/ai/feed/
 MIT Tech Review | https://www.technologyreview.com/topic/artificial-intelligence/feed
 Wired AI | https://www.wired.com/feed/tag/ai/latest/rss
-Hacker News | https://hnrss.org/frontpage?points=250
 OpenAI | https://openai.com/news/rss.xml
 Google AI | https://blog.google/technology/ai/rss/
 Hugging Face | https://huggingface.co/blog/feed.xml
 Ben's Bites | https://www.bensbites.com/feed
-Product Hunt | https://www.producthunt.com/feed
-
-# --- Ijtimoiy tarmoqlar, creator'lar, marketing ---
-Social Media Today | https://www.socialmediatoday.com/feeds/news/
-TechCrunch Social | https://techcrunch.com/category/social/feed/
-The Verge Creators | https://www.theverge.com/rss/creators/index.xml
 Meta Newsroom | https://about.fb.com/feed/
+TechCrunch Venture | https://techcrunch.com/category/venture/feed/
+# Hacker News | https://hnrss.org/frontpage?points=250
+# Product Hunt | https://www.producthunt.com/feed
+
+# --- O'chirilgan (bot faqat AI uchun bo'lgach, 2026-11-05) ---
+# --- Ijtimoiy tarmoqlar, creator'lar, marketing ---
+# Social Media Today | https://www.socialmediatoday.com/feeds/news/
+# TechCrunch Social | https://techcrunch.com/category/social/feed/
+# The Verge Creators | https://www.theverge.com/rss/creators/index.xml
+# Meta Newsroom | https://about.fb.com/feed/
 # Buffer | https://buffer.com/resources/rss/
 
 # --- O'sish: startaplar, investitsiyalar ---
-TechCrunch Startups | https://techcrunch.com/category/startups/feed/
-TechCrunch Venture | https://techcrunch.com/category/venture/feed/
+# TechCrunch Startups | https://techcrunch.com/category/startups/feed/
+# TechCrunch Venture | https://techcrunch.com/category/venture/feed/
 # Lenny's Newsletter | https://www.lennysnewsletter.com/feed
 # Andrew Chen | https://andrewchen.substack.com/feed
 
 # --- Biznes va iqtisodiyot ---
-BBC Business | https://feeds.bbci.co.uk/news/business/rss.xml
-CNBC Business | https://www.cnbc.com/id/10001147/device/rss/rss.html
-Financial Times | https://www.ft.com/rss/home
-Fortune | https://fortune.com/feed/
-NYT Business | https://rss.nytimes.com/services/xml/rss/nyt/Business.xml
-Business Insider | https://feeds.businessinsider.com/custom/all
+# BBC Business | https://feeds.bbci.co.uk/news/business/rss.xml
+# CNBC Business | https://www.cnbc.com/id/10001147/device/rss/rss.html
+# Financial Times | https://www.ft.com/rss/home
+# Fortune | https://fortune.com/feed/
+# NYT Business | https://rss.nytimes.com/services/xml/rss/nyt/Business.xml
+# Business Insider | https://feeds.businessinsider.com/custom/all
 
 # --- Ilm-fan: dunyodagi kashfiyotlar va natijalar ---
-ScienceDaily | https://www.sciencedaily.com/rss/top/science.xml
-New Scientist | https://www.newscientist.com/feed/home/
-Phys.org | https://phys.org/rss-feed/
-BBC Science | https://feeds.bbci.co.uk/news/science_and_environment/rss.xml
-Nature | https://www.nature.com/nature.rss
-Quanta Magazine | https://www.quantamagazine.org/feed/
+# ScienceDaily | https://www.sciencedaily.com/rss/top/science.xml
+# New Scientist | https://www.newscientist.com/feed/home/
+# Phys.org | https://phys.org/rss-feed/
+# BBC Science | https://feeds.bbci.co.uk/news/science_and_environment/rss.xml
+# Nature | https://www.nature.com/nature.rss
+# Quanta Magazine | https://www.quantamagazine.org/feed/
 
 # --- Ta'lim va talabalar ---
-BBC Education | https://feeds.bbci.co.uk/news/education/rss.xml
-The PIE News | https://thepienews.com/feed/
+# BBC Education | https://feeds.bbci.co.uk/news/education/rss.xml
+# The PIE News | https://thepienews.com/feed/
 
 # --- O'zbekiston (biznes, ta'lim, o'quvchi va talabalar yutuqlari) ---
-Spot.uz | https://www.spot.uz/rss
-Gazeta.uz | https://www.gazeta.uz/oz/rss/
-Kun.uz | https://kun.uz/news/rss
-Daryo | https://daryo.uz/feed/
-UzA | https://uza.uz/uz/rss
+# Spot.uz | https://www.spot.uz/rss
+# Gazeta.uz | https://www.gazeta.uz/oz/rss/
+# Kun.uz | https://kun.uz/news/rss
+# Daryo | https://daryo.uz/feed/
+# UzA | https://uza.uz/uz/rss
