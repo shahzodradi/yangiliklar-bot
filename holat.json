@@ -1,8 +1,5 @@
 {
  "seen": {
-  "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/": 1793029585.2413666,
-  "https://the-decoder.com/meta-plans-up-to-95-billion-in-stock-sales-to-fund-its-ai-buildout/": 1793029585.2413666,
-  "https://www.sciencedaily.com/releases/2026/10/261025073034.htm": 1793029585.2413666,
   "https://the-decoder.com/toyota-is-betting-6-4-billion-a-year-on-humanoid-robots-and-factory-automation/": 1793052722.4625688,
   "https://www.sciencedaily.com/releases/2026/10/261025073036.htm": 1793052722.4625688,
   "https://www.gazeta.uz/oz/2026/10/26/cinema/": 1793052722.4625688,
@@ -91,7 +88,7 @@
   "https://allhiphop.com/news/youtube-expands-ai-music-replacement/": 1793871139.985343,
   "https://note.com/labubu188/n/n17e24bdca187?hl=en": 1793871139.985343
  },
- "fails": 0,
+ "fails": 1,
  "sent": [
   {
    "t": 1793787535.564443,
