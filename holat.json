@@ -80,9 +80,18 @@
   "https://www.newscientist.com/article/2595321-the-nuclear-repository-in-finland-designed-to-outlast-modern-civilisation/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS": 1793787535.564443,
   "https://the-decoder.com/gpt-6-astra-sees-the-matrix-and-reprograms-other-ai-models-directly-through-their-weights/": 1793819495.5311983,
   "https://www.cnbc.com/2026/11/04/cvs-to-split-off-drugstore-business.html": 1793819495.5311983,
-  "https://www.sciencedaily.com/releases/2026/11/261104004909.htm": 1793819495.5311983
+  "https://www.sciencedaily.com/releases/2026/11/261104004909.htm": 1793819495.5311983,
+  "https://www.desmoinesregister.com/press-release/story/146151/rextrix-proud-sponsor-official-global-online-partner-of-the-2026-silicon-valley-ai-film-festival/": 1793871139.985343,
+  "https://note.com/apsis_loki/n/ncb923312de77?hl=en": 1793871139.985343,
+  "https://note.com/chihirodesign/n/n1c0c71dae0d1?hl=en": 1793871139.985343,
+  "http://en.tmtpost.com/post/8193017": 1793871139.985343,
+  "https://en.koreadaily.com/suno-vinyl-ai-music-records/": 1793871139.985343,
+  "https://www.bloomberg.com/news/articles/2026-11-03/runway-ai-says-arr-set-to-double-to-450-million-by-end-of-year": 1793871139.985343,
+  "https://www.usatoday.com/press-release/story/55738/beatmelo-unveils-a-redesigned-ai-music-video-studio-for-creators/": 1793871139.985343,
+  "https://allhiphop.com/news/youtube-expands-ai-music-replacement/": 1793871139.985343,
+  "https://note.com/labubu188/n/n17e24bdca187?hl=en": 1793871139.985343
  },
- "fails": 1,
+ "fails": 0,
  "sent": [
   {
    "t": 1793787535.564443,
@@ -113,6 +122,51 @@
    "t": 1793819495.5311983,
    "title": "AI helps Stanford scientists discover a “natural Ozempic” with a surprising advantage",
    "soha": "ilm-fan"
+  },
+  {
+   "t": 1793871139.985343,
+   "title": "RexTrix: Proud Sponsor & Official Global Online Partner of the 2026 Silicon Valley AI Film Festival",
+   "soha": "AI tanlov"
+  },
+  {
+   "t": 1793871139.985343,
+   "title": "OpenAI's Latest Image Model Images 2.6 Released [OpenAI Latest News 2026.11.05]",
+   "soha": "AI rasm"
+  },
+  {
+   "t": 1793871139.985343,
+   "title": "SUNO adds MIDI support, Adobe Acrobat gets Web search AI, Canon creates 3D models from a single photo, GitHub Copilot Fusion officially released [Creative AI Digest No.233 2026 ...",
+   "soha": "AI musiqa"
+  },
+  {
+   "t": 1793871139.985343,
+   "title": "Kling’s $18 Billion Private Value Tops Parent Kuaishou’s Market Cap",
+   "soha": "AI video"
+  },
+  {
+   "t": 1793871139.985343,
+   "title": "Suno Vinyl — Turn Your AI-Generated Music into Custom LP Records",
+   "soha": "AI musiqa"
+  },
+  {
+   "t": 1793871139.985343,
+   "title": "Runway AI Says ARR Set to Double to $450 Million by End of Year",
+   "soha": "AI video"
+  },
+  {
+   "t": 1793871139.985343,
+   "title": "BeatMelo Unveils a Redesigned AI Music & Video Studio for Creators",
+   "soha": "AI musiqa"
+  },
+  {
+   "t": 1793871139.985343,
+   "title": "YouTube Expands AI Music Replacement With A YouTube-Only License",
+   "soha": "AI musiqa"
+  },
+  {
+   "t": 1793871139.985343,
+   "title": "Comparing Kling 4.0 and Kling 3.0 | What has changed with 30-second generation and 10 keyframes?",
+   "soha": "AI video"
   }
  ],
  "mavzu": {
