@@ -1,8 +1,5 @@
 {
  "seen": {
-  "https://minimaxir.com/2026/10/cheap-llms/": 1793003085.912557,
-  "https://www.gazeta.uz/oz/2026/10/26/islomiy-bank/": 1793003085.912557,
-  "https://www.gazeta.uz/oz/2026/10/26/serbia/": 1793003085.912557,
   "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/": 1793029585.2413666,
   "https://the-decoder.com/meta-plans-up-to-95-billion-in-stock-sales-to-fund-its-ai-buildout/": 1793029585.2413666,
   "https://www.sciencedaily.com/releases/2026/10/261025073034.htm": 1793029585.2413666,
@@ -85,53 +82,8 @@
   "https://www.cnbc.com/2026/11/04/cvs-to-split-off-drugstore-business.html": 1793819495.5311983,
   "https://www.sciencedaily.com/releases/2026/11/261104004909.htm": 1793819495.5311983
  },
- "fails": 0,
+ "fails": 1,
  "sent": [
-  {
-   "t": 1793701306.28906,
-   "title": "Palantir posts ‘highest-ever’ revenue growth rate of 96% as investors’ patience rests on a hair trigger",
-   "soha": "biznes"
-  },
-  {
-   "t": 1793701306.28906,
-   "title": "Anthropic warns that it’s very close to RSI capability, aka self-building AI",
-   "soha": "AI va texnologiya"
-  },
-  {
-   "t": 1793701306.28906,
-   "title": "UK to raise HPI visa cap as eligibility expands to top 150 universities",
-   "soha": "ta'lim va talabalar"
-  },
-  {
-   "t": 1793702335.6798816,
-   "title": "Nvidia orders data centre clients to reduce China exposure",
-   "soha": "AI va texnologiya"
-  },
-  {
-   "t": 1793702335.6798816,
-   "title": "Prezident Buxoroda qiymati 136 mln dollardan ortiq kongress xoll va mehmonxonalar qurilishi bilan tanishdi",
-   "soha": "O'zbekiston"
-  },
-  {
-   "t": 1793702335.6798816,
-   "title": "Large Hadron Collider reveals evidence of Big Bang matter in surprisingly small collisions",
-   "soha": "ilm-fan"
-  },
-  {
-   "t": 1793732282.5975866,
-   "title": "OpenAI says ChatGPT is catching up to Google in search",
-   "soha": "AI va texnologiya"
-  },
-  {
-   "t": 1793732282.5975866,
-   "title": "Ferrari raises 2026 guidance after Q3 earnings beat",
-   "soha": "biznes"
-  },
-  {
-   "t": 1793732282.5975866,
-   "title": "All 5 genetic “letters” of DNA and RNA discovered in a 4.5-billion-year-old asteroid",
-   "soha": "ilm-fan"
-  },
   {
    "t": 1793787535.564443,
    "title": "Canada-EU alliance to expand opportunities for students",
