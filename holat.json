@@ -1,8 +1,5 @@
 {
  "seen": {
-  "https://the-decoder.com/anthropic-opens-its-books-for-wall-street-showing-record-revenue-and-mounting-obligations/": 1793090210.074481,
-  "https://www.gazeta.uz/oz/2026/10/27/healthcare-uzb/": 1793090210.074481,
-  "https://daryo.uz/2026/10/27/ozbekistonda-tibbiyot-talabalari-haftasiga-uch-kun-bemorlar-bilan-ishlashni-organadi/": 1793090210.074481,
   "https://www.spot.uz/ru/2026/10/27/ipad-mini/": 1793113457.5440161,
   "https://www.sciencedaily.com/releases/2026/10/261026225603.htm": 1793113457.5440161,
   "https://www.gazeta.uz/oz/2026/10/27/doctors-uzb/": 1793113457.5440161,
@@ -88,25 +85,14 @@
   "https://the-decoder.com/googles-gemini-omni-1-2-flash-stretches-ai-video-clips-to-15-seconds-and-cuts-pricing-by-30-percent/": 1793923311.2808347,
   "https://www.theverge.com/ai-artificial-intelligence/1027427/ai-music-soundcloud-elevenlabs": 1793923311.2808347,
   "https://note.com/masahiko_studio/n/n80f11e8093cb?hl=en": 1793923311.2808347,
-  "https://www.usatoday.com/press-release/story/55940/joyolabs-launches-oraku-a-fast-and-affordable-ai-video-platform-for-everyone/": 1793923311.2808347
+  "https://www.usatoday.com/press-release/story/55940/joyolabs-launches-oraku-a-fast-and-affordable-ai-video-platform-for-everyone/": 1793923311.2808347,
+  "https://note.com/pelitan/n/nb460da8c8953?hl=en": 1793959999.4883611,
+  "https://note.com/caged/n/n75db7fe25dc4?hl=en": 1793959999.4883611,
+  "https://www.gadgets360.com/ai/news/elevenlabs-partners-soundcloud-ai-generated-music-pro-subscription-announcement-12291521": 1793959999.4883611,
+  "https://finance.yahoo.com/technology/ai/articles/ive-gaeul-host-documentary-ai-010000738.html": 1793959999.4883611
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1793819495.5311983,
-   "title": "GPT-6 Astra sees the matrix and reprograms other AI models directly through their weights",
-   "soha": "AI va texnologiya"
-  },
-  {
-   "t": 1793819495.5311983,
-   "title": "CVS to split off drugstore business in major breakup of healthcare giant; shares fall 10%",
-   "soha": "biznes"
-  },
-  {
-   "t": 1793819495.5311983,
-   "title": "AI helps Stanford scientists discover a “natural Ozempic” with a surprising advantage",
-   "soha": "ilm-fan"
-  },
   {
    "t": 1793871139.985343,
    "title": "RexTrix: Proud Sponsor & Official Global Online Partner of the 2026 Silicon Valley AI Film Festival",
@@ -175,6 +161,26 @@
   {
    "t": 1793923311.2808347,
    "title": "JoyoLabs Launches Oraku, a Fast and Affordable AI Video Platform for Everyone",
+   "soha": "AI video"
+  },
+  {
+   "t": 1793959999.4883611,
+   "title": "Giving Claude an 'Eye for Quality' to Improve Demo Videos | A Rookie with No Qualifications or Track Record Takes on Anthropic's First Japan-Wide Hackathon #4",
+   "soha": "AI tanlov"
+  },
+  {
+   "t": 1793959999.4883611,
+   "title": "OpenAI Announces Images 2.6 with GIF Generation; Rolling Out Gradually to ChatGPT",
+   "soha": "AI rasm"
+  },
+  {
+   "t": 1793959999.4883611,
+   "title": "ElevenLabs Partners With SoundCloud to Let Users Publish AI-Generated Music Directly",
+   "soha": "AI musiqa"
+  },
+  {
+   "t": 1793959999.4883611,
+   "title": "IVE’s GAEUL to Host New Documentary as AI Avatar from Contents Lab HU, Targeting the Chinese-Language Market",
    "soha": "AI video"
   }
  ],
