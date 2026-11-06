@@ -1,8 +1,5 @@
 {
  "seen": {
-  "https://www.spot.uz/ru/2026/10/27/pay-apple/": 1793137364.785196,
-  "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/": 1793137364.785196,
-  "https://the-decoder.com/meta-gets-3-billion-from-nvidia-and-plans-to-spend-more-on-nvidia-chips/": 1793137364.785196,
   "https://techcrunch.com/2026/10/27/guidewire-buys-hyperexponential-for-1-7b-in-cash/": 1793178946.358577,
   "https://www.bbc.co.uk/news/articles/cmx28de233r2o?at_medium=RSS&at_campaign=rss": 1793178946.358577,
   "https://www.gazeta.uz/oz/2026/10/28/dok1-maks/": 1793178946.358577,
@@ -93,55 +90,15 @@
   "https://www.heise.de/en/news/Google-upgrades-AI-video-generator-Gemini-Omni-to-version-1-2-Flash-11515123.html": 1793987659.9956834,
   "https://www.musicweek.com/digital/read/soundcloud-integrates-with-elevenlabs-ai-music-generation-platform/095415": 1793987659.9956834,
   "https://www.analyticsinsight.net/news/chatgpt-gets-gif-generation-with-openai-images-26-update": 1793987659.9956834,
-  "https://the-decoder.com/thinking-machines-inkling-2-small-claims-top-spot-among-western-open-weight-models/": 1793987659.9956834
+  "https://the-decoder.com/thinking-machines-inkling-2-small-claims-top-spot-among-western-open-weight-models/": 1793987659.9956834,
+  "https://finance.yahoo.com/technology/ai/articles/2026-ai-innovation-awards-program-190000844.html": 1794008270.548085,
+  "https://www.msn.com/en-us/news/other/ddex-announces-elevenlabs-first-ai-company-to-join/ar-AA2gU9mA": 1794008270.548085,
+  "https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/": 1794008270.548085,
+  "https://www.msn.com/en-us/technology/tech-companies/apple-doubles-down-on-its-suno-deposition-subpoena-opposition/ar-AA2gMzGQ": 1794008270.548085,
+  "https://meduza.io/en/news/2026/11/06/alexander-mashrabov-co-founder-of-the-us-based-ai-video-startup-higgsfield-receives-kazakh-citizenship-and-applies-to-renounce-russian-citizenship": 1794008270.548085
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1793871139.985343,
-   "title": "RexTrix: Proud Sponsor & Official Global Online Partner of the 2026 Silicon Valley AI Film Festival",
-   "soha": "AI tanlov"
-  },
-  {
-   "t": 1793871139.985343,
-   "title": "OpenAI's Latest Image Model Images 2.6 Released [OpenAI Latest News 2026.11.05]",
-   "soha": "AI rasm"
-  },
-  {
-   "t": 1793871139.985343,
-   "title": "SUNO adds MIDI support, Adobe Acrobat gets Web search AI, Canon creates 3D models from a single photo, GitHub Copilot Fusion officially released [Creative AI Digest No.233 2026 ...",
-   "soha": "AI musiqa"
-  },
-  {
-   "t": 1793871139.985343,
-   "title": "Kling’s $18 Billion Private Value Tops Parent Kuaishou’s Market Cap",
-   "soha": "AI video"
-  },
-  {
-   "t": 1793871139.985343,
-   "title": "Suno Vinyl — Turn Your AI-Generated Music into Custom LP Records",
-   "soha": "AI musiqa"
-  },
-  {
-   "t": 1793871139.985343,
-   "title": "Runway AI Says ARR Set to Double to $450 Million by End of Year",
-   "soha": "AI video"
-  },
-  {
-   "t": 1793871139.985343,
-   "title": "BeatMelo Unveils a Redesigned AI Music & Video Studio for Creators",
-   "soha": "AI musiqa"
-  },
-  {
-   "t": 1793871139.985343,
-   "title": "YouTube Expands AI Music Replacement With A YouTube-Only License",
-   "soha": "AI musiqa"
-  },
-  {
-   "t": 1793871139.985343,
-   "title": "Comparing Kling 4.0 and Kling 3.0 | What has changed with 30-second generation and 10 keyframes?",
-   "soha": "AI video"
-  },
   {
    "t": 1793923311.2808347,
    "title": "Grimes is going to star in an AI movie that’s coming to theaters",
@@ -221,6 +178,31 @@
    "t": 1793987659.9956834,
    "title": "Thinking Machines' Inkling 2 Small claims top spot among western open-weight models",
    "soha": "AI"
+  },
+  {
+   "t": 1794008270.548085,
+   "title": "2026 AI Innovation Awards Program Announced: Recognizing AI Technologies, Products, and Agents Transforming Business",
+   "soha": "AI tanlov"
+  },
+  {
+   "t": 1794008270.548085,
+   "title": "DDEX Announces ElevenLabs First AI Company to Join",
+   "soha": "AI musiqa"
+  },
+  {
+   "t": 1794008270.548085,
+   "title": "Underdog shows off a 32MB speech model in new demo",
+   "soha": "AI musiqa"
+  },
+  {
+   "t": 1794008270.548085,
+   "title": "Apple doubles down on its Suno deposition subpoena opposition",
+   "soha": "AI musiqa"
+  },
+  {
+   "t": 1794008270.548085,
+   "title": "Alexander Mashrabov, co-founder of the US-based AI video startup Higgsfield, receives Kazakh citizenship and applies to renounce Russian citizenship",
+   "soha": "AI video"
   }
  ],
  "mavzu": {
