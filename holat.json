@@ -1,8 +1,5 @@
 {
  "seen": {
-  "https://the-decoder.com/toyota-is-betting-6-4-billion-a-year-on-humanoid-robots-and-factory-automation/": 1793052722.4625688,
-  "https://www.sciencedaily.com/releases/2026/10/261025073036.htm": 1793052722.4625688,
-  "https://www.gazeta.uz/oz/2026/10/26/cinema/": 1793052722.4625688,
   "https://the-decoder.com/anthropic-opens-its-books-for-wall-street-showing-record-revenue-and-mounting-obligations/": 1793090210.074481,
   "https://www.gazeta.uz/oz/2026/10/27/healthcare-uzb/": 1793090210.074481,
   "https://daryo.uz/2026/10/27/ozbekistonda-tibbiyot-talabalari-haftasiga-uch-kun-bemorlar-bilan-ishlashni-organadi/": 1793090210.074481,
@@ -86,25 +83,15 @@
   "https://www.bloomberg.com/news/articles/2026-11-03/runway-ai-says-arr-set-to-double-to-450-million-by-end-of-year": 1793871139.985343,
   "https://www.usatoday.com/press-release/story/55738/beatmelo-unveils-a-redesigned-ai-music-video-studio-for-creators/": 1793871139.985343,
   "https://allhiphop.com/news/youtube-expands-ai-music-replacement/": 1793871139.985343,
-  "https://note.com/labubu188/n/n17e24bdca187?hl=en": 1793871139.985343
+  "https://note.com/labubu188/n/n17e24bdca187?hl=en": 1793871139.985343,
+  "https://www.theverge.com/entertainment/1026282/grimes-ai-movie": 1793923311.2808347,
+  "https://the-decoder.com/googles-gemini-omni-1-2-flash-stretches-ai-video-clips-to-15-seconds-and-cuts-pricing-by-30-percent/": 1793923311.2808347,
+  "https://www.theverge.com/ai-artificial-intelligence/1027427/ai-music-soundcloud-elevenlabs": 1793923311.2808347,
+  "https://note.com/masahiko_studio/n/n80f11e8093cb?hl=en": 1793923311.2808347,
+  "https://www.usatoday.com/press-release/story/55940/joyolabs-launches-oraku-a-fast-and-affordable-ai-video-platform-for-everyone/": 1793923311.2808347
  },
- "fails": 1,
+ "fails": 0,
  "sent": [
-  {
-   "t": 1793787535.564443,
-   "title": "Canada-EU alliance to expand opportunities for students",
-   "soha": "ta'lim va talabalar"
-  },
-  {
-   "t": 1793787535.564443,
-   "title": "Buxoro yangi aeroportini Mustaqillik bayramigaça foydalanişga topşiriş vazifasi qöyildi",
-   "soha": "O'zbekiston"
-  },
-  {
-   "t": 1793787535.564443,
-   "title": "The nuclear waste repository in Finland designed to outlast modern civilisation",
-   "soha": "ilm-fan"
-  },
   {
    "t": 1793819495.5311983,
    "title": "GPT-6 Astra sees the matrix and reprograms other AI models directly through their weights",
@@ -163,6 +150,31 @@
   {
    "t": 1793871139.985343,
    "title": "Comparing Kling 4.0 and Kling 3.0 | What has changed with 30-second generation and 10 keyframes?",
+   "soha": "AI video"
+  },
+  {
+   "t": 1793923311.2808347,
+   "title": "Grimes is going to star in an AI movie that’s coming to theaters",
+   "soha": "AI video"
+  },
+  {
+   "t": 1793923311.2808347,
+   "title": "Google's Gemini Omni 1.2 Flash stretches AI video clips to 15 seconds and cuts pricing by 30 percent",
+   "soha": "AI video"
+  },
+  {
+   "t": 1793923311.2808347,
+   "title": "You can post AI music straight to SoundCloud from ElevenLabs",
+   "soha": "AI musiqa"
+  },
+  {
+   "t": 1793923311.2808347,
+   "title": "Midjourney V9 Expected Within 30 Days | 3 Preparation Steps for Adobe Stock Practitioners",
+   "soha": "AI rasm"
+  },
+  {
+   "t": 1793923311.2808347,
+   "title": "JoyoLabs Launches Oraku, a Fast and Affordable AI Video Platform for Everyone",
    "soha": "AI video"
   }
  ],
