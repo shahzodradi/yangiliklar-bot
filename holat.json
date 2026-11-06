@@ -1,8 +1,5 @@
 {
  "seen": {
-  "https://www.spot.uz/ru/2026/10/27/ipad-mini/": 1793113457.5440161,
-  "https://www.sciencedaily.com/releases/2026/10/261026225603.htm": 1793113457.5440161,
-  "https://www.gazeta.uz/oz/2026/10/27/doctors-uzb/": 1793113457.5440161,
   "https://www.spot.uz/ru/2026/10/27/pay-apple/": 1793137364.785196,
   "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/": 1793137364.785196,
   "https://the-decoder.com/meta-gets-3-billion-from-nvidia-and-plans-to-spend-more-on-nvidia-chips/": 1793137364.785196,
@@ -89,7 +86,14 @@
   "https://note.com/pelitan/n/nb460da8c8953?hl=en": 1793959999.4883611,
   "https://note.com/caged/n/n75db7fe25dc4?hl=en": 1793959999.4883611,
   "https://www.gadgets360.com/ai/news/elevenlabs-partners-soundcloud-ai-generated-music-pro-subscription-announcement-12291521": 1793959999.4883611,
-  "https://finance.yahoo.com/technology/ai/articles/ive-gaeul-host-documentary-ai-010000738.html": 1793959999.4883611
+  "https://finance.yahoo.com/technology/ai/articles/ive-gaeul-host-documentary-ai-010000738.html": 1793959999.4883611,
+  "https://www.msn.com/fr-fr/actualite/other/les-gagnants-de-ce-concours-de-court-m%C3%A9trage-nous-ont-fait-changer-d-avis-sur-l-ia-en-vid%C3%A9o-et-ils-sont-repartis-avec-1-million-de-dollars/ar-AA2gKknt": 1793987659.9956834,
+  "https://www.aol.com/articles/iqiyi-revives-90-old-lost-095500000.html": 1793987659.9956834,
+  "https://www.screendaily.com/news/bruno-dumont-turns-to-generative-ai-to-film-english-language-sci-fi-thriller-the-end/5222133.article": 1793987659.9956834,
+  "https://www.heise.de/en/news/Google-upgrades-AI-video-generator-Gemini-Omni-to-version-1-2-Flash-11515123.html": 1793987659.9956834,
+  "https://www.musicweek.com/digital/read/soundcloud-integrates-with-elevenlabs-ai-music-generation-platform/095415": 1793987659.9956834,
+  "https://www.analyticsinsight.net/news/chatgpt-gets-gif-generation-with-openai-images-26-update": 1793987659.9956834,
+  "https://the-decoder.com/thinking-machines-inkling-2-small-claims-top-spot-among-western-open-weight-models/": 1793987659.9956834
  },
  "fails": 0,
  "sent": [
@@ -182,6 +186,41 @@
    "t": 1793959999.4883611,
    "title": "IVE’s GAEUL to Host New Documentary as AI Avatar from Contents Lab HU, Targeting the Chinese-Language Market",
    "soha": "AI video"
+  },
+  {
+   "t": 1793987659.9956834,
+   "title": "Les gagnants de ce concours de court-métrage nous ont fait changer d’avis sur l’IA en vidéo (et ils sont repartis avec 1 million de dollars)",
+   "soha": "AI tanlov"
+  },
+  {
+   "t": 1793987659.9956834,
+   "title": "iQIYI Revives 90-Year-Old Lost Film with NadouPro, Shortlisted for the AI Unit at the Golden Rooster Awards",
+   "soha": "AI tanlov"
+  },
+  {
+   "t": 1793987659.9956834,
+   "title": "Bruno Dumont turns to generative AI to film English-language sci-fi thriller ‘The End’",
+   "soha": "AI tanlov"
+  },
+  {
+   "t": 1793987659.9956834,
+   "title": "Google upgrades AI video generator Gemini Omni to version 1.2 Flash",
+   "soha": "AI video"
+  },
+  {
+   "t": 1793987659.9956834,
+   "title": "SoundCloud integrates with ElevenLabs' AI music generation platform",
+   "soha": "AI musiqa"
+  },
+  {
+   "t": 1793987659.9956834,
+   "title": "ChatGPT Gets GIF Generation With OpenAI Images 2.6 Update",
+   "soha": "AI rasm"
+  },
+  {
+   "t": 1793987659.9956834,
+   "title": "Thinking Machines' Inkling 2 Small claims top spot among western open-weight models",
+   "soha": "AI"
   }
  ],
  "mavzu": {
