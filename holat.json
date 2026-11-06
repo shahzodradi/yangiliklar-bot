@@ -179,7 +179,27 @@
   }
  ],
  "mavzu": {
-  "seen": {},
-  "sent": []
+  "seen": {
+   "https://note.com/namoto_ai/n/nf625b1ee96f2?hl=en": 1793936765.786414,
+   "https://thenextweb.com/news/soundcloud-elevenmusic-ai-songs-direct-publishing": 1793936765.786414,
+   "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/": 1793936765.786414
+  },
+  "sent": [
+   {
+    "t": 1793936765.786414,
+    "title": "OpenAI GPT Image 2.6: Flare for speed and Sunburst for precision, plus SVG and GIF export. Pricing remains the same as 2.5 (Announced 11/4)",
+    "soha": "AI rasm"
+   },
+   {
+    "t": 1793936765.786414,
+    "title": "SoundCloud lets ElevenMusic users publish AI-made songs directly",
+    "soha": "AI musiqa"
+   },
+   {
+    "t": 1793936765.786414,
+    "title": "Meta says US users can now video chat with their Muse AI avatar",
+    "soha": "AI video"
+   }
+  ]
  }
 }
