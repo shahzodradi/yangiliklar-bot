@@ -1,8 +1,5 @@
 {
  "seen": {
-  "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/": 1793209778.1095405,
-  "https://www.newscientist.com/article/2596282-there-may-be-a-new-dwarf-planet-just-beyond-pluto/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS": 1793209778.1095405,
-  "https://thepienews.com/australia-loses-ground-to-uk-and-us-in-international-student-race/": 1793209778.1095405,
   "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier": 1793225340.4836736,
   "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/": 1793225340.4836736,
   "https://www.gazeta.uz/oz/2026/10/28/pegasus-airlines-uzbekistan/": 1793225340.4836736,
@@ -95,7 +92,10 @@
   "https://meduza.io/en/news/2026/11/06/alexander-mashrabov-co-founder-of-the-us-based-ai-video-startup-higgsfield-receives-kazakh-citizenship-and-applies-to-renounce-russian-citizenship": 1794008270.548085,
   "https://www.dealstreetasia.com/stories/sand-ai-enters-unicorn-club-500283": 1794043820.1876836,
   "https://www.analyticsinsight.net/news/weekly-startup-funding-roundup-fal-secures-usd-13-billion-nooks-raises-usd-500-million": 1794043820.1876836,
-  "https://www.billboard.com/pro/elvis-presley-ai-voice-cloning-lawsuit-suno/": 1794070085.2269242
+  "https://www.billboard.com/pro/elvis-presley-ai-voice-cloning-lawsuit-suno/": 1794070085.2269242,
+  "https://finance.yahoo.com/technology/ai/articles/iqiyi-revives-90-old-lost-100300931.html": 1794083952.2359965,
+  "https://betanews.com/article/chatgpt-images-gifs-faster-generation/": 1794083952.2359965,
+  "https://cryptobriefing.com/venice-gpt-image-2-6-flare-sunburst/": 1794083952.2359965
  },
  "fails": 0,
  "sent": [
@@ -193,6 +193,21 @@
    "t": 1794070085.2269242,
    "title": "Elvis Presley Rights Owners Sue Suno Over AI Voice Cloning: ‘Elvis’ Identity Was Stolen’",
    "soha": "AI musiqa"
+  },
+  {
+   "t": 1794083952.2359965,
+   "title": "iQIYI Revives 90-Year-Old Lost Film with NadouPro, Shortlisted for the AI Unit at the Golden Rooster Awards",
+   "soha": "AI tanlov"
+  },
+  {
+   "t": 1794083952.2359965,
+   "title": "ChatGPT Images 2.6 adds GIFs, saved references and 50% faster output",
+   "soha": "AI rasm"
+  },
+  {
+   "t": 1794083952.2359965,
+   "title": "Venice adds OpenAI’s GPT Image 2.6 Flare and Sunburst with anonymous editing",
+   "soha": "AI rasm"
   }
  ],
  "mavzu": {
