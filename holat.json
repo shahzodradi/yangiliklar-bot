@@ -1,8 +1,5 @@
 {
  "seen": {
-  "https://techcrunch.com/2026/10/27/guidewire-buys-hyperexponential-for-1-7b-in-cash/": 1793178946.358577,
-  "https://www.bbc.co.uk/news/articles/cmx28de233r2o?at_medium=RSS&at_campaign=rss": 1793178946.358577,
-  "https://www.gazeta.uz/oz/2026/10/28/dok1-maks/": 1793178946.358577,
   "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/": 1793209778.1095405,
   "https://www.newscientist.com/article/2596282-there-may-be-a-new-dwarf-planet-just-beyond-pluto/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS": 1793209778.1095405,
   "https://thepienews.com/australia-loses-ground-to-uk-and-us-in-international-student-race/": 1793209778.1095405,
@@ -95,7 +92,9 @@
   "https://www.msn.com/en-us/news/other/ddex-announces-elevenlabs-first-ai-company-to-join/ar-AA2gU9mA": 1794008270.548085,
   "https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/": 1794008270.548085,
   "https://www.msn.com/en-us/technology/tech-companies/apple-doubles-down-on-its-suno-deposition-subpoena-opposition/ar-AA2gMzGQ": 1794008270.548085,
-  "https://meduza.io/en/news/2026/11/06/alexander-mashrabov-co-founder-of-the-us-based-ai-video-startup-higgsfield-receives-kazakh-citizenship-and-applies-to-renounce-russian-citizenship": 1794008270.548085
+  "https://meduza.io/en/news/2026/11/06/alexander-mashrabov-co-founder-of-the-us-based-ai-video-startup-higgsfield-receives-kazakh-citizenship-and-applies-to-renounce-russian-citizenship": 1794008270.548085,
+  "https://www.dealstreetasia.com/stories/sand-ai-enters-unicorn-club-500283": 1794043820.1876836,
+  "https://www.analyticsinsight.net/news/weekly-startup-funding-roundup-fal-secures-usd-13-billion-nooks-raises-usd-500-million": 1794043820.1876836
  },
  "fails": 0,
  "sent": [
@@ -203,6 +202,16 @@
    "t": 1794008270.548085,
    "title": "Alexander Mashrabov, co-founder of the US-based AI video startup Higgsfield, receives Kazakh citizenship and applies to renounce Russian citizenship",
    "soha": "AI video"
+  },
+  {
+   "t": 1794043820.1876836,
+   "title": "Chinese AI video generation startup Sand.ai enters unicorn club after $200m round",
+   "soha": "AI video"
+  },
+  {
+   "t": 1794043820.1876836,
+   "title": "Weekly Startup Funding Roundup: Fal Secures USD 1.3 Billion, Nooks Raises USD 500 Million",
+   "soha": "AI"
   }
  ],
  "mavzu": {
