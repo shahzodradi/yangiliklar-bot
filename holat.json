@@ -94,35 +94,11 @@
   "https://www.msn.com/en-us/technology/tech-companies/apple-doubles-down-on-its-suno-deposition-subpoena-opposition/ar-AA2gMzGQ": 1794008270.548085,
   "https://meduza.io/en/news/2026/11/06/alexander-mashrabov-co-founder-of-the-us-based-ai-video-startup-higgsfield-receives-kazakh-citizenship-and-applies-to-renounce-russian-citizenship": 1794008270.548085,
   "https://www.dealstreetasia.com/stories/sand-ai-enters-unicorn-club-500283": 1794043820.1876836,
-  "https://www.analyticsinsight.net/news/weekly-startup-funding-roundup-fal-secures-usd-13-billion-nooks-raises-usd-500-million": 1794043820.1876836
+  "https://www.analyticsinsight.net/news/weekly-startup-funding-roundup-fal-secures-usd-13-billion-nooks-raises-usd-500-million": 1794043820.1876836,
+  "https://www.billboard.com/pro/elvis-presley-ai-voice-cloning-lawsuit-suno/": 1794070085.2269242
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1793923311.2808347,
-   "title": "Grimes is going to star in an AI movie that’s coming to theaters",
-   "soha": "AI video"
-  },
-  {
-   "t": 1793923311.2808347,
-   "title": "Google's Gemini Omni 1.2 Flash stretches AI video clips to 15 seconds and cuts pricing by 30 percent",
-   "soha": "AI video"
-  },
-  {
-   "t": 1793923311.2808347,
-   "title": "You can post AI music straight to SoundCloud from ElevenLabs",
-   "soha": "AI musiqa"
-  },
-  {
-   "t": 1793923311.2808347,
-   "title": "Midjourney V9 Expected Within 30 Days | 3 Preparation Steps for Adobe Stock Practitioners",
-   "soha": "AI rasm"
-  },
-  {
-   "t": 1793923311.2808347,
-   "title": "JoyoLabs Launches Oraku, a Fast and Affordable AI Video Platform for Everyone",
-   "soha": "AI video"
-  },
   {
    "t": 1793959999.4883611,
    "title": "Giving Claude an 'Eye for Quality' to Improve Demo Videos | A Rookie with No Qualifications or Track Record Takes on Anthropic's First Japan-Wide Hackathon #4",
@@ -212,6 +188,11 @@
    "t": 1794043820.1876836,
    "title": "Weekly Startup Funding Roundup: Fal Secures USD 1.3 Billion, Nooks Raises USD 500 Million",
    "soha": "AI"
+  },
+  {
+   "t": 1794070085.2269242,
+   "title": "Elvis Presley Rights Owners Sue Suno Over AI Voice Cloning: ‘Elvis’ Identity Was Stolen’",
+   "soha": "AI musiqa"
   }
  ],
  "mavzu": {
@@ -220,22 +201,6 @@
    "https://thenextweb.com/news/soundcloud-elevenmusic-ai-songs-direct-publishing": 1793936765.786414,
    "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/": 1793936765.786414
   },
-  "sent": [
-   {
-    "t": 1793936765.786414,
-    "title": "OpenAI GPT Image 2.6: Flare for speed and Sunburst for precision, plus SVG and GIF export. Pricing remains the same as 2.5 (Announced 11/4)",
-    "soha": "AI rasm"
-   },
-   {
-    "t": 1793936765.786414,
-    "title": "SoundCloud lets ElevenMusic users publish AI-made songs directly",
-    "soha": "AI musiqa"
-   },
-   {
-    "t": 1793936765.786414,
-    "title": "Meta says US users can now video chat with their Muse AI avatar",
-    "soha": "AI video"
-   }
-  ]
+  "sent": []
  }
 }
