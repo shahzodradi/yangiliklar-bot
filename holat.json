@@ -1,11 +1,5 @@
 {
  "seen": {
-  "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier": 1793225340.4836736,
-  "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/": 1793225340.4836736,
-  "https://www.gazeta.uz/oz/2026/10/28/pegasus-airlines-uzbekistan/": 1793225340.4836736,
-  "https://thepienews.com/breaking-uk-to-extend-graduate-visa-to-two-years-for-graduates-of-high-compliance-universities/": 1793265288.8171856,
-  "https://www.ft.com/content/1639620b-99e7-47ed-8484-49646816489e?syn-25a6b1a6=1": 1793265288.8171856,
-  "https://www.gazeta.uz/oz/2026/10/29/adm-global/": 1793265288.8171856,
   "https://the-decoder.com/paris-based-mistral-releases-le-chonk-a-strong-coding-model-that-still-trails-china-overall/": 1793296757.8884542,
   "https://www.sciencedaily.com/releases/2026/10/261028232719.htm": 1793296757.8884542,
   "https://daryo.uz/2026/10/29/oylik-1-5-ming-yevrogacha-ozbekistonliklar-germaniyada-oqish-va-ishlashga-taklif-etilmoqda/": 1793296757.8884542,
@@ -95,65 +89,12 @@
   "https://www.billboard.com/pro/elvis-presley-ai-voice-cloning-lawsuit-suno/": 1794070085.2269242,
   "https://finance.yahoo.com/technology/ai/articles/iqiyi-revives-90-old-lost-100300931.html": 1794083952.2359965,
   "https://betanews.com/article/chatgpt-images-gifs-faster-generation/": 1794083952.2359965,
-  "https://cryptobriefing.com/venice-gpt-image-2-6-flare-sunburst/": 1794083952.2359965
+  "https://cryptobriefing.com/venice-gpt-image-2-6-flare-sunburst/": 1794083952.2359965,
+  "https://tribune.com.pk/story/2639163/elvis-presley-rights-holders-and-eminems-publisher-sue-ai-music-generator-suno": 1794131399.8789122,
+  "https://musically.com/2026/11/06/soundcloud-will-soon-have-more-ai-music-from-elevenlabs/": 1794131399.8789122
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1793959999.4883611,
-   "title": "Giving Claude an 'Eye for Quality' to Improve Demo Videos | A Rookie with No Qualifications or Track Record Takes on Anthropic's First Japan-Wide Hackathon #4",
-   "soha": "AI tanlov"
-  },
-  {
-   "t": 1793959999.4883611,
-   "title": "OpenAI Announces Images 2.6 with GIF Generation; Rolling Out Gradually to ChatGPT",
-   "soha": "AI rasm"
-  },
-  {
-   "t": 1793959999.4883611,
-   "title": "ElevenLabs Partners With SoundCloud to Let Users Publish AI-Generated Music Directly",
-   "soha": "AI musiqa"
-  },
-  {
-   "t": 1793959999.4883611,
-   "title": "IVE’s GAEUL to Host New Documentary as AI Avatar from Contents Lab HU, Targeting the Chinese-Language Market",
-   "soha": "AI video"
-  },
-  {
-   "t": 1793987659.9956834,
-   "title": "Les gagnants de ce concours de court-métrage nous ont fait changer d’avis sur l’IA en vidéo (et ils sont repartis avec 1 million de dollars)",
-   "soha": "AI tanlov"
-  },
-  {
-   "t": 1793987659.9956834,
-   "title": "iQIYI Revives 90-Year-Old Lost Film with NadouPro, Shortlisted for the AI Unit at the Golden Rooster Awards",
-   "soha": "AI tanlov"
-  },
-  {
-   "t": 1793987659.9956834,
-   "title": "Bruno Dumont turns to generative AI to film English-language sci-fi thriller ‘The End’",
-   "soha": "AI tanlov"
-  },
-  {
-   "t": 1793987659.9956834,
-   "title": "Google upgrades AI video generator Gemini Omni to version 1.2 Flash",
-   "soha": "AI video"
-  },
-  {
-   "t": 1793987659.9956834,
-   "title": "SoundCloud integrates with ElevenLabs' AI music generation platform",
-   "soha": "AI musiqa"
-  },
-  {
-   "t": 1793987659.9956834,
-   "title": "ChatGPT Gets GIF Generation With OpenAI Images 2.6 Update",
-   "soha": "AI rasm"
-  },
-  {
-   "t": 1793987659.9956834,
-   "title": "Thinking Machines' Inkling 2 Small claims top spot among western open-weight models",
-   "soha": "AI"
-  },
   {
    "t": 1794008270.548085,
    "title": "2026 AI Innovation Awards Program Announced: Recognizing AI Technologies, Products, and Agents Transforming Business",
@@ -208,6 +149,16 @@
    "t": 1794083952.2359965,
    "title": "Venice adds OpenAI’s GPT Image 2.6 Flare and Sunburst with anonymous editing",
    "soha": "AI rasm"
+  },
+  {
+   "t": 1794131399.8789122,
+   "title": "Elvis Presley rights holders and Eminem’s publisher sue AI music generator Suno",
+   "soha": "AI musiqa"
+  },
+  {
+   "t": 1794131399.8789122,
+   "title": "SoundCloud will soon have more AI music – from ElevenLabs",
+   "soha": "AI musiqa"
   }
  ],
  "mavzu": {
