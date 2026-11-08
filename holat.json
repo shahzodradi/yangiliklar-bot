@@ -1,8 +1,5 @@
 {
  "seen": {
-  "https://the-decoder.com/paris-based-mistral-releases-le-chonk-a-strong-coding-model-that-still-trails-china-overall/": 1793296757.8884542,
-  "https://www.sciencedaily.com/releases/2026/10/261028232719.htm": 1793296757.8884542,
-  "https://daryo.uz/2026/10/29/oylik-1-5-ming-yevrogacha-ozbekistonliklar-germaniyada-oqish-va-ishlashga-taklif-etilmoqda/": 1793296757.8884542,
   "https://www.nytimes.com/2026/10/29/technology/doordash-instacart-acquisition-delivery.html": 1793312173.7838242,
   "https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs": 1793312173.7838242,
   "https://www.sciencedaily.com/releases/2026/10/261028232715.htm": 1793312173.7838242,
@@ -94,7 +91,9 @@
   "https://musically.com/2026/11/06/soundcloud-will-soon-have-more-ai-music-from-elevenlabs/": 1794131399.8789122,
   "https://note.com/solomics_zukai/n/n79355787e0b7?hl=en": 1794157188.5484107,
   "https://gcn.com/fal-raises-billion-inference-startup-doubles/23096/": 1794157188.5484107,
-  "https://the-decoder.com/andrej-karpathy-built-a-curated-video-platform-in-a-weekend-using-claude-and-20-years-of-hacker-news/": 1794157188.5484107
+  "https://the-decoder.com/andrej-karpathy-built-a-curated-video-platform-in-a-weekend-using-claude-and-20-years-of-hacker-news/": 1794157188.5484107,
+  "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit": 1794171411.059314,
+  "https://the-decoder.com/ai-coding-agents-still-need-human-cleanup-on-nearly-three-out-of-four-tasks-in-a-real-world-test/": 1794171411.059314
  },
  "fails": 0,
  "sent": [
@@ -152,6 +151,16 @@
    "t": 1794157188.5484107,
    "title": "Andrej Karpathy built a curated video platform in a weekend using Claude and 20 years of Hacker News",
    "soha": "AI video"
+  },
+  {
+   "t": 1794171411.059314,
+   "title": "Elvis and Eminem rights holders are suing Suno",
+   "soha": "AI musiqa"
+  },
+  {
+   "t": 1794171411.059314,
+   "title": "AI coding agents still need human cleanup on nearly three out of four tasks in a real-world test",
+   "soha": "AI"
   }
  ],
  "mavzu": {
