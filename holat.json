@@ -104,7 +104,11 @@
   "https://wccftech.com/higgsfield-miracle-promises-real-time-ai-video-editing-turning-any-clip-into-editable-layers/": 1794240080.4155982,
   "https://www.theverge.com/tech/1029773/disney-adobe-generative-ai-partnership": 1794240080.4155982,
   "https://the-decoder.com/tencents-ai-chief-says-ai-bioweapons-are-coming-but-closing-off-models-isnt-the-answer/": 1794240080.4155982,
-  "https://www.theverge.com/policy/1029652/kanter-doj-biden-legal-tech": 1794240080.4155982
+  "https://www.theverge.com/policy/1029652/kanter-doj-biden-legal-tech": 1794240080.4155982,
+  "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/": 1794243746.115088,
+  "https://the-decoder.com/disney-bets-on-adobes-firefly-to-create-brand-safe-ai-models-for-its-entertainment-empire/": 1794243746.115088,
+  "https://www.wired.com/story/nvidia-ceo-jensen-huang-hired-a-pr-firm-known-for-handling-sex-scandals-last-year/": 1794243746.115088,
+  "https://www.wired.com/story/authors-can-defend-against-ai-allegations-with-paper-trail-tools/": 1794243746.115088
  },
  "fails": 0,
  "sent": [
@@ -226,6 +230,26 @@
   {
    "t": 1794240080.4155982,
    "title": "Jonathan Kanter is using AI to take on Big Tech",
+   "soha": "AI"
+  },
+  {
+   "t": 1794243746.115088,
+   "title": "Anthropic joins AI’s natural gas frenzy, buys $3.4B worth of turbines",
+   "soha": "AI"
+  },
+  {
+   "t": 1794243746.115088,
+   "title": "Disney bets on Adobe's Firefly to create brand-safe AI models for its entertainment empire",
+   "soha": "AI rasm"
+  },
+  {
+   "t": 1794243746.115088,
+   "title": "Jensen Huang Hired a PR Firm Known for Handling Sex Scandals Last Year",
+   "soha": "AI"
+  },
+  {
+   "t": 1794243746.115088,
+   "title": "Authors Can Defend Against AI Allegations With ‘Paper Trail’ Tools. Is It Enough?",
    "soha": "AI"
   }
  ],
