@@ -88,7 +88,8 @@
   "https://the-decoder.com/andrej-karpathy-built-a-curated-video-platform-in-a-weekend-using-claude-and-20-years-of-hacker-news/": 1794157188.5484107,
   "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit": 1794171411.059314,
   "https://the-decoder.com/ai-coding-agents-still-need-human-cleanup-on-nearly-three-out-of-four-tasks-in-a-real-world-test/": 1794171411.059314,
-  "https://note.com/strawberry1982/n/n48becdacf6cd?hl=en": 1794221257.5365393
+  "https://note.com/strawberry1982/n/n48becdacf6cd?hl=en": 1794221257.5365393,
+  "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic": 1794221916.4914405
  },
  "fails": 0,
  "sent": [
@@ -131,6 +132,11 @@
    "t": 1794221257.5365393,
    "title": "[Breaking News] Google's AI video generator \"Gemini Omni 1.2 Flash\" is officially released! What changes with up to 15 seconds and a price cut of about 30%?",
    "soha": "AI video"
+  },
+  {
+   "t": 1794221916.4914405,
+   "title": "Apple is racing to make Siri more agentic",
+   "soha": "AI"
   }
  ],
  "mavzu": {
