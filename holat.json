@@ -1,8 +1,5 @@
 {
  "seen": {
-  "https://the-decoder.com/open-weight-model-glm-5-3-built-full-firefox-exploit-chains-with-zero-human-input-in-under-48-hours/": 1793381932.826099,
-  "https://daryo.uz/2026/10/30/aholining-ichimlik-va-oqava-suvidan-qarzdorligi-430-mlrd-somdan-oshdi-ozsuvtaminot-aj/": 1793381932.826099,
-  "https://www.sciencedaily.com/releases/2026/10/261028234703.htm": 1793381932.826099,
   "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission": 1793397082.4133868,
   "https://www.gazeta.uz/oz/2026/10/30/airports/": 1793397082.4133868,
   "https://www.sciencedaily.com/releases/2026/10/261027231200.htm": 1793397082.4133868,
@@ -108,7 +105,10 @@
   "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/": 1794243746.115088,
   "https://the-decoder.com/disney-bets-on-adobes-firefly-to-create-brand-safe-ai-models-for-its-entertainment-empire/": 1794243746.115088,
   "https://www.wired.com/story/nvidia-ceo-jensen-huang-hired-a-pr-firm-known-for-handling-sex-scandals-last-year/": 1794243746.115088,
-  "https://www.wired.com/story/authors-can-defend-against-ai-allegations-with-paper-trail-tools/": 1794243746.115088
+  "https://www.wired.com/story/authors-can-defend-against-ai-allegations-with-paper-trail-tools/": 1794243746.115088,
+  "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/": 1794247280.3149226,
+  "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/": 1794247280.3149226,
+  "https://www.theverge.com/ai-artificial-intelligence/1029802/trump-60-minutes-ai": 1794247280.3149226
  },
  "fails": 0,
  "sent": [
@@ -250,6 +250,21 @@
   {
    "t": 1794243746.115088,
    "title": "Authors Can Defend Against AI Allegations With ‘Paper Trail’ Tools. Is It Enough?",
+   "soha": "AI"
+  },
+  {
+   "t": 1794247280.3149226,
+   "title": "Meta releases Muse Ember, a new lightweight model for agent execution",
+   "soha": "AI"
+  },
+  {
+   "t": 1794247280.3149226,
+   "title": "Nancy Pelosi’s replacement is ready to regulate AI",
+   "soha": "AI"
+  },
+  {
+   "t": 1794247280.3149226,
+   "title": "Trump’s 60 Minutes interview touched on AI safety, threat to arrest an AI exec",
    "soha": "AI"
   }
  ],
