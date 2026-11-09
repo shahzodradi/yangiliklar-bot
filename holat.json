@@ -93,7 +93,9 @@
   "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/": 1794222520.0133631,
   "https://the-decoder.com/the-inventor-of-the-bitter-lesson-has-a-bitter-lesson-for-llm-scaling-enthusiasts/": 1794222520.0133631,
   "https://the-decoder.com/the-brain-as-computer-metaphor-shaped-modern-ai-but-may-be-misleading-the-consciousness-debate/": 1794222520.0133631,
-  "https://www.wired.com/story/bug-activists-and-biker-gang-members-are-teaming-up-to-protest-data-centers/": 1794222520.0133631
+  "https://www.wired.com/story/bug-activists-and-biker-gang-members-are-teaming-up-to-protest-data-centers/": 1794222520.0133631,
+  "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy": 1794225673.606958,
+  "https://www.analyticsinsight.net/artificial-intelligence/viggle-ai-how-it-works-and-best-alternatives": 1794225673.606958
  },
  "fails": 0,
  "sent": [
@@ -161,6 +163,16 @@
    "t": 1794222520.0133631,
    "title": "Bikers and Bug-Lovers Join Forces to Fight a New Google Data Center",
    "soha": "AI"
+  },
+  {
+   "t": 1794225673.606958,
+   "title": "Nvidia is investigating Jensen Huang’s relationship with an alleged Chinese spy",
+   "soha": "AI"
+  },
+  {
+   "t": 1794225673.606958,
+   "title": "Viggle AI: How It Works and Best Alternatives",
+   "soha": "AI video"
   }
  ],
  "mavzu": {
