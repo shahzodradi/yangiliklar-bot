@@ -30,6 +30,18 @@ export default {
     ctx.waitUntil(handle(update, env));
     return new Response('ok');  // Telegram'ga darhol javob: aks holda u xabarni qayta yuboradi
   },
+  // Jadval (wrangler.toml [triggers]): GitHub'ning o'z cron'i soatlab kechikib, ko'p runlarni tashlab yuborardi,
+  // shuning uchun aniq vaqtda shu yerdan ishga tushiriladi (jadval=1 -> oddiy `python bot.py`).
+  async scheduled(event, env, ctx) {
+    ctx.waitUntil(github(env, `/actions/workflows/${WORKFLOW}/dispatches`, {
+      method: 'POST', body: JSON.stringify({ref: 'main', inputs: {jadval: '1'}}),
+    }).then(async (r) => {
+      if (r.status !== 204) {
+        await tg(env, 'sendMessage', {chat_id: env.TELEGRAM_CHAT_ID,
+          text: `⚠️ Yangiliklar jadvali ishga tushmadi (GitHub javobi ${r.status}).`});
+      }
+    }));
+  },
 };
 
 async function tg(env, method, payload) {
@@ -126,7 +138,9 @@ async function startRun(env, chatId, mavzu = '') {
   // Tugma ketma-ket bosilsa, navbatdagi yoki ishlayotgan ish bo'lsa, yangisi boshlanmaydi
   const runs = await github(env, `/actions/workflows/${WORKFLOW}/runs?event=workflow_dispatch&per_page=5`)
     .then((r) => r.json()).catch(() => ({}));
-  const busy = (runs.workflow_runs || []).some((r) => ['queued', 'in_progress', 'waiting', 'pending'].includes(r.status));
+  // Faqat tugma runlari hisobga olinadi (jadval runi nomi "Yangiliklar (jadval)")
+  const busy = (runs.workflow_runs || []).some((r) => !/jadval/.test(r.display_title || '') &&
+    ['queued', 'in_progress', 'waiting', 'pending'].includes(r.status));
   if (busy) {
     await tg(env, 'sendMessage', {chat_id: chatId, text: '⏳ Yangiliklar allaqachon tayyorlanyapti, birozdan keyin keladi.'});
     return;

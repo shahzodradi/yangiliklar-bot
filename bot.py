@@ -53,6 +53,9 @@ MAVZULAR = {
 SOHALAR = ["AI tanlov", "AI video", "AI rasm", "AI musiqa", "AI"]  # tanlov: konkurs/festival/g'oliblar, doim yuboriladi
 MEDIA = ("AI video", "AI rasm", "AI musiqa")
 SEEN_KEEP_DAYS = 10
+# Shaxsiy blog platformalari (Bing qidiruvi ularni ham olib keladi): yangilik manbai emas
+BLOG_DOMAINS = ("note.com", "medium.com", "hatenablog.com", "blogspot.com", "wordpress.com", "tistory.com",
+                "naver.com", "livedoor.blog", "ameblo.jp", "dev.to", "hashnode.dev")
 GEMINI_BASE = "https://generativelanguage.googleapis.com/v1beta"
 # Asosiy model sifatliroq, lekin bepul tarifda 1-3 daqiqa javob beradi (bot fonda ishlaydi, muammo emas).
 # U ishlamasa, tez lite model zaxira bo'ladi.
@@ -202,6 +205,8 @@ def fetch_source(src):
         if "bing.com/news/apiclick" in link:  # Bing qidiruvi: asl maqola havolasi va nashr nomi
             link = parse_qs(urlparse(link).query).get("url", [link])[0]
             source = domain(link)
+        if any(domain(link).endswith(d) for d in BLOG_DOMAINS):  # shaxsiy bloglar: yangilik emas
+            continue
         ts = e.get("published_parsed") or e.get("updated_parsed")
         items.append({
             "source": source,
@@ -256,7 +261,9 @@ VAZIFA:
    kompaniya, tanlov yoki nashr qaysidir AI videolarni eng yaxshi/kuchli deb tanlasa (g'oliblar, finalistlar,
    "staff picks", haftaning eng yaxshi AI videolari) - bularni HAR DOIM, hammasini qaytar, baho 10.
    Qolgan AI yangiliklaridan faqat content maker uchun foydali bo'lgan {other_max} tasini qaytar (yangi multimodal
-   model, creator'lar uchun vosita va h.k.); kompaniyalar sotib olishi, dasturchilik vositalari kabilarni olma.
+   model, creator'lar uchun vosita va h.k.); kompaniyalar sotib olishi, dasturchilik vositalari, kod yozuvchi AI
+   agentlar, chiplar, AI bilan sayt/ilova qurish tajribalari kabilarni olma. Bunday "AI" yangiligiga baho 8 dan
+   past qo'y; content maker uchun haqiqatan foydali bo'lsagina 8+ ber.
    Muhimlik bo'yicha tartibla, bo'sh ro'yxat qaytarma.
    Har biriga 1-10 baho qo'y.
    Bir voqea haqidagi takror maqolalardan faqat bittasini ol. "BUGUN YUBORILGAN" ro'yxatidagi voqealarni
@@ -573,9 +580,40 @@ def build_posts(result, candidates):
         posts.append({"title": p.get("sarlavha") or c["title"], "text": (p.get("mazmun") or "").strip()[:450],
                       "orig_title": c["title"], "query": (p.get("qidiruv") or c["title"]).strip(),
                       "link": c["link"], "source": c["source"], "soha": p.get("soha") or "boshqa",
+                      "baho": p.get("baho") if isinstance(p.get("baho"), (int, float)) else 0,
                       "feed_image": c.get("image"), "page": None, "experts": None,
                       "effect": None})
     return posts
+
+
+# Takror voqea filtri: Gemini "yuborilgan" ro'yxatini ko'rsa ham ba'zan bir voqeani boshqa nashrdan qayta tanlaydi
+# (masalan, Suno sud ishi Tribune va The Verge'dan). Sarlavhalardagi asosiy so'zlar solishtiriladi.
+GENERIC_WORDS = set("""ai artificial intelligence video videos image images music song songs model models generator
+generative tool tools new launch launches launched release releases released update updates company says said
+with from that this their about into after over what will more than have just now first using users user free
+official officially breaking news report reports announces announced brings adds gets makes make create creates""".split())
+
+
+def title_words(title):
+    words = re.findall(r"[a-z0-9]+", (title or "").lower().replace("’", "'").replace("'s ", " "))
+    return {w for w in words if len(w) >= 4 and w not in GENERIC_WORDS}
+
+
+def same_story(a, b):
+    wa, wb = title_words(a), title_words(b)
+    common = len(wa & wb)
+    return common >= 3 and common >= 0.5 * min(len(wa), len(wb))
+
+
+def drop_repeats(posts, sent_titles):
+    kept = []
+    for p in posts:
+        prev = sent_titles + [k["orig_title"] for k in kept]
+        if any(same_story(p["orig_title"], t) for t in prev):
+            log.info("Takror voqea, olinmadi: %s", p["orig_title"])
+            continue
+        kept.append(p)
+    return kept
 
 
 def visible_len(caption):
@@ -883,6 +921,8 @@ def run_digest(env, dry=False, fast=False, extra_chats=(), mavzu=None):
 
     posts = build_posts(result, candidates)
     log.info("Tanlandi: %d ta", len(posts))
+    posts = drop_repeats(posts, [x["title"] for x in sent_list])  # yuborilganlarning hammasi (SENT_KEEP_HOURS)
+    posts = [p for p in posts if p["soha"] != "AI" or p.get("baho", 0) >= 8]  # umumiy AI'dan faqat juda foydalisi
     posts = choose_posts(posts, only_video=mavzu == "video")
     log.info("Yuboriladi: %d ta (tanlov: %d, video/rasm/musiqa: %d)", len(posts),
              sum(p["soha"] == "AI tanlov" for p in posts), sum(p["soha"] in MEDIA for p in posts))
