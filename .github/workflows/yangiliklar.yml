@@ -1,5 +1,5 @@
 # Yangiliklar bot GitHub serverlarida: kompyuter o'chiq bo'lsa ham ishlaydi.
-# - jadval: Toshkent vaqti bilan har 2 soatda, 08:00 dan 24:00 gacha. GitHub'ning o'z cron'i soatlab kechikib,
+# - jadval: Toshkent vaqti bilan har soatda, 08:00 dan 24:00 gacha. GitHub'ning o'z cron'i soatlab kechikib,
 #   runlarni tashlab yuborgani uchun Cloudflare Worker cron'i workflow_dispatch (jadval=1) bilan ishga tushiradi
 # - workflow_dispatch: Telegram'dagi tugma bosilganda Cloudflare Worker ishga tushiradi (cloudflare-worker/worker.js)
 name: Yangiliklar

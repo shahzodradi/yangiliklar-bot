@@ -42,7 +42,7 @@ SENT_KEEP_HOURS = 36        # takrorlamaslik uchun yuborilgan sarlavhalar shunch
 PER_SOURCE_LIMIT = 8        # bitta manbadan bir martada ko'pi bilan nechta
 MAX_CANDIDATES = 200        # Gemini'ga yuboriladigan nomzodlar soni
 MAX_MEDIA = 8               # bir martada AI video/rasm/musiqa yangiliklari: hammasi, shuncha tagacha
-MAX_OTHER = 1               # bir martada qolgan AI'dan: faqat content maker uchun foydalisi
+MAX_OTHER = 5               # bir martada qolgan AI yangiliklaridan (har qanday AI mavzusi), shuncha tagacha
 SELECT_POOL = MAX_MEDIA + MAX_OTHER + 2  # Gemini shuncha tagacha tanlaydi (tanlovlar bundan tashqari ham kirishi mumkin)
 # Mavzu buyruqlari: faqat shu mavzudagi yangiliklar, faqat so'ragan chatga
 MAVZULAR = {
@@ -260,10 +260,10 @@ VAZIFA:
    yoki festival e'lon qilsa, qaysidir AI ish g'olib bo'lsa (mukofot, sovrin, reytingda birinchi o'rin), yoki
    kompaniya, tanlov yoki nashr qaysidir AI videolarni eng yaxshi/kuchli deb tanlasa (g'oliblar, finalistlar,
    "staff picks", haftaning eng yaxshi AI videolari) - bularni HAR DOIM, hammasini qaytar, baho 10.
-   Qolgan AI yangiliklaridan faqat content maker uchun foydali bo'lgan {other_max} tasini qaytar (yangi multimodal
-   model, creator'lar uchun vosita va h.k.); kompaniyalar sotib olishi, dasturchilik vositalari, kod yozuvchi AI
-   agentlar, chiplar, AI bilan sayt/ilova qurish tajribalari kabilarni olma. Bunday "AI" yangiligiga baho 8 dan
-   past qo'y; content maker uchun haqiqatan foydali bo'lsagina 8+ ber.
+   Qolgan AI yangiliklaridan ham eng muhim va qiziqlarini {other_max} tagacha qaytar - AI'ga oid HAR QANDAY
+   yangilik bo'lishi mumkin: yangi modellar (ChatGPT, Gemini, Claude, Grok, DeepSeek, Llama va h.k.), AI kompaniyalar,
+   investitsiyalar va sotib olishlar, chiplar, AI agentlar, qonunlar va siyosat, tadqiqotlar, AI bilan bog'liq
+   rekordlar va janjallar. Yangi AI yangiligi bo'lsa, bo'sh qaytarma.
    Muhimlik bo'yicha tartibla, bo'sh ro'yxat qaytarma.
    Har biriga 1-10 baho qo'y.
    Bir voqea haqidagi takror maqolalardan faqat bittasini ol. "BUGUN YUBORILGAN" ro'yxatidagi voqealarni
@@ -922,7 +922,6 @@ def run_digest(env, dry=False, fast=False, extra_chats=(), mavzu=None):
     posts = build_posts(result, candidates)
     log.info("Tanlandi: %d ta", len(posts))
     posts = drop_repeats(posts, [x["title"] for x in sent_list])  # yuborilganlarning hammasi (SENT_KEEP_HOURS)
-    posts = [p for p in posts if p["soha"] != "AI" or p.get("baho", 0) >= 8]  # umumiy AI'dan faqat juda foydalisi
     posts = choose_posts(posts, only_video=mavzu == "video")
     log.info("Yuboriladi: %d ta (tanlov: %d, video/rasm/musiqa: %d)", len(posts),
              sum(p["soha"] == "AI tanlov" for p in posts), sum(p["soha"] in MEDIA for p in posts))
@@ -1062,7 +1061,9 @@ def main():
         log.info("Boshqa yig'ish ishlayapti, bu safar o'tkazildi")
         return 0
     try:
-        sent = run_digest(env)
+        # Har soatda ishlaydi: Gemini flash bepul tarifda kuniga ~20 so'rov (har run 2 ta), shuning uchun
+        # toq UTC soatlarda flash, juft soatlarda tez lite model birinchi.
+        sent = run_digest(env, fast=time.gmtime().tm_hour % 2 == 0)
     finally:
         release_lock()
     return 0 if sent is not None else 1

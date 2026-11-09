@@ -3,9 +3,9 @@ main = "worker.js"
 compatibility_date = "2026-06-01"
 workers_dev = true
 
-# Har 2 soatda, Toshkent vaqti bilan 08:00-24:00 (UTC 03-19)
+# Har soatda, Toshkent vaqti bilan 08:00-24:00 (UTC 03-19)
 [triggers]
-crons = ["0 3-19/2 * * *"]
+crons = ["0 3-19 * * *"]
 
 [vars]
 GITHUB_REPO = "shahzodradi/yangiliklar-bot"

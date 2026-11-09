@@ -80,10 +80,10 @@ async function handle(update, env) {
     if (inGroup) {
       await dispatchGroup(env, 'qosh', chat.id, chat.title || '');
       await tg(env, 'sendMessage', {chat_id: chat.id,
-        text: "✅ AI yangiliklari shu guruhga ham keladi: har kuni 08:00–24:00 oralig'ida, har 2 soatda."});
+        text: "✅ AI yangiliklari shu guruhga ham keladi: har kuni 08:00–24:00 oralig'ida, har soatda."});
     } else {
       await tg(env, 'sendMessage', {chat_id: chat.id, reply_markup: KEYBOARD,
-        text: `AI yangiliklari har 2 soatda keladi. Oldinroq ko'rmoqchi bo'lsangiz «${BUTTON}», faqat AI video, rasm va musiqa uchun «${VIDEO_BUTTON}» tugmasini bosing.`});
+        text: `AI yangiliklari har soatda keladi. Oldinroq ko'rmoqchi bo'lsangiz «${BUTTON}», faqat AI video, rasm va musiqa uchun «${VIDEO_BUTTON}» tugmasini bosing.`});
     }
   }
 }
@@ -118,7 +118,7 @@ async function handleMembership(m, env) {
       return;
     }
     await tg(env, 'sendMessage', {chat_id: chat.id,
-      text: "✅ AI yangiliklari endi shu guruhga ham keladi: har kuni 08:00–24:00 oralig'ida, har 2 soatda."});
+      text: "✅ AI yangiliklari endi shu guruhga ham keladi: har kuni 08:00–24:00 oralig'ida, har soatda."});
     await tg(env, 'sendMessage', {chat_id: env.TELEGRAM_CHAT_ID, text: `✅ «${name}» guruhi ro'yxatga qo'shildi.`});
     await dispatchGroup(env, 'qosh', chat.id, chat.title || '');
   } else if (was && !now) {

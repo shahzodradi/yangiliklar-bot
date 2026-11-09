@@ -1,5 +1,5 @@
 Men AI video content maker'man: AI bilan video, rasm va musiqa yarataman.
-Menga faqat shu sohaga oid AI yangiliklari kerak va shart, boshqa hech narsa.
+Menga AI'ga oid har qanday yangilik kerak; AI video, rasm, musiqa va tanlovlar birinchi navbatda.
 
 Qiziq (har biri, hammasi):
 - AI video: Seedance, Kling, Veo, Sora, Runway, Hailuo, Pika, Luma, Higgsfield, Wan, Midjourney video, Adobe Firefly
@@ -9,9 +9,9 @@ Qiziq (har biri, hammasi):
   reytinglari (arenalardagi o'rinlar), litsenziya va kelishuvlari, AI filmlar va kliplar
 - tanlovlar va g'oliblar: AI video, rasm, musiqa va film tanlovlari, konkurslar, challenge, hackathon, festivallar,
   kim nima yutdi
-- umumiy AI'dan faqat content maker uchun foydali narsalar (yangi multimodal modellar, creator vositalari)
+- qolgan har qanday AI yangiliklari: yangi modellar (ChatGPT, Gemini, Claude, Grok, DeepSeek...), AI kompaniyalar,
+  investitsiyalar, sotib olishlar, chiplar, AI agentlar, qonunlar va siyosat, tadqiqotlar, rekordlar, janjallar
 
 Qiziq emas:
 - AI bilan bog'liq bo'lmagan har qanday yangilik
-- content yaratishga aloqasi yo'q AI yangiliklari: dasturchilik vositalari, kompaniyalar sotib olishi, chiplar, siyosat
 - promo-kodlar, reklama, "qanday prompt yozish" qo'llanmalari, "eng yaxshi 10 ta" ro'yxatlar
