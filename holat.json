@@ -108,7 +108,10 @@
   "https://www.wired.com/story/authors-can-defend-against-ai-allegations-with-paper-trail-tools/": 1794243746.115088,
   "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/": 1794247280.3149226,
   "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/": 1794247280.3149226,
-  "https://www.theverge.com/ai-artificial-intelligence/1029802/trump-60-minutes-ai": 1794247280.3149226
+  "https://www.theverge.com/ai-artificial-intelligence/1029802/trump-60-minutes-ai": 1794247280.3149226,
+  "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2": 1794251150.3879302,
+  "https://the-decoder.com/bytedances-seedream-5-5-promises-pixel-stable-image-editing-across-100-rounds-without-color-drift/": 1794251150.3879302,
+  "https://www.theverge.com/tech/1030061/instagram-ai-effect-builder-filters": 1794251150.3879302
  },
  "fails": 0,
  "sent": [
@@ -266,6 +269,21 @@
    "t": 1794247280.3149226,
    "title": "Trump’s 60 Minutes interview touched on AI safety, threat to arrest an AI exec",
    "soha": "AI"
+  },
+  {
+   "t": 1794251150.3879302,
+   "title": "Anthropic launches new Claude Fable and Mythos 5.2 models",
+   "soha": "AI"
+  },
+  {
+   "t": 1794251150.3879302,
+   "title": "Bytedance's Seedream 5.5 promises pixel-stable image editing across 100 rounds without color drift",
+   "soha": "AI rasm"
+  },
+  {
+   "t": 1794251150.3879302,
+   "title": "Instagram’s Effect Builder makes new filters from AI prompts",
+   "soha": "AI rasm"
   }
  ],
  "mavzu": {
