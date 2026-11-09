@@ -100,7 +100,11 @@
   "https://the-decoder.com/google-ships-four-tpu-variants-in-one-year-as-it-ramps-up-competition-with-nvidia/": 1794229599.655268,
   "https://the-decoder.com/nvidia-espionage-scandal-weakens-huangs-lobby-against-tighter-ai-chip-export-controls/": 1794232863.0342844,
   "https://about.fb.com/news/2026/11/expanding-teen-account-protections-to-teens-around-the-world/": 1794232863.0342844,
-  "https://www.notebookcheck.net/GPT-6-Cyber-OpenAI-rates-its-new-security-model-as-Critical.1445199.0.html": 1794236933.5860488
+  "https://www.notebookcheck.net/GPT-6-Cyber-OpenAI-rates-its-new-security-model-as-Critical.1445199.0.html": 1794236933.5860488,
+  "https://wccftech.com/higgsfield-miracle-promises-real-time-ai-video-editing-turning-any-clip-into-editable-layers/": 1794240080.4155982,
+  "https://www.theverge.com/tech/1029773/disney-adobe-generative-ai-partnership": 1794240080.4155982,
+  "https://the-decoder.com/tencents-ai-chief-says-ai-bioweapons-are-coming-but-closing-off-models-isnt-the-answer/": 1794240080.4155982,
+  "https://www.theverge.com/policy/1029652/kanter-doj-biden-legal-tech": 1794240080.4155982
  },
  "fails": 0,
  "sent": [
@@ -202,6 +206,26 @@
   {
    "t": 1794236933.5860488,
    "title": "GPT-6 Cyber: OpenAI rates its new security model as Critical",
+   "soha": "AI"
+  },
+  {
+   "t": 1794240080.4155982,
+   "title": "Higgsfield Miracle Promises Real-Time AI Video Editing, Turning Any Clip Into Editable Layers",
+   "soha": "AI video"
+  },
+  {
+   "t": 1794240080.4155982,
+   "title": "Disney and Adobe are building generative AI tools together",
+   "soha": "AI video"
+  },
+  {
+   "t": 1794240080.4155982,
+   "title": "Tencent's AI chief says AI bioweapons are coming, but closing off models isn't the answer",
+   "soha": "AI"
+  },
+  {
+   "t": 1794240080.4155982,
+   "title": "Jonathan Kanter is using AI to take on Big Tech",
    "soha": "AI"
   }
  ],
