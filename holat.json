@@ -97,7 +97,9 @@
   "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy": 1794225673.606958,
   "https://www.analyticsinsight.net/artificial-intelligence/viggle-ai-how-it-works-and-best-alternatives": 1794225673.606958,
   "https://www.yahoo.com/entertainment/articles/cinematographers-favorite-festival-ai-artists-123500235.html": 1794229599.655268,
-  "https://the-decoder.com/google-ships-four-tpu-variants-in-one-year-as-it-ramps-up-competition-with-nvidia/": 1794229599.655268
+  "https://the-decoder.com/google-ships-four-tpu-variants-in-one-year-as-it-ramps-up-competition-with-nvidia/": 1794229599.655268,
+  "https://the-decoder.com/nvidia-espionage-scandal-weakens-huangs-lobby-against-tighter-ai-chip-export-controls/": 1794232863.0342844,
+  "https://about.fb.com/news/2026/11/expanding-teen-account-protections-to-teens-around-the-world/": 1794232863.0342844
  },
  "fails": 0,
  "sent": [
@@ -184,6 +186,16 @@
   {
    "t": 1794229599.655268,
    "title": "Google ships four TPU variants in one year as it ramps up competition with Nvidia",
+   "soha": "AI"
+  },
+  {
+   "t": 1794232863.0342844,
+   "title": "Nvidia espionage scandal weakens Huang's lobby against tighter AI chip export controls",
+   "soha": "AI"
+  },
+  {
+   "t": 1794232863.0342844,
+   "title": "Expanding Teen Account Protections to Teens Around the World",
    "soha": "AI"
   }
  ],
