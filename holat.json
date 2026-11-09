@@ -95,7 +95,9 @@
   "https://the-decoder.com/the-brain-as-computer-metaphor-shaped-modern-ai-but-may-be-misleading-the-consciousness-debate/": 1794222520.0133631,
   "https://www.wired.com/story/bug-activists-and-biker-gang-members-are-teaming-up-to-protest-data-centers/": 1794222520.0133631,
   "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy": 1794225673.606958,
-  "https://www.analyticsinsight.net/artificial-intelligence/viggle-ai-how-it-works-and-best-alternatives": 1794225673.606958
+  "https://www.analyticsinsight.net/artificial-intelligence/viggle-ai-how-it-works-and-best-alternatives": 1794225673.606958,
+  "https://www.yahoo.com/entertainment/articles/cinematographers-favorite-festival-ai-artists-123500235.html": 1794229599.655268,
+  "https://the-decoder.com/google-ships-four-tpu-variants-in-one-year-as-it-ramps-up-competition-with-nvidia/": 1794229599.655268
  },
  "fails": 0,
  "sent": [
@@ -173,6 +175,16 @@
    "t": 1794225673.606958,
    "title": "Viggle AI: How It Works and Best Alternatives",
    "soha": "AI video"
+  },
+  {
+   "t": 1794229599.655268,
+   "title": "Cinematographers’ Favorite Festival Is All About AI This Year — but Artists Still Hate the Tech",
+   "soha": "AI tanlov"
+  },
+  {
+   "t": 1794229599.655268,
+   "title": "Google ships four TPU variants in one year as it ramps up competition with Nvidia",
+   "soha": "AI"
   }
  ],
  "mavzu": {
