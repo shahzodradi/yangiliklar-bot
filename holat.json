@@ -89,7 +89,11 @@
   "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit": 1794171411.059314,
   "https://the-decoder.com/ai-coding-agents-still-need-human-cleanup-on-nearly-three-out-of-four-tasks-in-a-real-world-test/": 1794171411.059314,
   "https://note.com/strawberry1982/n/n48becdacf6cd?hl=en": 1794221257.5365393,
-  "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic": 1794221916.4914405
+  "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic": 1794221916.4914405,
+  "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/": 1794222520.0133631,
+  "https://the-decoder.com/the-inventor-of-the-bitter-lesson-has-a-bitter-lesson-for-llm-scaling-enthusiasts/": 1794222520.0133631,
+  "https://the-decoder.com/the-brain-as-computer-metaphor-shaped-modern-ai-but-may-be-misleading-the-consciousness-debate/": 1794222520.0133631,
+  "https://www.wired.com/story/bug-activists-and-biker-gang-members-are-teaming-up-to-protest-data-centers/": 1794222520.0133631
  },
  "fails": 0,
  "sent": [
@@ -136,6 +140,26 @@
   {
    "t": 1794221916.4914405,
    "title": "Apple is racing to make Siri more agentic",
+   "soha": "AI"
+  },
+  {
+   "t": 1794222520.0133631,
+   "title": "Is Jensen Huang’s job on the line? Yale’s Jeffrey Sonnenfeld estimates it’s “about a 50-50”",
+   "soha": "AI"
+  },
+  {
+   "t": 1794222520.0133631,
+   "title": "The inventor of the bitter lesson has a bitter lesson for LLM scaling enthusiasts",
+   "soha": "AI"
+  },
+  {
+   "t": 1794222520.0133631,
+   "title": "The brain-as-computer metaphor shaped modern AI but may be misleading the consciousness debate",
+   "soha": "AI"
+  },
+  {
+   "t": 1794222520.0133631,
+   "title": "Bikers and Bug-Lovers Join Forces to Fight a New Google Data Center",
    "soha": "AI"
   }
  ],
