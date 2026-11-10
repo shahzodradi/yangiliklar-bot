@@ -1,8 +1,5 @@
 {
  "seen": {
-  "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission": 1793397082.4133868,
-  "https://www.gazeta.uz/oz/2026/10/30/airports/": 1793397082.4133868,
-  "https://www.sciencedaily.com/releases/2026/10/261027231200.htm": 1793397082.4133868,
   "https://www.ft.com/content/7a3ad950-1b3b-4d9e-8c15-65a61ae6180f?syn-25a6b1a6=1": 1793438163.3781204,
   "https://www.bbc.co.uk/news/articles/cm9qzdqpxy48o?at_medium=RSS&at_campaign=rss": 1793438163.3781204,
   "https://thepienews.com/australia-consults-on-student-visa-overhaul-as-refusals-hit-key-markets/": 1793438163.3781204,
@@ -111,20 +108,17 @@
   "https://www.theverge.com/ai-artificial-intelligence/1029802/trump-60-minutes-ai": 1794247280.3149226,
   "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2": 1794251150.3879302,
   "https://the-decoder.com/bytedances-seedream-5-5-promises-pixel-stable-image-editing-across-100-rounds-without-color-drift/": 1794251150.3879302,
-  "https://www.theverge.com/tech/1030061/instagram-ai-effect-builder-filters": 1794251150.3879302
+  "https://www.theverge.com/tech/1030061/instagram-ai-effect-builder-filters": 1794251150.3879302,
+  "https://www.news.com.au/lifestyle/real-life/news-life/deserves-an-oscar-disturbing-ai-short-film-about-domestic-violence-leaves-internet-in-tears/news-story/cb1df1f05a3dca802873beec6706ae05": 1794280048.2738967,
+  "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/": 1794280048.2738967,
+  "https://techcrunch.com/2026/11/09/jensen-huang-pulls-out-of-elevenlabs-summit-amid-nvidia-controversy/": 1794280048.2738967,
+  "https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai": 1794280048.2738967,
+  "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro": 1794280048.2738967,
+  "https://openai.com/index/control-room": 1794280048.2738967,
+  "https://openai.com/index/chatgpt-enterprise-aws-marketplace": 1794280048.2738967
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1794131399.8789122,
-   "title": "Elvis Presley rights holders and Eminem’s publisher sue AI music generator Suno",
-   "soha": "AI musiqa"
-  },
-  {
-   "t": 1794131399.8789122,
-   "title": "SoundCloud will soon have more AI music – from ElevenLabs",
-   "soha": "AI musiqa"
-  },
   {
    "t": 1794157188.5484107,
    "title": "Why is Midjourney making 30 billion yen a year with zero investment? | An AI image service with 40 employees",
@@ -284,6 +278,41 @@
    "t": 1794251150.3879302,
    "title": "Instagram’s Effect Builder makes new filters from AI prompts",
    "soha": "AI rasm"
+  },
+  {
+   "t": 1794280048.2738967,
+   "title": "‘Deserves an Oscar’: Disturbing AI short film about domestic violence leaves internet in tears",
+   "soha": "AI video"
+  },
+  {
+   "t": 1794280048.2738967,
+   "title": "Anthropic reportedly plans to move forward with IPO plans",
+   "soha": "AI"
+  },
+  {
+   "t": 1794280048.2738967,
+   "title": "Jensen Huang pulls out of ElevenLabs Summit amid Nvidia controversy",
+   "soha": "AI"
+  },
+  {
+   "t": 1794280048.2738967,
+   "title": "David Ellison says AI could be the ‘biggest creative unlock in modern history’",
+   "soha": "AI video"
+  },
+  {
+   "t": 1794280048.2738967,
+   "title": "Apple’s $50 Intelligence Usage Packs extend access to some AI features",
+   "soha": "AI musiqa"
+  },
+  {
+   "t": 1794280048.2738967,
+   "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+   "soha": "AI"
+  },
+  {
+   "t": 1794280048.2738967,
+   "title": "ChatGPT Enterprise now available in AWS Marketplace",
+   "soha": "AI"
   }
  ],
  "mavzu": {
