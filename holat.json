@@ -118,7 +118,9 @@
   "https://openai.com/index/chatgpt-enterprise-aws-marketplace": 1794280048.2738967,
   "https://www.forbes.com/sites/jamiegutfreund/2026/11/09/luma-ai-and-infinite-studios-are-moving-in-where-do-agencies-fit/": 1794283256.8771405,
   "https://www.msn.com/en-us/entertainment/music/lawsuit-accuses-generative-ai-company-of-illegally-profiting-from-elvis-presley-s-music/ar-AA2h6hyj": 1794283256.8771405,
-  "https://www.analyticsinsight.net/reports/generative-ai-in-music-market-to-reach-usd-147-billion-in-2035": 1794285481.3743186
+  "https://www.analyticsinsight.net/reports/generative-ai-in-music-market-to-reach-usd-147-billion-in-2035": 1794285481.3743186,
+  "https://tech.yahoo.com/social-media/articles/tiktok-updates-ai-video-ad-234653668.html": 1794290452.4902194,
+  "https://www.wired.com/story/jensen-huangs-troubles-leaves-the-ai-industry-reeling/": 1794290452.4902194
  },
  "fails": 0,
  "sent": [
@@ -316,6 +318,16 @@
    "t": 1794285481.3743186,
    "title": "Generative AI in Music Market to Reach USD 14.7 Billion in 2035",
    "soha": "AI musiqa"
+  },
+  {
+   "t": 1794290452.4902194,
+   "title": "TikTok updates its AI video ad tools",
+   "soha": "AI video"
+  },
+  {
+   "t": 1794290452.4902194,
+   "title": "Jensen Huang’s Troubles Leave the AI Industry Reeling",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -342,6 +354,69 @@
    "domains": [
     "analyticsinsight.net"
    ]
+  },
+  {
+   "t": 1794290452.4902194,
+   "title": "TikTok o'zining AI video reklama vositalarini yangiladi",
+   "text": "TikTok kompaniyasining Symphony platformasi brendlarga kengaytirilgan yaratish imkoniyatlarini taqdim etgan holda Dreamina Seedance modelidan foydalanish imkoniyatiga ega bo'ldi.",
+   "orig_title": "TikTok updates its AI video ad tools",
+   "link": "https://tech.yahoo.com/social-media/articles/tiktok-updates-ai-video-ad-234653668.html",
+   "source": "tech.yahoo.com",
+   "soha": "AI video",
+   "baho": 9,
+   "experts": [],
+   "effect": "Sun'iy intellektga asoslangan video yaratish vositalari va kontent generatsiya qilish imkoniyatlarining kengayishi bozor ishtirokchilari uchun raqobatni kuchaytirishi va reklama roliklarini tayyorlash jarayonini sezilarli darajada osonlashtirishi mumkin.",
+   "image": "https://s.yimg.com/lo/mysterio/api/70e9e6a031bf83c679cbb4228e550f5cc688e2e264fe164edb0d7c355e1083d6/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsocial_media_today_432%2F79b4da66253bc868d3119407d79bec18.jpg",
+   "domains": [
+    "tech.yahoo.com",
+    "techcrunch.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://tech.yahoo.com/social-media/articles/tiktok-updates-ai-video-ad-234653668.html",
+    "https://techcrunch.com/2026/10/31/tiktoks-road-to-becoming-a-super-app/",
+    "https://finance.yahoo.com/technology/ai/articles/creating-longer-ai-videos-still-141300654.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794290452.4902194,
+   "title": "Nvidia bosh direktori Jensen Huang atrofidagi mojaro AI sanoatiga ta'sir ko'rsatmoqda",
+   "text": "Nvidia rahbari Jensen Huang'ning shaxsiy hayoti va mumkin bo'lgan josuslik mojarosi kompaniyaning kelajagi hamda bozoriga xavf tug'dirishi mumkin.",
+   "orig_title": "Jensen Huang’s Troubles Leave the AI Industry Reeling",
+   "link": "https://www.wired.com/story/jensen-huangs-troubles-leaves-the-ai-industry-reeling/",
+   "source": "Wired AI",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [
+    {
+     "kim": "David Yoffie",
+     "lavozim": "Harvard Business School professori",
+     "fikr": "U chip kimga tegishi va kimga tegmasligini hal qiluvchi shaxs hisoblanadi va agar yangi rahbar kelsa, bu mijozlar uchun qanday oqibat olib kelishini hech kim bilmaydi.",
+     "url": "https://www.wired.com/story/jensen-huangs-troubles-leaves-the-ai-industry-reeling/",
+     "domain": "wired.com"
+    },
+    {
+     "kim": "Ryan Fedasiuk",
+     "lavozim": "tahlil markazi katta ilmiy xodimi",
+     "fikr": "Huang shunday muhim rol o'ynaganki, u butun AQSh sun'iy intellekt sanoati uchun tayanch ustunga aylangan va uni almashtirib bo'lmaydi.",
+     "url": "https://www.wired.com/story/jensen-huangs-troubles-leaves-the-ai-industry-reeling/",
+     "domain": "wired.com"
+    }
+   ],
+   "effect": "Nvidia rahbariyati atrofidagi mojarolar va kompaniya aksiyalarining pasayishi sun'iy intellekt bozorida beqarorlik keltirib chiqarishi, shuningdek, Google kabi raqobatchilarning chiplari va TPU savdosi keskin o'sishiga sabab bo'lishi mumkin.",
+   "image": "https://media.wired.com/photos/6af20d5c5d3e4adc0dc34622/191:100/w_1280,c_limit/What-Jensen-Huangs-Spy-Scandal-Means-For-AI-Industry-Business-2219673294.jpg",
+   "domains": [
+    "wired.com",
+    "finance.yahoo.com",
+    "sports.yahoo.com"
+   ],
+   "urls": [
+    "https://www.wired.com/story/jensen-huangs-troubles-leaves-the-ai-industry-reeling/",
+    "https://finance.yahoo.com/markets/stocks/articles/nvidia-enters-bear-market-google-182953893.html",
+    "https://sports.yahoo.com/articles/alice-huang-alleged-chinese-spy-121731178.html"
+   ],
+   "videos": []
   }
  ]
 }
