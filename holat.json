@@ -120,7 +120,9 @@
   "https://www.msn.com/en-us/entertainment/music/lawsuit-accuses-generative-ai-company-of-illegally-profiting-from-elvis-presley-s-music/ar-AA2h6hyj": 1794283256.8771405,
   "https://www.analyticsinsight.net/reports/generative-ai-in-music-market-to-reach-usd-147-billion-in-2035": 1794285481.3743186,
   "https://tech.yahoo.com/social-media/articles/tiktok-updates-ai-video-ad-234653668.html": 1794290452.4902194,
-  "https://www.wired.com/story/jensen-huangs-troubles-leaves-the-ai-industry-reeling/": 1794290452.4902194
+  "https://www.wired.com/story/jensen-huangs-troubles-leaves-the-ai-industry-reeling/": 1794290452.4902194,
+  "https://campaignbrief.com/tbwaaustralias-disrupt-ai-film-festival-returns-with-record-entries-expanded-2026-programme/": 1794294173.5031517,
+  "https://au.pcmag.com/video-editing/120829/adobe-firefly-text-to-video-guide-how-to-generate-ai-video-animate-still-images-and-extend-clips-in": 1794294173.5031517
  },
  "fails": 0,
  "sent": [
@@ -328,6 +330,16 @@
    "t": 1794290452.4902194,
    "title": "Jensen Huang’s Troubles Leave the AI Industry Reeling",
    "soha": "AI"
+  },
+  {
+   "t": 1794294173.5031517,
+   "title": "TBWA\\Australia’s DISRUPT AI Film Festival returns with record entries + expanded 2026 programme",
+   "soha": "AI tanlov"
+  },
+  {
+   "t": 1794294173.5031517,
+   "title": "Enhance and streamline your video editing workflow with Adobe Firefly’s generative AI tools.",
+   "soha": "AI rasm"
   }
  ],
  "mavzu": {
@@ -415,6 +427,53 @@
     "https://www.wired.com/story/jensen-huangs-troubles-leaves-the-ai-industry-reeling/",
     "https://finance.yahoo.com/markets/stocks/articles/nvidia-enters-bear-market-google-182953893.html",
     "https://sports.yahoo.com/articles/alice-huang-alleged-chinese-spy-121731178.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794294173.5031517,
+   "title": "DISRUPT AI Film Festivali rekord miqdordagi arizalar bilan qaytdi",
+   "text": "TBWA\\Australia tomonidan tashkil etilgan DISRUPT AI Film Festivali ikkinchi mavsumida 487 ta ariza qabul qilib, o'tgan yilgi ko'rsatkichni 31 foizga oshirdi.",
+   "orig_title": "TBWA\\Australia’s DISRUPT AI Film Festival returns with record entries + expanded 2026 programme",
+   "link": "https://campaignbrief.com/tbwaaustralias-disrupt-ai-film-festival-returns-with-record-entries-expanded-2026-programme/",
+   "source": "campaignbrief.com",
+   "soha": "AI tanlov",
+   "baho": 10,
+   "experts": [],
+   "effect": "Sun'iy intellekt texnologiyalarining rivojlanishi ijodiy jarayonlarda insonning o'rni va mualliflik huquqlarini muhokama qilish jarayonlarini yanada kuchaytirishi mumkin.",
+   "image": "https://campaignbrief.com/wp-content/uploads/2026/11/DISRUPT-2026-1024x576.jpg",
+   "domains": [
+    "campaignbrief.com",
+    "techcrunch.com"
+   ],
+   "urls": [
+    "https://campaignbrief.com/tbwaaustralias-disrupt-ai-film-festival-returns-with-record-entries-expanded-2026-programme/",
+    "https://techcrunch.com/2026/10/28/ai-execs-may-be-too-out-of-touch-to-build-for-the-general-public/",
+    "https://techcrunch.com/2026/11/04/google-faces-backlash-for-plan-that-would-turn-off-search-for-schools-that-restrict-ai/"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794294173.5031517,
+   "title": "Adobe Firefly video tahrirlash jarayonlarini soddalashtirmoqda",
+   "text": "Adobe Firefly foydalanuvchilarga oddiy matnli so'rovlar yordamida video, rasm va audio materiallarni yaratish hamda tahrirlash imkoniyatlarini kengaytirmoqda.",
+   "orig_title": "Enhance and streamline your video editing workflow with Adobe Firefly’s generative AI tools.",
+   "link": "https://au.pcmag.com/video-editing/120829/adobe-firefly-text-to-video-guide-how-to-generate-ai-video-animate-still-images-and-extend-clips-in",
+   "source": "au.pcmag.com",
+   "soha": "AI rasm",
+   "baho": 8,
+   "experts": [],
+   "effect": "Mazkur hamkorlik media va ko'ngilochar sanoatda sun'iy intellektga asoslangan kontent yaratish jarayonlarini tezlashtirishi hamda yangi texnologiyalarni joriy etishni kengaytirishi mumkin.",
+   "image": "https://sm.pcmag.com/t/pcmag_au/photo/default/adobe-premiere-firefly_9eh8.1200.jpg",
+   "domains": [
+    "au.pcmag.com",
+    "sg.news.yahoo.com",
+    "techcrunch.com"
+   ],
+   "urls": [
+    "https://au.pcmag.com/video-editing/120829/adobe-firefly-text-to-video-guide-how-to-generate-ai-video-animate-still-images-and-extend-clips-in",
+    "https://sg.news.yahoo.com/disney-adobe-launch-strategic-partnership-162203530.html",
+    "https://techcrunch.com/2023/03/21/adobe-firefly-generative-ai/"
    ],
    "videos": []
   }
