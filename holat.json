@@ -127,7 +127,8 @@
   "https://www.azernews.az/region/267163.html": 1794312099.5438285,
   "https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/": 1794312099.5438285,
   "https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/": 1794315958.6113648,
-  "https://the-decoder.com/anthropic-kicks-off-ipo-roadshow-offering-shares-at-70-to-78-and-targeting-a-trillion-dollar-valuation/": 1794315958.6113648
+  "https://the-decoder.com/anthropic-kicks-off-ipo-roadshow-offering-shares-at-70-to-78-and-targeting-a-trillion-dollar-valuation/": 1794315958.6113648,
+  "https://the-decoder.com/eight-countries-and-top-ai-labs-agree-to-shutdown-mechanisms-in-new-paris-declaration/": 1794319257.5646298
  },
  "fails": 0,
  "sent": [
@@ -374,6 +375,11 @@
   {
    "t": 1794315958.6113648,
    "title": "Anthropic kicks off IPO roadshow, offering shares at $70 to $78 and targeting a trillion-dollar valuation",
+   "soha": "AI"
+  },
+  {
+   "t": 1794319257.5646298,
+   "title": "Eight countries and top AI labs agree to shutdown mechanisms in new Paris declaration",
    "soha": "AI"
   }
  ],
@@ -708,6 +714,26 @@
     "https://the-decoder.com/anthropic-kicks-off-ipo-roadshow-offering-shares-at-70-to-78-and-targeting-a-trillion-dollar-valuation/",
     "https://finance.yahoo.com/technology/ai/articles/google-nvidia-amd-others-invest-120521300.html",
     "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794319257.5646298,
+   "title": "Sakkiz davlat va yetakchi AI laboratoriyalar Parij deklaratsiyasini imzoladi",
+   "text": "Parijda o'tgan sammitda OpenAI, Anthropic, Microsoft va Mistral AI vakillari xavfsizlik va xavflarni nazorat qilish mexanizmlari bo'yicha kelishuvni imzolashdi.",
+   "orig_title": "Eight countries and top AI labs agree to shutdown mechanisms in new Paris declaration",
+   "link": "https://the-decoder.com/eight-countries-and-top-ai-labs-agree-to-shutdown-mechanisms-in-new-paris-declaration/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Sun'iy intellekt xavfsizligi bo'yicha imzolangan Parij deklaratsiyasi texnologiya kompaniyalari ustidan xalqaro nazoratni kuchaytirish va modellarni favqulodda o'chirish mexanizmlarini joriy etishga olib kelishi mumkin. Biroq, aniq sanksiyalar va majburiy muddatlarning yo'qligi qoidalarning to'liq bajarilishini sekinlashtirishi ehtimoli bor.",
+   "image": "https://the-decoder.com/wp-content/uploads/2025/07/Digital-Europe-Map.jpg",
+   "domains": [
+    "the-decoder.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/eight-countries-and-top-ai-labs-agree-to-shutdown-mechanisms-in-new-paris-declaration/"
    ],
    "videos": []
   }
