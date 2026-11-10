@@ -2,7 +2,7 @@
 tanlaydi, voqea rasmini topadi, R3 uslubida 1080x1350 PNG chizadi va rasm + tayyor izohni
 @malikalardekqizlargabot'ga yuboradi. GitHub Actions: .github/workflows/instagram.yml (kuniga 1 marta).
 Ishlatish: python instagram/kunlik.py [--quruq]   (--quruq: yubormaydi, faqat chizadi va chop etadi)"""
-import html, json, re, sys, time, urllib.parse
+import html, io, json, re, sys, time, urllib.parse
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
@@ -13,6 +13,8 @@ import post as ig  # noqa: E402
 IG_STATE = HERE / "ig_holat.json"
 IMG_DIR = HERE / "chiqish"
 COUNT = 2                 # kuniga nechta post
+MIN_W, MIN_H = 1080, 700  # rasm sifati: asl o'lcham (1080x870 panelga cho'zilmasin)
+MIN_SHARP = 300           # keskinlik (chegaralar dispersiyasi): kattalashtirilgan xira rasmlar ~200
 WINDOW_HOURS = 26         # shu soat ichida bot yuborgan yangiliklar nomzod
 CAPTION_MAX = 2200        # Instagram izoh limiti
 PROMO = ("🤖 AI yangiliklarini har 2 soatda birinchi boʻlib olish uchun Telegram botimiz: "
@@ -78,22 +80,23 @@ def candidates(min_sources=2):
 FREE = ("public domain", "cc0", "cc by", "pd")
 
 
-def commons_photo(query):
-    """Wikimedia Commons'dan shu shaxs/joyning erkin litsenziyali rasmi: (fayl, kredit) yoki (None, None)."""
+def commons_photos(query):
+    """Wikimedia Commons'dan shu shaxs/joyning erkin litsenziyali rasmlari: [(url, kredit)]."""
+    found = []
     if not query.strip():
-        return None, None
+        return found
     api = "https://commons.wikimedia.org/w/api.php?"
     q = urllib.parse.urlencode({"action": "query", "format": "json", "generator": "search", "gsrnamespace": 6,
                                 "gsrsearch": f"{query} filetype:bitmap", "gsrlimit": 8, "prop": "imageinfo",
-                                "iiprop": "url|size|extmetadata", "iiurlwidth": 1280})
+                                "iiprop": "url|size|extmetadata", "iiurlwidth": 1600})
     try:
         pages = json.loads(bot.http(api + q, timeout=20))["query"]["pages"].values()
     except Exception as e:
         log.info("Commons qidiruv xatosi: %s", e)
-        return None, None
+        return found
     words = [w.lower() for w in query.split() if len(w) > 1]
     if len(words) < 2:  # bitta so'z (kompaniya nomi) noto'g'ri rasm topadi: "Anthropic" -> "anthropomorphic"
-        return None, None
+        return found
     for p in sorted(pages, key=lambda p: p.get("index", 99)):
         title = p["title"].lower()
         info = (p.get("imageinfo") or [{}])[0]
@@ -101,25 +104,62 @@ def commons_photo(query):
         lic = meta.get("LicenseShortName", {}).get("value", "")
         if not all(re.search(rf"\b{re.escape(w)}\b", title) for w in words) or not any(f in lic.lower() for f in FREE):
             continue
-        if info.get("width", 0) < 800 or info.get("height", 0) < 600 or title.endswith((".svg", ".gif")):
+        if info.get("width", 0) < 1200 or info.get("height", 0) < MIN_H or title.endswith((".svg", ".gif")):
             continue
-        img = bot.download_image(info.get("thumburl") or info["url"])
-        if img:
+        if True:
             artist = re.sub(r"<[^>]+>", "", meta.get("Artist", {}).get("value", "")).strip()[:60]
             artist = "" if "unknown" in artist.lower() else artist
-            return img, f"Wikimedia Commons, {lic}" + (f" ({artist})" if artist else "")
-    return None, None
+            found.append((info.get("thumburl") or info["url"],
+                          f"Wikimedia Commons, {lic}" + (f" ({artist})" if artist else "")))
+    return found[:3]
+
+
+def quality(data):
+    """(eni, bo'yi, keskinlik) yoki None (rasm ochilmasa)."""
+    from PIL import Image, ImageFilter, ImageStat
+    try:
+        im = Image.open(io.BytesIO(data))
+        w, h = im.size
+        g = im.convert("L")
+        g.thumbnail((800, 800))
+        return w, h, ImageStat.Stat(g.filter(ImageFilter.FIND_EDGES)).var[0]
+    except Exception:
+        return None
+
+
+def bigger(url):
+    """Sayt rasmining kattaroq nusxasi: WordPress -768x432, ?w=600 kabi o'lcham belgilarini olib tashlaydi."""
+    no_size = re.sub(r"-\d{2,4}x\d{2,4}(?=\.\w{3,4}(\?|$))", "", url)
+    no_query = re.sub(r"[?&](w|width|resize|h|height|fit|quality|q)=[^&]*", "", no_size)
+    no_query = no_query.replace("&", "?", 1) if "?" not in no_query else no_query
+    alts = [no_query, no_size]
+    return [u for u in dict.fromkeys(alts) if u != url] + [url]
 
 
 def find_photo(item, query):
-    img, credit = commons_photo(query)
-    if img:
-        return img, credit
-    for url in filter(None, [item.get("image")]):  # bot topgan maqola rasmi (og:image)
+    """Eng sifatli rasm: Wikimedia (shaxs) + asosiy va boshqa nashrlar maqolalaridagi rasmlar.
+    Kamida MIN_W x MIN_H va MIN_SHARP keskinlikdan o'tmasa — None (sifatsiz rasm qo'yilmaydi)."""
+    cands = commons_photos(query)
+    if item.get("image"):
+        cands += [(u, item["source"]) for u in bigger(item["image"])]
+    for url in (item.get("urls") or [])[1:4]:  # boshqa nashrlardagi maqolalarning og:image rasmi
+        og = bot.og_image(bot.fetch_html(url, timeout=10), url)
+        if og:
+            cands += [(u, bot.domain(url)) for u in bigger(og)]
+    best = None
+    for url, credit in dict.fromkeys(cands):
         img = bot.download_image(url)
-        if img:
-            return img, item["source"]
-    return None, None
+        q = quality(img[0]) if img else None
+        if not q:
+            continue
+        w, h, sharp = q
+        ok = w >= MIN_W and h >= MIN_H and sharp >= MIN_SHARP
+        log.info("Rasm %s: %dx%d keskinlik %.0f %s", bot.domain(url), w, h, sharp, "OK" if ok else "sifatsiz")
+        if ok and (best is None or (credit.startswith("Wikimedia"), w * h) > best[0]):
+            best = ((credit.startswith("Wikimedia"), w * h), img, credit)
+        if best and best[2].startswith("Wikimedia"):
+            break  # shaxsning erkin litsenziyali sifatli surati — eng yaxshisi
+    return (best[1], best[2]) if best else (None, None)
 
 
 # ---------- Izoh ----------
@@ -181,20 +221,24 @@ def main():
     brief = [{"id": i, "sarlavha": x["title"], "mazmun": x["text"], "soha": x["soha"], "baho": x["baho"],
               "mutaxassis": len(x.get("experts") or []), "manbalar": len(set(x.get("domains") or []))}
              for i, x in enumerate(items)]
-    result = bot.ask_models(env, PROMPT.format(count=COUNT, items=json.dumps(brief, ensure_ascii=False)),
+    result = bot.ask_models(env, PROMPT.format(count=COUNT + 3, items=json.dumps(brief, ensure_ascii=False)),
                             SCHEMA, fast=True)
     picks = [p for p in result.get("tanlov", []) if isinstance(p.get("id"), int) and 0 <= p["id"] < len(items)]
-    picks = list({p["id"]: p for p in picks}.values())[:COUNT]
+    picks = list({p["id"]: p for p in picks}.values())  # rasm topilmasa keyingisi olinadi
     IMG_DIR.mkdir(exist_ok=True)
     state = load_json(IG_STATE, {"links": []})
     day = time.strftime("%Y-%m-%d")
-    for n, pick in enumerate(picks, 1):
+    n = 0
+    for pick in picks:
+        if n >= COUNT:
+            break
         item = items[pick["id"]]
         pick.update({k: uz(pick.get(k, "")) for k in ("sarlavha", "savol")})
         img, credit = find_photo(item, pick.get("rasm", ""))
         if not img:
-            log.warning("Rasm topilmadi, tashlab ketildi: %s", item["link"])
+            log.warning("Sifatli rasm topilmadi, keyingi yangilik olinadi: %s", item["link"])
             continue
+        n += 1
         data, ctype = img
         photo = IMG_DIR / f"{day}_{n}_foto.{'png' if 'png' in ctype else 'jpg'}"
         photo.write_bytes(data)

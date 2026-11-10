@@ -555,6 +555,7 @@ def add_expert_views(env, posts, fast):
             views.append({**v, "url": texts[k - 1][1], "domain": texts[k - 1][0]})
         post["experts"] = views[:2]
         post["domains"] = list(dict.fromkeys(dom for dom, _, _ in texts))  # Instagram: 2+ manba tekshiruvi
+        post["urls"] = [u for _, u, _ in texts]  # Instagram: boshqa nashrlardagi rasmlar
         effect = (item.get("oqibat") or "").strip()
         post["effect"] = effect if is_uzbek_latin(effect) else None
         log.info("Mutaxassislar: %d ta (%d ta matndan) - %s", len(post["experts"]), len(texts), post["link"])
@@ -973,7 +974,8 @@ def run_digest(env, dry=False, fast=False, extra_chats=(), mavzu=None):
                 "link": post["link"], "source": post["source"], "soha": post["soha"], "baho": post["baho"],
                 "experts": [{k: v.get(k) for k in ("kim", "lavozim", "fikr", "url", "domain")}
                             for v in (post["experts"] or [])],
-                "effect": post["effect"], "image": img_url, "domains": post.get("domains") or []})
+                "effect": post["effect"], "image": img_url, "domains": post.get("domains") or [],
+                "urls": post.get("urls") or []})
     save_state(state)
     return len(posts)
 
