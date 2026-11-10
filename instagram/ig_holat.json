@@ -1,5 +1,8 @@
 {
- "links": [],
+ "links": [
+  "https://the-decoder.com/anthropic-kicks-off-ipo-roadshow-offering-shares-at-70-to-78-and-targeting-a-trillion-dollar-valuation/",
+  "https://www.wired.com/story/jensen-huangs-troubles-leaves-the-ai-industry-reeling/"
+ ],
  "faktlar": {
   "Alan Turing": [
    "The first day of term coincided with the 1926 General Strike, in Britain, but Turing was so determined to attend that he rode his bicycle unaccompanied 60 miles (97 km) from Southampton to Sherborne, "
@@ -8,5 +11,6 @@
    "Weizenbaum's own secretary reportedly asked Weizenbaum to leave the room so that she and ELIZA could have a real conversation."
   ]
  },
- "fakt_navbat": 3
+ "fakt_navbat": 3,
+ "videos": []
 }
