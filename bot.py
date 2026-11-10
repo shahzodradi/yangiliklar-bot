@@ -38,7 +38,7 @@ GROUPS_FILE = DIR / "guruhlar.json"  # bot qo'shilgan guruhlar (Cloudflare Worke
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/130 Safari/537.36"
 MAX_AGE_HOURS = 24          # bugungi yangiliklar: oxirgi 24 soat
 FALLBACK_AGE_HOURS = 48     # bugungilarning hammasi yuborilgan bo'lsa, shuncha soatgacha olinadi
-SENT_KEEP_HOURS = 36        # takrorlamaslik uchun yuborilgan sarlavhalar shuncha saqlanadi
+SENT_KEEP_HOURS = 96        # takrorlamaslik uchun yuborilgan sarlavhalar shuncha saqlanadi (media manbalari 72 soatlik)
 PER_SOURCE_LIMIT = 8        # bitta manbadan bir martada ko'pi bilan nechta
 MAX_CANDIDATES = 200        # Gemini'ga yuboriladigan nomzodlar soni
 MAX_MEDIA = 8               # bir martada AI video/rasm/musiqa yangiliklari: hammasi, shuncha tagacha
@@ -267,7 +267,7 @@ VAZIFA:
    rekordlar va janjallar. Yangi AI yangiligi bo'lsa, bo'sh qaytarma.
    Muhimlik bo'yicha tartibla, bo'sh ro'yxat qaytarma.
    Har biriga 1-10 baho qo'y.
-   Bir voqea haqidagi takror maqolalardan faqat bittasini ol. "BUGUN YUBORILGAN" ro'yxatidagi voqealarni
+   Bir voqea haqidagi takror maqolalardan faqat bittasini ol. "OXIRGI 3 KUNDA YUBORILGAN" ro'yxatidagi voqealarni
    boshqa nashrdan bo'lsa ham qayta olma.
    Reklama, promo-kodlar, "qanday prompt yozish" qo'llanmalari, "eng yaxshi 10 ta vosita" ro'yxatlari, eski voqealarni
    eslatuvchi sharhlar va kod repozitoriylarini (GitHub) olma.
@@ -285,7 +285,7 @@ VAZIFA:
 Faqat shu JSON formatda javob ber:
 {{"tanlov": [{{"id": 0, "baho": 8, "sarlavha": "...", "mazmun": "...", "qidiruv": "...", "soha": "..."}}]}}
 
-BUGUN YUBORILGAN (bu voqealarni takrorlama):
+OXIRGI 3 KUNDA YUBORILGAN (bu voqealarni takrorlama):
 {sent}
 
 MAQOLALAR (JSON):
@@ -903,12 +903,17 @@ def run_digest(env, dry=False, fast=False, extra_chats=(), mavzu=None):
     candidates = pick_candidates(fetched, exclude, MAX_AGE_HOURS)
     if not candidates:  # bugungilarning hammasi yuborilgan bo'lsa, kechagilar ham olinadi
         candidates = pick_candidates(fetched, exclude, FALLBACK_AGE_HOURS)
-    log.info("Yig'ildi: %d ta, yuborilmagan nomzod: %d ta", len(fetched), len(candidates))
-    if not candidates:
-        return 0
     now = time.time()
     sent_list = state.get("sent", []) + (topic["sent"] if topic else [])
-    sent_titles = [x["title"] for x in sent_list if now - x["t"] < 86400][-40:]
+    # Yuborilgan voqealar boshqa nashrdan bo'lsa ham Gemini'ga umuman berilmaydi: aks holda u ularni qayta
+    # tanlab, joyni egallaydi va keyin filtrda tushib qoladi (runda 0 post qolardi)
+    old = len(candidates)
+    candidates = [c for c in candidates if not any(same_story(c["title"], x["title"]) for x in sent_list)]
+    log.info("Yig'ildi: %d ta, yuborilmagan nomzod: %d ta (takror voqea olib tashlandi: %d)",
+             len(fetched), len(candidates), old - len(candidates))
+    if not candidates:
+        return 0
+    sent_titles = [x["title"] for x in sent_list if now - x["t"] < 72 * 3600][-80:]
 
     try:
         result = ask_gemini(env, candidates, sent_titles, fast=fast, mavzu=mavzu)
