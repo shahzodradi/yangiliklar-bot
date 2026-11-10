@@ -125,7 +125,9 @@
   "https://www.dispatch.com/press-release/story/265381/the-2026-boston-silicon-valley-ai-film-festival-11-awards-and-the-convergence-of-ai-filmmaking/": 1794312099.5438285,
   "https://www.msn.com/en-gb/entertainment/movies/i-analyze-the-differences-between-seedance-2-0-and-kling-3-0/vi-AA2h7S9H": 1794312099.5438285,
   "https://www.azernews.az/region/267163.html": 1794312099.5438285,
-  "https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/": 1794312099.5438285
+  "https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/": 1794312099.5438285,
+  "https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/": 1794315958.6113648,
+  "https://the-decoder.com/anthropic-kicks-off-ipo-roadshow-offering-shares-at-70-to-78-and-targeting-a-trillion-dollar-valuation/": 1794315958.6113648
  },
  "fails": 0,
  "sent": [
@@ -362,6 +364,16 @@
   {
    "t": 1794312099.5438285,
    "title": "A short seller flagged Nvidia CEO’s ties to a suspected Chinese spy six months before the scandal",
+   "soha": "AI"
+  },
+  {
+   "t": 1794315958.6113648,
+   "title": "Cyberattacks threaten to make open-source AI a little less open, Hugging Face exec warns",
+   "soha": "AI"
+  },
+  {
+   "t": 1794315958.6113648,
+   "title": "Anthropic kicks off IPO roadshow, offering shares at $70 to $78 and targeting a trillion-dollar valuation",
    "soha": "AI"
   }
  ],
@@ -651,6 +663,53 @@
      "X"
     ]
    ]
+  },
+  {
+   "t": 1794315958.6113648,
+   "title": "Hugging Face kiberhujumlar ochiq kodli sun'iy intellektga xavf solayotganini bildirdi",
+   "text": "Hugging Face rahbari Irene Solaiman ochiq AI platformalariga qaratilgan kiberhujumlar kuchayishi xavfsizlik cheklovlarini kuchaytirishga majbur qilishini va dasturchilar uchun imkoniyatlarni cheklashini ogohlantirdi.",
+   "orig_title": "Cyberattacks threaten to make open-source AI a little less open, Hugging Face exec warns",
+   "link": "https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Kiberhujumlar ochiq kodli sun'iy intellekt platformalarida kirishni cheklash, kuchaytirilgan shaxsinikni tasdiqlash yoki tekshiruvlarni keltirib chiqarishi mumkin, bu esa mustaqil tadqiqotchilar va ishqibozlarning ishtirokini qiyinlashtirishi ehtimoli bor.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/55593309591_7cc2d3aba6_k.jpg?resize=1200,800",
+   "domains": [
+    "techcrunch.com",
+    "wired.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/",
+    "https://www.wired.com/story/wired-world-fair-2026-clement-delangue-hugging-face/",
+    "https://www.wired.com/story/mistral-says-le-chonk-surpasses-chinese-models-cybersecurity/"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794315958.6113648,
+   "title": "Anthropic IPO yo'liga chiqdi va trillion dollarlik bahoni maqsad qildi",
+   "text": "Anthropic kompaniyasi 1.02 trillion dollargacha baholanishni ko'zlab IPO jarayonini boshladi. Shuningdek, Google, Nvidia va Microsoft kabi yirik investorlar ishtirokida 26 milliard dollar jalb qilinmoqda.",
+   "orig_title": "Anthropic kicks off IPO roadshow, offering shares at $70 to $78 and targeting a trillion-dollar valuation",
+   "link": "https://the-decoder.com/anthropic-kicks-off-ipo-roadshow-offering-shares-at-70-to-78-and-targeting-a-trillion-dollar-valuation/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 9,
+   "experts": [],
+   "effect": "Yuqori foiz stavkalari muhiti va qattiqroq tartibga solish qo'rquvchilari sharoitida o'tkazilayotgan bu ommaviy aksiyalar chiqaruvi bozorda sun'iy intellekt investitsiya siklining barqarorligiga nisbatan shubhalarni yanada kuchaytirishi mumkin.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/08/anthropic_claude.png",
+   "domains": [
+    "the-decoder.com",
+    "finance.yahoo.com",
+    "cnbc.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/anthropic-kicks-off-ipo-roadshow-offering-shares-at-70-to-78-and-targeting-a-trillion-dollar-valuation/",
+    "https://finance.yahoo.com/technology/ai/articles/google-nvidia-amd-others-invest-120521300.html",
+    "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html"
+   ],
+   "videos": []
   }
  ]
 }
