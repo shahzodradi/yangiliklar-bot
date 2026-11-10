@@ -128,7 +128,14 @@
   "https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/": 1794312099.5438285,
   "https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/": 1794315958.6113648,
   "https://the-decoder.com/anthropic-kicks-off-ipo-roadshow-offering-shares-at-70-to-78-and-targeting-a-trillion-dollar-valuation/": 1794315958.6113648,
-  "https://the-decoder.com/eight-countries-and-top-ai-labs-agree-to-shutdown-mechanisms-in-new-paris-declaration/": 1794319257.5646298
+  "https://the-decoder.com/eight-countries-and-top-ai-labs-agree-to-shutdown-mechanisms-in-new-paris-declaration/": 1794319257.5646298,
+  "https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/": 1794322959.1546466,
+  "https://www.foxbusiness.com/technology/adobe-google-broaden-ai-partnership-across-creative-workplace-apps": 1794322959.1546466,
+  "https://the-decoder.com/anthropics-fable-5-2-completes-41-percent-of-real-freelance-jobs-up-from-2-5-percent-a-year-ago/": 1794322959.1546466,
+  "https://techcrunch.com/2026/11/10/spotifys-ai-dj-gets-new-voices-personalities-and-an-option-for-less-chatter/": 1794322959.1546466,
+  "https://techcrunch.com/2026/11/10/after-challenging-googles-android-with-cyanogen-its-co-founder-takes-aim-at-windows-for-ai-era/": 1794322959.1546466,
+  "https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/": 1794322959.1546466,
+  "https://techcrunch.com/2026/11/09/otter-ai-can-now-follow-conversations-across-30-languages/": 1794322959.1546466
  },
  "fails": 0,
  "sent": [
@@ -380,6 +387,41 @@
   {
    "t": 1794319257.5646298,
    "title": "Eight countries and top AI labs agree to shutdown mechanisms in new Paris declaration",
+   "soha": "AI"
+  },
+  {
+   "t": 1794322959.1546466,
+   "title": "Adobe brings AI agents and new creative tools to Photoshop, Premiere, and Firefly",
+   "soha": "AI video"
+  },
+  {
+   "t": 1794322959.1546466,
+   "title": "Adobe, Google broaden AI partnership across creative and workplace apps",
+   "soha": "AI rasm"
+  },
+  {
+   "t": 1794322959.1546466,
+   "title": "Anthropic's Fable 5.2 completes 41 percent of real freelance jobs, up from 2.5 percent a year ago",
+   "soha": "AI"
+  },
+  {
+   "t": 1794322959.1546466,
+   "title": "Spotify’s AI DJ gets new voices, personalities, and an option for less chatter",
+   "soha": "AI musiqa"
+  },
+  {
+   "t": 1794322959.1546466,
+   "title": "After challenging Google’s Android with Cyanogen, its co-founder takes aim at Windows for AI era",
+   "soha": "AI"
+  },
+  {
+   "t": 1794322959.1546466,
+   "title": "The race is on to sue Nvidia",
+   "soha": "AI"
+  },
+  {
+   "t": 1794322959.1546466,
+   "title": "Otter AI can now follow conversations across 30+ languages",
    "soha": "AI"
   }
  ],
@@ -734,6 +776,173 @@
    ],
    "urls": [
     "https://the-decoder.com/eight-countries-and-top-ai-labs-agree-to-shutdown-mechanisms-in-new-paris-declaration/"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794322959.1546466,
+   "title": "Adobe Firefly, Photoshop va Premiere dasturlariga yangi AI agentlarini qo‘shdi",
+   "text": "Adobe o‘zining Max anjumanida Firefly platformasida yangi prototiplash vositasini va Creative Cloud dasturlariga murakkab vazifalarni avtomatlashtiruvchi AI agentlarini taqdim etdi.",
+   "orig_title": "Adobe brings AI agents and new creative tools to Photoshop, Premiere, and Firefly",
+   "link": "https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/",
+   "source": "TechCrunch AI",
+   "soha": "AI video",
+   "baho": 9,
+   "experts": [],
+   "effect": "Kreativ dasturlar bozorida raqobat kuchayib, dizaynerlar va tahrirchilar murakkab ishlarni turli AI agentlariga avtomatik topshirish orqali ish unumdorligini sezilarli darajada oshirishi mumkin.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/FF-AIA-PlanMode-No-Logo-4.jpg?resize=1200,675",
+   "domains": [
+    "techcrunch.com",
+    "theverge.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/",
+    "https://www.theverge.com/tech/1030593/adobe-max-ai-agents-mcp-firefly-assistant-updates"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794322959.1546466,
+   "title": "Adobe va Google AI hamkorligini kengaytirib, DeepMind modellarini integratsiya qilmoqda",
+   "text": "Google DeepMind AI modellari endilikda Photoshop, Firefly va Premiere imkoniyatlarini kuchaytiradi, Adobe Acrobat esa Google Drive va Gmail bilan bog‘lanadi.",
+   "orig_title": "Adobe, Google broaden AI partnership across creative and workplace apps",
+   "link": "https://www.foxbusiness.com/technology/adobe-google-broaden-ai-partnership-across-creative-workplace-apps",
+   "source": "foxbusiness.com",
+   "soha": "AI rasm",
+   "baho": 8,
+   "experts": [],
+   "effect": "Google Workspace va Adobe ekotizimlari o‘rtasidagi integratsiya korporativ xodimlarning ish jarayonlarini soddalashtirib, Adobe dasturlarida ilg‘or sun’iy intellekt xizmatlarining keng tarqalishiga olib kelishi mumkin.",
+   "image": "https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2026/09/0/0/artificial-intelligence-workplace-people-skills-employees.jpg?ve=1&tl=1",
+   "domains": [
+    "foxbusiness.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://www.foxbusiness.com/technology/adobe-google-broaden-ai-partnership-across-creative-workplace-apps",
+    "https://finance.yahoo.com/technology/ai/articles/adobe-google-deepen-partnership-bring-140400160.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794322959.1546466,
+   "title": "Anthropic Fable 5.2 modeli frilanserlik vazifalarining 41 foizini bajara oladi",
+   "text": "Remote Labor Index sinoviga ko‘ra, Fable 5.2 haqiqiy frilans ishlarining 41.3 foizini professional darajada bajardi. Bu ko‘rsatkich o‘tgan yili bor-yo‘g‘i 2.5 foizni tashkil etgan edi.",
+   "orig_title": "Anthropic's Fable 5.2 completes 41 percent of real freelance jobs, up from 2.5 percent a year ago",
+   "link": "https://the-decoder.com/anthropics-fable-5-2-completes-41-percent-of-real-freelance-jobs-up-from-2-5-percent-a-year-ago/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "AI agentlarining murakkab vazifalarni mustaqil bajarish qobiliyati ortishi frilans va masofaviy xizmatlar bozorida mutaxassislarga bo‘lgan talabni o‘zgartirib, raqamli xizmatlar tannarxini pasaytirishi mumkin.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/07/Remote-labor-index-bench-title.png",
+   "domains": [
+    "the-decoder.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/anthropics-fable-5-2-completes-41-percent-of-real-freelance-jobs-up-from-2-5-percent-a-year-ago/",
+    "https://finance.yahoo.com/technology/article/anthropic-debuts-opus-5-model-as-company-preps-for-ipo-later-this-year-170000070.html"
+   ],
+   "videos": [
+    [
+     "https://x.com/ScaleAILabs/status/2119914701736075489",
+     "X"
+    ]
+   ]
+  },
+  {
+   "t": 1794322959.1546466,
+   "title": "Spotify AI DJ yangi ovozlar va xarakterlarga ega bo‘ldi",
+   "text": "Spotify Premium foydalanuvchilari uchun AI DJ funksiyasiga yangi xarakterga ega ovozlar hamda qo‘shiqlar orasidagi gaplarni o‘chirish imkoniyati qo‘shildi.",
+   "orig_title": "Spotify’s AI DJ gets new voices, personalities, and an option for less chatter",
+   "link": "https://techcrunch.com/2026/11/10/spotifys-ai-dj-gets-new-voices-personalities-and-an-option-for-less-chatter/",
+   "source": "TechCrunch AI",
+   "soha": "AI musiqa",
+   "baho": 7,
+   "experts": [],
+   "effect": "Foydalanuvchilarga shaxsiylashtirilgan ovozlar va sharhlarni cheklash imkonining berilishi platformadagi foydalanuvchilar qoniqishini oshirishi hamda pulli obunachilar sonining ko‘payishiga olib kelishi mumkin.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/05/Spotify-AI-DJ-Header.jpg?w=978",
+   "domains": [
+    "techcrunch.com",
+    "theverge.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/10/spotifys-ai-dj-gets-new-voices-personalities-and-an-option-for-less-chatter/",
+    "https://www.theverge.com/entertainment/1030682/spotify-dj-gets-new-voices-and-the-ability-to-stop-yammering"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794322959.1546466,
+   "title": "Cyanogen asoschisi sun’iy intellekt uchun Kora operatsion tizimini taqdim etmoqda",
+   "text": "Cyanogen hammuassisi lokal AI modellari va agentlar bilan ishlovchi foydalanuvchilar uchun Windows va macOS o‘rnini bosuvchi yangi Kora Linux operatsion tizimini ishlab chiqdi.",
+   "orig_title": "After challenging Google’s Android with Cyanogen, its co-founder takes aim at Windows for AI era",
+   "link": "https://techcrunch.com/2026/11/10/after-challenging-googles-android-with-cyanogen-its-co-founder-takes-aim-at-windows-for-ai-era/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Operatsion tizim darajasida integratsiyalashgan AI platformalarining paydo bo‘lishi AI bilan intensiv ishlovchi professional foydalanuvchilar segmentida an’anaviy tizimlarga yangi muqobil yaratishi mumkin.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/kora-os.jpg?resize=1200,800",
+   "domains": [
+    "techcrunch.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/10/after-challenging-googles-android-with-cyanogen-its-co-founder-takes-aim-at-windows-for-ai-era/",
+    "https://finance.yahoo.com/technology/ai/articles/humain-kora-partner-build-operating-152300289.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794322959.1546466,
+   "title": "Nvidia atrofidagi mojaro sabab kompaniyani sudga berish holatlari kuchaymoqda",
+   "text": "Jensen Huang ishtirokidagi josuslik mojarosi va boshqaruv kengashi tekshiruvi ortidan Nvidia aksiyalari 4 foizdan ko‘proqqa arzonlashdi hamda investorlar sud da’volariga tayyorlanmoqda.",
+   "orig_title": "The race is on to sue Nvidia",
+   "link": "https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [
+    {
+     "kim": "Robert Bartlett",
+     "lavozim": "Stanford yuridik maktabi professori",
+     "fikr": "Kompaniyaning avvalgi bayonoti aniq chalg‘ituvchi bo‘lgan va Xuan bosh direktor bo‘lgani sababli uning bilganlari kompaniya nomidan qabul qilinadi.",
+     "url": "https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/",
+     "domain": "techcrunch.com"
+    }
+   ],
+   "effect": "Bosh direktor mojarosi va investorlar tomonidan kutilayotgan ko‘plab sud da’volari Nvidia aksiyalari narxining yanada tushishiga hamda kompaniya obro‘siga uzoq muddatli bosim o‘tkazishiga olib kelishi mumkin.",
+   "image": "https://techcrunch.com/wp-content/uploads/2025/04/GettyImages-2205754389.jpg?w=1024",
+   "domains": [
+    "techcrunch.com",
+    "sports.yahoo.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/",
+    "https://sports.yahoo.com/articles/nvidia-investigates-chinese-spy-claims-205823171.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794322959.1546466,
+   "title": "Otter AI 30 dan ortiq tillarni tushunish imkoniyatiga ega bo‘ldi",
+   "text": "Otter AI platformasi yana 27 ta tilni qo‘llab-quvvatlay boshladi va suhbatdoshlar tilni almashtirganda ham nutqni davomiy tushunish funksiyasini taqdim etmoqda.",
+   "orig_title": "Otter AI can now follow conversations across 30+ languages",
+   "link": "https://techcrunch.com/2026/11/09/otter-ai-can-now-follow-conversations-across-30-languages/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 6,
+   "experts": [],
+   "effect": "Ko‘p tilli nutqni bir vaqtda matnga aylantirish xususiyati xalqaro korporatsiyalarda uchrashuvlarni hujjatlashtirishni yengillashtirishi va korporativ transkripsiyalar bozorida raqobatni oshirishi mumkin.",
+   "image": "https://techcrunch.com/wp-content/uploads/2021/01/GettyImages-521333620.jpg?resize=1200,800",
+   "domains": [
+    "techcrunch.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/09/otter-ai-can-now-follow-conversations-across-30-languages/",
+    "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-30-dow-sp-500-nasdaq-amazon-intel-ai-sell-off-191429143.html"
    ],
    "videos": []
   }
