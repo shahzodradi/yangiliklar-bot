@@ -122,7 +122,8 @@
   "https://tech.yahoo.com/social-media/articles/tiktok-updates-ai-video-ad-234653668.html": 1794290452.4902194,
   "https://www.wired.com/story/jensen-huangs-troubles-leaves-the-ai-industry-reeling/": 1794290452.4902194,
   "https://campaignbrief.com/tbwaaustralias-disrupt-ai-film-festival-returns-with-record-entries-expanded-2026-programme/": 1794294173.5031517,
-  "https://au.pcmag.com/video-editing/120829/adobe-firefly-text-to-video-guide-how-to-generate-ai-video-animate-still-images-and-extend-clips-in": 1794294173.5031517
+  "https://au.pcmag.com/video-editing/120829/adobe-firefly-text-to-video-guide-how-to-generate-ai-video-animate-still-images-and-extend-clips-in": 1794294173.5031517,
+  "https://english.news.cn/20261110/34eb3a8213674d9fb7be705cc4cfb911/c.html": 1794297683.2016978
  },
  "fails": 0,
  "sent": [
@@ -340,6 +341,11 @@
    "t": 1794294173.5031517,
    "title": "Enhance and streamline your video editing workflow with Adobe Firefly’s generative AI tools.",
    "soha": "AI rasm"
+  },
+  {
+   "t": 1794297683.2016978,
+   "title": "Golden Rooster Film Festival: Where art meets technology",
+   "soha": "AI tanlov"
   }
  ],
  "mavzu": {
@@ -474,6 +480,28 @@
     "https://au.pcmag.com/video-editing/120829/adobe-firefly-text-to-video-guide-how-to-generate-ai-video-animate-still-images-and-extend-clips-in",
     "https://sg.news.yahoo.com/disney-adobe-launch-strategic-partnership-162203530.html",
     "https://techcrunch.com/2023/03/21/adobe-firefly-generative-ai/"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794297683.2016978,
+   "title": "Golden Rooster Film Festivalida AI texnologiyalari muhokama qilindi",
+   "text": "Golden Rooster Film Festivalida kinoijodkorlar va rejissyorlar sun'iy intellektning kino olib kelayotgan imkoniyatlari hamda muammolarini muhokama qilishdi.",
+   "orig_title": "Golden Rooster Film Festival: Where art meets technology",
+   "link": "https://english.news.cn/20261110/34eb3a8213674d9fb7be705cc4cfb911/c.html",
+   "source": "english.news.cn",
+   "soha": "AI tanlov",
+   "baho": 8,
+   "experts": [],
+   "effect": "Sun'iy intellekt texnologiyalarining kinosanoatga jadal kirib kelishi ijodiy xarajatlarni qisqartirib, vizual konsepsiyalarni tezlashtirishi mumkin, biroq aktyorlik mahorati va insoniy hissiyotlar kino yaratishda bosh rol bo'lib qolish ehtimoli yuqori.",
+   "image": null,
+   "domains": [
+    "finance.yahoo.com",
+    "yahoo.com"
+   ],
+   "urls": [
+    "https://finance.yahoo.com/media-advertising/articles/giorgio-armani-ceo-touts-links-150507088.html",
+    "https://www.yahoo.com/entertainment/movies/articles/golden-rooster-roundtable-talks-chinese-235659994.html"
    ],
    "videos": []
   }
