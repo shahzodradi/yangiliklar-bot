@@ -143,7 +143,10 @@
   "https://www.msn.com/en-in/news/other/adobe-firefly-gets-ai-assistant-new-video-and-image-editing-tools-here-is-everything-you-need-to-know/ar-AA2h9f6e": 1794330159.6686654,
   "https://www.techjuice.pk/adobe-reveals-massive-ai-upgrades-firefly-builder-mcp-integration/": 1794330159.6686654,
   "https://openai.com/index/ai-effect-on-freelance-work": 1794330159.6686654,
-  "https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/": 1794330159.6686654
+  "https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/": 1794330159.6686654,
+  "https://the-decoder.com/google-deepminds-gemini-robotics-2-5-scores-96-percent-sorting-metal-parts-in-a-mercedes-benz-assembly-pilot/": 1794333661.7195117,
+  "https://www.theverge.com/tech/1030653/adobe-max-2026-photoshop-premiere-removal-updates": 1794333661.7195117,
+  "https://tech.yahoo.com/cybersecurity/articles/openais-gpt-6-cyber-ai-193006811.html": 1794333661.7195117
  },
  "fails": 0,
  "sent": [
@@ -485,6 +488,21 @@
   {
    "t": 1794330159.6686654,
    "title": "A New AI Tool From Google DeepMind Proved the Signal Protocol Is Secure",
+   "soha": "AI"
+  },
+  {
+   "t": 1794333661.7195117,
+   "title": "Google DeepMind's Gemini Robotics 2.5 scores 96 percent sorting metal parts in a Mercedes-Benz assembly pilot",
+   "soha": "AI"
+  },
+  {
+   "t": 1794333661.7195117,
+   "title": "Photoshop, Lightroom, and Premiere are making it easier to remove things",
+   "soha": "AI video"
+  },
+  {
+   "t": 1794333661.7195117,
+   "title": "OpenAI's New GPT-6 Cyber AI Can Find and Exploit Software Flaws — It Already Uncovered 588 Unknown Linux Vulnerabilities and 81 Firefox Bugs",
    "soha": "AI"
   }
  ],
@@ -1218,6 +1236,85 @@
     "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/"
    ],
    "videos": []
+  },
+  {
+   "t": 1794333661.7195117,
+   "title": "Google DeepMind Gemini Robotics 2.5",
+   "text": "Google DeepMind Gemini Robotics 2.5 modeli Vengriya va Germaniyadagi Mercedes-Benz zavodlarida metall qismlarni saralashda 96 foiz aniqlik ko'rsatdi.",
+   "orig_title": "Google DeepMind's Gemini Robotics 2.5 scores 96 percent sorting metal parts in a Mercedes-Benz assembly pilot",
+   "link": "https://the-decoder.com/google-deepminds-gemini-robotics-2-5-scores-96-percent-sorting-metal-parts-in-a-mercedes-benz-assembly-pilot/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Avtomobilsozlik sanoatida robototexnika va sun'iy intellektning joriy etilishi ishlab chiqarish jarayonlarini tezlashtirishi hamda zavodlardagi xarajatlarni qisqartirishi mumkin.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/11/Google-Deepmind-Gemini-Robotics-2-5.webp",
+   "domains": [
+    "the-decoder.com",
+    "finance.yahoo.com",
+    "yahoo.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/google-deepminds-gemini-robotics-2-5-scores-96-percent-sorting-metal-parts-in-a-mercedes-benz-assembly-pilot/",
+    "https://finance.yahoo.com/markets/stocks/articles/mercedes-benz-cuts-2026-profit-105821720.html",
+    "https://www.yahoo.com/news/articles/british-lawmakers-accuse-google-deepmind-172816130.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794333661.7195117,
+   "title": "Adobe Firefly va Creative Cloud yangilanishlari",
+   "text": "Adobe dizayn va tahrirlash loyihalarini tezlashtirish maqsadida Creative Cloud ilovalari va Firefly AI platformasiga yangi obyektlarni o'chirish funksiyalarini qo'shdi.",
+   "orig_title": "Photoshop, Lightroom, and Premiere are making it easier to remove things",
+   "link": "https://www.theverge.com/tech/1030653/adobe-max-2026-photoshop-premiere-removal-updates",
+   "source": "The Verge AI",
+   "soha": "AI video",
+   "baho": 9,
+   "experts": [],
+   "effect": "Ijodiy dasturlarga sun'iy intellekt agentlari va avtomatlashtirilgan vositalarning qo'shilishi mutaxassislarning ish tezligini oshirishi va murakkab jarayonlarni soddalashtirishi mumkin.",
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/PS-Remove-No-Logo-2.jpg?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200",
+   "domains": [
+    "theverge.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://www.theverge.com/tech/1030653/adobe-max-2026-photoshop-premiere-removal-updates",
+    "https://finance.yahoo.com/technology/ai/articles/adobe-transforms-creative-cloud-tools-140200322.html",
+    "https://finance.yahoo.com/technology/ai/articles/adobe-powers-era-creativity-bringing-140000660.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794333661.7195117,
+   "title": "OpenAI GPT-6 Cyber modeli taqdim etildi",
+   "text": "OpenAI xavfsizlik zaifliklarini aniqlash va tushunishga mo'ljallangan GPT-6 Cyber modelini taqdim etdi, u Linux tizimlarida yuzlab zaifliklarni aniqladi.",
+   "orig_title": "OpenAI's New GPT-6 Cyber AI Can Find and Exploit Software Flaws — It Already Uncovered 588 Unknown Linux Vulnerabilities and 81 Firefox Bugs",
+   "link": "https://tech.yahoo.com/cybersecurity/articles/openais-gpt-6-cyber-ai-193006811.html",
+   "source": "tech.yahoo.com",
+   "soha": "AI",
+   "baho": 9,
+   "experts": [],
+   "effect": "Kiberxavfsizlik sohasida ilg'or sun'iy intellekt modellarining paydo bo'lishi dasturiy ta'minotdagi zaifliklarni tezkor aniqlashga yordam berib, kiberxavfsizlik xarajatlarining keskin oshishiga olib kelishi mumkin.",
+   "image": "https://s.yimg.com/lo/mysterio/api/d2318bcf8cf916bc3bbb64e4e8ed3ca0864f9ee91da7b39ffc6fdf87bc0893e2/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fbenzinga_79%2F777989bb0c33e5deaacb448087d02fae.jpg",
+   "domains": [
+    "tech.yahoo.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://tech.yahoo.com/cybersecurity/articles/openais-gpt-6-cyber-ai-193006811.html",
+    "https://finance.yahoo.com/news/openai-launches-gpt-6-cyber-084819971.html",
+    "https://finance.yahoo.com/technology/ai/articles/openai-debuts-cybersecurity-focused-ai-170100415.html"
+   ],
+   "videos": [
+    [
+     "https://x.com/OpenAI/status/2118390190246879554",
+     "X"
+    ],
+    [
+     "https://x.com/fouadmatin/status/2118429823244935257",
+     "X"
+    ]
+   ]
   }
  ]
 }
