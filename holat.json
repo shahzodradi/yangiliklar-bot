@@ -115,7 +115,9 @@
   "https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai": 1794280048.2738967,
   "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro": 1794280048.2738967,
   "https://openai.com/index/control-room": 1794280048.2738967,
-  "https://openai.com/index/chatgpt-enterprise-aws-marketplace": 1794280048.2738967
+  "https://openai.com/index/chatgpt-enterprise-aws-marketplace": 1794280048.2738967,
+  "https://www.forbes.com/sites/jamiegutfreund/2026/11/09/luma-ai-and-infinite-studios-are-moving-in-where-do-agencies-fit/": 1794283256.8771405,
+  "https://www.msn.com/en-us/entertainment/music/lawsuit-accuses-generative-ai-company-of-illegally-profiting-from-elvis-presley-s-music/ar-AA2h6hyj": 1794283256.8771405
  },
  "fails": 0,
  "sent": [
@@ -313,6 +315,16 @@
    "t": 1794280048.2738967,
    "title": "ChatGPT Enterprise now available in AWS Marketplace",
    "soha": "AI"
+  },
+  {
+   "t": 1794283256.8771405,
+   "title": "Luma AI And Infinite Studios Are Moving In. Where Do Agencies Fit?",
+   "soha": "AI video"
+  },
+  {
+   "t": 1794283256.8771405,
+   "title": "Lawsuit accuses generative AI company of illegally profiting from Elvis Presley’s music",
+   "soha": "AI musiqa"
   }
  ],
  "mavzu": {
