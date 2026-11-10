@@ -22,7 +22,7 @@ Avval tanlangan faktlarni takrorlama: {used}
 
 Faqat matnda aniq yozilgan narsani ol, hech narsa qo'shma va o'ylab topma.
 - "iqtibos": fakt yozilgan gap(lar) matndan HARFMA-HARF nusxa (inglizcha, 1-2 gap).
-- "sarlavha": o'zbekcha, 5-8 so'z (qisqa!), "Bilasizmi" so'zisiz, faktning eng hayratlanarli qismi; bitta asosiy so'z yoki
+- "sarlavha": o'zbekcha, 5-8 so'z (qisqa!), "Bilasizmi" so'zisiz, SHAXS yoki narsa NOMI bilan boshlansin (masalan "Alan Turing maktabga ..."), keyin faktning eng hayratlanarli qismi; bitta asosiy so'z yoki
   raqamni *yulduzcha* ichiga ol (qo'shimcha tashqarida: "*Deep Blue*ʼni").
 - "fakt": o'zbekcha 2-3 gap: faktning o'zi, aniq raqam va nomlar bilan.
 - "kontekst": o'zbekcha 1-2 gap: bu nega muhim yoki qiziq (faqat matndagi ma'lumot asosida).
