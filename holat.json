@@ -1,8 +1,5 @@
 {
  "seen": {
-  "https://kun.uz/news/2026/10/31/apple-yana-dunyoning-eng-qimmat-kompaniyasiga-aylandi-58826": 1793465088.5538116,
-  "https://www.sciencedaily.com/releases/2026/10/261029072142.htm": 1793465088.5538116,
-  "https://thepienews.com/times-higher-education-to-wind-down-bmi-by-end-of-2026/": 1793465088.5538116,
   "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&at_campaign=rss": 1793479939.3847501,
   "https://the-decoder.com/microsoft-offers-a-quarter-of-its-workforce-voluntary-severance-while-shielding-ai-critical-teams/": 1793479939.3847501,
   "https://kun.uz/news/2026/10/31/gcf-ozbekiston-ekologiyasi-uchun-1037-mln-evro-ajratadi-58653": 1793479939.3847501,
@@ -141,7 +138,12 @@
   "https://www.musicbusinessworldwide.com/elvis-presleys-rightsholders-and-other-song-owners-sue-suno-for-more-than-202m-alleging-its-ai-imitates-the-kings-voice-eight-mile-style-has-filed-a-separate-47-7m-suit-over-269/": 1794326607.452162,
   "https://www.theverge.com/tech/1030593/adobe-max-ai-agents-mcp-firefly-assistant-updates": 1794326607.452162,
   "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/": 1794326607.452162,
-  "https://www.wired.com/story/kora-new-linux-based-desktop-operating-system-is-built-for-ai-nerds/": 1794326607.452162
+  "https://www.wired.com/story/kora-new-linux-based-desktop-operating-system-is-built-for-ai-nerds/": 1794326607.452162,
+  "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout": 1794330159.6686654,
+  "https://www.msn.com/en-in/news/other/adobe-firefly-gets-ai-assistant-new-video-and-image-editing-tools-here-is-everything-you-need-to-know/ar-AA2h9f6e": 1794330159.6686654,
+  "https://www.techjuice.pk/adobe-reveals-massive-ai-upgrades-firefly-builder-mcp-integration/": 1794330159.6686654,
+  "https://openai.com/index/ai-effect-on-freelance-work": 1794330159.6686654,
+  "https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/": 1794330159.6686654
  },
  "fails": 0,
  "sent": [
@@ -458,6 +460,31 @@
   {
    "t": 1794326607.452162,
    "title": "This New Linux-Based Desktop Operating System Is Built for AI Nerds",
+   "soha": "AI"
+  },
+  {
+   "t": 1794330159.6686654,
+   "title": "Google releases Gemini 4 Carbon with agent ‘swarm’ feature",
+   "soha": "AI"
+  },
+  {
+   "t": 1794330159.6686654,
+   "title": "Adobe Firefly gets AI assistant, new video and image editing tools, here is everything you need to know",
+   "soha": "AI rasm"
+  },
+  {
+   "t": 1794330159.6686654,
+   "title": "Adobe Reveals Massive AI Upgrades, Firefly Builder & MCP Integration",
+   "soha": "AI video"
+  },
+  {
+   "t": 1794330159.6686654,
+   "title": "Work at the Frontier: AI’s effect on freelance work",
+   "soha": "AI"
+  },
+  {
+   "t": 1794330159.6686654,
+   "title": "A New AI Tool From Google DeepMind Proved the Signal Protocol Is Secure",
    "soha": "AI"
   }
  ],
@@ -1076,6 +1103,120 @@
    "image": "https://media.wired.com/photos/6af27401edee43782ec1ac6b/191:100/w_1280,c_limit/gear_ai_operating_system_nerdy.jpg",
    "domains": [],
    "urls": [],
+   "videos": []
+  },
+  {
+   "t": 1794330159.6686654,
+   "title": "Google Gemini 4 Carbon taqdim etildi",
+   "text": "Google kompaniyasi o'zining eng kuchli sun'iy intellekt modeli Gemini 4 Carbon'ni keng omma uchun chiqardi va u eng yaxshi tizimlar bilan raqobatlasha oladi.",
+   "orig_title": "Google releases Gemini 4 Carbon with agent ‘swarm’ feature",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout",
+   "source": "The Verge AI",
+   "soha": "AI",
+   "baho": 9,
+   "experts": [],
+   "effect": "Google kompaniyasining yangi Gemini 4 Carbon modeli sun'iy intellekt bozorida raqobatni yanada kuchaytirishi va murakkab dasturlash hamda ilmiy tadqiqotlar uchun yangi imkoniyatlar ochishi mumkin.",
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Gemini-4-Carbon-Key-Art.jpg?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200",
+   "domains": [
+    "theverge.com",
+    "tech.yahoo.com"
+   ],
+   "urls": [
+    "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout",
+    "https://tech.yahoo.com/ai/gemini/articles/google-launches-gemini-4-carbon-180841678.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794330159.6686654,
+   "title": "Adobe Firefly'ga yangi sun'iy intellekt yordamchisi qo'shildi",
+   "text": "Adobe Firefly tahrirlash vositalari va ijodiy vazifalarni rejalashtirishga yordam beruvchi beta-versiyadagi Firefly AI Assistant funksiyasiga ega bo'ldi.",
+   "orig_title": "Adobe Firefly gets AI assistant, new video and image editing tools, here is everything you need to know",
+   "link": "https://www.msn.com/en-in/news/other/adobe-firefly-gets-ai-assistant-new-video-and-image-editing-tools-here-is-everything-you-need-to-know/ar-AA2h9f6e",
+   "source": "msn.com",
+   "soha": "AI rasm",
+   "baho": 8,
+   "experts": [],
+   "effect": "Adobe o'zining Firefly vositalari va sun'iy intellekt yordamchilariga yangi funksiyalarni qo'shishi ijodiy loyihalar va video montaj jarayonlarini sezilarli darajada tezlashtirishi hamda foydalanuvchilar uchun imkoniyatlarni kengaytirishi mumkin.",
+   "image": null,
+   "domains": [
+    "tech.yahoo.com"
+   ],
+   "urls": [
+    "https://tech.yahoo.com/ai/meta-ai/articles/adobe-firefly-ai-assistant-now-140000893.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794330159.6686654,
+   "title": "Adobe Max tadbirida yangi sun'iy intellekt yangilanishlari e'lon qilindi",
+   "text": "Adobe kompaniyasi Firefly Builder va Premiere uchun yangi funksiyalar hamda MCP integratsiyasini o'z ichiga olgan yirik AI yangilanishlarini taqdim etdi.",
+   "orig_title": "Adobe Reveals Massive AI Upgrades, Firefly Builder & MCP Integration",
+   "link": "https://www.techjuice.pk/adobe-reveals-massive-ai-upgrades-firefly-builder-mcp-integration/",
+   "source": "techjuice.pk",
+   "soha": "AI video",
+   "baho": 8,
+   "experts": [],
+   "effect": "Adobe tomonidan taqdim etilayotgan yangi sun'iy intellekt vositalari va Model Context Protocol integratsiyasi dizayn va tahrirlash bozorida raqobatni kuchaytirib, foydalanuvchilarga turli chat-botlar orqali Adobe funksiyalaridan foydalanish imkonini berishi mumkin.",
+   "image": "https://www.techjuice.pk/wp-content/uploads/2026/11/adobe-reveals-massive-ai-upgrades-firefly-builder-mcp-integration-techjuice-261822.jpg",
+   "domains": [
+    "techjuice.pk",
+    "theverge.com"
+   ],
+   "urls": [
+    "https://www.techjuice.pk/adobe-reveals-massive-ai-upgrades-firefly-builder-mcp-integration/",
+    "https://www.theverge.com/tech/1030653/adobe-max-2026-photoshop-premiere-removal-updates"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794330159.6686654,
+   "title": "Sun'iy intellektning frilanserlik bozoriga ta'siri o'rganildi",
+   "text": "OpenAI va Upwork tadqiqotiga ko'ra, sun'iy intellekt loyihalari uchun budjetlar va ish soatlari o'sib, frilanserlik talablari o'zgarmoqda.",
+   "orig_title": "Work at the Frontier: AI’s effect on freelance work",
+   "link": "https://openai.com/index/ai-effect-on-freelance-work",
+   "source": "OpenAI",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Texnologiya kompaniyalarida sun'iy intellekt hisobiga oshgan unumdorlik xodimlarga qo'shimcha dam olish kunlarini berish o'rniga, ko'proq mahsulot yaratish va ish muhitini yanada jadallashtirishga yo'naltirilishi ehtimoli bor.",
+   "image": null,
+   "domains": [
+    "businessinsider.com"
+   ],
+   "urls": [
+    "https://www.businessinsider.com/meta-cto-andrew-bosworth-ai-gains-work-2026-8"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794330159.6686654,
+   "title": "Google DeepMind shifrlash protokolini tekshirdi",
+   "text": "DeepMind tadqiqotchilari yangi AI vositasi yordamida Signal shifrlash protokoli xavfsiz ekanini rasman isbotladilar.",
+   "orig_title": "A New AI Tool From Google DeepMind Proved the Signal Protocol Is Secure",
+   "link": "https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/",
+   "source": "Wired AI",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [
+    {
+     "kim": "Swarat Chaudhuri",
+     "lavozim": "DeepMind tadqiqotchi olimi",
+     "fikr": "Ushbu natijadan juda xursandmiz, biroq buni dunyodagi barcha dasturiy ta'minotga tatbiq etish uchun hali uzoq yo'l bor.",
+     "url": "https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/",
+     "domain": "wired.com"
+    }
+   ],
+   "effect": "Sun'iy intellekt yordamida dasturiy ta'minotni rasmiy tekshiruvdan o'tkazish kelajakda axborot xavfsizligini ta'minlash va muhim protokollardagi zaifliklarni tezkor aniqlash jarayonlarini keskin o'zgartirishi mumkin.",
+   "image": "https://media.wired.com/photos/6af23a5e398c3a1348a23455/191:100/w_1280,c_limit/Security_A%20New%20AI%20Tool%20From%20Google%20DeepMind%20Formally%20Verified%20the%20Signal%20Protocol_v1.jpg",
+   "domains": [
+    "wired.com",
+    "techcrunch.com"
+   ],
+   "urls": [
+    "https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/",
+    "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/"
+   ],
    "videos": []
   }
  ]
