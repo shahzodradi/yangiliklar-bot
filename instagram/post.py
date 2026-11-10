@@ -78,9 +78,44 @@ def tg(token, method, fields, files=None):
     return json.load(urllib.request.urlopen(req, timeout=60))["ok"]
 
 
+WORKER = "https://malikalardek-bot.shahzodabdurahmanov0.workers.dev"
+
+
+def upload_secret():
+    if os.environ.get("IG_BOT_TOKEN"):  # GitHub'da: Worker bot tokenini ham yuklash paroli sifatida qabul qiladi
+        return os.environ["IG_BOT_TOKEN"]
+    for line in (HERE.parent.parent / "malikalardek-bot" / ".env").read_text().splitlines():
+        if line.startswith("WEBHOOK_SECRET="):
+            return line.split("=", 1)[1].strip()
+
+
+def upload_for_instagram(png, caption):
+    """PNG -> JPEG (Instagram faqat JPEG oladi), Worker KV ga yuklaydi. Post ID sini qaytaradi yoki None."""
+    import base64, io
+    from PIL import Image
+    buf = io.BytesIO()
+    Image.open(png).convert("RGB").save(buf, "JPEG", quality=93, optimize=True)
+    pid = f"{png.stem}_{uuid.uuid4().hex[:6]}"
+    body = json.dumps({"id": pid, "jpg": base64.b64encode(buf.getvalue()).decode(), "caption": caption}).encode()
+    req = urllib.request.Request(f"{WORKER}/ig/upload", body, {"Content-Type": "application/json",
+                                 "X-Upload-Secret": upload_secret(), "User-Agent": "yangiliklar-bot"})
+    try:
+        return pid if json.load(urllib.request.urlopen(req, timeout=60)).get("ok") else None
+    except Exception as e:
+        print("Instagram uchun yuklanmadi:", e)
+        return None
+
+
 def send_post(token, chat, n, png, caption):
+    """Rasm (fayl) + izoh + "Instagram'ga joylash" tugmasi (bosilganda Worker Instagram API orqali joylaydi)."""
     ok1 = tg(token, "sendDocument", {"chat_id": chat, "caption": f"📸 Post {n} — rasm (1080x1350)"}, {"document": png})
     ok2 = tg(token, "sendMessage", {"chat_id": chat, "text": caption})
+    pid = upload_for_instagram(png, caption)
+    if pid:
+        tg(token, "sendMessage", {"chat_id": chat, "text": f"📲 Post {n}: Instagram'ga joylaymi?",
+                                  "reply_markup": json.dumps({"inline_keyboard": [[
+                                      {"text": "✅ Instagram'ga joylash", "callback_data": f"ig:{pid}"},
+                                      {"text": "❌ Yoʻq", "callback_data": f"igx:{pid}"}]]})})
     return ok1 and ok2
 
 
