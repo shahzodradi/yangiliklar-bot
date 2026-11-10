@@ -3,9 +3,8 @@
 name: Instagram kunlik post
 
 on:
-  schedule:
-    - cron: "0 14 * * *"   # 19:00 Toshkent: yangiliklar postlari + kunning AI videolari
-    - cron: "0 7 * * *"    # 12:00 Toshkent: "Bilasizmi?" AI-fakt posti
+  # Jadval GitHub cron'ida emas (kechikib, tashlab yuboradi): cloudflare-worker cron'i workflow_dispatch qiladi —
+  # 07:00 UTC (12:00 Toshkent) tur=fakt, 14:00 UTC (19:00 Toshkent) tur=post
   workflow_dispatch:
     inputs:
       tur:

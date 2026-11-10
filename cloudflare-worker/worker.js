@@ -41,6 +41,18 @@ export default {
           text: `⚠️ Yangiliklar jadvali ishga tushmadi (GitHub javobi ${r.status}).`});
       }
     }));
+    // Instagram postlari ham shu yerdan (GitHub cron'i ishonchsiz): 07 UTC = fakt, 14 UTC = yangilik postlari + videolar
+    const tur = {7: 'fakt', 14: 'post'}[new Date(event.scheduledTime).getUTCHours()];
+    if (tur) {
+      ctx.waitUntil(github(env, '/actions/workflows/instagram.yml/dispatches', {
+        method: 'POST', body: JSON.stringify({ref: 'main', inputs: {tur}}),
+      }).then(async (r) => {
+        if (r.status !== 204) {
+          await tg(env, 'sendMessage', {chat_id: env.TELEGRAM_CHAT_ID,
+            text: `⚠️ Instagram ${tur} jadvali ishga tushmadi (GitHub javobi ${r.status}).`});
+        }
+      }));
+    }
   },
 };
 
