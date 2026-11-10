@@ -117,7 +117,8 @@
   "https://openai.com/index/control-room": 1794280048.2738967,
   "https://openai.com/index/chatgpt-enterprise-aws-marketplace": 1794280048.2738967,
   "https://www.forbes.com/sites/jamiegutfreund/2026/11/09/luma-ai-and-infinite-studios-are-moving-in-where-do-agencies-fit/": 1794283256.8771405,
-  "https://www.msn.com/en-us/entertainment/music/lawsuit-accuses-generative-ai-company-of-illegally-profiting-from-elvis-presley-s-music/ar-AA2h6hyj": 1794283256.8771405
+  "https://www.msn.com/en-us/entertainment/music/lawsuit-accuses-generative-ai-company-of-illegally-profiting-from-elvis-presley-s-music/ar-AA2h6hyj": 1794283256.8771405,
+  "https://www.analyticsinsight.net/reports/generative-ai-in-music-market-to-reach-usd-147-billion-in-2035": 1794285481.3743186
  },
  "fails": 0,
  "sent": [
@@ -325,6 +326,11 @@
    "t": 1794283256.8771405,
    "title": "Lawsuit accuses generative AI company of illegally profiting from Elvis Presley’s music",
    "soha": "AI musiqa"
+  },
+  {
+   "t": 1794285481.3743186,
+   "title": "Generative AI in Music Market to Reach USD 14.7 Billion in 2035",
+   "soha": "AI musiqa"
   }
  ],
  "mavzu": {
@@ -334,5 +340,23 @@
    "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/": 1793936765.786414
   },
   "sent": []
- }
+ },
+ "kunlik": [
+  {
+   "t": 1794285481.3743186,
+   "title": "Generativ AI musiqa bozori 2035 yilga borib 14.7 milliard dollarga yetishi kutilmoqda",
+   "text": "Sun'iy intellektga asoslangan musiqiy platformalar kompozitsiyalar yaratish va tovushlarni loyihalash imkoniyatlarini kengaytirib, bozorni o'stirmoqda.",
+   "orig_title": "Generative AI in Music Market to Reach USD 14.7 Billion in 2035",
+   "link": "https://www.analyticsinsight.net/reports/generative-ai-in-music-market-to-reach-usd-147-billion-in-2035",
+   "source": "analyticsinsight.net",
+   "soha": "AI musiqa",
+   "baho": 7,
+   "experts": [],
+   "effect": "Musiqa bozorida sun'iy intellekt texnologiyalarining jadal o'sishi mualliflik huquqi va litsenziyalash tizimini tubdan o'zgartirishi mumkin. Kelgusida ijodkorlar va leyblar uchun barqaror daromad modellarini yaratish bozorning asosiy shartiga aylanishi ehtimoli bor.",
+   "image": "https://media.assettype.com/analyticsinsight%2F2026-11-05%2Fztr519hy%2FGenerative-AI-in-Music-Market-to-Reach-USD-14.7-Billion-in-2035.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+   "domains": [
+    "analyticsinsight.net"
+   ]
+  }
+ ]
 }
