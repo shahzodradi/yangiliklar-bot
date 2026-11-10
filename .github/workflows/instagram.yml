@@ -1,0 +1,42 @@
+# Kunlik Instagram posti (AI.TezkorYangiliklari): bot.py yuborgan yangiliklardan eng yaxshi 2 tasini
+# R3 uslubida rasm + izoh qilib @malikalardekqizlargabot'ga yuboradi. instagram/kunlik.py
+name: Instagram kunlik post
+
+on:
+  schedule:
+    - cron: "0 14 * * *"   # 19:00 Toshkent
+  workflow_dispatch:
+
+concurrency:
+  group: instagram
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Emoji shrifti
+        run: sudo apt-get install -y -qq fonts-noto-color-emoji >/dev/null
+      - name: Post tayyorlash va yuborish
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          IG_BOT_TOKEN: ${{ secrets.IG_BOT_TOKEN }}
+          IG_CHAT_ID: ${{ secrets.IG_CHAT_ID }}
+        run: python instagram/kunlik.py
+      - name: Holatni saqlash
+        if: always()
+        run: |
+          git config user.name "yangiliklar-bot"
+          git config user.email "yangiliklar-bot@users.noreply.github.com"
+          git add instagram/ig_holat.json 2>/dev/null || true
+          git diff --cached --quiet || { git commit -q -m "instagram holat" && git pull -q --rebase && git push -q; }

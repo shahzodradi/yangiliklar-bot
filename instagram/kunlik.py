@@ -1,0 +1,217 @@
+"""Kunlik Instagram post (AI.TezkorYangiliklari): bot.py oxirgi 24 soatda yuborgan yangiliklardan eng yaxshilarini
+tanlaydi, voqea rasmini topadi, R3 uslubida 1080x1350 PNG chizadi va rasm + tayyor izohni
+@malikalardekqizlargabot'ga yuboradi. GitHub Actions: .github/workflows/instagram.yml (kuniga 1 marta).
+Ishlatish: python instagram/kunlik.py [--quruq]   (--quruq: yubormaydi, faqat chizadi va chop etadi)"""
+import html, json, re, sys, time, urllib.parse
+from pathlib import Path
+
+HERE = Path(__file__).resolve().parent
+sys.path.insert(0, str(HERE.parent))
+import bot  # noqa: E402  (holat.json, Gemini, rasm yuklash funksiyalari)
+import post as ig  # noqa: E402
+
+IG_STATE = HERE / "ig_holat.json"
+IMG_DIR = HERE / "chiqish"
+COUNT = 2                 # kuniga nechta post
+WINDOW_HOURS = 26         # shu soat ichida bot yuborgan yangiliklar nomzod
+CAPTION_MAX = 2200        # Instagram izoh limiti
+PROMO = ("🤖 AI yangiliklarini har 2 soatda birinchi boʻlib olish uchun Telegram botimiz: "
+         "@yangiliklaraivabiznes_bot")
+log = bot.log
+
+PROMPT = """Sen o'zbek tilidagi "AI.TezkorYangiliklari" Instagram sahifasi muharririsan. Auditoriya: AI bilan
+video, rasm, musiqa yasaydigan kontent-meykerlar va AI'ga qiziquvchilar.
+Quyidagi bugungi yangiliklardan Instagram uchun eng kuchli {count} tasini tanla: ko'p odamni qiziqtiradigan,
+mashhur kompaniya yoki shaxs, katta raqam, janjal, kontent-meykerlarga bevosita ta'sir qiladigan voqealar.
+Bir xil voqeani ikki marta olma.
+
+Har biri uchun o'zbek tilida (lotin yozuvi, oʻ gʻ va ʼ belgilari bilan, kirill harfisiz) yoz:
+- "sarlavha": 7-11 so'z, yangilik kanali uslubida, aniq va faqat berilgan faktlar asosida (o'ylab topma).
+  Eng muhim BITTA so'zni yoki raqamni *yulduzcha* ichiga ol (masalan: "Anthropic kelasi hafta *birjaga* chiqmoqchi").
+  Qo'shimcha yulduzchadan tashqarida qoladi: "*Suno*ʼni". "Sun'iy intellekt" o'rniga qisqa "AI" yoz.
+- "emoji": sarlavhaga mos 1-2 emoji.
+- "savol": izohga javob yozdiradigan qisqa savol (auditoriyaga murojaat, bahs uyg'otsin).
+- "rasm": voqeadagi asosiy SHAXSning ism-familiyasi lotincha (Wikimedia'da surat qidirish uchun, masalan
+  "Elvis Presley"). Yangilik kompaniya haqida bo'lsa, uning hozirgi rahbari (masalan Anthropic -> "Dario Amodei",
+  OpenAI -> "Sam Altman"). Aniq shaxs bo'lmasa bo'sh qoldir. Faqat ism-familiya, boshqa so'z qo'shma.
+- "teglar": 5-7 ta heshteg (# bilan), birinchisi #AI.
+Brend va kompaniya nomlarini tarjima qilma.
+
+Faqat JSON: {{"tanlov": [{{"id": 0, "sarlavha": "...", "emoji": "...", "savol": "...", "rasm": "...",
+"teglar": ["#AI"]}}]}}
+
+YANGILIKLAR (JSON):
+{items}
+"""
+
+SCHEMA = {
+    "type": "OBJECT",
+    "properties": {"tanlov": {"type": "ARRAY", "items": {
+        "type": "OBJECT",
+        "properties": {"id": {"type": "INTEGER"}, "sarlavha": {"type": "STRING"}, "emoji": {"type": "STRING"},
+                       "savol": {"type": "STRING"}, "rasm": {"type": "STRING"},
+                       "teglar": {"type": "ARRAY", "items": {"type": "STRING"}}},
+        "required": ["id", "sarlavha", "emoji", "savol", "rasm", "teglar"]}}},
+    "required": ["tanlov"],
+}
+
+
+def load_json(path, default):
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        return default
+
+
+def candidates():
+    """Bot yuborgan, 2+ nashrda tasdiqlangan, hali Instagram'ga chiqmagan yangiliklar."""
+    done = set(load_json(IG_STATE, {}).get("links", []))
+    items = [x for x in bot.load_state().get("kunlik", [])
+             if x["t"] > time.time() - WINDOW_HOURS * 3600 and x["link"] not in done]
+    verified = [x for x in items if len(set(x.get("domains") or [])) >= 2]
+    log.info("IG nomzodlar: %d ta, 2+ manbada tasdiqlangan: %d ta", len(items), len(verified))
+    return verified
+
+
+# ---------- Rasm ----------
+
+FREE = ("public domain", "cc0", "cc by", "pd")
+
+
+def commons_photo(query):
+    """Wikimedia Commons'dan shu shaxs/joyning erkin litsenziyali rasmi: (fayl, kredit) yoki (None, None)."""
+    if not query.strip():
+        return None, None
+    api = "https://commons.wikimedia.org/w/api.php?"
+    q = urllib.parse.urlencode({"action": "query", "format": "json", "generator": "search", "gsrnamespace": 6,
+                                "gsrsearch": f"{query} filetype:bitmap", "gsrlimit": 8, "prop": "imageinfo",
+                                "iiprop": "url|size|extmetadata", "iiurlwidth": 1280})
+    try:
+        pages = json.loads(bot.http(api + q, timeout=20))["query"]["pages"].values()
+    except Exception as e:
+        log.info("Commons qidiruv xatosi: %s", e)
+        return None, None
+    words = [w.lower() for w in query.split() if len(w) > 1]
+    if len(words) < 2:  # bitta so'z (kompaniya nomi) noto'g'ri rasm topadi: "Anthropic" -> "anthropomorphic"
+        return None, None
+    for p in sorted(pages, key=lambda p: p.get("index", 99)):
+        title = p["title"].lower()
+        info = (p.get("imageinfo") or [{}])[0]
+        meta = info.get("extmetadata", {})
+        lic = meta.get("LicenseShortName", {}).get("value", "")
+        if not all(re.search(rf"\b{re.escape(w)}\b", title) for w in words) or not any(f in lic.lower() for f in FREE):
+            continue
+        if info.get("width", 0) < 800 or info.get("height", 0) < 600 or title.endswith((".svg", ".gif")):
+            continue
+        img = bot.download_image(info.get("thumburl") or info["url"])
+        if img:
+            artist = re.sub(r"<[^>]+>", "", meta.get("Artist", {}).get("value", "")).strip()[:60]
+            artist = "" if "unknown" in artist.lower() else artist
+            return img, f"Wikimedia Commons, {lic}" + (f" ({artist})" if artist else "")
+    return None, None
+
+
+def find_photo(item, query):
+    img, credit = commons_photo(query)
+    if img:
+        return img, credit
+    for url in filter(None, [item.get("image")]):  # bot topgan maqola rasmi (og:image)
+        img = bot.download_image(url)
+        if img:
+            return img, item["source"]
+    return None, None
+
+
+# ---------- Izoh ----------
+
+def build_caption(item, pick, photo_credit):
+    title = re.sub(r"\*", "", pick["sarlavha"]).strip()
+    sources = list(dict.fromkeys([item["source"], *(item.get("domains") or [])]))
+
+    def build(expert_limit):
+        parts = [f"{title} {pick['emoji']}".strip(), f"📝 {item['text']}"]
+        if item.get("experts") and expert_limit:
+            lines = ["🎓 Mutaxassislar fikri"]
+            for v in item["experts"]:
+                fikr = bot.shorten(v["fikr"], expert_limit)
+                lines.append(f"• {v['kim']}, {v['lavozim']}: {fikr} ({v['domain']})")
+            parts.append("\n".join(lines))
+        if item.get("effect"):
+            parts.append(f"➡️ Nimaga olib kelishi mumkin\n{item['effect']}")
+        parts.append(f"❓ {pick['savol']} Izohda yozing 👇\n📌 Saqlab qoʻying, 📤 doʻstingizga yuboring.")
+        parts.append(PROMO)
+        parts.append(f"Manbalar: {', '.join(sources)}" + (f"\nRasm: {photo_credit}" if photo_credit else ""))
+        parts.append(" ".join(t if t.startswith("#") else f"#{t}" for t in pick["teglar"][:7]))
+        return "\n\n".join(parts)
+
+    for limit in (300, 200, 120, 0):
+        caption = build(limit)
+        if len(caption) <= CAPTION_MAX:
+            return caption
+    return caption[:CAPTION_MAX]
+
+
+def uz(text):
+    """Apostroflarni o'zbek lotin belgilariga: Suno'ni -> Sunoʼni, o' g' -> oʻ gʻ, qolgan ' -> ʼ."""
+    text = re.sub(r"\b([A-Z][\w.]*)['‘’`](ni|ning|ga|da|dan|lar|dagi|ga|day)\b", r"\1ʼ\2", text or "")
+    text = re.sub(r"([oOgG])['‘’`]", r"\1ʻ", text)
+    return re.sub(r"['’`]", "ʼ", text)
+
+
+def headline_html(text):
+    text = html.escape(text.strip())
+    if "*" not in text:
+        return text
+    return re.sub(r"\*([^*]+)\*", r"<b>\1</b>", text, count=1).replace("*", "")
+
+
+# ---------- Asosiy ----------
+
+def main():
+    dry = "--quruq" in sys.argv
+    env = bot.load_env()
+    token, chat = (None, None) if dry else ig.ig_bot()
+    items = candidates()
+    if not items:
+        if not dry:
+            ig.tg(token, "sendMessage", {"chat_id": chat, "text": "📭 Bugun 2+ manbada tasdiqlangan yangi "
+                                         "AI yangilik topilmadi — Instagram posti yoʻq."})
+        return
+    brief = [{"id": i, "sarlavha": x["title"], "mazmun": x["text"], "soha": x["soha"], "baho": x["baho"],
+              "mutaxassis": len(x.get("experts") or []), "manbalar": len(set(x.get("domains") or []))}
+             for i, x in enumerate(items)]
+    result = bot.ask_models(env, PROMPT.format(count=COUNT, items=json.dumps(brief, ensure_ascii=False)),
+                            SCHEMA, fast=True)
+    picks = [p for p in result.get("tanlov", []) if isinstance(p.get("id"), int) and 0 <= p["id"] < len(items)]
+    picks = list({p["id"]: p for p in picks}.values())[:COUNT]
+    IMG_DIR.mkdir(exist_ok=True)
+    state = load_json(IG_STATE, {"links": []})
+    day = time.strftime("%Y-%m-%d")
+    for n, pick in enumerate(picks, 1):
+        item = items[pick["id"]]
+        pick.update({k: uz(pick.get(k, "")) for k in ("sarlavha", "savol")})
+        img, credit = find_photo(item, pick.get("rasm", ""))
+        if not img:
+            log.warning("Rasm topilmadi, tashlab ketildi: %s", item["link"])
+            continue
+        data, ctype = img
+        photo = IMG_DIR / f"{day}_{n}_foto.{'png' if 'png' in ctype else 'jpg'}"
+        photo.write_bytes(data)
+        png = ig.render(f"{day}_{n}", photo, headline_html(pick["sarlavha"]))
+        if not png:
+            log.warning("PNG chizilmadi: %s", item["link"])
+            continue
+        caption = build_caption(item, pick, credit)
+        log.info("IG post %d: %s (%d belgi, rasm: %s)", n, pick["sarlavha"], len(caption), credit)
+        if dry:
+            print(f"\n=== {png}\n{caption}\n")
+            continue
+        if ig.send_post(token, chat, n, png, caption):
+            state["links"] = (state["links"] + [item["link"]])[-200:]
+    if not dry:
+        IG_STATE.write_text(json.dumps(state, ensure_ascii=False, indent=1), encoding="utf-8")
+
+
+if __name__ == "__main__":
+    bot.setup_logging("instagram.log")
+    main()

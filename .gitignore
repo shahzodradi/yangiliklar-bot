@@ -6,3 +6,11 @@ ishlayapti.lock
 __pycache__/
 .wrangler/
 node_modules/
+instagram/chiqish/
+instagram/mockup/_*/
+instagram/_*
+instagram/mockup/
+instagram/ref/
+instagram/img/
+instagram/*mockup.py
+instagram/render.sh

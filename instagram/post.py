@@ -1,0 +1,100 @@
+"""AI.TezkorYangiliklari — R3 (airesearches) uslubida IG post: rasm + izoh -> @malikalardekqizlargabot.
+Qo'lda: python post.py posts/2026-11-10.json [--yubor]   (kunlik avtomatik: kunlik.py)"""
+import json, os, sys, pathlib, platform, shutil, subprocess, urllib.request, uuid
+
+HERE = pathlib.Path(__file__).parent
+OUT = HERE / "chiqish"
+HANDLE = "AI.TezkorYangiliklari"
+FOOT = "Batafsil izohlarda oʻqing 👇"
+
+HTML = """<!doctype html><html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@800&display=swap" rel="stylesheet">
+<style>*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1350px;overflow:hidden;background:#000}
+.ph{height:870px;background:url('%(img)s') %(pos)s/cover no-repeat}
+.p{height:480px;background:#000;display:flex;flex-direction:column;align-items:center;padding:0 40px}
+.sm{font-family:Inter,sans-serif;font-weight:800;letter-spacing:2px;text-transform:uppercase}
+.logo{font-size:22px;color:#fff;margin-top:-16px;background:#000;padding:4px 16px}
+h1{font-family:Anton,Impact,sans-serif;font-weight:400;text-transform:uppercase;font-size:%(fs)spx;line-height:1.06;
+ color:#fff;text-align:center;margin-top:30px;letter-spacing:.5px}
+h1 b{color:#3d8bff;font-weight:400;white-space:nowrap}
+.sw{font-size:24px;color:#cfcfcf;margin-top:auto;margin-bottom:40px}
+</style></head><body><div class="ph"></div><div class="p"><div class="logo sm">%(handle)s</div>
+<h1>%(h1)s</h1><div class="sw sm">%(foot)s</div></div></body></html>"""
+
+
+def font_size(h1_text):
+    """Sarlavha uzun bo'lsa shrift kichrayadi (panelga 3-4 qator sig'sin)."""
+    n = len(h1_text.replace("<b>", "").replace("</b>", ""))
+    return 90 if n <= 70 else 80 if n <= 95 else 70
+
+
+def render(name, image_path, h1, pos="center 15%"):
+    OUT.mkdir(exist_ok=True)
+    html = OUT / f"{name}.html"
+    html.write_text(HTML % dict(img=pathlib.Path(image_path).resolve().as_uri(), pos=pos, fs=font_size(h1),
+                                h1=h1, handle=HANDLE, foot=FOOT), encoding="utf-8")
+    png = OUT / f"{name}.png"
+    png.unlink(missing_ok=True)
+    profile = OUT / f"_edge_{uuid.uuid4().hex[:6]}"
+    flags = ["--headless=new", "--disable-gpu", "--hide-scrollbars", "--no-sandbox", f"--user-data-dir={profile}",
+             "--allow-file-access-from-files", "--virtual-time-budget=6000", "--window-size=1080,1350",
+             f"--screenshot={png}", html.resolve().as_uri()]
+    if platform.system() == "Windows":
+        # Bash/Python'dan to'g'ridan-to'g'ri ishga tushirilgan Edge PNG yozmaydi -> PowerShell Start-Process -Wait
+        edge = r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+        args = ",".join(f"'{a}'" for a in flags)
+        subprocess.run(["powershell", "-NoProfile", "-Command",
+                        f"Start-Process -FilePath '{edge}' -ArgumentList {args} -Wait"], timeout=120)
+    else:
+        chrome = shutil.which("google-chrome") or shutil.which("chromium") or "chromium-browser"
+        subprocess.run([chrome, *flags], timeout=120, capture_output=True)
+    shutil.rmtree(profile, ignore_errors=True)
+    return png if png.exists() else None
+
+
+def ig_bot():
+    """(token, chat): GitHub'da IG_BOT_TOKEN/IG_CHAT_ID, kompyuterda malikalardek-bot/.env."""
+    if os.environ.get("IG_BOT_TOKEN"):
+        return os.environ["IG_BOT_TOKEN"], os.environ["IG_CHAT_ID"]
+    d = {}
+    for line in (HERE.parent.parent / "malikalardek-bot" / ".env").read_text().splitlines():
+        if "=" in line:
+            k, v = line.split("=", 1); d[k.strip()] = v.strip()
+    return d["BOT_TOKEN"], d["OWNER_ID"]
+
+
+def tg(token, method, fields, files=None):
+    b = uuid.uuid4().hex
+    body = b""
+    for k, v in fields.items():
+        body += f'--{b}\r\nContent-Disposition: form-data; name="{k}"\r\n\r\n{v}\r\n'.encode()
+    for k, path in (files or {}).items():
+        body += (f'--{b}\r\nContent-Disposition: form-data; name="{k}"; filename="{path.name}"\r\n'
+                 f"Content-Type: image/png\r\n\r\n").encode() + path.read_bytes() + b"\r\n"
+    body += f"--{b}--\r\n".encode()
+    req = urllib.request.Request(f"https://api.telegram.org/bot{token}/{method}", body,
+                                 {"Content-Type": f"multipart/form-data; boundary={b}"})
+    return json.load(urllib.request.urlopen(req, timeout=60))["ok"]
+
+
+def send_post(token, chat, n, png, caption):
+    ok1 = tg(token, "sendDocument", {"chat_id": chat, "caption": f"📸 Post {n} — rasm (1080x1350)"}, {"document": png})
+    ok2 = tg(token, "sendMessage", {"chat_id": chat, "text": caption})
+    return ok1 and ok2
+
+
+def main():
+    src = pathlib.Path(sys.argv[1])
+    posts = json.loads(src.read_text(encoding="utf-8"))
+    send = "--yubor" in sys.argv
+    token, chat = ig_bot() if send else (None, None)
+    for i, p in enumerate(posts, 1):
+        png = render(f"{src.stem}_{i}", HERE / p["rasm"], p["sarlavha"], p.get("pos", "center 0"))
+        print(i, "png" if png else "PNG XATO")
+        if send and png:
+            print("  yuborildi:", send_post(token, chat, i, png, p["izoh"]))
+
+
+if __name__ == "__main__":
+    main()

@@ -119,6 +119,7 @@ def save_state(state):
     cutoff = time.time() - SEEN_KEEP_DAYS * 86400
     state["seen"] = {k: t for k, t in state["seen"].items() if t > cutoff}
     state["sent"] = [x for x in state.get("sent", []) if x["t"] > time.time() - SENT_KEEP_HOURS * 3600]
+    state["kunlik"] = [x for x in state.get("kunlik", []) if x["t"] > time.time() - 48 * 3600]
     if "mavzu" in state:
         topic = state["mavzu"]
         topic["seen"] = {k: t for k, t in topic["seen"].items() if t > cutoff}
@@ -553,6 +554,7 @@ def add_expert_views(env, posts, fast):
                 continue
             views.append({**v, "url": texts[k - 1][1], "domain": texts[k - 1][0]})
         post["experts"] = views[:2]
+        post["domains"] = list(dict.fromkeys(dom for dom, _, _ in texts))  # Instagram: 2+ manba tekshiruvi
         effect = (item.get("oqibat") or "").strip()
         post["effect"] = effect if is_uzbek_latin(effect) else None
         log.info("Mutaxassislar: %d ta (%d ta matndan) - %s", len(post["experts"]), len(texts), post["link"])
@@ -964,6 +966,14 @@ def run_digest(env, dry=False, fast=False, extra_chats=(), mavzu=None):
     for post in posts:  # faqat yuborilganlar belgilanadi: qolganlari keyingi safar yana nomzod
         record["seen"][post["link"]] = now
         record.setdefault("sent", []).append({"t": now, "title": post["orig_title"], "soha": post["soha"]})
+    if not mavzu:  # Instagram kunlik posti uchun to'liq ma'lumot (instagram/kunlik.py o'qiydi)
+        for post, (img_url, _) in zip(posts, images):
+            state.setdefault("kunlik", []).append({
+                "t": now, "title": post["title"], "text": post["text"], "orig_title": post["orig_title"],
+                "link": post["link"], "source": post["source"], "soha": post["soha"], "baho": post["baho"],
+                "experts": [{k: v.get(k) for k in ("kim", "lavozim", "fikr", "url", "domain")}
+                            for v in (post["experts"] or [])],
+                "effect": post["effect"], "image": img_url, "domains": post.get("domains") or []})
     save_state(state)
     return len(posts)
 
