@@ -1,8 +1,5 @@
 {
  "seen": {
-  "https://www.ft.com/content/7a3ad950-1b3b-4d9e-8c15-65a61ae6180f?syn-25a6b1a6=1": 1793438163.3781204,
-  "https://www.bbc.co.uk/news/articles/cm9qzdqpxy48o?at_medium=RSS&at_campaign=rss": 1793438163.3781204,
-  "https://thepienews.com/australia-consults-on-student-visa-overhaul-as-refusals-hit-key-markets/": 1793438163.3781204,
   "https://kun.uz/news/2026/10/31/apple-yana-dunyoning-eng-qimmat-kompaniyasiga-aylandi-58826": 1793465088.5538116,
   "https://www.sciencedaily.com/releases/2026/10/261029072142.htm": 1793465088.5538116,
   "https://thepienews.com/times-higher-education-to-wind-down-bmi-by-end-of-2026/": 1793465088.5538116,
@@ -123,7 +120,8 @@
   "https://www.wired.com/story/jensen-huangs-troubles-leaves-the-ai-industry-reeling/": 1794290452.4902194,
   "https://campaignbrief.com/tbwaaustralias-disrupt-ai-film-festival-returns-with-record-entries-expanded-2026-programme/": 1794294173.5031517,
   "https://au.pcmag.com/video-editing/120829/adobe-firefly-text-to-video-guide-how-to-generate-ai-video-animate-still-images-and-extend-clips-in": 1794294173.5031517,
-  "https://english.news.cn/20261110/34eb3a8213674d9fb7be705cc4cfb911/c.html": 1794297683.2016978
+  "https://english.news.cn/20261110/34eb3a8213674d9fb7be705cc4cfb911/c.html": 1794297683.2016978,
+  "https://www.msn.com/en-us/money/general/elvis-rights-holders-and-eminem-s-publisher-sue-suno-testing-the-elvis-act/ar-AA2h5oua": 1794303444.248303
  },
  "fails": 0,
  "sent": [
@@ -336,6 +334,11 @@
    "t": 1794297683.2016978,
    "title": "Golden Rooster Film Festival: Where art meets technology",
    "soha": "AI tanlov"
+  },
+  {
+   "t": 1794303444.248303,
+   "title": "Elvis rights holders and Eminem's publisher sue Suno, testing the ELVIS Act",
+   "soha": "AI musiqa"
   }
  ],
  "mavzu": {
@@ -492,6 +495,27 @@
    "urls": [
     "https://finance.yahoo.com/media-advertising/articles/giorgio-armani-ceo-touts-links-150507088.html",
     "https://www.yahoo.com/entertainment/movies/articles/golden-rooster-roundtable-talks-chinese-235659994.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794303444.248303,
+   "title": "Elvis va Eminem egalari Suno kompaniyasini sudga berdi",
+   "text": "Elvis Presley huquqlari egalari va Eminem ashulalarining noshiri sun'iy intellekt yordamida musiqa yaratuvchi Suno platformasiga nisbatan mualliflik huquqini buzgani yuzasidan sudga da'vo kiritdi.",
+   "orig_title": "Elvis rights holders and Eminem's publisher sue Suno, testing the ELVIS Act",
+   "link": "https://www.msn.com/en-us/money/general/elvis-rights-holders-and-eminem-s-publisher-sue-suno-testing-the-elvis-act/ar-AA2h5oua",
+   "source": "msn.com",
+   "soha": "AI musiqa",
+   "baho": 9,
+   "experts": [],
+   "effect": "Bu sud jarayoni sun'iy intellekt kompaniyalari uchun mualliflik huquqini buzmasdan modellar o'rgatish qoidalarini keskin o'zgartirishi mumkin. Musiqa industriyasida ovoz va uslubni himoya qiluvchi qonunlar kuchayib, sun'iy intellekt generatorlari uchun moliyaviy xarajatlar va huquqiy xatarlar ortish ehtimoli bor.",
+   "image": null,
+   "domains": [
+    "yahoo.com"
+   ],
+   "urls": [
+    "https://www.yahoo.com/entertainment/music/articles/elvis-rights-holders-eminems-publisher-204744656.html",
+    "https://www.yahoo.com/news/politics/articles/elvis-music-owners-eminem-publisher-161526743.html"
    ],
    "videos": []
   }
