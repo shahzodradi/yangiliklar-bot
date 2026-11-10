@@ -4,9 +4,14 @@ name: Instagram kunlik post
 
 on:
   schedule:
-    - cron: "0 14 * * *"   # 19:00 Toshkent
+    - cron: "0 14 * * *"   # 19:00 Toshkent: yangiliklar postlari + kunning AI videolari
+    - cron: "0 7 * * *"    # 12:00 Toshkent: "Bilasizmi?" AI-fakt posti
   workflow_dispatch:
     inputs:
+      tur:
+        description: "post (yangiliklar + videolar) yoki fakt"
+        required: false
+        default: "post"
       sinov:
         description: "1 = sinov posti (1 manba yetadi, holat saqlanmaydi); quruq = yubormasdan faqat chizish"
         required: false
@@ -38,8 +43,10 @@ jobs:
           IG_BOT_TOKEN: ${{ secrets.IG_BOT_TOKEN }}
           IG_CHAT_ID: ${{ secrets.IG_CHAT_ID }}
           SINOV: ${{ github.event.inputs.sinov }}
+          TUR: ${{ github.event.schedule == '0 7 * * *' && 'fakt' || github.event.inputs.tur }}
         run: |
-          if [ "$SINOV" = "quruq" ]; then python instagram/kunlik.py --sinov --quruq
+          if [ "$TUR" = "fakt" ]; then python instagram/fakt.py ${SINOV:+--quruq}
+          elif [ "$SINOV" = "quruq" ]; then python instagram/kunlik.py --sinov --quruq
           else python instagram/kunlik.py ${SINOV:+--sinov}; fi
       - name: Rasmlar (tekshirish uchun)
         if: always()

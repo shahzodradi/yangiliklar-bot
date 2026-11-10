@@ -975,7 +975,7 @@ def run_digest(env, dry=False, fast=False, extra_chats=(), mavzu=None):
                 "experts": [{k: v.get(k) for k in ("kim", "lavozim", "fikr", "url", "domain")}
                             for v in (post["experts"] or [])],
                 "effect": post["effect"], "image": img_url, "domains": post.get("domains") or [],
-                "urls": post.get("urls") or []})
+                "urls": post.get("urls") or [], "videos": video_links(post["page"], limit=4)})
     save_state(state)
     return len(posts)
 

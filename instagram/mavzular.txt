@@ -1,0 +1,71 @@
+# "Bilasizmi?" AI faktlari uchun inglizcha Wikipedia maqolalari (har kuni navbatdagisi; bittadan ko'p fakt olinadi)
+Alan Turing
+Turing test
+ELIZA
+Dartmouth workshop
+Deep Blue (chess computer)
+Deep Blue versus Garry Kasparov
+AlphaGo
+AlphaGo versus Lee Sedol
+AlphaFold
+Shakey the robot
+Perceptron
+Frank Rosenblatt
+Geoffrey Hinton
+Yann LeCun
+Yoshua Bengio
+Fei-Fei Li
+ImageNet
+AlexNet
+Watson (computer)
+Siri
+ChatGPT
+OpenAI
+Google DeepMind
+Demis Hassabis
+Generative adversarial network
+Deepfake
+Stable Diffusion
+Midjourney
+DALL-E
+Sora (text-to-video model)
+Suno AI
+Edmond de Belamy
+Ai-Da
+Sophia (robot)
+Boston Dynamics
+Waymo
+Tesla Autopilot
+AI winter
+Lisp (programming language)
+John McCarthy (computer scientist)
+Marvin Minsky
+Ada Lovelace
+Charles Babbage
+Mechanical Turk
+Unimate
+Kismet (robot)
+Tay (chatbot)
+Eugene Goostman
+Garry Kasparov
+Lee Sedol
+Nvidia
+Jensen Huang
+Sam Altman
+Ilya Sutskever
+Transformer (deep learning architecture)
+Attention Is All You Need
+Large language model
+Hallucination (artificial intelligence)
+Artificial general intelligence
+Three Laws of Robotics
+R.U.R.
+HAL 9000
+Roomba
+AIBO
+Furby
+Google Translate
+Spam filtering
+Captcha
+Neuralink
+Optical character recognition

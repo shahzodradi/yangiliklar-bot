@@ -205,6 +205,40 @@ def headline_html(text):
     return re.sub(r"\*([^*]+)\*", r"<b>\1</b>", text, count=1).replace("*", "")
 
 
+# ---------- Videolar ----------
+
+VIDEO_MAX = 3
+
+
+def items_all():
+    return [x for x in bot.load_state().get("kunlik", []) if x["t"] > time.time() - WINDOW_HOURS * 3600]
+
+
+def send_videos(items, state, token, chat, dry):
+    """Kunning AI videolari: yangiliklar ichidagi video havolalari + reel uchun tayyor izoh (muallif ko'rsatilgan)."""
+    done = set(state.setdefault("videos", []))
+    picked = []
+    for x in sorted(items, key=lambda x: -x.get("baho", 0)):
+        if x["soha"] not in ("AI tanlov", "AI video", "AI musiqa", "AI rasm"):
+            continue
+        for url, kind in x.get("videos") or []:
+            if url not in done and all(url != p[1] for p in picked):
+                picked.append((x, url, kind))
+                break
+        if len(picked) >= VIDEO_MAX:
+            break
+    log.info("Kunning videolari: %d ta", len(picked))
+    for n, (x, url, kind) in enumerate(picked, 1):
+        text = (f"🎬 Video {n} — {kind}\n{url}\n\n"
+                f"✍️ Reel izohi:\n{x['title']} 🎬\n\n📝 {x['text']}\n\n"
+                f"🎥 Video muallifi: {kind} ({url})\nManba: {x['source']}\n\n{PROMO}\n\n#AI #AIvideo #suniyintellekt")
+        if dry:
+            print(text, "\n")
+            continue
+        if ig.tg(token, "sendMessage", {"chat_id": chat, "text": text}):
+            state["videos"] = (state["videos"] + [url])[-300:]
+
+
 # ---------- Asosiy ----------
 
 def main():
@@ -253,6 +287,8 @@ def main():
             continue
         if ig.send_post(token, chat, n, png, caption):
             state["links"] = (state["links"] + [item["link"]])[-200:]
+    if not test:
+        send_videos(items_all(), state, token, chat, dry)
     if not dry and not test:
         IG_STATE.write_text(json.dumps(state, ensure_ascii=False, indent=1), encoding="utf-8")
 
