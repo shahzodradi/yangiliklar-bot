@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
     inputs:
       sinov:
-        description: "1 = sinov posti (1 manba yetadi, holat saqlanmaydi)"
+        description: "1 = sinov posti (1 manba yetadi, holat saqlanmaydi); quruq = yubormasdan faqat chizish"
         required: false
         default: ""
 
@@ -38,7 +38,17 @@ jobs:
           IG_BOT_TOKEN: ${{ secrets.IG_BOT_TOKEN }}
           IG_CHAT_ID: ${{ secrets.IG_CHAT_ID }}
           SINOV: ${{ github.event.inputs.sinov }}
-        run: python instagram/kunlik.py ${SINOV:+--sinov}
+        run: |
+          if [ "$SINOV" = "quruq" ]; then python instagram/kunlik.py --sinov --quruq
+          else python instagram/kunlik.py ${SINOV:+--sinov}; fi
+      - name: Rasmlar (tekshirish uchun)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: postlar
+          path: instagram/chiqish/*.png
+          if-no-files-found: ignore
+          retention-days: 7
       - name: Holatni saqlash
         if: always()
         run: |
