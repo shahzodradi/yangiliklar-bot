@@ -6,6 +6,11 @@ on:
   schedule:
     - cron: "0 14 * * *"   # 19:00 Toshkent
   workflow_dispatch:
+    inputs:
+      sinov:
+        description: "1 = sinov posti (1 manba yetadi, holat saqlanmaydi)"
+        required: false
+        default: ""
 
 concurrency:
   group: instagram
@@ -32,7 +37,8 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           IG_BOT_TOKEN: ${{ secrets.IG_BOT_TOKEN }}
           IG_CHAT_ID: ${{ secrets.IG_CHAT_ID }}
-        run: python instagram/kunlik.py
+          SINOV: ${{ github.event.inputs.sinov }}
+        run: python instagram/kunlik.py ${SINOV:+--sinov}
       - name: Holatni saqlash
         if: always()
         run: |

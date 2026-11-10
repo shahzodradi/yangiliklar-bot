@@ -63,12 +63,12 @@ def load_json(path, default):
         return default
 
 
-def candidates():
+def candidates(min_sources=2):
     """Bot yuborgan, 2+ nashrda tasdiqlangan, hali Instagram'ga chiqmagan yangiliklar."""
     done = set(load_json(IG_STATE, {}).get("links", []))
     items = [x for x in bot.load_state().get("kunlik", [])
              if x["t"] > time.time() - WINDOW_HOURS * 3600 and x["link"] not in done]
-    verified = [x for x in items if len(set(x.get("domains") or [])) >= 2]
+    verified = [x for x in items if len(set(x.get("domains") or [])) >= min_sources]
     log.info("IG nomzodlar: %d ta, 2+ manbada tasdiqlangan: %d ta", len(items), len(verified))
     return verified
 
@@ -169,9 +169,10 @@ def headline_html(text):
 
 def main():
     dry = "--quruq" in sys.argv
+    test = "--sinov" in sys.argv  # GitHub'da tekshirish: 1 manba ham bo'laveradi, holat saqlanmaydi
     env = bot.load_env()
     token, chat = (None, None) if dry else ig.ig_bot()
-    items = candidates()
+    items = candidates(1 if test else 2)
     if not items:
         if not dry:
             ig.tg(token, "sendMessage", {"chat_id": chat, "text": "📭 Bugun 2+ manbada tasdiqlangan yangi "
@@ -201,14 +202,14 @@ def main():
         if not png:
             log.warning("PNG chizilmadi: %s", item["link"])
             continue
-        caption = build_caption(item, pick, credit)
+        caption = ("🧪 SINOV (tekshirilmagan bo'lishi mumkin)\n\n" if test else "") + build_caption(item, pick, credit)
         log.info("IG post %d: %s (%d belgi, rasm: %s)", n, pick["sarlavha"], len(caption), credit)
         if dry:
             print(f"\n=== {png}\n{caption}\n")
             continue
         if ig.send_post(token, chat, n, png, caption):
             state["links"] = (state["links"] + [item["link"]])[-200:]
-    if not dry:
+    if not dry and not test:
         IG_STATE.write_text(json.dumps(state, ensure_ascii=False, indent=1), encoding="utf-8")
 
 
