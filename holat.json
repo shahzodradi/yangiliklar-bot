@@ -146,7 +146,13 @@
   "https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/": 1794330159.6686654,
   "https://the-decoder.com/google-deepminds-gemini-robotics-2-5-scores-96-percent-sorting-metal-parts-in-a-mercedes-benz-assembly-pilot/": 1794333661.7195117,
   "https://www.theverge.com/tech/1030653/adobe-max-2026-photoshop-premiere-removal-updates": 1794333661.7195117,
-  "https://tech.yahoo.com/cybersecurity/articles/openais-gpt-6-cyber-ai-193006811.html": 1794333661.7195117
+  "https://tech.yahoo.com/cybersecurity/articles/openais-gpt-6-cyber-ai-193006811.html": 1794333661.7195117,
+  "https://the-decoder.com/nvidias-model-gr00t-2-watches-humans-on-video-then-imagines-itself-as-the-robot/": 1794337472.488967,
+  "https://the-decoder.com/gemini-4-carbon-arrives-just-in-time-to-feel-like-yesterdays-news-in-the-fastest-model-cycle-yet/": 1794337472.488967,
+  "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/": 1794337472.488967,
+  "https://www.theverge.com/ai-artificial-intelligence/1030703/anthropic-ipo-1-4-trillion": 1794337472.488967,
+  "https://techcrunch.com/2026/11/10/ring-known-for-its-doorbell-cameras-launches-a-home-security-drone-and-an-enterprise-security-robot/": 1794337472.488967,
+  "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/": 1794337472.488967
  },
  "fails": 0,
  "sent": [
@@ -503,6 +509,36 @@
   {
    "t": 1794333661.7195117,
    "title": "OpenAI's New GPT-6 Cyber AI Can Find and Exploit Software Flaws — It Already Uncovered 588 Unknown Linux Vulnerabilities and 81 Firefox Bugs",
+   "soha": "AI"
+  },
+  {
+   "t": 1794337472.488967,
+   "title": "Nvidia's model GR00T 2 watches humans on video, then imagines itself as the robot",
+   "soha": "AI video"
+  },
+  {
+   "t": 1794337472.488967,
+   "title": "Gemini 4 Carbon arrives just in time to feel like yesterday's news in the fastest model cycle yet",
+   "soha": "AI"
+  },
+  {
+   "t": 1794337472.488967,
+   "title": "Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks",
+   "soha": "AI"
+  },
+  {
+   "t": 1794337472.488967,
+   "title": "Anthropic targets $1.4 trillion IPO",
+   "soha": "AI"
+  },
+  {
+   "t": 1794337472.488967,
+   "title": "Ring, known for its doorbell cameras, launches a home security drone and an enterprise security robot",
+   "soha": "AI"
+  },
+  {
+   "t": 1794337472.488967,
+   "title": "Google Cloud launches Gemini for healthcare.",
    "soha": "AI"
   }
  ],
@@ -1313,6 +1349,121 @@
     [
      "https://x.com/fouadmatin/status/2118429823244935257",
      "X"
+    ]
+   ]
+  },
+  {
+   "t": 1794337472.488967,
+   "title": "Nvidia kompaniyasining GR00T 2 modeli odamlarning harakatlarini video orqali o'rganadi",
+   "text": "Nvidia robotlarga yangi vazifalarni o'rgatish uchun mo'ljallangan GR00T 2 sun'iy intellekt modelini taqdim etdi. Tizim taxminan 400 000 soatlik video yozuvlar asosida inson qo'l harakatlarini robot qo'llariga o'tkazadi.",
+   "orig_title": "Nvidia's model GR00T 2 watches humans on video, then imagines itself as the robot",
+   "link": "https://the-decoder.com/nvidias-model-gr00t-2-watches-humans-on-video-then-imagines-itself-as-the-robot/",
+   "source": "The Decoder",
+   "soha": "AI video",
+   "baho": 9,
+   "experts": [],
+   "effect": null,
+   "image": "https://the-decoder.com/wp-content/uploads/2026/11/GR00T-2-Nvidia-1200x675.png",
+   "domains": [],
+   "urls": [],
+   "videos": []
+  },
+  {
+   "t": 1794337472.488967,
+   "title": "Google o'zining Gemini 4 Carbon modelini taqdim etdi",
+   "text": "Google ikki haftalik sinov muddatidan so'ng Gemini 4 Carbon modelini keng jamoatchilikka taqdim etdi. Model bir nechta reytinglarda peshqadamlik qilib, agentlar guruhini muvofiqlashtiruvchi yangi funksiyalarga ega bo'ldi.",
+   "orig_title": "Gemini 4 Carbon arrives just in time to feel like yesterday's news in the fastest model cycle yet",
+   "link": "https://the-decoder.com/gemini-4-carbon-arrives-just-in-time-to-feel-like-yesterdays-news-in-the-fastest-model-cycle-yet/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": null,
+   "image": "https://the-decoder.com/wp-content/uploads/2026/11/gemini-4_carbon_logo.png",
+   "domains": [],
+   "urls": [],
+   "videos": [
+    [
+     "https://www.youtube.com/watch?v=dNbkThtNzS8",
+     "YouTube"
+    ],
+    [
+     "https://www.youtube.com/watch?v=rOVEmjfPmYk",
+     "YouTube"
+    ]
+   ]
+  },
+  {
+   "t": 1794337472.488967,
+   "title": "Anthropic kompaniyasi Claude Meetings xizmatini ishga tushirdi",
+   "text": "Anthropic muhokamalarni reja va vazifalarga aylantiruvchi Claude Meetings xizmatini taqdim etdi. Dastur yig'ilish davomida reja tuzishi, vaqt jadvalini xaritaga tushirishi va savollarga javob berishi mumkin.",
+   "orig_title": "Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks",
+   "link": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/Claude-Meetings.png?resize=1200,675",
+   "domains": [],
+   "urls": [],
+   "videos": []
+  },
+  {
+   "t": 1794337472.488967,
+   "title": "Anthropic 1.4 trillion dollarlik IPO narxini belgilamoqda",
+   "text": "Anthropic o'zining aksiyalarini har biri 70 dan 78 dollargacha bo'lgan narxda joylashtirishni rejalashtirmoqda. Kompaniyaning umumiy qiymati 1.4 trillion dollargacha baholanishi kutilmoqda.",
+   "orig_title": "Anthropic targets $1.4 trillion IPO",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1030703/anthropic-ipo-1-4-trillion",
+   "source": "The Verge AI",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK269_ANTHROPIC_2_D.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+   "domains": [],
+   "urls": [],
+   "videos": [
+    [
+     "https://www.youtube.com/watch?v=Yvy_Qm14odU",
+     "YouTube"
+    ]
+   ]
+  },
+  {
+   "t": 1794337472.488967,
+   "title": "Ring uy xavfsizligi dronini va korxona robotini chiqardi",
+   "text": "Amazon kompaniyasiga qarashli Ring uylarni qo'riqlash uchun uchuvchi dron va korxonalarni nazorat qiluvchi muvozanatli robotni namoyish etdi.",
+   "orig_title": "Ring, known for its doorbell cameras, launches a home security drone and an enterprise security robot",
+   "link": "https://techcrunch.com/2026/11/10/ring-known-for-its-doorbell-cameras-launches-a-home-security-drone-and-an-enterprise-security-robot/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/Ring-drone.jpg?resize=1200,1200",
+   "domains": [],
+   "urls": [],
+   "videos": []
+  },
+  {
+   "t": 1794337472.488967,
+   "title": "Google Cloud tibbiyot sohasi uchun Gemini xizmatini e'lon qildi",
+   "text": "Google Cloud klinik ma'lumotlarni birlashtirish va ish jarayonlarini avtomatlashtirish uchun mo'ljallangan Gemini for healthcare xizmatini ishga tushirdi.",
+   "orig_title": "Google Cloud launches Gemini for healthcare.",
+   "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
+   "source": "Google AI",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": null,
+   "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/social_share_NWQpgus.max-1440x810.png",
+   "domains": [],
+   "urls": [],
+   "videos": [
+    [
+     "https://www.youtube.com/watch?v=uqmXoKOs_o0",
+     "YouTube"
     ]
    ]
   }
