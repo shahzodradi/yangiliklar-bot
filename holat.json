@@ -153,7 +153,12 @@
   "https://the-decoder.com/openai-turns-chatgpt-into-a-business-directory-with-ai-agents-that-handle-customer-questions/": 1794366541.3395271,
   "https://the-decoder.com/anthropic-turns-claude-into-a-full-workspace-with-plugins-spreadsheets-whiteboards-and-soon-meeting-notes/": 1794366541.3395271,
   "https://www.theverge.com/games/1030994/big-walk-independent-games-festival-igf-ai": 1794366541.3395271,
-  "https://www.theverge.com/tech/1030838/ebay-ai-agents-meta-muse-agentic-shopping": 1794366541.3395271
+  "https://www.theverge.com/tech/1030838/ebay-ai-agents-meta-muse-agentic-shopping": 1794366541.3395271,
+  "https://www.msn.com/en-us/entertainment/general/umg-v-suno-discovery-dispute-rages-amid-marathon-legal-battle/ar-AA2hbpBj?ocid=BingNewsVerp": 1794369673.2776096,
+  "https://www.engadget.com/2310316/suno-ai-music-generator-sued-again-for-copyright-infringement/": 1794369673.2776096,
+  "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/": 1794369673.2776096,
+  "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/": 1794369673.2776096,
+  "https://www.theverge.com/ai-artificial-intelligence/1031063/jensen-huang-ai-race-us-china-spy": 1794369673.2776096
  },
  "fails": 0,
  "sent": [
@@ -560,6 +565,31 @@
   {
    "t": 1794366541.3395271,
    "title": "eBay appears to have shut the door on third-party AI agents",
+   "soha": "AI"
+  },
+  {
+   "t": 1794369673.2776096,
+   "title": "UMG v. Suno discovery dispute rages amid marathon legal battle",
+   "soha": "AI musiqa"
+  },
+  {
+   "t": 1794369673.2776096,
+   "title": "Suno AI music generator sued again for copyright infringement",
+   "soha": "AI musiqa"
+  },
+  {
+   "t": 1794369673.2776096,
+   "title": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
+   "soha": "AI"
+  },
+  {
+   "t": 1794369673.2776096,
+   "title": "All 7 Anthropic founders will each cash out about $250M in IPO",
+   "soha": "AI"
+  },
+  {
+   "t": 1794369673.2776096,
+   "title": "The US is winning the AI race. Jensen Huang could have blown it",
    "soha": "AI"
   }
  ],
@@ -1586,6 +1616,137 @@
     "https://www.theverge.com/tech/1030838/ebay-ai-agents-meta-muse-agentic-shopping",
     "https://tech.yahoo.com/ai/meta-ai/articles/why-websites-blocking-ai-agents-190000138.html",
     "https://finance.yahoo.com/technology/ai/articles/amazon-blocks-metas-muse-ai-141950908.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794369673.2776096,
+   "title": "UMG v. Suno ishi bo'yicha suddagi tortishuvlar davom etmoqda",
+   "text": "Universal Music Group va Suno o'rtasidagi sud jarayonida litsenziyalash va ma'lumotlar almashinuvi masalalari muhokama qilinmoqda.",
+   "orig_title": "UMG v. Suno discovery dispute rages amid marathon legal battle",
+   "link": "https://www.msn.com/en-us/entertainment/general/umg-v-suno-discovery-dispute-rages-amid-marathon-legal-battle/ar-AA2hbpBj?ocid=BingNewsVerp",
+   "source": "Musiqa: Suno",
+   "soha": "AI musiqa",
+   "baho": 9,
+   "experts": [],
+   "effect": "Bu mojaro sun'iy intellekt orqali musiqa yaratish va mualliflik huquqini himoya qilish masalasida qonunchilikni yanada qattiqlashtirishi mumkin.",
+   "image": null,
+   "domains": [
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://finance.yahoo.com/quote/SHMD/"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794369673.2776096,
+   "title": "Suno yana bir bor mualliflik huquqi bo'yicha sudga tortildi",
+   "text": "Elvis Presley va Eminem qo'shiqlari huquq egalari Suno sun'iy intellekt musiqiy generatoriga qarshi sudga da'vo kiritishdi.",
+   "orig_title": "Suno AI music generator sued again for copyright infringement",
+   "link": "https://www.engadget.com/2310316/suno-ai-music-generator-sued-again-for-copyright-infringement/",
+   "source": "engadget.com",
+   "soha": "AI musiqa",
+   "baho": 9,
+   "experts": [],
+   "effect": "Sud jarayonlari sun'iy intellekt kompaniyalarining kelgusidagi faoliyatiga jiddiy ta'sir ko'rsatib, litsenziyasiz ma'lumotlardan foydalanishni cheklashi mumkin.",
+   "image": "https://www.engadget.com/img/gallery/suno-ai-music-generator-sued-again-for-copyright-infringement/l-intro-1794166799.jpg",
+   "domains": [
+    "engadget.com",
+    "yahoo.com"
+   ],
+   "urls": [
+    "https://www.engadget.com/2310316/suno-ai-music-generator-sued-again-for-copyright-infringement/",
+    "https://www.yahoo.com/entertainment/music/articles/elvis-rights-holders-eminems-publisher-204744656.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794369673.2776096,
+   "title": "Nyu-Yorkda yangi sun'iy intellekt xavfsizligi qonuni kuchga kirdi",
+   "text": "Nyu-York shtati OpenAI va Anthropic kabi yetakchi kompaniyalardan xavfsizlik amaliyotlarini oshkor qilishni talab qiluvchi qonunni tatbiq etmoqda.",
+   "orig_title": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
+   "link": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [
+    {
+     "kim": "Kate Blocker",
+     "lavozim": "tadqiqot va dasturlar direktori",
+     "fikr": "Mahsulotlar ishlab chiqilayotganda muammolar paydo bo'lgandan keyin emas, balki bolalar xavfsizligi hisobga olinishi muhim.",
+     "url": "https://www.cnbc.com/2026/11/07/snap-social-media-teen-safety-lawsuits.html",
+     "domain": "cnbc.com"
+    },
+    {
+     "kim": "Joseph McNally",
+     "lavozim": "paydo bo'layotgan sud litsenziyalari direktori",
+     "fikr": "Kelishuvlar texnologiya kompaniyalarining jamoatchilik nazorati va huquqiy muammolardan qochishga urinishi ekanligini ko'rsatadi.",
+     "url": "https://www.cnbc.com/2026/11/07/snap-social-media-teen-safety-lawsuits.html",
+     "domain": "cnbc.com"
+    }
+   ],
+   "effect": "Yangi qonunlar va qat'iy nazorat yirik texnologiya kompaniyalaridan xavfsizlik va shaffoflik talablarini kuchaytirishi mumkin.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2302996653.jpg?w=1024",
+   "domains": [
+    "techcrunch.com",
+    "cnbc.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+    "https://www.cnbc.com/2026/11/07/snap-social-media-teen-safety-lawsuits.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794369673.2776096,
+   "title": "Anthropic asoschilari IPO paytida o'z aksiyalarini sotishni rejalashtirmoqda",
+   "text": "Anthropic kompaniyasining yettita asoschisi IPO doirasida har biri taxminan 250 million dollarlik aksiyalarni naqd pulga sotishni ko'zlamoqda.",
+   "orig_title": "All 7 Anthropic founders will each cash out about $250M in IPO",
+   "link": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [
+    {
+     "kim": "Jay R. Ritter",
+     "lavozim": "faxriy professor",
+     "fikr": "Qiymat miqdori yuqori bo'lsa-da, bozor asoschilarning pul olishiga ko'nikib qoldi.",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-founders-cash-1-75b-165340800.html",
+     "domain": "finance.yahoo.com"
+    }
+   ],
+   "effect": "Asoschilarning aksiyalarni sotishi bozor ishtirokchilarida dastlab ehtiyotkorlik tug'dirishi, biroq umumiy IPO jarayoniga ta'sir qilmasligi mumkin.",
+   "image": "https://techcrunch.com/wp-content/uploads/2025/04/Jared-Kaplan_headshot2.jpg?resize=900,1200",
+   "domains": [
+    "techcrunch.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/",
+    "https://finance.yahoo.com/markets/stocks/articles/anthropic-founders-cash-1-75b-165340800.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794369673.2776096,
+   "title": "Jensen Huangning mojarolari Nvidia kompaniyasiga ta'sir qilmoqda",
+   "text": "Nvidia rahbari Jensen Huang atrofidagi josuslik va siyosiy vaziyatlar AQShning sun'iy intellekt sohasidagi ustunligiga soya solmoqda.",
+   "orig_title": "The US is winning the AI race. Jensen Huang could have blown it",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1031063/jensen-huang-ai-race-us-china-spy",
+   "source": "The Verge AI",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Mazkur mojaro AQShning sun'iy intellekt bo'yicha texnologik ustunligiga va milliy xavfsizlikka salbiy ta'sir ko'rsatish ehtimoli bor.",
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/gettyimages-2285784039.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+   "domains": [
+    "theverge.com",
+    "techcrunch.com"
+   ],
+   "urls": [
+    "https://www.theverge.com/ai-artificial-intelligence/1031063/jensen-huang-ai-race-us-china-spy",
+    "https://techcrunch.com/2026/11/10/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/"
    ],
    "videos": []
   }
