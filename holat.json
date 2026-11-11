@@ -183,7 +183,7 @@
   "https://the-decoder.com/us-data-brokers-are-selling-half-a-billion-dollars-in-rl-training-environments-to-chinese-ai-labs/": 1794405767.6505322,
   "https://the-decoder.com/grok-built-apps-exposed-patient-data-plaintext-passwords-and-spacexsis-own-sales-pipeline/": 1794405767.6505322
  },
- "fails": 0,
+ "fails": 1,
  "sent": [
   {
    "t": 1794221257.5365393,
