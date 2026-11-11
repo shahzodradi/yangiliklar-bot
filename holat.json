@@ -1,8 +1,5 @@
 {
  "seen": {
-  "https://the-decoder.com/openais-upcoming-chat-and-work-merger-in-chatgpt-signals-the-end-of-all-you-can-prompt-pricing/": 1793527302.0416381,
-  "https://www.spot.uz/ru/2026/10/31/delever/": 1793527302.0416381,
-  "https://phys.org/news/2026-10-superconducting-cables-link-large-quantum.html": 1793527302.0416381,
   "https://uza.uz/uz/posts/halqaro-matematika-olimpiadasida-yuqori-natizhaga-erishgan-oquvchilarimiz-tantanali-kutib-olindi_931057": 1793554382.5781279,
   "https://www.bbc.co.uk/news/articles/c6rry8x9d9qko?at_medium=RSS&at_campaign=rss": 1793554382.5781279,
   "https://www.sciencedaily.com/releases/2026/10/261030003017.htm": 1793554382.5781279,
@@ -173,7 +170,11 @@
   "https://www.wired.com/story/the-ai-safety-debate-has-lost-the-plot-we-asked-10-experts-what-the-real-nightmares-are/": 1794380809.7387686,
   "https://huggingface.co/blog/qvac/botpsy": 1794380809.7387686,
   "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/": 1794388042.7893586,
-  "https://techcrunch.com/2026/11/10/nvidias-crisis-has-corporate-governance-experts-reaching-for-the-popcorn/": 1794391252.1700668
+  "https://techcrunch.com/2026/11/10/nvidias-crisis-has-corporate-governance-experts-reaching-for-the-popcorn/": 1794391252.1700668,
+  "https://au.lifestyle.yahoo.com/nick-cave-condemns-ai-music-093000029.html": 1794394922.6821623,
+  "https://www.msn.com/en-us/technology/tech-companies/nvidia-ceo-affair-with-spy-rocks-company-s-stock-prices/ar-AA2haoyC": 1794394922.6821623,
+  "https://openai.com/index/chatgpt-plus-for-veterans": 1794394922.6821623,
+  "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life": 1794394922.6821623
  },
  "fails": 0,
  "sent": [
@@ -680,6 +681,26 @@
   {
    "t": 1794391252.1700668,
    "title": "Nvidia’s crisis has corporate governance experts reaching for the popcorn",
+   "soha": "AI"
+  },
+  {
+   "t": 1794394922.6821623,
+   "title": "Nick Cave condemns AI music tool as a ‘soul-destroying humiliation’",
+   "soha": "AI musiqa"
+  },
+  {
+   "t": 1794394922.6821623,
+   "title": "Nvidia CEO Affair With Spy Rocks Company's Stock Prices",
+   "soha": "AI"
+  },
+  {
+   "t": 1794394922.6821623,
+   "title": "ChatGPT Plus for veterans and servicemembers",
+   "soha": "AI"
+  },
+  {
+   "t": 1794394922.6821623,
+   "title": "Helping caregivers use AI in everyday life",
    "soha": "AI"
   }
  ],
@@ -2214,6 +2235,93 @@
     "https://techcrunch.com/2026/11/10/nvidias-crisis-has-corporate-governance-experts-reaching-for-the-popcorn/",
     "https://finance.yahoo.com/markets/stocks/articles/weak-board-no-successor-nvidia-211637969.html",
     "https://finance.yahoo.com/markets/stocks/articles/jensen-huang-affair-shows-3-190044111.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794394922.6821623,
+   "title": "Nick Cave AI musiqa generatorlarini qattiq tanqid qildi",
+   "text": "Musiqachi Nick Cave AI musiqa platformalarini inson ijodiy mehnatini kamsituvchi texnologiya deb atab, ularni ijod ustidan kulishda aybladi.",
+   "orig_title": "Nick Cave condemns AI music tool as a ‘soul-destroying humiliation’",
+   "link": "https://au.lifestyle.yahoo.com/nick-cave-condemns-ai-music-093000029.html",
+   "source": "au.lifestyle.yahoo.com",
+   "soha": "AI musiqa",
+   "baho": 8,
+   "experts": [],
+   "effect": "San’atkorlar va musiqachilarning generativ AI vositalariga nisbatan yondashuvi asta-sekin yumshab, undan to‘liq ijod o‘rnini bosuvchi vosita sifatida emas, balki vizual va texnik yordamchi vosita sifatida foydalanish kuchayishi mumkin.",
+   "image": "https://s.yimg.com/lo/mysterio/api/a650725ede688141046e17da39dd10b3e029c7c8e2354b433cf925eecce3671b/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fbang_showbiz_au_766%2F9e595b52474060e4990b6839b414b8b0.jpg",
+   "domains": [
+    "au.lifestyle.yahoo.com",
+    "yahoo.com"
+   ],
+   "urls": [
+    "https://au.lifestyle.yahoo.com/nick-cave-condemns-ai-music-093000029.html",
+    "https://www.yahoo.com/entertainment/articles/nick-cave-says-andrew-dominik-170921412.html",
+    "https://www.yahoo.com/entertainment/articles/rigidity-breaks-flexibility-endures-nick-152917463.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794394922.6821623,
+   "title": "Jensen Huang mojarosi sabab Nvidia aksiyalari tushishda davom etmoqda",
+   "text": "Nvidia bosh direktori Jensen Huang bilan bog‘liq josuslik mojarosi va shaxsiy munosabatlar fosh bo‘lishi ortidan kompaniya aksiyalari narxi pasaydi.",
+   "orig_title": "Nvidia CEO Affair With Spy Rocks Company's Stock Prices",
+   "link": "https://www.msn.com/en-us/technology/tech-companies/nvidia-ceo-affair-with-spy-rocks-company-s-stock-prices/ar-AA2haoyC",
+   "source": "msn.com",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "AQSh hukumati va FTB tekshiruvlari kuchayishi, sanksiyalar qat’iylashuvi hamda investorlar ishonchi pasayishi oqibatida Nvidia aksiyalari narxi yanada tushishi va yetakchi yarimo‘tkazgichlar yetkazib berish zanjiri cheklanishi mumkin.",
+   "image": null,
+   "domains": [
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://finance.yahoo.com/markets/article/nvidia-stock-drops-3-extending-decline-on-report-alleged-chinese-spy-linked-to-nvidia-ceo-aided-75-billion-in-china-chip-shipments-152654028.html",
+    "https://finance.yahoo.com/technology/ai/articles/nvidia-stock-ai-world-rocked-183005567.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794394922.6821623,
+   "title": "20 mingdan ortiq faxriy ChatGPT Plus obunasini bepul oldi",
+   "text": "OpenAI ma'lumotlariga ko‘ra, 20 000 dan ziyod harbiy xizmatchi va faxriylar fuqarolik karyerasiga tayyorgarlik ko‘rish uchun bepul bir yillik ChatGPT Plus oldi.",
+   "orig_title": "ChatGPT Plus for veterans and servicemembers",
+   "link": "https://openai.com/index/chatgpt-plus-for-veterans",
+   "source": "OpenAI",
+   "soha": "AI",
+   "baho": 5,
+   "experts": [],
+   "effect": "Yuz minglab harbiy xizmatchilar va faxriylarning fuqarolik ish o‘rinlariga moslashishi osonlashishi, shuningdek, OpenAI o‘zining faol foydalanuvchilar bazasini va davlat sektori bilan aloqalarini kengaytirib olishi mumkin.",
+   "image": null,
+   "domains": [
+    "yahoo.com"
+   ],
+   "urls": [
+    "https://www.yahoo.com/lifestyle/articles/veterans-military-members-free-meals-165946801.html",
+    "https://www.yahoo.com/lifestyle/articles/openais-veterans-crafted-100-chatgpt-104301176.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794394922.6821623,
+   "title": "OpenAI parvarishlovchilar uchun amaliy ChatGPT treninglarini boshladi",
+   "text": "OpenAI Academy AQShning 5 ta shahrida bemor va qariyalarni parvarishlovchilarga kundalik hayotda AI vositalaridan foydalanish bo‘yicha bepul amaliy darslar o‘tadi.",
+   "orig_title": "Helping caregivers use AI in everyday life",
+   "link": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+   "source": "OpenAI",
+   "soha": "AI",
+   "baho": 5,
+   "experts": [],
+   "effect": "ChatGPT xonadonlar va bolalar parvarishiga chuqurroq integratsiyalashuvi, ota-onalar nazorati kuchayishi hamda sun’iy intellekt xavfsizligi bo‘yicha yangi sanoat standartlari shakllanishiga olib kelishi mumkin.",
+   "image": null,
+   "domains": [
+    "techcrunch.com",
+    "wired.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/",
+    "https://www.wired.com/story/microsoft-openai-and-a-us-teachers-union-are-hatching-a-plan-to-bring-ai-into-the-classroom/"
    ],
    "videos": []
   }
