@@ -1,7 +1,9 @@
 {
  "links": [
   "https://the-decoder.com/anthropic-kicks-off-ipo-roadshow-offering-shares-at-70-to-78-and-targeting-a-trillion-dollar-valuation/",
-  "https://www.wired.com/story/jensen-huangs-troubles-leaves-the-ai-industry-reeling/"
+  "https://www.wired.com/story/jensen-huangs-troubles-leaves-the-ai-industry-reeling/",
+  "https://the-decoder.com/enterprise-sales-push-openais-quarterly-revenue-to-10-billion-though-it-still-trails-anthropic/",
+  "https://www.engadget.com/2310316/suno-ai-music-generator-sued-again-for-copyright-infringement/"
  ],
  "faktlar": {
   "Alan Turing": [
@@ -15,5 +17,7 @@
   ]
  },
  "fakt_navbat": 4,
- "videos": []
+ "videos": [
+  "https://www.youtube.com/watch?v=5KyifKNlY7A"
+ ]
 }
