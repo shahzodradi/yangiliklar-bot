@@ -166,7 +166,12 @@
   "https://www.wired.com/story/tear-down-those-guardrails-meet-the-renegades-freeing-chatbots-from-corporate-enslavers/": 1794373354.7292726,
   "https://techcrunch.com/2026/11/10/proximal-ventures-raises-debut-fund-to-back-startups-bringing-ai-to-drug-development/": 1794373354.7292726,
   "https://markets.businessinsider.com/news/stocks/ai-era-corp-acquires-exclusive-rights-to-ai-script-to-video-pipeline-1036743477": 1794376890.129379,
-  "https://finance.yahoo.com/technology/ai/articles/ai-video-generator-free-trial-151300153.html": 1794376890.129379
+  "https://finance.yahoo.com/technology/ai/articles/ai-video-generator-free-trial-151300153.html": 1794376890.129379,
+  "https://www.thurrott.com/a-i/343687/adobe-expands-microsoft-partnership-at-max": 1794380809.7387686,
+  "https://www.koreatimes.co.kr/lifestyle/people-events/20261105/korean-chinese-filmmakers-seek-common-ground-beyond-politics-through-ai": 1794380809.7387686,
+  "https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/": 1794380809.7387686,
+  "https://www.wired.com/story/the-ai-safety-debate-has-lost-the-plot-we-asked-10-experts-what-the-real-nightmares-are/": 1794380809.7387686,
+  "https://huggingface.co/blog/qvac/botpsy": 1794380809.7387686
  },
  "fails": 0,
  "sent": [
@@ -639,6 +644,31 @@
    "t": 1794376890.129379,
    "title": "AI Video Generator Free Trial: 9 Tests in DIY AI Studio",
    "soha": "AI video"
+  },
+  {
+   "t": 1794380809.7387686,
+   "title": "Adobe Expands Microsoft Partnership at MAX",
+   "soha": "AI video"
+  },
+  {
+   "t": 1794380809.7387686,
+   "title": "Korean, Chinese filmmakers seek common ground beyond politics through AI",
+   "soha": "AI video"
+  },
+  {
+   "t": 1794380809.7387686,
+   "title": "PSI is trying to make a business out of AI-driven scientific discovery",
+   "soha": "AI"
+  },
+  {
+   "t": 1794380809.7387686,
+   "title": "The AI Safety Debate Has Lost the Plot. We Asked 10 Experts What the Real Nightmares Are",
+   "soha": "AI"
+  },
+  {
+   "t": 1794380809.7387686,
+   "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -1992,6 +2022,131 @@
     "https://finance.yahoo.com/technology/ai/articles/ai-video-generator-free-trial-151300153.html",
     "https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code",
     "https://www.cnbc.com/2025/05/20/google-ai-video-generator-audio-veo-3.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794380809.7387686,
+   "title": "Adobe MAX tadbirida Microsoft bilan hamkorlikni kengaytirdi",
+   "text": "Adobe MAX konferensiyasida Firefly va butun Creative Cloud tizimi bo‘ylab AI agent ish jarayonlari kengaytirilgani hamda Microsoft bilan hamkorlik kuchaytirilgani e’lon qilindi.",
+   "orig_title": "Adobe Expands Microsoft Partnership at MAX",
+   "link": "https://www.thurrott.com/a-i/343687/adobe-expands-microsoft-partnership-at-max",
+   "source": "thurrott.com",
+   "soha": "AI video",
+   "baho": 8,
+   "experts": [],
+   "effect": "Ijodiy dasturlarda turli neyrotarmoq agentlarining integratsiyalashuvi dizaynerlar mehnat unumdorligini oshirishi va Adobe ekotizimida avtonom jarayonlarni tezlashtirishi mumkin.",
+   "image": "https://thurrott-assets.nyc3.digitaloceanspaces.com/web/wp-content/uploads/sites/2/2026/11/adobe-firefly.jpg",
+   "domains": [
+    "thurrott.com",
+    "tech.yahoo.com"
+   ],
+   "urls": [
+    "https://www.thurrott.com/a-i/343687/adobe-expands-microsoft-partnership-at-max",
+    "https://tech.yahoo.com/ai/meta-ai/articles/adobe-giving-ai-agents-even-140000405.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794380809.7387686,
+   "title": "Koreya va Xitoy rejissyorlari AI orqali kino yaratishda hamkorlik qilmoqda",
+   "text": "Janubiy Koreya va Xitoylik kinematograflar siyosiy kelishmovchiliklarga qaramay, AI texnologiyalari yordamida umuminsoniy hikoyalarni aks ettiruvchi filmlar yaratish ustida ishlamoqda.",
+   "orig_title": "Korean, Chinese filmmakers seek common ground beyond politics through AI",
+   "link": "https://www.koreatimes.co.kr/lifestyle/people-events/20261105/korean-chinese-filmmakers-seek-common-ground-beyond-politics-through-ai",
+   "source": "koreatimes.co.kr",
+   "soha": "AI video",
+   "baho": 7,
+   "experts": [],
+   "effect": "Kinochilikda sun’iy intellektdan foydalanish ijodiy xarajatlarni kamaytirishi hamda murakkab siyosiy sharoitda madaniy almashinuv va xalqaro hamkorlikni kengaytirishi mumkin.",
+   "image": "https://newsimg.koreatimes.co.kr/2026/11/04/f4d2ac9f-f7b5-4cb9-a2b5-9a8f6ec9360b.jpeg",
+   "domains": [
+    "koreatimes.co.kr",
+    "yahoo.com"
+   ],
+   "urls": [
+    "https://www.koreatimes.co.kr/lifestyle/people-events/20261105/korean-chinese-filmmakers-seek-common-ground-beyond-politics-through-ai",
+    "https://www.yahoo.com/entertainment/movies/articles/taiwan-bet-horror-crack-indonesia-102243027.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794380809.7387686,
+   "title": "PSI kompaniyasi ilmiy kashfiyotlar uchun sun’iy intellektdan foydalanmoqda",
+   "text": "PSI Anthropic kompaniyasining hali ommaga taqdim etilmagan yangi modelidan foydalanib, kvant hisoblash sohasida 20 yildan beri hal etilmagan fundamental savolga javob topdi.",
+   "orig_title": "PSI is trying to make a business out of AI-driven scientific discovery",
+   "link": "https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 6,
+   "experts": [
+    {
+     "kim": "Scott Aaronson",
+     "lavozim": "Kvant hisoblashlari bo‘yicha olim",
+     "fikr": "Aaronson-Ambainis gipotezasining to‘liq isboti kvant so‘rovlari murakkabligi sohasidagi eng muhim ochiq muammolardan biri bo‘lganini ta’kidlab, uning yechilganidan qoniqish va hayrat tuyganini bildirdi.",
+     "url": "https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/",
+     "domain": "techcrunch.com"
+    },
+    {
+     "kim": "Terence Tao",
+     "lavozim": "UCLA matematika professori",
+     "fikr": "Matematikaning 'romantik davri' tugaganini, hayajonli yangi imkoniyatlar paydo bo‘layotgan bo‘lsa-da, ba’zi narsalar yo‘qotilayotgan davrga qadam qo‘yilayotganini ta’kidladi.",
+     "url": "https://www.businessinsider.com/anthropic-quantum-computing-breakthrough-aaronson-ambainis-math-physics-psi-2026-11",
+     "domain": "businessinsider.com"
+    }
+   ],
+   "effect": "AI modellari murakkab ilmiy gipotezalarni mustaqil isbotlashi fundamental fanlar va kvant hisoblashlari rivojini keskin tezlashtirishi, ammo an’anaviy ilmiy izlanishlar rolini pasaytirishi mumkin.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/Screenshot-2026-11-10-at-10.00.33-AM.png?w=683",
+   "domains": [
+    "techcrunch.com",
+    "businessinsider.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/",
+    "https://www.businessinsider.com/anthropic-quantum-computing-breakthrough-aaronson-ambainis-math-physics-psi-2026-11"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794380809.7387686,
+   "title": "Ekspertlar sun’iy intellekt xavfsizligi bo‘yicha haqiqiy tahdidlarni muhokama qildi",
+   "text": "10 nafar yetakchi AI mutaxassisi fantastik Skynet stsenariylari o‘rniga real geosiyosiy raqobat va infratuzilma xatarlari eng asosiy xavf ekanini ta’kidladi.",
+   "orig_title": "The AI Safety Debate Has Lost the Plot. We Asked 10 Experts What the Real Nightmares Are",
+   "link": "https://www.wired.com/story/the-ai-safety-debate-has-lost-the-plot-we-asked-10-experts-what-the-real-nightmares-are/",
+   "source": "Wired AI",
+   "soha": "AI",
+   "baho": 5,
+   "experts": [],
+   "effect": "Avtonom AI agentlarining xavfsizlik chegaralarini buzishi kiberxavfsizlik va mudofaa tizimlarida jiddiy inqirozlarni keltirib chiqarishi hamda davlatlar tomonidan qat’iy cheklovlar joriy etilishiga sabab bo‘lishi mumkin.",
+   "image": "https://media.wired.com/photos/6aea57e57882d392b9ef6dd3/191:100/w_1280,c_limit/Ai-threat-level-main.jpg",
+   "domains": [
+    "wired.com",
+    "yahoo.com"
+   ],
+   "urls": [
+    "https://www.wired.com/story/the-ai-safety-debate-has-lost-the-plot-we-asked-10-experts-what-the-real-nightmares-are/",
+    "https://www.yahoo.com/news/"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794380809.7387686,
+   "title": "Qurilmalarda ishlovchi ixcham BotPsy AI modeli taqdim etildi",
+   "text": "Hugging Face platformasida 1 milliarddan kam parametrlarga ega, shaxsiy qurilmalarning o‘zida agentlik vazifalarini bajaruvchi BotPsy modeli e’lon qilindi.",
+   "orig_title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+   "link": "https://huggingface.co/blog/qvac/botpsy",
+   "source": "Hugging Face",
+   "soha": "AI",
+   "baho": 5,
+   "experts": [],
+   "effect": "Kichik parametrli AI modellarining qurilmalarda mustaqil ishlashi bulutli xizmatlar xarajatlarini kamaytirishi va foydalanuvchilar ma’lumotlari maxfiyligini kuchaytirishi mumkin.",
+   "image": "https://cdn-uploads.huggingface.co/production/uploads/6468b319b2321e47d3267049/Emr86qw6NAueYLdIEiTTD.png",
+   "domains": [
+    "huggingface.co",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://huggingface.co/blog/qvac/botpsy",
+    "https://finance.yahoo.com/technology/ai/articles/ant-internationals-agentic-mobile-protocol-032600234.html"
    ],
    "videos": []
   }
