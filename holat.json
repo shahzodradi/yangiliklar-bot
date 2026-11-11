@@ -175,7 +175,10 @@
   "https://www.msn.com/en-us/technology/tech-companies/nvidia-ceo-affair-with-spy-rocks-company-s-stock-prices/ar-AA2haoyC": 1794394922.6821623,
   "https://openai.com/index/chatgpt-plus-for-veterans": 1794394922.6821623,
   "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life": 1794394922.6821623,
-  "https://www.livemint.com/focus/bitespeed-launches-ai-creative-studio-aims-to-build-the-higgsfield-for-e-commerce-11794395114422.html": 1794398463.6209626
+  "https://www.livemint.com/focus/bitespeed-launches-ai-creative-studio-aims-to-build-the-higgsfield-for-e-commerce-11794395114422.html": 1794398463.6209626,
+  "https://indianexpress.com/article/express-sunday-eye/ai-fighters-take-centre-stage-in-pranav-bhasins-oscar-qualified-we-were-here-10959099/": 1794402645.2717056,
+  "https://the-decoder.com/enterprise-sales-push-openais-quarterly-revenue-to-10-billion-though-it-still-trails-anthropic/": 1794402645.2717056,
+  "https://www.msn.com/en-us/news/other/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/ar-AA2h8CGl": 1794402645.2717056
  },
  "fails": 0,
  "sent": [
@@ -708,6 +711,21 @@
    "t": 1794398463.6209626,
    "title": "BiteSpeed Launches AI Creative Studio, Aims to Build the Higgsfield for E- Commerce",
    "soha": "AI video"
+  },
+  {
+   "t": 1794402645.2717056,
+   "title": "AI-fighters take centre stage in Pranav Bhasin’s Oscar-qualified We Were Here",
+   "soha": "AI tanlov"
+  },
+  {
+   "t": 1794402645.2717056,
+   "title": "Enterprise sales push OpenAI's quarterly revenue to $10 billion, though it still trails Anthropic",
+   "soha": "AI"
+  },
+  {
+   "t": 1794402645.2717056,
+   "title": "Adobe adds more AI to its products and launches an MCP",
+   "soha": "AI rasm"
   }
  ],
  "mavzu": {
@@ -2352,6 +2370,79 @@
     "https://www.livemint.com/focus/bitespeed-launches-ai-creative-studio-aims-to-build-the-higgsfield-for-e-commerce-11794395114422.html",
     "https://www.cnbc.com/e-commerce/",
     "https://www.businessinsider.com/category/e-commerce"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794402645.2717056,
+   "title": "Pranav Bhasinning 'We Were Here' filmi Oskar tanlovida",
+   "text": "Pranav Bhasin tomonidan suratga olingan sun'iy intellekt va ish o'rinlari mavzusidagi 'We Were Here' qisqa metrajli filmi Oskar saralashiga kiritildi.",
+   "orig_title": "AI-fighters take centre stage in Pranav Bhasin’s Oscar-qualified We Were Here",
+   "link": "https://indianexpress.com/article/express-sunday-eye/ai-fighters-take-centre-stage-in-pranav-bhasins-oscar-qualified-we-were-here-10959099/",
+   "source": "indianexpress.com",
+   "soha": "AI tanlov",
+   "baho": 10,
+   "experts": [],
+   "effect": "Filmning nufuzli kinofestivallarda muvaffaqiyat qozonishi va Oskar mukofotiga da'vogar bo'lishi uning xalqaro miqyosdagi e'tiborini oshirishi mumkin. Shuningdek, loyihaga taniqli ijodkorlarning bosh prodyuser sifatida qo'shilishi qisqa metrajli hind kinolariga bo'lgan qiziqishni yanada kuchaytirishi ehtimoli bor.",
+   "image": null,
+   "domains": [
+    "yahoo.com"
+   ],
+   "urls": [
+    "https://www.yahoo.com/entertainment/movies/articles/priyanka-chopra-jonas-v-board-140000278.html",
+    "https://www.yahoo.com/entertainment/movies/articles/everytime-trailer-mind-bending-grief-140000880.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794402645.2717056,
+   "title": "OpenAI choraklik daromadini 10 milliard dollarga yetkazdi",
+   "text": "OpenAI daromadini 50 foizga oshirib 10 milliard dollarga yetkazdi, biroq uning sof zarari 10,9 milliard dollarni tashkil etmoqda.",
+   "orig_title": "Enterprise sales push OpenAI's quarterly revenue to $10 billion, though it still trails Anthropic",
+   "link": "https://the-decoder.com/enterprise-sales-push-openais-quarterly-revenue-to-10-billion-though-it-still-trails-anthropic/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 9,
+   "experts": [
+    {
+     "kim": "Art Hogan",
+     "lavozim": "Bosh bozor strategi",
+     "fikr": "Anthropic kompaniyasining aksiyalarini ommaviy joylashtirishi investorlarning sun'iy intellekt infratuzilmasi xarajatlari va ularni moliyalashtirish borasidagi xavotirlarining navbatdagi qismidir.",
+     "url": "https://finance.yahoo.com/technology/ai/articles/openai-reports-steep-losses-despite-081159477.html",
+     "domain": "finance.yahoo.com"
+    }
+   ],
+   "effect": "Kompaniyalarning sun'iy intellekt sohasidagi xarajatlari va moliyalashtirish masalalari investorlar o'rtasida xavotirlarni keltirib chiqarishi mumkin. Bozor ishtirokchilari mazkur texnologiya sektoridagi xarajatlar qanday qoplanishini yaqindan kuzatishda davom etishi ehtimoli bor.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/09/openai_logo_astra-1.png",
+   "domains": [
+    "the-decoder.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/enterprise-sales-push-openais-quarterly-revenue-to-10-billion-though-it-still-trails-anthropic/",
+    "https://finance.yahoo.com/technology/ai/articles/openai-reports-steep-losses-despite-081159477.html",
+    "https://finance.yahoo.com/markets/stocks/articles/us-stock-futures-rise-coreweave-100710852.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794402645.2717056,
+   "title": "Adobe Firefly dasturiga yangi sun'iy intellekt vositalari qo'shildi",
+   "text": "Adobe kompaniyasi Firefly platformasiga yangi prototip yaratuvchi vositalar va MCP integratsiyasini taqdim etdi.",
+   "orig_title": "Adobe adds more AI to its products and launches an MCP",
+   "link": "https://www.msn.com/en-us/news/other/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/ar-AA2h8CGl",
+   "source": "msn.com",
+   "soha": "AI rasm",
+   "baho": 8,
+   "experts": [],
+   "effect": "Sun'iy intellekt agentlariga turli integratsiyalarning joriy etilishi kontent yaratish jarayonlarini tezlashtirishi va foydalanuvchilarning ish unumdorligini oshirishi mumkin. Bu turdagi yechimlar kelgusida dasturchilar va marketing jamoalari uchun turli xizmatlardan foydalanishni sezilarli darajada soddalashtirishi ehtimoli bor.",
+   "image": null,
+   "domains": [
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://finance.yahoo.com/technology/ai/articles/loova-ai-launches-mcp-integration-134300172.html",
+    "https://finance.yahoo.com/technology/ai/articles/voidmob-highlights-ai-agent-integration-120900341.html"
    ],
    "videos": []
   }
