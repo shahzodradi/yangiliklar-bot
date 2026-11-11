@@ -178,7 +178,10 @@
   "https://www.livemint.com/focus/bitespeed-launches-ai-creative-studio-aims-to-build-the-higgsfield-for-e-commerce-11794395114422.html": 1794398463.6209626,
   "https://indianexpress.com/article/express-sunday-eye/ai-fighters-take-centre-stage-in-pranav-bhasins-oscar-qualified-we-were-here-10959099/": 1794402645.2717056,
   "https://the-decoder.com/enterprise-sales-push-openais-quarterly-revenue-to-10-billion-though-it-still-trails-anthropic/": 1794402645.2717056,
-  "https://www.msn.com/en-us/news/other/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/ar-AA2h8CGl": 1794402645.2717056
+  "https://www.msn.com/en-us/news/other/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/ar-AA2h8CGl": 1794402645.2717056,
+  "https://www.msn.com/en-gb/technology/artificial-intelligence/how-i-create-fashion-images-with-higgsfield-soul-2-0/vi-AA2he0g8": 1794405767.6505322,
+  "https://the-decoder.com/us-data-brokers-are-selling-half-a-billion-dollars-in-rl-training-environments-to-chinese-ai-labs/": 1794405767.6505322,
+  "https://the-decoder.com/grok-built-apps-exposed-patient-data-plaintext-passwords-and-spacexsis-own-sales-pipeline/": 1794405767.6505322
  },
  "fails": 0,
  "sent": [
@@ -726,6 +729,21 @@
    "t": 1794402645.2717056,
    "title": "Adobe adds more AI to its products and launches an MCP",
    "soha": "AI rasm"
+  },
+  {
+   "t": 1794405767.6505322,
+   "title": "How I create fashion images with Higgsfield Soul 2.0",
+   "soha": "AI video"
+  },
+  {
+   "t": 1794405767.6505322,
+   "title": "US data brokers are selling half a billion dollars in RL training environments to Chinese AI labs",
+   "soha": "AI"
+  },
+  {
+   "t": 1794405767.6505322,
+   "title": "Grok-built apps exposed patient data, plaintext passwords, and SpaceXSI's own sales pipeline",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -2443,6 +2461,74 @@
    "urls": [
     "https://finance.yahoo.com/technology/ai/articles/loova-ai-launches-mcp-integration-134300172.html",
     "https://finance.yahoo.com/technology/ai/articles/voidmob-highlights-ai-agent-integration-120900341.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794405767.6505322,
+   "title": "Moda rasmlarini Higgsfield Soul 2.0 yordamida yaratish",
+   "text": "Higgsfield vositasi yordamida personajlarni o'qitish, kayfiyat taxtalari va video animatsiya orqali professional moda rasmlarini yaratish usullari ko'rsatildi.",
+   "orig_title": "How I create fashion images with Higgsfield Soul 2.0",
+   "link": "https://www.msn.com/en-gb/technology/artificial-intelligence/how-i-create-fashion-images-with-higgsfield-soul-2-0/vi-AA2he0g8",
+   "source": "msn.com",
+   "soha": "AI video",
+   "baho": 9,
+   "experts": [],
+   "effect": "Raqobat kuchayishi natijasida sun'iy intellekt vositalari tezroq ishlay boshlashi va video ishlab chiqarish xarajatlari kamayishi mumkin.",
+   "image": null,
+   "domains": [
+    "techcrunch.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2024/12/11/gemini-2-0-googles-newest-flagship-ai-can-generate-text-images-and-speech/",
+    "https://finance.yahoo.com/technology/ai/articles/higgsfield-cinema-studio-4-0-130000643.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794405767.6505322,
+   "title": "AQSh ma'lumot brokerlari Xitoy AI laboratoriyalariga ma'lumot sotmoqda",
+   "text": "Mercor va Surge AI kabi AQSh ma'lumot brokerlari Xitoyning AI laboratoriyalariga yuz millionlab dollarlik sun'iy intellektni o'qitish muhitlarini sotmoqda.",
+   "orig_title": "US data brokers are selling half a billion dollars in RL training environments to Chinese AI labs",
+   "link": "https://the-decoder.com/us-data-brokers-are-selling-half-a-billion-dollars-in-rl-training-environments-to-chinese-ai-labs/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Xitoy sun'iy intellekt lablari AQSh ishlanmalaridan foydalanishi sababli texnologik tafovut qisqarishi va eksport nazorati kuchayishi mumkin.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/06/china_vs_usa_ai_race.png",
+   "domains": [
+    "the-decoder.com",
+    "techcrunch.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/us-data-brokers-are-selling-half-a-billion-dollars-in-rl-training-environments-to-chinese-ai-labs/",
+    "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/",
+    "https://techcrunch.com/2026/07/21/us-threatens-sanctions-against-chinese-ai-models-over-ip-theft/"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794405767.6505322,
+   "title": "Grok yordamida yaratilgan ilovalar bemorlar ma'lumotlarini oshkor qildi",
+   "text": "Claroc xavfsizlik firmasi Grok tomonidan yaratilgan 35 mingdan ortiq ilovalar parol va bemorlar ma'lumotlarini ochiq holda qoldirganini aniqladi.",
+   "orig_title": "Grok-built apps exposed patient data, plaintext passwords, and SpaceXSI's own sales pipeline",
+   "link": "https://the-decoder.com/grok-built-apps-exposed-patient-data-plaintext-passwords-and-spacexsis-own-sales-pipeline/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Maxfiy ma'lumotlar oshkor bo‘lishi xavfsizlik choralarini kuchaytirishga va ilovalarning ilova do‘konlaridan vaqtincha olib tashlanishiga olib kelishi mumkin.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/05/grok_xai_logo.png",
+   "domains": [
+    "the-decoder.com",
+    "cnbc.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/grok-built-apps-exposed-patient-data-plaintext-passwords-and-spacexsis-own-sales-pipeline/",
+    "https://www.cnbc.com/select/best-cash-advance-apps/",
+    "https://www.cnbc.com/2026/01/09/grok-app-should-be-suspended-from-apple-google-democratic-senators.html"
    ],
    "videos": []
   }
