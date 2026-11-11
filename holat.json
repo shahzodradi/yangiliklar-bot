@@ -1,8 +1,5 @@
 {
  "seen": {
-  "https://uza.uz/uz/posts/halqaro-matematika-olimpiadasida-yuqori-natizhaga-erishgan-oquvchilarimiz-tantanali-kutib-olindi_931057": 1793554382.5781279,
-  "https://www.bbc.co.uk/news/articles/c6rry8x9d9qko?at_medium=RSS&at_campaign=rss": 1793554382.5781279,
-  "https://www.sciencedaily.com/releases/2026/10/261030003017.htm": 1793554382.5781279,
   "https://www.nytimes.com/2026/10/30/business/binance-hack-crypto-price-what.html": 1793568988.6094766,
   "https://www.businessinsider.com/elon-musk-colossus-2-campus-spam-gun-range-2026-11": 1793568988.6094766,
   "https://www.businessinsider.com/math-ai-mathematicians-careers-jobs-future-mit-2026-11": 1793568988.6094766,
@@ -181,9 +178,15 @@
   "https://www.msn.com/en-us/news/other/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/ar-AA2h8CGl": 1794402645.2717056,
   "https://www.msn.com/en-gb/technology/artificial-intelligence/how-i-create-fashion-images-with-higgsfield-soul-2-0/vi-AA2he0g8": 1794405767.6505322,
   "https://the-decoder.com/us-data-brokers-are-selling-half-a-billion-dollars-in-rl-training-environments-to-chinese-ai-labs/": 1794405767.6505322,
-  "https://the-decoder.com/grok-built-apps-exposed-patient-data-plaintext-passwords-and-spacexsis-own-sales-pipeline/": 1794405767.6505322
+  "https://the-decoder.com/grok-built-apps-exposed-patient-data-plaintext-passwords-and-spacexsis-own-sales-pipeline/": 1794405767.6505322,
+  "https://www.jsonline.com/press-release/story/267599/protoface-announces-worlds-lowest-seedance-2-5-api-prices-starting-at-0-08-per-second/": 1794420074.9810429,
+  "https://www.theverge.com/tech/1031505/adobe-max-2026-sneaks-experiments-ai": 1794420074.9810429,
+  "https://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days/": 1794420074.9810429,
+  "https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model": 1794420074.9810429,
+  "https://the-decoder.com/with-its-new-voice-model-deepl-voice-now-translates-intonation-and-speaking-speed-into-other-languages-as-well/": 1794420074.9810429,
+  "https://www.unite.ai/elevenlabs-unveils-model-customization-elevenai-and-partner-program/": 1794420074.9810429
  },
- "fails": 3,
+ "fails": 0,
  "sent": [
   {
    "t": 1794221257.5365393,
@@ -744,6 +747,36 @@
    "t": 1794405767.6505322,
    "title": "Grok-built apps exposed patient data, plaintext passwords, and SpaceXSI's own sales pipeline",
    "soha": "AI"
+  },
+  {
+   "t": 1794420074.9810429,
+   "title": "Protoface Announces World’s Lowest Seedance 2.5 API Prices, Starting at $0.08 Per Second",
+   "soha": "AI video"
+  },
+  {
+   "t": 1794420074.9810429,
+   "title": "Adobe’s AI experiments let you walk around in photos and interview your characters",
+   "soha": "AI rasm"
+  },
+  {
+   "t": 1794420074.9810429,
+   "title": "Anthropic says AI is eroding Nvidia's CUDA lead, cutting an AMD chip switch from months to three days",
+   "soha": "AI"
+  },
+  {
+   "t": 1794420074.9810429,
+   "title": "Google’s AlphaGenome 2 zooms in on the cellular roots of disease",
+   "soha": "AI"
+  },
+  {
+   "t": 1794420074.9810429,
+   "title": "DeepL wants real-time translation to finally capture sarcasm and mood shifts",
+   "soha": "AI"
+  },
+  {
+   "t": 1794420074.9810429,
+   "title": "ElevenLabs Unveils Model Customization, ElevenAI and Partner Program",
+   "soha": "AI musiqa"
   }
  ],
  "mavzu": {
@@ -2529,6 +2562,161 @@
     "https://the-decoder.com/grok-built-apps-exposed-patient-data-plaintext-passwords-and-spacexsis-own-sales-pipeline/",
     "https://www.cnbc.com/select/best-cash-advance-apps/",
     "https://www.cnbc.com/2026/01/09/grok-app-should-be-suspended-from-apple-google-democratic-senators.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794420074.9810429,
+   "title": "Protoface Seedance 2.5 API narxlarini e'lon qildi",
+   "text": "Protoface kompaniyasi yangi Seedance 2.5 uchun eng past API narxlarini taqdim etdi. 480p formatdagi generatsiya soniyasiga 0.08 dollardan boshlanadi.",
+   "orig_title": "Protoface Announces World’s Lowest Seedance 2.5 API Prices, Starting at $0.08 Per Second",
+   "link": "https://www.jsonline.com/press-release/story/267599/protoface-announces-worlds-lowest-seedance-2-5-api-prices-starting-at-0-08-per-second/",
+   "source": "jsonline.com",
+   "soha": "AI video",
+   "baho": 9,
+   "experts": [],
+   "effect": "API narxlarining keskin arzonlashuvi sun'iy intellekt video yaratish vositalaridan foydalanish xarajatlarini pasaytirib, mazkur bozorda raqobatni kuchaytirishi va kichik kompaniyalar uchun imkoniyatlarni kengaytirishi mumkin.",
+   "image": null,
+   "domains": [
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://finance.yahoo.com/quote/PINS/"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794420074.9810429,
+   "title": "Adobe Max ko'rgazmasida yangi eksperimental AI vositalarini namoyish etdi",
+   "text": "Adobe yillik Max anjumanida tasvirlarni 3D sahifalarga aylantiruvchi va muloqot orqali AI qahramonlarni loyihalashtiruvchi eksperimental funksiyalarini ko'rsatdi.",
+   "orig_title": "Adobe’s AI experiments let you walk around in photos and interview your characters",
+   "link": "https://www.theverge.com/tech/1031505/adobe-max-2026-sneaks-experiments-ai",
+   "source": "The Verge AI",
+   "soha": "AI rasm",
+   "baho": 8,
+   "experts": [],
+   "effect": "Media va kontent yaratish jarayonida ovoz va 3D muhitni sun'iy intellekt yordamida boshqarish muharrirlarning ish vaqtini qisqartirib, mahsuldorlikni oshirishi hamda mualliflik huquqi muammolarini hal qilishga yordam berishi ehtimoli bor.",
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Adobe-Project-Screen-Test.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+   "domains": [
+    "theverge.com",
+    "wired.com"
+   ],
+   "urls": [
+    "https://www.theverge.com/tech/1031505/adobe-max-2026-sneaks-experiments-ai",
+    "https://www.wired.com/story/adobe-max-sneaks-2025-corrective-ai/"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794420074.9810429,
+   "title": "Anthropic AI yordamida NVIDIA CUDA ustunligini qisqartirdi",
+   "text": "Anthropic kompaniyasi o'zining Mythos modeli yordamida Claude dasturini AMD GPU'larga atigi uch kunda o'tkazishga muvaffaq bo'ldi.",
+   "orig_title": "Anthropic says AI is eroding Nvidia's CUDA lead, cutting an AMD chip switch from months to three days",
+   "link": "https://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [
+    {
+     "kim": "Patrick Moorhead",
+     "lavozim": "asoschi va bosh direktor",
+     "fikr": "Bir nechta platformalar o'rtasida ishni ko'chira oladigan mijoz boshqacha muzokara olib boradi, shuning uchun haqiqiy xavf Nvidia'ning narx belgilash kuchiga qaratilgan bo'lishi mumkin.",
+     "url": "https://www.businessinsider.com/anthropic-ipo-filing-reveals-looming-threat-to-nvidia-pricing-power-2026-10",
+     "domain": "businessinsider.com"
+    },
+    {
+     "kim": "Ashish Nadkarni",
+     "lavozim": "tahlilchi",
+     "fikr": "Ko'p chipli yondashuv kompaniyani Nvidia chip ta'minotidagi o'zgarishlarga nisbatan kamroq zaif qiladi.",
+     "url": "https://www.businessinsider.com/anthropic-ipo-filing-reveals-looming-threat-to-nvidia-pricing-power-2026-10",
+     "domain": "businessinsider.com"
+    }
+   ],
+   "effect": "Sun'iy intellekt modellarini bir nechta chip arxitekturasiga moslashtirish jarayonining qisqarishi kompaniyalarga ta'minot zanjiridagi xavflarni kamaytirish va Nvidia'ning bozor ustunligini j jilovlash imkonini berishi mumkin.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/11/nvidia_moat-1200x670.png",
+   "domains": [
+    "the-decoder.com",
+    "businessinsider.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days/",
+    "https://www.businessinsider.com/anthropic-ipo-filing-reveals-looming-threat-to-nvidia-pricing-power-2026-10"
+   ],
+   "videos": [
+    [
+     "https://www.youtube.com/watch?v=eynv5VR9qos",
+     "YouTube"
+    ]
+   ]
+  },
+  {
+   "t": 1794420074.9810429,
+   "title": "Google DeepMind AlphaGenome 2 modelini taqdim etdi",
+   "text": "Google DeepMind tadqiqotchilari DNK o'zgarishlarining hujayralarga ta'sirini o'rganuvchi AlphaGenome 2 sun'iy intellekt modelini e'lon qilishdi.",
+   "orig_title": "Google’s AlphaGenome 2 zooms in on the cellular roots of disease",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model",
+   "source": "The Verge AI",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "DNK mutatsiyalarining hujayralarga ta'sirini aniqroq bashorat qilish tibbiyot fanida kasalliklarning hujayraviy ildizlarini chuqur o'rganish va yangi davolash usullarini topish yo'llarini ochishi mumkin.",
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/alphagenome-atlas-cover__background.jpg?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200",
+   "domains": [
+    "theverge.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model",
+    "https://finance.yahoo.com/quote/GGLL/"
+   ],
+   "videos": [
+    [
+     "https://x.com/pushmeet/status/2119373171321196892",
+     "X"
+    ]
+   ]
+  },
+  {
+   "t": 1794420074.9810429,
+   "title": "DeepL Voice real vaqtda tarjima uchun Aure modelini chiqardi",
+   "text": "DeepL kompaniyasining yangi Aure modeli tarjima jarayonida asl nutqning ohangi, hissiyotlari va so'zlashuv tezligini to'liq saqlab qoladi.",
+   "orig_title": "DeepL wants real-time translation to finally capture sarcasm and mood shifts",
+   "link": "https://the-decoder.com/with-its-new-voice-model-deepl-voice-now-translates-intonation-and-speaking-speed-into-other-languages-as-well/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Real vaqtda emotsiya, ohang va hazilni saqlab qoluvchi tarjima texnologiyalari xalqaro muloqotdagi sun'iylikni kamaytirib, foydalanuvchilar o'rtasidagi masofaviy hamkorlik sifatini sezilarli darajada oshirishi ehtimoli bor.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/11/DeepL-Logo-ChatGPT-5.6.jpg",
+   "domains": [
+    "the-decoder.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/with-its-new-voice-model-deepl-voice-now-translates-intonation-and-speaking-speed-into-other-languages-as-well/",
+    "https://finance.yahoo.com/technology/ai/articles/deepl-unveils-aure-most-lifelike-080000198.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794420074.9810429,
+   "title": "ElevenLabs modelni moslashtirish va hamkorlik dasturini boshladi",
+   "text": "ElevenLabs kompaniyasi korxonalarga jonli ma'lumotlar asosida til va ovoz modellarini moslashtirish imkonini beruvchi yangi funksiyalarni taqdim etdi.",
+   "orig_title": "ElevenLabs Unveils Model Customization, ElevenAI and Partner Program",
+   "link": "https://www.unite.ai/elevenlabs-unveils-model-customization-elevenai-and-partner-program/",
+   "source": "unite.ai",
+   "soha": "AI musiqa",
+   "baho": 8,
+   "experts": [],
+   "effect": "Korxonalar uchun maxsus sun'iy intellekt modellarini moslashtirish va avtomatlashtirish vositalarining taqdim etilishi mijozlarga xizmat ko'rsatish va ish jarayonlarini boshqarish infratuzilmasini tubdan o'zgartirishi mumkin.",
+   "image": "https://www.unite.ai/wp-content/uploads/2026/11/elevenlabs-unveils-model-customization-elevenai-and-partner-program.jpg",
+   "domains": [
+    "unite.ai",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://www.unite.ai/elevenlabs-unveils-model-customization-elevenai-and-partner-program/",
+    "https://finance.yahoo.com/technology/ai/articles/openhome-elevenlabs-partner-grow-voice-010000093.html"
    ],
    "videos": []
   }
