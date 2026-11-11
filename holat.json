@@ -184,7 +184,8 @@
   "https://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days/": 1794420074.9810429,
   "https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model": 1794420074.9810429,
   "https://the-decoder.com/with-its-new-voice-model-deepl-voice-now-translates-intonation-and-speaking-speed-into-other-languages-as-well/": 1794420074.9810429,
-  "https://www.unite.ai/elevenlabs-unveils-model-customization-elevenai-and-partner-program/": 1794420074.9810429
+  "https://www.unite.ai/elevenlabs-unveils-model-customization-elevenai-and-partner-program/": 1794420074.9810429,
+  "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/": 1794423851.663401
  },
  "fails": 0,
  "sent": [
@@ -777,6 +778,11 @@
    "t": 1794420074.9810429,
    "title": "ElevenLabs Unveils Model Customization, ElevenAI and Partner Program",
    "soha": "AI musiqa"
+  },
+  {
+   "t": 1794423851.663401,
+   "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -2717,6 +2723,30 @@
    "urls": [
     "https://www.unite.ai/elevenlabs-unveils-model-customization-elevenai-and-partner-program/",
     "https://finance.yahoo.com/technology/ai/articles/openhome-elevenlabs-partner-grow-voice-010000093.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794423851.663401,
+   "title": "Gemini Decisions API taqdim etildi",
+   "text": "Google multimodal qarorlar qabul qilishga mo'ljallangan Gemini Decisions API'ni e'lon qildi.",
+   "orig_title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+   "link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+   "source": "Google AI",
+   "soha": "AI",
+   "baho": 9,
+   "experts": [],
+   "effect": "Sun'iy intellekt texnologiyalarining rivojlanishi va uning biznes jarayonlariga joriy etilishi kelgusida turli sohalarda, xususan texnologiya va moliya bozorlarida qisqartirishlar hamda yangi ish o'rinlari paydo bo'lishiga olib kelishi mumkin. Korxonalar byurokratiyani kamaytirish va samaradorlikni oshirish maqsadida xodimlar sonini optimallashtirishda davom etishi ehtimoli bor.",
+   "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini__decisions__blog-header_2784x1566.width-1300.png",
+   "domains": [
+    "blog.google",
+    "businessinsider.com",
+    "techcrunch.com"
+   ],
+   "urls": [
+    "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+    "https://www.businessinsider.com/recent-company-layoffs-laying-off-workers-2026",
+    "https://techcrunch.com/2026/05/19/googles-gemini-omni-turns-images-audio-and-text-into-video-and-thats-just-the-start/"
    ],
    "videos": []
   }
