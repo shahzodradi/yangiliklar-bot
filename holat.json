@@ -1,8 +1,5 @@
 {
  "seen": {
-  "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&at_campaign=rss": 1793479939.3847501,
-  "https://the-decoder.com/microsoft-offers-a-quarter-of-its-workforce-voluntary-severance-while-shielding-ai-critical-teams/": 1793479939.3847501,
-  "https://kun.uz/news/2026/10/31/gcf-ozbekiston-ekologiyasi-uchun-1037-mln-evro-ajratadi-58653": 1793479939.3847501,
   "https://the-decoder.com/openais-upcoming-chat-and-work-merger-in-chatgpt-signals-the-end-of-all-you-can-prompt-pricing/": 1793527302.0416381,
   "https://www.spot.uz/ru/2026/10/31/delever/": 1793527302.0416381,
   "https://phys.org/news/2026-10-superconducting-cables-link-large-quantum.html": 1793527302.0416381,
@@ -152,7 +149,11 @@
   "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/": 1794337472.488967,
   "https://www.theverge.com/ai-artificial-intelligence/1030703/anthropic-ipo-1-4-trillion": 1794337472.488967,
   "https://techcrunch.com/2026/11/10/ring-known-for-its-doorbell-cameras-launches-a-home-security-drone-and-an-enterprise-security-robot/": 1794337472.488967,
-  "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/": 1794337472.488967
+  "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/": 1794337472.488967,
+  "https://the-decoder.com/openai-turns-chatgpt-into-a-business-directory-with-ai-agents-that-handle-customer-questions/": 1794366541.3395271,
+  "https://the-decoder.com/anthropic-turns-claude-into-a-full-workspace-with-plugins-spreadsheets-whiteboards-and-soon-meeting-notes/": 1794366541.3395271,
+  "https://www.theverge.com/games/1030994/big-walk-independent-games-festival-igf-ai": 1794366541.3395271,
+  "https://www.theverge.com/tech/1030838/ebay-ai-agents-meta-muse-agentic-shopping": 1794366541.3395271
  },
  "fails": 0,
  "sent": [
@@ -539,6 +540,26 @@
   {
    "t": 1794337472.488967,
    "title": "Google Cloud launches Gemini for healthcare.",
+   "soha": "AI"
+  },
+  {
+   "t": 1794366541.3395271,
+   "title": "OpenAI turns ChatGPT into a business directory with AI agents that handle customer questions",
+   "soha": "AI"
+  },
+  {
+   "t": 1794366541.3395271,
+   "title": "Anthropic turns Claude into a full workspace with Plugins, spreadsheets, whiteboards, and soon Meeting notes",
+   "soha": "AI"
+  },
+  {
+   "t": 1794366541.3395271,
+   "title": "The indie game community is in disarray over AI and Big Walk",
+   "soha": "AI"
+  },
+  {
+   "t": 1794366541.3395271,
+   "title": "eBay appears to have shut the door on third-party AI agents",
    "soha": "AI"
   }
  ],
@@ -1466,6 +1487,107 @@
      "YouTube"
     ]
    ]
+  },
+  {
+   "t": 1794366541.3395271,
+   "title": "OpenAI ChatGPT-da biznes profillari va agentlarni ishga tushirdi",
+   "text": "OpenAI ChatGPT platformasida yangi Business Hub'ni ochdi. Kompaniyalar o'z ma'lumotlarini qo'shib, mijozlar bilan to'g'ridan-to'g'ri muloqot qilish imkoniyatiga ega bo'ldilar.",
+   "orig_title": "OpenAI turns ChatGPT into a business directory with AI agents that handle customer questions",
+   "link": "https://the-decoder.com/openai-turns-chatgpt-into-a-business-directory-with-ai-agents-that-handle-customer-questions/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 9,
+   "experts": [],
+   "effect": "ChatGPT platformasida biznes profillar va sun'iy intellekt agentlarining joriy etilishi qidiruv tizimlari bozorida raqobatni kuchaytirishi, kichik va o'rta bizneslarga mijozlar bilan muloqot qilishda yangi imkoniyatlar ochishi mumkin.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/11/openai_cart_logo.png",
+   "domains": [
+    "the-decoder.com",
+    "theverge.com",
+    "techcrunch.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/openai-turns-chatgpt-into-a-business-directory-with-ai-agents-that-handle-customer-questions/",
+    "https://www.theverge.com/ai-artificial-intelligence/1030552/openai-chatgpt-business-agents-hub",
+    "https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/"
+   ],
+   "videos": [
+    [
+     "https://www.youtube.com/watch?v=Z9k5oI3Paoc",
+     "YouTube"
+    ]
+   ]
+  },
+  {
+   "t": 1794366541.3395271,
+   "title": "Anthropic Claude uchun yangi ishchi maydoni vositalarini taqdim etdi",
+   "text": "Anthropic kompaniyasi Claude tizimiga Sheets, Whiteboards va interaktiv ilovalarni qo'shdi. Shuningdek, yig'ilishlarda qatnashib eslatma oluvchi Claude Meetings tez orada ishga tushadi.",
+   "orig_title": "Anthropic turns Claude into a full workspace with Plugins, spreadsheets, whiteboards, and soon Meeting notes",
+   "link": "https://the-decoder.com/anthropic-turns-claude-into-a-full-workspace-with-plugins-spreadsheets-whiteboards-and-soon-meeting-notes/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 9,
+   "experts": [],
+   "effect": "Ofis dasturlari va hamkorlik vositalarining taqdim etilishi korporativ dasturiy ta'minot bozorida Microsoft va Google kompaniyalariga jiddiy raqobat tug'dirishi hamda foydalanuvchilar uchun yagona platformadagi imkoniyatlarni kengaytirishi mumkin.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/09/claude_code_logo.png",
+   "domains": [
+    "the-decoder.com",
+    "online-tech-tips.com",
+    "cryptobriefing.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/anthropic-turns-claude-into-a-full-workspace-with-plugins-spreadsheets-whiteboards-and-soon-meeting-notes/",
+    "https://www.online-tech-tips.com/anthropic-introduces-claude-sheets-meetings-whiteboards/",
+    "https://cryptobriefing.com/anthropic-claude-office-tools-ipo-microsoft/"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794366541.3395271,
+   "title": "Mustaqil o'yinlar hamjamiyatida sun'iy intellekt bo'yicha noroziliklar boshlandi",
+   "text": "Independent Games Festival hakamlaridan ba'zilari generativ sun'iy intellektdan foydalangan o'yinlarga ovoz bermasligini e'lon qildi.",
+   "orig_title": "The indie game community is in disarray over AI and Big Walk",
+   "link": "https://www.theverge.com/games/1030994/big-walk-independent-games-festival-igf-ai",
+   "source": "The Verge AI",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Mustaqil o'yinlar hamjamiyatida sun'iy intellekt vositalaridan foydalanish masalasida yuzaga kelgan qizg'in bahslar kelgusida tanlov va mukofotlash jarayonlarida qat'iy cheklovlar hamda yangi mezonlar belgilanishiga olib kelishi mumkin.",
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/BigWalk_Screenshot_Jun26_01.png?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200",
+   "domains": [
+    "theverge.com",
+    "tech.yahoo.com",
+    "yahoo.com"
+   ],
+   "urls": [
+    "https://www.theverge.com/games/1030994/big-walk-independent-games-festival-igf-ai",
+    "https://tech.yahoo.com/gaming/articles/big-walk-studio-discloses-minimal-163151576.html",
+    "https://www.yahoo.com/entertainment/videos/met-gala-2027-takes-unexpected-110626491.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794366541.3395271,
+   "title": "eBay uchinchi tomon sun'iy intellekt agentlarini blokladi",
+   "text": "eBay platformasi foydalanuvchilarning mahsulotlarni kuzatish va saralash uchun ishlatadigan Meta'ning Muse kabi sun'iy intellekt agentlari uchun kirishni to'xtatdi.",
+   "orig_title": "eBay appears to have shut the door on third-party AI agents",
+   "link": "https://www.theverge.com/tech/1030838/ebay-ai-agents-meta-muse-agentic-shopping",
+   "source": "The Verge AI",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Chakana savdo va xizmat ko'rsatish platformalarining uchinchi tomon sun'iy intellekt agentlarini bloklashi xaridorlar uchun avtomatlashtirilgan xarid jarayonlarini qiyinlashtirishi va sun'iy intellekt yordamchilarining rivojlanishiga to'sqinlik qilishi mumkin.",
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STKS539_AI_AGENTS_SHOPPING_D.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+   "domains": [
+    "theverge.com",
+    "tech.yahoo.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://www.theverge.com/tech/1030838/ebay-ai-agents-meta-muse-agentic-shopping",
+    "https://tech.yahoo.com/ai/meta-ai/articles/why-websites-blocking-ai-agents-190000138.html",
+    "https://finance.yahoo.com/technology/ai/articles/amazon-blocks-metas-muse-ai-141950908.html"
+   ],
+   "videos": []
   }
  ]
 }
