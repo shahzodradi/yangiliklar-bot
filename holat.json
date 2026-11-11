@@ -164,7 +164,9 @@
   "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/": 1794373354.7292726,
   "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/": 1794373354.7292726,
   "https://www.wired.com/story/tear-down-those-guardrails-meet-the-renegades-freeing-chatbots-from-corporate-enslavers/": 1794373354.7292726,
-  "https://techcrunch.com/2026/11/10/proximal-ventures-raises-debut-fund-to-back-startups-bringing-ai-to-drug-development/": 1794373354.7292726
+  "https://techcrunch.com/2026/11/10/proximal-ventures-raises-debut-fund-to-back-startups-bringing-ai-to-drug-development/": 1794373354.7292726,
+  "https://markets.businessinsider.com/news/stocks/ai-era-corp-acquires-exclusive-rights-to-ai-script-to-video-pipeline-1036743477": 1794376890.129379,
+  "https://finance.yahoo.com/technology/ai/articles/ai-video-generator-free-trial-151300153.html": 1794376890.129379
  },
  "fails": 0,
  "sent": [
@@ -627,6 +629,16 @@
    "t": 1794373354.7292726,
    "title": "Proximal Ventures raises debut fund to back startups bringing AI to drug development",
    "soha": "AI"
+  },
+  {
+   "t": 1794376890.129379,
+   "title": "AI Era Corp. Acquires Exclusive Rights to AI Script-to-Video Pipeline",
+   "soha": "AI video"
+  },
+  {
+   "t": 1794376890.129379,
+   "title": "AI Video Generator Free Trial: 9 Tests in DIY AI Studio",
+   "soha": "AI video"
   }
  ],
  "mavzu": {
@@ -1933,6 +1945,53 @@
    "urls": [
     "https://techcrunch.com/2026/11/10/proximal-ventures-raises-debut-fund-to-back-startups-bringing-ai-to-drug-development/",
     "https://markets.businessinsider.com/funds/robinhood-ventures-fund-i-us7707011000"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794376890.129379,
+   "title": "AI Era Corp. AI skriptdan video yaratish quvuri huquqlarini sotib oldi",
+   "text": "AI Era Corp. kompaniyasi uzun metrajli seriallar yaratish va litsenziyalashga qaratilgan agentik AI skriptdan video yaratish quvurining eksklyuziv huquqlarini qo'lga kiritdi.",
+   "orig_title": "AI Era Corp. Acquires Exclusive Rights to AI Script-to-Video Pipeline",
+   "link": "https://markets.businessinsider.com/news/stocks/ai-era-corp-acquires-exclusive-rights-to-ai-script-to-video-pipeline-1036743477",
+   "source": "markets.businessinsider.com",
+   "soha": "AI video",
+   "baho": 8,
+   "experts": [],
+   "effect": "Kompaniyalarning sun'iy intellektga asoslangan video va dori ishlab chiqarish tizimlarini joriy etishi xarajatlarni keskin kamaytirib, bozor raqobatini yanada kuchaytirishi mumkin.",
+   "image": "https://ml.globenewswire.com/media/ace64e6a-0fa5-4a96-91a0-5e147ddba9f7/small/globe-png.png",
+   "domains": [
+    "markets.businessinsider.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://markets.businessinsider.com/news/stocks/ai-era-corp-acquires-exclusive-rights-to-ai-script-to-video-pipeline-1036743477",
+    "https://finance.yahoo.com/markets/stocks/articles/viant-technology-dsp-q3-2026-170227329.html",
+    "https://finance.yahoo.com/sectors/healthcare/articles/recursion-pharmaceuticals-details-ai-driven-050418210.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794376890.129379,
+   "title": "DIY AI Studio to'qqizta mahsulot videosi sinovini e'lon qildi",
+   "text": "DIY AI qisqa videolar uchun Veo 3.1 Lite yoki Runway Gen-4 Turbo modellarini tavsiya etib, to'qqizta sun'iy intellekt video generatori sinovini nashr etdi.",
+   "orig_title": "AI Video Generator Free Trial: 9 Tests in DIY AI Studio",
+   "link": "https://finance.yahoo.com/technology/ai/articles/ai-video-generator-free-trial-151300153.html",
+   "source": "finance.yahoo.com",
+   "soha": "AI video",
+   "baho": 7,
+   "experts": [],
+   "effect": "Yangi sun'iy intellekt vositalarining bozorga chiqarilishi foydalanuvchilar va ijodkorlar uchun imkoniyatlarni kengaytirib, texnologik kompaniyalar orasidagi raqobatni oshirishi mumkin.",
+   "image": "https://s.yimg.com/lo/mysterio/api/932a20bedee712f534dd1e0e26aeb0ae43f0f25cf2a4770ea60e30dd3f144e5f/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fprnewswire.com%2F5057746c3ff2eb1a240213c6e51b8503.png",
+   "domains": [
+    "finance.yahoo.com",
+    "theverge.com",
+    "cnbc.com"
+   ],
+   "urls": [
+    "https://finance.yahoo.com/technology/ai/articles/ai-video-generator-free-trial-151300153.html",
+    "https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code",
+    "https://www.cnbc.com/2025/05/20/google-ai-video-generator-audio-veo-3.html"
    ],
    "videos": []
   }
