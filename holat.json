@@ -172,7 +172,8 @@
   "https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/": 1794380809.7387686,
   "https://www.wired.com/story/the-ai-safety-debate-has-lost-the-plot-we-asked-10-experts-what-the-real-nightmares-are/": 1794380809.7387686,
   "https://huggingface.co/blog/qvac/botpsy": 1794380809.7387686,
-  "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/": 1794388042.7893586
+  "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/": 1794388042.7893586,
+  "https://techcrunch.com/2026/11/10/nvidias-crisis-has-corporate-governance-experts-reaching-for-the-popcorn/": 1794391252.1700668
  },
  "fails": 0,
  "sent": [
@@ -674,6 +675,11 @@
   {
    "t": 1794388042.7893586,
    "title": "Anthropic sets IPO price range of $70 to $78 per share to reach an implied valuation of $1.404 trillion",
+   "soha": "AI"
+  },
+  {
+   "t": 1794391252.1700668,
+   "title": "Nvidia’s crisis has corporate governance experts reaching for the popcorn",
    "soha": "AI"
   }
  ],
@@ -2177,6 +2183,37 @@
     "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/",
     "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html",
     "https://finance.yahoo.com/technology/ai/articles/anthropic-sets-ipo-range-valuing-002634312.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794391252.1700668,
+   "title": "Nvidia inqirozi korporativ boshqaruv ekspertlarini ajablantirmoqda",
+   "text": "Mutaxassislar Nvidia atrofida yuzaga kelayotgan vaziyat o'xshashi yo'qligini va korporativ boshqaruvda keskin muhokamalarga sabab bo'lganini ta'kidlashmoqda.",
+   "orig_title": "Nvidia’s crisis has corporate governance experts reaching for the popcorn",
+   "link": "https://techcrunch.com/2026/11/10/nvidias-crisis-has-corporate-governance-experts-reaching-for-the-popcorn/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [
+    {
+     "kim": "Ann Lipton",
+     "lavozim": "korporativ boshqaruv professori",
+     "fikr": "Ishqiy munosabatlar va jinsiy shilqimlik holatlari bo'lgan, ammo milliy xavfsizlikka tahdid solishi mumkin bo'lgan oldingi holatlarni bilmayman.",
+     "url": "https://techcrunch.com/2026/11/10/nvidias-crisis-has-corporate-governance-experts-reaching-for-the-popcorn/",
+     "domain": "techcrunch.com"
+    }
+   ],
+   "effect": "Kompaniya aksiyalari narxining keskin tushishi va ichki tekshiruvlar boshlanishi aksiyadorlar sudiga hamda rahbariyat o'zgarishiga olib kelishi mumkin.",
+   "image": "https://techcrunch.com/wp-content/uploads/2019/05/GettyImages-503116193.jpeg?resize=1200,800",
+   "domains": [
+    "techcrunch.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/10/nvidias-crisis-has-corporate-governance-experts-reaching-for-the-popcorn/",
+    "https://finance.yahoo.com/markets/stocks/articles/weak-board-no-successor-nvidia-211637969.html",
+    "https://finance.yahoo.com/markets/stocks/articles/jensen-huang-affair-shows-3-190044111.html"
    ],
    "videos": []
   }
