@@ -201,7 +201,8 @@
   "https://www.msn.com/en-us/technology/tech-companies/bytedance-is-reportedly-working-on-its-own-ai-agent/ar-AA2heA5y": 1794463262.3657672,
   "https://www.msn.com/en-in/news/other/adobe-max-2026-sneaks-from-turning-images-into-navigable-worlds-to-ai-generated-characters-for-videos-check-out-all-announcements/ar-AA2hgDGm": 1794474226.8714855,
   "https://www.msn.com/en-gb/technology/hardware-and-devices/using-kling-3-0-for-multi-shot-and-consistent-ai-video/vi-AA2hgXlA": 1794474226.8714855,
-  "https://www.trendforce.com/news/2026/11/12/news-bytedance-reportedly-to-launch-meta-muse-like-ai-assistant-within-weeks-eyes-up-to-us70b-in-broader-ai-push/": 1794474226.8714855
+  "https://www.trendforce.com/news/2026/11/12/news-bytedance-reportedly-to-launch-meta-muse-like-ai-assistant-within-weeks-eyes-up-to-us70b-in-broader-ai-push/": 1794474226.8714855,
+  "https://www.technobezz.com/news/openai-service-incident-ba2a3924": 1794477653.023465
  },
  "fails": 0,
  "sent": [
@@ -894,6 +895,11 @@
    "t": 1794474226.8714855,
    "title": "[News] ByteDance Reportedly to Launch Meta Muse-Like AI Assistant Within Weeks, Eyes Up to US$70B in Broader AI Push",
    "soha": "AI"
+  },
+  {
+   "t": 1794477653.023465,
+   "title": "OpenAI Reports High Error Rates for GPT-image-2.5 and 2.6 Sunburst and Flare",
+   "soha": "AI rasm"
   }
  ],
  "mavzu": {
@@ -905,27 +911,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1794303444.248303,
-   "title": "Elvis va Eminem egalari Suno kompaniyasini sudga berdi",
-   "text": "Elvis Presley huquqlari egalari va Eminem ashulalarining noshiri sun'iy intellekt yordamida musiqa yaratuvchi Suno platformasiga nisbatan mualliflik huquqini buzgani yuzasidan sudga da'vo kiritdi.",
-   "orig_title": "Elvis rights holders and Eminem's publisher sue Suno, testing the ELVIS Act",
-   "link": "https://www.msn.com/en-us/money/general/elvis-rights-holders-and-eminem-s-publisher-sue-suno-testing-the-elvis-act/ar-AA2h5oua",
-   "source": "msn.com",
-   "soha": "AI musiqa",
-   "baho": 9,
-   "experts": [],
-   "effect": "Bu sud jarayoni sun'iy intellekt kompaniyalari uchun mualliflik huquqini buzmasdan modellar o'rgatish qoidalarini keskin o'zgartirishi mumkin. Musiqa industriyasida ovoz va uslubni himoya qiluvchi qonunlar kuchayib, sun'iy intellekt generatorlari uchun moliyaviy xarajatlar va huquqiy xatarlar ortish ehtimoli bor.",
-   "image": null,
-   "domains": [
-    "yahoo.com"
-   ],
-   "urls": [
-    "https://www.yahoo.com/entertainment/music/articles/elvis-rights-holders-eminems-publisher-204744656.html",
-    "https://www.yahoo.com/news/politics/articles/elvis-music-owners-eminem-publisher-161526743.html"
-   ],
-   "videos": []
-  },
   {
    "t": 1794312099.5438285,
    "title": "Boston-Silicon Valley AI Film Festival 2026 g'oliblari e'lon qilindi",
@@ -3176,6 +3161,30 @@
     "https://www.trendforce.com/news/2026/11/12/news-bytedance-reportedly-to-launch-meta-muse-like-ai-assistant-within-weeks-eyes-up-to-us70b-in-broader-ai-push/",
     "https://techcrunch.com/2026/03/26/bytedances-new-ai-video-generation-model-dreamina-seedance-2-0-comes-to-capcut/",
     "https://www.theverge.com/ai-artificial-intelligence/877931/bytedance-seedance-2-video-generator-ai-launch"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794477653.023465,
+   "title": "OpenAI GPT-image modellarida xatoliklar aniqlandi",
+   "text": "OpenAI foydalanuvchilar GPT-image-2.5 va 2.6 Sunburst hamda Flare modellarida yuqori xatoliklarga duch kelayotganini ma'lum qildi.",
+   "orig_title": "OpenAI Reports High Error Rates for GPT-image-2.5 and 2.6 Sunburst and Flare",
+   "link": "https://www.technobezz.com/news/openai-service-incident-ba2a3924",
+   "source": "technobezz.com",
+   "soha": "AI rasm",
+   "baho": 9,
+   "experts": [],
+   "effect": "Sunburst va Flare modellaridagi xatoliklar bartaraf etilgani va platformalarda tezkor integratsiya qilinayotgani generativ sun'iy intellekt bozorida raqobatni kuchaytirishi hamda foydalanuvchilar uchun xizmat ko'rsatish tezligini oshirishi mumkin.",
+   "image": "https://cdn.technobezz.com/c/1/technobezz_outage_openai_resolved_3c6e56a389b1_2f22cd1a91.png",
+   "domains": [
+    "technobezz.com",
+    "markets.businessinsider.com",
+    "wired.com"
+   ],
+   "urls": [
+    "https://www.technobezz.com/news/openai-service-incident-ba2a3924",
+    "https://markets.businessinsider.com/news/stocks/aivideofree-integrates-openai-s-gpt-image-2-6-a-day-after-release-running-both-new-models-alongside-competing-image-generators-1036721272",
+    "https://www.wired.com/story/openais-gpt-5-is-here/"
    ],
    "videos": []
   }
