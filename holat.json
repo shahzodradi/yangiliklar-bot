@@ -198,7 +198,10 @@
   "https://the-decoder.com/helsing-built-an-ai-system-that-prepares-targets-for-weapons-systems-and-says-every-decision-will-carry-a-human-name/": 1794459741.755184,
   "https://www.kucoin.com/news/flash/bytedance-s-zhang-yiming-2029-earliest-to-compete-with-openai-in-ai": 1794463262.3657672,
   "https://the-decoder.com/uk-regulator-threatens-universities-with-sanctions-unless-they-adopt-ai-proof-exam-formats/": 1794463262.3657672,
-  "https://www.msn.com/en-us/technology/tech-companies/bytedance-is-reportedly-working-on-its-own-ai-agent/ar-AA2heA5y": 1794463262.3657672
+  "https://www.msn.com/en-us/technology/tech-companies/bytedance-is-reportedly-working-on-its-own-ai-agent/ar-AA2heA5y": 1794463262.3657672,
+  "https://www.msn.com/en-in/news/other/adobe-max-2026-sneaks-from-turning-images-into-navigable-worlds-to-ai-generated-characters-for-videos-check-out-all-announcements/ar-AA2hgDGm": 1794474226.8714855,
+  "https://www.msn.com/en-gb/technology/hardware-and-devices/using-kling-3-0-for-multi-shot-and-consistent-ai-video/vi-AA2hgXlA": 1794474226.8714855,
+  "https://www.trendforce.com/news/2026/11/12/news-bytedance-reportedly-to-launch-meta-muse-like-ai-assistant-within-weeks-eyes-up-to-us70b-in-broader-ai-push/": 1794474226.8714855
  },
  "fails": 0,
  "sent": [
@@ -876,6 +879,21 @@
    "t": 1794463262.3657672,
    "title": "ByteDance Is Reportedly Working On Its Own AI Agent",
    "soha": "AI"
+  },
+  {
+   "t": 1794474226.8714855,
+   "title": "Adobe MAX 2026 sneaks: From turning images into navigable worlds to AI-generated characters for videos, check out all announcements",
+   "soha": "AI video"
+  },
+  {
+   "t": 1794474226.8714855,
+   "title": "Using Kling 3.0 for multi-shot and consistent AI video",
+   "soha": "AI video"
+  },
+  {
+   "t": 1794474226.8714855,
+   "title": "[News] ByteDance Reportedly to Launch Meta Muse-Like AI Assistant Within Weeks, Eyes Up to US$70B in Broader AI Push",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -887,28 +905,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1794297683.2016978,
-   "title": "Golden Rooster Film Festivalida AI texnologiyalari muhokama qilindi",
-   "text": "Golden Rooster Film Festivalida kinoijodkorlar va rejissyorlar sun'iy intellektning kino olib kelayotgan imkoniyatlari hamda muammolarini muhokama qilishdi.",
-   "orig_title": "Golden Rooster Film Festival: Where art meets technology",
-   "link": "https://english.news.cn/20261110/34eb3a8213674d9fb7be705cc4cfb911/c.html",
-   "source": "english.news.cn",
-   "soha": "AI tanlov",
-   "baho": 8,
-   "experts": [],
-   "effect": "Sun'iy intellekt texnologiyalarining kinosanoatga jadal kirib kelishi ijodiy xarajatlarni qisqartirib, vizual konsepsiyalarni tezlashtirishi mumkin, biroq aktyorlik mahorati va insoniy hissiyotlar kino yaratishda bosh rol bo'lib qolish ehtimoli yuqori.",
-   "image": null,
-   "domains": [
-    "finance.yahoo.com",
-    "yahoo.com"
-   ],
-   "urls": [
-    "https://finance.yahoo.com/media-advertising/articles/giorgio-armani-ceo-touts-links-150507088.html",
-    "https://www.yahoo.com/entertainment/movies/articles/golden-rooster-roundtable-talks-chinese-235659994.html"
-   ],
-   "videos": []
-  },
   {
    "t": 1794303444.248303,
    "title": "Elvis va Eminem egalari Suno kompaniyasini sudga berdi",
@@ -3113,6 +3109,73 @@
    "urls": [
     "https://uk.news.yahoo.com/apple-begins-ai-trial-china-094808203.html",
     "https://finance.yahoo.com/technology/ai/articles/expertcrowd-hud-collaborate-advance-ai-150000343.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794474226.8714855,
+   "title": "Adobe MAX 2026 yangi eksperimental AI vositalarini taqdim etdi",
+   "text": "Adobe MAX Sneaks 2026 tadbirida video, tovush, rasm tahrirlash va dizayn uchun 10 ta eksperimental sun'iy intellekt vositasi namoyish etildi.",
+   "orig_title": "Adobe MAX 2026 sneaks: From turning images into navigable worlds to AI-generated characters for videos, check out all announcements",
+   "link": "https://www.msn.com/en-in/news/other/adobe-max-2026-sneaks-from-turning-images-into-navigable-worlds-to-ai-generated-characters-for-videos-check-out-all-announcements/ar-AA2hgDGm",
+   "source": "msn.com",
+   "soha": "AI video",
+   "baho": 9,
+   "experts": [],
+   "effect": "Video ishlab chiqarish va vizual dizayn sohasida sun'iy intellekt imkoniyatlari kengayib, post-produksiya jarayonlari tezlashishi va montaj ishlarida inson omili kamayishi mumkin.",
+   "image": null,
+   "domains": [
+    "theverge.com",
+    "tech.yahoo.com"
+   ],
+   "urls": [
+    "https://www.theverge.com/tech/1031505/adobe-max-2026-sneaks-experiments-ai",
+    "https://tech.yahoo.com/ai/meta-ai/articles/5-wild-adobe-sneaks-creatives-181903002.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794474226.8714855,
+   "title": "Kling 3.0 yordamida ko'p kadrli va izchil AI video yaratish",
+   "text": "Kling 3.0 kamerani boshqarish funksiyalari va 15 soniyali generatsiya limiti yordamida yuqori sifatli kinematografik kontent yaratish imkonini bermoqda.",
+   "orig_title": "Using Kling 3.0 for multi-shot and consistent AI video",
+   "link": "https://www.msn.com/en-gb/technology/hardware-and-devices/using-kling-3-0-for-multi-shot-and-consistent-ai-video/vi-AA2hgXlA",
+   "source": "msn.com",
+   "soha": "AI video",
+   "baho": 9,
+   "experts": [],
+   "effect": "Kontent yaratuvchilar uchun video ishlab chiqarish jarayoni osonlashib, xalqaro bozorlarda foydalanuvchilar faolligi oshishi va yangi monetizatsiya imkoniyatlari paydo bo'lishi mumkin.",
+   "image": null,
+   "domains": [
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://finance.yahoo.com/news/kling-ai-launches-3-0-080000425.html",
+    "https://finance.yahoo.com/news/kuaishou-kling-ai-3-0-030847740.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794474226.8714855,
+   "title": "ByteDance yangi AI yordamchisini ishga tushirishga hozirlik ko'rmoqda",
+   "text": "ByteDance kompaniyasi sun'iy intellekt sohasidagi yetakchiligini mustahkamlash maqsadida yaqin haftalarda yangi AI assistentini taqdim etishni rejalashtirmoqda.",
+   "orig_title": "[News] ByteDance Reportedly to Launch Meta Muse-Like AI Assistant Within Weeks, Eyes Up to US$70B in Broader AI Push",
+   "link": "https://www.trendforce.com/news/2026/11/12/news-bytedance-reportedly-to-launch-meta-muse-like-ai-assistant-within-weeks-eyes-up-to-us70b-in-broader-ai-push/",
+   "source": "trendforce.com",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Sun'iy intellekt bozorida raqobat yanada kuchayib, videogeneratsiya va multimedia xizmatlari sifati oshishi hamda yirik investitsiyalar evaziga yangi aqlli yordamchilar paydo bo'lishi mumkin.",
+   "image": "https://img.trendforce.com/blog/wp-content/uploads/2025/12/23112344/ByteDance-624x355.png",
+   "domains": [
+    "trendforce.com",
+    "techcrunch.com",
+    "theverge.com"
+   ],
+   "urls": [
+    "https://www.trendforce.com/news/2026/11/12/news-bytedance-reportedly-to-launch-meta-muse-like-ai-assistant-within-weeks-eyes-up-to-us70b-in-broader-ai-push/",
+    "https://techcrunch.com/2026/03/26/bytedances-new-ai-video-generation-model-dreamina-seedance-2-0-comes-to-capcut/",
+    "https://www.theverge.com/ai-artificial-intelligence/877931/bytedance-seedance-2-video-generator-ai-launch"
    ],
    "videos": []
   }
