@@ -191,7 +191,11 @@
   "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/": 1794456067.4744592,
   "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents": 1794456067.4744592,
   "https://www.wired.com/story/i-trained-a-microduck-to-be-my-cats-butler/": 1794456067.4744592,
-  "https://the-decoder.com/us-corporate-ai-spending-hits-a-new-high-in-october-but-growth-slows-to-1-65-percent/": 1794456067.4744592
+  "https://the-decoder.com/us-corporate-ai-spending-hits-a-new-high-in-october-but-growth-slows-to-1-65-percent/": 1794456067.4744592,
+  "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/": 1794459741.755184,
+  "https://www.wired.com/story/startup-fights-ai-bioweapons-with-ai/": 1794459741.755184,
+  "https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability": 1794459741.755184,
+  "https://the-decoder.com/helsing-built-an-ai-system-that-prepares-targets-for-weapons-systems-and-says-every-decision-will-carry-a-human-name/": 1794459741.755184
  },
  "fails": 0,
  "sent": [
@@ -834,6 +838,26 @@
    "t": 1794456067.4744592,
    "title": "US corporate AI spending hits a new high in October, but growth slows to 1.65 percent",
    "soha": "AI"
+  },
+  {
+   "t": 1794459741.755184,
+   "title": "CoreWeave turns to customer prepayments, shorter contracts to fund AI growth",
+   "soha": "AI"
+  },
+  {
+   "t": 1794459741.755184,
+   "title": "A Startup Wants to Fight AI Bioweapons With AI",
+   "soha": "AI"
+  },
+  {
+   "t": 1794459741.755184,
+   "title": "Google’s Tabletop AI experiment lets you build custom collaboration apps",
+   "soha": "AI"
+  },
+  {
+   "t": 1794459741.755184,
+   "title": "Helsing built an AI system that prepares targets for weapons systems and says every decision will carry a human name",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -845,22 +869,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1794285481.3743186,
-   "title": "Generativ AI musiqa bozori 2035 yilga borib 14.7 milliard dollarga yetishi kutilmoqda",
-   "text": "Sun'iy intellektga asoslangan musiqiy platformalar kompozitsiyalar yaratish va tovushlarni loyihalash imkoniyatlarini kengaytirib, bozorni o'stirmoqda.",
-   "orig_title": "Generative AI in Music Market to Reach USD 14.7 Billion in 2035",
-   "link": "https://www.analyticsinsight.net/reports/generative-ai-in-music-market-to-reach-usd-147-billion-in-2035",
-   "source": "analyticsinsight.net",
-   "soha": "AI musiqa",
-   "baho": 7,
-   "experts": [],
-   "effect": "Musiqa bozorida sun'iy intellekt texnologiyalarining jadal o'sishi mualliflik huquqi va litsenziyalash tizimini tubdan o'zgartirishi mumkin. Kelgusida ijodkorlar va leyblar uchun barqaror daromad modellarini yaratish bozorning asosiy shartiga aylanishi ehtimoli bor.",
-   "image": "https://media.assettype.com/analyticsinsight%2F2026-11-05%2Fztr519hy%2FGenerative-AI-in-Music-Market-to-Reach-USD-14.7-Billion-in-2035.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
-   "domains": [
-    "analyticsinsight.net"
-   ]
-  },
   {
    "t": 1794290452.4902194,
    "title": "TikTok o'zining AI video reklama vositalarini yangiladi",
@@ -3026,6 +3034,109 @@
    "urls": [
     "https://the-decoder.com/us-corporate-ai-spending-hits-a-new-high-in-october-but-growth-slows-to-1-65-percent/",
     "https://finance.yahoo.com/markets/stocks/articles/amd-stock-fell-11-day-063927845.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794459741.755184,
+   "title": "CoreWeave sun'iy intellekt o'sishini moliyalashtirishga kirishdi",
+   "text": "CoreWeave kompaniyasi uchinchi chorak yakunlariga ko'ra mijozlardan oldindan to'lovlarni qabul qilish va qisqa muddatli shartnomalarga o'tishni boshladi.",
+   "orig_title": "CoreWeave turns to customer prepayments, shorter contracts to fund AI growth",
+   "link": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [
+    {
+     "kim": "Scott Galloway",
+     "lavozim": "professor",
+     "fikr": "the neocloud guys or the compute guys, they're basically levered trades to AI.",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/coreweave-rises-5-nebius-7-182825101.html",
+     "domain": "finance.yahoo.com"
+    }
+   ],
+   "effect": "Oldindan to‘lovlar va qisqa muddatli shartnomalar kompaniyaning qarz yuki va moliyalashtirish ehtiyojlarini qisman yengillashtirishi, biroq talab o‘zgarganda xizmat ko‘rsatish narxlariga ta'sir ko‘rsatishi mumkin.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2304376406.jpg?w=1024",
+   "domains": [
+    "techcrunch.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/",
+    "https://finance.yahoo.com/markets/stocks/articles/coreweave-rises-5-nebius-7-182825101.html",
+    "https://finance.yahoo.com/technology/ai/articles/nebius-69-2026-ai-bubble-174447800.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794459741.755184,
+   "title": "Radical Numerics sun'iy intellekt yordamida patogenlarni aniqlaydi",
+   "text": "Startup tabiiy va sun'iy intellekt tomonidan yaratilgan patogenlarni internetga ulanmagan holda aniqlashga qodir modelni ishlab chiqdi.",
+   "orig_title": "A Startup Wants to Fight AI Bioweapons With AI",
+   "link": "https://www.wired.com/story/startup-fights-ai-bioweapons-with-ai/",
+   "source": "Wired AI",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Internet tarmog‘isiz ishlaydigan yangi model tadqiqotchilar va jamoat salomatligi rasmiylariga tabiiy hamda sun'iy patogenlarni tezkor aniqlashda yordam berishi ehtimoli bor.",
+   "image": "https://media.wired.com/photos/6af2619c5a9cd51895c4c0be/191:100/w_1280,c_limit/science_ai_fight_bioweapon.jpg",
+   "domains": [
+    "wired.com",
+    "tech.yahoo.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://www.wired.com/story/startup-fights-ai-bioweapons-with-ai/",
+    "https://tech.yahoo.com/gaming/articles/creative-assembly-shows-off-hag-005337100.html",
+    "https://finance.yahoo.com/sectors/healthcare/articles/ai-lab-radical-numerics-launches-130000718.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794459741.755184,
+   "title": "Google Tabletop eksperimental hamkorlik vositasini taqdim etdi",
+   "text": "Google oila va do'stlar bilan muvofiqlashtirish uchun maxsus hamkorlik markazlarini yaratuvchi Tabletop eksperimental vositasini e'lon qildi.",
+   "orig_title": "Google’s Tabletop AI experiment lets you build custom collaboration apps",
+   "link": "https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability",
+   "source": "The Verge AI",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Sun'iy intellekt agentlari va generativ vositalarning qidiruv tizimlari hamda kundalik ilovalarga chuqur integratsiya qilinishi foydalanuvchilarning axborot izlash va rejalashtirish jarayonlarini o‘zgartirishi mumkin.",
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Google-Labs-Tabletop.jpg?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200",
+   "domains": [
+    "theverge.com",
+    "wired.com",
+    "techcrunch.com"
+   ],
+   "urls": [
+    "https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability",
+    "https://www.wired.com/story/everything-google-announced-at-google-io-2026/",
+    "https://techcrunch.com/2026/06/17/pinterest-launches-an-experimental-ai-shopping-app-called-ask-pinterest/"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794459741.755184,
+   "title": "Helsing qurolli tizimlar uchun mo'ljallangan Clarity sun'iy intellekt platformasini yaratdi",
+   "text": "Helsing kompaniyasi sensor ma'lumotlarini tahlil qilib, inson nazorati ostida nishon tavsiyalarini beruvchi Clarity tizimini taqdim etdi.",
+   "orig_title": "Helsing built an AI system that prepares targets for weapons systems and says every decision will carry a human name",
+   "link": "https://the-decoder.com/helsing-built-an-ai-system-that-prepares-targets-for-weapons-systems-and-says-every-decision-will-carry-a-human-name/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Harbiy sohada sun'iy intellekt platformalarining qo‘llanilishi nishonlarni aniqlash va ma'lumotlarni qayta ishlash tezligini oshirishi, shu bilan birga inson nazorati va mas'uliyati masalasini yanada dolzarb qilish ehtimoli bor.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/11/Helsing-Clarity.webp",
+   "domains": [
+    "the-decoder.com",
+    "finance.yahoo.com",
+    "forbes.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/helsing-built-an-ai-system-that-prepares-targets-for-weapons-systems-and-says-every-decision-will-carry-a-human-name/",
+    "https://finance.yahoo.com/news/returnpro-partners-clarity-bring-ai-123000013.html",
+    "https://www.forbes.com/councils/forbestechcouncil/2026/03/11/why-human-oversight-still-matters-in-ai/"
    ],
    "videos": []
   }
