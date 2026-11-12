@@ -195,7 +195,10 @@
   "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/": 1794459741.755184,
   "https://www.wired.com/story/startup-fights-ai-bioweapons-with-ai/": 1794459741.755184,
   "https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability": 1794459741.755184,
-  "https://the-decoder.com/helsing-built-an-ai-system-that-prepares-targets-for-weapons-systems-and-says-every-decision-will-carry-a-human-name/": 1794459741.755184
+  "https://the-decoder.com/helsing-built-an-ai-system-that-prepares-targets-for-weapons-systems-and-says-every-decision-will-carry-a-human-name/": 1794459741.755184,
+  "https://www.kucoin.com/news/flash/bytedance-s-zhang-yiming-2029-earliest-to-compete-with-openai-in-ai": 1794463262.3657672,
+  "https://the-decoder.com/uk-regulator-threatens-universities-with-sanctions-unless-they-adopt-ai-proof-exam-formats/": 1794463262.3657672,
+  "https://www.msn.com/en-us/technology/tech-companies/bytedance-is-reportedly-working-on-its-own-ai-agent/ar-AA2heA5y": 1794463262.3657672
  },
  "fails": 0,
  "sent": [
@@ -858,6 +861,21 @@
    "t": 1794459741.755184,
    "title": "Helsing built an AI system that prepares targets for weapons systems and says every decision will carry a human name",
    "soha": "AI"
+  },
+  {
+   "t": 1794463262.3657672,
+   "title": "ByteDance's Zhang Yiming: Earliest possible competition with OpenAI in AI by 2029",
+   "soha": "AI"
+  },
+  {
+   "t": 1794463262.3657672,
+   "title": "UK regulator threatens universities with sanctions unless they adopt AI-proof exam formats",
+   "soha": "AI"
+  },
+  {
+   "t": 1794463262.3657672,
+   "title": "ByteDance Is Reportedly Working On Its Own AI Agent",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -869,69 +887,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1794290452.4902194,
-   "title": "TikTok o'zining AI video reklama vositalarini yangiladi",
-   "text": "TikTok kompaniyasining Symphony platformasi brendlarga kengaytirilgan yaratish imkoniyatlarini taqdim etgan holda Dreamina Seedance modelidan foydalanish imkoniyatiga ega bo'ldi.",
-   "orig_title": "TikTok updates its AI video ad tools",
-   "link": "https://tech.yahoo.com/social-media/articles/tiktok-updates-ai-video-ad-234653668.html",
-   "source": "tech.yahoo.com",
-   "soha": "AI video",
-   "baho": 9,
-   "experts": [],
-   "effect": "Sun'iy intellektga asoslangan video yaratish vositalari va kontent generatsiya qilish imkoniyatlarining kengayishi bozor ishtirokchilari uchun raqobatni kuchaytirishi va reklama roliklarini tayyorlash jarayonini sezilarli darajada osonlashtirishi mumkin.",
-   "image": "https://s.yimg.com/lo/mysterio/api/70e9e6a031bf83c679cbb4228e550f5cc688e2e264fe164edb0d7c355e1083d6/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsocial_media_today_432%2F79b4da66253bc868d3119407d79bec18.jpg",
-   "domains": [
-    "tech.yahoo.com",
-    "techcrunch.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://tech.yahoo.com/social-media/articles/tiktok-updates-ai-video-ad-234653668.html",
-    "https://techcrunch.com/2026/10/31/tiktoks-road-to-becoming-a-super-app/",
-    "https://finance.yahoo.com/technology/ai/articles/creating-longer-ai-videos-still-141300654.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794290452.4902194,
-   "title": "Nvidia bosh direktori Jensen Huang atrofidagi mojaro AI sanoatiga ta'sir ko'rsatmoqda",
-   "text": "Nvidia rahbari Jensen Huang'ning shaxsiy hayoti va mumkin bo'lgan josuslik mojarosi kompaniyaning kelajagi hamda bozoriga xavf tug'dirishi mumkin.",
-   "orig_title": "Jensen Huang’s Troubles Leave the AI Industry Reeling",
-   "link": "https://www.wired.com/story/jensen-huangs-troubles-leaves-the-ai-industry-reeling/",
-   "source": "Wired AI",
-   "soha": "AI",
-   "baho": 7,
-   "experts": [
-    {
-     "kim": "David Yoffie",
-     "lavozim": "Harvard Business School professori",
-     "fikr": "U chip kimga tegishi va kimga tegmasligini hal qiluvchi shaxs hisoblanadi va agar yangi rahbar kelsa, bu mijozlar uchun qanday oqibat olib kelishini hech kim bilmaydi.",
-     "url": "https://www.wired.com/story/jensen-huangs-troubles-leaves-the-ai-industry-reeling/",
-     "domain": "wired.com"
-    },
-    {
-     "kim": "Ryan Fedasiuk",
-     "lavozim": "tahlil markazi katta ilmiy xodimi",
-     "fikr": "Huang shunday muhim rol o'ynaganki, u butun AQSh sun'iy intellekt sanoati uchun tayanch ustunga aylangan va uni almashtirib bo'lmaydi.",
-     "url": "https://www.wired.com/story/jensen-huangs-troubles-leaves-the-ai-industry-reeling/",
-     "domain": "wired.com"
-    }
-   ],
-   "effect": "Nvidia rahbariyati atrofidagi mojarolar va kompaniya aksiyalarining pasayishi sun'iy intellekt bozorida beqarorlik keltirib chiqarishi, shuningdek, Google kabi raqobatchilarning chiplari va TPU savdosi keskin o'sishiga sabab bo'lishi mumkin.",
-   "image": "https://media.wired.com/photos/6af20d5c5d3e4adc0dc34622/191:100/w_1280,c_limit/What-Jensen-Huangs-Spy-Scandal-Means-For-AI-Industry-Business-2219673294.jpg",
-   "domains": [
-    "wired.com",
-    "finance.yahoo.com",
-    "sports.yahoo.com"
-   ],
-   "urls": [
-    "https://www.wired.com/story/jensen-huangs-troubles-leaves-the-ai-industry-reeling/",
-    "https://finance.yahoo.com/markets/stocks/articles/nvidia-enters-bear-market-google-182953893.html",
-    "https://sports.yahoo.com/articles/alice-huang-alleged-chinese-spy-121731178.html"
-   ],
-   "videos": []
-  },
   {
    "t": 1794294173.5031517,
    "title": "DISRUPT AI Film Festivali rekord miqdordagi arizalar bilan qaytdi",
@@ -3137,6 +3092,74 @@
     "https://the-decoder.com/helsing-built-an-ai-system-that-prepares-targets-for-weapons-systems-and-says-every-decision-will-carry-a-human-name/",
     "https://finance.yahoo.com/news/returnpro-partners-clarity-bring-ai-123000013.html",
     "https://www.forbes.com/councils/forbestechcouncil/2026/03/11/why-human-oversight-still-matters-in-ai/"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794463262.3657672,
+   "title": "ByteDance plans AI competition with OpenAI by 2029",
+   "text": "ByteDance founder Zhang Yiming announced a timeline for the Seed team to compete directly with OpenAI by 2029.",
+   "orig_title": "ByteDance's Zhang Yiming: Earliest possible competition with OpenAI in AI by 2029",
+   "link": "https://www.kucoin.com/news/flash/bytedance-s-zhang-yiming-2029-earliest-to-compete-with-openai-in-ai",
+   "source": "kucoin.com",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Xitoy va G‘arb o‘rtasidagi sun'iy intellekt ekotizimlari tobora ajralib borishi, Xitoy kompaniyalari esa global miqyosda AQSh yetakchiligidagi texnologiyalar bilan raqobatni kuchaytirishi mumkin.",
+   "image": "https://assets.staticimg.com/@kudos/runtime/0.6.25/assets/tw-ea52b6f9440e857c.jpg",
+   "domains": [
+    "kucoin.com",
+    "businessinsider.com",
+    "theverge.com"
+   ],
+   "urls": [
+    "https://www.kucoin.com/news/flash/bytedance-s-zhang-yiming-2029-earliest-to-compete-with-openai-in-ai",
+    "https://www.businessinsider.com/goldman-sachs-ai-stocks-trade-us-china-ecosystems-competition-playbook-2026-10",
+    "https://www.theverge.com/2023/12/15/24003151/bytedance-china-openai-microsoft-competitor-llm"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794463262.3657672,
+   "title": "UK regulator demands AI-proof exams for universities",
+   "text": "The Office for Students in England states that AI has made coursework assessment nearly impossible due to widespread ChatGPT usage.",
+   "orig_title": "UK regulator threatens universities with sanctions unless they adopt AI-proof exam formats",
+   "link": "https://the-decoder.com/uk-regulator-threatens-universities-with-sanctions-unless-they-adopt-ai-proof-exam-formats/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Universitetlar sun'iy intellekt ta'sirini kamaytirish uchun an'anaviy yozma imtihonlar va og‘zaki so‘rovlarga qaytishi, talabalarni baholash tizimini tubdan o‘zgartirishi mumkin.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/07/ai-generated-homework-nano-banana-pro.jpg",
+   "domains": [
+    "the-decoder.com",
+    "theguardian.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/uk-regulator-threatens-universities-with-sanctions-unless-they-adopt-ai-proof-exam-formats/",
+    "https://www.theguardian.com/education/2026/nov/11/ai-close-to-impossible-assess-university-coursework-regulator?shem=dsdf,sharefoc,agadiscoversdl,,sh/x/discover/m1/4"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794463262.3657672,
+   "title": "ByteDance is developing its own AI agent",
+   "text": "ByteDance is working on a new AI agent project to compete with Meta's Muse.",
+   "orig_title": "ByteDance Is Reportedly Working On Its Own AI Agent",
+   "link": "https://www.msn.com/en-us/technology/tech-companies/bytedance-is-reportedly-working-on-its-own-ai-agent/ar-AA2heA5y",
+   "source": "msn.com",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Xitoyda xorijiy texnologiya gigantlari mahalliy qoidalarga moslashish uchun mahalliy sun'iy intellekt modellariga tayanib ish ko‘rishi va bozordagi mavqeini o‘zgartirishi mumkin.",
+   "image": null,
+   "domains": [
+    "uk.news.yahoo.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://uk.news.yahoo.com/apple-begins-ai-trial-china-094808203.html",
+    "https://finance.yahoo.com/technology/ai/articles/expertcrowd-hud-collaborate-advance-ai-150000343.html"
    ],
    "videos": []
   }
