@@ -202,7 +202,8 @@
   "https://www.technobezz.com/news/openai-service-incident-ba2a3924": 1794477653.023465,
   "https://the-decoder.com/australias-proposed-ai-safety-bill-would-force-frontier-model-makers-to-open-up-to-independent-testing/": 1794481541.030661,
   "https://openai.com/index/children-first-declaration": 1794481541.030661,
-  "https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/": 1794481541.030661
+  "https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/": 1794481541.030661,
+  "https://the-decoder.com/google-deepmind-shifts-genomics-ai-from-bulk-tissue-predictions-to-single-cell-type-resolution-with-alphagenome-2/": 1794488765.0476463
  },
  "fails": 0,
  "sent": [
@@ -915,6 +916,11 @@
    "t": 1794481541.030661,
    "title": "Meta is losing its longtime head of infrastructure",
    "soha": "AI"
+  },
+  {
+   "t": 1794488765.0476463,
+   "title": "Google Deepmind shifts genomics AI from bulk tissue predictions to single cell type resolution with AlphaGenome 2",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -926,162 +932,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1794312099.5438285,
-   "title": "Boston-Silicon Valley AI Film Festival 2026 g'oliblari e'lon qilindi",
-   "text": "MITda bo'lib o'tgan festivalda film namoyishlari va muhokamalar o'tkazilib, 11 ta mukofot topshirildi. 'Earlier' filmi eng yaxshi deb topildi.",
-   "orig_title": "The 2026 Boston-Silicon Valley AI Film Festival: 11 Awards and the Convergence of AI & Filmmaking",
-   "link": "https://www.dispatch.com/press-release/story/265381/the-2026-boston-silicon-valley-ai-film-festival-11-awards-and-the-convergence-of-ai-filmmaking/",
-   "source": "dispatch.com",
-   "soha": "AI tanlov",
-   "baho": 10,
-   "experts": [],
-   "effect": "Kino industriyasida va xalqaro festivallarda sun'iy intellekt hamda kinematografiya uyg'unlashuvi kuchayishi, shuningdek festival g'oliblari qatorida yangi janr va mavzudagi kartinalarning nufuzi oshishi mumkin.",
-   "image": null,
-   "domains": [
-    "forbes.com",
-    "yahoo.com"
-   ],
-   "urls": [
-    "https://www.forbes.com/connect/event/2024-forbes-cmo-summit/",
-    "https://www.yahoo.com/entertainment/movies/articles/venice-film-festival-reveals-2026-170441354.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794312099.5438285,
-   "title": "Seedance 2.0 va Kling 3.0 videogeneratorlari solishtirildi",
-   "text": "Yangi sharh Seedance 2.0 va Kling 3.0 modellarining imkoniyatlarini taqqoslab, rejissyorlarga mos variantni tanlashga yordam beradi.",
-   "orig_title": "I analyze the differences between Seedance 2.0 and Kling 3.0",
-   "link": "https://www.msn.com/en-gb/entertainment/movies/i-analyze-the-differences-between-seedance-2-0-and-kling-3-0/vi-AA2h7S9H",
-   "source": "msn.com",
-   "soha": "AI video",
-   "baho": 9,
-   "experts": [
-    {
-     "kim": "Billy Boman",
-     "lavozim": "reklama agentligi rahbari",
-     "fikr": "Sun'iy intellekt video generatsiyasi so'nggi yillarda sezilarli darajada rivojlanib, avvalgi qisqa va past sifatli kliplardan istalgan mukammal tasvirni yaratish bosqichiga o'tdi.",
-     "url": "https://www.cnbc.com/2026/02/14/new-china-ai-models-alibaba-bytedance-seedance-kuaishou-kling.html",
-     "domain": "cnbc.com"
-    }
-   ],
-   "effect": "Xitoy texnologiya gigantlarining yangi AI modellari bozorda raqobatni keskin kuchaytirib, video ishlab chiqarish hamda robototexnika sohasida samaradorlik va imkoniyatlarni yanada kengaytirishi mumkin.",
-   "image": null,
-   "domains": [
-    "cnbc.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://www.cnbc.com/2026/02/14/new-china-ai-models-alibaba-bytedance-seedance-kuaishou-kling.html",
-    "https://finance.yahoo.com/technology/ai/articles/kling-ai-officially-launches-next-185000472.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794312099.5438285,
-   "title": "Higgsfield asoschisi Aleksandr Mashrabov Qozog'iston fuqaroligini oldi",
-   "text": "Sun'iy intellekt sohasidagi Higgsfield startupi asoschilaridan biri Aleksandr Mashrabov Qozog'iston fuqaroligiga ega bo'ldi.",
-   "orig_title": "Russian-born AI entrepreneur Alexander Mashrabov granted Kazakh citizenship",
-   "link": "https://www.azernews.az/region/267163.html",
-   "source": "azernews.az",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Qozog'iston xalqaro miqyosda tan olingan yuqori texnologiyali mutaxassislar va sun'iy intellekt tadbirkorlarini jalb qilish orqali o'zining raqamli iqtisodiyotini sezilarli darajada rivojlantirishi mumkin.",
-   "image": "https://www.azernews.az/media/2026/11/10/aleksandr-marshabov.png",
-   "domains": [
-    "azernews.az",
-    "finance.yahoo.com",
-    "cnbc.com"
-   ],
-   "urls": [
-    "https://www.azernews.az/region/267163.html",
-    "https://finance.yahoo.com/quote/ALX/",
-    "https://www.cnbc.com/video/2026/08/17/higgsfield-ceo-alex-mashrabov-on-new-funding-round-ai-content-creation-battle-and-growth-outlook.html"
-   ],
-   "videos": [
-    [
-     "https://www.youtube.com/watch?v=NPIF6SaE99Q",
-     "YouTube"
-    ]
-   ]
-  },
-  {
-   "t": 1794312099.5438285,
-   "title": "Culper Research Nvidia rahbarining shubhali aloqalarini oldindan fosh qilgan edi",
-   "text": "Nvidia bosh direktori Jensen Huang mojarosidan olti oy oldin qisqa sotuvchi kompaniya uning Xitoy rahbari bilan yaqinligini e'tiborga olgandi.",
-   "orig_title": "A short seller flagged Nvidia CEO’s ties to a suspected Chinese spy six months before the scandal",
-   "link": "https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/",
-   "source": "TechCrunch AI",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Kompaniya rahbariyati atrofidagi mojarolar va eksport cheklovlarini chetlab o'tish bo'yicha tekshiruvlar Nvidia aksiyalari narxining o'zgaruvchanligiga va AQShning chip eksporti siyosatiga ta'sir ko'rsatishi mumkin.",
-   "image": "https://techcrunch.com/wp-content/uploads/2025/08/GettyImages-2227140868.jpg?w=1024",
-   "domains": [
-    "techcrunch.com",
-    "businessinsider.com"
-   ],
-   "urls": [
-    "https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/",
-    "https://www.businessinsider.com/jensen-huang-china-relationship-megaspeed-nvidia-culper-research-2026-11",
-    "https://www.businessinsider.com/jensen-huang-nvidia-tsmc-morris-chang-cold-calls-ai-chips-2026-10"
-   ],
-   "videos": [
-    [
-     "https://x.com/CulperResearch/status/2054623784452120917",
-     "X"
-    ]
-   ]
-  },
-  {
-   "t": 1794315958.6113648,
-   "title": "Hugging Face kiberhujumlar ochiq kodli sun'iy intellektga xavf solayotganini bildirdi",
-   "text": "Hugging Face rahbari Irene Solaiman ochiq AI platformalariga qaratilgan kiberhujumlar kuchayishi xavfsizlik cheklovlarini kuchaytirishga majbur qilishini va dasturchilar uchun imkoniyatlarni cheklashini ogohlantirdi.",
-   "orig_title": "Cyberattacks threaten to make open-source AI a little less open, Hugging Face exec warns",
-   "link": "https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/",
-   "source": "TechCrunch AI",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Kiberhujumlar ochiq kodli sun'iy intellekt platformalarida kirishni cheklash, kuchaytirilgan shaxsinikni tasdiqlash yoki tekshiruvlarni keltirib chiqarishi mumkin, bu esa mustaqil tadqiqotchilar va ishqibozlarning ishtirokini qiyinlashtirishi ehtimoli bor.",
-   "image": "https://techcrunch.com/wp-content/uploads/2026/11/55593309591_7cc2d3aba6_k.jpg?resize=1200,800",
-   "domains": [
-    "techcrunch.com",
-    "wired.com"
-   ],
-   "urls": [
-    "https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/",
-    "https://www.wired.com/story/wired-world-fair-2026-clement-delangue-hugging-face/",
-    "https://www.wired.com/story/mistral-says-le-chonk-surpasses-chinese-models-cybersecurity/"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794315958.6113648,
-   "title": "Anthropic IPO yo'liga chiqdi va trillion dollarlik bahoni maqsad qildi",
-   "text": "Anthropic kompaniyasi 1.02 trillion dollargacha baholanishni ko'zlab IPO jarayonini boshladi. Shuningdek, Google, Nvidia va Microsoft kabi yirik investorlar ishtirokida 26 milliard dollar jalb qilinmoqda.",
-   "orig_title": "Anthropic kicks off IPO roadshow, offering shares at $70 to $78 and targeting a trillion-dollar valuation",
-   "link": "https://the-decoder.com/anthropic-kicks-off-ipo-roadshow-offering-shares-at-70-to-78-and-targeting-a-trillion-dollar-valuation/",
-   "source": "The Decoder",
-   "soha": "AI",
-   "baho": 9,
-   "experts": [],
-   "effect": "Yuqori foiz stavkalari muhiti va qattiqroq tartibga solish qo'rquvchilari sharoitida o'tkazilayotgan bu ommaviy aksiyalar chiqaruvi bozorda sun'iy intellekt investitsiya siklining barqarorligiga nisbatan shubhalarni yanada kuchaytirishi mumkin.",
-   "image": "https://the-decoder.com/wp-content/uploads/2026/08/anthropic_claude.png",
-   "domains": [
-    "the-decoder.com",
-    "finance.yahoo.com",
-    "cnbc.com"
-   ],
-   "urls": [
-    "https://the-decoder.com/anthropic-kicks-off-ipo-roadshow-offering-shares-at-70-to-78-and-targeting-a-trillion-dollar-valuation/",
-    "https://finance.yahoo.com/technology/ai/articles/google-nvidia-amd-others-invest-120521300.html",
-    "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html"
-   ],
-   "videos": []
-  },
   {
    "t": 1794319257.5646298,
    "title": "Sakkiz davlat va yetakchi AI laboratoriyalar Parij deklaratsiyasini imzoladi",
@@ -3285,6 +3135,30 @@
     "https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/",
     "https://www.cnbc.com/2026/11/11/meta-infrastructure-departure-aws-cloud.html",
     "https://finance.yahoo.com/technology/ai/articles/metas-infrastructure-chief-santosh-janardhan-173358243.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794488765.0476463,
+   "title": "Google DeepMind AlphaGenome 2 modelini taqdim etdi",
+   "text": "Google DeepMind 107 milliondan ortiq hujayra profillariga asoslangan AlphaGenome 2 modelini chiqardi. U genetik o'zgarishlarni aniqlashda oldingi versiyadan ikki barobar yaxshiroq natija ko'rsatmoqda.",
+   "orig_title": "Google Deepmind shifts genomics AI from bulk tissue predictions to single cell type resolution with AlphaGenome 2",
+   "link": "https://the-decoder.com/google-deepmind-shifts-genomics-ai-from-bulk-tissue-predictions-to-single-cell-type-resolution-with-alphagenome-2/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Genomika tadqiqotlarida hujayra darajasidagi o'zgarishlarni aniqroq bashorat qilish imkoniyati yaratilishi mumkin. Bu tibbiyotda kasalliklarning hujayrali ildizlarini ochish va yangi davolash usullarini ishlab chiqish jarayonini tezlashtirishi ehtimoli bor.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/11/deepmind_alphagenome2.png",
+   "domains": [
+    "the-decoder.com",
+    "theverge.com",
+    "forbes.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/google-deepmind-shifts-genomics-ai-from-bulk-tissue-predictions-to-single-cell-type-resolution-with-alphagenome-2/",
+    "https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model",
+    "https://www.forbes.com/councils/forbestechcouncil/2025/09/10/the-alphafold-effect-20-how-google-deepminds-new-ai-is-decoding-the-darkest-corners-of-the-genome/"
    ],
    "videos": []
   }
