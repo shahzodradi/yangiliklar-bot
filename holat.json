@@ -1,8 +1,5 @@
 {
  "seen": {
-  "https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/": 1793614990.3598292,
-  "https://www.sciencedaily.com/releases/2026/10/261031011638.htm": 1793614990.3598292,
-  "https://www.gazeta.uz/oz/2026/11/02/private-employment-agencies/": 1793614990.3598292,
   "https://the-decoder.com/saudi-aramco-takes-49-percent-stake-in-ai-firm-humain-with-2-6-billion-deal/": 1793654107.3412218,
   "https://kun.uz/news/2026/11/02/alisher-usmonov-evropa-ittifoqiga-qarshi-germaniya-sudida-muhim-galabaga-erishdi-die-welt-58994": 1793654107.3412218,
   "https://www.sciencedaily.com/releases/2026/11/261101010533.htm": 1793654107.3412218,
@@ -202,7 +199,10 @@
   "https://www.msn.com/en-in/news/other/adobe-max-2026-sneaks-from-turning-images-into-navigable-worlds-to-ai-generated-characters-for-videos-check-out-all-announcements/ar-AA2hgDGm": 1794474226.8714855,
   "https://www.msn.com/en-gb/technology/hardware-and-devices/using-kling-3-0-for-multi-shot-and-consistent-ai-video/vi-AA2hgXlA": 1794474226.8714855,
   "https://www.trendforce.com/news/2026/11/12/news-bytedance-reportedly-to-launch-meta-muse-like-ai-assistant-within-weeks-eyes-up-to-us70b-in-broader-ai-push/": 1794474226.8714855,
-  "https://www.technobezz.com/news/openai-service-incident-ba2a3924": 1794477653.023465
+  "https://www.technobezz.com/news/openai-service-incident-ba2a3924": 1794477653.023465,
+  "https://the-decoder.com/australias-proposed-ai-safety-bill-would-force-frontier-model-makers-to-open-up-to-independent-testing/": 1794481541.030661,
+  "https://openai.com/index/children-first-declaration": 1794481541.030661,
+  "https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/": 1794481541.030661
  },
  "fails": 0,
  "sent": [
@@ -900,6 +900,21 @@
    "t": 1794477653.023465,
    "title": "OpenAI Reports High Error Rates for GPT-image-2.5 and 2.6 Sunburst and Flare",
    "soha": "AI rasm"
+  },
+  {
+   "t": 1794481541.030661,
+   "title": "Australia's proposed AI safety bill would force frontier model makers to open up to independent testing",
+   "soha": "AI"
+  },
+  {
+   "t": 1794481541.030661,
+   "title": "Supporting research on AI and children’s safety",
+   "soha": "AI"
+  },
+  {
+   "t": 1794481541.030661,
+   "title": "Meta is losing its longtime head of infrastructure",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -3185,6 +3200,91 @@
     "https://www.technobezz.com/news/openai-service-incident-ba2a3924",
     "https://markets.businessinsider.com/news/stocks/aivideofree-integrates-openai-s-gpt-image-2-6-a-day-after-release-running-both-new-models-alongside-competing-image-generators-1036721272",
     "https://www.wired.com/story/openais-gpt-5-is-here/"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794481541.030661,
+   "title": "Avstraliya AI modellarini majburiy tekshirish to‘g‘risida qonun loyihasini taqdim etdi",
+   "text": "Avstraliya hukumati ilg‘or AI modellarini mustaqil auditdan o‘tkazishni majburiy qiluvchi yangi qonun loyihasini ishlab chiqdi. Qoidalarni buzgan kompaniyalar katta jarimalarga tortiladi.",
+   "orig_title": "Australia's proposed AI safety bill would force frontier model makers to open up to independent testing",
+   "link": "https://the-decoder.com/australias-proposed-ai-safety-bill-would-force-frontier-model-makers-to-open-up-to-independent-testing/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Avstraliyaning sun'iy intellekt xavfsizligi bo'yicha majburiy qoidalari va mustaqil audit talablarining joriy etilishi mamlakatdagi texnologiya bozorida tartibga solish barqarorligini oshirishi va xorijiy investitsiyalarni jalb qilishi mumkin. Shu bilan birga, faqat eng ilg'or modellarga e'tibor qaratilishi kichikroq va ixtisoslashgan algoritmlar keltirib chiqarishi mumkin bo'lgan xavflarni nazoratsiz qoldirishi ehtimoli bor.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/11/australia_ai_safety.png",
+   "domains": [
+    "the-decoder.com",
+    "au.news.yahoo.com",
+    "yahoo.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/australias-proposed-ai-safety-bill-would-force-frontier-model-makers-to-open-up-to-independent-testing/",
+    "https://au.news.yahoo.com/australia-impose-mandatory-safety-rules-023442597.html",
+    "https://www.yahoo.com/news/politics/articles/bill-data-centers-pay-grid-184834747.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794481541.030661,
+   "title": "OpenAI bolalar xavfsizligi bo‘yicha AI tadqiqotlariga 2 million dollar ajratdi",
+   "text": "OpenAI yoshlar uchun sun’iy intellekt xatarlari va imkoniyatlarini baholash vositalarini yaratish tadqiqotlariga 2 million dollar ajratishini ma’lum qildi.",
+   "orig_title": "Supporting research on AI and children’s safety",
+   "link": "https://openai.com/index/children-first-declaration",
+   "source": "OpenAI",
+   "soha": "AI",
+   "baho": 6,
+   "experts": [
+    {
+     "kim": "Kate Blocker",
+     "lavozim": "tadqiqot va dasturlar direktori",
+     "fikr": "Mahsulotlar ishlab chiqilayotgan paytda, muammolar yuzaga kelganidan keyin emas, balki bolalar xavfsizligi hisobga olinishi juda muhim.",
+     "url": "https://www.cnbc.com/2026/11/07/snap-social-media-teen-safety-lawsuits.html",
+     "domain": "cnbc.com"
+    },
+    {
+     "kim": "Joseph McNally",
+     "lavozim": "sobiq prokuror va paydo bo'layotgan sud litigatsiyalari direktori",
+     "fikr": "Texnologiya kompaniyalarining kelishuvlari va sudlashuvlari mahsulotlarining obro'si jiddiy zarba ko'rgani sababli vaziyatni o'nglashga urinishdir.",
+     "url": "https://www.cnbc.com/2026/11/07/snap-social-media-teen-safety-lawsuits.html",
+     "domain": "cnbc.com"
+    }
+   ],
+   "effect": "Bolalar xavfsizligi va ruhiy salomatligi bilan bog'liq sud jarayonlari hamda kelishuvlar texnologiya kompaniyalarini o'z mahsulotlari dizaynini qayta ko'rib chiqishga va xavfsizlik choralarini kuchaytirishga majbur qilishi mumkin. Shuningdek, sun'iy intellekt xavfsizligi tarafdorlarining siyosiy faollashuvi kelgusidagi saylovlarda va federal qonunchilikda texnologiya gigantlariga nisbatan qattiqroq cheklovlarning joriy etilishiga olib kelishi ehtimoli bor.",
+   "image": null,
+   "domains": [
+    "cnbc.com",
+    "yahoo.com"
+   ],
+   "urls": [
+    "https://www.cnbc.com/2026/11/07/snap-social-media-teen-safety-lawsuits.html",
+    "https://www.yahoo.com/news/politics/articles/ai-safety-groups-target-2028-203143228.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794481541.030661,
+   "title": "Meta infratuzilma bo‘limi rahbari lavozimidan ketmoqda",
+   "text": "Kompaniyada 2009-yildan beri ishlab kelayotgan Santosh Janardxan Meta kompaniyasining infratuzilma rahbari lavozimini tark etishini e’lon qildi.",
+   "orig_title": "Meta is losing its longtime head of infrastructure",
+   "link": "https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 5,
+   "experts": [],
+   "effect": "Meta infratuzilma rahbarining o'zgarishi va Amazon Web Services'ning sobiq xodimi Dave Brownning tayinlanishi kompaniyaning sun'iy intellekt ambitsiyalarini qo'llab-quvvatlash uchun ma'lumotlar markazlari va texnik operatsiyalarini kengaytirish strategiyasini yanada kuchaytirishi mumkin. Investitsiya xarajatlarining oshishi va kapital sarflari fonida investorlarning kompaniya moliyaviy barqarorligiga e'tibori yanada ortishi ehtimoli bor.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/06/Meta-image.jpg?w=1024",
+   "domains": [
+    "techcrunch.com",
+    "cnbc.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/",
+    "https://www.cnbc.com/2026/11/11/meta-infrastructure-departure-aws-cloud.html",
+    "https://finance.yahoo.com/technology/ai/articles/metas-infrastructure-chief-santosh-janardhan-173358243.html"
    ],
    "videos": []
   }
