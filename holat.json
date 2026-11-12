@@ -186,7 +186,12 @@
   "https://decrypt.co/383070/new-ai-music-model-already-better-than-suno-ace-review": 1794452753.907915,
   "https://www.digitaltoday.co.kr/en/view/124503/kakao-ventures-teams-up-with-ai-video-platform-higgsfield": 1794452753.907915,
   "https://the-decoder.com/google-joins-the-decision-model-wave-with-gemini-decision-1-scoring-1000-questions-in-a-single-pass/": 1794452753.907915,
-  "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/": 1794452753.907915
+  "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/": 1794452753.907915,
+  "https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/": 1794456067.4744592,
+  "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/": 1794456067.4744592,
+  "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents": 1794456067.4744592,
+  "https://www.wired.com/story/i-trained-a-microduck-to-be-my-cats-butler/": 1794456067.4744592,
+  "https://the-decoder.com/us-corporate-ai-spending-hits-a-new-high-in-october-but-growth-slows-to-1-65-percent/": 1794456067.4744592
  },
  "fails": 0,
  "sent": [
@@ -803,6 +808,31 @@
   {
    "t": 1794452753.907915,
    "title": "With $720M round, Britain’s Fractile gets a leg up in the race for AI chips",
+   "soha": "AI"
+  },
+  {
+   "t": 1794456067.4744592,
+   "title": "The unfolding Jensen Huang scandal: a timeline",
+   "soha": "AI"
+  },
+  {
+   "t": 1794456067.4744592,
+   "title": "Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang",
+   "soha": "AI"
+  },
+  {
+   "t": 1794456067.4744592,
+   "title": "United won’t let your AI agent book your flight",
+   "soha": "AI"
+  },
+  {
+   "t": 1794456067.4744592,
+   "title": "I Saw the Future of Robotics in a Virtual Duck That Chases My Cat",
+   "soha": "AI"
+  },
+  {
+   "t": 1794456067.4744592,
+   "title": "US corporate AI spending hits a new high in October, but growth slows to 1.65 percent",
    "soha": "AI"
   }
  ],
@@ -2864,6 +2894,138 @@
     "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/",
     "https://sg.news.yahoo.com/uk-backed-ai-chip-startup-145142457.html",
     "https://www.businessinsider.com/disney-pays-60-million-characterai-employees-tech-layoffs-karandeep-anand-2026-10"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794456067.4744592,
+   "title": "Jensen Huang mojarosi va uning vaqt jadvali",
+   "text": "AQSh va Xitoy o'rtasidagi ilg'or AI infratuzilmasi poygasida Nvidia bosh direktori atrofidagi mojaro milliy xavfsizlikka ham ta'sir qilishi mumkin.",
+   "orig_title": "The unfolding Jensen Huang scandal: a timeline",
+   "link": "https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Nvidia rahbariyati atrofidagi mojaro kompaniya aksiyalari tushib ketishiga va bosh direktorning kelajagi xavf ostida qolishiga olib kelishi mumkin.",
+   "image": "https://techcrunch.com/wp-content/uploads/2025/04/GettyImages-2205754389.jpg?w=1024",
+   "domains": [
+    "techcrunch.com",
+    "malaysia.news.yahoo.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+    "https://malaysia.news.yahoo.com/trumps-ties-nvidia-ceo-jensen-020132818.html"
+   ],
+   "videos": [
+    [
+     "https://www.youtube.com/watch?v=w-qWtVt2prU",
+     "YouTube"
+    ]
+   ]
+  },
+  {
+   "t": 1794456067.4744592,
+   "title": "Nvidia aksiyalari tushib ketdi",
+   "text": "Nvidia direktorlar kengashi 33 yildan beri kompaniyani boshqarib kelayotgan bosh direktor Jensen Huangni lavozimidan chetlatishga tayyorgarlik ko'rayotgani sababli aksiyalar narxi pasaydi.",
+   "orig_title": "Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang",
+   "link": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 9,
+   "experts": [],
+   "effect": "Rahbariyatdagi o‘zgarishlar va mojaro fonida Nvidia aksiyalari keskin tushib ketishi hamda kompaniya kelgusi moliyaviy hisobotlarida yuqori bosim ostida qolishi mumkin.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/09/Jensen-Huang.jpg?resize=1200,800",
+   "domains": [
+    "techcrunch.com",
+    "bbc.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/",
+    "https://www.bbc.com/news/live/c6zjry11v8w1t"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794456067.4744592,
+   "title": "United aviakompaniyasi AI agentlarga chipta band qilishga ruxhat bermaydi",
+   "text": "Maxfiylik va tartibga solish xavotirlari tufayli United o'ning reyslarini shaxsiy sun'iy intellekt yordamchilari orqali bron qilishni taqiqlashini bildirdi.",
+   "orig_title": "United won’t let your AI agent book your flight",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents",
+   "source": "The Verge AI",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Aviakompaniyaning cheklovlari sun'iy intellekt yordamchilarining foydalanuvchilar nomidan chipta band qilish imkoniyatlarini cheklab qo'yishi mumkin.",
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23176430/1237621702.jpg?quality=90&strip=all&crop=0%2C10.721800295556%2C100%2C78.556399408888&w=1200",
+   "domains": [
+    "theverge.com",
+    "travel.yahoo.com"
+   ],
+   "urls": [
+    "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents",
+    "https://travel.yahoo.com/news/articles/united-bans-ai-agents-booking-210230787.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794456067.4744592,
+   "title": "OpenAI modeli yordamida robototexnika kelajagi",
+   "text": "OpenAI modeli foydalanuvchiga kichik o'rdak robotini yurishga va mushuk yordamchisi sifatida harakat qilishga o'rgatishda yordam berdi.",
+   "orig_title": "I Saw the Future of Robotics in a Virtual Duck That Chases My Cat",
+   "link": "https://www.wired.com/story/i-trained-a-microduck-to-be-my-cats-butler/",
+   "source": "Wired AI",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [
+    {
+     "kim": "Ken Goldberg",
+     "lavozim": "professor",
+     "fikr": "Barchamizni hayratda qoldirgani shuki, bir soat ichida u barcha parametrlari belgilangan to‘liq 3D simulyatsiyani yaratdi.",
+     "url": "https://www.wired.com/story/i-trained-a-microduck-to-be-my-cats-butler/",
+     "domain": "wired.com"
+    }
+   ],
+   "effect": "Yangi sun'iy intellekt modellari robototexnika sohasida simulyatsiya va dasturlash jarayonlarini sezilarli darajada tezlashtirishi mumkin.",
+   "image": "https://media.wired.com/photos/6af37240c46e83fb6f2598a7/191:100/w_1280,c_limit/AI-Lab-I-Trained-Simulated-Microduck-to-Dance-and-Do-Other-Fun-Things-Business.jpg",
+   "domains": [
+    "wired.com",
+    "theguardian.com"
+   ],
+   "urls": [
+    "https://www.wired.com/story/i-trained-a-microduck-to-be-my-cats-butler/",
+    "https://www.theguardian.com/technology/2026/oct/14/openai-london-staff-earnings-2million-per-person"
+   ],
+   "videos": [
+    [
+     "https://www.youtube.com/watch?v=F_4AAOQsWlA",
+     "YouTube"
+    ],
+    [
+     "https://x.com/cdngdev/status/2097339677128982873",
+     "X"
+    ]
+   ]
+  },
+  {
+   "t": 1794456067.4744592,
+   "title": "AQSh korporativ AI xarajatlari oktabrda o'sdi",
+   "text": "Ramp AI Index ma'lumotlariga ko'ra, AQShda korporativ sun'iy intellekt xarajatlari oktabr oyida 1.65 foizga oshdi, daromadlarning katta qismi esa cheklangan kompaniyalarga to'g'ri kelmoqda.",
+   "orig_title": "US corporate AI spending hits a new high in October, but growth slows to 1.65 percent",
+   "link": "https://the-decoder.com/us-corporate-ai-spending-hits-a-new-high-in-october-but-growth-slows-to-1-65-percent/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Sun'iy intellektga xarajatlar o'sishining sekinlashishi va narxlarning tushishi bozor ishtirokchilari uchun marjaning qisqarishiga olib kelishi mumkin.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/02/openai_anthropic_logos-1.jpeg",
+   "domains": [
+    "the-decoder.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/us-corporate-ai-spending-hits-a-new-high-in-october-but-growth-slows-to-1-65-percent/",
+    "https://finance.yahoo.com/markets/stocks/articles/amd-stock-fell-11-day-063927845.html"
    ],
    "videos": []
   }
