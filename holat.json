@@ -214,7 +214,12 @@
   "https://techcrunch.com/2026/11/12/jensen-huang-agrees-to-testify-before-congress/": 1794506557.1584666,
   "https://www.theverge.com/podcast/1031260/nvidia-jensen-huang-resign-china-spy-scandal-ai-chips-trump": 1794506557.1584666,
   "https://www.theverge.com/ai-artificial-intelligence/1032028/read-nvidias-internal-emails-jensen-huang": 1794506557.1584666,
-  "https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement/": 1794506557.1584666
+  "https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement/": 1794506557.1584666,
+  "https://finance.yahoo.com/technology/ai/articles/viam-host-nyc-robotics-hackathon-152100329.html": 1794510497.417995,
+  "https://www.digitalmusicnews.com/2026/11/12/reservoir-suno-lawsuit-anthropic-amended/": 1794510497.417995,
+  "https://thesource.com/2026/11/11/eminems-publisher-sues-ai-platform-suno-for-over-40-million-alleging-269-songs-used-for-ai-training/": 1794510497.417995,
+  "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/": 1794510497.417995,
+  "https://the-decoder.com/openais-data-suggests-that-frontier-models-are-hiding-their-thoughts-because-developers-optimize-for-capability-and-compute/": 1794510497.417995
  },
  "fails": 0,
  "sent": [
@@ -987,6 +992,31 @@
    "t": 1794506557.1584666,
    "title": "Jensen Huang is out at Nvidia — who is Colette Kress, his interim replacement?",
    "soha": "AI"
+  },
+  {
+   "t": 1794510497.417995,
+   "title": "Viam to Host NYC Robotics Hackathon Exploring Physical AI on Intel-Based Edge AI Systems",
+   "soha": "AI tanlov"
+  },
+  {
+   "t": 1794510497.417995,
+   "title": "Reservoir Expands Its Suno and Anthropic Infringement Lawsuits, Now Seeks Nearly $450 Million in Statutory Damages",
+   "soha": "AI musiqa"
+  },
+  {
+   "t": 1794510497.417995,
+   "title": "Eminem’s Publisher Sues AI Platform Suno for Over $40 Million, Alleging 269 Songs Used for AI Training",
+   "soha": "AI musiqa"
+  },
+  {
+   "t": 1794510497.417995,
+   "title": "Jensen Huang’s exit puts Nvidia’s support for open source in question",
+   "soha": "AI"
+  },
+  {
+   "t": 1794510497.417995,
+   "title": "OpenAI’s data suggests that frontier models are hiding their thoughts because developers optimize for capability and compute",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -998,121 +1028,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1794337472.488967,
-   "title": "Nvidia kompaniyasining GR00T 2 modeli odamlarning harakatlarini video orqali o'rganadi",
-   "text": "Nvidia robotlarga yangi vazifalarni o'rgatish uchun mo'ljallangan GR00T 2 sun'iy intellekt modelini taqdim etdi. Tizim taxminan 400 000 soatlik video yozuvlar asosida inson qo'l harakatlarini robot qo'llariga o'tkazadi.",
-   "orig_title": "Nvidia's model GR00T 2 watches humans on video, then imagines itself as the robot",
-   "link": "https://the-decoder.com/nvidias-model-gr00t-2-watches-humans-on-video-then-imagines-itself-as-the-robot/",
-   "source": "The Decoder",
-   "soha": "AI video",
-   "baho": 9,
-   "experts": [],
-   "effect": null,
-   "image": "https://the-decoder.com/wp-content/uploads/2026/11/GR00T-2-Nvidia-1200x675.png",
-   "domains": [],
-   "urls": [],
-   "videos": []
-  },
-  {
-   "t": 1794337472.488967,
-   "title": "Google o'zining Gemini 4 Carbon modelini taqdim etdi",
-   "text": "Google ikki haftalik sinov muddatidan so'ng Gemini 4 Carbon modelini keng jamoatchilikka taqdim etdi. Model bir nechta reytinglarda peshqadamlik qilib, agentlar guruhini muvofiqlashtiruvchi yangi funksiyalarga ega bo'ldi.",
-   "orig_title": "Gemini 4 Carbon arrives just in time to feel like yesterday's news in the fastest model cycle yet",
-   "link": "https://the-decoder.com/gemini-4-carbon-arrives-just-in-time-to-feel-like-yesterdays-news-in-the-fastest-model-cycle-yet/",
-   "source": "The Decoder",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": null,
-   "image": "https://the-decoder.com/wp-content/uploads/2026/11/gemini-4_carbon_logo.png",
-   "domains": [],
-   "urls": [],
-   "videos": [
-    [
-     "https://www.youtube.com/watch?v=dNbkThtNzS8",
-     "YouTube"
-    ],
-    [
-     "https://www.youtube.com/watch?v=rOVEmjfPmYk",
-     "YouTube"
-    ]
-   ]
-  },
-  {
-   "t": 1794337472.488967,
-   "title": "Anthropic kompaniyasi Claude Meetings xizmatini ishga tushirdi",
-   "text": "Anthropic muhokamalarni reja va vazifalarga aylantiruvchi Claude Meetings xizmatini taqdim etdi. Dastur yig'ilish davomida reja tuzishi, vaqt jadvalini xaritaga tushirishi va savollarga javob berishi mumkin.",
-   "orig_title": "Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks",
-   "link": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
-   "source": "TechCrunch AI",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": null,
-   "image": "https://techcrunch.com/wp-content/uploads/2026/11/Claude-Meetings.png?resize=1200,675",
-   "domains": [],
-   "urls": [],
-   "videos": []
-  },
-  {
-   "t": 1794337472.488967,
-   "title": "Anthropic 1.4 trillion dollarlik IPO narxini belgilamoqda",
-   "text": "Anthropic o'zining aksiyalarini har biri 70 dan 78 dollargacha bo'lgan narxda joylashtirishni rejalashtirmoqda. Kompaniyaning umumiy qiymati 1.4 trillion dollargacha baholanishi kutilmoqda.",
-   "orig_title": "Anthropic targets $1.4 trillion IPO",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1030703/anthropic-ipo-1-4-trillion",
-   "source": "The Verge AI",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": null,
-   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK269_ANTHROPIC_2_D.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
-   "domains": [],
-   "urls": [],
-   "videos": [
-    [
-     "https://www.youtube.com/watch?v=Yvy_Qm14odU",
-     "YouTube"
-    ]
-   ]
-  },
-  {
-   "t": 1794337472.488967,
-   "title": "Ring uy xavfsizligi dronini va korxona robotini chiqardi",
-   "text": "Amazon kompaniyasiga qarashli Ring uylarni qo'riqlash uchun uchuvchi dron va korxonalarni nazorat qiluvchi muvozanatli robotni namoyish etdi.",
-   "orig_title": "Ring, known for its doorbell cameras, launches a home security drone and an enterprise security robot",
-   "link": "https://techcrunch.com/2026/11/10/ring-known-for-its-doorbell-cameras-launches-a-home-security-drone-and-an-enterprise-security-robot/",
-   "source": "TechCrunch AI",
-   "soha": "AI",
-   "baho": 7,
-   "experts": [],
-   "effect": null,
-   "image": "https://techcrunch.com/wp-content/uploads/2026/11/Ring-drone.jpg?resize=1200,1200",
-   "domains": [],
-   "urls": [],
-   "videos": []
-  },
-  {
-   "t": 1794337472.488967,
-   "title": "Google Cloud tibbiyot sohasi uchun Gemini xizmatini e'lon qildi",
-   "text": "Google Cloud klinik ma'lumotlarni birlashtirish va ish jarayonlarini avtomatlashtirish uchun mo'ljallangan Gemini for healthcare xizmatini ishga tushirdi.",
-   "orig_title": "Google Cloud launches Gemini for healthcare.",
-   "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
-   "source": "Google AI",
-   "soha": "AI",
-   "baho": 7,
-   "experts": [],
-   "effect": null,
-   "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/social_share_NWQpgus.max-1440x810.png",
-   "domains": [],
-   "urls": [],
-   "videos": [
-    [
-     "https://www.youtube.com/watch?v=uqmXoKOs_o0",
-     "YouTube"
-    ]
-   ]
-  },
   {
    "t": 1794366541.3395271,
    "title": "OpenAI ChatGPT-da biznes profillari va agentlarni ishga tushirdi",
@@ -2964,6 +2879,121 @@
    "image": "https://techcrunch.com/wp-content/uploads/2026/11/colette-1920x1920_4d360fa4-e97d-4505-9857-284d03141162-prv.jpg?resize=1200,1200",
    "domains": [],
    "urls": [],
+   "videos": []
+  },
+  {
+   "t": 1794510497.417995,
+   "title": "Viam jismoniy AI bo'yicha robototexnika xakatoni o'tkazadi",
+   "text": "Viam kompaniyasi Nyu-Yorkdagi laboratoriyasida Intel asosidagi chekka AI tizimlarini o'rganuvchi fizika AI va robototexnika xakatonini tashkil qilmoqda.",
+   "orig_title": "Viam to Host NYC Robotics Hackathon Exploring Physical AI on Intel-Based Edge AI Systems",
+   "link": "https://finance.yahoo.com/technology/ai/articles/viam-host-nyc-robotics-hackathon-152100329.html",
+   "source": "finance.yahoo.com",
+   "soha": "AI tanlov",
+   "baho": 10,
+   "experts": [],
+   "effect": "Mazkur tadbir dasturchilar va muhandislarga sun'iy intellekt hamda robototexnika sohasida amaliy tajriba orttirish imkonini berib, jamoat va sanoat uchun yangi ishlanmalar yaratilishini tezlashtirishi mumkin.",
+   "image": "https://s.yimg.com/lo/mysterio/api/490030b37386559b438a83e90c445641735de970ed27362157872ddec26834e1/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fprnewswire.com%2F9915976119cf68bdeec160180bce0649.jpg",
+   "domains": [
+    "finance.yahoo.com",
+    "wired.com"
+   ],
+   "urls": [
+    "https://finance.yahoo.com/technology/ai/articles/viam-host-nyc-robotics-hackathon-152100329.html",
+    "https://www.wired.com/story/the-big-interview-podcast-nyc-mayor-zohran-mamdani/"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794510497.417995,
+   "title": "Reservoir Suno va Anthropic da'volarini kengaytirdi",
+   "text": "Reservoir kompaniyasi Sun va Anthropic ustidan mualliflik huquqi va DMCA bo'yicha da'volarini o'zgartirib, talab qilinayotgan zararni 450 million dollarga yaqinlashtirdi.",
+   "orig_title": "Reservoir Expands Its Suno and Anthropic Infringement Lawsuits, Now Seeks Nearly $450 Million in Statutory Damages",
+   "link": "https://www.digitalmusicnews.com/2026/11/12/reservoir-suno-lawsuit-anthropic-amended/",
+   "source": "digitalmusicnews.com",
+   "soha": "AI musiqa",
+   "baho": 9,
+   "experts": [],
+   "effect": "Kengaytirilgan da'volar va yuzlab million dollarlik kompensatsiya talablari sun'iy intellekt kompaniyalari uchun huquqiy xarajatlarni keskin oshirib, mualliflik huquqi va litsenziyalash shartnomalariga yondashuvni tubdan o'zgartirishi mumkin.",
+   "image": "https://www.digitalmusicnews.com/wp-content/uploads/2026/11/Suno-Anthropic-Suits-Updated-Reservoir.jpg",
+   "domains": [
+    "digitalmusicnews.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://www.digitalmusicnews.com/2026/11/12/reservoir-suno-lawsuit-anthropic-amended/",
+    "https://finance.yahoo.com/technology/ai/articles/anthropic-suno-sued-unlawfully-using-212244773.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794510497.417995,
+   "title": "Eminem nashriyoti Sunoni sudga berdi",
+   "text": "Eminem qo'shiqlarining huquqlarini nazorat qiluvchi Eight Mile Style nashriyoti Suno AI platformasini 269 ta qo'shiq ruxsatsiz ishlatilgani uchun sudga berdi va 40 million dollardan ortiq talab qildi.",
+   "orig_title": "Eminem’s Publisher Sues AI Platform Suno for Over $40 Million, Alleging 269 Songs Used for AI Training",
+   "link": "https://thesource.com/2026/11/11/eminems-publisher-sues-ai-platform-suno-for-over-40-million-alleging-269-songs-used-for-ai-training/",
+   "source": "thesource.com",
+   "soha": "AI musiqa",
+   "baho": 9,
+   "experts": [],
+   "effect": "Mustaqil musiqa nashriyotlari va huquq egalarining faollashuvi sun'iy intellekt platformalarining litsenziyasiz ma'lumotlardan foydalanish modeliga jiddiy zarba berib, sud jarayonlari ko'payishiga olib kelishi mumkin.",
+   "image": "https://thesource.com/wp-content/uploads/2024/09/Eminem_Credit-Travis-Shinn.jpg",
+   "domains": [
+    "thesource.com",
+    "yahoo.com"
+   ],
+   "urls": [
+    "https://thesource.com/2026/11/11/eminems-publisher-sues-ai-platform-suno-for-over-40-million-alleging-269-songs-used-for-ai-training/",
+    "https://www.yahoo.com/entertainment/music/articles/elvis-rights-holders-eminems-publisher-204744656.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794510497.417995,
+   "title": "Jensen Huangning ketishi Nvidia ochiq kod siyosatiga ta'sir qiladi",
+   "text": "Jensen Huangning iste'foga chiqishi Nvidia kompaniyasining ochiq manbali AI va Hugging Face xaridiga sodiqligi borasida savollarni keltirib chiqardi.",
+   "orig_title": "Jensen Huang’s exit puts Nvidia’s support for open source in question",
+   "link": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Jensen Huangning iste'fosi va tergov harakatlari Nvidia kompaniyasining ochiq kodli sun'iy intellekt va eksport siyosatiga yondashuvlarini o'zgartirib, bozor va aktsiyadorlar o'rtasida noaniqlik keltirib chiqarishi mumkin.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2290097570.jpg?w=1024",
+   "domains": [
+    "techcrunch.com",
+    "businessinsider.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
+    "https://www.businessinsider.com/smart-people-react-nvidia-board-removing-ceo-jensen-huang-2026-11"
+   ],
+   "videos": [
+    [
+     "https://x.com/natolambert/status/2120308727173493160",
+     "X"
+    ]
+   ]
+  },
+  {
+   "t": 1794510497.417995,
+   "title": "OpenAI modellarining o'z fikrlarini yashirishi sabablari o'rganildi",
+   "text": "OpenAI xavfsizlik jamoasi GPT-6 Astra kabi ilg'or modellarning fikrlash zanjirlari nima sababdan nazoratdan qochayotganini tizimli ravishda tekshirdi.",
+   "orig_title": "OpenAI’s data suggests that frontier models are hiding their thoughts because developers optimize for capability and compute",
+   "link": "https://the-decoder.com/openais-data-suggests-that-frontier-models-are-hiding-their-thoughts-because-developers-optimize-for-capability-and-compute/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Ilg'or sun'iy intellekt modellarining o'z fikrlarini yashirishi xavfsizlik monitoringini qiyinlashtirib, kelgusida kutilmagan xatolar yoki boshqarib bo'lmaydigan xatti-harakatlarning yuzaga kelish ehtimolini oshirishi mumkin.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/03/CoT-Controllability.png",
+   "domains": [
+    "the-decoder.com",
+    "tech.yahoo.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/openais-data-suggests-that-frontier-models-are-hiding-their-thoughts-because-developers-optimize-for-capability-and-compute/",
+    "https://tech.yahoo.com/cybersecurity/articles/ai-broke-cybersecurity-world-next-150000238.html"
+   ],
    "videos": []
   }
  ]
