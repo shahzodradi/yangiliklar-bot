@@ -206,7 +206,9 @@
   "https://the-decoder.com/google-deepmind-shifts-genomics-ai-from-bulk-tissue-predictions-to-single-cell-type-resolution-with-alphagenome-2/": 1794488765.0476463,
   "https://the-decoder.com/elevenlabs-scribe-v3-live-uses-conversational-context-to-stop-voice-agents-from-cutting-off-callers-mid-sentence/": 1794492152.4698534,
   "https://www.billboard.com/pro/beatbread-advisors-from-meta-suno/": 1794492152.4698534,
-  "https://www.billboard.com/pro/elvis-ai-music-lawsuit-explained-why-estate-suing-suno/": 1794496058.9920905
+  "https://www.billboard.com/pro/elvis-ai-music-lawsuit-explained-why-estate-suing-suno/": 1794496058.9920905,
+  "https://siliconangle.com/2026/11/12/with-23m-in-funding-luminal-is-the-latest-startup-to-put-nvidias-cuda-moat-in-its-crosshairs/": 1794499425.926031,
+  "https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/": 1794499425.926031
  },
  "fails": 0,
  "sent": [
@@ -939,6 +941,16 @@
    "t": 1794496058.9920905,
    "title": "The Elvis AI Lawsuit, Explained",
    "soha": "AI musiqa"
+  },
+  {
+   "t": 1794499425.926031,
+   "title": "With $23M in funding, Luminal is the latest startup to put Nvidia’s CUDA moat in its crosshairs",
+   "soha": "AI"
+  },
+  {
+   "t": 1794499425.926031,
+   "title": "Jensen Huang accused of having another affair — with an Nvidia exec",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -950,102 +962,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1794326607.452162,
-   "title": "Adobe MAX 2026: Firefly platformasiga yangi sun'iy intellekt vositalari qo'shildi",
-   "text": "Adobe MAX tadbirida Firefly ijodiy platformasi yangi agentlik imkoniyatlari va sun'iy intellektga asoslangan funksiyalar bilan yangilandi.",
-   "orig_title": "Adobe Firefly gets new AI-powered tools, agentic capabilities and other features: Check all updates",
-   "link": "https://www.msn.com/en-in/news/other/adobe-firefly-gets-new-ai-powered-tools-agentic-capabilities-and-other-features-check-all-updates/ar-AA2h9urt",
-   "source": "msn.com",
-   "soha": "AI rasm",
-   "baho": 9,
-   "experts": [],
-   "effect": null,
-   "image": null,
-   "domains": [],
-   "urls": [],
-   "videos": []
-  },
-  {
-   "t": 1794326607.452162,
-   "title": "Adobe Firefly agenti ijodiy jarayonlarni rejalashtirishni o'rgandi",
-   "text": "Firefly'dagi yangi Creative Agent ijodkorlarga ish rejasini ko'rsatish va har bir vazifa uchun eng mos sun'iy intellekt modelini tanlash imkonini beradi.",
-   "orig_title": "Adobe’s Firefly agent now plans the work and picks the AI model for you",
-   "link": "https://thenextweb.com/news/adobe-firefly-creative-agent-plan-mode-model-selector",
-   "source": "thenextweb.com",
-   "soha": "AI rasm",
-   "baho": 8,
-   "experts": [],
-   "effect": null,
-   "image": "https://media.thenextweb.com/2026/11/hand-tote-bag-ai-task-list-approve-run.jpg",
-   "domains": [],
-   "urls": [],
-   "videos": []
-  },
-  {
-   "t": 1794326607.452162,
-   "title": "Elvis Presley huquq egalari Suno sun'iy intellekt platformasini sudga berdi",
-   "text": "Elvis Presley merosxo'rlari va Eminem qo'shiqlari nashriyotchilari Suno generatorini mualliflik huquqini buzganlikda ayblab sudga murojaat qilishdi.",
-   "orig_title": "Elvis Presley rightsholders sue Suno, alleging its AI imitates the King’s voice. Eight Mile Style has filed a separate suit over 269 Eminem songs.",
-   "link": "https://www.musicbusinessworldwide.com/elvis-presleys-rightsholders-and-other-song-owners-sue-suno-for-more-than-202m-alleging-its-ai-imitates-the-kings-voice-eight-mile-style-has-filed-a-separate-47-7m-suit-over-269/",
-   "source": "musicbusinessworldwide.com",
-   "soha": "AI musiqa",
-   "baho": 10,
-   "experts": [],
-   "effect": null,
-   "image": "https://www.musicbusinessworldwide.com/files/2026/11/shutterstock_2649334793-e1794318888489.jpg",
-   "domains": [],
-   "urls": [],
-   "videos": []
-  },
-  {
-   "t": 1794326607.452162,
-   "title": "Adobe kompaniyasi agentlik sun'iy intellekt vositalariga e'tibor qaratmoqda",
-   "text": "Adobe kompaniyasi chat-botlar va sun'iy intellekt agentlari dizaynerlarga yordam berishi hamda takroriy ish jarayonlarini avtomatlashtirishigaishonmoqda.",
-   "orig_title": "Adobe is going all in on agentic AI",
-   "link": "https://www.theverge.com/tech/1030593/adobe-max-ai-agents-mcp-firefly-assistant-updates",
-   "source": "The Verge AI",
-   "soha": "AI",
-   "baho": 7,
-   "experts": [],
-   "effect": null,
-   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/FF-AIA-No-Logo-4.jpg?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200",
-   "domains": [],
-   "urls": [],
-   "videos": []
-  },
-  {
-   "t": 1794326607.452162,
-   "title": "Google ikkita yangi maxsus chipni taqdim etdi",
-   "text": "Google kompaniyasining yangi tensor qayta ishlash bloklari maxfiy modellarni o'qitish va xotira sig'imini oshirish uchun mo'ljallangan.",
-   "orig_title": "Google broadens its AI hardware portfolio with two new specialized chips",
-   "link": "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/",
-   "source": "TechCrunch AI",
-   "soha": "AI",
-   "baho": 7,
-   "experts": [],
-   "effect": null,
-   "image": "https://techcrunch.com/wp-content/uploads/2024/09/GettyImages-1484622878.jpeg?resize=1200,800",
-   "domains": [],
-   "urls": [],
-   "videos": []
-  },
-  {
-   "t": 1794326607.452162,
-   "title": "Kora: lokal sun'iy intellekt modellariga mo'ljallangan yangi Linux operatsion tizimi",
-   "text": "Cyanogen asoschisi tomonidan yaratilgan Kora operatsion tizimi Windows va macOS tizimlariga muqobil sifatida lokal AI foydalanuvchilariga mo'ljallangan.",
-   "orig_title": "This New Linux-Based Desktop Operating System Is Built for AI Nerds",
-   "link": "https://www.wired.com/story/kora-new-linux-based-desktop-operating-system-is-built-for-ai-nerds/",
-   "source": "Wired AI",
-   "soha": "AI",
-   "baho": 6,
-   "experts": [],
-   "effect": null,
-   "image": "https://media.wired.com/photos/6af27401edee43782ec1ac6b/191:100/w_1280,c_limit/gear_ai_operating_system_nerdy.jpg",
-   "domains": [],
-   "urls": [],
-   "videos": []
-  },
   {
    "t": 1794330159.6686654,
    "title": "Google Gemini 4 Carbon taqdim etildi",
@@ -3062,6 +2978,38 @@
     "https://www.yahoo.com/news/politics/articles/elvis-music-owners-eminem-publisher-161526743.html",
     "https://www.yahoo.com/entertainment/music/articles/elvis-presley-rights-holders-four-023000212.html"
    ],
+   "videos": []
+  },
+  {
+   "t": 1794499425.926031,
+   "title": "Luminal kompaniyasi Nvidia CUDA ustunligiga qarshi chiqish uchun 23 million dollar mablag‘ oldi",
+   "text": "Luminal startupsi Nvidia kompaniyasining CUDA monopoliyasiga qarshi kurashish uchun 23 million dollar miqdorida investitsiya mablag‘ini jalb qildi.",
+   "orig_title": "With $23M in funding, Luminal is the latest startup to put Nvidia’s CUDA moat in its crosshairs",
+   "link": "https://siliconangle.com/2026/11/12/with-23m-in-funding-luminal-is-the-latest-startup-to-put-nvidias-cuda-moat-in-its-crosshairs/",
+   "source": "siliconangle.com",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": null,
+   "image": "https://images.siliconangle.com/blogs.dir/1/files/2026/11/Screenshot-from-2026-11-06-09-46-04.png",
+   "domains": [],
+   "urls": [],
+   "videos": []
+  },
+  {
+   "t": 1794499425.926031,
+   "title": "Jensen Huang Nvidia xodimi bilan yangi ishqiy munosabatda gumon qilindi",
+   "text": "Nvidia bosh direktori Jensen Huang xitoylik josus bilan bog‘liq mojarodan so‘ng, kompaniya xodimi bilan yana bir ishqiy aloqada bo‘lganlikda ayblanmoqda.",
+   "orig_title": "Jensen Huang accused of having another affair — with an Nvidia exec",
+   "link": "https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 9,
+   "experts": [],
+   "effect": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2294936867.jpg?resize=1200,800",
+   "domains": [],
+   "urls": [],
    "videos": []
   }
  ]
