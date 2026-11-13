@@ -246,18 +246,8 @@
   "https://www.wired.com/story/black-roles-are-disappearing-in-hollywood-this-startup-is-using-ai-microdramas-to-fight-back/": 1794571266.2177112,
   "https://www.forbes.com/sites/novikaishar/2026/11/10/ai-is-making-entertainment-cheaper-but-will-it-be-more-profitable/": 1794571266.2177112
  },
- "fails": 0,
+ "fails": 1,
  "sent": [
-  {
-   "t": 1794225673.606958,
-   "title": "Nvidia is investigating Jensen Huang’s relationship with an alleged Chinese spy",
-   "soha": "AI"
-  },
-  {
-   "t": 1794225673.606958,
-   "title": "Viggle AI: How It Works and Best Alternatives",
-   "soha": "AI video"
-  },
   {
    "t": 1794229599.655268,
    "title": "Cinematographers’ Favorite Festival Is All About AI This Year — but Artists Still Hate the Tech",
