@@ -1,8 +1,5 @@
 {
  "seen": {
-  "https://www.theverge.com/ai-artificial-intelligence/1025482/openai-says-chatgpt-is-catching-up-to-google-in-search": 1793732282.5975866,
-  "https://www.cnbc.com/2026/11/03/ferrari-race-earnings-q3-2026.html": 1793732282.5975866,
-  "https://www.sciencedaily.com/releases/2026/11/261102075903.htm": 1793732282.5975866,
   "https://thepienews.com/canada-eu-alliance-to-expand-opportunities-for-students/": 1793787535.564443,
   "https://kun.uz/news/2026/11/04/buxoro-yangi-aeroportini-mustaqillik-bayramigacha-foydalanishga-topshirish-vazifasi-qoyildi-59233": 1793787535.564443,
   "https://www.newscientist.com/article/2595321-the-nuclear-repository-in-finland-designed-to-outlast-modern-civilisation/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS": 1793787535.564443,
@@ -257,40 +254,14 @@
   "https://the-decoder.com/openai-enters-the-cybersecurity-market-with-two-daybreak-products/": 1794589573.0672977,
   "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/": 1794592861.2283416,
   "https://the-decoder.com/anthropics-ipo-is-six-times-oversubscribed-and-on-track-to-become-the-largest-public-offering-in-history/": 1794592861.2283416,
-  "https://www.msn.com/en-us/technology/software/adobe-max-2026-live-updates-all-the-ai-photo-and-video-news/ar-AA2h8D7o": 1794592861.2283416
+  "https://www.msn.com/en-us/technology/software/adobe-max-2026-live-updates-all-the-ai-photo-and-video-news/ar-AA2h8D7o": 1794592861.2283416,
+  "https://www.marktechpost.com/2026/11/13/best-ai-video-generation-models-2026/": 1794596763.077386,
+  "https://www.analyticsinsight.net/artificial-intelligence/best-ai-drama-generator-tools-in-2026-ranked-for-short-dramas-anime-episodes-and-music-videos": 1794596763.077386,
+  "https://the-decoder.com/banks-bar-chinese-and-hong-kong-investors-from-anthropic-ipo-over-us-export-controls/": 1794596763.077386,
+  "https://the-decoder.com/nearly-70-percent-of-us-agencies-use-generative-ai-and-unions-are-finally-catching-up-with-guardrails/": 1794596763.077386
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1794247280.3149226,
-   "title": "Meta releases Muse Ember, a new lightweight model for agent execution",
-   "soha": "AI"
-  },
-  {
-   "t": 1794247280.3149226,
-   "title": "Nancy Pelosi’s replacement is ready to regulate AI",
-   "soha": "AI"
-  },
-  {
-   "t": 1794247280.3149226,
-   "title": "Trump’s 60 Minutes interview touched on AI safety, threat to arrest an AI exec",
-   "soha": "AI"
-  },
-  {
-   "t": 1794251150.3879302,
-   "title": "Anthropic launches new Claude Fable and Mythos 5.2 models",
-   "soha": "AI"
-  },
-  {
-   "t": 1794251150.3879302,
-   "title": "Bytedance's Seedream 5.5 promises pixel-stable image editing across 100 rounds without color drift",
-   "soha": "AI rasm"
-  },
-  {
-   "t": 1794251150.3879302,
-   "title": "Instagram’s Effect Builder makes new filters from AI prompts",
-   "soha": "AI rasm"
-  },
   {
    "t": 1794280048.2738967,
    "title": "‘Deserves an Oscar’: Disturbing AI short film about domestic violence leaves internet in tears",
@@ -1185,6 +1156,26 @@
    "t": 1794592861.2283416,
    "title": "Adobe Max 2026 Live Updates: All the AI, Photo and Video News",
    "soha": "AI video"
+  },
+  {
+   "t": 1794596763.077386,
+   "title": "Best AI Video Generation Models in 2026: Elo, Price per Second, Open Weights",
+   "soha": "AI video"
+  },
+  {
+   "t": 1794596763.077386,
+   "title": "Best AI Drama Generator Tools in 2026: Ranked for Short Dramas, Anime Episodes and Music Videos",
+   "soha": "AI video"
+  },
+  {
+   "t": 1794596763.077386,
+   "title": "Banks bar Chinese and Hong Kong investors from Anthropic IPO over US export controls",
+   "soha": "AI"
+  },
+  {
+   "t": 1794596763.077386,
+   "title": "Nearly 70 percent of US agencies use generative AI, and unions are finally catching up with guardrails",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -1196,185 +1187,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1794420074.9810429,
-   "title": "Protoface Seedance 2.5 API narxlarini e'lon qildi",
-   "text": "Protoface kompaniyasi yangi Seedance 2.5 uchun eng past API narxlarini taqdim etdi. 480p formatdagi generatsiya soniyasiga 0.08 dollardan boshlanadi.",
-   "orig_title": "Protoface Announces World’s Lowest Seedance 2.5 API Prices, Starting at $0.08 Per Second",
-   "link": "https://www.jsonline.com/press-release/story/267599/protoface-announces-worlds-lowest-seedance-2-5-api-prices-starting-at-0-08-per-second/",
-   "source": "jsonline.com",
-   "soha": "AI video",
-   "baho": 9,
-   "experts": [],
-   "effect": "API narxlarining keskin arzonlashuvi sun'iy intellekt video yaratish vositalaridan foydalanish xarajatlarini pasaytirib, mazkur bozorda raqobatni kuchaytirishi va kichik kompaniyalar uchun imkoniyatlarni kengaytirishi mumkin.",
-   "image": null,
-   "domains": [
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://finance.yahoo.com/quote/PINS/"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794420074.9810429,
-   "title": "Adobe Max ko'rgazmasida yangi eksperimental AI vositalarini namoyish etdi",
-   "text": "Adobe yillik Max anjumanida tasvirlarni 3D sahifalarga aylantiruvchi va muloqot orqali AI qahramonlarni loyihalashtiruvchi eksperimental funksiyalarini ko'rsatdi.",
-   "orig_title": "Adobe’s AI experiments let you walk around in photos and interview your characters",
-   "link": "https://www.theverge.com/tech/1031505/adobe-max-2026-sneaks-experiments-ai",
-   "source": "The Verge AI",
-   "soha": "AI rasm",
-   "baho": 8,
-   "experts": [],
-   "effect": "Media va kontent yaratish jarayonida ovoz va 3D muhitni sun'iy intellekt yordamida boshqarish muharrirlarning ish vaqtini qisqartirib, mahsuldorlikni oshirishi hamda mualliflik huquqi muammolarini hal qilishga yordam berishi ehtimoli bor.",
-   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Adobe-Project-Screen-Test.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
-   "domains": [
-    "theverge.com",
-    "wired.com"
-   ],
-   "urls": [
-    "https://www.theverge.com/tech/1031505/adobe-max-2026-sneaks-experiments-ai",
-    "https://www.wired.com/story/adobe-max-sneaks-2025-corrective-ai/"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794420074.9810429,
-   "title": "Anthropic AI yordamida NVIDIA CUDA ustunligini qisqartirdi",
-   "text": "Anthropic kompaniyasi o'zining Mythos modeli yordamida Claude dasturini AMD GPU'larga atigi uch kunda o'tkazishga muvaffaq bo'ldi.",
-   "orig_title": "Anthropic says AI is eroding Nvidia's CUDA lead, cutting an AMD chip switch from months to three days",
-   "link": "https://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days/",
-   "source": "The Decoder",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [
-    {
-     "kim": "Patrick Moorhead",
-     "lavozim": "asoschi va bosh direktor",
-     "fikr": "Bir nechta platformalar o'rtasida ishni ko'chira oladigan mijoz boshqacha muzokara olib boradi, shuning uchun haqiqiy xavf Nvidia'ning narx belgilash kuchiga qaratilgan bo'lishi mumkin.",
-     "url": "https://www.businessinsider.com/anthropic-ipo-filing-reveals-looming-threat-to-nvidia-pricing-power-2026-10",
-     "domain": "businessinsider.com"
-    },
-    {
-     "kim": "Ashish Nadkarni",
-     "lavozim": "tahlilchi",
-     "fikr": "Ko'p chipli yondashuv kompaniyani Nvidia chip ta'minotidagi o'zgarishlarga nisbatan kamroq zaif qiladi.",
-     "url": "https://www.businessinsider.com/anthropic-ipo-filing-reveals-looming-threat-to-nvidia-pricing-power-2026-10",
-     "domain": "businessinsider.com"
-    }
-   ],
-   "effect": "Sun'iy intellekt modellarini bir nechta chip arxitekturasiga moslashtirish jarayonining qisqarishi kompaniyalarga ta'minot zanjiridagi xavflarni kamaytirish va Nvidia'ning bozor ustunligini j jilovlash imkonini berishi mumkin.",
-   "image": "https://the-decoder.com/wp-content/uploads/2026/11/nvidia_moat-1200x670.png",
-   "domains": [
-    "the-decoder.com",
-    "businessinsider.com"
-   ],
-   "urls": [
-    "https://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days/",
-    "https://www.businessinsider.com/anthropic-ipo-filing-reveals-looming-threat-to-nvidia-pricing-power-2026-10"
-   ],
-   "videos": [
-    [
-     "https://www.youtube.com/watch?v=eynv5VR9qos",
-     "YouTube"
-    ]
-   ]
-  },
-  {
-   "t": 1794420074.9810429,
-   "title": "Google DeepMind AlphaGenome 2 modelini taqdim etdi",
-   "text": "Google DeepMind tadqiqotchilari DNK o'zgarishlarining hujayralarga ta'sirini o'rganuvchi AlphaGenome 2 sun'iy intellekt modelini e'lon qilishdi.",
-   "orig_title": "Google’s AlphaGenome 2 zooms in on the cellular roots of disease",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model",
-   "source": "The Verge AI",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "DNK mutatsiyalarining hujayralarga ta'sirini aniqroq bashorat qilish tibbiyot fanida kasalliklarning hujayraviy ildizlarini chuqur o'rganish va yangi davolash usullarini topish yo'llarini ochishi mumkin.",
-   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/alphagenome-atlas-cover__background.jpg?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200",
-   "domains": [
-    "theverge.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model",
-    "https://finance.yahoo.com/quote/GGLL/"
-   ],
-   "videos": [
-    [
-     "https://x.com/pushmeet/status/2119373171321196892",
-     "X"
-    ]
-   ]
-  },
-  {
-   "t": 1794420074.9810429,
-   "title": "DeepL Voice real vaqtda tarjima uchun Aure modelini chiqardi",
-   "text": "DeepL kompaniyasining yangi Aure modeli tarjima jarayonida asl nutqning ohangi, hissiyotlari va so'zlashuv tezligini to'liq saqlab qoladi.",
-   "orig_title": "DeepL wants real-time translation to finally capture sarcasm and mood shifts",
-   "link": "https://the-decoder.com/with-its-new-voice-model-deepl-voice-now-translates-intonation-and-speaking-speed-into-other-languages-as-well/",
-   "source": "The Decoder",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Real vaqtda emotsiya, ohang va hazilni saqlab qoluvchi tarjima texnologiyalari xalqaro muloqotdagi sun'iylikni kamaytirib, foydalanuvchilar o'rtasidagi masofaviy hamkorlik sifatini sezilarli darajada oshirishi ehtimoli bor.",
-   "image": "https://the-decoder.com/wp-content/uploads/2026/11/DeepL-Logo-ChatGPT-5.6.jpg",
-   "domains": [
-    "the-decoder.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://the-decoder.com/with-its-new-voice-model-deepl-voice-now-translates-intonation-and-speaking-speed-into-other-languages-as-well/",
-    "https://finance.yahoo.com/technology/ai/articles/deepl-unveils-aure-most-lifelike-080000198.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794420074.9810429,
-   "title": "ElevenLabs modelni moslashtirish va hamkorlik dasturini boshladi",
-   "text": "ElevenLabs kompaniyasi korxonalarga jonli ma'lumotlar asosida til va ovoz modellarini moslashtirish imkonini beruvchi yangi funksiyalarni taqdim etdi.",
-   "orig_title": "ElevenLabs Unveils Model Customization, ElevenAI and Partner Program",
-   "link": "https://www.unite.ai/elevenlabs-unveils-model-customization-elevenai-and-partner-program/",
-   "source": "unite.ai",
-   "soha": "AI musiqa",
-   "baho": 8,
-   "experts": [],
-   "effect": "Korxonalar uchun maxsus sun'iy intellekt modellarini moslashtirish va avtomatlashtirish vositalarining taqdim etilishi mijozlarga xizmat ko'rsatish va ish jarayonlarini boshqarish infratuzilmasini tubdan o'zgartirishi mumkin.",
-   "image": "https://www.unite.ai/wp-content/uploads/2026/11/elevenlabs-unveils-model-customization-elevenai-and-partner-program.jpg",
-   "domains": [
-    "unite.ai",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://www.unite.ai/elevenlabs-unveils-model-customization-elevenai-and-partner-program/",
-    "https://finance.yahoo.com/technology/ai/articles/openhome-elevenlabs-partner-grow-voice-010000093.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794423851.663401,
-   "title": "Gemini Decisions API taqdim etildi",
-   "text": "Google multimodal qarorlar qabul qilishga mo'ljallangan Gemini Decisions API'ni e'lon qildi.",
-   "orig_title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
-   "link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
-   "source": "Google AI",
-   "soha": "AI",
-   "baho": 9,
-   "experts": [],
-   "effect": "Sun'iy intellekt texnologiyalarining rivojlanishi va uning biznes jarayonlariga joriy etilishi kelgusida turli sohalarda, xususan texnologiya va moliya bozorlarida qisqartirishlar hamda yangi ish o'rinlari paydo bo'lishiga olib kelishi mumkin. Korxonalar byurokratiyani kamaytirish va samaradorlikni oshirish maqsadida xodimlar sonini optimallashtirishda davom etishi ehtimoli bor.",
-   "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini__decisions__blog-header_2784x1566.width-1300.png",
-   "domains": [
-    "blog.google",
-    "businessinsider.com",
-    "techcrunch.com"
-   ],
-   "urls": [
-    "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
-    "https://www.businessinsider.com/recent-company-layoffs-laying-off-workers-2026",
-    "https://techcrunch.com/2026/05/19/googles-gemini-omni-turns-images-audio-and-text-into-video-and-thats-just-the-start/"
-   ],
-   "videos": []
-  },
   {
    "t": 1794452753.907915,
    "title": "ACE Music v1 yangi musiqa modeli reytingda Suno'ni ortda qoldirdi",
@@ -3482,6 +3294,123 @@
    "urls": [
     "https://tech.yahoo.com/ai/meta-ai/articles/adobes-ai-agent-giant-leap-163039192.html",
     "https://www.theverge.com/tech/1030653/adobe-max-2026-photoshop-premiere-removal-updates"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794596763.077386,
+   "title": "2026-yilda eng yaxshi AI video generator modellari reytingi",
+   "text": "AI video generatorlar reytingi o'zgardi: mahalliy audio standartga aylandi, kliplar uzunligi 15-30 sekundga yetdi va ochiq vaznli model kuchli uchlikka kirdi.",
+   "orig_title": "Best AI Video Generation Models in 2026: Elo, Price per Second, Open Weights",
+   "link": "https://www.marktechpost.com/2026/11/13/best-ai-video-generation-models-2026/",
+   "source": "marktechpost.com",
+   "soha": "AI video",
+   "baho": 9,
+   "experts": [
+    {
+     "kim": "Stacy Rasgon",
+     "lavozim": "Bernstein Research tahlilchisi",
+     "fikr": "O‘yin segmenti endilikda kompaniyaning harakatlantiruvchi kuchi emas va bir vaqtlar aniq shunday bo‘lgan.",
+     "url": "https://www.cnbc.com/2026/04/18/nvidia-ai-backlash-gamers-geforce-gpu.html",
+     "domain": "cnbc.com"
+    }
+   ],
+   "effect": "Sun'iy intellekt video modellarining rivojlanishi va qat'iy xavfsizlik cheklovlari ijodkorlar uchun mualliflik huquqini himoya qilishni kuchaytirishi, shuningdek, chip ishlab chiqaruvchilarning strategiyasini o‘zgartirishi mumkin.",
+   "image": "https://www.marktechpost.com/wp-content/uploads/2026/11/WP-BLOG-BANNER-19999-4-scaled.png",
+   "domains": [
+    "marktechpost.com",
+    "cnbc.com",
+    "techcrunch.com"
+   ],
+   "urls": [
+    "https://www.marktechpost.com/2026/11/13/best-ai-video-generation-models-2026/",
+    "https://www.cnbc.com/2026/04/18/nvidia-ai-backlash-gamers-geforce-gpu.html",
+    "https://techcrunch.com/2026/03/26/bytedances-new-ai-video-generation-model-dreamina-seedance-2-0-comes-to-capcut/"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794596763.077386,
+   "title": "Qisqa dramalar va musiqiy videolar uchun AI drama generatorlari",
+   "text": "Sun'iy intellekt yordamida yaratilgan qisqa dramalar alohida kliplardan takrorlanuvchi qahramonlar va saundtreklarga ega to'liq epizodlarga aylandi.",
+   "orig_title": "Best AI Drama Generator Tools in 2026: Ranked for Short Dramas, Anime Episodes and Music Videos",
+   "link": "https://www.analyticsinsight.net/artificial-intelligence/best-ai-drama-generator-tools-in-2026-ranked-for-short-dramas-anime-episodes-and-music-videos",
+   "source": "analyticsinsight.net",
+   "soha": "AI video",
+   "baho": 8,
+   "experts": [
+    {
+     "kim": "Ken Bronfin",
+     "lavozim": "Hearst Ventures boshqaruvchi direktori",
+     "fikr": "Xitoyliklar kontentni qismlarga bo‘lish, tomoshabinni qiziqtirish va keyingi qismga o‘tkazish formulasini topib ulgurdi.",
+     "url": "https://finance.yahoo.com/media-advertising/articles/microdramas-bring-flood-ai-romance-165253116.html",
+     "domain": "finance.yahoo.com"
+    }
+   ],
+   "effect": "Mikrodramalar bozorining keskin o‘sishi media industriyasida raqobatni kuchaytirishi va an'anaviy kontent yaratuvchilar uchun jiddiy chaqiruvga aylanishi ehtimoli bor.",
+   "image": "https://media.assettype.com/analyticsinsight%2F2026-11-11%2F5k5n7nsi%2FBest-AI-Drama-Generator-Tools-in-2026-Ranked-for-Short-Dramas-Anime-Episodes-and-Music-Videos?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+   "domains": [
+    "analyticsinsight.net",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://www.analyticsinsight.net/artificial-intelligence/best-ai-drama-generator-tools-in-2026-ranked-for-short-dramas-anime-episodes-and-music-videos",
+    "https://finance.yahoo.com/media-advertising/articles/microdramas-bring-flood-ai-romance-165253116.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794596763.077386,
+   "title": "Banklar AQSh eksport nazorati tufayli xitoylik investorlarni Anthropic IPO'sidan chetlatdi",
+   "text": "Anthropic kompaniyasining aksiyalarini ommaviy joylashtirish jarayonida Xitoy va Gonkong investorlarining xarid buyurtmalari ITAR qoidalariga ko'ra rad etildi.",
+   "orig_title": "Banks bar Chinese and Hong Kong investors from Anthropic IPO over US export controls",
+   "link": "https://the-decoder.com/banks-bar-chinese-and-hong-kong-investors-from-anthropic-ipo-over-us-export-controls/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Qoidalar va geosiyosiy ziddiyatlar sababli ayrim hududlardagi investorlarning yirik IPO bitimlaridan chetlatilishi global moliya bozorlarida yangi cheklovlarni keltirib chiqarishi mumkin.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/08/anthropic_claude.png",
+   "domains": [
+    "the-decoder.com",
+    "finance.yahoo.com",
+    "malaysia.news.yahoo.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/banks-bar-chinese-and-hong-kong-investors-from-anthropic-ipo-over-us-export-controls/",
+    "https://finance.yahoo.com/markets/stocks/articles/anthropic-ipo-reportedly-closed-china-174510000.html",
+    "https://malaysia.news.yahoo.com/fallen-star-nvidia-ceo-scandal-140000063.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794596763.077386,
+   "title": "AQSh davlat idoralarining qariyb 70 foizi generativ sun'iy intellektdan foydalanmoqda",
+   "text": "Kasaba uyushmalari xodimlarni avtomatlashtirilgan bo'shatish va sun'iy intellekt orqali kuzatishga qarshi himoya choralarini kuchaytirmoqda.",
+   "orig_title": "Nearly 70 percent of US agencies use generative AI, and unions are finally catching up with guardrails",
+   "link": "https://the-decoder.com/nearly-70-percent-of-us-agencies-use-generative-ai-and-unions-are-finally-catching-up-with-guardrails/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 6,
+   "experts": [
+    {
+     "kim": "Kung Feng",
+     "lavozim": "Mehnat bo‘yicha tadqiqotchi",
+     "fikr": "Ish beruvchilar xarajatlarni qisqartirish uchun avtomatlashtirish jarayonini jadallashtirmoqda.",
+     "url": "https://the-decoder.com/nearly-70-percent-of-us-agencies-use-generative-ai-and-unions-are-finally-catching-up-with-guardrails/",
+     "domain": "the-decoder.com"
+    }
+   ],
+   "effect": "Davlat idoralari va tashkilotlarda sun'iy intellektning ommalashuvi kasaba uyushmalari tomonidan ish o'rinlarini himoya qilish bo'yicha qo'shimcha qoidalar va cheklovlarning joriy etilishiga olib kelishi mumkin.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/11/workers_fighting_ai.png",
+   "domains": [
+    "the-decoder.com",
+    "forbes.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/nearly-70-percent-of-us-agencies-use-generative-ai-and-unions-are-finally-catching-up-with-guardrails/",
+    "https://www.forbes.com/councils/forbestechcouncil/2026/09/08/generative-ai-is-just-the-latest-chapter-80-years-of-programming-automation/",
+    "https://www.forbes.com/councils/forbestechcouncil/2026/04/16/ai-guardrails-the-new-frontier-for-enterprise-risk/"
    ],
    "videos": []
   }
