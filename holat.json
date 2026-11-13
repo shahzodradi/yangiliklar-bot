@@ -249,50 +249,15 @@
   "https://www.unite.ai/suno-launches-bridge-beta-for-ai-stem-generation-in-ableton-live/": 1794582238.46558,
   "https://www.indiewire.com/news/festivals/camerimage-2026-is-all-about-ai-1235226124/": 1794585678.3947253,
   "https://the-decoder.com/former-openai-researcher-says-he-found-nvidia-blackwell-fingerprints-hidden-inside-six-chinese-ai-models/": 1794585678.3947253,
-  "https://www.therobotreport.com/runways-praxis-1-world-action-model-for-robotics-is-now-available/": 1794585678.3947253
+  "https://www.therobotreport.com/runways-praxis-1-world-action-model-for-robotics-is-now-available/": 1794585678.3947253,
+  "https://huggingface.co/blog/ggml-org/llama-cpp-v1": 1794589573.0672977,
+  "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on": 1794589573.0672977,
+  "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/": 1794589573.0672977,
+  "https://the-decoder.com/anthropics-claude-for-manufacturing-plugs-ai-directly-into-factory-software-to-automate-industrial-workflows/": 1794589573.0672977,
+  "https://the-decoder.com/openai-enters-the-cybersecurity-market-with-two-daybreak-products/": 1794589573.0672977
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1794240080.4155982,
-   "title": "Higgsfield Miracle Promises Real-Time AI Video Editing, Turning Any Clip Into Editable Layers",
-   "soha": "AI video"
-  },
-  {
-   "t": 1794240080.4155982,
-   "title": "Disney and Adobe are building generative AI tools together",
-   "soha": "AI video"
-  },
-  {
-   "t": 1794240080.4155982,
-   "title": "Tencent's AI chief says AI bioweapons are coming, but closing off models isn't the answer",
-   "soha": "AI"
-  },
-  {
-   "t": 1794240080.4155982,
-   "title": "Jonathan Kanter is using AI to take on Big Tech",
-   "soha": "AI"
-  },
-  {
-   "t": 1794243746.115088,
-   "title": "Anthropic joins AI’s natural gas frenzy, buys $3.4B worth of turbines",
-   "soha": "AI"
-  },
-  {
-   "t": 1794243746.115088,
-   "title": "Disney bets on Adobe's Firefly to create brand-safe AI models for its entertainment empire",
-   "soha": "AI rasm"
-  },
-  {
-   "t": 1794243746.115088,
-   "title": "Jensen Huang Hired a PR Firm Known for Handling Sex Scandals Last Year",
-   "soha": "AI"
-  },
-  {
-   "t": 1794243746.115088,
-   "title": "Authors Can Defend Against AI Allegations With ‘Paper Trail’ Tools. Is It Enough?",
-   "soha": "AI"
-  },
   {
    "t": 1794247280.3149226,
    "title": "Meta releases Muse Ember, a new lightweight model for agent execution",
@@ -1177,6 +1142,31 @@
    "t": 1794585678.3947253,
    "title": "Runway’s Praxis-1 world action model for robotics is now available",
    "soha": "AI video"
+  },
+  {
+   "t": 1794589573.0672977,
+   "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+   "soha": "AI"
+  },
+  {
+   "t": 1794589573.0672977,
+   "title": "Claude’s Duet agent is a little neurotic and surprisingly helpful",
+   "soha": "AI"
+  },
+  {
+   "t": 1794589573.0672977,
+   "title": "ElevenLabs’ new app combines meeting note-taking and dictation for teams",
+   "soha": "AI musiqa"
+  },
+  {
+   "t": 1794589573.0672977,
+   "title": "Anthropic's Claude for Manufacturing plugs AI directly into factory software to automate industrial workflows",
+   "soha": "AI"
+  },
+  {
+   "t": 1794589573.0672977,
+   "title": "OpenAI enters the cybersecurity market with two Daybreak products",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -3275,6 +3265,130 @@
    "videos": [
     [
      "https://www.youtube.com/watch?v=sXiLq_3TaAI",
+     "YouTube"
+    ]
+   ]
+  },
+  {
+   "t": 1794589573.0672977,
+   "title": "llama.cpp v1.0.0 taqdim etildi",
+   "text": "Llama.cpp v1.0.0 versiyasi mahalliy sun'iy intellekt ekotizimi uchun yanada kuchli poydevor yaratish maqsadida chiqarildi.",
+   "orig_title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+   "link": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+   "source": "Hugging Face",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Lokal sun'iy intellekt va maxfiylikning ahamiyati oshishi natijasida dasturchilar barqaror API interfeyslariga ko'proq bog'lanib qolishi mumkin.",
+   "image": "https://cdn-uploads.huggingface.co/production/uploads/63148d3b996c52bf0142cdbe/2PgU1GxpJX_LVORaP2RRy.png",
+   "domains": [
+    "huggingface.co",
+    "theguardian.com"
+   ],
+   "urls": [
+    "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+    "https://www.theguardian.com/technology/2026/sep/21/nvidia-boss-jensen-huang-dismisses-warnings-ai-destroys-world-anthropic"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794589573.0672977,
+   "title": "Anthropic kompaniyasining Claude Duet agenti chiqarildi",
+   "text": "Claude Duet Anthropic kompaniyasining iste'molchilarga mo'ljallangan yangi sun'iy intellekt agenti bo'lib, dasturlashni bilmaydigan foydalanuvchilar uchun mo'ljallangan.",
+   "orig_title": "Claude’s Duet agent is a little neurotic and surprisingly helpful",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
+   "source": "The Verge AI",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Ota-onalar uy yumushlarini avtomatlashtirish uchun sun'iy intellekt agentlarini erta foydalanuvchilar sifatida sinab ko'rishi mumkin, ammo maxfiylik siyosatidagi noaniqliklar qabul qilish jarayonini sekinlashtirishi ehtimoli bor.",
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/DSC04398_processed.jpg?quality=90&strip=all&crop=0%2C10.723165084465%2C100%2C78.55366983107&w=1200",
+   "domains": [
+    "theverge.com",
+    "tech.yahoo.com"
+   ],
+   "urls": [
+    "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
+    "https://tech.yahoo.com/ai/meta-ai/articles/ai-agents-may-run-household-100000972.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794589573.0672977,
+   "title": "ElevenLabs jamoalar uchun yangi ilova chiqardi",
+   "text": "ElevenAI jamoalar va korxonalar uchun mo'ljallangan yig'ilishlarni qayd etish va diktant yozish ilovasidir.",
+   "orig_title": "ElevenLabs’ new app combines meeting note-taking and dictation for teams",
+   "link": "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/",
+   "source": "TechCrunch AI",
+   "soha": "AI musiqa",
+   "baho": 7,
+   "experts": [],
+   "effect": "Korporativ jamoalar alohida eslatma yozish dasturlari uchun litsenziya sotib olish o'rniga yagona ovozli sun'iy intellekt yechimlariga o'tishi va bu bozordagi raqobatni kuchaytirishi mumkin.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/Screenshot-2026-11-13-at-7.19.18-PM.jpg?resize=1200,774",
+   "domains": [
+    "techcrunch.com",
+    "cnbc.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/",
+    "https://www.cnbc.com/select/best-cash-advance-apps/"
+   ],
+   "videos": [
+    [
+     "https://www.youtube.com/watch?v=cw_NRHMOPtw",
+     "YouTube"
+    ],
+    [
+     "https://x.com/ElevenLabs/status/2120611975780602296",
+     "X"
+    ]
+   ]
+  },
+  {
+   "t": 1794589573.0672977,
+   "title": "Claude for Manufacturing ishlab chiqarishga joriy etildi",
+   "text": "Anthropic kompaniyasining yangi plagini sun'iy intellektni Autodesk Fusion va Oracle NetSuite dasturlariga bog'lab, sanoat jarayonlarini avtomatlashtiradi.",
+   "orig_title": "Anthropic's Claude for Manufacturing plugs AI directly into factory software to automate industrial workflows",
+   "link": "https://the-decoder.com/anthropics-claude-for-manufacturing-plugs-ai-directly-into-factory-software-to-automate-industrial-workflows/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Sanoat korxonalari ishlab chiqarish jarayonlarini avtomatlashtirish, yetkazib beruvchilarni taqqoslash va ish unumdorligini oshirish orqali vaqtni sezilarli darajada tejashi mumkin.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/11/claude_for_manufactoring.png",
+   "domains": [
+    "the-decoder.com",
+    "tech.yahoo.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/anthropics-claude-for-manufacturing-plugs-ai-directly-into-factory-software-to-automate-industrial-workflows/",
+    "https://tech.yahoo.com/ai/claude/articles/anthropic-launches-claude-manufacturing-170944639.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794589573.0672977,
+   "title": "OpenAI Daybreik mahsulotlarini chiqardi",
+   "text": "OpenAI kiberxavfsizlik bozoriga kirish uchun Daybreik brendi ostida ikkita yangi xavfsizlik mahsulotini taqdim etdi.",
+   "orig_title": "OpenAI enters the cybersecurity market with two Daybreak products",
+   "link": "https://the-decoder.com/openai-enters-the-cybersecurity-market-with-two-daybreak-products/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Kiberxavfsizlik bozorida sun'iy intellekt agentlari orqali zaifliklarni avtomatik aniqlash va himoya qilish jarayonlari tezlashib, dasturiy ta'minot xavfsizligi oshishi mumkin.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/06/openai_logo_background_dark.png",
+   "domains": [
+    "the-decoder.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/openai-enters-the-cybersecurity-market-with-two-daybreak-products/",
+    "https://finance.yahoo.com/technology/ai/articles/ai-business-model-break-internet-140249532.html"
+   ],
+   "videos": [
+    [
+     "https://www.youtube.com/watch?v=YmxpxJZvm4M",
      "YouTube"
     ]
    ]
