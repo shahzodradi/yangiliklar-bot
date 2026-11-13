@@ -241,30 +241,13 @@
   "https://www.wired.com/story/silicon-valley-is-still-defending-jensen-huang/": 1794568026.2777922,
   "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite": 1794568026.2777922,
   "https://www.wired.com/story/jensen-huang-tanked-a-trillion-dollars-in-less-than-a-month/": 1794568026.2777922,
-  "https://techcrunch.com/2026/11/12/trump-floats-apple-chairman-tim-cook-as-jensen-huangs-successor/": 1794568026.2777922
+  "https://techcrunch.com/2026/11/12/trump-floats-apple-chairman-tim-cook-as-jensen-huangs-successor/": 1794568026.2777922,
+  "https://www.msn.com/en-us/entertainment/movies/oscars-short-film-race-filmmakers-on-animation-ai-and-storytelling/ar-AA2gXD4E": 1794571266.2177112,
+  "https://www.wired.com/story/black-roles-are-disappearing-in-hollywood-this-startup-is-using-ai-microdramas-to-fight-back/": 1794571266.2177112,
+  "https://www.forbes.com/sites/novikaishar/2026/11/10/ai-is-making-entertainment-cheaper-but-will-it-be-more-profitable/": 1794571266.2177112
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1794222520.0133631,
-   "title": "Is Jensen Huang’s job on the line? Yale’s Jeffrey Sonnenfeld estimates it’s “about a 50-50”",
-   "soha": "AI"
-  },
-  {
-   "t": 1794222520.0133631,
-   "title": "The inventor of the bitter lesson has a bitter lesson for LLM scaling enthusiasts",
-   "soha": "AI"
-  },
-  {
-   "t": 1794222520.0133631,
-   "title": "The brain-as-computer metaphor shaped modern AI but may be misleading the consciousness debate",
-   "soha": "AI"
-  },
-  {
-   "t": 1794222520.0133631,
-   "title": "Bikers and Bug-Lovers Join Forces to Fight a New Google Data Center",
-   "soha": "AI"
-  },
   {
    "t": 1794225673.606958,
    "title": "Nvidia is investigating Jensen Huang’s relationship with an alleged Chinese spy",
@@ -1184,6 +1167,21 @@
    "t": 1794568026.2777922,
    "title": "Trump floats Apple chairman Tim Cook as Jensen Huang’s successor",
    "soha": "AI"
+  },
+  {
+   "t": 1794571266.2177112,
+   "title": "Oscars short film race: Filmmakers on animation, AI and storytelling",
+   "soha": "AI tanlov"
+  },
+  {
+   "t": 1794571266.2177112,
+   "title": "This Startup Is Betting on AI Microdramas to Get More Black Stories in Hollywood",
+   "soha": "AI video"
+  },
+  {
+   "t": 1794571266.2177112,
+   "title": "AI Is Making Entertainment Cheaper. But Will It Be More Profitable?",
+   "soha": "AI video"
   }
  ],
  "mavzu": {
@@ -1195,30 +1193,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1794398463.6209626,
-   "title": "BiteSpeed AI Creative Studio e-tijorat uchun ishga tushirildi",
-   "text": "BiteSpeed brendlarga mahsulot videolari va reklamalarni tezda yaratishga yordam beruvchi AI Creative Studio vositasini taqdim etdi.",
-   "orig_title": "BiteSpeed Launches AI Creative Studio, Aims to Build the Higgsfield for E- Commerce",
-   "link": "https://www.livemint.com/focus/bitespeed-launches-ai-creative-studio-aims-to-build-the-higgsfield-for-e-commerce-11794395114422.html",
-   "source": "livemint.com",
-   "soha": "AI video",
-   "baho": 8,
-   "experts": [],
-   "effect": "Brendlar reklama roliklarini ishlab chiqarish vaqtini va xarajatlarini keskin qisqartirishi hamda haftalik testlar sonini oshirishi mumkin. Bu elektron tijorat bozorida kichik va o‘rta brendlar uchun raqobatbardoshlikni oshirib, video kontent yaratish jarayonini ommalashtirishi ehtimoli bor.",
-   "image": "https://www.livemint.com/lm-img/img/2026/11/11/1600x900/logo/vdd_1794395234442_EyMy_1794395237730_3SxP_ff89868c-6ddd-44ef-9796-a69b62e0557a_vEfp.png",
-   "domains": [
-    "livemint.com",
-    "cnbc.com",
-    "businessinsider.com"
-   ],
-   "urls": [
-    "https://www.livemint.com/focus/bitespeed-launches-ai-creative-studio-aims-to-build-the-higgsfield-for-e-commerce-11794395114422.html",
-    "https://www.cnbc.com/e-commerce/",
-    "https://www.businessinsider.com/category/e-commerce"
-   ],
-   "videos": []
-  },
   {
    "t": 1794402645.2717056,
    "title": "Pranav Bhasinning 'We Were Here' filmi Oskar tanlovida",
@@ -3234,6 +3208,85 @@
     "https://techcrunch.com/2026/11/12/trump-floats-apple-chairman-tim-cook-as-jensen-huangs-successor/",
     "https://finance.yahoo.com/technology/articles/jensen-huang-irreplaceable-nvidia-board-010036045.html",
     "https://finance.yahoo.com/markets/stocks/articles/nvidia-stock-wiped-1-7-182328686.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794571266.2177112,
+   "title": "Oskar qisqa metrajli film poygasi va animatsiyada AI",
+   "text": "Akademiya mukofotlari uchun kurashayotgan eng qiziqarli qisqa metrajli filmlarda AI texnologiyalari va hikoyalar yaratish usullari muhokaba qilinmoqda.",
+   "orig_title": "Oscars short film race: Filmmakers on animation, AI and storytelling",
+   "link": "https://www.msn.com/en-us/entertainment/movies/oscars-short-film-race-filmmakers-on-animation-ai-and-storytelling/ar-AA2gXD4E",
+   "source": "msn.com",
+   "soha": "AI tanlov",
+   "baho": 8,
+   "experts": [],
+   "effect": "Yangi animatsiya loyihalari Avstraliya va Irlandiyada minggacha ish o‘rinlarini yaratishi va xalqaro auditoriyani jalb etishi mumkin.",
+   "image": null,
+   "domains": [
+    "yahoo.com"
+   ],
+   "urls": [
+    "https://www.yahoo.com/entertainment/movies/articles/oscar-qualifying-shorts-directors-power-012000267.html",
+    "https://www.yahoo.com/entertainment/movies/articles/pout-pout-fish-studio-photon-031059561.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794571266.2177112,
+   "title": "Mansa AI mikrodramalar orqali Gollivudda qora tanlilar hikoyalarini ko'paytirmoqda",
+   "text": "Mansa studiyasi taqdim etayotgan AI mikrodramalari qora tanli tomoshabinlar qiziqishlarini ko'rsatuvchi konsepsiya vazifasini bajaradi, tanqidchilar esa buni sotilish deb baholamoqda.",
+   "orig_title": "This Startup Is Betting on AI Microdramas to Get More Black Stories in Hollywood",
+   "link": "https://www.wired.com/story/black-roles-are-disappearing-in-hollywood-this-startup-is-using-ai-microdramas-to-fight-back/",
+   "source": "Wired AI",
+   "soha": "AI video",
+   "baho": 8,
+   "experts": [
+    {
+     "kim": "Rhett Reese",
+     "lavozim": "Ssenariy muallifi",
+     "fikr": "Sun'iy intellekt vositalari kelgusida hamma joyda ish o‘rinlarini qisqartirishi mumkin.",
+     "url": "https://www.forbes.com/councils/forbestechcouncil/2026/11/09/as-ai-videos-terrify-hollywood-is-it-time-to-hand-ip-management-to-the-masses/",
+     "domain": "forbes.com"
+    }
+   ],
+   "effect": "Sun'iy intellektga asoslangan kontentning ommalashuvi kino sanoatida ish o‘rinlari qisqarishiga va studiyalarning mualliflik huquqini himoya qilish uchun keskin choralar ko‘rishiga olib kelishi mumkin.",
+   "image": "https://media.wired.com/photos/6af65ba58bac4203b57b5ba0/191:100/w_1280,c_limit/Startup-Betting-on-AI-Microdramas-Culture.jpg",
+   "domains": [
+    "wired.com",
+    "forbes.com",
+    "theguardian.com"
+   ],
+   "urls": [
+    "https://www.wired.com/story/black-roles-are-disappearing-in-hollywood-this-startup-is-using-ai-microdramas-to-fight-back/",
+    "https://www.forbes.com/councils/forbestechcouncil/2026/11/09/as-ai-videos-terrify-hollywood-is-it-time-to-hand-ip-management-to-the-masses/",
+    "https://www.theguardian.com/film/2026/nov/03/china-first-ai-generated-film-flops-cinema-future"
+   ],
+   "videos": [
+    [
+     "https://www.instagram.com/reel/DfGFWjiFRQA/",
+     "Instagram"
+    ]
+   ]
+  },
+  {
+   "t": 1794571266.2177112,
+   "title": "AI ko'ngilochar sanoat xarajatlarini kamaytirmoqda, biroq foyda keltiradimi?",
+   "text": "Generativ AI kino ishlab chiqarish xarajatlarini keskin qisqartirayotgan bir paytda, studiyalar mualliflik huquqi va litsenziya bo'yicha yuridik muammolarga duch kelmoqda.",
+   "orig_title": "AI Is Making Entertainment Cheaper. But Will It Be More Profitable?",
+   "link": "https://www.forbes.com/sites/novikaishar/2026/11/10/ai-is-making-entertainment-cheaper-but-will-it-be-more-profitable/",
+   "source": "forbes.com",
+   "soha": "AI video",
+   "baho": 7,
+   "experts": [],
+   "effect": "Kompaniyalarning moliyaviy ko‘rsatkichlari prognozlardan farq qilishi bozor reaksiyasiga va aksiyalar narxining o‘zgarishiga olib kelishi mumkin.",
+   "image": null,
+   "domains": [
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://finance.yahoo.com/markets/stocks/articles/mbuu-q3-cy2026-deep-dive-115736266.html",
+    "https://finance.yahoo.com/healthcare/articles/heartflow-reports-third-quarter-2026-210100819.html"
    ],
    "videos": []
   }
