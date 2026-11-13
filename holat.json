@@ -245,7 +245,8 @@
   "https://www.msn.com/en-us/entertainment/movies/oscars-short-film-race-filmmakers-on-animation-ai-and-storytelling/ar-AA2gXD4E": 1794571266.2177112,
   "https://www.wired.com/story/black-roles-are-disappearing-in-hollywood-this-startup-is-using-ai-microdramas-to-fight-back/": 1794571266.2177112,
   "https://www.forbes.com/sites/novikaishar/2026/11/10/ai-is-making-entertainment-cheaper-but-will-it-be-more-profitable/": 1794571266.2177112,
-  "https://www.msn.com/en-us/technology/artificial-intelligence/this-ai-finds-patterns-in-visual-brain-activity-and-turns-them-into-pictures/ar-AA2hm62z": 1794578463.358221
+  "https://www.msn.com/en-us/technology/artificial-intelligence/this-ai-finds-patterns-in-visual-brain-activity-and-turns-them-into-pictures/ar-AA2hm62z": 1794578463.358221,
+  "https://www.unite.ai/suno-launches-bridge-beta-for-ai-stem-generation-in-ableton-live/": 1794582238.46558
  },
  "fails": 0,
  "sent": [
@@ -1158,6 +1159,11 @@
    "t": 1794578463.358221,
    "title": "This AI finds patterns in visual brain activity and turns them into pictures",
    "soha": "AI rasm"
+  },
+  {
+   "t": 1794582238.46558,
+   "title": "Suno Launches Bridge Beta for AI Stem Generation in Ableton Live",
+   "soha": "AI musiqa"
   }
  ],
  "mavzu": {
@@ -1169,74 +1175,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1794405767.6505322,
-   "title": "Moda rasmlarini Higgsfield Soul 2.0 yordamida yaratish",
-   "text": "Higgsfield vositasi yordamida personajlarni o'qitish, kayfiyat taxtalari va video animatsiya orqali professional moda rasmlarini yaratish usullari ko'rsatildi.",
-   "orig_title": "How I create fashion images with Higgsfield Soul 2.0",
-   "link": "https://www.msn.com/en-gb/technology/artificial-intelligence/how-i-create-fashion-images-with-higgsfield-soul-2-0/vi-AA2he0g8",
-   "source": "msn.com",
-   "soha": "AI video",
-   "baho": 9,
-   "experts": [],
-   "effect": "Raqobat kuchayishi natijasida sun'iy intellekt vositalari tezroq ishlay boshlashi va video ishlab chiqarish xarajatlari kamayishi mumkin.",
-   "image": null,
-   "domains": [
-    "techcrunch.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://techcrunch.com/2024/12/11/gemini-2-0-googles-newest-flagship-ai-can-generate-text-images-and-speech/",
-    "https://finance.yahoo.com/technology/ai/articles/higgsfield-cinema-studio-4-0-130000643.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794405767.6505322,
-   "title": "AQSh ma'lumot brokerlari Xitoy AI laboratoriyalariga ma'lumot sotmoqda",
-   "text": "Mercor va Surge AI kabi AQSh ma'lumot brokerlari Xitoyning AI laboratoriyalariga yuz millionlab dollarlik sun'iy intellektni o'qitish muhitlarini sotmoqda.",
-   "orig_title": "US data brokers are selling half a billion dollars in RL training environments to Chinese AI labs",
-   "link": "https://the-decoder.com/us-data-brokers-are-selling-half-a-billion-dollars-in-rl-training-environments-to-chinese-ai-labs/",
-   "source": "The Decoder",
-   "soha": "AI",
-   "baho": 7,
-   "experts": [],
-   "effect": "Xitoy sun'iy intellekt lablari AQSh ishlanmalaridan foydalanishi sababli texnologik tafovut qisqarishi va eksport nazorati kuchayishi mumkin.",
-   "image": "https://the-decoder.com/wp-content/uploads/2026/06/china_vs_usa_ai_race.png",
-   "domains": [
-    "the-decoder.com",
-    "techcrunch.com"
-   ],
-   "urls": [
-    "https://the-decoder.com/us-data-brokers-are-selling-half-a-billion-dollars-in-rl-training-environments-to-chinese-ai-labs/",
-    "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/",
-    "https://techcrunch.com/2026/07/21/us-threatens-sanctions-against-chinese-ai-models-over-ip-theft/"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794405767.6505322,
-   "title": "Grok yordamida yaratilgan ilovalar bemorlar ma'lumotlarini oshkor qildi",
-   "text": "Claroc xavfsizlik firmasi Grok tomonidan yaratilgan 35 mingdan ortiq ilovalar parol va bemorlar ma'lumotlarini ochiq holda qoldirganini aniqladi.",
-   "orig_title": "Grok-built apps exposed patient data, plaintext passwords, and SpaceXSI's own sales pipeline",
-   "link": "https://the-decoder.com/grok-built-apps-exposed-patient-data-plaintext-passwords-and-spacexsis-own-sales-pipeline/",
-   "source": "The Decoder",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Maxfiy ma'lumotlar oshkor bo‘lishi xavfsizlik choralarini kuchaytirishga va ilovalarning ilova do‘konlaridan vaqtincha olib tashlanishiga olib kelishi mumkin.",
-   "image": "https://the-decoder.com/wp-content/uploads/2026/05/grok_xai_logo.png",
-   "domains": [
-    "the-decoder.com",
-    "cnbc.com"
-   ],
-   "urls": [
-    "https://the-decoder.com/grok-built-apps-exposed-patient-data-plaintext-passwords-and-spacexsis-own-sales-pipeline/",
-    "https://www.cnbc.com/select/best-cash-advance-apps/",
-    "https://www.cnbc.com/2026/01/09/grok-app-should-be-suspended-from-apple-google-democratic-senators.html"
-   ],
-   "videos": []
-  },
   {
    "t": 1794420074.9810429,
    "title": "Protoface Seedance 2.5 API narxlarini e'lon qildi",
@@ -3211,6 +3149,30 @@
    "urls": [
     "https://tech.yahoo.com/science/articles/ai-finds-patterns-visual-brain-100000672.html",
     "https://tech.yahoo.com/ai/meta-ai/articles/muse-maker-trained-ai-50-231800070.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794582238.46558,
+   "title": "Suno Ableton Live uchun Suno Bridge beta versiyasini chiqardi",
+   "text": "Suno musiqa modellari yordamida Ableton Live sessiyalarida vokal va cholg'u qismlarini yaratuvchi Suno Bridge beta dasturini ishga tushirdi.",
+   "orig_title": "Suno Launches Bridge Beta for AI Stem Generation in Ableton Live",
+   "link": "https://www.unite.ai/suno-launches-bridge-beta-for-ai-stem-generation-in-ableton-live/",
+   "source": "unite.ai",
+   "soha": "AI musiqa",
+   "baho": 9,
+   "experts": [],
+   "effect": "Musiqa yaratish jarayoni tezlashishi va prodyuserlarning ish unumdorligi oshishi mumkin. Shuningdek, loyihalarni bulutga yuklash orqali mualliflik huquqini avtomatlashtirilgan tekshirish yangi me’yorga aylanishi ehtimoli bor.",
+   "image": "https://www.unite.ai/wp-content/uploads/2026/11/suno-launches-bridge-beta-for-ai-stem-generation-in-ableton-live.jpg",
+   "domains": [
+    "unite.ai",
+    "finance.yahoo.com",
+    "theguardian.com"
+   ],
+   "urls": [
+    "https://www.unite.ai/suno-launches-bridge-beta-for-ai-stem-generation-in-ableton-live/",
+    "https://finance.yahoo.com/quote/RZLV/",
+    "https://www.theguardian.com/technology/2026/oct/19/ai-tool-predict-cancer-survival-patient-selfie"
    ],
    "videos": []
   }
