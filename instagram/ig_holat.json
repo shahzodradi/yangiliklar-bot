@@ -19,9 +19,12 @@
   ],
   "Deep Blue (chess computer)": [
    "In the 44th move of the first game of their second match, unknown to Kasparov, a bug in Deep Blue's code led it to enter an unintentional loop, which it exited by taking a randomly selected valid move"
+  ],
+  "AlphaGo": [
+   "After winning its 59th game Master revealed itself in the chatroom to be controlled by Dr. Aja Huang of the DeepMind team, then changed its nationality to the United Kingdom."
   ]
  },
- "fakt_navbat": 5,
+ "fakt_navbat": 7,
  "videos": [
   "https://www.youtube.com/watch?v=5KyifKNlY7A"
  ]
