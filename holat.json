@@ -244,30 +244,11 @@
   "https://techcrunch.com/2026/11/12/trump-floats-apple-chairman-tim-cook-as-jensen-huangs-successor/": 1794568026.2777922,
   "https://www.msn.com/en-us/entertainment/movies/oscars-short-film-race-filmmakers-on-animation-ai-and-storytelling/ar-AA2gXD4E": 1794571266.2177112,
   "https://www.wired.com/story/black-roles-are-disappearing-in-hollywood-this-startup-is-using-ai-microdramas-to-fight-back/": 1794571266.2177112,
-  "https://www.forbes.com/sites/novikaishar/2026/11/10/ai-is-making-entertainment-cheaper-but-will-it-be-more-profitable/": 1794571266.2177112
+  "https://www.forbes.com/sites/novikaishar/2026/11/10/ai-is-making-entertainment-cheaper-but-will-it-be-more-profitable/": 1794571266.2177112,
+  "https://www.msn.com/en-us/technology/artificial-intelligence/this-ai-finds-patterns-in-visual-brain-activity-and-turns-them-into-pictures/ar-AA2hm62z": 1794578463.358221
  },
- "fails": 1,
+ "fails": 0,
  "sent": [
-  {
-   "t": 1794229599.655268,
-   "title": "Cinematographers’ Favorite Festival Is All About AI This Year — but Artists Still Hate the Tech",
-   "soha": "AI tanlov"
-  },
-  {
-   "t": 1794229599.655268,
-   "title": "Google ships four TPU variants in one year as it ramps up competition with Nvidia",
-   "soha": "AI"
-  },
-  {
-   "t": 1794232863.0342844,
-   "title": "Nvidia espionage scandal weakens Huang's lobby against tighter AI chip export controls",
-   "soha": "AI"
-  },
-  {
-   "t": 1794232863.0342844,
-   "title": "Expanding Teen Account Protections to Teens Around the World",
-   "soha": "AI"
-  },
   {
    "t": 1794236933.5860488,
    "title": "GPT-6 Cyber: OpenAI rates its new security model as Critical",
@@ -1172,6 +1153,11 @@
    "t": 1794571266.2177112,
    "title": "AI Is Making Entertainment Cheaper. But Will It Be More Profitable?",
    "soha": "AI video"
+  },
+  {
+   "t": 1794578463.358221,
+   "title": "This AI finds patterns in visual brain activity and turns them into pictures",
+   "soha": "AI rasm"
   }
  ],
  "mavzu": {
@@ -1183,79 +1169,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1794402645.2717056,
-   "title": "Pranav Bhasinning 'We Were Here' filmi Oskar tanlovida",
-   "text": "Pranav Bhasin tomonidan suratga olingan sun'iy intellekt va ish o'rinlari mavzusidagi 'We Were Here' qisqa metrajli filmi Oskar saralashiga kiritildi.",
-   "orig_title": "AI-fighters take centre stage in Pranav Bhasin’s Oscar-qualified We Were Here",
-   "link": "https://indianexpress.com/article/express-sunday-eye/ai-fighters-take-centre-stage-in-pranav-bhasins-oscar-qualified-we-were-here-10959099/",
-   "source": "indianexpress.com",
-   "soha": "AI tanlov",
-   "baho": 10,
-   "experts": [],
-   "effect": "Filmning nufuzli kinofestivallarda muvaffaqiyat qozonishi va Oskar mukofotiga da'vogar bo'lishi uning xalqaro miqyosdagi e'tiborini oshirishi mumkin. Shuningdek, loyihaga taniqli ijodkorlarning bosh prodyuser sifatida qo'shilishi qisqa metrajli hind kinolariga bo'lgan qiziqishni yanada kuchaytirishi ehtimoli bor.",
-   "image": null,
-   "domains": [
-    "yahoo.com"
-   ],
-   "urls": [
-    "https://www.yahoo.com/entertainment/movies/articles/priyanka-chopra-jonas-v-board-140000278.html",
-    "https://www.yahoo.com/entertainment/movies/articles/everytime-trailer-mind-bending-grief-140000880.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794402645.2717056,
-   "title": "OpenAI choraklik daromadini 10 milliard dollarga yetkazdi",
-   "text": "OpenAI daromadini 50 foizga oshirib 10 milliard dollarga yetkazdi, biroq uning sof zarari 10,9 milliard dollarni tashkil etmoqda.",
-   "orig_title": "Enterprise sales push OpenAI's quarterly revenue to $10 billion, though it still trails Anthropic",
-   "link": "https://the-decoder.com/enterprise-sales-push-openais-quarterly-revenue-to-10-billion-though-it-still-trails-anthropic/",
-   "source": "The Decoder",
-   "soha": "AI",
-   "baho": 9,
-   "experts": [
-    {
-     "kim": "Art Hogan",
-     "lavozim": "Bosh bozor strategi",
-     "fikr": "Anthropic kompaniyasining aksiyalarini ommaviy joylashtirishi investorlarning sun'iy intellekt infratuzilmasi xarajatlari va ularni moliyalashtirish borasidagi xavotirlarining navbatdagi qismidir.",
-     "url": "https://finance.yahoo.com/technology/ai/articles/openai-reports-steep-losses-despite-081159477.html",
-     "domain": "finance.yahoo.com"
-    }
-   ],
-   "effect": "Kompaniyalarning sun'iy intellekt sohasidagi xarajatlari va moliyalashtirish masalalari investorlar o'rtasida xavotirlarni keltirib chiqarishi mumkin. Bozor ishtirokchilari mazkur texnologiya sektoridagi xarajatlar qanday qoplanishini yaqindan kuzatishda davom etishi ehtimoli bor.",
-   "image": "https://the-decoder.com/wp-content/uploads/2026/09/openai_logo_astra-1.png",
-   "domains": [
-    "the-decoder.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://the-decoder.com/enterprise-sales-push-openais-quarterly-revenue-to-10-billion-though-it-still-trails-anthropic/",
-    "https://finance.yahoo.com/technology/ai/articles/openai-reports-steep-losses-despite-081159477.html",
-    "https://finance.yahoo.com/markets/stocks/articles/us-stock-futures-rise-coreweave-100710852.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794402645.2717056,
-   "title": "Adobe Firefly dasturiga yangi sun'iy intellekt vositalari qo'shildi",
-   "text": "Adobe kompaniyasi Firefly platformasiga yangi prototip yaratuvchi vositalar va MCP integratsiyasini taqdim etdi.",
-   "orig_title": "Adobe adds more AI to its products and launches an MCP",
-   "link": "https://www.msn.com/en-us/news/other/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/ar-AA2h8CGl",
-   "source": "msn.com",
-   "soha": "AI rasm",
-   "baho": 8,
-   "experts": [],
-   "effect": "Sun'iy intellekt agentlariga turli integratsiyalarning joriy etilishi kontent yaratish jarayonlarini tezlashtirishi va foydalanuvchilarning ish unumdorligini oshirishi mumkin. Bu turdagi yechimlar kelgusida dasturchilar va marketing jamoalari uchun turli xizmatlardan foydalanishni sezilarli darajada soddalashtirishi ehtimoli bor.",
-   "image": null,
-   "domains": [
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://finance.yahoo.com/technology/ai/articles/loova-ai-launches-mcp-integration-134300172.html",
-    "https://finance.yahoo.com/technology/ai/articles/voidmob-highlights-ai-agent-integration-120900341.html"
-   ],
-   "videos": []
-  },
   {
    "t": 1794405767.6505322,
    "title": "Moda rasmlarini Higgsfield Soul 2.0 yordamida yaratish",
@@ -3277,6 +3190,27 @@
    "urls": [
     "https://finance.yahoo.com/markets/stocks/articles/mbuu-q3-cy2026-deep-dive-115736266.html",
     "https://finance.yahoo.com/healthcare/articles/heartflow-reports-third-quarter-2026-210100819.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794578463.358221,
+   "title": "AI miya faolligini o'rganib rasmlar yaratmoqda",
+   "text": "Brain-IT deb nomlangan yangi sun'iy intellekt modeli miya skanerlarini tasvirlarga aylantira oladi va aksincha jarayonni bajaradi.",
+   "orig_title": "This AI finds patterns in visual brain activity and turns them into pictures",
+   "link": "https://www.msn.com/en-us/technology/artificial-intelligence/this-ai-finds-patterns-in-visual-brain-activity-and-turns-them-into-pictures/ar-AA2hm62z",
+   "source": "msn.com",
+   "soha": "AI rasm",
+   "baho": 8,
+   "experts": [],
+   "effect": "Miy faoliyatini tasvirga aylantiruvchi suniy intellekt texnologiyalarining rivojlanishi neyrotexnologiya va shaxsiy maxfiylik siyosatini qayta ko‘rib chiqishga olib kelishi mumkin. Bunday tizimlar tibbiy tadqiqotlarni yaxshilash bilan birga, foydalanuvchilar ma'lumotlaridan foydalanish bo‘yicha yangi huquqiy muhokamalarni keltirib chiqarishi ehtimoli bor.",
+   "image": null,
+   "domains": [
+    "tech.yahoo.com"
+   ],
+   "urls": [
+    "https://tech.yahoo.com/science/articles/ai-finds-patterns-visual-brain-100000672.html",
+    "https://tech.yahoo.com/ai/meta-ai/articles/muse-maker-trained-ai-50-231800070.html"
    ],
    "videos": []
   }
