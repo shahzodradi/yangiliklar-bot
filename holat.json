@@ -233,7 +233,10 @@
   "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/": 1794542462.6867118,
   "https://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations": 1794542462.6867118,
   "https://www.theverge.com/games/1032085/gdc-festival-of-gaming-annual-survey-ai-layoffs": 1794542462.6867118,
-  "https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots/": 1794546541.9908485
+  "https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots/": 1794546541.9908485,
+  "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/": 1794549697.8480587,
+  "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/": 1794549697.8480587,
+  "https://about.fb.com/news/2026/11/meta-new-agreements-clean-manufacturing-data-center-supply-chains/": 1794549697.8480587
  },
  "fails": 0,
  "sent": [
@@ -1116,6 +1119,21 @@
    "t": 1794546541.9908485,
    "title": "Phota Labs uses AI to turn everyday photos into professional-looking shots",
    "soha": "AI rasm"
+  },
+  {
+   "t": 1794549697.8480587,
+   "title": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
+   "soha": "AI"
+  },
+  {
+   "t": 1794549697.8480587,
+   "title": "SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions",
+   "soha": "AI"
+  },
+  {
+   "t": 1794549697.8480587,
+   "title": "Meta’s New Agreements Bring Clean Manufacturing to Data Center Supply Chains",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -1127,53 +1145,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1794376890.129379,
-   "title": "AI Era Corp. AI skriptdan video yaratish quvuri huquqlarini sotib oldi",
-   "text": "AI Era Corp. kompaniyasi uzun metrajli seriallar yaratish va litsenziyalashga qaratilgan agentik AI skriptdan video yaratish quvurining eksklyuziv huquqlarini qo'lga kiritdi.",
-   "orig_title": "AI Era Corp. Acquires Exclusive Rights to AI Script-to-Video Pipeline",
-   "link": "https://markets.businessinsider.com/news/stocks/ai-era-corp-acquires-exclusive-rights-to-ai-script-to-video-pipeline-1036743477",
-   "source": "markets.businessinsider.com",
-   "soha": "AI video",
-   "baho": 8,
-   "experts": [],
-   "effect": "Kompaniyalarning sun'iy intellektga asoslangan video va dori ishlab chiqarish tizimlarini joriy etishi xarajatlarni keskin kamaytirib, bozor raqobatini yanada kuchaytirishi mumkin.",
-   "image": "https://ml.globenewswire.com/media/ace64e6a-0fa5-4a96-91a0-5e147ddba9f7/small/globe-png.png",
-   "domains": [
-    "markets.businessinsider.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://markets.businessinsider.com/news/stocks/ai-era-corp-acquires-exclusive-rights-to-ai-script-to-video-pipeline-1036743477",
-    "https://finance.yahoo.com/markets/stocks/articles/viant-technology-dsp-q3-2026-170227329.html",
-    "https://finance.yahoo.com/sectors/healthcare/articles/recursion-pharmaceuticals-details-ai-driven-050418210.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794376890.129379,
-   "title": "DIY AI Studio to'qqizta mahsulot videosi sinovini e'lon qildi",
-   "text": "DIY AI qisqa videolar uchun Veo 3.1 Lite yoki Runway Gen-4 Turbo modellarini tavsiya etib, to'qqizta sun'iy intellekt video generatori sinovini nashr etdi.",
-   "orig_title": "AI Video Generator Free Trial: 9 Tests in DIY AI Studio",
-   "link": "https://finance.yahoo.com/technology/ai/articles/ai-video-generator-free-trial-151300153.html",
-   "source": "finance.yahoo.com",
-   "soha": "AI video",
-   "baho": 7,
-   "experts": [],
-   "effect": "Yangi sun'iy intellekt vositalarining bozorga chiqarilishi foydalanuvchilar va ijodkorlar uchun imkoniyatlarni kengaytirib, texnologik kompaniyalar orasidagi raqobatni oshirishi mumkin.",
-   "image": "https://s.yimg.com/lo/mysterio/api/932a20bedee712f534dd1e0e26aeb0ae43f0f25cf2a4770ea60e30dd3f144e5f/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fprnewswire.com%2F5057746c3ff2eb1a240213c6e51b8503.png",
-   "domains": [
-    "finance.yahoo.com",
-    "theverge.com",
-    "cnbc.com"
-   ],
-   "urls": [
-    "https://finance.yahoo.com/technology/ai/articles/ai-video-generator-free-trial-151300153.html",
-    "https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code",
-    "https://www.cnbc.com/2025/05/20/google-ai-video-generator-audio-veo-3.html"
-   ],
-   "videos": []
-  },
   {
    "t": 1794380809.7387686,
    "title": "Adobe MAX tadbirida Microsoft bilan hamkorlikni kengaytirdi",
@@ -3122,6 +3093,77 @@
     "https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots/",
     "https://tech.yahoo.com/ai/meta-ai/articles/adobe-cutting-edge-ai-research-140000145.html",
     "https://tech.yahoo.com/cameras/articles/readers-choice-2026-top-ranked-174210564.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794549697.8480587,
+   "title": "Nectar avtomatlashtirilgan AI agentini taqdim etdi",
+   "text": "Nectar kompaniyasi brendlar uchun influencer marketingni avtomatlashtiruvchi, ijodkorlarni topish va hamkorlikni boshqaruvchi yangi AI agentini chiqardi.",
+   "orig_title": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
+   "link": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Marketing jarayonlarini avtomatlashtiruvchi sun'iy intellekt agentlarining paydo bo'lishi brendlarning mijozlar bilan ishlash strategiyasini o'zgartirishi va kelgusida bozor raqobatiga ta'sir ko'rsatishi mumkin.",
+   "image": "https://techcrunch.com/wp-content/uploads/2023/10/misbahfarah-together.jpg?resize=1200,676",
+   "domains": [
+    "techcrunch.com",
+    "forbes.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
+    "https://www.forbes.com/councils/forbescommunicationscouncil/2026/11/05/how-agentic-commerce-will-transform-marketing/",
+    "https://www.forbes.com/councils/forbescommunicationscouncil/2026/10/30/tech-wants-what-fashion-has-cultural-power/"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794549697.8480587,
+   "title": "SoftBank tabiiy gaz turbinalaridan ko'rgan zarar",
+   "text": "SoftBank AI ma'lumotlar markazlarini quvvatlantirish uchun tabiiy gaz turbinalarini oldindan buyurtma qilishda 3 milliard dollardan ortiq zarar ko'rdi.",
+   "orig_title": "SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions",
+   "link": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Energiya uskunalariga qilingan milliardlab dollarlik yo'qotishlar va ortiqcha buyurtmalar tabiiy gaz bozorining o'sish sur'atlarini sekinlashtirishi hamda ma'lumotlar markazlari operatorlarini tarmoqqa ulanish hamda yirik akkumulyatorlardan foydalanish kabi muqobil yechimlarga e'tibor qaratishga majbur qilishi mumkin.",
+   "image": "https://techcrunch.com/wp-content/uploads/2022/08/GettyImages-1294103185.jpg?resize=1200,799",
+   "domains": [
+    "techcrunch.com",
+    "finance.yahoo.com",
+    "businessinsider.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/",
+    "https://finance.yahoo.com/technology/ai/articles/softbank-deepens-high-stakes-openai-170819870.html",
+    "https://www.businessinsider.com/meta-ai-data-center-construction-louisiana-local-business-growth-economy-2026-10"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794549697.8480587,
+   "title": "Meta ma'lumotlar markazlari uchun toza ishlab chiqarish kelishuvlari",
+   "text": "Meta o'zining ta'minot zanjiri bo'ylab past uglerodli ishlab chiqaruvchilar bilan uzoq muddatli shartnomalar tuzib, ma'lumotlar markazlariga toza ishlab chiqarishni joriy etmoqda.",
+   "orig_title": "Meta’s New Agreements Bring Clean Manufacturing to Data Center Supply Chains",
+   "link": "https://about.fb.com/news/2026/11/meta-new-agreements-clean-manufacturing-data-center-supply-chains/",
+   "source": "Meta Newsroom",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Uzoq muddatli xarid kelishuvlari va ekologik sertifikatlarning qo'llanilishi ma'lumotlar markazlari qurilishida uglerod chiqindilarini qisqartirishi hamda toza ishlab chiqarish texnologiyalarining bozor miqyosida tezroq ommalashishiga olib kelishi mumkin.",
+   "image": "https://about.fb.com/wp-content/uploads/2026/11/How-Meta-is-Helping-Bring-Clean-Industry-to-Commercial-Scale_Header.jpg?w=1200",
+   "domains": [
+    "about.fb.com",
+    "finance.yahoo.com",
+    "uk.finance.yahoo.com"
+   ],
+   "urls": [
+    "https://about.fb.com/news/2026/11/meta-new-agreements-clean-manufacturing-data-center-supply-chains/",
+    "https://finance.yahoo.com/energy/articles/stegra-meta-sign-agreement-environmental-122500751.html",
+    "https://uk.finance.yahoo.com/news/sublime-systems-meta-sign-agreement-120000588.html"
    ],
    "videos": []
   }
