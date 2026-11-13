@@ -236,7 +236,9 @@
   "https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots/": 1794546541.9908485,
   "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/": 1794549697.8480587,
   "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/": 1794549697.8480587,
-  "https://about.fb.com/news/2026/11/meta-new-agreements-clean-manufacturing-data-center-supply-chains/": 1794549697.8480587
+  "https://about.fb.com/news/2026/11/meta-new-agreements-clean-manufacturing-data-center-supply-chains/": 1794549697.8480587,
+  "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/": 1794553355.0297549,
+  "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/": 1794553355.0297549
  },
  "fails": 0,
  "sent": [
@@ -1133,6 +1135,16 @@
   {
    "t": 1794549697.8480587,
    "title": "Meta’s New Agreements Bring Clean Manufacturing to Data Center Supply Chains",
+   "soha": "AI"
+  },
+  {
+   "t": 1794553355.0297549,
+   "title": "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility",
+   "soha": "AI"
+  },
+  {
+   "t": 1794553355.0297549,
+   "title": "Cyberattack on Fireworks AI allowed hackers to access Notion customers’ chat transcripts",
    "soha": "AI"
   }
  ],
@@ -3164,6 +3176,54 @@
     "https://about.fb.com/news/2026/11/meta-new-agreements-clean-manufacturing-data-center-supply-chains/",
     "https://finance.yahoo.com/energy/articles/stegra-meta-sign-agreement-environmental-122500751.html",
     "https://uk.finance.yahoo.com/news/sublime-systems-meta-sign-agreement-120000588.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794553355.0297549,
+   "title": "Nvidia chip kuzatuvi bo'yicha ma'lumot berdi",
+   "text": "Nvidia vakillari qonunchilarga Chip xavfsizligi to'g'risidagi qonun talablarini bajarish va kontrabandaga qarshi kurashish texnik jihatdan mumkinligini tasdiqladi.",
+   "orig_title": "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility",
+   "link": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
+   "source": "MIT Tech Review",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "AQSh Kongressi sun'iy intellekt chiplari savdosiga qattiqroq cheklovlar va eksport nazoratini joriy etish ehtimoli oshishi mumkin, bu esa kompaniyaning Xitoy bozoridagi savdosiga to'sqinlik qiladi.",
+   "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/foster-huang2a.jpg?resize=1200,600",
+   "domains": [
+    "technologyreview.com",
+    "finance.yahoo.com",
+    "yahoo.com"
+   ],
+   "urls": [
+    "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
+    "https://finance.yahoo.com/technology/ai/articles/chinese-ai-firms-panic-buying-194135167.html",
+    "https://www.yahoo.com/news/politics/articles/nvidia-ceo-spy-scandal-tilts-031833443.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794553355.0297549,
+   "title": "Fireworks AI xavfsizlik va ma'lumotlar sizib chiqishi",
+   "text": "Fireworks AI platformasida sodir bo'lgan kiberhujum oqibatida xakerlar Notion foydalanuvchilarining chat yozuvlariga kirish huquqiga ega bo'ldi.",
+   "orig_title": "Cyberattack on Fireworks AI allowed hackers to access Notion customers’ chat transcripts",
+   "link": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Bulutli provayderlardagi xavfsizlik zaifliklari va kiberhujumlar uchinchi tomon xizmatlaridan foydalanuvchi boshqa kompaniyalar mijozlarining maxfiy ma'lumotlari sizib chiqishiga sabab bo'lishi mumkin.",
+   "image": "https://techcrunch.com/wp-content/uploads/2021/02/notion-glitch-hero.jpg?resize=1200,827",
+   "domains": [
+    "techcrunch.com",
+    "cnbc.com",
+    "tech.yahoo.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/",
+    "https://www.cnbc.com/video/2026/10/16/openaiahugging-face-breach-is-a-great-example-of-how-potent-these-ai-models-are-says-cohere-ceo.html",
+    "https://tech.yahoo.com/videos/why-big-walk-co-op-163000225.html"
    ],
    "videos": []
   }
