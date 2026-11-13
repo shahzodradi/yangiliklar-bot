@@ -246,15 +246,13 @@
   "https://www.wired.com/story/black-roles-are-disappearing-in-hollywood-this-startup-is-using-ai-microdramas-to-fight-back/": 1794571266.2177112,
   "https://www.forbes.com/sites/novikaishar/2026/11/10/ai-is-making-entertainment-cheaper-but-will-it-be-more-profitable/": 1794571266.2177112,
   "https://www.msn.com/en-us/technology/artificial-intelligence/this-ai-finds-patterns-in-visual-brain-activity-and-turns-them-into-pictures/ar-AA2hm62z": 1794578463.358221,
-  "https://www.unite.ai/suno-launches-bridge-beta-for-ai-stem-generation-in-ableton-live/": 1794582238.46558
+  "https://www.unite.ai/suno-launches-bridge-beta-for-ai-stem-generation-in-ableton-live/": 1794582238.46558,
+  "https://www.indiewire.com/news/festivals/camerimage-2026-is-all-about-ai-1235226124/": 1794585678.3947253,
+  "https://the-decoder.com/former-openai-researcher-says-he-found-nvidia-blackwell-fingerprints-hidden-inside-six-chinese-ai-models/": 1794585678.3947253,
+  "https://www.therobotreport.com/runways-praxis-1-world-action-model-for-robotics-is-now-available/": 1794585678.3947253
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1794236933.5860488,
-   "title": "GPT-6 Cyber: OpenAI rates its new security model as Critical",
-   "soha": "AI"
-  },
   {
    "t": 1794240080.4155982,
    "title": "Higgsfield Miracle Promises Real-Time AI Video Editing, Turning Any Clip Into Editable Layers",
@@ -1164,6 +1162,21 @@
    "t": 1794582238.46558,
    "title": "Suno Launches Bridge Beta for AI Stem Generation in Ableton Live",
    "soha": "AI musiqa"
+  },
+  {
+   "t": 1794585678.3947253,
+   "title": "Cinematographers’ Favorite Festival Is All About AI This Year — but Artists Still Hate the Tech",
+   "soha": "AI tanlov"
+  },
+  {
+   "t": 1794585678.3947253,
+   "title": "Former OpenAI researcher says he found Nvidia Blackwell fingerprints hidden inside six Chinese AI models",
+   "soha": "AI"
+  },
+  {
+   "t": 1794585678.3947253,
+   "title": "Runway’s Praxis-1 world action model for robotics is now available",
+   "soha": "AI video"
   }
  ],
  "mavzu": {
@@ -3175,6 +3188,96 @@
     "https://www.theguardian.com/technology/2026/oct/19/ai-tool-predict-cancer-survival-patient-selfie"
    ],
    "videos": []
+  },
+  {
+   "t": 1794585678.3947253,
+   "title": "Camerimage kinofestivalida sun'iy intellekt texnologiyalari muhokazalarga sabab bo'ldi",
+   "text": "Toruń Camerimage xalqaro kinofestivalining ochilish marosimida tomoshabinlarga sun'iy intellekt imkoniyatlari namoyish etildi, biroq san'atkorlarning munosabati turlicha bo'ldi.",
+   "orig_title": "Cinematographers’ Favorite Festival Is All About AI This Year — but Artists Still Hate the Tech",
+   "link": "https://www.indiewire.com/news/festivals/camerimage-2026-is-all-about-ai-1235226124/",
+   "source": "indiewire.com",
+   "soha": "AI tanlov",
+   "baho": 8,
+   "experts": [],
+   "effect": "Kino san'atida sun'iy intellekt texnologiyalarining jadal kirib kelishi ijodkorlar va aktyorlar orasida keskin norozilik hamda xavotirlarni keltirib chiqarishi, shuningdek, kelgusida festivallarda texnologik va an'anaviy yondashuvlar o'rtasidagi bahslarni yanada kuchaytirishi mumkin.",
+   "image": "https://www.indiewire.com/wp-content/uploads/2026/11/Screen-Shot-2026-11-09-at-9.44.41-AM.png?w=650",
+   "domains": [
+    "indiewire.com",
+    "finance.yahoo.com",
+    "theguardian.com"
+   ],
+   "urls": [
+    "https://www.indiewire.com/news/festivals/camerimage-2026-is-all-about-ai-1235226124/",
+    "https://finance.yahoo.com/quote/AIQ/",
+    "https://www.theguardian.com/film/2026/sep/24/global-release-announced-for-acclaimed-gaza-documentary-naza"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794585678.3947253,
+   "title": "Xitoyning oltita sun'iy intellekt modeli Nvidia Blackwell chipidan foydalanayotgani aniqlandi",
+   "text": "Sobiq OpenAI tadqiqotchisi Uill DePuy DeepSeek, Moonshot AI, MiniMax va Ant Group xalqaro sanksiyalarga qaramay Nvidia Blackwell GPU'laridan foydalanayotganini bildirdi.",
+   "orig_title": "Former OpenAI researcher says he found Nvidia Blackwell fingerprints hidden inside six Chinese AI models",
+   "link": "https://the-decoder.com/former-openai-researcher-says-he-found-nvidia-blackwell-fingerprints-hidden-inside-six-chinese-ai-models/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [
+    {
+     "kim": "Michael Burry",
+     "lavozim": "Investor",
+     "fikr": "Mexanik xaridlar bozor ochilishida sotuvchilarni ortda qoldirdi, chunki savdo boshlangandan keyin bu xarid quvvatini qoplash uchun yetarli darajada sotuvchilar yo'q.",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/michael-burry-sees-mechanical-bid-041314501.html",
+     "domain": "finance.yahoo.com"
+    }
+   ],
+   "effect": "AQShning eksport cheklovlariga qaramay, Xitoyning yetakchi sun'iy intellekt laboratoriyalari eng so'nggi Nvidia chiplaridan foydalanayotganining aniqlanishi global texnologik raqobatni va geosiyosiy tanglikni yanada kuchaytirishi, shuningdek, bozordagi investitsiya oqimlarini ikki alohida ekosistemaga bo'lib yuborishi mumkin.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/06/china_vs_usa_ai_race.png",
+   "domains": [
+    "the-decoder.com",
+    "finance.yahoo.com",
+    "businessinsider.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/former-openai-researcher-says-he-found-nvidia-blackwell-fingerprints-hidden-inside-six-chinese-ai-models/",
+    "https://finance.yahoo.com/markets/stocks/articles/michael-burry-sees-mechanical-bid-041314501.html",
+    "https://www.businessinsider.com/goldman-sachs-ai-stocks-trade-us-china-ecosystems-competition-playbook-2026-10"
+   ],
+   "videos": [
+    [
+     "https://x.com/willdepue/status/2120992457630326841",
+     "X"
+    ]
+   ]
+  },
+  {
+   "t": 1794585678.3947253,
+   "title": "Runway ochiq vaznli Praxis-1 robototexnika dunyo modelini taqdim etdi",
+   "text": "Runway Noble Machines, Standard Bots va boshqa hamkorlar bilan birgalikda Praxis-1 dunyo harakat modelini ochiq kodda chiqardi.",
+   "orig_title": "Runway’s Praxis-1 world action model for robotics is now available",
+   "link": "https://www.therobotreport.com/runways-praxis-1-world-action-model-for-robotics-is-now-available/",
+   "source": "therobotreport.com",
+   "soha": "AI video",
+   "baho": 9,
+   "experts": [],
+   "effect": "Robototexnika uchun yangi sun'iy intellekt modellarining ochiq kodli tarzda taqdim etilishi dasturchilarga o'z qurilmalarini tezkor moslashtirish imkonini berishi, tarmoqdagi xizmatlar va infratuzilma bozorida raqobatni keskin oshirishi mumkin.",
+   "image": "https://www.therobotreport.com/wp-content/uploads/2026/11/praxis-1-featured.jpg",
+   "domains": [
+    "therobotreport.com",
+    "techcrunch.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://www.therobotreport.com/runways-praxis-1-world-action-model-for-robotics-is-now-available/",
+    "https://techcrunch.com/2026/11/05/serve-robotics-launches-new-business-to-become-the-aws-for-robots/",
+    "https://finance.yahoo.com/markets/stocks/articles/runway-growth-finance-rway-said-191455082.html"
+   ],
+   "videos": [
+    [
+     "https://www.youtube.com/watch?v=sXiLq_3TaAI",
+     "YouTube"
+    ]
+   ]
   }
  ]
 }
