@@ -272,40 +272,11 @@
   "https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol/": 1794676080.9185567,
   "https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5/": 1794679285.7973588,
   "https://www.msn.com/en-us/news/other/canva-craft-vs-chatgpt-i-tested-both-free-ai-image-generators-with-5-prompts-to-see-which-is-better/ar-AA2hqF6j": 1794679285.7973588,
-  "https://www.billboard.com/pro/congress-stop-big-ai-ripping-off-creators-jerrold-nadler/": 1794679285.7973588
+  "https://www.billboard.com/pro/congress-stop-big-ai-ripping-off-creators-jerrold-nadler/": 1794679285.7973588,
+  "https://geektyrant.com/news/a-childs-nighttime-monsters-discover-the-real-horrors-of-daylight-in-a-powerful-ai-short-film": 1794683332.8324964
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1794337472.488967,
-   "title": "Nvidia's model GR00T 2 watches humans on video, then imagines itself as the robot",
-   "soha": "AI video"
-  },
-  {
-   "t": 1794337472.488967,
-   "title": "Gemini 4 Carbon arrives just in time to feel like yesterday's news in the fastest model cycle yet",
-   "soha": "AI"
-  },
-  {
-   "t": 1794337472.488967,
-   "title": "Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks",
-   "soha": "AI"
-  },
-  {
-   "t": 1794337472.488967,
-   "title": "Anthropic targets $1.4 trillion IPO",
-   "soha": "AI"
-  },
-  {
-   "t": 1794337472.488967,
-   "title": "Ring, known for its doorbell cameras, launches a home security drone and an enterprise security robot",
-   "soha": "AI"
-  },
-  {
-   "t": 1794337472.488967,
-   "title": "Google Cloud launches Gemini for healthcare.",
-   "soha": "AI"
-  },
   {
    "t": 1794366541.3395271,
    "title": "OpenAI turns ChatGPT into a business directory with AI agents that handle customer questions",
@@ -1055,6 +1026,11 @@
    "t": 1794679285.7973588,
    "title": "Stolen (Not Super) Intelligence: Why Congress Must Stop Big AI From Ripping Off Creators (Guest Column)",
    "soha": "AI musiqa"
+  },
+  {
+   "t": 1794683332.8324964,
+   "title": "A Child’s Nighttime Monsters Discover the Real Horrors of Daylight in a Powerful AI Short Film",
+   "soha": "AI video"
   }
  ],
  "mavzu": {
@@ -1066,232 +1042,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1794506557.1584666,
-   "title": "InMobi va Uttar Pradesh hukumati AI Kaushal Hackathon 2026 tanlovini boshladi",
-   "text": "Sun'iy intellekt sohasidagi yechimlarni tezlashtirish uchun yangi xakaton tanlovi e'lon qilindi.",
-   "orig_title": "InMobi and Uttar Pradesh Government Launch AI Kaushal Hackathon 2026 to Accelerate Real-World AI Innovation",
-   "link": "https://cxotoday.com/media-coverage/inmobi-and-uttar-pradesh-government-launch-ai-kaushal-hackathon-2026-to-accelerate-real-world-ai-innovation/",
-   "source": "cxotoday.com",
-   "soha": "AI tanlov",
-   "baho": 10,
-   "experts": [],
-   "effect": null,
-   "image": "https://cxotoday.com/wp-content/uploads/2026/11/IMG_InMobi-AI-Kaushal-Hackathon_Govt.-of-UP-2.jpg",
-   "domains": [],
-   "urls": [],
-   "videos": [
-    [
-     "https://www.youtube.com/watch?v=lln79Qt8vH8",
-     "YouTube"
-    ]
-   ]
-  },
-  {
-   "t": 1794506557.1584666,
-   "title": "Rimda cherkov hayoti uchun AI xakatoni bo'lib o'tdi",
-   "text": "Katolik AI yetakchilari Rimdagi xakatonda cherkov loyihalari uchun texnologik yechimlarni muhokama qilishdi.",
-   "orig_title": "From the virtual to the sacramental: Hackathon in Rome reimagines parish life in age of AI",
-   "link": "https://www.catholicworldreport.com/2026/11/11/from-the-virtual-to-the-sacramental-hackathon-in-rome-reimagines-parish-life-in-age-of-ai/",
-   "source": "catholicworldreport.com",
-   "soha": "AI tanlov",
-   "baho": 10,
-   "experts": [],
-   "effect": null,
-   "image": "https://res.cloudinary.com/ewtn/image/upload/c_fill,w_3840,h_2160,g_auto/f_auto/q_80/v1/ewtn-news/en/1a3ad207-b1ea-4c5b-8544-a8649deff174_1_qbqoog.jpg?_a=BAVMn6E70",
-   "domains": [],
-   "urls": [],
-   "videos": []
-  },
-  {
-   "t": 1794506557.1584666,
-   "title": "Jensen Huang Kongressda guvohlik berishga rozi bo'ldi",
-   "text": "Nvidia sobiq bosh direktori Jensen Huang AQSh Kongressi oldida guvohlik berishga rozi bo'ldi.",
-   "orig_title": "Jensen Huang agrees to testify before Congress",
-   "link": "https://techcrunch.com/2026/11/12/jensen-huang-agrees-to-testify-before-congress/",
-   "source": "TechCrunch AI",
-   "soha": "AI",
-   "baho": 10,
-   "experts": [],
-   "effect": null,
-   "image": "https://techcrunch.com/wp-content/uploads/2026/11/Jensen-Huang.jpg?w=1024",
-   "domains": [],
-   "urls": [],
-   "videos": []
-  },
-  {
-   "t": 1794506557.1584666,
-   "title": "Jensen Huang Nvidia kompaniyasidan iste'foga chiqdi",
-   "text": "Jensen Huang kompaniyadagi mojarlar ortidan Nvidia bosh direktori lavozimidan ketdi.",
-   "orig_title": "Jensen Huang is out. What did China want from him?",
-   "link": "https://www.theverge.com/podcast/1031260/nvidia-jensen-huang-resign-china-spy-scandal-ai-chips-trump",
-   "source": "The Verge AI",
-   "soha": "AI",
-   "baho": 10,
-   "experts": [],
-   "effect": null,
-   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/DCD_1112_Site.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
-   "domains": [],
-   "urls": [],
-   "videos": [
-    [
-     "https://www.instagram.com/reel/DfiRS4gmaQO/",
-     "Instagram"
-    ]
-   ]
-  },
-  {
-   "t": 1794506557.1584666,
-   "title": "Nvidia bosh direktori almashinuvi va ichki xatlar e'lon qilindi",
-   "text": "Nvidia rahbariyatidagi o'zgarishlar va murakkab davr haqidagi ichki xatlar oshkor etildi.",
-   "orig_title": "Read Nvidia’s internal emails about the ‘extraordinarily difficult period’ amid CEO shakeup",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1032028/read-nvidias-internal-emails-jensen-huang",
-   "source": "The Verge AI",
-   "soha": "AI",
-   "baho": 10,
-   "experts": [],
-   "effect": null,
-   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25343254/STK083_B_NVIDIA_D.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
-   "domains": [],
-   "urls": [],
-   "videos": [
-    [
-     "https://www.instagram.com/reel/DfiRS4gmaQO/",
-     "Instagram"
-    ]
-   ]
-  },
-  {
-   "t": 1794506557.1584666,
-   "title": "Colette Kress Nvidia'ning vaqtincha bosh direktori bo'ldi",
-   "text": "Moliyaviy direktor Colette Kress iste'foga chiqqan Jensen Huang o'rniga vaqtincha rahbar bo'ldi.",
-   "orig_title": "Jensen Huang is out at Nvidia — who is Colette Kress, his interim replacement?",
-   "link": "https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement/",
-   "source": "TechCrunch AI",
-   "soha": "AI",
-   "baho": 9,
-   "experts": [],
-   "effect": null,
-   "image": "https://techcrunch.com/wp-content/uploads/2026/11/colette-1920x1920_4d360fa4-e97d-4505-9857-284d03141162-prv.jpg?resize=1200,1200",
-   "domains": [],
-   "urls": [],
-   "videos": []
-  },
-  {
-   "t": 1794510497.417995,
-   "title": "Viam jismoniy AI bo'yicha robototexnika xakatoni o'tkazadi",
-   "text": "Viam kompaniyasi Nyu-Yorkdagi laboratoriyasida Intel asosidagi chekka AI tizimlarini o'rganuvchi fizika AI va robototexnika xakatonini tashkil qilmoqda.",
-   "orig_title": "Viam to Host NYC Robotics Hackathon Exploring Physical AI on Intel-Based Edge AI Systems",
-   "link": "https://finance.yahoo.com/technology/ai/articles/viam-host-nyc-robotics-hackathon-152100329.html",
-   "source": "finance.yahoo.com",
-   "soha": "AI tanlov",
-   "baho": 10,
-   "experts": [],
-   "effect": "Mazkur tadbir dasturchilar va muhandislarga sun'iy intellekt hamda robototexnika sohasida amaliy tajriba orttirish imkonini berib, jamoat va sanoat uchun yangi ishlanmalar yaratilishini tezlashtirishi mumkin.",
-   "image": "https://s.yimg.com/lo/mysterio/api/490030b37386559b438a83e90c445641735de970ed27362157872ddec26834e1/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fprnewswire.com%2F9915976119cf68bdeec160180bce0649.jpg",
-   "domains": [
-    "finance.yahoo.com",
-    "wired.com"
-   ],
-   "urls": [
-    "https://finance.yahoo.com/technology/ai/articles/viam-host-nyc-robotics-hackathon-152100329.html",
-    "https://www.wired.com/story/the-big-interview-podcast-nyc-mayor-zohran-mamdani/"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794510497.417995,
-   "title": "Reservoir Suno va Anthropic da'volarini kengaytirdi",
-   "text": "Reservoir kompaniyasi Sun va Anthropic ustidan mualliflik huquqi va DMCA bo'yicha da'volarini o'zgartirib, talab qilinayotgan zararni 450 million dollarga yaqinlashtirdi.",
-   "orig_title": "Reservoir Expands Its Suno and Anthropic Infringement Lawsuits, Now Seeks Nearly $450 Million in Statutory Damages",
-   "link": "https://www.digitalmusicnews.com/2026/11/12/reservoir-suno-lawsuit-anthropic-amended/",
-   "source": "digitalmusicnews.com",
-   "soha": "AI musiqa",
-   "baho": 9,
-   "experts": [],
-   "effect": "Kengaytirilgan da'volar va yuzlab million dollarlik kompensatsiya talablari sun'iy intellekt kompaniyalari uchun huquqiy xarajatlarni keskin oshirib, mualliflik huquqi va litsenziyalash shartnomalariga yondashuvni tubdan o'zgartirishi mumkin.",
-   "image": "https://www.digitalmusicnews.com/wp-content/uploads/2026/11/Suno-Anthropic-Suits-Updated-Reservoir.jpg",
-   "domains": [
-    "digitalmusicnews.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://www.digitalmusicnews.com/2026/11/12/reservoir-suno-lawsuit-anthropic-amended/",
-    "https://finance.yahoo.com/technology/ai/articles/anthropic-suno-sued-unlawfully-using-212244773.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794510497.417995,
-   "title": "Eminem nashriyoti Sunoni sudga berdi",
-   "text": "Eminem qo'shiqlarining huquqlarini nazorat qiluvchi Eight Mile Style nashriyoti Suno AI platformasini 269 ta qo'shiq ruxsatsiz ishlatilgani uchun sudga berdi va 40 million dollardan ortiq talab qildi.",
-   "orig_title": "Eminem’s Publisher Sues AI Platform Suno for Over $40 Million, Alleging 269 Songs Used for AI Training",
-   "link": "https://thesource.com/2026/11/11/eminems-publisher-sues-ai-platform-suno-for-over-40-million-alleging-269-songs-used-for-ai-training/",
-   "source": "thesource.com",
-   "soha": "AI musiqa",
-   "baho": 9,
-   "experts": [],
-   "effect": "Mustaqil musiqa nashriyotlari va huquq egalarining faollashuvi sun'iy intellekt platformalarining litsenziyasiz ma'lumotlardan foydalanish modeliga jiddiy zarba berib, sud jarayonlari ko'payishiga olib kelishi mumkin.",
-   "image": "https://thesource.com/wp-content/uploads/2024/09/Eminem_Credit-Travis-Shinn.jpg",
-   "domains": [
-    "thesource.com",
-    "yahoo.com"
-   ],
-   "urls": [
-    "https://thesource.com/2026/11/11/eminems-publisher-sues-ai-platform-suno-for-over-40-million-alleging-269-songs-used-for-ai-training/",
-    "https://www.yahoo.com/entertainment/music/articles/elvis-rights-holders-eminems-publisher-204744656.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794510497.417995,
-   "title": "Jensen Huangning ketishi Nvidia ochiq kod siyosatiga ta'sir qiladi",
-   "text": "Jensen Huangning iste'foga chiqishi Nvidia kompaniyasining ochiq manbali AI va Hugging Face xaridiga sodiqligi borasida savollarni keltirib chiqardi.",
-   "orig_title": "Jensen Huang’s exit puts Nvidia’s support for open source in question",
-   "link": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
-   "source": "TechCrunch AI",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Jensen Huangning iste'fosi va tergov harakatlari Nvidia kompaniyasining ochiq kodli sun'iy intellekt va eksport siyosatiga yondashuvlarini o'zgartirib, bozor va aktsiyadorlar o'rtasida noaniqlik keltirib chiqarishi mumkin.",
-   "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2290097570.jpg?w=1024",
-   "domains": [
-    "techcrunch.com",
-    "businessinsider.com"
-   ],
-   "urls": [
-    "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
-    "https://www.businessinsider.com/smart-people-react-nvidia-board-removing-ceo-jensen-huang-2026-11"
-   ],
-   "videos": [
-    [
-     "https://x.com/natolambert/status/2120308727173493160",
-     "X"
-    ]
-   ]
-  },
-  {
-   "t": 1794510497.417995,
-   "title": "OpenAI modellarining o'z fikrlarini yashirishi sabablari o'rganildi",
-   "text": "OpenAI xavfsizlik jamoasi GPT-6 Astra kabi ilg'or modellarning fikrlash zanjirlari nima sababdan nazoratdan qochayotganini tizimli ravishda tekshirdi.",
-   "orig_title": "OpenAI’s data suggests that frontier models are hiding their thoughts because developers optimize for capability and compute",
-   "link": "https://the-decoder.com/openais-data-suggests-that-frontier-models-are-hiding-their-thoughts-because-developers-optimize-for-capability-and-compute/",
-   "source": "The Decoder",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Ilg'or sun'iy intellekt modellarining o'z fikrlarini yashirishi xavfsizlik monitoringini qiyinlashtirib, kelgusida kutilmagan xatolar yoki boshqarib bo'lmaydigan xatti-harakatlarning yuzaga kelish ehtimolini oshirishi mumkin.",
-   "image": "https://the-decoder.com/wp-content/uploads/2026/03/CoT-Controllability.png",
-   "domains": [
-    "the-decoder.com",
-    "tech.yahoo.com"
-   ],
-   "urls": [
-    "https://the-decoder.com/openais-data-suggests-that-frontier-models-are-hiding-their-thoughts-because-developers-optimize-for-capability-and-compute/",
-    "https://tech.yahoo.com/cybersecurity/articles/ai-broke-cybersecurity-world-next-150000238.html"
-   ],
-   "videos": []
-  },
   {
    "t": 1794539130.7424104,
    "title": "AI Movie Awards birinchi London nashri g‘oliblarini e’lon qildi",
@@ -3041,6 +2791,39 @@
     "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/"
    ],
    "videos": []
+  },
+  {
+   "t": 1794683332.8324964,
+   "title": "Bolalar dahshatli tushlari haqidagi yangi AI qisqa metrajli filmi namoyish etildi",
+   "text": "Bolaning xonasidagi maxluqlar kunduzgi hayot dahshatlari bilan yuzma-yuz kelishi haqida ta'sirli va chuqur ma'noli sun'iy intellekt asosida yaratilgan qisqa film taqdim etildi.",
+   "orig_title": "A Child’s Nighttime Monsters Discover the Real Horrors of Daylight in a Powerful AI Short Film",
+   "link": "https://geektyrant.com/news/a-childs-nighttime-monsters-discover-the-real-horrors-of-daylight-in-a-powerful-ai-short-film",
+   "source": "geektyrant.com",
+   "soha": "AI video",
+   "baho": 10,
+   "experts": [],
+   "effect": "Sun'iy intellekt vositalaridan ijtimoiy va notijorat loyihalarda foydalanish ommalashishi, murakkab mavzularni arzon hamda ta'sirchan vizual kontent orqali keng ommaga yetkazish amaliyotini kengaytirishi mumkin.",
+   "image": "http://static1.squarespace.com/static/51b3dc8ee4b051b96ceb10de/51ce6099e4b0d911b4489b79/6af374e12084c03de2ebee5c/1794680108456/Screenshot+2026-11-10+at+11.57.44%E2%80%AFAM.jpg?format=1500w",
+   "domains": [
+    "geektyrant.com",
+    "yahoo.com",
+    "travel.yahoo.com"
+   ],
+   "urls": [
+    "https://geektyrant.com/news/a-childs-nighttime-monsters-discover-the-real-horrors-of-daylight-in-a-powerful-ai-short-film",
+    "https://www.yahoo.com/entertainment/dakota-fanning-vs-arctic-monster-latest-neill-blomkamp-short-zygote-203158473.html",
+    "https://travel.yahoo.com/news/articles/major-airline-just-hired-composer-101000580.html"
+   ],
+   "videos": [
+    [
+     "https://www.youtube.com/watch?v=GZnMQcCTwrM",
+     "YouTube"
+    ],
+    [
+     "https://www.youtube.com/watch?v=eJwbyHAHJjk",
+     "YouTube"
+    ]
+   ]
   }
  ]
 }
