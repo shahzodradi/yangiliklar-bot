@@ -262,7 +262,10 @@
   "https://allhiphop.com/news/nvidias-suno-investor-fights-music-labels-over-court-testimony/": 1794632543.1599967,
   "https://the-decoder.com/jensen-huangs-ouster-likely-traces-back-to-nvidias-risky-business-practices-more-than-his-personal-life/": 1794632543.1599967,
   "https://openai.com/business/customer-stories/shield": 1794632543.1599967,
-  "https://www.cartoonbrew.com/awards/manchester-animation-festival-genai-ban-in-waves-269431.html": 1794636064.4992228
+  "https://www.cartoonbrew.com/awards/manchester-animation-festival-genai-ban-in-waves-269431.html": 1794636064.4992228,
+  "https://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary/": 1794657675.029715,
+  "https://the-decoder.com/anthropic-can-already-retrain-mythos-with-a-fraction-of-the-compute-originally-needed-says-former-researcher-coxon/": 1794657675.029715,
+  "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/": 1794657675.029715
  },
  "fails": 0,
  "sent": [
@@ -1135,6 +1138,21 @@
    "t": 1794636064.4992228,
    "title": "Manchester Animation Festival Bans Films Made With GenAI, Names ‘In Waves’ Best Feature",
    "soha": "AI tanlov"
+  },
+  {
+   "t": 1794657675.029715,
+   "title": "OpenAI reassigns robotics researchers to other teams as general-purpose models might make specialized robotics AI unnecessary",
+   "soha": "AI"
+  },
+  {
+   "t": 1794657675.029715,
+   "title": "Anthropic can already retrain Mythos with \"a fraction of the compute originally needed,\" says former researcher Coxon",
+   "soha": "AI"
+  },
+  {
+   "t": 1794657675.029715,
+   "title": "Israel’s VCs see opportunity for challengers in Nvidia’s turmoil",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -1146,91 +1164,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1794481541.030661,
-   "title": "Avstraliya AI modellarini majburiy tekshirish to‘g‘risida qonun loyihasini taqdim etdi",
-   "text": "Avstraliya hukumati ilg‘or AI modellarini mustaqil auditdan o‘tkazishni majburiy qiluvchi yangi qonun loyihasini ishlab chiqdi. Qoidalarni buzgan kompaniyalar katta jarimalarga tortiladi.",
-   "orig_title": "Australia's proposed AI safety bill would force frontier model makers to open up to independent testing",
-   "link": "https://the-decoder.com/australias-proposed-ai-safety-bill-would-force-frontier-model-makers-to-open-up-to-independent-testing/",
-   "source": "The Decoder",
-   "soha": "AI",
-   "baho": 7,
-   "experts": [],
-   "effect": "Avstraliyaning sun'iy intellekt xavfsizligi bo'yicha majburiy qoidalari va mustaqil audit talablarining joriy etilishi mamlakatdagi texnologiya bozorida tartibga solish barqarorligini oshirishi va xorijiy investitsiyalarni jalb qilishi mumkin. Shu bilan birga, faqat eng ilg'or modellarga e'tibor qaratilishi kichikroq va ixtisoslashgan algoritmlar keltirib chiqarishi mumkin bo'lgan xavflarni nazoratsiz qoldirishi ehtimoli bor.",
-   "image": "https://the-decoder.com/wp-content/uploads/2026/11/australia_ai_safety.png",
-   "domains": [
-    "the-decoder.com",
-    "au.news.yahoo.com",
-    "yahoo.com"
-   ],
-   "urls": [
-    "https://the-decoder.com/australias-proposed-ai-safety-bill-would-force-frontier-model-makers-to-open-up-to-independent-testing/",
-    "https://au.news.yahoo.com/australia-impose-mandatory-safety-rules-023442597.html",
-    "https://www.yahoo.com/news/politics/articles/bill-data-centers-pay-grid-184834747.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794481541.030661,
-   "title": "OpenAI bolalar xavfsizligi bo‘yicha AI tadqiqotlariga 2 million dollar ajratdi",
-   "text": "OpenAI yoshlar uchun sun’iy intellekt xatarlari va imkoniyatlarini baholash vositalarini yaratish tadqiqotlariga 2 million dollar ajratishini ma’lum qildi.",
-   "orig_title": "Supporting research on AI and children’s safety",
-   "link": "https://openai.com/index/children-first-declaration",
-   "source": "OpenAI",
-   "soha": "AI",
-   "baho": 6,
-   "experts": [
-    {
-     "kim": "Kate Blocker",
-     "lavozim": "tadqiqot va dasturlar direktori",
-     "fikr": "Mahsulotlar ishlab chiqilayotgan paytda, muammolar yuzaga kelganidan keyin emas, balki bolalar xavfsizligi hisobga olinishi juda muhim.",
-     "url": "https://www.cnbc.com/2026/11/07/snap-social-media-teen-safety-lawsuits.html",
-     "domain": "cnbc.com"
-    },
-    {
-     "kim": "Joseph McNally",
-     "lavozim": "sobiq prokuror va paydo bo'layotgan sud litigatsiyalari direktori",
-     "fikr": "Texnologiya kompaniyalarining kelishuvlari va sudlashuvlari mahsulotlarining obro'si jiddiy zarba ko'rgani sababli vaziyatni o'nglashga urinishdir.",
-     "url": "https://www.cnbc.com/2026/11/07/snap-social-media-teen-safety-lawsuits.html",
-     "domain": "cnbc.com"
-    }
-   ],
-   "effect": "Bolalar xavfsizligi va ruhiy salomatligi bilan bog'liq sud jarayonlari hamda kelishuvlar texnologiya kompaniyalarini o'z mahsulotlari dizaynini qayta ko'rib chiqishga va xavfsizlik choralarini kuchaytirishga majbur qilishi mumkin. Shuningdek, sun'iy intellekt xavfsizligi tarafdorlarining siyosiy faollashuvi kelgusidagi saylovlarda va federal qonunchilikda texnologiya gigantlariga nisbatan qattiqroq cheklovlarning joriy etilishiga olib kelishi ehtimoli bor.",
-   "image": null,
-   "domains": [
-    "cnbc.com",
-    "yahoo.com"
-   ],
-   "urls": [
-    "https://www.cnbc.com/2026/11/07/snap-social-media-teen-safety-lawsuits.html",
-    "https://www.yahoo.com/news/politics/articles/ai-safety-groups-target-2028-203143228.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794481541.030661,
-   "title": "Meta infratuzilma bo‘limi rahbari lavozimidan ketmoqda",
-   "text": "Kompaniyada 2009-yildan beri ishlab kelayotgan Santosh Janardxan Meta kompaniyasining infratuzilma rahbari lavozimini tark etishini e’lon qildi.",
-   "orig_title": "Meta is losing its longtime head of infrastructure",
-   "link": "https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/",
-   "source": "TechCrunch AI",
-   "soha": "AI",
-   "baho": 5,
-   "experts": [],
-   "effect": "Meta infratuzilma rahbarining o'zgarishi va Amazon Web Services'ning sobiq xodimi Dave Brownning tayinlanishi kompaniyaning sun'iy intellekt ambitsiyalarini qo'llab-quvvatlash uchun ma'lumotlar markazlari va texnik operatsiyalarini kengaytirish strategiyasini yanada kuchaytirishi mumkin. Investitsiya xarajatlarining oshishi va kapital sarflari fonida investorlarning kompaniya moliyaviy barqarorligiga e'tibori yanada ortishi ehtimoli bor.",
-   "image": "https://techcrunch.com/wp-content/uploads/2026/06/Meta-image.jpg?w=1024",
-   "domains": [
-    "techcrunch.com",
-    "cnbc.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/",
-    "https://www.cnbc.com/2026/11/11/meta-infrastructure-departure-aws-cloud.html",
-    "https://finance.yahoo.com/technology/ai/articles/metas-infrastructure-chief-santosh-janardhan-173358243.html"
-   ],
-   "videos": []
-  },
   {
    "t": 1794488765.0476463,
    "title": "Google DeepMind AlphaGenome 2 modelini taqdim etdi",
@@ -3063,6 +2996,100 @@
     "https://www.cartoonbrew.com/awards/manchester-animation-festival-genai-ban-in-waves-269431.html",
     "https://www.theguardian.com/football/2026/oct/21/como-manchester-united-champions-league-match-report",
     "https://www.theguardian.com/football/2026/oct/11/liverpool-manchester-city-premier-league-match-report"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794657675.029715,
+   "title": "OpenAI robototexnika guruhini tarqatib yubordi",
+   "text": "OpenAI umumiy maqsadli modellar robotlarni to'g'ridan-to'g'ri boshqarishi mumkinligi sababli mustaqil robototexnika guruhini tarqatib yubordi.",
+   "orig_title": "OpenAI reassigns robotics researchers to other teams as general-purpose models might make specialized robotics AI unnecessary",
+   "link": "https://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Maxsus robototexnika modellariga ehtiyoj kamayishi va umumiy maqsadli sun'iy intellekt tizimlarining robotlarni to'g'ridan-to'g'ri boshqarish imkoniyatlari kengayishi mumkin.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/09/openai_robot_arms.png",
+   "domains": [
+    "the-decoder.com",
+    "businessinsider.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary/",
+    "https://www.businessinsider.com/why-silicon-valley-vcs-are-investing-billions-in-robotics-2026-10",
+    "https://finance.yahoo.com/sectors/technology/articles/openai-shutting-down-sora-video-221504408.html"
+   ],
+   "videos": [
+    [
+     "https://x.com/yoavartzi/status/2098496429752713618",
+     "X"
+    ],
+    [
+     "https://x.com/yoavartzi/status/2098511167090000086",
+     "X"
+    ]
+   ]
+  },
+  {
+   "t": 1794657675.029715,
+   "title": "Anthropic IPO oldidan hisoblash quvvatini tejashni ta'minlamoqda",
+   "text": "Sobiq tadqiqotchi Jekob Kokson Anthropic IPO yo'l-yo'riqlarida kompaniya algoritmlari rekord darajada tez rivojlanayotganini ta'kidladi.",
+   "orig_title": "Anthropic can already retrain Mythos with \"a fraction of the compute originally needed,\" says former researcher Coxon",
+   "link": "https://the-decoder.com/anthropic-can-already-retrain-mythos-with-a-fraction-of-the-compute-originally-needed-says-former-researcher-coxon/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Algoritmik samaradorlikning tezlashishi va hisoblash xarajatlarining kamayishi raqobat muhitini o'zgartirib, kompaniyalarning bozor ulushini yanada mustahkamlashi mumkin.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/09/claude_laser.png",
+   "domains": [
+    "the-decoder.com",
+    "businessinsider.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/anthropic-can-already-retrain-mythos-with-a-fraction-of-the-compute-originally-needed-says-former-researcher-coxon/",
+    "https://www.businessinsider.com/anthropic-ipo-roadshow-video-pitch-safety-compute-2026-11",
+    "https://finance.yahoo.com/technology/ai/articles/anthropics-roadshow-video-says-ipo-213725607.html"
+   ],
+   "videos": [
+    [
+     "https://x.com/hilbertspaess/status/2121425977876341092",
+     "X"
+    ]
+   ]
+  },
+  {
+   "t": 1794657675.029715,
+   "title": "Isroil venchur fondlari Nvidia inqirozida raqobatchilar uchun imkoniyat ko'rmoqda",
+   "text": "Nvidia bosh direktori iste'foga chiqqanidan so'ng, Isroilning startap ekotizimida yangi raqobat maydonlari muhokama qilinmoqda.",
+   "orig_title": "Israel’s VCs see opportunity for challengers in Nvidia’s turmoil",
+   "link": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [
+    {
+     "kim": "Yanai Oron",
+     "lavozim": "general partner",
+     "fikr": "Nvidia'dagi sekinroq qarorlar raqobatchilarga imkoniyat berishi mumkin, biroq noaniqlik xarajatlarni sekinlashtirishi ham mumkin.",
+     "url": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/",
+     "domain": "techcrunch.com"
+    }
+   ],
+   "effect": "Bozorda raqobat kuchayib, muqobil chiplar va sun'iy intellekt dasturiy ta'minoti ishlab chiquvchilari uchun yangi imkoniyatlar ochilishi ehtimoli bor.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2303769281.jpg?resize=1200,800",
+   "domains": [
+    "techcrunch.com",
+    "businessinsider.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/",
+    "https://www.businessinsider.com/why-silicon-valley-vcs-are-investing-billions-in-robotics-2026-10",
+    "https://finance.yahoo.com/news/nvidia-advanced-talks-buy-israels-171025289.html"
    ],
    "videos": []
   }
