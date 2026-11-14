@@ -260,45 +260,11 @@
   "https://the-decoder.com/banks-bar-chinese-and-hong-kong-investors-from-anthropic-ipo-over-us-export-controls/": 1794596763.077386,
   "https://the-decoder.com/nearly-70-percent-of-us-agencies-use-generative-ai-and-unions-are-finally-catching-up-with-guardrails/": 1794596763.077386,
   "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/": 1794625332.36186,
-  "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/": 1794625332.36186
+  "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/": 1794625332.36186,
+  "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/": 1794628851.2830174
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1794280048.2738967,
-   "title": "‘Deserves an Oscar’: Disturbing AI short film about domestic violence leaves internet in tears",
-   "soha": "AI video"
-  },
-  {
-   "t": 1794280048.2738967,
-   "title": "Anthropic reportedly plans to move forward with IPO plans",
-   "soha": "AI"
-  },
-  {
-   "t": 1794280048.2738967,
-   "title": "Jensen Huang pulls out of ElevenLabs Summit amid Nvidia controversy",
-   "soha": "AI"
-  },
-  {
-   "t": 1794280048.2738967,
-   "title": "David Ellison says AI could be the ‘biggest creative unlock in modern history’",
-   "soha": "AI video"
-  },
-  {
-   "t": 1794280048.2738967,
-   "title": "Apple’s $50 Intelligence Usage Packs extend access to some AI features",
-   "soha": "AI musiqa"
-  },
-  {
-   "t": 1794280048.2738967,
-   "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
-   "soha": "AI"
-  },
-  {
-   "t": 1794280048.2738967,
-   "title": "ChatGPT Enterprise now available in AWS Marketplace",
-   "soha": "AI"
-  },
   {
    "t": 1794283256.8771405,
    "title": "Luma AI And Infinite Studios Are Moving In. Where Do Agencies Fit?",
@@ -1188,6 +1154,11 @@
    "t": 1794625332.36186,
    "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
    "soha": "AI"
+  },
+  {
+   "t": 1794628851.2830174,
+   "title": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -1199,102 +1170,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1794452753.907915,
-   "title": "ACE Music v1 yangi musiqa modeli reytingda Suno'ni ortda qoldirdi",
-   "text": "Yangi ACE Music v1 sun'iy intellekt musiqa modeli tabiiy vokal va kuchli qo'shiq tuzilishi bilan AI musiqa reytinglarida yetakchilik qilmoqda.",
-   "orig_title": "This New AI Music Model Is Already Better Than Suno—We Put ACE to the Test",
-   "link": "https://decrypt.co/383070/new-ai-music-model-already-better-than-suno-ace-review",
-   "source": "decrypt.co",
-   "soha": "AI musiqa",
-   "baho": 9,
-   "experts": [],
-   "effect": "Musiqa va sun'iy intellekt bozorida raqobat yanada kuchayishi, yangi sud jarayonlari esa huquqiy xavflarni oshirib, mualliflik huquqini himoya qilish amaliyotini o'zgartirishi mumkin.",
-   "image": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/AI-music-decrypt-style-03-gID_7.jpg",
-   "domains": [
-    "decrypt.co",
-    "ca.news.yahoo.com",
-    "tech.yahoo.com"
-   ],
-   "urls": [
-    "https://decrypt.co/383070/new-ai-music-model-already-better-than-suno-ace-review",
-    "https://ca.news.yahoo.com/elvis-music-owners-eminem-publisher-161526743.html",
-    "https://tech.yahoo.com/ai/meta-ai/articles/bytedance-reportedly-working-own-ai-194219650.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794452753.907915,
-   "title": "Kakao Ventures Higgsfield sun'iy intellekt video platformasi bilan hamkorlik qiladi",
-   "text": "Kakao Ventures o'zining portfeldagi стартаplariga AI kontent yaratishda ko'maklashish uchun Higgsfield video platformasi bilan kelishuv imzoladi.",
-   "orig_title": "Kakao Ventures teams up with AI video platform Higgsfield",
-   "link": "https://www.digitaltoday.co.kr/en/view/124503/kakao-ventures-teams-up-with-ai-video-platform-higgsfield",
-   "source": "digitaltoday.co.kr",
-   "soha": "AI video",
-   "baho": 8,
-   "experts": [],
-   "effect": "Startaplar uchun sun'iy intellektga asoslangan kontent yaratish imkoniyatlari kengayib, marketing xarajatlari kamayishi va mahsulotni bozorga chiqarish tezlashishi mumkin.",
-   "image": "https://cdn.digitaltoday.co.kr/news/photo/202611/714771_662105_3711.png",
-   "domains": [
-    "digitaltoday.co.kr",
-    "techcrunch.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://www.digitaltoday.co.kr/en/view/124503/kakao-ventures-teams-up-with-ai-video-platform-higgsfield",
-    "https://techcrunch.com/2026/01/15/ai-video-startup-higgsfield-founded-by-ex-snap-exec-lands-1-3b-valuation/",
-    "https://finance.yahoo.com/news/ai-video-startup-higgsfield-founded-192845310.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794452753.907915,
-   "title": "Google DeepMind matn, rasm va videolarni baholaydigan Gemini Decisions API'ni chiqardi",
-   "text": "Google kompaniyasi bir vaqtning o'zida mingta yopiq savolni baholay oladigan hamda matn, rasm va videolarni tezkor tahlil qiluvchi yangi Gemini Decisions API modelini taqdim etdi.",
-   "orig_title": "Google joins the decision-model wave with Gemini Decision 1, scoring 1,000 questions in a single pass",
-   "link": "https://the-decoder.com/google-joins-the-decision-model-wave-with-gemini-decision-1-scoring-1000-questions-in-a-single-pass/",
-   "source": "The Decoder",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Qaror qabul qilish jarayonlarini avtomatlashtirish tezlashib, xarajatlar qisqarishi va sun'iy intellekt ta'sirida korporativ tuzilmalarda ish o'rinlari qisqarishi davom etishi mumkin.",
-   "image": "https://the-decoder.com/wp-content/uploads/2026/10/gemini_4_logo_wall-1200x675.png",
-   "domains": [
-    "the-decoder.com",
-    "businessinsider.com",
-    "techcrunch.com"
-   ],
-   "urls": [
-    "https://the-decoder.com/google-joins-the-decision-model-wave-with-gemini-decision-1-scoring-1000-questions-in-a-single-pass/",
-    "https://www.businessinsider.com/recent-company-layoffs-laying-off-workers-2026",
-    "https://techcrunch.com/2026/05/19/googles-gemini-omni-turns-images-audio-and-text-into-video-and-thats-just-the-start/"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794452753.907915,
-   "title": "Britaniyaning Fractile chiplar ishlab chiqarish uchun 720 million dollar investitsiya jalb qildi",
-   "text": "Fractile sun'iy intellekt uchun maxsus chiplar yaratish poygasida eng yirik moliyalashtirilgan kompaniyalardan biriga aylandi.",
-   "orig_title": "With $720M round, Britain’s Fractile gets a leg up in the race for AI chips",
-   "link": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/",
-   "source": "TechCrunch AI",
-   "soha": "AI",
-   "baho": 7,
-   "experts": [],
-   "effect": "Sun'iy intellekt chiplari bozorida raqobat kuchayib, xarajatlar kamayishi va Buyuk Britaniyaning texnologik infratuzilmasi mustahkamlanishi mumkin.",
-   "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2183896789.jpg?resize=1200,800",
-   "domains": [
-    "techcrunch.com",
-    "sg.news.yahoo.com",
-    "businessinsider.com"
-   ],
-   "urls": [
-    "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/",
-    "https://sg.news.yahoo.com/uk-backed-ai-chip-startup-145142457.html",
-    "https://www.businessinsider.com/disney-pays-60-million-characterai-employees-tech-layoffs-karandeep-anand-2026-10"
-   ],
-   "videos": []
-  },
   {
    "t": 1794456067.4744592,
    "title": "Jensen Huang mojarosi va uning vaqt jadvali",
@@ -3469,6 +3344,38 @@
     "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
     "https://finance.yahoo.com/technology/ai/articles/ai-boom-survive-without-jensen-094506182.html",
     "https://finance.yahoo.com/technology/articles/colette-kress-named-nvidia-interim-215013823.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794628851.2830174,
+   "title": "Xitoyning eng ilg'or AI modellari taqiqlangan Nvidia chiplarida o'qitildi",
+   "text": "Yangi tadqiqotlar shuni ko'rsatmoqdaki, Xitoyning eng ilg'or sun'iy intellekt modellari AQSh tomonidan eksporti taqiqlangan Nvidia chiplari yordamida o'qitilgan.",
+   "orig_title": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!",
+   "link": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [
+    {
+     "kim": "Sam Bresnick",
+     "lavozim": "tadqiqotchi",
+     "fikr": "Xitoy kompaniyalari materik Xitoy, Gonkong va Makaoda chiplarga kira olmasa-da, Malayziyaga borib istalgan ishni qilishi mantiqsiz holat.",
+     "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+     "domain": "techcrunch.com"
+    }
+   ],
+   "effect": "AQShning eksport cheklovlarini chetlab o'tish holatlari kuchayishi va Xitoy sun'iy intellekt modellarining rivojlanishi davom etishi mumkin. Bu holat Amerikaning texnologik ustunligini saqlab qolish borasidagi siyosatini qiyinlashtirib, AQSh va Xitoy kompaniyalari o'rtasidagi raqobatni yanada keskinlashtirishi ehtimoli bor.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2301327883.jpg?resize=1200,795",
+   "domains": [
+    "techcrunch.com",
+    "yahoo.com",
+    "cnbc.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+    "https://www.yahoo.com/news/politics/articles/spying-smuggling-security-nvidia-ceos-165637449.html",
+    "https://www.cnbc.com/2026/11/05/moonshot-ai-nvidia-chips-europe-china.html"
    ],
    "videos": []
   }
