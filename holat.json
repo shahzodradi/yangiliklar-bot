@@ -258,7 +258,9 @@
   "https://www.marktechpost.com/2026/11/13/best-ai-video-generation-models-2026/": 1794596763.077386,
   "https://www.analyticsinsight.net/artificial-intelligence/best-ai-drama-generator-tools-in-2026-ranked-for-short-dramas-anime-episodes-and-music-videos": 1794596763.077386,
   "https://the-decoder.com/banks-bar-chinese-and-hong-kong-investors-from-anthropic-ipo-over-us-export-controls/": 1794596763.077386,
-  "https://the-decoder.com/nearly-70-percent-of-us-agencies-use-generative-ai-and-unions-are-finally-catching-up-with-guardrails/": 1794596763.077386
+  "https://the-decoder.com/nearly-70-percent-of-us-agencies-use-generative-ai-and-unions-are-finally-catching-up-with-guardrails/": 1794596763.077386,
+  "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/": 1794625332.36186,
+  "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/": 1794625332.36186
  },
  "fails": 0,
  "sent": [
@@ -1175,6 +1177,16 @@
   {
    "t": 1794596763.077386,
    "title": "Nearly 70 percent of US agencies use generative AI, and unions are finally catching up with guardrails",
+   "soha": "AI"
+  },
+  {
+   "t": 1794625332.36186,
+   "title": "AI agent startup LangChain hits $3B valuation",
+   "soha": "AI"
+  },
+  {
+   "t": 1794625332.36186,
+   "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
    "soha": "AI"
   }
  ],
@@ -3411,6 +3423,52 @@
     "https://the-decoder.com/nearly-70-percent-of-us-agencies-use-generative-ai-and-unions-are-finally-catching-up-with-guardrails/",
     "https://www.forbes.com/councils/forbestechcouncil/2026/09/08/generative-ai-is-just-the-latest-chapter-80-years-of-programming-automation/",
     "https://www.forbes.com/councils/forbestechcouncil/2026/04/16/ai-guardrails-the-new-frontier-for-enterprise-risk/"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794625332.36186,
+   "title": "AI agent startapi LangChain 3 milliard dollarlik bahoga erishdi",
+   "text": "LangChain o'zining model va platformadan mustaqil agent boshqaruv vositasi LangSmith uchun 7,000 mijozga ega ekanligini ma'lum qildi.",
+   "orig_title": "AI agent startup LangChain hits $3B valuation",
+   "link": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Sun'iy intellekt agentlari bozori va xizmatlariga bo'lgan yuqori talab tufayli, ushbu sektordagi startaplar yuqori baholanish va yirik investitsiyalarni jalb qilishda davom etishi mumkin. Biroq, infratuzilmani sotib olish yoki ijaraga olishning qimmatligi sababli, bunday kompaniyalarning yalpi foyda marjasi past darajada qolishi ehtimoli bor.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/Raising-money.jpg?resize=1200,829",
+   "domains": [
+    "techcrunch.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+    "https://finance.yahoo.com/technology/ai/articles/langchain-raises-300m-enable-every-155300515.html",
+    "https://finance.yahoo.com/technology/ai/articles/ai-inference-startup-fal-doubles-193443073.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794625332.36186,
+   "title": "Jensen Huangning ketishi AI startaplarini moliyalashtirishga ta'sir qilmoqda",
+   "text": "Nvidia rahbariyatidagi o'zgarishlardan so'ng venchur investorlar va startap asoschilari kichikroq cheklar va pastroq baholarga tayyorgarlik ko'rmoqda.",
+   "orig_title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
+   "link": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 9,
+   "experts": [],
+   "effect": "Nvidia rahbariyatining o'zgarishi va investitsiya siyosatining konservativlashuvi sun'iy intellekt startaplarini moliyalashtirishda jiddiy bo'shliqni keltirib chiqarishi mumkin. Shunga qaramay, muqobil chiplar va texnologiyalarning rivojlanishi bozorga bu o'zgarishlarni yengib o'tish imkonini berishi ehtimoli bor.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/Jensen-Huang-nvidia.jpg?w=1024",
+   "domains": [
+    "techcrunch.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+    "https://finance.yahoo.com/technology/ai/articles/ai-boom-survive-without-jensen-094506182.html",
+    "https://finance.yahoo.com/technology/articles/colette-kress-named-nvidia-interim-215013823.html"
    ],
    "videos": []
   }
