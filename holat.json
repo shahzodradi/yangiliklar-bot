@@ -264,20 +264,11 @@
   "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/": 1794628851.2830174,
   "https://allhiphop.com/news/nvidias-suno-investor-fights-music-labels-over-court-testimony/": 1794632543.1599967,
   "https://the-decoder.com/jensen-huangs-ouster-likely-traces-back-to-nvidias-risky-business-practices-more-than-his-personal-life/": 1794632543.1599967,
-  "https://openai.com/business/customer-stories/shield": 1794632543.1599967
+  "https://openai.com/business/customer-stories/shield": 1794632543.1599967,
+  "https://www.cartoonbrew.com/awards/manchester-animation-festival-genai-ban-in-waves-269431.html": 1794636064.4992228
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1794290452.4902194,
-   "title": "TikTok updates its AI video ad tools",
-   "soha": "AI video"
-  },
-  {
-   "t": 1794290452.4902194,
-   "title": "Jensen Huang’s Troubles Leave the AI Industry Reeling",
-   "soha": "AI"
-  },
   {
    "t": 1794294173.5031517,
    "title": "TBWA\\Australia’s DISRUPT AI Film Festival returns with record entries + expanded 2026 programme",
@@ -1162,6 +1153,11 @@
    "t": 1794632543.1599967,
    "title": "Shield helps technicians hand off legacy portal work with OpenAI",
    "soha": "AI"
+  },
+  {
+   "t": 1794636064.4992228,
+   "title": "Manchester Animation Festival Bans Films Made With GenAI, Names ‘In Waves’ Best Feature",
+   "soha": "AI tanlov"
   }
  ],
  "mavzu": {
@@ -1173,74 +1169,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1794463262.3657672,
-   "title": "ByteDance plans AI competition with OpenAI by 2029",
-   "text": "ByteDance founder Zhang Yiming announced a timeline for the Seed team to compete directly with OpenAI by 2029.",
-   "orig_title": "ByteDance's Zhang Yiming: Earliest possible competition with OpenAI in AI by 2029",
-   "link": "https://www.kucoin.com/news/flash/bytedance-s-zhang-yiming-2029-earliest-to-compete-with-openai-in-ai",
-   "source": "kucoin.com",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Xitoy va G‘arb o‘rtasidagi sun'iy intellekt ekotizimlari tobora ajralib borishi, Xitoy kompaniyalari esa global miqyosda AQSh yetakchiligidagi texnologiyalar bilan raqobatni kuchaytirishi mumkin.",
-   "image": "https://assets.staticimg.com/@kudos/runtime/0.6.25/assets/tw-ea52b6f9440e857c.jpg",
-   "domains": [
-    "kucoin.com",
-    "businessinsider.com",
-    "theverge.com"
-   ],
-   "urls": [
-    "https://www.kucoin.com/news/flash/bytedance-s-zhang-yiming-2029-earliest-to-compete-with-openai-in-ai",
-    "https://www.businessinsider.com/goldman-sachs-ai-stocks-trade-us-china-ecosystems-competition-playbook-2026-10",
-    "https://www.theverge.com/2023/12/15/24003151/bytedance-china-openai-microsoft-competitor-llm"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794463262.3657672,
-   "title": "UK regulator demands AI-proof exams for universities",
-   "text": "The Office for Students in England states that AI has made coursework assessment nearly impossible due to widespread ChatGPT usage.",
-   "orig_title": "UK regulator threatens universities with sanctions unless they adopt AI-proof exam formats",
-   "link": "https://the-decoder.com/uk-regulator-threatens-universities-with-sanctions-unless-they-adopt-ai-proof-exam-formats/",
-   "source": "The Decoder",
-   "soha": "AI",
-   "baho": 7,
-   "experts": [],
-   "effect": "Universitetlar sun'iy intellekt ta'sirini kamaytirish uchun an'anaviy yozma imtihonlar va og‘zaki so‘rovlarga qaytishi, talabalarni baholash tizimini tubdan o‘zgartirishi mumkin.",
-   "image": "https://the-decoder.com/wp-content/uploads/2026/07/ai-generated-homework-nano-banana-pro.jpg",
-   "domains": [
-    "the-decoder.com",
-    "theguardian.com"
-   ],
-   "urls": [
-    "https://the-decoder.com/uk-regulator-threatens-universities-with-sanctions-unless-they-adopt-ai-proof-exam-formats/",
-    "https://www.theguardian.com/education/2026/nov/11/ai-close-to-impossible-assess-university-coursework-regulator?shem=dsdf,sharefoc,agadiscoversdl,,sh/x/discover/m1/4"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794463262.3657672,
-   "title": "ByteDance is developing its own AI agent",
-   "text": "ByteDance is working on a new AI agent project to compete with Meta's Muse.",
-   "orig_title": "ByteDance Is Reportedly Working On Its Own AI Agent",
-   "link": "https://www.msn.com/en-us/technology/tech-companies/bytedance-is-reportedly-working-on-its-own-ai-agent/ar-AA2heA5y",
-   "source": "msn.com",
-   "soha": "AI",
-   "baho": 7,
-   "experts": [],
-   "effect": "Xitoyda xorijiy texnologiya gigantlari mahalliy qoidalarga moslashish uchun mahalliy sun'iy intellekt modellariga tayanib ish ko‘rishi va bozordagi mavqeini o‘zgartirishi mumkin.",
-   "image": null,
-   "domains": [
-    "uk.news.yahoo.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://uk.news.yahoo.com/apple-begins-ai-trial-china-094808203.html",
-    "https://finance.yahoo.com/technology/ai/articles/expertcrowd-hud-collaborate-advance-ai-150000343.html"
-   ],
-   "videos": []
-  },
   {
    "t": 1794474226.8714855,
    "title": "Adobe MAX 2026 yangi eksperimental AI vositalarini taqdim etdi",
@@ -3226,6 +3154,29 @@
    "urls": [
     "https://www.theguardian.com/australia-news/2026/oct/08/openai-used-ai-to-help-write-email-warning-australian-government-ai-had-hacked-its-websites",
     "https://www.yahoo.com/news/world/articles/openai-agents-breached-australian-portal-054626070.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794636064.4992228,
+   "title": "Manchester animatsiya festivali GenAI taqiqini e'lon qildi va g'oliblarni aniqladi",
+   "text": "Manchester animatsiya festivali 2027 yilgi tanlovlardan sun'iy intellekt yordamida yaratilgan filmlarni taqiqlashini ma'lum qildi. Festivalda 'In Waves' va 'When the Sea Was Calm' kabi filmlar bosh sovrinlarni qo'lga kiritdi.",
+   "orig_title": "Manchester Animation Festival Bans Films Made With GenAI, Names ‘In Waves’ Best Feature",
+   "link": "https://www.cartoonbrew.com/awards/manchester-animation-festival-genai-ban-in-waves-269431.html",
+   "source": "cartoonbrew.com",
+   "soha": "AI tanlov",
+   "baho": 10,
+   "experts": [],
+   "effect": "Manchester Animation Festival festivalda sun'iy intellekt yordamida yaratilgan filmlarni taqiqlashi animatsiya sohasida ijodkorlarning huquqlarini himoya qilish tendentsiyasini kuchaytirishi mumkin. Bu qadam boshqa kinofestivallar ham shunday cheklovlar joriy etishiga turtki bo'lishi ehtimoli bor.",
+   "image": "https://www.cartoonbrew.com/wp-content/uploads/2026/11/MAF-Winners-2026.jpg",
+   "domains": [
+    "cartoonbrew.com",
+    "theguardian.com"
+   ],
+   "urls": [
+    "https://www.cartoonbrew.com/awards/manchester-animation-festival-genai-ban-in-waves-269431.html",
+    "https://www.theguardian.com/football/2026/oct/21/como-manchester-united-champions-league-match-report",
+    "https://www.theguardian.com/football/2026/oct/11/liverpool-manchester-city-premier-league-match-report"
    ],
    "videos": []
   }
