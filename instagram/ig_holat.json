@@ -22,9 +22,12 @@
   ],
   "AlphaGo": [
    "After winning its 59th game Master revealed itself in the chatroom to be controlled by Dr. Aja Huang of the DeepMind team, then changed its nationality to the United Kingdom."
+  ],
+  "AlphaFold": [
+   "It scored above 90 on CASP's global distance test (GDT) for approximately two-thirds of the proteins, a test measuring the similarity between a computationally predicted structure and the experimental"
   ]
  },
- "fakt_navbat": 7,
+ "fakt_navbat": 9,
  "videos": [
   "https://www.youtube.com/watch?v=5KyifKNlY7A"
  ]
