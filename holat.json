@@ -269,25 +269,13 @@
   "https://www.desmoinesregister.com/press-release/story/150992/the-2026-boston-silicon-valley-ai-film-festival-11-awards-and-the-convergence-of-ai-filmmaking/": 1794664875.3591092,
   "https://www.wired.com/story/beware-the-new-ai-fueled-ransomware-boom/": 1794664875.3591092,
   "https://www.msn.com/en-us/technology/artificial-intelligence/runway-gen-4-could-change-the-ai-video-industry/vi-AA2hrqTD": 1794676080.9185567,
-  "https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol/": 1794676080.9185567
+  "https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol/": 1794676080.9185567,
+  "https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5/": 1794679285.7973588,
+  "https://www.msn.com/en-us/news/other/canva-craft-vs-chatgpt-i-tested-both-free-ai-image-generators-with-5-prompts-to-see-which-is-better/ar-AA2hqF6j": 1794679285.7973588,
+  "https://www.billboard.com/pro/congress-stop-big-ai-ripping-off-creators-jerrold-nadler/": 1794679285.7973588
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1794333661.7195117,
-   "title": "Google DeepMind's Gemini Robotics 2.5 scores 96 percent sorting metal parts in a Mercedes-Benz assembly pilot",
-   "soha": "AI"
-  },
-  {
-   "t": 1794333661.7195117,
-   "title": "Photoshop, Lightroom, and Premiere are making it easier to remove things",
-   "soha": "AI video"
-  },
-  {
-   "t": 1794333661.7195117,
-   "title": "OpenAI's New GPT-6 Cyber AI Can Find and Exploit Software Flaws — It Already Uncovered 588 Unknown Linux Vulnerabilities and 81 Firefox Bugs",
-   "soha": "AI"
-  },
   {
    "t": 1794337472.488967,
    "title": "Nvidia's model GR00T 2 watches humans on video, then imagines itself as the robot",
@@ -1052,6 +1040,21 @@
    "t": 1794676080.9185567,
    "title": "Gemini 4 Carbon takes the MathArena crown but costs 15 times more than GPT-6.1 Sol",
    "soha": "AI"
+  },
+  {
+   "t": 1794679285.7973588,
+   "title": "Anthropic says outdated prompting habits are slowing down Claude Opus 5.5",
+   "soha": "AI"
+  },
+  {
+   "t": 1794679285.7973588,
+   "title": "Canva Craft vs ChatGPT: I tested both free AI image generators with 5 prompts to see which is better",
+   "soha": "AI rasm"
+  },
+  {
+   "t": 1794679285.7973588,
+   "title": "Stolen (Not Super) Intelligence: Why Congress Must Stop Big AI From Ripping Off Creators (Guest Column)",
+   "soha": "AI musiqa"
   }
  ],
  "mavzu": {
@@ -2969,6 +2972,75 @@
      "X"
     ]
    ]
+  },
+  {
+   "t": 1794679285.7973588,
+   "title": "Anthropic Claude Opus 5.5 modeli uchun yangi tavsiyalarni e'lon qildi",
+   "text": "Anthropic Claude Opus 5.5 modelini barcha pullik rejalarda standart qilib belgiladi va eskirgan prompt yozish odatlaridan voz kechish bo'yicha qo'llanma chiqardi.",
+   "orig_title": "Anthropic says outdated prompting habits are slowing down Claude Opus 5.5",
+   "link": "https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Kompaniyaning yangi qoidalari va blokirovkalari kelgusida mashhur videoo'yinlarni sun'iy intellekt yordamida klonlash, qayta ishlash yoki takrorlash urinishlarini qiyinlashtirishi mumkin.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/11/anthropic_claude_logo.png",
+   "domains": [
+    "the-decoder.com",
+    "tech.yahoo.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5/",
+    "https://tech.yahoo.com/ai/claude/articles/claude-rejects-requests-ai-video-163918146.html",
+    "https://tech.yahoo.com/gaming/articles/cant-code-ai-let-fix-122044249.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794679285.7973588,
+   "title": "Canva Craft va ChatGPT sun'iy intellekt rasm generatorlari taqqoslandi",
+   "text": "Canva Craft va ChatGPT yangi bepul AI rasm generatorlari imkoniyatlari sinovdan o'tkazilib, ularning natijalari solishtirildi.",
+   "orig_title": "Canva Craft vs ChatGPT: I tested both free AI image generators with 5 prompts to see which is better",
+   "link": "https://www.msn.com/en-us/news/other/canva-craft-vs-chatgpt-i-tested-both-free-ai-image-generators-with-5-prompts-to-see-which-is-better/ar-AA2hqF6j",
+   "source": "msn.com",
+   "soha": "AI rasm",
+   "baho": 7,
+   "experts": [],
+   "effect": "Mazkur yangi vositaning bozorga chiqishi sun'iy intellekt yordamida tasvir yaratish yo'nalishidagi raqobatni yanada kuchaytirishi va foydalanuvchilarga dizayn jarayonida aniqroq natijalarga erishish imkonini berishi mumkin.",
+   "image": null,
+   "domains": [
+    "businessinsider.com",
+    "theverge.com"
+   ],
+   "urls": [
+    "https://www.businessinsider.com/canva-craft-new-ai-image-generation-tool-2026-10",
+    "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794679285.7973588,
+   "title": "Musiqa sanoatida sun'iy intellekt va mualliflik huquqi masalalari muhokama qilinmoqda",
+   "text": "Kongress sun'iy intellekt platformalari ijodkorlarning huquqlarini buzayotgani va striming daromadlarini kamaytirayotgani sababli choralar ko'rishi kerakligi ta'kidlandi.",
+   "orig_title": "Stolen (Not Super) Intelligence: Why Congress Must Stop Big AI From Ripping Off Creators (Guest Column)",
+   "link": "https://www.billboard.com/pro/congress-stop-big-ai-ripping-off-creators-jerrold-nadler/",
+   "source": "billboard.com",
+   "soha": "AI musiqa",
+   "baho": 7,
+   "experts": [],
+   "effect": "Striming platformalarida sun'iy intellekt yordamida yaratilgan musiqalarning markirovkasi joriy etilishi tinglovchilar uchun shaffoflikni oshirishi va mualliflik huquqlarini himoya qilish mexanizmlariga ta'sir ko'rsatishi mumkin.",
+   "image": "https://www.billboard.com/wp-content/uploads/2026/11/rep-jerrold-nadler-headshot-1800.jpg?w=1024",
+   "domains": [
+    "billboard.com",
+    "yahoo.com",
+    "techcrunch.com"
+   ],
+   "urls": [
+    "https://www.billboard.com/pro/congress-stop-big-ai-ripping-off-creators-jerrold-nadler/",
+    "https://www.yahoo.com/news/politics/articles/music-related-legislation-congress-now-205323467.html",
+    "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/"
+   ],
+   "videos": []
   }
  ]
 }
