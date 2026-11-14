@@ -270,11 +270,6 @@
  "fails": 0,
  "sent": [
   {
-   "t": 1794297683.2016978,
-   "title": "Golden Rooster Film Festival: Where art meets technology",
-   "soha": "AI tanlov"
-  },
-  {
    "t": 1794303444.248303,
    "title": "Elvis rights holders and Eminem's publisher sue Suno, testing the ELVIS Act",
    "soha": "AI musiqa"
@@ -1159,73 +1154,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1794474226.8714855,
-   "title": "Adobe MAX 2026 yangi eksperimental AI vositalarini taqdim etdi",
-   "text": "Adobe MAX Sneaks 2026 tadbirida video, tovush, rasm tahrirlash va dizayn uchun 10 ta eksperimental sun'iy intellekt vositasi namoyish etildi.",
-   "orig_title": "Adobe MAX 2026 sneaks: From turning images into navigable worlds to AI-generated characters for videos, check out all announcements",
-   "link": "https://www.msn.com/en-in/news/other/adobe-max-2026-sneaks-from-turning-images-into-navigable-worlds-to-ai-generated-characters-for-videos-check-out-all-announcements/ar-AA2hgDGm",
-   "source": "msn.com",
-   "soha": "AI video",
-   "baho": 9,
-   "experts": [],
-   "effect": "Video ishlab chiqarish va vizual dizayn sohasida sun'iy intellekt imkoniyatlari kengayib, post-produksiya jarayonlari tezlashishi va montaj ishlarida inson omili kamayishi mumkin.",
-   "image": null,
-   "domains": [
-    "theverge.com",
-    "tech.yahoo.com"
-   ],
-   "urls": [
-    "https://www.theverge.com/tech/1031505/adobe-max-2026-sneaks-experiments-ai",
-    "https://tech.yahoo.com/ai/meta-ai/articles/5-wild-adobe-sneaks-creatives-181903002.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794474226.8714855,
-   "title": "Kling 3.0 yordamida ko'p kadrli va izchil AI video yaratish",
-   "text": "Kling 3.0 kamerani boshqarish funksiyalari va 15 soniyali generatsiya limiti yordamida yuqori sifatli kinematografik kontent yaratish imkonini bermoqda.",
-   "orig_title": "Using Kling 3.0 for multi-shot and consistent AI video",
-   "link": "https://www.msn.com/en-gb/technology/hardware-and-devices/using-kling-3-0-for-multi-shot-and-consistent-ai-video/vi-AA2hgXlA",
-   "source": "msn.com",
-   "soha": "AI video",
-   "baho": 9,
-   "experts": [],
-   "effect": "Kontent yaratuvchilar uchun video ishlab chiqarish jarayoni osonlashib, xalqaro bozorlarda foydalanuvchilar faolligi oshishi va yangi monetizatsiya imkoniyatlari paydo bo'lishi mumkin.",
-   "image": null,
-   "domains": [
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://finance.yahoo.com/news/kling-ai-launches-3-0-080000425.html",
-    "https://finance.yahoo.com/news/kuaishou-kling-ai-3-0-030847740.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794474226.8714855,
-   "title": "ByteDance yangi AI yordamchisini ishga tushirishga hozirlik ko'rmoqda",
-   "text": "ByteDance kompaniyasi sun'iy intellekt sohasidagi yetakchiligini mustahkamlash maqsadida yaqin haftalarda yangi AI assistentini taqdim etishni rejalashtirmoqda.",
-   "orig_title": "[News] ByteDance Reportedly to Launch Meta Muse-Like AI Assistant Within Weeks, Eyes Up to US$70B in Broader AI Push",
-   "link": "https://www.trendforce.com/news/2026/11/12/news-bytedance-reportedly-to-launch-meta-muse-like-ai-assistant-within-weeks-eyes-up-to-us70b-in-broader-ai-push/",
-   "source": "trendforce.com",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Sun'iy intellekt bozorida raqobat yanada kuchayib, videogeneratsiya va multimedia xizmatlari sifati oshishi hamda yirik investitsiyalar evaziga yangi aqlli yordamchilar paydo bo'lishi mumkin.",
-   "image": "https://img.trendforce.com/blog/wp-content/uploads/2025/12/23112344/ByteDance-624x355.png",
-   "domains": [
-    "trendforce.com",
-    "techcrunch.com",
-    "theverge.com"
-   ],
-   "urls": [
-    "https://www.trendforce.com/news/2026/11/12/news-bytedance-reportedly-to-launch-meta-muse-like-ai-assistant-within-weeks-eyes-up-to-us70b-in-broader-ai-push/",
-    "https://techcrunch.com/2026/03/26/bytedances-new-ai-video-generation-model-dreamina-seedance-2-0-comes-to-capcut/",
-    "https://www.theverge.com/ai-artificial-intelligence/877931/bytedance-seedance-2-video-generator-ai-launch"
-   ],
-   "videos": []
-  },
   {
    "t": 1794477653.023465,
    "title": "OpenAI GPT-image modellarida xatoliklar aniqlandi",
