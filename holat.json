@@ -265,25 +265,12 @@
   "https://www.cartoonbrew.com/awards/manchester-animation-festival-genai-ban-in-waves-269431.html": 1794636064.4992228,
   "https://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary/": 1794657675.029715,
   "https://the-decoder.com/anthropic-can-already-retrain-mythos-with-a-fraction-of-the-compute-originally-needed-says-former-researcher-coxon/": 1794657675.029715,
-  "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/": 1794657675.029715
+  "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/": 1794657675.029715,
+  "https://www.desmoinesregister.com/press-release/story/150992/the-2026-boston-silicon-valley-ai-film-festival-11-awards-and-the-convergence-of-ai-filmmaking/": 1794664875.3591092,
+  "https://www.wired.com/story/beware-the-new-ai-fueled-ransomware-boom/": 1794664875.3591092
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1794315958.6113648,
-   "title": "Cyberattacks threaten to make open-source AI a little less open, Hugging Face exec warns",
-   "soha": "AI"
-  },
-  {
-   "t": 1794315958.6113648,
-   "title": "Anthropic kicks off IPO roadshow, offering shares at $70 to $78 and targeting a trillion-dollar valuation",
-   "soha": "AI"
-  },
-  {
-   "t": 1794319257.5646298,
-   "title": "Eight countries and top AI labs agree to shutdown mechanisms in new Paris declaration",
-   "soha": "AI"
-  },
   {
    "t": 1794322959.1546466,
    "title": "Adobe brings AI agents and new creative tools to Photoshop, Premiere, and Firefly",
@@ -1133,6 +1120,16 @@
    "t": 1794657675.029715,
    "title": "Israel’s VCs see opportunity for challengers in Nvidia’s turmoil",
    "soha": "AI"
+  },
+  {
+   "t": 1794664875.3591092,
+   "title": "The 2026 Boston-Silicon Valley AI Film Festival: 11 Awards and the Convergence of AI & Filmmaking",
+   "soha": "AI tanlov"
+  },
+  {
+   "t": 1794664875.3591092,
+   "title": "Beware the New AI-Fueled Ransomware Boom",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -1144,30 +1141,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1794488765.0476463,
-   "title": "Google DeepMind AlphaGenome 2 modelini taqdim etdi",
-   "text": "Google DeepMind 107 milliondan ortiq hujayra profillariga asoslangan AlphaGenome 2 modelini chiqardi. U genetik o'zgarishlarni aniqlashda oldingi versiyadan ikki barobar yaxshiroq natija ko'rsatmoqda.",
-   "orig_title": "Google Deepmind shifts genomics AI from bulk tissue predictions to single cell type resolution with AlphaGenome 2",
-   "link": "https://the-decoder.com/google-deepmind-shifts-genomics-ai-from-bulk-tissue-predictions-to-single-cell-type-resolution-with-alphagenome-2/",
-   "source": "The Decoder",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Genomika tadqiqotlarida hujayra darajasidagi o'zgarishlarni aniqroq bashorat qilish imkoniyati yaratilishi mumkin. Bu tibbiyotda kasalliklarning hujayrali ildizlarini ochish va yangi davolash usullarini ishlab chiqish jarayonini tezlashtirishi ehtimoli bor.",
-   "image": "https://the-decoder.com/wp-content/uploads/2026/11/deepmind_alphagenome2.png",
-   "domains": [
-    "the-decoder.com",
-    "theverge.com",
-    "forbes.com"
-   ],
-   "urls": [
-    "https://the-decoder.com/google-deepmind-shifts-genomics-ai-from-bulk-tissue-predictions-to-single-cell-type-resolution-with-alphagenome-2/",
-    "https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model",
-    "https://www.forbes.com/councils/forbestechcouncil/2025/09/10/the-alphafold-effect-20-how-google-deepminds-new-ai-is-decoding-the-darkest-corners-of-the-genome/"
-   ],
-   "videos": []
-  },
   {
    "t": 1794492152.4698534,
    "title": "ElevenLabs Scribe v3 va Live modullari ovozli agentlar uchun taqdim etildi",
@@ -3070,6 +3043,60 @@
     "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/",
     "https://www.businessinsider.com/why-silicon-valley-vcs-are-investing-billions-in-robotics-2026-10",
     "https://finance.yahoo.com/news/nvidia-advanced-talks-buy-israels-171025289.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794664875.3591092,
+   "title": "Boston-Silicon Valley AI Film Festival 11 ta mukofot g'oliblarini e'lon qildi",
+   "text": "MITda bo'lib o'tgan festivalda sun'iy intellekt yordamida yaratilgan filmlar namoyish etilib, 11 ta yo'nalishda g'oliblar taqdirlandi va 'Earlier' filmi Bosh mukofotni qo'lga kiritdi.",
+   "orig_title": "The 2026 Boston-Silicon Valley AI Film Festival: 11 Awards and the Convergence of AI & Filmmaking",
+   "link": "https://www.desmoinesregister.com/press-release/story/150992/the-2026-boston-silicon-valley-ai-film-festival-11-awards-and-the-convergence-of-ai-filmmaking/",
+   "source": "desmoinesregister.com",
+   "soha": "AI tanlov",
+   "baho": 10,
+   "experts": [
+    {
+     "kim": "Ken Goldberg",
+     "lavozim": "robototexnika professori",
+     "fikr": "Bu ko‘rsatkichlar juda yuqori bo‘lib, o‘zining 45 yillik faoliyatida robototexnika sohasiga bunchalik ko‘p mablag‘ va qiziqish qaratilganini ko‘rmagan.",
+     "url": "https://www.businessinsider.com/why-silicon-valley-vcs-are-investing-billions-in-robotics-2026-10",
+     "domain": "businessinsider.com"
+    }
+   ],
+   "effect": "Robototexnika va sun'iy intellekt sohasiga milliardlab dollarlik investitsiyalarning yo'naltirilishi jismoniy mehnatni bajaruvchi qurilmalar bozorini tezkor rivojlantirishi va ish o'rinlari hamda biznes jarayonlariga jiddiy ta'sir ko'rsatishi mumkin.",
+   "image": null,
+   "domains": [
+    "businessinsider.com",
+    "forbes.com"
+   ],
+   "urls": [
+    "https://www.businessinsider.com/why-silicon-valley-vcs-are-investing-billions-in-robotics-2026-10",
+    "https://www.forbes.com/connect/event/2024-forbes-cmo-summit/"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794664875.3591092,
+   "title": "Sun'iy intellekt yordamida avtomatlashtirilgan fidyekorlik dasturlari xavfi ortmoqda",
+   "text": "Tajribasiz xakerlar ham sun'iy intellekt vositalaridan foydalangan holda yangi turdagi avtomatlashtirilgan fidyekorlik dasturlarini yaratish va tarqatish imkoniyatiga ega bo'lmoqda.",
+   "orig_title": "Beware the New AI-Fueled Ransomware Boom",
+   "link": "https://www.wired.com/story/beware-the-new-ai-fueled-ransomware-boom/",
+   "source": "Wired AI",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Kiberjinoyatchilarning sun'iy intellekt vositalaridan keng foydalanishi axborot xavfsizligi tahdidlarini oshirib, tashkilotlar uchun kiberhujumlarga qarshi kurashish xarajatlarini ko'paytirishi mumkin.",
+   "image": null,
+   "domains": [
+    "wired.com",
+    "finance.yahoo.com",
+    "cnbc.com"
+   ],
+   "urls": [
+    "https://www.wired.com/story/beware-the-new-ai-fueled-ransomware-boom/",
+    "https://finance.yahoo.com/technology/ai/articles/fears-over-828-billion-ai-104400351.html",
+    "https://www.cnbc.com/2026/10/31/trump-gas-diesel-price-midterm-election.html"
    ],
    "videos": []
   }
