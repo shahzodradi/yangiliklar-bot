@@ -267,65 +267,12 @@
   "https://the-decoder.com/anthropic-can-already-retrain-mythos-with-a-fraction-of-the-compute-originally-needed-says-former-researcher-coxon/": 1794657675.029715,
   "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/": 1794657675.029715,
   "https://www.desmoinesregister.com/press-release/story/150992/the-2026-boston-silicon-valley-ai-film-festival-11-awards-and-the-convergence-of-ai-filmmaking/": 1794664875.3591092,
-  "https://www.wired.com/story/beware-the-new-ai-fueled-ransomware-boom/": 1794664875.3591092
+  "https://www.wired.com/story/beware-the-new-ai-fueled-ransomware-boom/": 1794664875.3591092,
+  "https://www.msn.com/en-us/technology/artificial-intelligence/runway-gen-4-could-change-the-ai-video-industry/vi-AA2hrqTD": 1794676080.9185567,
+  "https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol/": 1794676080.9185567
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1794326607.452162,
-   "title": "Adobe Firefly gets new AI-powered tools, agentic capabilities and other features: Check all updates",
-   "soha": "AI rasm"
-  },
-  {
-   "t": 1794326607.452162,
-   "title": "Adobe’s Firefly agent now plans the work and picks the AI model for you",
-   "soha": "AI rasm"
-  },
-  {
-   "t": 1794326607.452162,
-   "title": "Elvis Presley rightsholders sue Suno, alleging its AI imitates the King’s voice. Eight Mile Style has filed a separate suit over 269 Eminem songs.",
-   "soha": "AI musiqa"
-  },
-  {
-   "t": 1794326607.452162,
-   "title": "Adobe is going all in on agentic AI",
-   "soha": "AI"
-  },
-  {
-   "t": 1794326607.452162,
-   "title": "Google broadens its AI hardware portfolio with two new specialized chips",
-   "soha": "AI"
-  },
-  {
-   "t": 1794326607.452162,
-   "title": "This New Linux-Based Desktop Operating System Is Built for AI Nerds",
-   "soha": "AI"
-  },
-  {
-   "t": 1794330159.6686654,
-   "title": "Google releases Gemini 4 Carbon with agent ‘swarm’ feature",
-   "soha": "AI"
-  },
-  {
-   "t": 1794330159.6686654,
-   "title": "Adobe Firefly gets AI assistant, new video and image editing tools, here is everything you need to know",
-   "soha": "AI rasm"
-  },
-  {
-   "t": 1794330159.6686654,
-   "title": "Adobe Reveals Massive AI Upgrades, Firefly Builder & MCP Integration",
-   "soha": "AI video"
-  },
-  {
-   "t": 1794330159.6686654,
-   "title": "Work at the Frontier: AI’s effect on freelance work",
-   "soha": "AI"
-  },
-  {
-   "t": 1794330159.6686654,
-   "title": "A New AI Tool From Google DeepMind Proved the Signal Protocol Is Secure",
-   "soha": "AI"
-  },
   {
    "t": 1794333661.7195117,
    "title": "Google DeepMind's Gemini Robotics 2.5 scores 96 percent sorting metal parts in a Mercedes-Benz assembly pilot",
@@ -1095,6 +1042,16 @@
    "t": 1794664875.3591092,
    "title": "Beware the New AI-Fueled Ransomware Boom",
    "soha": "AI"
+  },
+  {
+   "t": 1794676080.9185567,
+   "title": "Runway Gen-4 could change the AI video industry",
+   "soha": "AI video"
+  },
+  {
+   "t": 1794676080.9185567,
+   "title": "Gemini 4 Carbon takes the MathArena crown but costs 15 times more than GPT-6.1 Sol",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -1106,38 +1063,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1794499425.926031,
-   "title": "Luminal kompaniyasi Nvidia CUDA ustunligiga qarshi chiqish uchun 23 million dollar mablag‘ oldi",
-   "text": "Luminal startupsi Nvidia kompaniyasining CUDA monopoliyasiga qarshi kurashish uchun 23 million dollar miqdorida investitsiya mablag‘ini jalb qildi.",
-   "orig_title": "With $23M in funding, Luminal is the latest startup to put Nvidia’s CUDA moat in its crosshairs",
-   "link": "https://siliconangle.com/2026/11/12/with-23m-in-funding-luminal-is-the-latest-startup-to-put-nvidias-cuda-moat-in-its-crosshairs/",
-   "source": "siliconangle.com",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": null,
-   "image": "https://images.siliconangle.com/blogs.dir/1/files/2026/11/Screenshot-from-2026-11-06-09-46-04.png",
-   "domains": [],
-   "urls": [],
-   "videos": []
-  },
-  {
-   "t": 1794499425.926031,
-   "title": "Jensen Huang Nvidia xodimi bilan yangi ishqiy munosabatda gumon qilindi",
-   "text": "Nvidia bosh direktori Jensen Huang xitoylik josus bilan bog‘liq mojarodan so‘ng, kompaniya xodimi bilan yana bir ishqiy aloqada bo‘lganlikda ayblanmoqda.",
-   "orig_title": "Jensen Huang accused of having another affair — with an Nvidia exec",
-   "link": "https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/",
-   "source": "TechCrunch AI",
-   "soha": "AI",
-   "baho": 9,
-   "experts": [],
-   "effect": null,
-   "image": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2294936867.jpg?resize=1200,800",
-   "domains": [],
-   "urls": [],
-   "videos": []
-  },
   {
    "t": 1794506557.1584666,
    "title": "InMobi va Uttar Pradesh hukumati AI Kaushal Hackathon 2026 tanlovini boshladi",
@@ -2993,6 +2918,57 @@
     "https://www.cnbc.com/2026/10/31/trump-gas-diesel-price-midterm-election.html"
    ],
    "videos": []
+  },
+  {
+   "t": 1794676080.9185567,
+   "title": "Runway Gen-4 sun'iy intellekt video industriyasini o'zgartirishi mumkin",
+   "text": "Runway Gen-4 sun'iy intellekt yordamida video yaratish imkoniyatlarini namoyish etdi va bu raqamli kinochilik kelajagini o'zgartirishi kutilmoqda.",
+   "orig_title": "Runway Gen-4 could change the AI video industry",
+   "link": "https://www.msn.com/en-us/technology/artificial-intelligence/runway-gen-4-could-change-the-ai-video-industry/vi-AA2hrqTD",
+   "source": "msn.com",
+   "soha": "AI video",
+   "baho": 9,
+   "experts": [],
+   "effect": "Jensen Huangning iste'foga chiqishi Nvidia aksiyalari pasayishiga va kompaniya kelajagiga nisbatan xavotirlar ortishiga olib kelishi mumkin. Shuningdek, bu voqea sun'iy intellekt bozorida raqobat va tartibga solish jarayonlariga o'z ta'sirini ko'rsatishi ehtimoli bor.",
+   "image": null,
+   "domains": [
+    "finance.yahoo.com",
+    "malaysia.news.yahoo.com"
+   ],
+   "urls": [
+    "https://finance.yahoo.com/technology/ai/articles/ai-video-generator-free-trial-151300153.html",
+    "https://malaysia.news.yahoo.com/fallen-star-nvidia-ceo-scandal-140000063.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794676080.9185567,
+   "title": "Gemini 4 Carbon MathArena reytingida birinchi o'rinni egalladi",
+   "text": "Google tomonidan taqdim etilgan Gemini 4 Carbon va Anthropic modeli MathArena benchmark testida peshqadamlikni qo'lga kiritdi, ammo ularning narxi yuqoriligicha qolmoqda.",
+   "orig_title": "Gemini 4 Carbon takes the MathArena crown but costs 15 times more than GPT-6.1 Sol",
+   "link": "https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Gemini 4 Carbon modeli sun'iy intellekt bozorida raqobatni yanada kuchaytirishi va ilg'or vazifalar uchun foydalanuvchilar tanlovini o'zgartirishi mumkin. Biroq uning yuqori narxi ayrim korxonalar va dasturchilar uchun xarajatlarni oshirishi ehtimoli bor.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/11/gemini-4_carbon_logo.png",
+   "domains": [
+    "the-decoder.com",
+    "theverge.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol/",
+    "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout",
+    "https://finance.yahoo.com/technology/ai/articles/investors-view-launch-alphabets-gemini-130003634.html"
+   ],
+   "videos": [
+    [
+     "https://x.com/j_dekoninck/status/2121263753006374997",
+     "X"
+    ]
+   ]
   }
  ]
 }
