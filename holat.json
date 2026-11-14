@@ -272,41 +272,6 @@
  "fails": 0,
  "sent": [
   {
-   "t": 1794322959.1546466,
-   "title": "Adobe brings AI agents and new creative tools to Photoshop, Premiere, and Firefly",
-   "soha": "AI video"
-  },
-  {
-   "t": 1794322959.1546466,
-   "title": "Adobe, Google broaden AI partnership across creative and workplace apps",
-   "soha": "AI rasm"
-  },
-  {
-   "t": 1794322959.1546466,
-   "title": "Anthropic's Fable 5.2 completes 41 percent of real freelance jobs, up from 2.5 percent a year ago",
-   "soha": "AI"
-  },
-  {
-   "t": 1794322959.1546466,
-   "title": "Spotify’s AI DJ gets new voices, personalities, and an option for less chatter",
-   "soha": "AI musiqa"
-  },
-  {
-   "t": 1794322959.1546466,
-   "title": "After challenging Google’s Android with Cyanogen, its co-founder takes aim at Windows for AI era",
-   "soha": "AI"
-  },
-  {
-   "t": 1794322959.1546466,
-   "title": "The race is on to sue Nvidia",
-   "soha": "AI"
-  },
-  {
-   "t": 1794322959.1546466,
-   "title": "Otter AI can now follow conversations across 30+ languages",
-   "soha": "AI"
-  },
-  {
    "t": 1794326607.452162,
    "title": "Adobe Firefly gets new AI-powered tools, agentic capabilities and other features: Check all updates",
    "soha": "AI rasm"
@@ -1141,54 +1106,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1794492152.4698534,
-   "title": "ElevenLabs Scribe v3 va Live modullari ovozli agentlar uchun taqdim etildi",
-   "text": "ElevenLabs kompaniyasi fon shovqini va suhbatdoshlar gapini bo'lib qo'yishni kamaytiradigan yangi Scribe v3 hamda Scribe v3 Live nutqni tanish modellarini chiqardi.",
-   "orig_title": "ElevenLabs Scribe v3 Live uses conversational context to stop voice agents from cutting off callers mid-sentence",
-   "link": "https://the-decoder.com/elevenlabs-scribe-v3-live-uses-conversational-context-to-stop-voice-agents-from-cutting-off-callers-mid-sentence/",
-   "source": "The Decoder",
-   "soha": "AI musiqa",
-   "baho": 9,
-   "experts": [],
-   "effect": "Suhbat kontekstini tushunadigan yangi ovozli modellar suniy intellekt agentlarining foydalanuvchilar gapini bo‘lib qo‘yish holatlarini kamaytirishi mumkin. Ovozli texnologiyalar va suniy intellektga asoslangan musiqa platformalarining kengayishi raqobatni kuchaytirib, ijodkorlar uchun yangi imkoniyatlar ochishi ehtimoli bor.",
-   "image": "https://the-decoder.com/wp-content/uploads/2026/10/elevenlabs.png",
-   "domains": [
-    "the-decoder.com",
-    "techcrunch.com",
-    "theguardian.com"
-   ],
-   "urls": [
-    "https://the-decoder.com/elevenlabs-scribe-v3-live-uses-conversational-context-to-stop-voice-agents-from-cutting-off-callers-mid-sentence/",
-    "https://techcrunch.com/2026/11/05/elevenlabs-now-lets-users-publish-ai-generated-music-directly-on-soundcloud/",
-    "https://www.theguardian.com/technology/2026/nov/04/uk-deploy-facial-recognition-biggest-ever-immigration-crackdown"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794492152.4698534,
-   "title": "BeatBread kompaniyasi Meta va Suno mutaxassislarini maslahatchi sifatida jalb qildi",
-   "text": "Musiqa huquqlari va texnologiyalari bilan shug'ullanuvchi beatBread kompaniyasi mustaqil musiqa, striming va sun'iy intellekt yo'nalishidagi yangi maslahatchilarni e'lon qildi.",
-   "orig_title": "BeatBread Brings on Advisors From Meta, Suno",
-   "link": "https://www.billboard.com/pro/beatbread-advisors-from-meta-suno/",
-   "source": "billboard.com",
-   "soha": "AI musiqa",
-   "baho": 8,
-   "experts": [],
-   "effect": "Taniqli kompaniyalardan jalb qilingan maslahatchilar beatBread platformasining strategiyasini kuchaytirishi va musiqa huquqlari hamda investitsiyalar bozoridagi mavqeini mustahkamlashi mumkin. Bu kadrlar almashinuvi sohada suniy intellekt va raqamli texnologiyalardan foydalanishni yanada jadallashtirishi ehtimoli bor.",
-   "image": "https://www.billboard.com/wp-content/uploads/2026/11/beatbread-advisory-board-press-2026-billboard-1800-e1794489970571.jpg?w=1024",
-   "domains": [
-    "billboard.com",
-    "finance.yahoo.com",
-    "ca.finance.yahoo.com"
-   ],
-   "urls": [
-    "https://www.billboard.com/pro/beatbread-advisors-from-meta-suno/",
-    "https://finance.yahoo.com/technology/ai/articles/people-moves-mercer-advisors-hires-210410120.html",
-    "https://ca.finance.yahoo.com/news/meta-sets-former-trump-advisor-144349602.html"
-   ],
-   "videos": []
-  },
   {
    "t": 1794496058.9920905,
    "title": "Elvisning merxo‘rlari Suno kompaniyasini sudga berdi",
