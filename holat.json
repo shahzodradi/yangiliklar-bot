@@ -270,11 +270,6 @@
  "fails": 0,
  "sent": [
   {
-   "t": 1794303444.248303,
-   "title": "Elvis rights holders and Eminem's publisher sue Suno, testing the ELVIS Act",
-   "soha": "AI musiqa"
-  },
-  {
    "t": 1794312099.5438285,
    "title": "The 2026 Boston-Silicon Valley AI Film Festival: 11 Awards and the Convergence of AI & Filmmaking",
    "soha": "AI tanlov"
@@ -1154,30 +1149,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1794477653.023465,
-   "title": "OpenAI GPT-image modellarida xatoliklar aniqlandi",
-   "text": "OpenAI foydalanuvchilar GPT-image-2.5 va 2.6 Sunburst hamda Flare modellarida yuqori xatoliklarga duch kelayotganini ma'lum qildi.",
-   "orig_title": "OpenAI Reports High Error Rates for GPT-image-2.5 and 2.6 Sunburst and Flare",
-   "link": "https://www.technobezz.com/news/openai-service-incident-ba2a3924",
-   "source": "technobezz.com",
-   "soha": "AI rasm",
-   "baho": 9,
-   "experts": [],
-   "effect": "Sunburst va Flare modellaridagi xatoliklar bartaraf etilgani va platformalarda tezkor integratsiya qilinayotgani generativ sun'iy intellekt bozorida raqobatni kuchaytirishi hamda foydalanuvchilar uchun xizmat ko'rsatish tezligini oshirishi mumkin.",
-   "image": "https://cdn.technobezz.com/c/1/technobezz_outage_openai_resolved_3c6e56a389b1_2f22cd1a91.png",
-   "domains": [
-    "technobezz.com",
-    "markets.businessinsider.com",
-    "wired.com"
-   ],
-   "urls": [
-    "https://www.technobezz.com/news/openai-service-incident-ba2a3924",
-    "https://markets.businessinsider.com/news/stocks/aivideofree-integrates-openai-s-gpt-image-2-6-a-day-after-release-running-both-new-models-alongside-competing-image-generators-1036721272",
-    "https://www.wired.com/story/openais-gpt-5-is-here/"
-   ],
-   "videos": []
-  },
   {
    "t": 1794481541.030661,
    "title": "Avstraliya AI modellarini majburiy tekshirish to‘g‘risida qonun loyihasini taqdim etdi",
