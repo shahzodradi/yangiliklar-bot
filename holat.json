@@ -1,14 +1,5 @@
 {
  "seen": {
-  "https://www.desmoinesregister.com/press-release/story/146151/rextrix-proud-sponsor-official-global-online-partner-of-the-2026-silicon-valley-ai-film-festival/": 1793871139.985343,
-  "https://note.com/apsis_loki/n/ncb923312de77?hl=en": 1793871139.985343,
-  "https://note.com/chihirodesign/n/n1c0c71dae0d1?hl=en": 1793871139.985343,
-  "http://en.tmtpost.com/post/8193017": 1793871139.985343,
-  "https://en.koreadaily.com/suno-vinyl-ai-music-records/": 1793871139.985343,
-  "https://www.bloomberg.com/news/articles/2026-11-03/runway-ai-says-arr-set-to-double-to-450-million-by-end-of-year": 1793871139.985343,
-  "https://www.usatoday.com/press-release/story/55738/beatmelo-unveils-a-redesigned-ai-music-video-studio-for-creators/": 1793871139.985343,
-  "https://allhiphop.com/news/youtube-expands-ai-music-replacement/": 1793871139.985343,
-  "https://note.com/labubu188/n/n17e24bdca187?hl=en": 1793871139.985343,
   "https://www.theverge.com/entertainment/1026282/grimes-ai-movie": 1793923311.2808347,
   "https://the-decoder.com/googles-gemini-omni-1-2-flash-stretches-ai-video-clips-to-15-seconds-and-cuts-pricing-by-30-percent/": 1793923311.2808347,
   "https://www.theverge.com/ai-artificial-intelligence/1027427/ai-music-soundcloud-elevenlabs": 1793923311.2808347,
@@ -279,16 +270,6 @@
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1794388042.7893586,
-   "title": "Anthropic sets IPO price range of $70 to $78 per share to reach an implied valuation of $1.404 trillion",
-   "soha": "AI"
-  },
-  {
-   "t": 1794391252.1700668,
-   "title": "Nvidia’s crisis has corporate governance experts reaching for the popcorn",
-   "soha": "AI"
-  },
   {
    "t": 1794394922.6821623,
    "title": "Nick Cave condemns AI music tool as a ‘soul-destroying humiliation’",
@@ -959,52 +940,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1794560712.707967,
-   "title": "AI agentlar Maya yodgorligini topgani haqidagi da'vo rad etildi",
-   "text": "Google tadqiqotchisi Pietro Miotti AI agentlar yordamida Meksikada yangi Maya ob'ektini topganini da'vo qildi, biroq bu joy o'tgan yili ilmiy jurnalda chop etilgani ma'lum bo'ldi.",
-   "orig_title": "No, AI agents did not discover a previously unknown Maya site",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1032125/ai-agents-maya-site-archeology-discovery",
-   "source": "The Verge AI",
-   "soha": "AI",
-   "baho": 7,
-   "experts": [],
-   "effect": "Bunday holatlar mutaxassislar va havaskorlar o‘rtasidagi zlanishlarni kuchaytirib, sun’iy intellekt vositalari yordamida qilingan ilmiy da’volarga nisbatan shubha bilan qarashni keltirib chiqarishi mumkin.",
-   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/maya-sites.jpg?quality=90&strip=all&crop=2.4327168367347%2C0%2C95.134566326531%2C100&w=1200",
-   "domains": [
-    "theverge.com",
-    "tech.yahoo.com"
-   ],
-   "urls": [
-    "https://www.theverge.com/ai-artificial-intelligence/1032125/ai-agents-maya-site-archeology-discovery",
-    "https://tech.yahoo.com/ai/gemini/articles/think-were-brink-revolution-google-150002399.html",
-    "https://tech.yahoo.com/ai/meta-ai/articles/reddit-turns-forum-discussions-ai-192235205.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794560712.707967,
-   "title": "Google DeepMind xodimlari kasaba uyushmasi uchun hukumatga murojaat qilmoqda",
-   "text": "Boshqaruv bilan dastlabki muzokaralar to'xtab qolgandan so'ng, Google DeepMind xodimlari kasaba uyushmasi tuzish jarayonini tezlashtirish uchun Buyuk Britaniya hukumatiga murojaat qilishmoqda.",
-   "orig_title": "Google DeepMind Staff Tap the UK Government to Escalate Their Unionization Fight",
-   "link": "https://www.wired.com/story/google-deepmind-staff-escalate-their-union-fight/",
-   "source": "Wired AI",
-   "soha": "AI",
-   "baho": 7,
-   "experts": [],
-   "effect": "Kasaba uyushmasini tuzish jarayoni rasmiy ovoz berish bosqichiga o‘tsa, kompaniya boshqaruvi va xodimlar o‘rtasidagi munosabatlar keskinlashib, boshqa yirik texnologiya kompaniyalarida ham shunday tashabbuslar boshlanish ehtimolini oshirishi mumkin.",
-   "image": "https://media.wired.com/photos/6af50d1a5e386b9efd1b63f5/191:100/w_1280,c_limit/Google-DeepMind-Staffers-Escalate-Unionization-Efforts-Business-2151467843.jpg",
-   "domains": [
-    "wired.com",
-    "businessinsider.com"
-   ],
-   "urls": [
-    "https://www.wired.com/story/google-deepmind-staff-escalate-their-union-fight/",
-    "https://www.businessinsider.com/google-offers-exit-packages-to-some-business-unit-employees-2026-2",
-    "https://www.businessinsider.com/recent-company-layoffs-laying-off-workers-2026"
-   ],
-   "videos": []
-  },
   {
    "t": 1794568026.2777922,
    "title": "Silikon vodiysi Jensen Huang'ni qo'llab-quvvatlashda davom etmoqda",
