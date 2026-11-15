@@ -275,11 +275,6 @@
  "fails": 0,
  "sent": [
   {
-   "t": 1794398463.6209626,
-   "title": "BiteSpeed Launches AI Creative Studio, Aims to Build the Higgsfield for E- Commerce",
-   "soha": "AI video"
-  },
-  {
    "t": 1794402645.2717056,
    "title": "AI-fighters take centre stage in Pranav Bhasin’s Oscar-qualified We Were Here",
    "soha": "AI tanlov"
@@ -944,85 +939,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1794571266.2177112,
-   "title": "Oskar qisqa metrajli film poygasi va animatsiyada AI",
-   "text": "Akademiya mukofotlari uchun kurashayotgan eng qiziqarli qisqa metrajli filmlarda AI texnologiyalari va hikoyalar yaratish usullari muhokaba qilinmoqda.",
-   "orig_title": "Oscars short film race: Filmmakers on animation, AI and storytelling",
-   "link": "https://www.msn.com/en-us/entertainment/movies/oscars-short-film-race-filmmakers-on-animation-ai-and-storytelling/ar-AA2gXD4E",
-   "source": "msn.com",
-   "soha": "AI tanlov",
-   "baho": 8,
-   "experts": [],
-   "effect": "Yangi animatsiya loyihalari Avstraliya va Irlandiyada minggacha ish o‘rinlarini yaratishi va xalqaro auditoriyani jalb etishi mumkin.",
-   "image": null,
-   "domains": [
-    "yahoo.com"
-   ],
-   "urls": [
-    "https://www.yahoo.com/entertainment/movies/articles/oscar-qualifying-shorts-directors-power-012000267.html",
-    "https://www.yahoo.com/entertainment/movies/articles/pout-pout-fish-studio-photon-031059561.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794571266.2177112,
-   "title": "Mansa AI mikrodramalar orqali Gollivudda qora tanlilar hikoyalarini ko'paytirmoqda",
-   "text": "Mansa studiyasi taqdim etayotgan AI mikrodramalari qora tanli tomoshabinlar qiziqishlarini ko'rsatuvchi konsepsiya vazifasini bajaradi, tanqidchilar esa buni sotilish deb baholamoqda.",
-   "orig_title": "This Startup Is Betting on AI Microdramas to Get More Black Stories in Hollywood",
-   "link": "https://www.wired.com/story/black-roles-are-disappearing-in-hollywood-this-startup-is-using-ai-microdramas-to-fight-back/",
-   "source": "Wired AI",
-   "soha": "AI video",
-   "baho": 8,
-   "experts": [
-    {
-     "kim": "Rhett Reese",
-     "lavozim": "Ssenariy muallifi",
-     "fikr": "Sun'iy intellekt vositalari kelgusida hamma joyda ish o‘rinlarini qisqartirishi mumkin.",
-     "url": "https://www.forbes.com/councils/forbestechcouncil/2026/11/09/as-ai-videos-terrify-hollywood-is-it-time-to-hand-ip-management-to-the-masses/",
-     "domain": "forbes.com"
-    }
-   ],
-   "effect": "Sun'iy intellektga asoslangan kontentning ommalashuvi kino sanoatida ish o‘rinlari qisqarishiga va studiyalarning mualliflik huquqini himoya qilish uchun keskin choralar ko‘rishiga olib kelishi mumkin.",
-   "image": "https://media.wired.com/photos/6af65ba58bac4203b57b5ba0/191:100/w_1280,c_limit/Startup-Betting-on-AI-Microdramas-Culture.jpg",
-   "domains": [
-    "wired.com",
-    "forbes.com",
-    "theguardian.com"
-   ],
-   "urls": [
-    "https://www.wired.com/story/black-roles-are-disappearing-in-hollywood-this-startup-is-using-ai-microdramas-to-fight-back/",
-    "https://www.forbes.com/councils/forbestechcouncil/2026/11/09/as-ai-videos-terrify-hollywood-is-it-time-to-hand-ip-management-to-the-masses/",
-    "https://www.theguardian.com/film/2026/nov/03/china-first-ai-generated-film-flops-cinema-future"
-   ],
-   "videos": [
-    [
-     "https://www.instagram.com/reel/DfGFWjiFRQA/",
-     "Instagram"
-    ]
-   ]
-  },
-  {
-   "t": 1794571266.2177112,
-   "title": "AI ko'ngilochar sanoat xarajatlarini kamaytirmoqda, biroq foyda keltiradimi?",
-   "text": "Generativ AI kino ishlab chiqarish xarajatlarini keskin qisqartirayotgan bir paytda, studiyalar mualliflik huquqi va litsenziya bo'yicha yuridik muammolarga duch kelmoqda.",
-   "orig_title": "AI Is Making Entertainment Cheaper. But Will It Be More Profitable?",
-   "link": "https://www.forbes.com/sites/novikaishar/2026/11/10/ai-is-making-entertainment-cheaper-but-will-it-be-more-profitable/",
-   "source": "forbes.com",
-   "soha": "AI video",
-   "baho": 7,
-   "experts": [],
-   "effect": "Kompaniyalarning moliyaviy ko‘rsatkichlari prognozlardan farq qilishi bozor reaksiyasiga va aksiyalar narxining o‘zgarishiga olib kelishi mumkin.",
-   "image": null,
-   "domains": [
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://finance.yahoo.com/markets/stocks/articles/mbuu-q3-cy2026-deep-dive-115736266.html",
-    "https://finance.yahoo.com/healthcare/articles/heartflow-reports-third-quarter-2026-210100819.html"
-   ],
-   "videos": []
-  },
   {
    "t": 1794578463.358221,
    "title": "AI miya faolligini o'rganib rasmlar yaratmoqda",
