@@ -4,11 +4,11 @@ name: Instagram kunlik post
 
 on:
   # Jadval GitHub cron'ida emas (kechikib, tashlab yuboradi): cloudflare-worker cron'i workflow_dispatch qiladi —
-  # 07:00 UTC (12:00 Toshkent) tur=fakt, 14:00 UTC (19:00 Toshkent) tur=post
+  # har soat :30 da tur=har (bot yuborgan har bir yangilik -> Instagram), 07:00 UTC tur=fakt, 14:00 UTC tur=video
   workflow_dispatch:
     inputs:
       tur:
-        description: "post (yangiliklar + videolar) yoki fakt"
+        description: "har (har bir yangilik -> Instagram avto), video, fakt yoki post (eski: 2 ta tanlangan)"
         required: false
         default: "post"
       sinov:
@@ -42,9 +42,11 @@ jobs:
           IG_BOT_TOKEN: ${{ secrets.IG_BOT_TOKEN }}
           IG_CHAT_ID: ${{ secrets.IG_CHAT_ID }}
           SINOV: ${{ github.event.inputs.sinov }}
-          TUR: ${{ github.event.schedule == '0 7 * * *' && 'fakt' || github.event.inputs.tur }}
+          TUR: ${{ github.event.inputs.tur }}
         run: |
           if [ "$TUR" = "fakt" ]; then python instagram/fakt.py ${SINOV:+--quruq}
+          elif [ "$TUR" = "har" ]; then python instagram/kunlik.py --har ${SINOV:+--quruq}
+          elif [ "$TUR" = "video" ]; then python instagram/kunlik.py --video
           elif [ "$SINOV" = "quruq" ]; then python instagram/kunlik.py --sinov --quruq
           else python instagram/kunlik.py ${SINOV:+--sinov}; fi
       - name: Rasmlar (tekshirish uchun)

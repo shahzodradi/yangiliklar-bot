@@ -89,21 +89,40 @@ def upload_secret():
             return line.split("=", 1)[1].strip()
 
 
-def upload_for_instagram(png, caption):
-    """PNG -> JPEG (Instagram faqat JPEG oladi), Worker KV ga yuklaydi. Post ID sini qaytaradi yoki None."""
+def upload_for_instagram(png, caption, publish=False):
+    """PNG -> JPEG (Instagram faqat JPEG oladi), Worker KV ga yuklaydi. Post ID sini qaytaradi yoki None.
+    publish=True: Worker darhol Instagram'ga joylaydi -> (pid, javob dict)."""
     import base64, io
     from PIL import Image
     buf = io.BytesIO()
     Image.open(png).convert("RGB").save(buf, "JPEG", quality=93, optimize=True)
     pid = f"{png.stem}_{uuid.uuid4().hex[:6]}"
-    body = json.dumps({"id": pid, "jpg": base64.b64encode(buf.getvalue()).decode(), "caption": caption}).encode()
+    body = json.dumps({"id": pid, "jpg": base64.b64encode(buf.getvalue()).decode(), "caption": caption,
+                       "publish": publish}).encode()
     req = urllib.request.Request(f"{WORKER}/ig/upload", body, {"Content-Type": "application/json",
                                  "X-Upload-Secret": upload_secret(), "User-Agent": "yangiliklar-bot"})
     try:
-        return pid if json.load(urllib.request.urlopen(req, timeout=60)).get("ok") else None
+        res = json.load(urllib.request.urlopen(req, timeout=120))
     except Exception as e:
         print("Instagram uchun yuklanmadi:", e)
-        return None
+        return (None, {"error": str(e)}) if publish else None
+    if publish:
+        return (pid if res.get("ok") else None), res
+    return pid if res.get("ok") else None
+
+
+def publish_post(token, chat, png, caption):
+    """Avtomatik rejim: Instagram'ga darhol joylaydi, botga rasm + natijani yuboradi. True = joylandi."""
+    pid, res = upload_for_instagram(png, caption, publish=True)
+    ok = bool(pid and res.get("published"))
+    status = "✅ Instagram'ga joylandi" if ok else f"⚠️ Instagram'ga joylanmadi: {res.get('error', '?')}"
+    tg(token, "sendDocument", {"chat_id": chat, "caption": status[:1000]}, {"document": png})
+    if not ok and pid:  # xato bo'lsa qo'lda joylash tugmasi qoladi
+        tg(token, "sendMessage", {"chat_id": chat, "text": "📲 Qayta urinib koʻraymi?",
+                                  "reply_markup": json.dumps({"inline_keyboard": [[
+                                      {"text": "✅ Instagram'ga joylash", "callback_data": f"ig:{pid}"},
+                                      {"text": "❌ Yoʻq", "callback_data": f"igx:{pid}"}]]})})
+    return ok
 
 
 def send_post(token, chat, n, png, caption):

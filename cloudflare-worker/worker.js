@@ -33,6 +33,13 @@ export default {
   // Jadval (wrangler.toml [triggers]): GitHub'ning o'z cron'i soatlab kechikib, ko'p runlarni tashlab yuborardi,
   // shuning uchun aniq vaqtda shu yerdan ishga tushiriladi (jadval=1 -> oddiy `python bot.py`).
   async scheduled(event, env, ctx) {
+    const vaqt = new Date(event.scheduledTime);
+    if (vaqt.getUTCMinutes() >= 30) {  // :30 — yangiliklar yuborilgandan keyin har birini Instagram'ga
+      ctx.waitUntil(github(env, '/actions/workflows/instagram.yml/dispatches', {
+        method: 'POST', body: JSON.stringify({ref: 'main', inputs: {tur: 'har'}}),
+      }));
+      return;
+    }
     ctx.waitUntil(github(env, `/actions/workflows/${WORKFLOW}/dispatches`, {
       method: 'POST', body: JSON.stringify({ref: 'main', inputs: {jadval: '1'}}),
     }).then(async (r) => {
@@ -42,7 +49,7 @@ export default {
       }
     }));
     // Instagram postlari ham shu yerdan (GitHub cron'i ishonchsiz): 07 UTC = fakt, 14 UTC = yangilik postlari + videolar
-    const tur = {7: 'fakt', 14: 'post'}[new Date(event.scheduledTime).getUTCHours()];
+    const tur = {7: 'fakt', 14: 'video'}[vaqt.getUTCHours()];
     if (tur) {
       ctx.waitUntil(github(env, '/actions/workflows/instagram.yml/dispatches', {
         method: 'POST', body: JSON.stringify({ref: 'main', inputs: {tur}}),

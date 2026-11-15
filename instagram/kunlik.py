@@ -239,9 +239,80 @@ def send_videos(items, state, token, chat, dry):
             state["videos"] = (state["videos"] + [url])[-300:]
 
 
+# ---------- Har bir yangilik -> Instagram (avtomatik, har soatda) ----------
+
+HAR_MAX_RUN = 8     # bir ishga tushishda ko'pi bilan
+HAR_MAX_DAY = 30    # sutkada ko'pi bilan (Instagram API limiti 50/24 soat)
+HAR_WINDOW = 6 * 3600
+
+
+def har():
+    """Bot yuborgan HAR BIR yangilik (manba soni farqi yo'q) -> R3 post -> Instagram'ga darhol (tugmasiz)."""
+    dry = "--quruq" in sys.argv
+    env = bot.load_env()
+    token, chat = (None, None) if dry else ig.ig_bot()
+    state = load_json(IG_STATE, {"links": []})
+    start = state.setdefault("har_start", time.time() - 3600)  # birinchi ishga tushishda eski navbat yuborilmaydi
+    done = set(state["links"])
+    now = time.time()
+    posted = [t for t in state.get("har_vaqt", []) if t > now - 86400]
+    items = [x for x in bot.load_state().get("kunlik", [])
+             if x["t"] > max(start, now - HAR_WINDOW) and x["link"] not in done]
+    room = min(HAR_MAX_RUN, HAR_MAX_DAY - len(posted))
+    log.info("Har-yangilik: %d ta yangi, joy %d", len(items), room)
+    if not items or room <= 0:
+        return
+    items = items[:room]
+    brief = [{"id": i, "sarlavha": x["title"], "mazmun": x["text"], "soha": x["soha"]} for i, x in enumerate(items)]
+    prompt = PROMPT.replace("Instagram uchun eng kuchli {count} tasini tanla: ko'p odamni qiziqtiradigan,\n"
+                            "mashhur kompaniya yoki shaxs, katta raqam, janjal, kontent-meykerlarga bevosita ta'sir "
+                            "qiladigan voqealar.\nBir xil voqeani ikki marta olma.",
+                            "HAR BIRI uchun ({count} ta, hammasini, tashlab ketma) Instagram posti yoz.")
+    result = bot.ask_models(env, prompt.format(count=len(items), items=json.dumps(brief, ensure_ascii=False)),
+                            SCHEMA, fast=True)
+    picks = {p["id"]: p for p in result.get("tanlov", []) if isinstance(p.get("id"), int) and 0 <= p["id"] < len(items)}
+    IMG_DIR.mkdir(exist_ok=True)
+    stamp = time.strftime("%Y-%m-%d_%H%M")
+    for i, item in enumerate(items):
+        pick = picks.get(i)
+        state["links"] = (state["links"] + [item["link"]])[-300:]  # rasm topilmasa ham qayta urinilmaydi
+        if not pick:
+            log.warning("Gemini sarlavha bermadi: %s", item["link"])
+            continue
+        pick.update({k: uz(pick.get(k, "")) for k in ("sarlavha", "savol")})
+        img, credit = find_photo(item, pick.get("rasm", ""))
+        if not img:
+            log.warning("Sifatli rasm yo'q, Instagram'ga chiqmadi: %s", item["link"])
+            continue
+        data, ctype = img
+        photo = IMG_DIR / f"{stamp}_{i}_foto.{'png' if 'png' in ctype else 'jpg'}"
+        photo.write_bytes(data)
+        png = ig.render(f"{stamp}_{i}", photo, headline_html(pick["sarlavha"]))
+        if not png:
+            continue
+        caption = build_caption(item, pick, credit)
+        log.info("IG avto: %s", pick["sarlavha"])
+        if dry:
+            print(f"\n=== {png}\n{caption}\n")
+            continue
+        if ig.publish_post(token, chat, png, caption):
+            posted.append(time.time())
+    state["har_vaqt"] = posted
+    if not dry:
+        IG_STATE.write_text(json.dumps(state, ensure_ascii=False, indent=1), encoding="utf-8")
+
+
 # ---------- Asosiy ----------
 
 def main():
+    if "--har" in sys.argv:
+        return har()
+    if "--video" in sys.argv:  # 19:00 da faqat kunning videolari (postlarni endi har() joylaydi)
+        state = load_json(IG_STATE, {"links": []})
+        token, chat = ig.ig_bot()
+        send_videos(items_all(), state, token, chat, False)
+        IG_STATE.write_text(json.dumps(state, ensure_ascii=False, indent=1), encoding="utf-8")
+        return
     dry = "--quruq" in sys.argv
     test = "--sinov" in sys.argv  # GitHub'da tekshirish: 1 manba ham bo'laveradi, holat saqlanmaydi
     env = bot.load_env()

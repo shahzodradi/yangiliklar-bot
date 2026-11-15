@@ -5,7 +5,7 @@ workers_dev = true
 
 # Har soatda, Toshkent vaqti bilan 08:00-24:00 (UTC 03-19)
 [triggers]
-crons = ["0 3-19 * * *"]
+crons = ["0 3-19 * * *", "30 3-19 * * *"]  # :00 yangiliklar, :30 Instagram (har bir yangilik)
 
 [vars]
 GITHUB_REPO = "shahzodradi/yangiliklar-bot"
