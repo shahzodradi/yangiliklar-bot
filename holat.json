@@ -269,7 +269,8 @@
   "https://www.yahoo.com/entertainment/movies/articles/idfa-artistic-director-isabel-arrate-123652501.html": 1794715255.1199021,
   "https://finance.yahoo.com/technology/ai/articles/a2e-ai-launches-ai-video-101800541.html": 1794740812.6366203,
   "https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/": 1794740812.6366203,
-  "https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service/": 1794740812.6366203
+  "https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service/": 1794740812.6366203,
+  "https://allhiphop.com/news/suno-faces-bigger-reservoir-lawsuit-as-ai-claims-top-445-million/": 1794744061.3180876
  },
  "fails": 0,
  "sent": [
@@ -927,6 +928,11 @@
    "t": 1794740812.6366203,
    "title": "Australia's central bank finds AI hitting young workers first, especially in software and customer service",
    "soha": "AI"
+  },
+  {
+   "t": 1794744061.3180876,
+   "title": "Suno Faces Bigger Reservoir Lawsuit As AI Claims Top $445 Million",
+   "soha": "AI musiqa"
   }
  ],
  "mavzu": {
@@ -938,133 +944,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1794568026.2777922,
-   "title": "Silikon vodiysi Jensen Huang'ni qo'llab-quvvatlashda davom etmoqda",
-   "text": "Nvidia xodimlari chip qiroli o'z lavozimini yo'qotishiga ishonishmagandi. Kutilmagan iste'foga qaramay, ularning aksariyati buni haligacha inkor etmoqda.",
-   "orig_title": "Silicon Valley Is Still Defending Jensen Huang",
-   "link": "https://www.wired.com/story/silicon-valley-is-still-defending-jensen-huang/",
-   "source": "Wired AI",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [
-    {
-     "kim": "Antonio Gracias",
-     "lavozim": "venchur investori",
-     "fikr": "Bitta xato NVDA kompaniyasini qurishdagi umrbod rahbarlik va hissani yo'qqa chiqarmaydi.",
-     "url": "https://www.wired.com/story/silicon-valley-is-still-defending-jensen-huang/",
-     "domain": "wired.com"
-    }
-   ],
-   "effect": "Kompaniya rahbariyatining o'zgarishi va yuzaga kelgan inqiroz qisqa muddatda aksiyalar narxining tushishiga va bozor ishtirokchilarida noaniqlik yuzaga kelishiga olib kelishi mumkin.",
-   "image": "https://media.wired.com/photos/6af5104da36e580e1eb299b6/191:100/w_1280,c_limit/Model-Behavior-Silicon-Valley-Waiting-for-Jensen-Scandal-to-Blow-Over-Business.jpg",
-   "domains": [
-    "wired.com",
-    "cnbc.com",
-    "techcrunch.com"
-   ],
-   "urls": [
-    "https://www.wired.com/story/silicon-valley-is-still-defending-jensen-huang/",
-    "https://www.cnbc.com/2026/11/12/jensen-huangs-exit-from-nvidia-raises-questions-about-future-of-ai.html",
-    "https://techcrunch.com/2026/11/12/nvidias-jensen-huang-resigns-chipmaker-names-cfo-colette-kress-as-interim-ceo/"
-   ],
-   "videos": [
-    [
-     "https://x.com/AntonioGracias/status/2120269518651973803",
-     "X"
-    ],
-    [
-     "https://x.com/saranormous/status/2120780661124714560",
-     "X"
-    ]
-   ]
-  },
-  {
-   "t": 1794568026.2777922,
-   "title": "Hugging Face LLMON til modelini taqdim etdi",
-   "text": "Hugging Face platformasi Granite 4.1 3B va 8B modellariga kiritilgan yangi LLM-Native Markup Language (LLMON) tilini e'lon qildi.",
-   "orig_title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
-   "link": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
-   "source": "Hugging Face",
-   "soha": "AI",
-   "baho": 7,
-   "experts": [],
-   "effect": "Yangi sun'iy intellekt modellarining taqdim etilishi raqobatni yanada kuchaytirib, korxonalar uchun xarajatlarni kamaytirish va ish jarayonlarini avtomatlashtirish imkonini berishi mumkin.",
-   "image": null,
-   "domains": [
-    "huggingface.co",
-    "tw.news.yahoo.com",
-    "cnbc.com"
-   ],
-   "urls": [
-    "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
-    "https://tw.news.yahoo.com/ibm%E6%96%B0-%E4%BB%A3%E4%BC%81%E6%A5%ADai%E6%A8%A1%E5%9E%8Bgranite-3-0-%E5%B0%8F%E6%A8%A1%E5%9E%8B-180306471.html",
-    "https://www.cnbc.com/2025/11/24/anthropic-unveils-claude-opus-4point5-its-latest-ai-model.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794568026.2777922,
-   "title": "Nvidia bozor qiymatining ulkan qismini yo'qotdi",
-   "text": "Xitoy josusligiga aloqador mojarodan so'ng, Nvidia qisqa vaqt ichida trillionlab dollarlik bozor qiymatidan ayrildi.",
-   "orig_title": "Jensen Huang Basically Lit More Than $1 Trillion on Fire in Less Than a Month",
-   "link": "https://www.wired.com/story/jensen-huang-tanked-a-trillion-dollars-in-less-than-a-month/",
-   "source": "Wired AI",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [
-    {
-     "kim": "Ryan Fedasiuk",
-     "lavozim": "tahlil markazi katta ilmiy xodimi",
-     "fikr": "Huang o'rnini bosib bo'lmaydigan shaxs. U Nvidia'ni hozirgi gigantga aylantirdi va intellekt inqilobini qo'llab-quvvatlagan GPU ortidagi visionary edi.",
-     "url": "https://www.wired.com/story/jensen-huang-tanked-a-trillion-dollars-in-less-than-a-month/",
-     "domain": "wired.com"
-    }
-   ],
-   "effect": "Bosh direktorning iste'fosi va bozor qiymatining keskin tushib ketishi boshqa chip ishlab chiqaruvchi kompaniyalar aksiyalarining o'sishiga va butun sun'iy intellekt bozorida jiddiy o'zgarishlarga olib kelishi mumkin.",
-   "image": "https://media.wired.com/photos/6af5f0e82e74be76ab295bc3/191:100/w_1280,c_limit/111226-nvidia-jensen-huang-dollar-destroyed.jpg",
-   "domains": [
-    "wired.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://www.wired.com/story/jensen-huang-tanked-a-trillion-dollars-in-less-than-a-month/",
-    "https://finance.yahoo.com/technology/articles/ai-titan-jensen-huang-nvidia-135507881.html",
-    "https://finance.yahoo.com/markets/stocks/articles/nvidia-lost-450-billion-since-020121717.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794568026.2777922,
-   "title": "Donald Trump Tim Cook'ni Jensen Huang'ning o'rniga tavsiya qildi",
-   "text": "Truth Social tarmog'idagi postida AQSh prezidenti Nvidia rahbarligiga faqat bitta odam munosibligini va u Tim Cook ekanini yozdi.",
-   "orig_title": "Trump floats Apple chairman Tim Cook as Jensen Huang’s successor",
-   "link": "https://techcrunch.com/2026/11/12/trump-floats-apple-chairman-tim-cook-as-jensen-huangs-successor/",
-   "source": "TechCrunch AI",
-   "soha": "AI",
-   "baho": 7,
-   "experts": [
-    {
-     "kim": "Jeffrey Sonnenfeld",
-     "lavozim": "etakchilik tadqiqotlari bo'yicha katta dekan o'rinbosari",
-     "fikr": "Tim Kuk afsonaviy asoschidan keyin ishni davom ettirishda misli ko'rilmagan muvaffaqiyat tajribasiga ega.",
-     "url": "https://techcrunch.com/2026/11/12/trump-floats-apple-chairman-tim-cook-as-jensen-huangs-successor/",
-     "domain": "techcrunch.com"
-    }
-   ],
-   "effect": "Kompaniyada rejalashtirilmagan rahbar almashinuvi va tekshiruvlar boshqaruvda inqirozni keltirib chiqarib, investorlar Ishonchiga salbiy ta'sir ko'rsatishi mumkin.",
-   "image": "https://techcrunch.com/wp-content/uploads/2025/07/GettyImages-2224174932.jpg?w=1024",
-   "domains": [
-    "techcrunch.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://techcrunch.com/2026/11/12/trump-floats-apple-chairman-tim-cook-as-jensen-huangs-successor/",
-    "https://finance.yahoo.com/technology/articles/jensen-huang-irreplaceable-nvidia-board-010036045.html",
-    "https://finance.yahoo.com/markets/stocks/articles/nvidia-stock-wiped-1-7-182328686.html"
-   ],
-   "videos": []
-  },
   {
    "t": 1794571266.2177112,
    "title": "Oskar qisqa metrajli film poygasi va animatsiyada AI",
@@ -2299,6 +2178,34 @@
     "https://sg.news.yahoo.com/us-sees-unexpected-jobs-boom-184806815.html"
    ],
    "videos": []
+  },
+  {
+   "t": 1794744061.3180876,
+   "title": "Suno Reservoir da'vosida talablar 445 million dollarga yetdi",
+   "text": "Suno kompaniyasiga qarshi Reservoir nashriyoti da'vosi 1368 ta songa yetdi va talab qilinayotgan summa 445 million dollarga ko'tarildi.",
+   "orig_title": "Suno Faces Bigger Reservoir Lawsuit As AI Claims Top $445 Million",
+   "link": "https://allhiphop.com/news/suno-faces-bigger-reservoir-lawsuit-as-ai-claims-top-445-million/",
+   "source": "allhiphop.com",
+   "soha": "AI musiqa",
+   "baho": 10,
+   "experts": [],
+   "effect": "Sunolik sun'iy intellekt kompaniyasiga qarshi da'volar va talab qilinayotgan kompensatsiya miqdorining keskin oshishi musiqa nashriyotlari va huquq egalarining huquqiy bosimini kuchaytirishi mumkin. Bu holat kelgusida generativ musiqiy platformalar uchun litsenziyalash shartlarini o'zgartirish va sun'iy intellektni o'qitishda mualliflik huquqiga rioya qilish bo'yicha qattiqroq cheklovlar joriy etilishiga olib kelishi ehtimoli bor.",
+   "image": "https://allhiphop.com/wp-content/uploads/2026/10/Suno-Logo-1.jpg",
+   "domains": [
+    "allhiphop.com",
+    "yahoo.com"
+   ],
+   "urls": [
+    "https://allhiphop.com/news/suno-faces-bigger-reservoir-lawsuit-as-ai-claims-top-445-million/",
+    "https://www.yahoo.com/entertainment/music/articles/elvis-rights-holders-eminems-publisher-204744656.html",
+    "https://www.yahoo.com/entertainment/music/articles/jason-isbell-leads-suno-lawsuit-193031228.html"
+   ],
+   "videos": [
+    [
+     "https://www.youtube.com/watch?v=GZHp3WFc9Ps",
+     "YouTube"
+    ]
+   ]
   }
  ]
 }
