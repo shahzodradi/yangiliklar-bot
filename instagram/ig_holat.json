@@ -7,7 +7,10 @@
   "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/",
   "https://decrypt.co/383070/new-ai-music-model-already-better-than-suno-ace-review",
   "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
-  "https://www.unite.ai/suno-launches-bridge-beta-for-ai-stem-generation-in-ableton-live/"
+  "https://www.unite.ai/suno-launches-bridge-beta-for-ai-stem-generation-in-ableton-live/",
+  "https://finance.yahoo.com/technology/ai/articles/a2e-ai-launches-ai-video-101800541.html",
+  "https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/",
+  "https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service/"
  ],
  "faktlar": {
   "Alan Turing": [
@@ -38,5 +41,11 @@
   "https://www.youtube.com/watch?v=sXiLq_3TaAI",
   "https://www.youtube.com/watch?v=tKEEda_OHj0",
   "https://www.youtube.com/watch?v=cw_NRHMOPtw"
+ ],
+ "har_start": 1794738657.9279323,
+ "har_vaqt": [
+  1794742273.5569746,
+  1794742278.8985665,
+  1794742283.4893904
  ]
 }
