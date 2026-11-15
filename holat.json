@@ -274,30 +274,11 @@
   "https://allhiphop.com/news/xania-monet-wins-artist-song-album-honors-at-ai-music-awards/": 1794712057.838092,
   "https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo/": 1794712057.838092,
   "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/": 1794712057.838092,
-  "https://gamerant.com/nvidia-jensen-huang-gpu-prices-ai-startup-deals/": 1794712057.838092
+  "https://gamerant.com/nvidia-jensen-huang-gpu-prices-ai-startup-deals/": 1794712057.838092,
+  "https://www.yahoo.com/entertainment/movies/articles/idfa-artistic-director-isabel-arrate-123652501.html": 1794715255.1199021
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1794366541.3395271,
-   "title": "OpenAI turns ChatGPT into a business directory with AI agents that handle customer questions",
-   "soha": "AI"
-  },
-  {
-   "t": 1794366541.3395271,
-   "title": "Anthropic turns Claude into a full workspace with Plugins, spreadsheets, whiteboards, and soon Meeting notes",
-   "soha": "AI"
-  },
-  {
-   "t": 1794366541.3395271,
-   "title": "The indie game community is in disarray over AI and Big Walk",
-   "soha": "AI"
-  },
-  {
-   "t": 1794366541.3395271,
-   "title": "eBay appears to have shut the door on third-party AI agents",
-   "soha": "AI"
-  },
   {
    "t": 1794369673.2776096,
    "title": "UMG v. Suno discovery dispute rages amid marathon legal battle",
@@ -1052,6 +1033,11 @@
    "t": 1794712057.838092,
    "title": "NVIDIA Potentially Made GPU More Expensive For Gamers By Funding AI Startups",
    "soha": "AI"
+  },
+  {
+   "t": 1794715255.1199021,
+   "title": "IDFA Artistic Director Isabel Arrate Fernandez On Festival’s Competition Lineups, “Huge” Interest In Elizabeth Holmes Doc, And AI In Documentaries",
+   "soha": "AI tanlov"
   }
  ],
  "mavzu": {
@@ -2712,6 +2698,35 @@
     "https://finance.yahoo.com/video/nvidia-stock-reacts-as-huang-admits-to-an-affair-with-a-chinese-spy-anthropic-moves-ahead-with-ipo-145459810.html"
    ],
    "videos": []
+  },
+  {
+   "t": 1794715255.1199021,
+   "title": "IDFA festivalida AI hujjatli filmlarga qiziqish ortmoqda",
+   "text": "Dunyoning eng yirik hujjatli film festivali IDFA o'zining tanlov dasturlarida sun'iy intellekt texnologiyalaridan foydalanishga katta e'tibor qaratmoqda.",
+   "orig_title": "IDFA Artistic Director Isabel Arrate Fernandez On Festival’s Competition Lineups, “Huge” Interest In Elizabeth Holmes Doc, And AI In Documentaries",
+   "link": "https://www.yahoo.com/entertainment/movies/articles/idfa-artistic-director-isabel-arrate-123652501.html",
+   "source": "yahoo.com",
+   "soha": "AI tanlov",
+   "baho": 10,
+   "experts": [],
+   "effect": "Bu festival hujjatli kino bozorida yangi tendentsiyalarni shakllantirishi va ijodkorlar uchun xalqaro hamkorlikni kengaytirish ehtimolini oshirishi mumkin.",
+   "image": "https://s.yimg.com/lo/mysterio/api/e4e70e7c07e54fc574b59416f64e3fc9e594e9095724b3618fe34afe95e07b81/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fdeadline.com%2F0df10a02bf8b002fff555460fc48f16a.jpg",
+   "domains": [
+    "yahoo.com",
+    "screendaily.com",
+    "deadline.com"
+   ],
+   "urls": [
+    "https://www.yahoo.com/entertainment/movies/articles/idfa-artistic-director-isabel-arrate-123652501.html",
+    "https://www.screendaily.com/features/idfa-head-isabel-arrate-fernandez-on-the-you-can-see-everything-effect-on-the-doc-sector/5222313.article",
+    "https://deadline.com/2026/09/2026-idfa-signed-best-of-fests-short-documentary-competition-announcement-1237115956/"
+   ],
+   "videos": [
+    [
+     "https://www.youtube.com/watch?v=_PwKnAadXCc",
+     "YouTube"
+    ]
+   ]
   }
  ]
 }
