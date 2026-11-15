@@ -273,7 +273,8 @@
   "https://allhiphop.com/news/suno-faces-bigger-reservoir-lawsuit-as-ai-claims-top-445-million/": 1794744061.3180876,
   "https://www.wired.com/story/ai-djs-completely-kill-my-groove/": 1794755437.4028902,
   "https://www.wired.com/story/this-ai-tamagotchi-oats-turns-everyday-objects-into-needy-virtual-pets/": 1794755437.4028902,
-  "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/": 1794755437.4028902
+  "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/": 1794755437.4028902,
+  "https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them/": 1794758463.172664
  },
  "fails": 0,
  "sent": [
@@ -916,6 +917,11 @@
    "t": 1794755437.4028902,
    "title": "Where was Nvidia’s security team?",
    "soha": "AI"
+  },
+  {
+   "t": 1794758463.172664,
+   "title": "Anthropic's Claude Fable 5.2 doesn't generate images, it paints them",
+   "soha": "AI rasm"
   }
  ],
  "mavzu": {
@@ -2151,6 +2157,47 @@
     "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-affair-congress-scrutiny.html"
    ],
    "videos": []
+  },
+  {
+   "t": 1794758463.172664,
+   "title": "Anthropic's Claude Fable 5.2 taqdim etildi",
+   "text": "Anthropic kompaniyasining Claude Fable 5.2 modeli piksel hisoblash o'rniga Python kodi yordamida virtual tuvalga mo'yqalam chiziqlarini tushirish orqali tasvir yaratadi.",
+   "orig_title": "Anthropic's Claude Fable 5.2 doesn't generate images, it paints them",
+   "link": "https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them/",
+   "source": "The Decoder",
+   "soha": "AI rasm",
+   "baho": 9,
+   "experts": [],
+   "effect": "Keng jamoatchilikka taqdim etilayotgan ilg'or sun'iy intellekt modellari kiberxavfsizlik va zaifliklarni aniqlash jarayonlarini tubdan o'zgartirib, har qanday tashkilot uchun xavfsizlik risklarini keskin oshirishi mumkin.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/11/claude_fable_5.2_painting.png",
+   "domains": [
+    "the-decoder.com",
+    "finance.yahoo.com",
+    "techcrunch.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them/",
+    "https://finance.yahoo.com/sectors/technology/article/anthropic-launches-mythos-class-claude-fable-5-model-available-to-the-public-170000267.html",
+    "https://techcrunch.com/2026/09/18/researchers-used-anthropics-claude-to-hack-into-openai/"
+   ],
+   "videos": [
+    [
+     "https://x.com/jkeatn/status/2119874007382299087",
+     "X"
+    ],
+    [
+     "https://x.com/mgrczyk/status/2119943813028548721",
+     "X"
+    ],
+    [
+     "https://x.com/ariszotle/status/2119945328917196825",
+     "X"
+    ],
+    [
+     "https://x.com/jkeatn/status/2119874018706874601",
+     "X"
+    ]
+   ]
   }
  ]
 }
