@@ -1,8 +1,5 @@
 {
  "seen": {
-  "https://the-decoder.com/gpt-6-astra-sees-the-matrix-and-reprograms-other-ai-models-directly-through-their-weights/": 1793819495.5311983,
-  "https://www.cnbc.com/2026/11/04/cvs-to-split-off-drugstore-business.html": 1793819495.5311983,
-  "https://www.sciencedaily.com/releases/2026/11/261104004909.htm": 1793819495.5311983,
   "https://www.desmoinesregister.com/press-release/story/146151/rextrix-proud-sponsor-official-global-online-partner-of-the-2026-silicon-valley-ai-film-festival/": 1793871139.985343,
   "https://note.com/apsis_loki/n/ncb923312de77?hl=en": 1793871139.985343,
   "https://note.com/chihirodesign/n/n1c0c71dae0d1?hl=en": 1793871139.985343,
@@ -273,7 +270,11 @@
   "https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5/": 1794679285.7973588,
   "https://www.msn.com/en-us/news/other/canva-craft-vs-chatgpt-i-tested-both-free-ai-image-generators-with-5-prompts-to-see-which-is-better/ar-AA2hqF6j": 1794679285.7973588,
   "https://www.billboard.com/pro/congress-stop-big-ai-ripping-off-creators-jerrold-nadler/": 1794679285.7973588,
-  "https://geektyrant.com/news/a-childs-nighttime-monsters-discover-the-real-horrors-of-daylight-in-a-powerful-ai-short-film": 1794683332.8324964
+  "https://geektyrant.com/news/a-childs-nighttime-monsters-discover-the-real-horrors-of-daylight-in-a-powerful-ai-short-film": 1794683332.8324964,
+  "https://allhiphop.com/news/xania-monet-wins-artist-song-album-honors-at-ai-music-awards/": 1794712057.838092,
+  "https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo/": 1794712057.838092,
+  "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/": 1794712057.838092,
+  "https://gamerant.com/nvidia-jensen-huang-gpu-prices-ai-startup-deals/": 1794712057.838092
  },
  "fails": 0,
  "sent": [
@@ -1031,6 +1032,26 @@
    "t": 1794683332.8324964,
    "title": "A Child’s Nighttime Monsters Discover the Real Horrors of Daylight in a Powerful AI Short Film",
    "soha": "AI video"
+  },
+  {
+   "t": 1794712057.838092,
+   "title": "Xania Monet Wins Artist, Song & Album Honors At AI Music Awards",
+   "soha": "AI tanlov"
+  },
+  {
+   "t": 1794712057.838092,
+   "title": "Anthropic CEO Amodei admits \"there's a huge uncertainty in what's going to happen next year\" days before a record IPO",
+   "soha": "AI"
+  },
+  {
+   "t": 1794712057.838092,
+   "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+   "soha": "AI"
+  },
+  {
+   "t": 1794712057.838092,
+   "title": "NVIDIA Potentially Made GPU More Expensive For Gamers By Funding AI Startups",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -1042,245 +1063,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1794539130.7424104,
-   "title": "AI Movie Awards birinchi London nashri g‘oliblarini e’lon qildi",
-   "text": "James Drake Media bilan hamkorlikda o‘tkazilgan birinchi London AI Movie Awards (AIMA) festivali jahon bo‘ylab eng yaxshi AI film ijodkorlarini taqdirladi.",
-   "orig_title": "AI Movie Awards Announces Winners Of First London Edition, Celebrating Global AI Filmmaking Talent",
-   "link": "https://roastbrief.us/ai-movie-awards-announces-winners-of-first-london-edition-celebrating-global-ai-filmmaking-talent/",
-   "source": "roastbrief.us",
-   "soha": "AI tanlov",
-   "baho": 10,
-   "experts": [],
-   "effect": "Generativ sun’iy intellekt vositalarining kinematografiyaga chuqur kirib borishi mustaqil ijodkorlar uchun kino ishlab chiqarish xarajatlarini keskin kamaytirishi va an’anaviy studiyalar raqobatini kuchaytirishi mumkin.",
-   "image": "https://roastbrief.us/wp-content/uploads/2026/11/DSCF4317_11zon.jpg",
-   "domains": [
-    "roastbrief.us",
-    "yahoo.com"
-   ],
-   "urls": [
-    "https://roastbrief.us/ai-movie-awards-announces-winners-of-first-london-edition-celebrating-global-ai-filmmaking-talent/",
-    "https://www.yahoo.com/entertainment/movies/articles/clarity-amanda-seyfried-see-everything-233704889.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794539130.7424104,
-   "title": "Lagosda Creative Africa Nexus Create-thon AI tanlovi g‘oliblari aniqlandi",
-   "text": "Gebeya tomonidan qo‘llab-quvvatlangan tanlov finalida o‘yin, video va musiqa yo‘nalishlarida 9 nafar ijodkor g‘olib deb e’lon qilindi.",
-   "orig_title": "Nine creators win AI‑powered competition at Afreximbank’s Creative Africa Nexus Weekend in Lagos",
-   "link": "https://kenya-today.com/report-nine-creators-win-aipowered-competition-at-afreximbanks-creative-africa-nexus-weekend-in-lagos-26512/",
-   "source": "kenya-today.com",
-   "soha": "AI tanlov",
-   "baho": 10,
-   "experts": [],
-   "effect": "Afrikada mahalliy tillar va kontentga moslashtirilgan sun’iy intellekt platformalari rivojlanishi, yangi startaplar hamda raqamli iqtisodiyot sohasida qo‘shimcha ish o‘rinlari paydo bo‘lishi ehtimoli bor.",
-   "image": "https://sokodirectory.com/wp-content/uploads/2026/11/Create-Thon-at-CANEX-CNX-2336-scaled-1.jpg",
-   "domains": [
-    "kenya-today.com",
-    "panafricanvisions.com"
-   ],
-   "urls": [
-    "https://kenya-today.com/report-nine-creators-win-aipowered-competition-at-afreximbanks-creative-africa-nexus-weekend-in-lagos-26512/",
-    "https://panafricanvisions.com/2026/11/creative-africa-nexus-canex-create-thon-powered-by-gebeya-announces-nine-winners-at-afreximbanks-creative-africa-nexus-weekend-canex-wknd-2026/"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794539130.7424104,
-   "title": "ByteDance Seedance 2.5 Flash video modelini taqdim etdi",
-   "text": "Volcano Engine yangi Seedance 2.5 Flash modelini chiqardi. U avvalgisidan ikki baravar tez ishlaydi, narxi 34 foizga arzonroq va 30 soniyagacha video yarata oladi.",
-   "orig_title": "ByteDance's Volcano Engine Launches Seedance 2.5 Flash Video Model With Doubled Speed and Lower Costs",
-   "link": "https://phemex.com/news/article/bytedances-volcano-engine-launches-seedance-25-flash-video-model-with-doubled-speed-and-lower-costs-103289",
-   "source": "phemex.com",
-   "soha": "AI video",
-   "baho": 9,
-   "experts": [],
-   "effect": "Video yaratish tezligining oshishi va narxning 34 foizga arzonlashishi kontent generatorlari bozorida narxlar urushini keltirib chiqarishi hamda video ishlab chiqaruvchilar xarajatlarini kamaytirishi mumkin.",
-   "image": null,
-   "domains": [
-    "panews.io"
-   ],
-   "urls": [
-    "https://panews.io/articles/01a1ce88-f034-70e7-9e63-4f6b5319c9f8"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794539130.7424104,
-   "title": "Kling 4.0 va Seedance 2.5 video modellari o‘zaro solishtirildi",
-   "text": "Kling 4.0 ning 1080p sifatdagi 30 soniyalik video generatsiya imkoniyatlari film yaratish bo‘yicha Seedance 2.5 bilan olti xil testda solishtirildi.",
-   "orig_title": "Kling 4.0 vs. Seedance 2.5: Which AI Video Generator Is Better?",
-   "link": "https://curiousrefuge.com/blog/kling-vs-seedance",
-   "source": "Curious Refuge",
-   "soha": "AI video",
-   "baho": 8,
-   "experts": [
-    {
-     "kim": "Tyler Smith",
-     "lavozim": "Curious Refuge muallifi va eksperti",
-     "fikr": "Seedance harakatlar va fizikani ancha dinamik aks ettirib, professional harakat sahnalari darajasini ko‘rsatadi, Kling esa kam harakatli va to‘g‘ridan-to‘g‘ri kadrlar uchun qulayroq.",
-     "url": "https://curiousrefuge.com/blog/kling-vs-seedance",
-     "domain": "curiousrefuge.com"
-    }
-   ],
-   "effect": "Kino va reklama sohasida AI video generatorlarining takomillashishi an’anaviy suratga olish va montaj jarayonlarini qisqartirib, studiyalarga vizual effektlarni ancha tez va arzon yaratish imkonini beradi.",
-   "image": "http://static1.squarespace.com/static/55bd7005e4b06da83f63b8d9/56bc10857da24fcc14e3a119/6af607bc5b80e4197afee7fd/1794521972492/Is+Kling+4.0+Actually+Better+than+Seedance+2.5%3F.png?format=1500w",
-   "domains": [
-    "curiousrefuge.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://curiousrefuge.com/blog/kling-vs-seedance",
-    "https://finance.yahoo.com/technology/ai/articles/kling-ai-launches-kling-4-161000016.html"
-   ],
-   "videos": [
-    [
-     "https://www.youtube.com/watch?v=sh4bkvZQ1WE",
-     "YouTube"
-    ]
-   ]
-  },
-  {
-   "t": 1794539130.7424104,
-   "title": "Runway robotlarni boshqarish uchun 27B parametrli Praxis-1 modelini ochiqladi",
-   "text": "Runway kompaniyasi video bashorat qilish orqali robot harakatlarini boshqaruvchi 27 milliard parametrli Praxis-1 AI modelining kod va vaznlarini ochiq manbada taqdim etdi.",
-   "orig_title": "Runway Open-Sources Praxis-1, a 27B-Parameter Robot AI That Applies Video Learning to Robot Control",
-   "link": "https://xenospectrum.com/en/runway-praxis-1-open-robot-model/",
-   "source": "xenospectrum.com",
-   "soha": "AI video",
-   "baho": 8,
-   "experts": [],
-   "effect": "Ochiq kodli modelning chiqarilishi robototexnika startaplariga o‘z qurilmalarini noldan o‘qitmasdan boshqarish imkonini beradi va sanoat hamda omborxona robotlarining bozorga chiqish muddatini tezlashtirishi mumkin.",
-   "image": "https://media.xenospectrum.com/runway_robot_76f024a615.webp",
-   "domains": [
-    "xenospectrum.com",
-    "therobotreport.com"
-   ],
-   "urls": [
-    "https://xenospectrum.com/en/runway-praxis-1-open-robot-model/",
-    "https://www.therobotreport.com/runways-praxis-1-world-action-model-for-robotics-is-now-available/"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794539130.7424104,
-   "title": "Google yangi Gemini 4 Hydrogen modelini chiqardi",
-   "text": "Flash seriyasi o‘rnini bosgan yangi Gemini 4 Hydrogen modeli testlarda Claude Sonnet 5.5 darajasiga yaqinlashdi va avvalgi Argon modelidan yuqori natija ko‘rsatdi.",
-   "orig_title": "Google's Gemini 4 Hydrogen outscores the bigger Argon just four weeks after its launch",
-   "link": "https://the-decoder.com/googles-gemini-4-hydrogen-outscores-the-bigger-argon-just-four-weeks-after-its-launch/",
-   "source": "The Decoder",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Arzon va yuqori unumdorlikka ega modelning keng joriy etilishi AI qidiruv xizmatlarining sifatini oshiradi, shuningdek, ishlab chiquvchilarning API xarajatlarini keskin pasaytirishi kutiladi.",
-   "image": "https://the-decoder.com/wp-content/uploads/2026/10/gemini_logo-2.png",
-   "domains": [
-    "the-decoder.com",
-    "techcrunch.com"
-   ],
-   "urls": [
-    "https://the-decoder.com/googles-gemini-4-hydrogen-outscores-the-bigger-argon-just-four-weeks-after-its-launch/",
-    "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/"
-   ],
-   "videos": [
-    [
-     "https://x.com/ArtificialAnlys/status/2120941511223185722",
-     "X"
-    ]
-   ]
-  },
-  {
-   "t": 1794539130.7424104,
-   "title": "Claude Meetings video qo‘ng‘iroqlarga to‘g‘ridan-to‘g‘ri ulanishni boshladi",
-   "text": "Anthropic taqdim etgan Claude Meetings vositasi Google Meet uchrashuvlariga qo‘shilib, real vaqt rejimida qaydlar, hujjatlar va doskalar yaratadi.",
-   "orig_title": "Claude Meetings lets Anthropic's AI join your video calls",
-   "link": "https://the-decoder.com/claude-meetings-lets-anthropics-ai-join-your-video-calls/",
-   "source": "The Decoder",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Anthropic’ning ish jarayonlariga integratsiyalashuvi Google Workspace va Microsoft Office kabi gigantlar bilan korporativ AI yordamchilari bozoridagi to‘g‘ridan-to‘g‘ri raqobatni kuchaytirishi mumkin.",
-   "image": "https://the-decoder.com/wp-content/uploads/2026/08/anthropic_claude.png",
-   "domains": [
-    "the-decoder.com",
-    "tech.yahoo.com"
-   ],
-   "urls": [
-    "https://the-decoder.com/claude-meetings-lets-anthropics-ai-join-your-video-calls/",
-    "https://tech.yahoo.com/ai/claude/articles/anthropic-expands-claudes-workplace-arsenal-133007151.html"
-   ],
-   "videos": [
-    [
-     "https://www.youtube.com/watch?v=YUYeHMsqbmY",
-     "YouTube"
-    ]
-   ]
-  },
-  {
-   "t": 1794539130.7424104,
-   "title": "Ovozli AI startapi Retell yillik 100 million dollar daromadga yetdi",
-   "text": "AI agentlarini boshqarish texnologiyasini taklif etuvchi Retell startapi bor-yo‘g‘i 4.6 million dollar investitsiya olgan holda 100 million dollarlik yillik ko‘rsatkichga erishdi.",
-   "orig_title": "Voice AI Startup Hits $100 Million Run Rate With $4.6 Million Funding",
-   "link": "https://www.forbes.com/sites/timkeary/2026/11/12/voice-ai-startup-hits-100-million--run-rate-with-46-million-funding/",
-   "source": "forbes.com",
-   "soha": "AI",
-   "baho": 7,
-   "experts": [],
-   "effect": "Aloqa markazlarida ovozli AI agentlarining keng joriy etilishi xizmat ko‘rsatish xarajatlarini keskin kamaytirishi va an’anaviy operatorlar bo‘lgan ehtiyojni qisqartirishi mumkin.",
-   "image": null,
-   "domains": [
-    "uk.finance.yahoo.com"
-   ],
-   "urls": [
-    "https://uk.finance.yahoo.com/news/retell-surpasses-100m-annualized-run-140000130.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794539130.7424104,
-   "title": "Nebius AI infratuzilmasini kengaytirish uchun 40 milliard dollar sarflaydi",
-   "text": "Kompaniya neocloud infratuzilmasini kengaytirish maqsadida mijozlar oldindan to‘lovlari va qarzlar orqali 40 milliard dollarlik xarajatlar rejasini e’lon qildi.",
-   "orig_title": "Nebius tests the neocloud playbook with $40 billion in planned spending",
-   "link": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
-   "source": "TechCrunch AI",
-   "soha": "AI",
-   "baho": 7,
-   "experts": [],
-   "effect": "Data-markazlar qurilishidagi kechikishlar va tartibga soluvchilarning jarimalari neobulut kompaniyalarining daromadlariga zarba berib, yirik mijozlar bilan shartnomalarning bekor bo‘lishiga olib kelishi mumkin.",
-   "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2300447831.jpg?w=1024",
-   "domains": [
-    "techcrunch.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
-    "https://finance.yahoo.com/technology/articles/nebius-tests-neocloud-playbook-40-212710015.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794539130.7424104,
-   "title": "Norwest sun’iy intellekt yo‘nalishi uchun 4 milliard dollarlik jamg‘arma ochdi",
-   "text": "Venchur kompaniyasi o‘zining tarixidagi eng yirik — 4 milliard dollarlik yangi investitsiya fondini asosan AI loyihalarini qo‘llab-quvvatlash uchun ishga tushirdi.",
-   "orig_title": "Norwest pushes deeper into AI with new $4B fund",
-   "link": "https://techcrunch.com/2026/11/12/norwest-pushes-deeper-into-ai-with-new-4b-fund/",
-   "source": "TechCrunch Venture",
-   "soha": "AI",
-   "baho": 7,
-   "experts": [],
-   "effect": "Yirik 4 milliard dollarlik venchur kapitalining yo‘naltirilishi robototexnika, fizik AI va agentlik xavfsizlik startaplariga investitsiyalar oqimini ko‘paytirib, yangi mahsulotlar yaratilishini jadallashtirishi mumkin.",
-   "image": "https://techcrunch.com/wp-content/uploads/2026/11/norwest_team-partner-offsite-2026-1-copy.jpg?resize=1200,805",
-   "domains": [
-    "techcrunch.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://techcrunch.com/2026/11/12/norwest-pushes-deeper-into-ai-with-new-4b-fund/",
-    "https://finance.yahoo.com/technology/ai/articles/norwest-pushes-deeper-ai-4b-151814201.html"
-   ],
-   "videos": []
-  },
   {
    "t": 1794542462.6867118,
    "title": "Adobe Firefly video va dizayn vositalari uchun yangilanishlar oldi",
@@ -2824,6 +2606,112 @@
      "YouTube"
     ]
    ]
+  },
+  {
+   "t": 1794712057.838092,
+   "title": "Xania Monet AI Music Awards mukofotida uchta asosiy sovrinni qo‘lga kiritdi",
+   "text": "Suno orqali vokal yaratuvchi Xania Monet AI Music Awards taqdirlash marosimida yilning eng yaxshi artisti, qo‘shig‘i va albomi nominatsiyalarida g‘olib deb topildi.",
+   "orig_title": "Xania Monet Wins Artist, Song & Album Honors At AI Music Awards",
+   "link": "https://allhiphop.com/news/xania-monet-wins-artist-song-album-honors-at-ai-music-awards/",
+   "source": "allhiphop.com",
+   "soha": "AI tanlov",
+   "baho": 10,
+   "experts": [],
+   "effect": "Sun'iy intellekt yordamida yaratilgan musiqiy loyihalarning mukofotr olishi va ommalashishi an'anaviy musiqa sanoatida mualliflik huquqi va ijodiy mehnat qadr-qimmati borasidagi baholarni yanada kuchaytirishi mumkin.",
+   "image": "https://allhiphop.com/wp-content/uploads/2025/11/Ai-Artist-Xania-Monet.png",
+   "domains": [
+    "allhiphop.com",
+    "yahoo.com",
+    "de.nachrichten.yahoo.com"
+   ],
+   "urls": [
+    "https://allhiphop.com/news/xania-monet-wins-artist-song-album-honors-at-ai-music-awards/",
+    "https://www.yahoo.com/entertainment/music/festivals/articles/inside-first-ai-music-awards-233941812.html",
+    "https://de.nachrichten.yahoo.com/erste-ai-music-awards-los-142228574.html"
+   ],
+   "videos": [
+    [
+     "https://www.youtube.com/watch?v=EUBhjOToIC0",
+     "YouTube"
+    ]
+   ]
+  },
+  {
+   "t": 1794712057.838092,
+   "title": "Anthropic rahbari rekord IPO arafasida hisoblash quvvati xarajatlari xavfini bildirdi",
+   "text": "Anthropic bosh direktori Dario Amodei IPO oldidan kompaniyaning hisoblash quvvati bo‘yicha majburiyatlari qariyb 901 milliard dollarga yetganini va kelajakdagi daromadlar bu xarajatlarni qoplashi noaniq ekanini aytdi.",
+   "orig_title": "Anthropic CEO Amodei admits \"there's a huge uncertainty in what's going to happen next year\" days before a record IPO",
+   "link": "https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Tarixdagi eng yirik IPO'lardan birining amalga oshirilishi sun'iy intellekt bozoriga ulkan sarmoyalar oqimini ta'minlab, kompaniyaning hisoblash quvvatlari va infratuzilma xarajatlarini keskin oshirishi ehtimoli bor.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/11/anthropic_logos-5.png",
+   "domains": [
+    "the-decoder.com",
+    "finance.yahoo.com",
+    "techcrunch.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo/",
+    "https://finance.yahoo.com/technology/ai/articles/amodei-highlights-computing-power-capex-220204087.html?fr=sycsrp_catchall",
+    "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/"
+   ],
+   "videos": [
+    [
+     "https://x.com/firesidealpha/status/2121303747012030844",
+     "X"
+    ]
+   ]
+  },
+  {
+   "t": 1794712057.838092,
+   "title": "Elon Musk va texnologiya rahbarlari Jensen Huangni qaytarish petitsiyasini imzoladi",
+   "text": "Elon Musk va boshqa IT rahbarlari Jensen Huangni Nvidia bosh direktori lavozimiga qaytarishni talab qiluvchi petitsiyani imzoladi. Hujjat 115 000 dan ortiq imzo to‘pladi.",
+   "orig_title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+   "link": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Bosh direktorning iste'fosi va uning ortidan yuzaga kelgan noroziliklar Nvidia aksiyalari narxining tushishiga hamda sun'iy intellekt sanoatini moliyalashtirishda bo'shliqlar paydo bo'lishiga olib kelishi mumkin.",
+   "image": "https://techcrunch.com/wp-content/uploads/2025/05/GettyImages-2216028442.jpg?w=1024",
+   "domains": [
+    "techcrunch.com",
+    "businessinsider.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+    "https://www.businessinsider.com/petition-reinstate-jensen-huang-nvidia-elon-musk-2026-11",
+    "https://finance.yahoo.com/markets/stocks/articles/elon-musk-tom-lee-shopify-042453542.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794712057.838092,
+   "title": "Nvidia’ning AI startaplarini moliyalashtirishi geymerlar uchun videokartalarni qimmatlashtirgani aniqlandi",
+   "text": "Yangi surishtiruvga ko‘ra, Nvidia tomonidan sun’iy intellekt kompaniyalariga kiritilgan investitsiyalar oddiy shaxsiy kompyuter geymerlari uchun videokarta narxlarining sun’iy oshishiga olib kelgan bo‘lishi mumkin.",
+   "orig_title": "NVIDIA Potentially Made GPU More Expensive For Gamers By Funding AI Startups",
+   "link": "https://gamerant.com/nvidia-jensen-huang-gpu-prices-ai-startup-deals/",
+   "source": "gamerant.com",
+   "soha": "AI",
+   "baho": 6,
+   "experts": [],
+   "effect": "Moliyaviy kafolatlar va kredit yordami orqali chip savdosining rag'batlantirilishi kelgusida o'yinchi uchun mo'ljallangan GPU'larning narxi yanada qimmatlashishiga sabab bo'lishi ehtimoli bor.",
+   "image": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/11/nvidia-white-and-black-logo-on-lime-green-1.jpg?w=1600&h=900&fit=crop",
+   "domains": [
+    "gamerant.com",
+    "techcrunch.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://gamerant.com/nvidia-jensen-huang-gpu-prices-ai-startup-deals/",
+    "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+    "https://finance.yahoo.com/video/nvidia-stock-reacts-as-huang-admits-to-an-affair-with-a-chinese-spy-anthropic-moves-ahead-with-ipo-145459810.html"
+   ],
+   "videos": []
   }
  ]
 }
