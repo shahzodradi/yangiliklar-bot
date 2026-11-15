@@ -270,25 +270,13 @@
   "https://finance.yahoo.com/technology/ai/articles/a2e-ai-launches-ai-video-101800541.html": 1794740812.6366203,
   "https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/": 1794740812.6366203,
   "https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service/": 1794740812.6366203,
-  "https://allhiphop.com/news/suno-faces-bigger-reservoir-lawsuit-as-ai-claims-top-445-million/": 1794744061.3180876
+  "https://allhiphop.com/news/suno-faces-bigger-reservoir-lawsuit-as-ai-claims-top-445-million/": 1794744061.3180876,
+  "https://www.wired.com/story/ai-djs-completely-kill-my-groove/": 1794755437.4028902,
+  "https://www.wired.com/story/this-ai-tamagotchi-oats-turns-everyday-objects-into-needy-virtual-pets/": 1794755437.4028902,
+  "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/": 1794755437.4028902
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1794405767.6505322,
-   "title": "How I create fashion images with Higgsfield Soul 2.0",
-   "soha": "AI video"
-  },
-  {
-   "t": 1794405767.6505322,
-   "title": "US data brokers are selling half a billion dollars in RL training environments to Chinese AI labs",
-   "soha": "AI"
-  },
-  {
-   "t": 1794405767.6505322,
-   "title": "Grok-built apps exposed patient data, plaintext passwords, and SpaceXSI's own sales pipeline",
-   "soha": "AI"
-  },
   {
    "t": 1794420074.9810429,
    "title": "Protoface Announces World’s Lowest Seedance 2.5 API Prices, Starting at $0.08 Per Second",
@@ -913,6 +901,21 @@
    "t": 1794744061.3180876,
    "title": "Suno Faces Bigger Reservoir Lawsuit As AI Claims Top $445 Million",
    "soha": "AI musiqa"
+  },
+  {
+   "t": 1794755437.4028902,
+   "title": "AI DJs Completely Kill My Groove",
+   "soha": "AI musiqa"
+  },
+  {
+   "t": 1794755437.4028902,
+   "title": "This AI Tamagotchi Turns Everyday Objects Into Needy Virtual Pets",
+   "soha": "AI"
+  },
+  {
+   "t": 1794755437.4028902,
+   "title": "Where was Nvidia’s security team?",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -924,51 +927,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1794578463.358221,
-   "title": "AI miya faolligini o'rganib rasmlar yaratmoqda",
-   "text": "Brain-IT deb nomlangan yangi sun'iy intellekt modeli miya skanerlarini tasvirlarga aylantira oladi va aksincha jarayonni bajaradi.",
-   "orig_title": "This AI finds patterns in visual brain activity and turns them into pictures",
-   "link": "https://www.msn.com/en-us/technology/artificial-intelligence/this-ai-finds-patterns-in-visual-brain-activity-and-turns-them-into-pictures/ar-AA2hm62z",
-   "source": "msn.com",
-   "soha": "AI rasm",
-   "baho": 8,
-   "experts": [],
-   "effect": "Miy faoliyatini tasvirga aylantiruvchi suniy intellekt texnologiyalarining rivojlanishi neyrotexnologiya va shaxsiy maxfiylik siyosatini qayta ko‘rib chiqishga olib kelishi mumkin. Bunday tizimlar tibbiy tadqiqotlarni yaxshilash bilan birga, foydalanuvchilar ma'lumotlaridan foydalanish bo‘yicha yangi huquqiy muhokamalarni keltirib chiqarishi ehtimoli bor.",
-   "image": null,
-   "domains": [
-    "tech.yahoo.com"
-   ],
-   "urls": [
-    "https://tech.yahoo.com/science/articles/ai-finds-patterns-visual-brain-100000672.html",
-    "https://tech.yahoo.com/ai/meta-ai/articles/muse-maker-trained-ai-50-231800070.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794582238.46558,
-   "title": "Suno Ableton Live uchun Suno Bridge beta versiyasini chiqardi",
-   "text": "Suno musiqa modellari yordamida Ableton Live sessiyalarida vokal va cholg'u qismlarini yaratuvchi Suno Bridge beta dasturini ishga tushirdi.",
-   "orig_title": "Suno Launches Bridge Beta for AI Stem Generation in Ableton Live",
-   "link": "https://www.unite.ai/suno-launches-bridge-beta-for-ai-stem-generation-in-ableton-live/",
-   "source": "unite.ai",
-   "soha": "AI musiqa",
-   "baho": 9,
-   "experts": [],
-   "effect": "Musiqa yaratish jarayoni tezlashishi va prodyuserlarning ish unumdorligi oshishi mumkin. Shuningdek, loyihalarni bulutga yuklash orqali mualliflik huquqini avtomatlashtirilgan tekshirish yangi me’yorga aylanishi ehtimoli bor.",
-   "image": "https://www.unite.ai/wp-content/uploads/2026/11/suno-launches-bridge-beta-for-ai-stem-generation-in-ableton-live.jpg",
-   "domains": [
-    "unite.ai",
-    "finance.yahoo.com",
-    "theguardian.com"
-   ],
-   "urls": [
-    "https://www.unite.ai/suno-launches-bridge-beta-for-ai-stem-generation-in-ableton-live/",
-    "https://finance.yahoo.com/quote/RZLV/",
-    "https://www.theguardian.com/technology/2026/oct/19/ai-tool-predict-cancer-survival-patient-selfie"
-   ],
-   "videos": []
-  },
   {
    "t": 1794585678.3947253,
    "title": "Camerimage kinofestivalida sun'iy intellekt texnologiyalari muhokazalarga sabab bo'ldi",
@@ -2107,6 +2065,92 @@
      "YouTube"
     ]
    ]
+  },
+  {
+   "t": 1794755437.4028902,
+   "title": "YouTube Music va Spotify sun'iy intellekt DJ'larni sinovdan o'tkazmoqda",
+   "text": "Striming xizmatlari foydalanuvchilar pleylistlarini boshqarish uchun sintetik boshlovchilar va sun'iy intellekt DJ'larni joriy qilmoqda.",
+   "orig_title": "AI DJs Completely Kill My Groove",
+   "link": "https://www.wired.com/story/ai-djs-completely-kill-my-groove/",
+   "source": "Wired AI",
+   "soha": "AI musiqa",
+   "baho": 7,
+   "experts": [],
+   "effect": "Musiqa striming ilovalariga suniy intellektli DJ funksiyalarining qo'shilishi foydalanuvchilar uchun musiqiy muhitni buzishi va nomutanosiblik keltirib chiqarishi mumkin. Shuningdek, bunday vositalarning xatolari va suniy suhbatlari auditoriyani asosiy funksiyadan chalg'itishi ehtimoli bor.",
+   "image": "https://media.wired.com/photos/6af7840bd2837972f5ddf4f3/191:100/w_1280,c_limit/Untitled-1.jpg",
+   "domains": [
+    "wired.com",
+    "techcrunch.com",
+    "theverge.com"
+   ],
+   "urls": [
+    "https://www.wired.com/story/ai-djs-completely-kill-my-groove/",
+    "https://techcrunch.com/2025/09/26/youtube-music-tests-ai-hosts-that-share-trivia-and-commentary/",
+    "https://www.theverge.com/2023/2/23/23610362/spotify-ai-dj-beta-announcement-custom-playlist-feature-personalized"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794755437.4028902,
+   "title": "Talaba kundalik buyumlarni virtual uy hayvoniga aylantiruvchi AI gadjet yaratdi",
+   "text": "Carnegie Mellon talabasi E Ink ekranli kichik qurilmalar yordamida o'simlik va buyumlarga sun'iy intellekt orqali shaxsiyat bag'ishladi.",
+   "orig_title": "This AI Tamagotchi Turns Everyday Objects Into Needy Virtual Pets",
+   "link": "https://www.wired.com/story/this-ai-tamagotchi-oats-turns-everyday-objects-into-needy-virtual-pets/",
+   "source": "Wired AI",
+   "soha": "AI",
+   "baho": 6,
+   "experts": [],
+   "effect": "Kichik E Ink ekranli aqlli qurilmalar kundalik buyumlarga jon bag'ishlab, foydalanuvchilarni foydali odatlarga undashda yangi yechim bo'lishi mumkin. Biroq ularni ommaviy tijorat mahsulotiga aylantirish uchun qo'shimcha investitsiya va bozor sinovlari talab etilishi ehtimoli bor.",
+   "image": "https://media.wired.com/photos/6af4802ffbe5af43ea5dee0a/191:100/w_1280,c_limit/Screenshot%202026-11-11%20at%2014.47.44.png",
+   "domains": [
+    "wired.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://www.wired.com/story/this-ai-tamagotchi-oats-turns-everyday-objects-into-needy-virtual-pets/",
+    "https://finance.yahoo.com/quote/BKLC/",
+    "https://finance.yahoo.com/quote/BKAG/"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794755437.4028902,
+   "title": "Nvidia xavfsizlik rahbari iste'foga chiqdi",
+   "text": "Bosh direktor Jensen Huang ketishidan so'ng Nvidia xavfsizlik xizmati rahbari ham lavozimini tark etgani ma'lum bo'ldi.",
+   "orig_title": "Where was Nvidia’s security team?",
+   "link": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [
+    {
+     "kim": "Nicholas Eftimiades",
+     "lavozim": "nafaqadagi yuqori martabali razvedka xodimi",
+     "fikr": "Razvedka xizmatlari ma'lumotlarni asosan kundalik suhbatlar orqali to'plagani sababli, xavfsizlik jamoalari xavflarni aniqlashda qiyinchiliklarga duch keladi.",
+     "url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
+     "domain": "techcrunch.com"
+    },
+    {
+     "kim": "Nicholas Eftimiades",
+     "lavozim": "nafaqadagi yuqori martabali razvedka xodimi",
+     "fikr": "Xavfsizlik guruhlari daromad keltirmagani bois ko'pincha mablag' bilan cheklanadi va kompaniyalar xavfsizlikni juda tor doirada belgilaydi.",
+     "url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
+     "domain": "techcrunch.com"
+    }
+   ],
+   "effect": "Kompaniya rahbarining iste'foga chiqishi va yuzaga kelgan mojaro qimmatli qog'ozlar narxining keskin tushishiga hamda hukumat tomonidan qattiq tekshiruvlar boshlanishiga olib kelishi mumkin. Shuningdek, kelgusida suniy intellekt texnologiyalarini tartibga solish va tarmoqdagi o'sish sur'atlarini sekinlashtirish ehtimoli bor.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/Jensen-Huang-1.jpg?w=1024",
+   "domains": [
+    "techcrunch.com",
+    "finance.yahoo.com",
+    "cnbc.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
+    "https://finance.yahoo.com/technology/live/nvidia-live-updates-following-jensen-huangs-resignation-as-ceo-allegations-of-a-third-affair-emerge-195535310.html",
+    "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-affair-congress-scrutiny.html"
+   ],
+   "videos": []
   }
  ]
 }
