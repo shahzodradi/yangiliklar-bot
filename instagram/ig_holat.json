@@ -30,7 +30,11 @@
   "https://openai.com/index/lvmh-media-division-partnership",
   "https://about.fb.com/news/2026/11/94-of-singapore-small-business-owners-surveyed-say-more-ai-guidance-is-needed/",
   "https://www.martechcube.com/adobe-brings-ai-agents-and-creative-tools-to-creators-everywhere/",
-  "https://www.msn.com/en-xl/news/other/the-day-ai-music-claimed-the-nations-top-spot/ar-AA2hxKGq"
+  "https://www.msn.com/en-xl/news/other/the-day-ai-music-claimed-the-nations-top-spot/ar-AA2hxKGq",
+  "https://www.northjersey.com/press-release/story/267501/a-mothers-escape-from-the-paradise-fire-inspires-santa-fe-ai-hackathon/",
+  "https://the-decoder.com/alibabas-qwen4-max-takes-on-opus-5-5-gpt-6-and-kimi-k3-1-pro-at-much-lower-prices/",
+  "https://the-decoder.com/claude-now-builds-interactive-websites-inside-canvas-graphics-reviving-the-flash-era-with-real-html/",
+  "https://the-decoder.com/anthropic-says-the-key-to-agent-memory-is-knowing-what-to-forget-not-how-much-to-store/"
  ],
  "faktlar": {
   "Alan Turing": [
@@ -73,8 +77,6 @@
  ],
  "har_start": 1794738657.9279323,
  "har_vaqt": [
-  1794756701.4526777,
-  1794760277.2213008,
   1794771075.4723842,
   1794799878.6347353,
   1794799882.6865442,
@@ -89,8 +91,21 @@
   1794825081.0830102,
   1794828676.7143557,
   1794832297.7178926,
-  1794843118.735872
+  1794843118.735872,
+  1794850330.7307754,
+  1794850355.3752713,
+  1794850375.8904936,
+  1794850397.8731914
  ],
  "reel_vaqt": [],
- "rasmlar": []
+ "rasmlar": [
+  "0010feff7f109899",
+  "fcf8e0fefe800000",
+  "dffeede9e3c7c7c7",
+  "ffdfdfac14000602",
+  "e0e0f0e0e3c3e3b7",
+  "001999bbfd998800",
+  "e090d87858784000",
+  "fcfefefbfb600000"
+ ]
 }
