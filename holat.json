@@ -280,20 +280,14 @@
   "https://openai.com/index/lvmh-media-division-partnership": 1794823259.1961713,
   "https://about.fb.com/news/2026/11/94-of-singapore-small-business-owners-surveyed-say-more-ai-guidance-is-needed/": 1794827255.325033,
   "https://www.martechcube.com/adobe-brings-ai-agents-and-creative-tools-to-creators-everywhere/": 1794830477.5447698,
-  "https://www.msn.com/en-xl/news/other/the-day-ai-music-claimed-the-nations-top-spot/ar-AA2hxKGq": 1794841559.0184994
+  "https://www.msn.com/en-xl/news/other/the-day-ai-music-claimed-the-nations-top-spot/ar-AA2hxKGq": 1794841559.0184994,
+  "https://www.northjersey.com/press-release/story/267501/a-mothers-escape-from-the-paradise-fire-inspires-santa-fe-ai-hackathon/": 1794848685.9660392,
+  "https://the-decoder.com/alibabas-qwen4-max-takes-on-opus-5-5-gpt-6-and-kimi-k3-1-pro-at-much-lower-prices/": 1794848685.9660392,
+  "https://the-decoder.com/claude-now-builds-interactive-websites-inside-canvas-graphics-reviving-the-flash-era-with-real-html/": 1794848685.9660392,
+  "https://the-decoder.com/anthropic-says-the-key-to-agent-memory-is-knowing-what-to-forget-not-how-much-to-store/": 1794848685.9660392
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1794499425.926031,
-   "title": "With $23M in funding, Luminal is the latest startup to put Nvidia’s CUDA moat in its crosshairs",
-   "soha": "AI"
-  },
-  {
-   "t": 1794499425.926031,
-   "title": "Jensen Huang accused of having another affair — with an Nvidia exec",
-   "soha": "AI"
-  },
   {
    "t": 1794506557.1584666,
    "title": "InMobi and Uttar Pradesh Government Launch AI Kaushal Hackathon 2026 to Accelerate Real-World AI Innovation",
@@ -833,6 +827,26 @@
    "t": 1794841559.0184994,
    "title": "The day AI music claimed the nation's top spot",
    "soha": "AI musiqa"
+  },
+  {
+   "t": 1794848685.9660392,
+   "title": "A Mother’s Escape From the Paradise Fire Inspires Santa Fe AI Hackathon",
+   "soha": "AI tanlov"
+  },
+  {
+   "t": 1794848685.9660392,
+   "title": "Alibaba's Qwen4-Max takes on Opus 5.5, GPT-6, and Kimi K3.1 Pro at much lower prices",
+   "soha": "AI"
+  },
+  {
+   "t": 1794848685.9660392,
+   "title": "Claude now builds interactive websites inside canvas graphics, reviving the Flash era with real HTML",
+   "soha": "AI"
+  },
+  {
+   "t": 1794848685.9660392,
+   "title": "Anthropic says the key to agent memory is knowing what to forget, not how much to store",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -1734,6 +1748,118 @@
    "urls": [
     "https://finance.yahoo.com/markets/article/apple-has-turned-into-wall-streets-hedge-against-the-ai-trade-chart-of-the-day-131527512.html",
     "https://finance.yahoo.com/quote/RZLV/chart/"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794848685.9660392,
+   "title": "Santa Fe AI xakatoni yong'in ekspertlari va dasturchilarni birlashtirdi",
+   "text": "New Mexico Tech Week doirasida o'tkazilgan Ember to Aftermath xakatoni yong'in ekspertlari va sun'iy intellekt dasturchilarini bir maqsad yo'lida jamladi.",
+   "orig_title": "A Mother’s Escape From the Paradise Fire Inspires Santa Fe AI Hackathon",
+   "link": "https://www.northjersey.com/press-release/story/267501/a-mothers-escape-from-the-paradise-fire-inspires-santa-fe-ai-hackathon/",
+   "source": "northjersey.com",
+   "soha": "AI tanlov",
+   "baho": 10,
+   "experts": [],
+   "effect": "Yangi sun'iy intellekt modellarining arzonlashishi va qulaylashishi bozor raqobatini yanada kuchaytirishi, shuningdek, turli sohalardagi korxonalar uchun xarajatlarni qisqartirish imkonini berishi mumkin.",
+   "image": null,
+   "domains": [
+    "finance.yahoo.com",
+    "techcrunch.com"
+   ],
+   "urls": [
+    "https://finance.yahoo.com/healthcare/articles/ember-ai-joins-nextgen-healthcare-150000289.html",
+    "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794848685.9660392,
+   "title": "Alibaba Qwen4-Max taqdim etildi",
+   "text": "Alibaba 2.4 trillion parametrli yangi flagman modeli Qwen4-Max'ni chiqardi. Yangi gibrid arxitektura uzoq kontekstlar uchun xarajatlarni sezilarli darajada kamaytiradi.",
+   "orig_title": "Alibaba's Qwen4-Max takes on Opus 5.5, GPT-6, and Kimi K3.1 Pro at much lower prices",
+   "link": "https://the-decoder.com/alibabas-qwen4-max-takes-on-opus-5-5-gpt-6-and-kimi-k3-1-pro-at-much-lower-prices/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 9,
+   "experts": [],
+   "effect": "Arzonroq va samaraliroq sun'iy intellekt modellarining bozorga chiqishi bulutli hisoblash xizmatlariga talabni oshirishi hamda kompaniyalarning operatsion xarajatlarini sezilarli darajada kamaytirishi mumkin.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/07/qwen_logo-1.png",
+   "domains": [
+    "the-decoder.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/alibabas-qwen4-max-takes-on-opus-5-5-gpt-6-and-kimi-k3-1-pro-at-much-lower-prices/",
+    "https://finance.yahoo.com/quote/BABA/",
+    "https://finance.yahoo.com/technology/ai/articles/alibaba-just-cut-ai-task-114345204.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794848685.9660392,
+   "title": "Claude canvas grafikalarida interaktiv veb-saytlar yaratadi",
+   "text": "Claude matn, tugmalar va veb-elementlarni murakkab grafikalar hamda 3D effektlarga to'g'ridan-to'g'ri joylashtirish imkoniyatiga ega bo'ldi.",
+   "orig_title": "Claude now builds interactive websites inside canvas graphics, reviving the Flash era with real HTML",
+   "link": "https://the-decoder.com/claude-now-builds-interactive-websites-inside-canvas-graphics-reviving-the-flash-era-with-real-html/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [
+    {
+     "kim": "Brad Reback",
+     "lavozim": "Stifel tahlilchisi",
+     "fikr": "Anthropicning mislsiz o'sishi, chuqur texnik tajribasi va salohiyati sababli yangi mahsulot taklifini diqqat bilan kuzatib borish kerak.",
+     "url": "https://finance.yahoo.com/technology/article/anthropics-new-claude-product-drop-just-sent-a-message-to-these-3-tech-stocks-133421409.html",
+     "domain": "finance.yahoo.com"
+    },
+    {
+     "kim": "Jackson Ader",
+     "lavozim": "KeyBanc tahlilchisi",
+     "fikr": "Anthropic chiqishlari Microsoftdan ko'ra boshqa uchta texnologiya aksiyalariga tezroq ta'sir ko'rsatishi mumkin.",
+     "url": "https://finance.yahoo.com/technology/article/anthropics-new-claude-product-drop-just-sent-a-message-to-these-3-tech-stocks-133421409.html",
+     "domain": "finance.yahoo.com"
+    }
+   ],
+   "effect": "Ofis dasturlari va hamkorlik vositalari bozorida raqobatning keskinlashishi, Microsoft hamda boshqa yirik dasturiy ta'minot kompaniyalari aksiyalariga bosim o'tkazishi ehtimoli bor.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/11/claude_gemini_pro-scaled.png",
+   "domains": [
+    "the-decoder.com",
+    "finance.yahoo.com",
+    "techcrunch.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/claude-now-builds-interactive-websites-inside-canvas-graphics-reviving-the-flash-era-with-real-html/",
+    "https://finance.yahoo.com/technology/article/anthropics-new-claude-product-drop-just-sent-a-message-to-these-3-tech-stocks-133421409.html",
+    "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/"
+   ],
+   "videos": [
+    [
+     "https://x.com/felixrieseberg/status/2122036839238492493",
+     "X"
+    ]
+   ]
+  },
+  {
+   "t": 1794848685.9660392,
+   "title": "Anthropic agent xotirasi bo'yicha tadqiqot natijalarini ulashdi",
+   "text": "Anthropic Claude sessiyalar davomida bilimlarni qanday saqlashini o'rgandi. Tanlangan eslatmalar to'liq arxivlardan ko'ra samaraliroq ekanligi aniqlandi.",
+   "orig_title": "Anthropic says the key to agent memory is knowing what to forget, not how much to store",
+   "link": "https://the-decoder.com/anthropic-says-the-key-to-agent-memory-is-knowing-what-to-forget-not-how-much-to-store/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Sun'iy intellekt agentlarining xotirani boshqarish va eslab qolish qobiliyatining yaxshilanishi ularning uzoq muddatli loyihalardagi samaradorligini oshirib, xatolarni kamaytirishga yordam berishi mumkin.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/10/anthropic_claude-2.png",
+   "domains": [
+    "the-decoder.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/anthropic-says-the-key-to-agent-memory-is-knowing-what-to-forget-not-how-much-to-store/",
+    "https://finance.yahoo.com/research/stock-forecast/UBER/",
+    "https://finance.yahoo.com/personal-finance/investing/article/anthropic-ipo-what-investors-should-know-about-buying-in-155852585.html"
    ],
    "videos": []
   }
