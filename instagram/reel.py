@@ -75,12 +75,12 @@ def ass_time(t):
     return f"{int(t // 3600)}:{int(t % 3600 // 60):02d}:{t % 60:05.2f}"
 
 
-def subtitles(words, path, y=1590, per=3):
+def subtitles(words, path, y=960, per=3):
     """So'zma-so'z subtitr (ASS): 3 so'zlik guruh, aytilayotgan so'z ko'k (#3d8bff)."""
     head = ("[Script Info]\nScriptType: v4.00+\nPlayResX: 1080\nPlayResY: 1920\n\n[V4+ Styles]\n"
             "Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Alignment, "
             "MarginL, MarginR, MarginV, Outline, Shadow\n"
-            "Style: S,Anton,84,&H00FFFFFF,&H00000000,&H00000000,0,5,40,40,0,0,0\n\n[Events]\n"
+            "Style: S,Anton,104,&H00FFFFFF,&H00000000,&H00000000,0,5,40,40,0,7,0\n\n[Events]\n"
             "Format: Layer, Start, End, Style, Text\n")
     lines = []
     for g in range(0, len(words), per):
@@ -107,7 +107,10 @@ def speakable(text):
     return re.sub(r"\s+", " ", text).strip()
 
 
-def make_reel(name, photo, h1_html, narration, fs=96):
+def make_reel(name, photo, h1_html, narration, fs=None):
+    if fs is None:  # sarlavha uzunligiga qarab: panelga 3 qatorgacha sig'sin
+        n = len(re.sub(r"<[^>]+>", "", h1_html))
+        fs = 100 if n <= 45 else 86 if n <= 70 else 74
     OUT.mkdir(exist_ok=True)
     panel_html, panel_png = OUT / f"{name}_panel.html", OUT / f"{name}_panel.png"
     panel_html.write_text(PANEL % dict(fade=PH - 160, ph=PH, ph2=H - PH, fs=fs, h1=h1_html), encoding="utf-8")
