@@ -279,20 +279,11 @@
   "https://techcrunch.com/2026/11/15/helsing-backer-plural-raises-1-1b-to-fund-europes-next-moonshots/": 1794820155.7761018,
   "https://openai.com/index/lvmh-media-division-partnership": 1794823259.1961713,
   "https://about.fb.com/news/2026/11/94-of-singapore-small-business-owners-surveyed-say-more-ai-guidance-is-needed/": 1794827255.325033,
-  "https://www.martechcube.com/adobe-brings-ai-agents-and-creative-tools-to-creators-everywhere/": 1794830477.5447698
+  "https://www.martechcube.com/adobe-brings-ai-agents-and-creative-tools-to-creators-everywhere/": 1794830477.5447698,
+  "https://www.msn.com/en-xl/news/other/the-day-ai-music-claimed-the-nations-top-spot/ar-AA2hxKGq": 1794841559.0184994
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1794492152.4698534,
-   "title": "ElevenLabs Scribe v3 Live uses conversational context to stop voice agents from cutting off callers mid-sentence",
-   "soha": "AI musiqa"
-  },
-  {
-   "t": 1794492152.4698534,
-   "title": "BeatBread Brings on Advisors From Meta, Suno",
-   "soha": "AI musiqa"
-  },
   {
    "t": 1794496058.9920905,
    "title": "The Elvis AI Lawsuit, Explained",
@@ -842,6 +833,11 @@
    "t": 1794830477.5447698,
    "title": "Adobe Brings AI Agents and Creative Tools to Creators Everywhere",
    "soha": "AI rasm"
+  },
+  {
+   "t": 1794841559.0184994,
+   "title": "The day AI music claimed the nation's top spot",
+   "soha": "AI musiqa"
   }
  ],
  "mavzu": {
@@ -849,60 +845,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1794664875.3591092,
-   "title": "Boston-Silicon Valley AI Film Festival 11 ta mukofot g'oliblarini e'lon qildi",
-   "text": "MITda bo'lib o'tgan festivalda sun'iy intellekt yordamida yaratilgan filmlar namoyish etilib, 11 ta yo'nalishda g'oliblar taqdirlandi va 'Earlier' filmi Bosh mukofotni qo'lga kiritdi.",
-   "orig_title": "The 2026 Boston-Silicon Valley AI Film Festival: 11 Awards and the Convergence of AI & Filmmaking",
-   "link": "https://www.desmoinesregister.com/press-release/story/150992/the-2026-boston-silicon-valley-ai-film-festival-11-awards-and-the-convergence-of-ai-filmmaking/",
-   "source": "desmoinesregister.com",
-   "soha": "AI tanlov",
-   "baho": 10,
-   "experts": [
-    {
-     "kim": "Ken Goldberg",
-     "lavozim": "robototexnika professori",
-     "fikr": "Bu ko‘rsatkichlar juda yuqori bo‘lib, o‘zining 45 yillik faoliyatida robototexnika sohasiga bunchalik ko‘p mablag‘ va qiziqish qaratilganini ko‘rmagan.",
-     "url": "https://www.businessinsider.com/why-silicon-valley-vcs-are-investing-billions-in-robotics-2026-10",
-     "domain": "businessinsider.com"
-    }
-   ],
-   "effect": "Robototexnika va sun'iy intellekt sohasiga milliardlab dollarlik investitsiyalarning yo'naltirilishi jismoniy mehnatni bajaruvchi qurilmalar bozorini tezkor rivojlantirishi va ish o'rinlari hamda biznes jarayonlariga jiddiy ta'sir ko'rsatishi mumkin.",
-   "image": null,
-   "domains": [
-    "businessinsider.com",
-    "forbes.com"
-   ],
-   "urls": [
-    "https://www.businessinsider.com/why-silicon-valley-vcs-are-investing-billions-in-robotics-2026-10",
-    "https://www.forbes.com/connect/event/2024-forbes-cmo-summit/"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794664875.3591092,
-   "title": "Sun'iy intellekt yordamida avtomatlashtirilgan fidyekorlik dasturlari xavfi ortmoqda",
-   "text": "Tajribasiz xakerlar ham sun'iy intellekt vositalaridan foydalangan holda yangi turdagi avtomatlashtirilgan fidyekorlik dasturlarini yaratish va tarqatish imkoniyatiga ega bo'lmoqda.",
-   "orig_title": "Beware the New AI-Fueled Ransomware Boom",
-   "link": "https://www.wired.com/story/beware-the-new-ai-fueled-ransomware-boom/",
-   "source": "Wired AI",
-   "soha": "AI",
-   "baho": 7,
-   "experts": [],
-   "effect": "Kiberjinoyatchilarning sun'iy intellekt vositalaridan keng foydalanishi axborot xavfsizligi tahdidlarini oshirib, tashkilotlar uchun kiberhujumlarga qarshi kurashish xarajatlarini ko'paytirishi mumkin.",
-   "image": null,
-   "domains": [
-    "wired.com",
-    "finance.yahoo.com",
-    "cnbc.com"
-   ],
-   "urls": [
-    "https://www.wired.com/story/beware-the-new-ai-fueled-ransomware-boom/",
-    "https://finance.yahoo.com/technology/ai/articles/fears-over-828-billion-ai-104400351.html",
-    "https://www.cnbc.com/2026/10/31/trump-gas-diesel-price-midterm-election.html"
-   ],
-   "videos": []
-  },
   {
    "t": 1794676080.9185567,
    "title": "Runway Gen-4 sun'iy intellekt video industriyasini o'zgartirishi mumkin",
@@ -1776,6 +1718,27 @@
     "https://www.martechcube.com/adobe-brings-ai-agents-and-creative-tools-to-creators-everywhere/",
     "https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/",
     "https://tech.yahoo.com/ai/meta-ai/articles/adobe-max-2026-ai-agents-185310326.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794841559.0184994,
+   "title": "AI musiqa Suno treki Melon chartida birinchi o'rinni egalladi",
+   "text": "Generativ AI Suno yordamida yaratilgan Have You Become the Adult You Dreamed Of? qo'shig'i Melon Top 100 chartida birinchi o'ringa chiqdi.",
+   "orig_title": "The day AI music claimed the nation's top spot",
+   "link": "https://www.msn.com/en-xl/news/other/the-day-ai-music-claimed-the-nations-top-spot/ar-AA2hxKGq",
+   "source": "msn.com",
+   "soha": "AI musiqa",
+   "baho": 9,
+   "experts": [],
+   "effect": "Sun'iy intellekt xarajatlaridan qochgan Apple aksiyalari qimmatlashib, Nvidia'ni ortda qoldirishi mumkin. Investorlar texnologik gigantlarning ulkan xarajatlaridan xavotirga tushib, mablag'larini xavfsizroq aktivlarga yo'naltirishi ehtimoli bor.",
+   "image": null,
+   "domains": [
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://finance.yahoo.com/markets/article/apple-has-turned-into-wall-streets-hedge-against-the-ai-trade-chart-of-the-day-131527512.html",
+    "https://finance.yahoo.com/quote/RZLV/chart/"
    ],
    "videos": []
   }
