@@ -75,21 +75,28 @@ def ass_time(t):
     return f"{int(t // 3600)}:{int(t % 3600 // 60):02d}:{t % 60:05.2f}"
 
 
-def subtitles(words, path, y=960, per=3):
-    """So'zma-so'z subtitr (ASS): 3 so'zlik guruh, aytilayotgan so'z ko'k (#3d8bff)."""
+def subtitles(words, path, hook="", y=960, per=3):
+    """So'zma-so'z subtitr (ASS): 3 so'zlik guruh, aytilayotgan so'z ko'k (#3d8bff).
+    hook: birinchi 2.2 soniyada tepada ko'k quti ichida "sakrab" chiqadigan katta yozuv."""
     head = ("[Script Info]\nScriptType: v4.00+\nPlayResX: 1080\nPlayResY: 1920\n\n[V4+ Styles]\n"
-            "Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Alignment, "
-            "MarginL, MarginR, MarginV, Outline, Shadow\n"
-            "Style: S,Anton,104,&H00FFFFFF,&H00000000,&H00000000,0,5,40,40,0,7,0\n\n[Events]\n"
+            "Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, BorderStyle, "
+            "Alignment, MarginL, MarginR, MarginV, Outline, Shadow\n"
+            "Style: S,Anton,104,&H00FFFFFF,&H00000000,&H00000000,0,1,5,40,40,0,7,0\n"
+            "Style: H,Anton,96,&H00FFFFFF,&H00FF8B3D,&H00000000,0,3,5,60,60,0,22,0\n\n[Events]\n"
             "Format: Layer, Start, End, Style, Text\n")
     lines = []
+    if hook:
+        lines.append(rf"Dialogue: 1,0:00:00.00,0:00:02.20,H,{{\pos(540,120)\fscx135\fscy135"
+                     rf"\t(0,180,\fscx100\fscy100)\fad(0,200)}}{hook.upper()}")
     for g in range(0, len(words), per):
         grp = words[g:g + per]
         for i, (s, e, _) in enumerate(grp):
             end = grp[i + 1][0] if i + 1 < len(grp) else (words[g + per][0] if g + per < len(words) else e + 0.4)
             txt = " ".join((r"{\c&H00FF8B3D&}" + w.upper() + r"{\c&H00FFFFFF&}") if j == i else w.upper()
                            for j, (_, _, w) in enumerate(grp))
-            lines.append(f"Dialogue: 0,{ass_time(s)},{ass_time(end)},S,{{\\pos(540,{y})}}{txt}")
+            # har yangi guruh kichik "pop" bilan chiqadi
+            pop = r"\fscx115\fscy115\t(0,120,\fscx100\fscy100)" if i == 0 else ""
+            lines.append(rf"Dialogue: 0,{ass_time(s)},{ass_time(end)},S,{{\pos(540,{y}){pop}}}{txt}")
     path.write_text(head + "\n".join(lines) + "\n", encoding="utf-8")
     return path
 
@@ -107,7 +114,25 @@ def speakable(text):
     return re.sub(r"\s+", " ", text).strip()
 
 
-def make_reel(name, photo, h1_html, narration, fs=None):
+MOVES = ("in", "out", "left", "right")
+XFADES = ("slideleft", "smoothup", "circleopen", "zoomin", "wipeleft", "radial", "slideup", "fadeblack")
+
+
+def clip_filter(idx, path, logo, frames, move):
+    """Bitta rasm -> 1080xPH harakatli klip (zoompan): yaqinlashish/uzoqlashish/chapga/o'ngga surilish."""
+    fit = (f"scale=-1:{PH - 300},pad={W}:{PH}:(ow-iw)/2:(oh-ih)/2:color=0x06122b" if logo
+           else f"scale={W}:{PH}:force_original_aspect_ratio=increase,crop={W}:{PH}")
+    z, x = {"in": (f"1+0.16*on/{frames}", "iw/2-(iw/zoom/2)"),
+            "out": (f"1.16-0.16*on/{frames}", "iw/2-(iw/zoom/2)"),
+            "left": ("1.18", f"(iw-iw/zoom)*(1-on/{frames})"),
+            "right": ("1.18", f"(iw-iw/zoom)*on/{frames}")}[move]
+    return (f"[{idx}:v]{fit},scale={W * 2}:{PH * 2},setsar=1,"
+            f"zoompan=z='{z}':x='{x}':y='ih/2-(ih/zoom/2)':d={frames}:s={W}x{PH}:fps=30,format=yuv420p[c{idx}]")
+
+
+def make_reel(name, photos, h1_html, narration, hook="", fs=None):
+    """photos: rasm yo'llari ro'yxati (1-4 ta, har biri boshqa rasm) yoki None (logo)."""
+    import math, random
     if fs is None:  # sarlavha uzunligiga qarab: panelga 3 qatorgacha sig'sin
         n = len(re.sub(r"<[^>]+>", "", h1_html))
         fs = 100 if n <= 45 else 86 if n <= 70 else 74
@@ -117,39 +142,48 @@ def make_reel(name, photo, h1_html, narration, fs=None):
     if not browser_shot(panel_html, panel_png, W, H, transparent=True):
         return None
     mp3 = OUT / f"{name}.mp3"
-    words = voice(speakable(narration), mp3)
+    words = voice(speakable(f"{hook}. {narration}" if hook else narration), mp3)
     if not mp3.exists() or not mp3.stat().st_size:
         return None
-    ass = subtitles(words, OUT / f"{name}.ass")
+    ass = subtitles(words, OUT / f"{name}.ass", hook=hook)
     dur = duration(mp3) + 0.8
-    frames = int(dur * 30)
-    if photo is None:  # rasm yo'q: logo
-        photo, bg = HERE / "logo" / "L1_evolving.png", "contain"
-    else:
-        bg = "cover"
-    mp4 = OUT / f"{name}.mp4"
-    # rasm: 1080xPH maydonga kesiladi, 1.0 -> 1.12 sekin zoom; ustiga shaffof panel; pastda ko'k progress chiziq
-    fit = (f"scale={W}:{PH}:force_original_aspect_ratio=increase,crop={W}:{PH}" if bg == "cover"
-           else f"scale=-1:{PH - 300},pad={W}:{PH}:(ow-iw)/2:(oh-ih)/2:color=0x06122b")
-    vf = (f"[0:v]{fit},scale={W * 2}:{PH * 2},"
-          f"zoompan=z='min(1+0.12*on/{frames},1.12)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d={frames}:s={W}x{PH}:fps=30,"
-          f"pad={W}:{H}:0:0:black[bg];[bg][1:v]overlay=0:0[v1];"
-          f"color=c=0x3d8bff:s={W}x10:r=30[bar];[v1][bar]overlay=x='-{W}+{W}*t/{dur:.2f}':y={H - 10}:shortest=1[v2];"
-          f"[v2]subtitles=filename='{esc(ass)}':fontsdir='{esc(HERE / 'fonts')}'[v]")
+    if isinstance(photos, (str, pathlib.Path)):
+        photos = [photos]
+    logo = not photos
+    photos = [pathlib.Path(p) for p in photos] if photos else [HERE / "logo" / "L1_evolving.png"]
+    k, T = len(photos), 0.45
+    seg = dur / k
+    moves = random.sample(MOVES, len(MOVES))
+    parts, inputs = [], []
+    for i, ph in enumerate(photos):
+        length = seg + (T if i < k - 1 else 0)
+        inputs += ["-i", str(ph)]
+        parts.append(clip_filter(i, ph, logo, math.ceil(length * 30) + 2, moves[i % len(moves)]))
+    prev = "c0"
+    for i in range(1, k):  # rasmlar orasida turli o'tish effektlari
+        out = f"x{i}"
+        parts.append(f"[{prev}][c{i}]xfade=transition={random.choice(XFADES)}:duration={T}:offset={i * seg:.3f}[{out}]")
+        prev = out
+    pi, ai = k, k + 1  # panel va ovoz kirish indekslari
+    vf = ";".join(parts) + (
+        f";[{prev}]pad={W}:{H}:0:0:black[bg];[bg][{pi}:v]overlay=0:0[v1];"
+        f"color=c=0x3d8bff:s={W}x10:r=30[bar];[v1][bar]overlay=x='-{W}+{W}*t/{dur:.2f}':y={H - 10}:shortest=1[v2];"
+        f"[v2]subtitles=filename='{esc(ass)}':fontsdir='{esc(HERE / 'fonts')}'[v]")
     # fon musiqasi (musiqa/ dagi CC0 treklardan tasodifiy, aylanib turadi): ovoz ostida past, oxirida so'nadi
-    import random
     tracks = sorted((HERE / "musiqa").glob("*.mp3"))
     music = ["-stream_loop", "-1", "-i", str(random.choice(tracks))] if tracks else []
     if tracks:
-        vf += (f";[3:a]volume=0.16,afade=t=in:d=0.5,afade=t=out:st={dur - 1.2:.2f}:d=1.2[m];"
-               f"[2:a]aresample=44100,volume=1.0[vo];[vo][m]amix=inputs=2:duration=first:dropout_transition=0:normalize=0,"
+        vf += (f";[{ai + 1}:a]volume=0.18,afade=t=in:d=0.3,afade=t=out:st={dur - 1.2:.2f}:d=1.2[m];"
+               f"[{ai}:a]aresample=44100,volume=1.0[vo];[vo][m]amix=inputs=2:duration=first:dropout_transition=0:normalize=0,"
                f"loudnorm=I=-14:TP=-1.5:LRA=11,aresample=44100[a]")
-    cmd = [ffmpeg(), "-y", "-loglevel", "error", "-loop", "1", "-i", str(photo), "-i", str(panel_png), "-i", str(mp3),
-           *music, "-filter_complex", vf, "-map", "[v]", "-map", "[a]" if tracks else "2:a", "-t", f"{dur:.2f}", "-r", "30",
+    mp4 = OUT / f"{name}.mp4"
+    cmd = [ffmpeg(), "-y", "-loglevel", "error", *inputs, "-i", str(panel_png), "-i", str(mp3),
+           *music, "-filter_complex", vf, "-map", "[v]", "-map", "[a]" if tracks else f"{ai}:a",
+           "-t", f"{dur:.2f}", "-r", "30",
            "-c:v", "libx264", "-preset", "veryfast", "-crf", "21", "-pix_fmt", "yuv420p",
            "-c:a", "aac", "-b:a", "128k", "-ac", "2", "-movflags", "+faststart", str(mp4)]
-    r = subprocess.run(cmd, capture_output=True, text=True, timeout=600)
+    r = subprocess.run(cmd, capture_output=True, text=True, timeout=900)
     if r.returncode or not mp4.exists():
-        print("ffmpeg xato:", r.stderr[-500:])
+        print("ffmpeg xato:", r.stderr[-800:])
         return None
     return mp4

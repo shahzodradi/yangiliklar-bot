@@ -11,7 +11,7 @@ HTML = """<!doctype html><html><head><meta charset="utf-8">
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@800&display=swap" rel="stylesheet">
 <style>*{margin:0;padding:0;box-sizing:border-box}
 html,body{width:1080px;height:1350px;overflow:hidden;background:#000}
-.ph{height:870px;background:url('%(img)s') %(pos)s/%(fit)s no-repeat,radial-gradient(circle at 50%% 45%%,#0d3b8f,#020814 75%%)}
+.ph{height:870px;background:url('%(img)s') %(pos)s/%(fit)s no-repeat,radial-gradient(circle at %(gx)s%% %(gy)s%%,%(glow)s,#020814 75%%)}
 .p{height:480px;background:#000;display:flex;flex-direction:column;align-items:center;padding:0 40px}
 .sm{font-family:Inter,sans-serif;font-weight:800;letter-spacing:2px;text-transform:uppercase}
 .logo{font-size:22px;color:#fff;margin-top:-16px;background:#000;padding:4px 16px}
@@ -36,10 +36,14 @@ def render(name, image_path, h1, pos="center 15%"):
     """image_path=None: sifatli rasm topilmagan yangilik — xira rasm o'rniga ko'k fonda logo kartasi."""
     OUT.mkdir(exist_ok=True)
     html = OUT / f"{name}.html"
-    fit = "cover"
-    if image_path is None:
-        image_path, pos, fit = LOGO, "center", "520px"
-    html.write_text(HTML % dict(img=pathlib.Path(image_path).resolve().as_uri(), pos=pos, fit=fit, fs=font_size(h1),
+    fit, glow, gx, gy = "cover", "#0d3b8f", 50, 45
+    if image_path is None:  # har karta boshqa rang va nur joyida (bir xil rasm takrorlanmasin)
+        import random
+        image_path, pos = LOGO, random.choice(["center", "50% 40%", "50% 60%"])
+        fit = random.choice(["460px", "520px", "580px"])
+        glow = random.choice(["#0d3b8f", "#5b1fa8", "#0f6e6e", "#8f1d3b", "#1f4fd1", "#a85b0d", "#2b2b8f", "#0d7a3b"])
+        gx, gy = random.randint(25, 75), random.randint(25, 70)
+    html.write_text(HTML % dict(img=pathlib.Path(image_path).resolve().as_uri(), pos=pos, fit=fit, glow=glow, gx=gx, gy=gy, fs=font_size(h1),
                                 h1=h1, handle=HANDLE, foot=FOOT), encoding="utf-8")
     png = OUT / f"{name}.png"
     png.unlink(missing_ok=True)

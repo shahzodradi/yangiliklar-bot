@@ -36,7 +36,9 @@ Har biri uchun o'zbek tilida (lotin yozuvi, oʻ gʻ va ʼ belgilari bilan, kiril
 - "rasm": voqeadagi asosiy SHAXSning ism-familiyasi lotincha (Wikimedia'da surat qidirish uchun, masalan
   "Elvis Presley"). Yangilik kompaniya haqida bo'lsa, uning hozirgi rahbari (masalan Anthropic -> "Dario Amodei",
   OpenAI -> "Sam Altman"). Aniq shaxs bo'lmasa bo'sh qoldir. Faqat ism-familiya, boshqa so'z qo'shma.
-- "teglar": 5-7 ta heshteg (# bilan), birinchisi #AI.
+- "hook": reel boshida 2 soniya katta chiqadigan 2-4 so'zli "ilmoq" — skrollni to'xtatsin, faqat faktga asoslangan
+  (masalan "Nvidia larzada!", "$1 mlrd tikildi", "Musiqachilar xavotirda"). Clickbait yolg'on bo'lmasin.
+- "teglar": 3-5 ta heshteg (# bilan): #AI va mavzuga aniq mos teglar (o'zbekcha va inglizcha aralash).
 Brend va kompaniya nomlarini tarjima qilma.
 
 Faqat JSON: {{"tanlov": [{{"id": 0, "sarlavha": "...", "emoji": "...", "savol": "...", "rasm": "...",
@@ -51,7 +53,7 @@ SCHEMA = {
     "properties": {"tanlov": {"type": "ARRAY", "items": {
         "type": "OBJECT",
         "properties": {"id": {"type": "INTEGER"}, "sarlavha": {"type": "STRING"}, "emoji": {"type": "STRING"},
-                       "savol": {"type": "STRING"}, "rasm": {"type": "STRING"},
+                       "savol": {"type": "STRING"}, "rasm": {"type": "STRING"}, "hook": {"type": "STRING"},
                        "teglar": {"type": "ARRAY", "items": {"type": "STRING"}}},
         "required": ["id", "sarlavha", "emoji", "savol", "rasm", "teglar"]}}},
     "required": ["tanlov"],
@@ -80,14 +82,14 @@ def candidates(min_sources=2):
 FREE = ("public domain", "cc0", "cc by", "pd")
 
 
-def commons_photos(query):
+def commons_photos(query, limit=3):
     """Wikimedia Commons'dan shu shaxs/joyning erkin litsenziyali rasmlari: [(url, kredit)]."""
     found = []
     if not query.strip():
         return found
     api = "https://commons.wikimedia.org/w/api.php?"
     q = urllib.parse.urlencode({"action": "query", "format": "json", "generator": "search", "gsrnamespace": 6,
-                                "gsrsearch": f"{query} filetype:bitmap", "gsrlimit": 8, "prop": "imageinfo",
+                                "gsrsearch": f"{query} filetype:bitmap", "gsrlimit": 15, "prop": "imageinfo",
                                 "iiprop": "url|size|extmetadata", "iiurlwidth": 1600})
     try:
         pages = json.loads(bot.http(api + q, timeout=20))["query"]["pages"].values()
@@ -111,7 +113,7 @@ def commons_photos(query):
             artist = "" if "unknown" in artist.lower() else artist
             found.append((info.get("thumburl") or info["url"],
                           f"Wikimedia Commons, {lic}" + (f" ({artist})" if artist else "")))
-    return found[:3]
+    return found[:limit]
 
 
 def quality(data):
@@ -134,6 +136,53 @@ def bigger(url):
     no_query = no_query.replace("&", "?", 1) if "?" not in no_query else no_query
     alts = [no_query, no_size]
     return [u for u in dict.fromkeys(alts) if u != url] + [url]
+
+
+def fingerprint(data):
+    """Rasm "barmoq izi" (8x8 o'rtacha hash): bir xil rasmning boshqa o'lcham/siqilgan nusxasini ham taniydi."""
+    from PIL import Image
+    try:
+        g = Image.open(io.BytesIO(data)).convert("L").resize((8, 8))
+        px = list(g.getdata())
+        avg = sum(px) / 64
+        return "%016x" % int("".join("1" if p > avg else "0" for p in px), 2)
+    except Exception:
+        return None
+
+
+def similar(fp, used, max_diff=6):
+    return any(bin(int(fp, 16) ^ int(u, 16)).count("1") <= max_diff for u in used)
+
+
+def find_photos(item, query, used, n=4):
+    """Sifatli va avval ishlatilmagan (used: barmoq izlari to'plami) rasmlar: [(data, ctype, kredit, iz)].
+    Birinchisi eng yaxshisi (Wikimedia shaxs surati yoki eng kattasi). Sifatsiz rasm qo'shilmaydi."""
+    cands = commons_photos(query, limit=6)
+    if item.get("image"):
+        cands += [(u, item["source"]) for u in bigger(item["image"])]
+    for url in (item.get("urls") or [])[1:5]:
+        og = bot.og_image(bot.fetch_html(url, timeout=10), url)
+        if og:
+            cands += [(u, bot.domain(url)) for u in bigger(og)]
+    got, seen = [], set()
+    for url, credit in dict.fromkeys(cands):
+        if len(got) >= n:
+            break
+        img = bot.download_image(url)
+        q = quality(img[0]) if img else None
+        if not q:
+            continue
+        w, h, sharp = q
+        fp = fingerprint(img[0])
+        if not fp or not (w >= MIN_W and h >= MIN_H and sharp >= MIN_SHARP):
+            continue
+        if similar(fp, used) or similar(fp, seen):
+            log.info("Rasm avval ishlatilgan, o'tkazildi: %s", bot.domain(url))
+            continue
+        seen.add(fp)
+        got.append((img[0], img[1], credit, fp, (credit.startswith("Wikimedia"), w * h)))
+    got.sort(key=lambda g: g[4], reverse=True)
+    return [g[:4] for g in got]
 
 
 def find_photo(item, query):
@@ -277,27 +326,33 @@ def har():
     IMG_DIR.mkdir(exist_ok=True)
     stamp = time.strftime("%Y-%m-%d_%H%M")
     reel_cands = []
+    used = set(state.get("rasmlar", []))  # ishlatilgan rasmlarning barmoq izlari: bir xil rasm qayta chiqmaydi
     for i, item in enumerate(items):
         state["links"] = (state["links"] + [item["link"]])[-300:]
         pick = picks.get(i) or {  # Gemini sarlavha bermasa ham yangilik tashlab ketilmaydi
             "sarlavha": item["title"], "emoji": "⚡", "savol": "Bu haqda nima deysiz?", "rasm": "",
             "teglar": ["#AI", "#suniyintellekt", "#AIyangiliklar", "#texnologiya", "#AITezkor"]}
         pick.update({k: uz(pick.get(k, "")) for k in ("sarlavha", "savol")})
-        img, credit = find_photo(item, pick.get("rasm", ""))
-        photo = None  # sifatli rasm topilmasa: logo kartasi (xira rasm qo'yilmaydi, yangilik ham tushib qolmaydi)
-        if img:
-            data, ctype = img
-            photo = IMG_DIR / f"{stamp}_{i}_foto.{'png' if 'png' in ctype else 'jpg'}"
-            photo.write_bytes(data)
-        else:
-            log.info("Sifatli rasm yo'q — logo kartasi bilan: %s", item["link"])
+        found = find_photos(item, pick.get("rasm", ""), used, n=4)  # avval ishlatilgan rasmlar o'tkaziladi
+        files, credit = [], None
+        for j, (data, ctype, cr, fp) in enumerate(found):
+            f = IMG_DIR / f"{stamp}_{i}_foto{j}.{'png' if 'png' in ctype else 'jpg'}"
+            f.write_bytes(data)
+            files.append(f)
+            used.add(fp)
+            credit = credit or cr
+        photo = files[0] if files else None  # sifatli yangi rasm topilmasa: logo kartasi
+        if not files:
+            log.info("Sifatli yangi rasm yo'q — logo kartasi bilan: %s", item["link"])
         png = ig.render(f"{stamp}_{i}", photo, headline_html(pick["sarlavha"]))
         if not png:
             continue
         caption = build_caption(item, pick, credit)
-        log.info("IG avto: %s", pick["sarlavha"])
-        if photo is not None:
-            reel_cands.append((item.get("baho", 0), i, item, pick, photo, caption))
+        log.info("IG avto: %s (%d rasm)", pick["sarlavha"], len(files))
+        if files:
+            # reel postdagi rasmni takrorlamasin: 3+ rasm bo'lsa birinchisisiz
+            reel_cands.append((item.get("baho", 0) + len(files), i, item, pick,
+                               files[1:] if len(files) >= 3 else files, caption))
         if dry:
             print(f"\n=== {png}\n{caption}\n")
             continue
@@ -309,14 +364,16 @@ def har():
         _, i, item, pick, photo, caption = max(reel_cands, key=lambda c: c[0])
         import reel
         title = re.sub(r"\*", "", pick["sarlavha"]).strip()
-        narration = f"{title}. {item['text']} {pick['savol']} Izohda yozing."
-        mp4 = reel.make_reel(f"{stamp}_{i}_reel", photo, headline_html(pick["sarlavha"]), narration)
+        narration = f"{title}. {item['text']} {pick['savol']} Izohda yozing va obuna boʻling."
+        mp4 = reel.make_reel(f"{stamp}_{i}_reel", photo, headline_html(pick["sarlavha"]), narration,
+                             hook=uz(pick.get("hook", "")).strip(" .!") + "!" if pick.get("hook") else "")
         log.info("Reel: %s -> %s", title, mp4)
         if mp4 and not dry and ig.publish_reel(token, chat, mp4, caption):
             reels.append(time.time())
             posted.append(time.time())
     state["reel_vaqt"] = reels
     state["har_vaqt"] = posted
+    state["rasmlar"] = list(used)[-2000:]
     if not dry:
         IG_STATE.write_text(json.dumps(state, ensure_ascii=False, indent=1), encoding="utf-8")
 
