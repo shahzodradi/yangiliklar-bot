@@ -259,6 +259,8 @@ def har():
     posted = [t for t in state.get("har_vaqt", []) if t > now - 86400]
     items = [x for x in bot.load_state().get("kunlik", [])
              if x["t"] > max(start, now - HAR_WINDOW) and x["link"] not in done]
+    if dry and not items:  # quruq sinov: oxirgi 2 ta yangilik bilan chizib ko'rish
+        items = bot.load_state().get("kunlik", [])[-2:]
     room = min(HAR_MAX_RUN, HAR_MAX_DAY - len(posted))
     log.info("Har-yangilik: %d ta yangi, joy %d", len(items), room)
     if not items or room <= 0:
