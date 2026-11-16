@@ -278,7 +278,8 @@
   "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/": 1794808920.9056406,
   "https://techcrunch.com/2026/11/15/helsing-backer-plural-raises-1-1b-to-fund-europes-next-moonshots/": 1794820155.7761018,
   "https://openai.com/index/lvmh-media-division-partnership": 1794823259.1961713,
-  "https://about.fb.com/news/2026/11/94-of-singapore-small-business-owners-surveyed-say-more-ai-guidance-is-needed/": 1794827255.325033
+  "https://about.fb.com/news/2026/11/94-of-singapore-small-business-owners-surveyed-say-more-ai-guidance-is-needed/": 1794827255.325033,
+  "https://www.martechcube.com/adobe-brings-ai-agents-and-creative-tools-to-creators-everywhere/": 1794830477.5447698
  },
  "fails": 0,
  "sent": [
@@ -841,6 +842,11 @@
    "t": 1794827255.325033,
    "title": "94% of Singapore Small Business Owners Surveyed Say More AI Guidance Is Needed",
    "soha": "AI"
+  },
+  {
+   "t": 1794830477.5447698,
+   "title": "Adobe Brings AI Agents and Creative Tools to Creators Everywhere",
+   "soha": "AI rasm"
   }
  ],
  "mavzu": {
@@ -848,100 +854,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1794657675.029715,
-   "title": "OpenAI robototexnika guruhini tarqatib yubordi",
-   "text": "OpenAI umumiy maqsadli modellar robotlarni to'g'ridan-to'g'ri boshqarishi mumkinligi sababli mustaqil robototexnika guruhini tarqatib yubordi.",
-   "orig_title": "OpenAI reassigns robotics researchers to other teams as general-purpose models might make specialized robotics AI unnecessary",
-   "link": "https://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary/",
-   "source": "The Decoder",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Maxsus robototexnika modellariga ehtiyoj kamayishi va umumiy maqsadli sun'iy intellekt tizimlarining robotlarni to'g'ridan-to'g'ri boshqarish imkoniyatlari kengayishi mumkin.",
-   "image": "https://the-decoder.com/wp-content/uploads/2026/09/openai_robot_arms.png",
-   "domains": [
-    "the-decoder.com",
-    "businessinsider.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary/",
-    "https://www.businessinsider.com/why-silicon-valley-vcs-are-investing-billions-in-robotics-2026-10",
-    "https://finance.yahoo.com/sectors/technology/articles/openai-shutting-down-sora-video-221504408.html"
-   ],
-   "videos": [
-    [
-     "https://x.com/yoavartzi/status/2098496429752713618",
-     "X"
-    ],
-    [
-     "https://x.com/yoavartzi/status/2098511167090000086",
-     "X"
-    ]
-   ]
-  },
-  {
-   "t": 1794657675.029715,
-   "title": "Anthropic IPO oldidan hisoblash quvvatini tejashni ta'minlamoqda",
-   "text": "Sobiq tadqiqotchi Jekob Kokson Anthropic IPO yo'l-yo'riqlarida kompaniya algoritmlari rekord darajada tez rivojlanayotganini ta'kidladi.",
-   "orig_title": "Anthropic can already retrain Mythos with \"a fraction of the compute originally needed,\" says former researcher Coxon",
-   "link": "https://the-decoder.com/anthropic-can-already-retrain-mythos-with-a-fraction-of-the-compute-originally-needed-says-former-researcher-coxon/",
-   "source": "The Decoder",
-   "soha": "AI",
-   "baho": 7,
-   "experts": [],
-   "effect": "Algoritmik samaradorlikning tezlashishi va hisoblash xarajatlarining kamayishi raqobat muhitini o'zgartirib, kompaniyalarning bozor ulushini yanada mustahkamlashi mumkin.",
-   "image": "https://the-decoder.com/wp-content/uploads/2026/09/claude_laser.png",
-   "domains": [
-    "the-decoder.com",
-    "businessinsider.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://the-decoder.com/anthropic-can-already-retrain-mythos-with-a-fraction-of-the-compute-originally-needed-says-former-researcher-coxon/",
-    "https://www.businessinsider.com/anthropic-ipo-roadshow-video-pitch-safety-compute-2026-11",
-    "https://finance.yahoo.com/technology/ai/articles/anthropics-roadshow-video-says-ipo-213725607.html"
-   ],
-   "videos": [
-    [
-     "https://x.com/hilbertspaess/status/2121425977876341092",
-     "X"
-    ]
-   ]
-  },
-  {
-   "t": 1794657675.029715,
-   "title": "Isroil venchur fondlari Nvidia inqirozida raqobatchilar uchun imkoniyat ko'rmoqda",
-   "text": "Nvidia bosh direktori iste'foga chiqqanidan so'ng, Isroilning startap ekotizimida yangi raqobat maydonlari muhokama qilinmoqda.",
-   "orig_title": "Israel’s VCs see opportunity for challengers in Nvidia’s turmoil",
-   "link": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/",
-   "source": "TechCrunch AI",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [
-    {
-     "kim": "Yanai Oron",
-     "lavozim": "general partner",
-     "fikr": "Nvidia'dagi sekinroq qarorlar raqobatchilarga imkoniyat berishi mumkin, biroq noaniqlik xarajatlarni sekinlashtirishi ham mumkin.",
-     "url": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/",
-     "domain": "techcrunch.com"
-    }
-   ],
-   "effect": "Bozorda raqobat kuchayib, muqobil chiplar va sun'iy intellekt dasturiy ta'minoti ishlab chiquvchilari uchun yangi imkoniyatlar ochilishi ehtimoli bor.",
-   "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2303769281.jpg?resize=1200,800",
-   "domains": [
-    "techcrunch.com",
-    "businessinsider.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/",
-    "https://www.businessinsider.com/why-silicon-valley-vcs-are-investing-billions-in-robotics-2026-10",
-    "https://finance.yahoo.com/news/nvidia-advanced-talks-buy-israels-171025289.html"
-   ],
-   "videos": []
-  },
   {
    "t": 1794664875.3591092,
    "title": "Boston-Silicon Valley AI Film Festival 11 ta mukofot g'oliblarini e'lon qildi",
@@ -1845,6 +1757,30 @@
     "https://about.fb.com/news/2026/11/94-of-singapore-small-business-owners-surveyed-say-more-ai-guidance-is-needed/",
     "https://www.cnbc.com/2026/11/05/booking-holdings-q3-earnings-ai-opportunity.html",
     "https://www.businessinsider.com/meta-ai-data-center-construction-louisiana-local-business-growth-economy-2026-10"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794830477.5447698,
+   "title": "Adobe Creative Agent va Firefly imkoniyatlarini kengaytirdi",
+   "text": "Adobe ijodkorlar va korxonalar uchun Creative Cloud hamda Adobe Firefly doirasida yangi sun'iy intellekt agentlari va vositalarini taqdim etdi.",
+   "orig_title": "Adobe Brings AI Agents and Creative Tools to Creators Everywhere",
+   "link": "https://www.martechcube.com/adobe-brings-ai-agents-and-creative-tools-to-creators-everywhere/",
+   "source": "martechcube.com",
+   "soha": "AI rasm",
+   "baho": 8,
+   "experts": [],
+   "effect": "Raqamli dizayn va kontent yaratish bozorida raqobat yanada kuchayishi, dizaynerlar murakkab jarayonlarni avtomatlashtirish orqali ish unumdorligini oshirishi mumkin.",
+   "image": null,
+   "domains": [
+    "martechcube.com",
+    "techcrunch.com",
+    "tech.yahoo.com"
+   ],
+   "urls": [
+    "https://www.martechcube.com/adobe-brings-ai-agents-and-creative-tools-to-creators-everywhere/",
+    "https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/",
+    "https://tech.yahoo.com/ai/meta-ai/articles/adobe-max-2026-ai-agents-185310326.html"
    ],
    "videos": []
   }
