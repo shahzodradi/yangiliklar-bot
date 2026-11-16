@@ -1,10 +1,5 @@
 {
  "seen": {
-  "https://www.theverge.com/entertainment/1026282/grimes-ai-movie": 1793923311.2808347,
-  "https://the-decoder.com/googles-gemini-omni-1-2-flash-stretches-ai-video-clips-to-15-seconds-and-cuts-pricing-by-30-percent/": 1793923311.2808347,
-  "https://www.theverge.com/ai-artificial-intelligence/1027427/ai-music-soundcloud-elevenlabs": 1793923311.2808347,
-  "https://note.com/masahiko_studio/n/n80f11e8093cb?hl=en": 1793923311.2808347,
-  "https://www.usatoday.com/press-release/story/55940/joyolabs-launches-oraku-a-fast-and-affordable-ai-video-platform-for-everyone/": 1793923311.2808347,
   "https://note.com/pelitan/n/nb460da8c8953?hl=en": 1793959999.4883611,
   "https://note.com/caged/n/n75db7fe25dc4?hl=en": 1793959999.4883611,
   "https://www.gadgets360.com/ai/news/elevenlabs-partners-soundcloud-ai-generated-music-pro-subscription-announcement-12291521": 1793959999.4883611,
@@ -275,15 +270,16 @@
   "https://www.wired.com/story/this-ai-tamagotchi-oats-turns-everyday-objects-into-needy-virtual-pets/": 1794755437.4028902,
   "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/": 1794755437.4028902,
   "https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them/": 1794758463.172664,
-  "https://allhiphop.com/news/exclusive-suno-faces-demand-to-open-new-ai-models-to-copyright-discovery/": 1794769351.206209
+  "https://allhiphop.com/news/exclusive-suno-faces-demand-to-open-new-ai-models-to-copyright-discovery/": 1794769351.206209,
+  "https://wersm.com/adobe-firefly-ai-creative-studio-agents/": 1794798318.1396794,
+  "https://openai.com/index/step-toward-defining-the-standard-model": 1794798318.1396794,
+  "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china": 1794798318.1396794,
+  "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools": 1794798318.1396794,
+  "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/": 1794798318.1396794,
+  "https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed": 1794798318.1396794
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1794423851.663401,
-   "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
-   "soha": "AI"
-  },
   {
    "t": 1794452753.907915,
    "title": "This New AI Music Model Is Already Better Than Suno—We Put ACE to the Test",
@@ -898,6 +894,36 @@
    "t": 1794769351.206209,
    "title": "EXCLUSIVE: Suno Faces Demand To Open New AI Models To Copyright Discovery",
    "soha": "AI musiqa"
+  },
+  {
+   "t": 1794798318.1396794,
+   "title": "Adobe Wants Firefly To Become The Home Of AI-Powered Creativity",
+   "soha": "AI video"
+  },
+  {
+   "t": 1794798318.1396794,
+   "title": "A step toward defining the Standard Model on a lattice",
+   "soha": "AI"
+  },
+  {
+   "t": 1794798318.1396794,
+   "title": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
+   "soha": "AI"
+  },
+  {
+   "t": 1794798318.1396794,
+   "title": "Apple’s new study looks to improve the effectiveness of AI health tools",
+   "soha": "AI"
+  },
+  {
+   "t": 1794798318.1396794,
+   "title": "Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market",
+   "soha": "AI"
+  },
+  {
+   "t": 1794798318.1396794,
+   "title": "Jensen Huang might be plotting a return and more of the latest Nvidia drama",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -909,169 +935,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1794596763.077386,
-   "title": "2026-yilda eng yaxshi AI video generator modellari reytingi",
-   "text": "AI video generatorlar reytingi o'zgardi: mahalliy audio standartga aylandi, kliplar uzunligi 15-30 sekundga yetdi va ochiq vaznli model kuchli uchlikka kirdi.",
-   "orig_title": "Best AI Video Generation Models in 2026: Elo, Price per Second, Open Weights",
-   "link": "https://www.marktechpost.com/2026/11/13/best-ai-video-generation-models-2026/",
-   "source": "marktechpost.com",
-   "soha": "AI video",
-   "baho": 9,
-   "experts": [
-    {
-     "kim": "Stacy Rasgon",
-     "lavozim": "Bernstein Research tahlilchisi",
-     "fikr": "O‘yin segmenti endilikda kompaniyaning harakatlantiruvchi kuchi emas va bir vaqtlar aniq shunday bo‘lgan.",
-     "url": "https://www.cnbc.com/2026/04/18/nvidia-ai-backlash-gamers-geforce-gpu.html",
-     "domain": "cnbc.com"
-    }
-   ],
-   "effect": "Sun'iy intellekt video modellarining rivojlanishi va qat'iy xavfsizlik cheklovlari ijodkorlar uchun mualliflik huquqini himoya qilishni kuchaytirishi, shuningdek, chip ishlab chiqaruvchilarning strategiyasini o‘zgartirishi mumkin.",
-   "image": "https://www.marktechpost.com/wp-content/uploads/2026/11/WP-BLOG-BANNER-19999-4-scaled.png",
-   "domains": [
-    "marktechpost.com",
-    "cnbc.com",
-    "techcrunch.com"
-   ],
-   "urls": [
-    "https://www.marktechpost.com/2026/11/13/best-ai-video-generation-models-2026/",
-    "https://www.cnbc.com/2026/04/18/nvidia-ai-backlash-gamers-geforce-gpu.html",
-    "https://techcrunch.com/2026/03/26/bytedances-new-ai-video-generation-model-dreamina-seedance-2-0-comes-to-capcut/"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794596763.077386,
-   "title": "Qisqa dramalar va musiqiy videolar uchun AI drama generatorlari",
-   "text": "Sun'iy intellekt yordamida yaratilgan qisqa dramalar alohida kliplardan takrorlanuvchi qahramonlar va saundtreklarga ega to'liq epizodlarga aylandi.",
-   "orig_title": "Best AI Drama Generator Tools in 2026: Ranked for Short Dramas, Anime Episodes and Music Videos",
-   "link": "https://www.analyticsinsight.net/artificial-intelligence/best-ai-drama-generator-tools-in-2026-ranked-for-short-dramas-anime-episodes-and-music-videos",
-   "source": "analyticsinsight.net",
-   "soha": "AI video",
-   "baho": 8,
-   "experts": [
-    {
-     "kim": "Ken Bronfin",
-     "lavozim": "Hearst Ventures boshqaruvchi direktori",
-     "fikr": "Xitoyliklar kontentni qismlarga bo‘lish, tomoshabinni qiziqtirish va keyingi qismga o‘tkazish formulasini topib ulgurdi.",
-     "url": "https://finance.yahoo.com/media-advertising/articles/microdramas-bring-flood-ai-romance-165253116.html",
-     "domain": "finance.yahoo.com"
-    }
-   ],
-   "effect": "Mikrodramalar bozorining keskin o‘sishi media industriyasida raqobatni kuchaytirishi va an'anaviy kontent yaratuvchilar uchun jiddiy chaqiruvga aylanishi ehtimoli bor.",
-   "image": "https://media.assettype.com/analyticsinsight%2F2026-11-11%2F5k5n7nsi%2FBest-AI-Drama-Generator-Tools-in-2026-Ranked-for-Short-Dramas-Anime-Episodes-and-Music-Videos?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
-   "domains": [
-    "analyticsinsight.net",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://www.analyticsinsight.net/artificial-intelligence/best-ai-drama-generator-tools-in-2026-ranked-for-short-dramas-anime-episodes-and-music-videos",
-    "https://finance.yahoo.com/media-advertising/articles/microdramas-bring-flood-ai-romance-165253116.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794596763.077386,
-   "title": "Banklar AQSh eksport nazorati tufayli xitoylik investorlarni Anthropic IPO'sidan chetlatdi",
-   "text": "Anthropic kompaniyasining aksiyalarini ommaviy joylashtirish jarayonida Xitoy va Gonkong investorlarining xarid buyurtmalari ITAR qoidalariga ko'ra rad etildi.",
-   "orig_title": "Banks bar Chinese and Hong Kong investors from Anthropic IPO over US export controls",
-   "link": "https://the-decoder.com/banks-bar-chinese-and-hong-kong-investors-from-anthropic-ipo-over-us-export-controls/",
-   "source": "The Decoder",
-   "soha": "AI",
-   "baho": 7,
-   "experts": [],
-   "effect": "Qoidalar va geosiyosiy ziddiyatlar sababli ayrim hududlardagi investorlarning yirik IPO bitimlaridan chetlatilishi global moliya bozorlarida yangi cheklovlarni keltirib chiqarishi mumkin.",
-   "image": "https://the-decoder.com/wp-content/uploads/2026/08/anthropic_claude.png",
-   "domains": [
-    "the-decoder.com",
-    "finance.yahoo.com",
-    "malaysia.news.yahoo.com"
-   ],
-   "urls": [
-    "https://the-decoder.com/banks-bar-chinese-and-hong-kong-investors-from-anthropic-ipo-over-us-export-controls/",
-    "https://finance.yahoo.com/markets/stocks/articles/anthropic-ipo-reportedly-closed-china-174510000.html",
-    "https://malaysia.news.yahoo.com/fallen-star-nvidia-ceo-scandal-140000063.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794596763.077386,
-   "title": "AQSh davlat idoralarining qariyb 70 foizi generativ sun'iy intellektdan foydalanmoqda",
-   "text": "Kasaba uyushmalari xodimlarni avtomatlashtirilgan bo'shatish va sun'iy intellekt orqali kuzatishga qarshi himoya choralarini kuchaytirmoqda.",
-   "orig_title": "Nearly 70 percent of US agencies use generative AI, and unions are finally catching up with guardrails",
-   "link": "https://the-decoder.com/nearly-70-percent-of-us-agencies-use-generative-ai-and-unions-are-finally-catching-up-with-guardrails/",
-   "source": "The Decoder",
-   "soha": "AI",
-   "baho": 6,
-   "experts": [
-    {
-     "kim": "Kung Feng",
-     "lavozim": "Mehnat bo‘yicha tadqiqotchi",
-     "fikr": "Ish beruvchilar xarajatlarni qisqartirish uchun avtomatlashtirish jarayonini jadallashtirmoqda.",
-     "url": "https://the-decoder.com/nearly-70-percent-of-us-agencies-use-generative-ai-and-unions-are-finally-catching-up-with-guardrails/",
-     "domain": "the-decoder.com"
-    }
-   ],
-   "effect": "Davlat idoralari va tashkilotlarda sun'iy intellektning ommalashuvi kasaba uyushmalari tomonidan ish o'rinlarini himoya qilish bo'yicha qo'shimcha qoidalar va cheklovlarning joriy etilishiga olib kelishi mumkin.",
-   "image": "https://the-decoder.com/wp-content/uploads/2026/11/workers_fighting_ai.png",
-   "domains": [
-    "the-decoder.com",
-    "forbes.com"
-   ],
-   "urls": [
-    "https://the-decoder.com/nearly-70-percent-of-us-agencies-use-generative-ai-and-unions-are-finally-catching-up-with-guardrails/",
-    "https://www.forbes.com/councils/forbestechcouncil/2026/09/08/generative-ai-is-just-the-latest-chapter-80-years-of-programming-automation/",
-    "https://www.forbes.com/councils/forbestechcouncil/2026/04/16/ai-guardrails-the-new-frontier-for-enterprise-risk/"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794625332.36186,
-   "title": "AI agent startapi LangChain 3 milliard dollarlik bahoga erishdi",
-   "text": "LangChain o'zining model va platformadan mustaqil agent boshqaruv vositasi LangSmith uchun 7,000 mijozga ega ekanligini ma'lum qildi.",
-   "orig_title": "AI agent startup LangChain hits $3B valuation",
-   "link": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
-   "source": "TechCrunch AI",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Sun'iy intellekt agentlari bozori va xizmatlariga bo'lgan yuqori talab tufayli, ushbu sektordagi startaplar yuqori baholanish va yirik investitsiyalarni jalb qilishda davom etishi mumkin. Biroq, infratuzilmani sotib olish yoki ijaraga olishning qimmatligi sababli, bunday kompaniyalarning yalpi foyda marjasi past darajada qolishi ehtimoli bor.",
-   "image": "https://techcrunch.com/wp-content/uploads/2026/11/Raising-money.jpg?resize=1200,829",
-   "domains": [
-    "techcrunch.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
-    "https://finance.yahoo.com/technology/ai/articles/langchain-raises-300m-enable-every-155300515.html",
-    "https://finance.yahoo.com/technology/ai/articles/ai-inference-startup-fal-doubles-193443073.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794625332.36186,
-   "title": "Jensen Huangning ketishi AI startaplarini moliyalashtirishga ta'sir qilmoqda",
-   "text": "Nvidia rahbariyatidagi o'zgarishlardan so'ng venchur investorlar va startap asoschilari kichikroq cheklar va pastroq baholarga tayyorgarlik ko'rmoqda.",
-   "orig_title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
-   "link": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
-   "source": "TechCrunch AI",
-   "soha": "AI",
-   "baho": 9,
-   "experts": [],
-   "effect": "Nvidia rahbariyatining o'zgarishi va investitsiya siyosatining konservativlashuvi sun'iy intellekt startaplarini moliyalashtirishda jiddiy bo'shliqni keltirib chiqarishi mumkin. Shunga qaramay, muqobil chiplar va texnologiyalarning rivojlanishi bozorga bu o'zgarishlarni yengib o'tish imkonini berishi ehtimoli bor.",
-   "image": "https://techcrunch.com/wp-content/uploads/2026/11/Jensen-Huang-nvidia.jpg?w=1024",
-   "domains": [
-    "techcrunch.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
-    "https://finance.yahoo.com/technology/ai/articles/ai-boom-survive-without-jensen-094506182.html",
-    "https://finance.yahoo.com/technology/articles/colette-kress-named-nvidia-interim-215013823.html"
-   ],
-   "videos": []
-  },
   {
    "t": 1794628851.2830174,
    "title": "Xitoyning eng ilg'or AI modellari taqiqlangan Nvidia chiplarida o'qitildi",
@@ -1912,6 +1775,163 @@
     [
      "https://www.youtube.com/watch?v=tKEEda_OHj0",
      "YouTube"
+    ]
+   ]
+  },
+  {
+   "t": 1794798318.1396794,
+   "title": "Adobe Firefly'ni AI agentlar va video vositalariga ega studiyaga aylantirmoqda",
+   "text": "Adobe o‘zining Firefly platformasini AI agentlar, turli AI modellari integratsiyasi hamda video montaj imkoniyatlarini o‘z ichiga olgan ijodiy studiyaga aylantirayotganini e’lon qildi.",
+   "orig_title": "Adobe Wants Firefly To Become The Home Of AI-Powered Creativity",
+   "link": "https://wersm.com/adobe-firefly-ai-creative-studio-agents/",
+   "source": "wersm.com",
+   "soha": "AI video",
+   "baho": 9,
+   "experts": [],
+   "effect": "Firefly ko‘p modelli platformaga aylanishi ijodiy jarayonlarni soddalashtirib, Adobe ekotizimini yanada mustahkamlashi va yakka sun’iy intellekt modeli ishlab chiquvchilari orasidagi raqobatni kuchaytirishi mumkin.",
+   "image": "https://wersm.com/wp-content/uploads/2026/11/nouveautes-adobe-firefly-studio-ia-1-768x432.jpg.webp",
+   "domains": [
+    "wersm.com",
+    "markets.ft.com"
+   ],
+   "urls": [
+    "https://wersm.com/adobe-firefly-ai-creative-studio-agents/",
+    "https://markets.ft.com/data/announce/detail?dockey=600-202611100901BIZWIRE_USPRX____20261110_BW476316-1"
+   ],
+   "videos": [
+    [
+     "https://vimeo.com/1245595091",
+     "Vimeo"
+    ],
+    [
+     "https://vimeo.com/1245595089",
+     "Vimeo"
+    ]
+   ]
+  },
+  {
+   "t": 1794798318.1396794,
+   "title": "OpenAI GPT-6 Astra fizika bo‘yicha nazariy isbot yaratishga yordam berganini bildirdi",
+   "text": "OpenAI tadqiqotchilari Standart modelni panjarada aniqlash bo‘yicha nazariy g‘oyani batafsil matematik isbotga aylantirishda GPT-6 Astra modelidan foydalandi.",
+   "orig_title": "A step toward defining the Standard Model on a lattice",
+   "link": "https://openai.com/index/step-toward-defining-the-standard-model",
+   "source": "OpenAI",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Gumanoid robotlar tannarxining keskin pasayishi va yangi modellar robototexnika sohasida tijoriy joriy etishni tezlashtirishi hamda ishlab chiqarish sohalarida avtomatlashtirishni kuchaytirishi mumkin.",
+   "image": null,
+   "domains": [
+    "tech.yahoo.com"
+   ],
+   "urls": [
+    "https://tech.yahoo.com/ai/meta-ai/articles/figure-ceo-brett-adcock-every-233942226.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794798318.1396794,
+   "title": "AQSh Kongressi janjallar ortidan AI chiplari eksporti qoidalarini kuchaytirmoqda",
+   "text": "Nvidia atrofidagi mojaro ortidan AQSh Kongressining har ikki partiyasi AI chiplari eksportini yanada qattiqroq cheklash bo‘yicha qonun loyihalarini ilgari surmoqda.",
+   "orig_title": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
+   "source": "The Verge AI",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Eksport nazorati va qonunlarning kuchaytirilishi AQSh chip ishlab chiqaruvchilarining daromadlariga zarba berib, Xitoyning mustaqil yarimo‘tkazgich texnologiyalarini rivojlantirishini tezlashtirishi mumkin.",
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25545717/STK481_STK432_CONGRESS_GOVERNMENT_CIVRGINIA_D.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+   "domains": [
+    "theverge.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
+    "https://finance.yahoo.com/news/nvidia-spy-allegations-likely-spur-215426258.html"
+   ],
+   "videos": [
+    [
+     "https://x.com/elonmusk/status/2121345211959804234",
+     "X"
+    ]
+   ]
+  },
+  {
+   "t": 1794798318.1396794,
+   "title": "Apple tibbiy AI vositalari samaradorligini o‘rganish uchun yangi tadqiqot boshladi",
+   "text": "Apple kompaniyasi OpenEvidence platformasi bilan hamkorlikda foydalanuvchilarning tibbiy AI vositalari bilan qanday muloqot qilishini o‘rganish maqsadida maxsus ilova va tadqiqotni yo‘lga qo‘ydi.",
+   "orig_title": "Apple’s new study looks to improve the effectiveness of AI health tools",
+   "link": "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools",
+   "source": "The Verge AI",
+   "soha": "AI",
+   "baho": 6,
+   "experts": [],
+   "effect": "Klinik AI vositalarining takomillashtirilishi sog‘liqni saqlash ilovalarida tibbiy maslahatlar aniqligini oshirib, raqamli tibbiyot xizmatlari va diagnostikaga bo‘lgan ishonchni mustahkamlashi mumkin.",
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/applestudy1b.jpg?quality=90&strip=all&crop=0%2C10.740836125969%2C100%2C78.518327748063&w=1200",
+   "domains": [
+    "theverge.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools",
+    "https://finance.yahoo.com/healthcare/articles/doximity-outranks-openevidence-frontier-models-182600985.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794798318.1396794,
+   "title": "Hindistonning Bharat Semi startapi AI sensorlari uchun 24 million dollar jalb qildi",
+   "text": "AI asosidagi sensor texnologiyalarini ishlab chiquvchi Bharat Semi seed bosqichida 24 million dollar investitsiya oldi va General Atomics kabi kompaniyalar bilan shartnoma imzoladi.",
+   "orig_title": "Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market",
+   "link": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 6,
+   "experts": [],
+   "effect": "Bitta chipda tasvir va AIni birlashtirish sensorlar tannarxini 70% gacha pasaytirib, Hindistonning yarimo‘tkazgichlar bozoridagi mavqeini oshirishi hamda ta’minot zanjirlarini diversifikatsiya qilishi mumkin.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/bharat-semi-co-founders-vinayak-dalmia-vrinda-kapoor.jpg?resize=1200,800",
+   "domains": [
+    "techcrunch.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
+    "https://finance.yahoo.com/technology/ai/articles/indian-chip-startup-bharat-semi-233000829.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794798318.1396794,
+   "title": "Jensen Huang Nvidia'ga qaytish yo‘llarini izlayotgani haqida xabarlar tarqaldi",
+   "text": "Nvidia sobiq rahbari Jensen Huang atrofidagi mojaro davom etar ekan, uning kompaniyaga qayta rahbarlik qilish yo‘llarini rejalashtirayotgani to‘g‘risida ma’lumotlar paydo bo‘ldi.",
+   "orig_title": "Jensen Huang might be plotting a return and more of the latest Nvidia drama",
+   "link": "https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed",
+   "source": "The Verge AI",
+   "soha": "AI",
+   "baho": 6,
+   "experts": [
+    {
+     "kim": "Elon Musk",
+     "lavozim": "Bosh direktor va tadbirkor",
+     "fikr": "Jensen Nvidia ta’minot zanjirini a’lo darajada boshqargan, uning ishtirokisiz ko‘plab muhim og‘zaki kelishuvlar boy berilishi mumkin.",
+     "url": "https://finance.yahoo.com/technology/articles/breaking-jensen-huang-reportedly-plotting-203249972.html",
+     "domain": "finance.yahoo.com"
+    }
+   ],
+   "effect": "Nvidia atrofidagi boshqaruv inqirozi va Huangning qaytish ehtimoli kompaniya aksiyalari beqarorligini keltirib chiqarishi hamda sheriklar bilan ta’minot zanjirlariga salbiy ta’sir ko‘rsatishi mumkin.",
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Nvidia_Jensen_huang_03.jpg?quality=90&strip=all&crop=0%2C12.339110464558%2C100%2C75.321779070884&w=1200",
+   "domains": [
+    "theverge.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed",
+    "https://finance.yahoo.com/technology/articles/breaking-jensen-huang-reportedly-plotting-203249972.html"
+   ],
+   "videos": [
+    [
+     "https://x.com/elonmusk/status/2121345211959804234",
+     "X"
     ]
    ]
   }
