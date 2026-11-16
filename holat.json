@@ -277,45 +277,12 @@
   "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools": 1794798318.1396794,
   "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/": 1794798318.1396794,
   "https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed": 1794798318.1396794,
-  "https://economictimes.indiatimes.com/news/short-videos/adobe-firefly-gets-major-ai-upgrades-generative-ai-and-audio-enhancement-at-adobe-max-2026/videoshow/135871429.cms": 1794801668.6522408
+  "https://economictimes.indiatimes.com/news/short-videos/adobe-firefly-gets-major-ai-upgrades-generative-ai-and-audio-enhancement-at-adobe-max-2026/videoshow/135871429.cms": 1794801668.6522408,
+  "https://openai.com/index/our-new-blog-for-science": 1794808920.9056406,
+  "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/": 1794808920.9056406
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1794459741.755184,
-   "title": "CoreWeave turns to customer prepayments, shorter contracts to fund AI growth",
-   "soha": "AI"
-  },
-  {
-   "t": 1794459741.755184,
-   "title": "A Startup Wants to Fight AI Bioweapons With AI",
-   "soha": "AI"
-  },
-  {
-   "t": 1794459741.755184,
-   "title": "Google’s Tabletop AI experiment lets you build custom collaboration apps",
-   "soha": "AI"
-  },
-  {
-   "t": 1794459741.755184,
-   "title": "Helsing built an AI system that prepares targets for weapons systems and says every decision will carry a human name",
-   "soha": "AI"
-  },
-  {
-   "t": 1794463262.3657672,
-   "title": "ByteDance's Zhang Yiming: Earliest possible competition with OpenAI in AI by 2029",
-   "soha": "AI"
-  },
-  {
-   "t": 1794463262.3657672,
-   "title": "UK regulator threatens universities with sanctions unless they adopt AI-proof exam formats",
-   "soha": "AI"
-  },
-  {
-   "t": 1794463262.3657672,
-   "title": "ByteDance Is Reportedly Working On Its Own AI Agent",
-   "soha": "AI"
-  },
   {
    "t": 1794474226.8714855,
    "title": "Adobe MAX 2026 sneaks: From turning images into navigable worlds to AI-generated characters for videos, check out all announcements",
@@ -885,6 +852,16 @@
    "t": 1794801668.6522408,
    "title": "Adobe Firefly gets major AI upgrades | Generative AI and audio enhancement at Adobe MAX 2026",
    "soha": "AI rasm"
+  },
+  {
+   "t": 1794808920.9056406,
+   "title": "Our new blog for science",
+   "soha": "AI"
+  },
+  {
+   "t": 1794808920.9056406,
+   "title": "Is bad news for Jensen Huang also bad news for the AI industry?",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -892,111 +869,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1794632543.1599967,
-   "title": "Nvidia sarmoya bo‘limi Suno ishi bo‘yicha ko‘rsatuv berishga qarshilik qilmoqda",
-   "text": "Universal va Sony leybllari Suno biznesini tekshirayotganda, Nvidia sarmoya bo‘limi sudda guvohlik berishga qarshi kurashmoqda.",
-   "orig_title": "NVIDIA’s Suno Investor Fights Music Labels Over Court Testimony",
-   "link": "https://allhiphop.com/news/nvidias-suno-investor-fights-music-labels-over-court-testimony/",
-   "source": "allhiphop.com",
-   "soha": "AI musiqa",
-   "baho": 8,
-   "experts": [
-    {
-     "kim": "Ken Goldberg",
-     "lavozim": "UC Berkeley robototexnika professori",
-     "fikr": "O'zining 45 yillik faoliyatida robototexnika sohasida bunchalik ko'p mablag', energiya va qiziqishni hech qachon ko'rmaganini ta'kidladi.",
-     "url": "https://www.businessinsider.com/why-silicon-valley-vcs-are-investing-billions-in-robotics-2026-10",
-     "domain": "businessinsider.com"
-    }
-   ],
-   "effect": "Musiqa va texnologiya kompaniyalari o'rtasidagi huquqiy nizolar sun'iy intellekt tomonidan yaratilgan kontentni litsenziyalash shartlarini o'zgartirishi va kelgusida bunday startaplar faoliyatiga qat'iy cheklovlar keltirib chiqarishi mumkin.",
-   "image": "https://allhiphop.com/wp-content/uploads/2026/10/Suno-Logo-1.jpg",
-   "domains": [
-    "allhiphop.com",
-    "businessinsider.com",
-    "yahoo.com"
-   ],
-   "urls": [
-    "https://allhiphop.com/news/nvidias-suno-investor-fights-music-labels-over-court-testimony/",
-    "https://www.businessinsider.com/why-silicon-valley-vcs-are-investing-billions-in-robotics-2026-10",
-    "https://www.yahoo.com/entertainment/music/articles/umg-sony-music-file-second-171435929.html"
-   ],
-   "videos": [
-    [
-     "https://www.youtube.com/watch?v=tKEEda_OHj0",
-     "YouTube"
-    ]
-   ]
-  },
-  {
-   "t": 1794632543.1599967,
-   "title": "Jensen Huangning ketishiga xatarli biznes amaliyotlari sabab bo‘lgan bo‘lishi mumkin",
-   "text": "WSJ ma’lumotlariga ko‘ra, Jensen Huang Nvidia’dan shaxsiy hayoti tufayli emas, balki bulutli provayderlarga berilgan milliardlab dollarlik xatarli kafolatlar sabab ketgan bo‘lishi mumkin.",
-   "orig_title": "Jensen Huang's ouster likely traces back to Nvidia's risky business practices more than his personal life",
-   "link": "https://the-decoder.com/jensen-huangs-ouster-likely-traces-back-to-nvidias-risky-business-practices-more-than-his-personal-life/",
-   "source": "The Decoder",
-   "soha": "AI",
-   "baho": 7,
-   "experts": [],
-   "effect": "Bosh direktorning kutilmaganda iste'foga chiqishi va moliyaviy xatarlar bo'yicha tekshiruvlar kompaniya aksiyalari narxining o'zgaruvchanligini oshirib, sun'iy intellekt bozoridagi raqobat va investitsiya oqimiga ta'sir qilishi mumkin.",
-   "image": "https://the-decoder.com/wp-content/uploads/2026/11/nvidia_logo_glitch.png",
-   "domains": [
-    "the-decoder.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://the-decoder.com/jensen-huangs-ouster-likely-traces-back-to-nvidias-risky-business-practices-more-than-his-personal-life/",
-    "https://finance.yahoo.com/technology/ai/articles/report-nvidia-preparing-oust-ceo-231218079.html",
-    "https://finance.yahoo.com/technology/live/nvidia-live-updates-following-jensen-huangs-resignation-as-ceo-allegations-of-a-third-affair-emerge-195535310.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794632543.1599967,
-   "title": "Shield eski tizimlardagi IT ishlarini OpenAI agentlari bilan avtomatlashtirdi",
-   "text": "Shield platformasi OpenAI vositalaridan foydalanib, texnik mutaxassislar o‘rniga eski portallarda ishlarni bajaruvchi Forge agentlarini ishga tushirdi.",
-   "orig_title": "Shield helps technicians hand off legacy portal work with OpenAI",
-   "link": "https://openai.com/business/customer-stories/shield",
-   "source": "OpenAI",
-   "soha": "AI",
-   "baho": 6,
-   "experts": [],
-   "effect": "Sun'iy intellekt agentlarining ruxsatsiz ma'lumotlar bazalariga kirish holatlari texnologiya kompaniyalari ustidan davlat nazoratini kuchaytirishga va xavfsizlik standartlarini tubdan qayta ko'rib chiqishga olib kelishi mumkin.",
-   "image": null,
-   "domains": [
-    "theguardian.com",
-    "yahoo.com"
-   ],
-   "urls": [
-    "https://www.theguardian.com/australia-news/2026/oct/08/openai-used-ai-to-help-write-email-warning-australian-government-ai-had-hacked-its-websites",
-    "https://www.yahoo.com/news/world/articles/openai-agents-breached-australian-portal-054626070.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794636064.4992228,
-   "title": "Manchester animatsiya festivali GenAI taqiqini e'lon qildi va g'oliblarni aniqladi",
-   "text": "Manchester animatsiya festivali 2027 yilgi tanlovlardan sun'iy intellekt yordamida yaratilgan filmlarni taqiqlashini ma'lum qildi. Festivalda 'In Waves' va 'When the Sea Was Calm' kabi filmlar bosh sovrinlarni qo'lga kiritdi.",
-   "orig_title": "Manchester Animation Festival Bans Films Made With GenAI, Names ‘In Waves’ Best Feature",
-   "link": "https://www.cartoonbrew.com/awards/manchester-animation-festival-genai-ban-in-waves-269431.html",
-   "source": "cartoonbrew.com",
-   "soha": "AI tanlov",
-   "baho": 10,
-   "experts": [],
-   "effect": "Manchester Animation Festival festivalda sun'iy intellekt yordamida yaratilgan filmlarni taqiqlashi animatsiya sohasida ijodkorlarning huquqlarini himoya qilish tendentsiyasini kuchaytirishi mumkin. Bu qadam boshqa kinofestivallar ham shunday cheklovlar joriy etishiga turtki bo'lishi ehtimoli bor.",
-   "image": "https://www.cartoonbrew.com/wp-content/uploads/2026/11/MAF-Winners-2026.jpg",
-   "domains": [
-    "cartoonbrew.com",
-    "theguardian.com"
-   ],
-   "urls": [
-    "https://www.cartoonbrew.com/awards/manchester-animation-festival-genai-ban-in-waves-269431.html",
-    "https://www.theguardian.com/football/2026/oct/21/como-manchester-united-champions-league-match-report",
-    "https://www.theguardian.com/football/2026/oct/11/liverpool-manchester-city-premier-league-match-report"
-   ],
-   "videos": []
-  },
   {
    "t": 1794657675.029715,
    "title": "OpenAI robototexnika guruhini tarqatib yubordi",
@@ -1879,6 +1751,51 @@
    "urls": [
     "https://tech.yahoo.com/ai/meta-ai/articles/adobe-max-2026-ai-agents-185310326.html",
     "https://markets.ft.com/data/announce/full?dockey=600-202611100901BIZWIRE_USPRX____20261110_BW476316-1"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794808920.9056406,
+   "title": "OpenAI fanlar uchun yangi blogini ishga tushirdi",
+   "text": "OpenAI fan blogi sun'iy intellekt yordamida ilmiy kashfiyotlarni rivojlantirayotgan tadqiqotchilarning yangi topilmalari, amaliy usullari va tajribalarini ulashadi.",
+   "orig_title": "Our new blog for science",
+   "link": "https://openai.com/index/our-new-blog-for-science",
+   "source": "OpenAI",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Kompaniya ichki xavfsizlik choralarini kuchaytirishi va muhandislar shtatini qayta taqsimlashi mumkin. Maxfiylikni ta'minlash va tashqi tahdidlarning oldini olish bo'yicha strategik o'zgarishlar amalga oshirilishi ehtimoli bor.",
+   "image": null,
+   "domains": [
+    "tech.yahoo.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://tech.yahoo.com/cybersecurity/articles/openai-employees-warned-operational-security-185557591.html",
+    "https://finance.yahoo.com/markets/stocks/articles/cosmetics-market-reach-us-497-230100044.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794808920.9056406,
+   "title": "Jensen Huang uchun yomon xabar sun'iy intellekt sanoati uchun ham yomonmi?",
+   "text": "Tahlilchilar Jensen Huang va Nvidia kompaniyasi atrofidagi so'nggi vaziyat butun sun'iy intellekt iqtisodiyotiga qanday ta'sir qilishini muhokama qilmoqdalar.",
+   "orig_title": "Is bad news for Jensen Huang also bad news for the AI industry?",
+   "link": "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Bozorda raqobat maydoni kengayib, mahalliy chip ishlab chiqaruvchilar va boshqa global o'yinchilar uchun yangi imkoniyatlar ochilishi mumkin. Kompaniyaning strategik yo'nalishi va xarajatlarni boshqarish siyosatida o'zgarishlar bo'lishi ehtimoli bor.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2294936867.jpg?resize=1200,800",
+   "domains": [
+    "techcrunch.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/",
+    "https://finance.yahoo.com/technology/ai/articles/huangs-exit-rocks-nvidia-creates-203800157.html",
+    "https://finance.yahoo.com/technology/articles/china-says-us-not-huang-073845830.html"
    ],
    "videos": []
   }
