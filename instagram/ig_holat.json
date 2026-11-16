@@ -34,7 +34,14 @@
   "https://www.northjersey.com/press-release/story/267501/a-mothers-escape-from-the-paradise-fire-inspires-santa-fe-ai-hackathon/",
   "https://the-decoder.com/alibabas-qwen4-max-takes-on-opus-5-5-gpt-6-and-kimi-k3-1-pro-at-much-lower-prices/",
   "https://the-decoder.com/claude-now-builds-interactive-websites-inside-canvas-graphics-reviving-the-flash-era-with-real-html/",
-  "https://the-decoder.com/anthropic-says-the-key-to-agent-memory-is-knowing-what-to-forget-not-how-much-to-store/"
+  "https://the-decoder.com/anthropic-says-the-key-to-agent-memory-is-knowing-what-to-forget-not-how-much-to-store/",
+  "https://www.ewtnnews.com/vatican/from-the-virtual-to-the-sacramental-hackathon-in-rome-reimagines-parish-life-in-age-of-ai",
+  "https://www.jsonline.com/press-release/story/269708/flova-introduces-ai-animation-generator-that-turns-text-or-images-into-animated-video/",
+  "https://the-decoder.com/moonshot-ai-pivots-kimi-models-from-coding-to-science-as-benchmark-gains-flatten/",
+  "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/",
+  "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/",
+  "https://www.msn.com/en-us/entertainment/music/universal-music-v-suno-ii-intensifies-amid-discovery-sub-dispute/ar-AA2hz9A1",
+  "https://openai.com/index/the-kings-trust-and-openai"
  ],
  "faktlar": {
   "Alan Turing": [
@@ -77,7 +84,6 @@
  ],
  "har_start": 1794738657.9279323,
  "har_vaqt": [
-  1794771075.4723842,
   1794799878.6347353,
   1794799882.6865442,
   1794799887.5336123,
@@ -95,17 +101,37 @@
   1794850330.7307754,
   1794850355.3752713,
   1794850375.8904936,
-  1794850397.8731914
+  1794850397.8731914,
+  1794857524.8707938,
+  1794857539.3957233,
+  1794857559.0103028,
+  1794857578.0028045,
+  1794857598.424282,
+  1794857616.2000425,
+  1794857630.507242
  ],
  "reel_vaqt": [],
  "rasmlar": [
-  "0010feff7f109899",
+  "c8dc98d0048dfd9c",
+  "43131343c3e3c7c6",
+  "e7c3dffff7f30000",
+  "fffc30000060f3ff",
   "fcf8e0fefe800000",
+  "e7db99c1c3c38701",
+  "ffff3f3828000000",
+  "fefcfdf919000321",
+  "005cffff722e1607",
+  "fcfefefbfb600000",
+  "3f3f3fff19180800",
   "dffeede9e3c7c7c7",
+  "f8f8f8787a7e0400",
+  "00011918181a0400",
+  "0000021fffff4f7f",
   "ffdfdfac14000602",
   "e0e0f0e0e3c3e3b7",
-  "001999bbfd998800",
   "e090d87858784000",
-  "fcfefefbfb600000"
+  "001999bbfd998800",
+  "0010feff7f109899",
+  "fffff3d890181000"
  ]
 }
