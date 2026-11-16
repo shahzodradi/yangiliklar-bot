@@ -1,12 +1,5 @@
 {
  "seen": {
-  "https://www.msn.com/fr-fr/actualite/other/les-gagnants-de-ce-concours-de-court-m%C3%A9trage-nous-ont-fait-changer-d-avis-sur-l-ia-en-vid%C3%A9o-et-ils-sont-repartis-avec-1-million-de-dollars/ar-AA2gKknt": 1793987659.9956834,
-  "https://www.aol.com/articles/iqiyi-revives-90-old-lost-095500000.html": 1793987659.9956834,
-  "https://www.screendaily.com/news/bruno-dumont-turns-to-generative-ai-to-film-english-language-sci-fi-thriller-the-end/5222133.article": 1793987659.9956834,
-  "https://www.heise.de/en/news/Google-upgrades-AI-video-generator-Gemini-Omni-to-version-1-2-Flash-11515123.html": 1793987659.9956834,
-  "https://www.musicweek.com/digital/read/soundcloud-integrates-with-elevenlabs-ai-music-generation-platform/095415": 1793987659.9956834,
-  "https://www.analyticsinsight.net/news/chatgpt-gets-gif-generation-with-openai-images-26-update": 1793987659.9956834,
-  "https://the-decoder.com/thinking-machines-inkling-2-small-claims-top-spot-among-western-open-weight-models/": 1793987659.9956834,
   "https://finance.yahoo.com/technology/ai/articles/2026-ai-innovation-awards-program-190000844.html": 1794008270.548085,
   "https://www.msn.com/en-us/news/other/ddex-announces-elevenlabs-first-ai-company-to-join/ar-AA2gU9mA": 1794008270.548085,
   "https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/": 1794008270.548085,
@@ -286,38 +279,8 @@
   "https://the-decoder.com/claude-now-builds-interactive-websites-inside-canvas-graphics-reviving-the-flash-era-with-real-html/": 1794848685.9660392,
   "https://the-decoder.com/anthropic-says-the-key-to-agent-memory-is-knowing-what-to-forget-not-how-much-to-store/": 1794848685.9660392
  },
- "fails": 0,
+ "fails": 1,
  "sent": [
-  {
-   "t": 1794506557.1584666,
-   "title": "InMobi and Uttar Pradesh Government Launch AI Kaushal Hackathon 2026 to Accelerate Real-World AI Innovation",
-   "soha": "AI tanlov"
-  },
-  {
-   "t": 1794506557.1584666,
-   "title": "From the virtual to the sacramental: Hackathon in Rome reimagines parish life in age of AI",
-   "soha": "AI tanlov"
-  },
-  {
-   "t": 1794506557.1584666,
-   "title": "Jensen Huang agrees to testify before Congress",
-   "soha": "AI"
-  },
-  {
-   "t": 1794506557.1584666,
-   "title": "Jensen Huang is out. What did China want from him?",
-   "soha": "AI"
-  },
-  {
-   "t": 1794506557.1584666,
-   "title": "Read Nvidia’s internal emails about the ‘extraordinarily difficult period’ amid CEO shakeup",
-   "soha": "AI"
-  },
-  {
-   "t": 1794506557.1584666,
-   "title": "Jensen Huang is out at Nvidia — who is Colette Kress, his interim replacement?",
-   "soha": "AI"
-  },
   {
    "t": 1794510497.417995,
    "title": "Viam to Host NYC Robotics Hackathon Exploring Physical AI on Intel-Based Edge AI Systems",
@@ -854,126 +817,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1794676080.9185567,
-   "title": "Runway Gen-4 sun'iy intellekt video industriyasini o'zgartirishi mumkin",
-   "text": "Runway Gen-4 sun'iy intellekt yordamida video yaratish imkoniyatlarini namoyish etdi va bu raqamli kinochilik kelajagini o'zgartirishi kutilmoqda.",
-   "orig_title": "Runway Gen-4 could change the AI video industry",
-   "link": "https://www.msn.com/en-us/technology/artificial-intelligence/runway-gen-4-could-change-the-ai-video-industry/vi-AA2hrqTD",
-   "source": "msn.com",
-   "soha": "AI video",
-   "baho": 9,
-   "experts": [],
-   "effect": "Jensen Huangning iste'foga chiqishi Nvidia aksiyalari pasayishiga va kompaniya kelajagiga nisbatan xavotirlar ortishiga olib kelishi mumkin. Shuningdek, bu voqea sun'iy intellekt bozorida raqobat va tartibga solish jarayonlariga o'z ta'sirini ko'rsatishi ehtimoli bor.",
-   "image": null,
-   "domains": [
-    "finance.yahoo.com",
-    "malaysia.news.yahoo.com"
-   ],
-   "urls": [
-    "https://finance.yahoo.com/technology/ai/articles/ai-video-generator-free-trial-151300153.html",
-    "https://malaysia.news.yahoo.com/fallen-star-nvidia-ceo-scandal-140000063.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794676080.9185567,
-   "title": "Gemini 4 Carbon MathArena reytingida birinchi o'rinni egalladi",
-   "text": "Google tomonidan taqdim etilgan Gemini 4 Carbon va Anthropic modeli MathArena benchmark testida peshqadamlikni qo'lga kiritdi, ammo ularning narxi yuqoriligicha qolmoqda.",
-   "orig_title": "Gemini 4 Carbon takes the MathArena crown but costs 15 times more than GPT-6.1 Sol",
-   "link": "https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol/",
-   "source": "The Decoder",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Gemini 4 Carbon modeli sun'iy intellekt bozorida raqobatni yanada kuchaytirishi va ilg'or vazifalar uchun foydalanuvchilar tanlovini o'zgartirishi mumkin. Biroq uning yuqori narxi ayrim korxonalar va dasturchilar uchun xarajatlarni oshirishi ehtimoli bor.",
-   "image": "https://the-decoder.com/wp-content/uploads/2026/11/gemini-4_carbon_logo.png",
-   "domains": [
-    "the-decoder.com",
-    "theverge.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol/",
-    "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout",
-    "https://finance.yahoo.com/technology/ai/articles/investors-view-launch-alphabets-gemini-130003634.html"
-   ],
-   "videos": [
-    [
-     "https://x.com/j_dekoninck/status/2121263753006374997",
-     "X"
-    ]
-   ]
-  },
-  {
-   "t": 1794679285.7973588,
-   "title": "Anthropic Claude Opus 5.5 modeli uchun yangi tavsiyalarni e'lon qildi",
-   "text": "Anthropic Claude Opus 5.5 modelini barcha pullik rejalarda standart qilib belgiladi va eskirgan prompt yozish odatlaridan voz kechish bo'yicha qo'llanma chiqardi.",
-   "orig_title": "Anthropic says outdated prompting habits are slowing down Claude Opus 5.5",
-   "link": "https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5/",
-   "source": "The Decoder",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Kompaniyaning yangi qoidalari va blokirovkalari kelgusida mashhur videoo'yinlarni sun'iy intellekt yordamida klonlash, qayta ishlash yoki takrorlash urinishlarini qiyinlashtirishi mumkin.",
-   "image": "https://the-decoder.com/wp-content/uploads/2026/11/anthropic_claude_logo.png",
-   "domains": [
-    "the-decoder.com",
-    "tech.yahoo.com"
-   ],
-   "urls": [
-    "https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5/",
-    "https://tech.yahoo.com/ai/claude/articles/claude-rejects-requests-ai-video-163918146.html",
-    "https://tech.yahoo.com/gaming/articles/cant-code-ai-let-fix-122044249.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794679285.7973588,
-   "title": "Canva Craft va ChatGPT sun'iy intellekt rasm generatorlari taqqoslandi",
-   "text": "Canva Craft va ChatGPT yangi bepul AI rasm generatorlari imkoniyatlari sinovdan o'tkazilib, ularning natijalari solishtirildi.",
-   "orig_title": "Canva Craft vs ChatGPT: I tested both free AI image generators with 5 prompts to see which is better",
-   "link": "https://www.msn.com/en-us/news/other/canva-craft-vs-chatgpt-i-tested-both-free-ai-image-generators-with-5-prompts-to-see-which-is-better/ar-AA2hqF6j",
-   "source": "msn.com",
-   "soha": "AI rasm",
-   "baho": 7,
-   "experts": [],
-   "effect": "Mazkur yangi vositaning bozorga chiqishi sun'iy intellekt yordamida tasvir yaratish yo'nalishidagi raqobatni yanada kuchaytirishi va foydalanuvchilarga dizayn jarayonida aniqroq natijalarga erishish imkonini berishi mumkin.",
-   "image": null,
-   "domains": [
-    "businessinsider.com",
-    "theverge.com"
-   ],
-   "urls": [
-    "https://www.businessinsider.com/canva-craft-new-ai-image-generation-tool-2026-10",
-    "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794679285.7973588,
-   "title": "Musiqa sanoatida sun'iy intellekt va mualliflik huquqi masalalari muhokama qilinmoqda",
-   "text": "Kongress sun'iy intellekt platformalari ijodkorlarning huquqlarini buzayotgani va striming daromadlarini kamaytirayotgani sababli choralar ko'rishi kerakligi ta'kidlandi.",
-   "orig_title": "Stolen (Not Super) Intelligence: Why Congress Must Stop Big AI From Ripping Off Creators (Guest Column)",
-   "link": "https://www.billboard.com/pro/congress-stop-big-ai-ripping-off-creators-jerrold-nadler/",
-   "source": "billboard.com",
-   "soha": "AI musiqa",
-   "baho": 7,
-   "experts": [],
-   "effect": "Striming platformalarida sun'iy intellekt yordamida yaratilgan musiqalarning markirovkasi joriy etilishi tinglovchilar uchun shaffoflikni oshirishi va mualliflik huquqlarini himoya qilish mexanizmlariga ta'sir ko'rsatishi mumkin.",
-   "image": "https://www.billboard.com/wp-content/uploads/2026/11/rep-jerrold-nadler-headshot-1800.jpg?w=1024",
-   "domains": [
-    "billboard.com",
-    "yahoo.com",
-    "techcrunch.com"
-   ],
-   "urls": [
-    "https://www.billboard.com/pro/congress-stop-big-ai-ripping-off-creators-jerrold-nadler/",
-    "https://www.yahoo.com/news/politics/articles/music-related-legislation-congress-now-205323467.html",
-    "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/"
-   ],
-   "videos": []
-  },
   {
    "t": 1794683332.8324964,
    "title": "Bolalar dahshatli tushlari haqidagi yangi AI qisqa metrajli filmi namoyish etildi",
