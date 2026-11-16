@@ -243,6 +243,7 @@ def send_videos(items, state, token, chat, dry):
 
 HAR_MAX_RUN = 25    # bir ishga tushishda (bot bir soatda bundan ko'p yubormaydi)
 HAR_MAX_DAY = 48    # sutkada: Instagram API'ning qat'iy limiti 50 post/24 soat
+REEL_MAX_DAY = 6    # sutkada nechta yangilik reel bo'lib ham chiqadi (eng kuchlisi, har ishga tushishda bittadan)
 HAR_WINDOW = 6 * 3600
 
 
@@ -273,6 +274,7 @@ def har():
     picks = {p["id"]: p for p in result.get("tanlov", []) if isinstance(p.get("id"), int) and 0 <= p["id"] < len(items)}
     IMG_DIR.mkdir(exist_ok=True)
     stamp = time.strftime("%Y-%m-%d_%H%M")
+    reel_cands = []
     for i, item in enumerate(items):
         state["links"] = (state["links"] + [item["link"]])[-300:]
         pick = picks.get(i) or {  # Gemini sarlavha bermasa ham yangilik tashlab ketilmaydi
@@ -292,11 +294,26 @@ def har():
             continue
         caption = build_caption(item, pick, credit)
         log.info("IG avto: %s", pick["sarlavha"])
+        if photo is not None:
+            reel_cands.append((item.get("baho", 0), i, item, pick, photo, caption))
         if dry:
             print(f"\n=== {png}\n{caption}\n")
             continue
         if ig.publish_post(token, chat, png, caption):
             posted.append(time.time())
+    # Eng kuchli yangilik reel ham bo'ladi (reel'lar obunachi bo'lmaganlarga ham tarqaladi), sutkada REEL_MAX_DAY gacha
+    reels = [t for t in state.get("reel_vaqt", []) if t > now - 86400]
+    if reel_cands and len(reels) < REEL_MAX_DAY and len(posted) < HAR_MAX_DAY:
+        _, i, item, pick, photo, caption = max(reel_cands, key=lambda c: c[0])
+        import reel
+        title = re.sub(r"\*", "", pick["sarlavha"]).strip()
+        narration = f"{title}. {item['text']} {pick['savol']} Izohda yozing."
+        mp4 = reel.make_reel(f"{stamp}_{i}_reel", photo, headline_html(pick["sarlavha"]), narration)
+        log.info("Reel: %s -> %s", title, mp4)
+        if mp4 and not dry and ig.publish_reel(token, chat, mp4, caption):
+            reels.append(time.time())
+            posted.append(time.time())
+    state["reel_vaqt"] = reels
     state["har_vaqt"] = posted
     if not dry:
         IG_STATE.write_text(json.dumps(state, ensure_ascii=False, indent=1), encoding="utf-8")

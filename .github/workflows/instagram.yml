@@ -35,7 +35,7 @@ jobs:
           cache: pip
       - run: pip install -r requirements.txt
       - name: Emoji shrifti
-        run: sudo apt-get install -y -qq fonts-noto-color-emoji >/dev/null
+        run: sudo apt-get update -qq >/dev/null && sudo apt-get install -y -qq fonts-noto-color-emoji ffmpeg >/dev/null
       - name: Post tayyorlash va yuborish
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -54,7 +54,9 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: postlar
-          path: instagram/chiqish/*.png
+          path: |
+            instagram/chiqish/*.png
+            instagram/chiqish/*.mp4
           if-no-files-found: ignore
           retention-days: 7
       - name: Holatni saqlash

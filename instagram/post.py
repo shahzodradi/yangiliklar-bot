@@ -118,6 +118,33 @@ def upload_for_instagram(png, caption, publish=False):
     return pid if res.get("ok") else None
 
 
+def publish_reel(token, chat, mp4, caption):
+    """Reel'ni Worker orqali Buffer API bilan darhol Instagram'ga joylaydi, botga video + natija. True = joylandi."""
+    import base64
+    pid = f"{mp4.stem}_{uuid.uuid4().hex[:6]}"
+    body = json.dumps({"id": pid, "mp4": base64.b64encode(mp4.read_bytes()).decode(), "caption": caption,
+                       "publish": True}).encode()
+    req = urllib.request.Request(f"{WORKER}/ig/upload", body, {"Content-Type": "application/json",
+                                 "X-Upload-Secret": upload_secret(), "User-Agent": "yangiliklar-bot"})
+    try:
+        res = json.load(urllib.request.urlopen(req, timeout=180))
+    except Exception as e:
+        res = {"error": str(e)}
+    ok = bool(res.get("published"))
+    status = "🎬 Reel Instagram'ga joylandi ✅" if ok else f"⚠️ Reel joylanmadi: {res.get('error', '?')}"
+    b = uuid.uuid4().hex
+    body = (f'--{b}\r\nContent-Disposition: form-data; name="chat_id"\r\n\r\n{chat}\r\n'
+            f'--{b}\r\nContent-Disposition: form-data; name="caption"\r\n\r\n{status[:1000]}\r\n').encode()
+    body += (f'--{b}\r\nContent-Disposition: form-data; name="video"; filename="{mp4.name}"\r\n'
+             f"Content-Type: video/mp4\r\n\r\n").encode() + mp4.read_bytes() + f"\r\n--{b}--\r\n".encode()
+    try:
+        urllib.request.urlopen(urllib.request.Request(f"https://api.telegram.org/bot{token}/sendVideo", body,
+                               {"Content-Type": f"multipart/form-data; boundary={b}"}), timeout=120)
+    except Exception as e:
+        print("Telegram'ga video yuborilmadi:", e)
+    return ok
+
+
 def publish_post(token, chat, png, caption):
     """Avtomatik rejim: Instagram'ga darhol joylaydi, botga rasm + natijani yuboradi. True = joylandi."""
     pid, res = upload_for_instagram(png, caption, publish=True)
