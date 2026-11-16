@@ -241,8 +241,8 @@ def send_videos(items, state, token, chat, dry):
 
 # ---------- Har bir yangilik -> Instagram (avtomatik, har soatda) ----------
 
-HAR_MAX_RUN = 8     # bir ishga tushishda ko'pi bilan
-HAR_MAX_DAY = 30    # sutkada ko'pi bilan (Instagram API limiti 50/24 soat)
+HAR_MAX_RUN = 25    # bir ishga tushishda (bot bir soatda bundan ko'p yubormaydi)
+HAR_MAX_DAY = 48    # sutkada: Instagram API'ning qat'iy limiti 50 post/24 soat
 HAR_WINDOW = 6 * 3600
 
 
@@ -274,19 +274,19 @@ def har():
     IMG_DIR.mkdir(exist_ok=True)
     stamp = time.strftime("%Y-%m-%d_%H%M")
     for i, item in enumerate(items):
-        pick = picks.get(i)
-        state["links"] = (state["links"] + [item["link"]])[-300:]  # rasm topilmasa ham qayta urinilmaydi
-        if not pick:
-            log.warning("Gemini sarlavha bermadi: %s", item["link"])
-            continue
+        state["links"] = (state["links"] + [item["link"]])[-300:]
+        pick = picks.get(i) or {  # Gemini sarlavha bermasa ham yangilik tashlab ketilmaydi
+            "sarlavha": item["title"], "emoji": "⚡", "savol": "Bu haqda nima deysiz?", "rasm": "",
+            "teglar": ["#AI", "#suniyintellekt", "#AIyangiliklar", "#texnologiya", "#AITezkor"]}
         pick.update({k: uz(pick.get(k, "")) for k in ("sarlavha", "savol")})
         img, credit = find_photo(item, pick.get("rasm", ""))
-        if not img:
-            log.warning("Sifatli rasm yo'q, Instagram'ga chiqmadi: %s", item["link"])
-            continue
-        data, ctype = img
-        photo = IMG_DIR / f"{stamp}_{i}_foto.{'png' if 'png' in ctype else 'jpg'}"
-        photo.write_bytes(data)
+        photo = None  # sifatli rasm topilmasa: logo kartasi (xira rasm qo'yilmaydi, yangilik ham tushib qolmaydi)
+        if img:
+            data, ctype = img
+            photo = IMG_DIR / f"{stamp}_{i}_foto.{'png' if 'png' in ctype else 'jpg'}"
+            photo.write_bytes(data)
+        else:
+            log.info("Sifatli rasm yo'q — logo kartasi bilan: %s", item["link"])
         png = ig.render(f"{stamp}_{i}", photo, headline_html(pick["sarlavha"]))
         if not png:
             continue
