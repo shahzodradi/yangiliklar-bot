@@ -277,9 +277,16 @@
   "https://www.northjersey.com/press-release/story/267501/a-mothers-escape-from-the-paradise-fire-inspires-santa-fe-ai-hackathon/": 1794848685.9660392,
   "https://the-decoder.com/alibabas-qwen4-max-takes-on-opus-5-5-gpt-6-and-kimi-k3-1-pro-at-much-lower-prices/": 1794848685.9660392,
   "https://the-decoder.com/claude-now-builds-interactive-websites-inside-canvas-graphics-reviving-the-flash-era-with-real-html/": 1794848685.9660392,
-  "https://the-decoder.com/anthropic-says-the-key-to-agent-memory-is-knowing-what-to-forget-not-how-much-to-store/": 1794848685.9660392
+  "https://the-decoder.com/anthropic-says-the-key-to-agent-memory-is-knowing-what-to-forget-not-how-much-to-store/": 1794848685.9660392,
+  "https://www.ewtnnews.com/vatican/from-the-virtual-to-the-sacramental-hackathon-in-rome-reimagines-parish-life-in-age-of-ai": 1794855913.0818884,
+  "https://www.jsonline.com/press-release/story/269708/flova-introduces-ai-animation-generator-that-turns-text-or-images-into-animated-video/": 1794855913.0818884,
+  "https://the-decoder.com/moonshot-ai-pivots-kimi-models-from-coding-to-science-as-benchmark-gains-flatten/": 1794855913.0818884,
+  "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/": 1794855913.0818884,
+  "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/": 1794855913.0818884,
+  "https://www.msn.com/en-us/entertainment/music/universal-music-v-suno-ii-intensifies-amid-discovery-sub-dispute/ar-AA2hz9A1": 1794855913.0818884,
+  "https://openai.com/index/the-kings-trust-and-openai": 1794855913.0818884
  },
- "fails": 1,
+ "fails": 0,
  "sent": [
   {
    "t": 1794510497.417995,
@@ -809,6 +816,41 @@
   {
    "t": 1794848685.9660392,
    "title": "Anthropic says the key to agent memory is knowing what to forget, not how much to store",
+   "soha": "AI"
+  },
+  {
+   "t": 1794855913.0818884,
+   "title": "From the virtual to the sacramental: Hackathon in Rome reimagines parish life in age of AI",
+   "soha": "AI tanlov"
+  },
+  {
+   "t": 1794855913.0818884,
+   "title": "Flova Introduces AI Animation Generator That Turns Text or Images into Animated Video",
+   "soha": "AI video"
+  },
+  {
+   "t": 1794855913.0818884,
+   "title": "Moonshot AI pivots Kimi models from coding to science as benchmark gains flatten",
+   "soha": "AI"
+  },
+  {
+   "t": 1794855913.0818884,
+   "title": "OpenAI will embed safety researchers to investigate AI subversion",
+   "soha": "AI"
+  },
+  {
+   "t": 1794855913.0818884,
+   "title": "US tightens AI chip export controls to deter Chinese companies from accessing compute remotely",
+   "soha": "AI"
+  },
+  {
+   "t": 1794855913.0818884,
+   "title": "Universal Music v. Suno II intensifies amid discovery sub-dispute",
+   "soha": "AI musiqa"
+  },
+  {
+   "t": 1794855913.0818884,
+   "title": "The King’s Trust and OpenAI launch £1m partnership",
    "soha": "AI"
   }
  ],
@@ -1703,6 +1745,167 @@
     "https://the-decoder.com/anthropic-says-the-key-to-agent-memory-is-knowing-what-to-forget-not-how-much-to-store/",
     "https://finance.yahoo.com/research/stock-forecast/UBER/",
     "https://finance.yahoo.com/personal-finance/investing/article/anthropic-ipo-what-investors-should-know-about-buying-in-155852585.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794855913.0818884,
+   "title": "Rimda cherkov hayotini raqamlashtirish bo'yicha xakatoni bo'lib o'tdi",
+   "text": "Katolik sun'iy intellekt yetakchilari cherkov loyihalari uchun texnologik yechimlarni muhokama qilib, Rimda maxsus xakaton o'tkazdilar.",
+   "orig_title": "From the virtual to the sacramental: Hackathon in Rome reimagines parish life in age of AI",
+   "link": "https://www.ewtnnews.com/vatican/from-the-virtual-to-the-sacramental-hackathon-in-rome-reimagines-parish-life-in-age-of-ai",
+   "source": "ewtnnews.com",
+   "soha": "AI tanlov",
+   "baho": 10,
+   "experts": [],
+   "effect": "Sun'iy intellekt texnologiyalarining cherkov hayotiga joriy etilishi diniy tashkilotlar faoliyatini raqamlashtirishni tezlashtirishi va jamiyat bilan aloqalarni yangi bosqichga olib chiqishi mumkin.",
+   "image": "https://cdn1.ewtn.com/image/upload/c_fill,g_auto,w_1200,h_630/ewtn-news/en/1a3ad207-b1ea-4c5b-8544-a8649deff174_1_qbqoog.jpg",
+   "domains": [
+    "ewtnnews.com",
+    "theguardian.com"
+   ],
+   "urls": [
+    "https://www.ewtnnews.com/vatican/from-the-virtual-to-the-sacramental-hackathon-in-rome-reimagines-parish-life-in-age-of-ai",
+    "https://www.theguardian.com/business/2026/oct/15/tech-market-sell-off-deepens-amid-fears-over-us-inflation-and-ai-debt"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794855913.0818884,
+   "title": "Flova sun'iy intellektga asoslangan yangi animatsiya generatorini taqdim etdi",
+   "text": "Singapore kompaniyasi matn yoki tasvirlarni animatsiyali videolarga aylantiruvchi Flova video yaratish agentini chiqardi.",
+   "orig_title": "Flova Introduces AI Animation Generator That Turns Text or Images into Animated Video",
+   "link": "https://www.jsonline.com/press-release/story/269708/flova-introduces-ai-animation-generator-that-turns-text-or-images-into-animated-video/",
+   "source": "jsonline.com",
+   "soha": "AI video",
+   "baho": 9,
+   "experts": [],
+   "effect": "Sun'iy intellekt avatarlari bilan ovozli va video muloqot qilish imkoniyatining ommalashuvi foydalanuvchilarning texnologiyalar bilan hissiy bog'liqligini kuchaytirishi va yangi taqiladigan qurilmalar bozorini rivojlantirishi mumkin.",
+   "image": null,
+   "domains": [
+    "techcrunch.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794855913.0818884,
+   "title": "Moonshot AI Kimi modellarini ilm-fan tadqiqotlariga yo'naltirmoqda",
+   "text": "Pekinda joylashgan startap kod yozish reytinglaridan voz kechib, o'zining Kimi til modellarini biologiya, kimyo va farmatsevtika tadqiqotlariga moslashtirmoqda.",
+   "orig_title": "Moonshot AI pivots Kimi models from coding to science as benchmark gains flatten",
+   "link": "https://the-decoder.com/moonshot-ai-pivots-kimi-models-from-coding-to-science-as-benchmark-gains-flatten/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Til modellarining biologiya, kimyo va farmatsevtika tadqiqotlariga yo'naltirilishi ilmiy izlanishlar tezligini oshirishi va giper-ixtisoslashgan ilmiy yordamchi dasturlar bozorini kengaytirishi mumkin.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/11/moonshot_ai_sciences.png",
+   "domains": [
+    "the-decoder.com",
+    "theguardian.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/moonshot-ai-pivots-kimi-models-from-coding-to-science-as-benchmark-gains-flatten/",
+    "https://www.theguardian.com/sport/2026/nov/01/kimi-antonelli-youngest-f1-champion-mexican-gp"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794855913.0818884,
+   "title": "OpenAI xavfsizlikni tekshirish uchun tadqiqotchilarni jalb qilmoqda",
+   "text": "Kompaniya o'lchov va xavfsizlik tizimlarini mustaqil baholash uchun Apollo Research va boshqa tashkilotlar bilan hamkorlikni boshladi.",
+   "orig_title": "OpenAI will embed safety researchers to investigate AI subversion",
+   "link": "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Mustaqil xavfsizlik tadqiqotchilarining ichki tizimlarga kiritilishi sun'iy intellekt modellarining xavfsizlik nazoratini kuchaytirishi hamda kelgusidagi xavfli xatti-harakatlarning oldini olishga yordam berishi mumkin.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/05/openai-logo-code-background.jpg?resize=1200,798",
+   "domains": [
+    "techcrunch.com",
+    "cnbc.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/",
+    "https://www.cnbc.com/2026/11/16/openai-independent-ai-safety-evaluators.html"
+   ],
+   "videos": [
+    [
+     "https://x.com/bshlgrs/status/2122387318149709898",
+     "X"
+    ]
+   ]
+  },
+  {
+   "t": 1794855913.0818884,
+   "title": "AQSh sun'iy intellekt chiplari eksporti qoidalarini kuchaytirdi",
+   "text": "Hukumat Xitoy va boshqa cheklangan davlatlarga masofaviy hisoblash quvvatini taqdim etuvchi kompaniyalardan maxsus litsenziya talab qilishni boshladi.",
+   "orig_title": "US tightens AI chip export controls to deter Chinese companies from accessing compute remotely",
+   "link": "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [
+    {
+     "kim": "Chris McGuire",
+     "lavozim": "katta ilmiy xodim",
+     "fikr": "Yangi qoida bir yarim yil ichida eksport nazoratidagi bo'shliqlarni yopish bo'yicha qilingan ilk vijdonli harakatdir.",
+     "url": "https://www.yahoo.com/news/politics/articles/trump-administration-tightens-restrictions-flow-173817931.html",
+     "domain": "yahoo.com"
+    }
+   ],
+   "effect": "AQShning eksport nazorati qoidalarining qat'iylashuvi Xitoy kompaniyalarining xorijdagi ma'lumotlar markazlari orqali hisoblash quvvatlariga masofaviy kirishini cheklashi va global chip bozorida raqobat sharoitlarini o'zgartirishi mumkin.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/us-commerce.jpg?w=564",
+   "domains": [
+    "techcrunch.com",
+    "yahoo.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/",
+    "https://www.yahoo.com/news/politics/articles/trump-administration-tightens-restrictions-flow-173817931.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794855913.0818884,
+   "title": "Universal Music va Suno o'rtasidagi sud jarayoni davom etmoqda",
+   "text": "Musiqa studiyalari Suno kompaniyasining yuqori darajadagi sud ishini kechiktirishga qaratilgan harakatlariga qarshi chiqmoqda.",
+   "orig_title": "Universal Music v. Suno II intensifies amid discovery sub-dispute",
+   "link": "https://www.msn.com/en-us/entertainment/music/universal-music-v-suno-ii-intensifies-amid-discovery-sub-dispute/ar-AA2hz9A1",
+   "source": "msn.com",
+   "soha": "AI musiqa",
+   "baho": 8,
+   "experts": [],
+   "effect": "Musiqa platformalariga qarshi huquqiy da'volar kompaniyaning o'z kontentini himoya qilish va litsenziyalash siyosatiga ta'sir ko'rsatib, uzoq muddatli moliyaviy prognozlarni qayta ko'rib chiqishga olib kelishi mumkin.",
+   "image": null,
+   "domains": [
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://finance.yahoo.com/markets/stocks/articles/universal-music-group-enxtam-umg-031502923.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794855913.0818884,
+   "title": "The King's Trust va OpenAI 1 million funt sterlinglik hamkorlikni boshladi",
+   "text": "Buyuk Britaniyadagi 25 mingga yaqin yoshlarga sun'iy intellekt ko'nikmalarini o'rgatish uchun yangi qo'shma dastur e'lon qilindi.",
+   "orig_title": "The King’s Trust and OpenAI launch £1m partnership",
+   "link": "https://openai.com/index/the-kings-trust-and-openai",
+   "source": "OpenAI",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Sun'iy intellekt xavfsizligi va uni tartibga solish bo'yicha yuqori darajadagi xalqaro muhokamalar texnologiya gigantlarining rivojlanish sur'atlari va boshqaruv siyosatiga o'z ta'sirini ko'rsatishi mumkin.",
+   "image": null,
+   "domains": [
+    "techcrunch.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/09/17/even-the-king-of-england-has-his-hesitations-about-ai/"
    ],
    "videos": []
   }
