@@ -295,7 +295,7 @@ def send_videos(items, state, token, chat, dry):
 
 HAR_MAX_RUN = 25    # bir ishga tushishda (bot bir soatda bundan ko'p yubormaydi)
 HAR_MAX_DAY = 48    # sutkada: Instagram API'ning qat'iy limiti 50 post/24 soat
-REEL_MAX_DAY = 6    # sutkada nechta yangilik reel bo'lib ham chiqadi (eng kuchlisi, har ishga tushishda bittadan)
+REEL_MAX_DAY = 24   # sutkada nechta yangilik reel bo'lib ham chiqadi (har yangilik; IG limiti 50 post/sutka)
 HAR_WINDOW = 6 * 3600
 
 
@@ -352,20 +352,26 @@ def har():
             continue
         caption = build_caption(item, pick, credit)
         log.info("IG avto: %s (%d rasm)", pick["sarlavha"], len(files))
-        if files:
-            # reel postdagi rasmni takrorlamasin: 3+ rasm bo'lsa birinchisisiz
-            reel_cands.append((item.get("baho", 0) + len(files), i, item, pick,
-                               files[1:] if len(files) >= 3 else files, caption))
+        # har yangilik reel bo'ladi; reel postdagi rasmni takrorlamasin: 3+ rasm bo'lsa birinchisisiz (rasmsiz -> logo)
+        reel_cands.append((item.get("baho", 0) + len(files), i, item, pick,
+                           (files[1:] if len(files) >= 3 else files) or None, caption))
         if dry:
             print(f"\n=== {png}\n{caption}\n")
             continue
         if ig.publish_post(token, chat, png, caption):
             posted.append(time.time())
-    # Eng kuchli yangilik reel ham bo'ladi (reel'lar obunachi bo'lmaganlarga ham tarqaladi), sutkada REEL_MAX_DAY gacha
+    # Har bir yangilik reel ham bo'ladi (reel'lar obunachi bo'lmaganlarga ham tarqaladi), eng kuchlisi birinchi
     reels = [t for t in state.get("reel_vaqt", []) if t > now - 86400]
-    if reel_cands and len(reels) < REEL_MAX_DAY and len(posted) < HAR_MAX_DAY:
-        _, i, item, pick, photo, caption = max(reel_cands, key=lambda c: c[0])
-        import reel
+
+    def save():
+        state["reel_vaqt"], state["har_vaqt"], state["rasmlar"] = reels, posted, list(used)[-2000:]
+        if not dry:  # har qadamdan keyin: job uzilsa ham joylangan narsa qayta joylanmaydi
+            IG_STATE.write_text(json.dumps(state, ensure_ascii=False, indent=1), encoding="utf-8")
+    save()
+    import reel
+    for _, i, item, pick, photo, caption in sorted(reel_cands, key=lambda c: -c[0]):
+        if len(reels) >= REEL_MAX_DAY or len(posted) >= HAR_MAX_DAY:
+            break
         title = re.sub(r"\*", "", pick["sarlavha"]).strip()
         tease = uz(pick.get("qiziqtir", "")).strip() or title  # qisqa: qiziqtiradi, tafsilot izohda
         narration = f"{tease.rstrip('.!')}. Batafsil izohda oʻqing."
@@ -375,11 +381,9 @@ def har():
         if mp4 and not dry and ig.publish_reel(token, chat, mp4, caption):
             reels.append(time.time())
             posted.append(time.time())
-    state["reel_vaqt"] = reels
-    state["har_vaqt"] = posted
-    state["rasmlar"] = list(used)[-2000:]
-    if not dry:
-        IG_STATE.write_text(json.dumps(state, ensure_ascii=False, indent=1), encoding="utf-8")
+            save()
+        if dry:
+            break  # sinovda bitta reel yetadi
 
 
 # ---------- Asosiy ----------
