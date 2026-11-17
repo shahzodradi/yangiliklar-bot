@@ -1,6 +1,5 @@
 {
  "seen": {
-  "https://www.billboard.com/pro/elvis-presley-ai-voice-cloning-lawsuit-suno/": 1794070085.2269242,
   "https://finance.yahoo.com/technology/ai/articles/iqiyi-revives-90-old-lost-100300931.html": 1794083952.2359965,
   "https://betanews.com/article/chatgpt-images-gifs-faster-generation/": 1794083952.2359965,
   "https://cryptobriefing.com/venice-gpt-image-2-6-flare-sunburst/": 1794083952.2359965,
@@ -315,7 +314,9 @@
   "https://www.musicbusinessworldwide.com/elevenlabs-agrees-to-acquire-japan-focused-voice-ai-company-kotoba-in-reported-100m-deal/": 1794924078.684282,
   "https://finance.yahoo.com/technology/ai/articles/perfect-corp-introduces-brand-ai-130000756.html": 1794931283.3393557,
   "https://www.unite.ai/suno-launches-visuals-for-ai-generated-lyric-videos-and-album-art/": 1794931283.3393557,
-  "https://techcrunch.com/2026/11/17/spotifys-new-tool-aims-to-stop-deepfakes-from-being-attributed-to-real-artists/": 1794931283.3393557
+  "https://techcrunch.com/2026/11/17/spotifys-new-tool-aims-to-stop-deepfakes-from-being-attributed-to-real-artists/": 1794931283.3393557,
+  "https://finance.yahoo.com/technology/ai/articles/kling-ai-launches-kling-image-163300875.html": 1794935144.1480627,
+  "https://www.billboard.com/pro/soundcloud-ceo-ai-policies-qa/": 1794935144.1480627
  },
  "fails": 0,
  "sent": [
@@ -852,6 +853,16 @@
   {
    "t": 1794931283.3393557,
    "title": "Spotify’s new tool aims to stop deepfakes from being attributed to real artists",
+   "soha": "AI musiqa"
+  },
+  {
+   "t": 1794935144.1480627,
+   "title": "Kling AI Launches Kling Image 4.0 with Photographic Realism and Native 8K Generation",
+   "soha": "AI rasm"
+  },
+  {
+   "t": 1794935144.1480627,
+   "title": "SoundCloud CEO Talks AI Policies: ‘Wishing Away the Advent of AI Music Is Not a Strategy’",
    "soha": "AI musiqa"
   }
  ],
@@ -2421,6 +2432,54 @@
     "https://techcrunch.com/2026/11/17/spotifys-new-tool-aims-to-stop-deepfakes-from-being-attributed-to-real-artists/",
     "https://www.theguardian.com/technology/2026/aug/11/spotify-label-ai-artists-block-them-from-some-playlists",
     "https://www.yahoo.com/entertainment/celebrity/articles/youtube-opens-ai-deepfake-detection-124904600.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794935144.1480627,
+   "title": "Kling AI Kling Image 4.0 modelini chiqardi",
+   "text": "Kling AI platformasi fotografik realizm va nativ 8K formatini qo‘llab-quvvatlovchi Kling Image 4.0 yangi rasm generatsiya modelini taqdim etdi.",
+   "orig_title": "Kling AI Launches Kling Image 4.0 with Photographic Realism and Native 8K Generation",
+   "link": "https://finance.yahoo.com/technology/ai/articles/kling-ai-launches-kling-image-163300875.html",
+   "source": "finance.yahoo.com",
+   "soha": "AI rasm",
+   "baho": 9,
+   "experts": [],
+   "effect": "Professional darajadagi vizual kontent yaratish imkoniyatlari yanada kengayib, yuqori sifatli va realistik tasvirlar hamda videolarni ishlab chiqish jarayoni sezilarli darajada tezlashishi mumkin.",
+   "image": "https://s.yimg.com/lo/mysterio/api/85e2e2b6625d082528c9177e8a1735fa826310396d61e070b80e3cf255903b4f/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Faccesswire.ca%2F7a8c98b39d7f5fb20559dce6d8de19bc.jpg",
+   "domains": [
+    "finance.yahoo.com",
+    "tech.yahoo.com",
+    "markets.businessinsider.com"
+   ],
+   "urls": [
+    "https://finance.yahoo.com/technology/ai/articles/kling-ai-launches-kling-image-163300875.html",
+    "https://tech.yahoo.com/ai/meta-ai/articles/adobe-firefly-now-creative-studio-140000261.html",
+    "https://markets.businessinsider.com/news/stocks/kling-ai-launches-kling-4-0-globally-with-professional-grade-output-stable-motion-and-multimodal-control-1036633972"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794935144.1480627,
+   "title": "SoundCloud ElevenLabs va Moises bilan hamkorlik qilmoqda",
+   "text": "SoundCloud rahbariyati sun'iy intellekt musiqasi strategiyasi doirasida ElevenLabs va Moises bilan yangi hamkorlik kelishuvlarini imzoladi.",
+   "orig_title": "SoundCloud CEO Talks AI Policies: ‘Wishing Away the Advent of AI Music Is Not a Strategy’",
+   "link": "https://www.billboard.com/pro/soundcloud-ceo-ai-policies-qa/",
+   "source": "billboard.com",
+   "soha": "AI musiqa",
+   "baho": 8,
+   "experts": [],
+   "effect": "Musiqa industriyasida sun'iy intellekt yordamida yaratilgan treklar soni keskin ortib, platformalar o'rtasida kontentni filtrlash va litsenziyalash siyosati bo'yicha raqobat kuchayishi mumkin.",
+   "image": "https://www.billboard.com/wp-content/uploads/2026/11/eliah-seton-courtesy-of-soundcloud.jpg?w=667",
+   "domains": [
+    "billboard.com",
+    "techcrunch.com",
+    "theverge.com"
+   ],
+   "urls": [
+    "https://www.billboard.com/pro/soundcloud-ceo-ai-policies-qa/",
+    "https://techcrunch.com/2026/11/05/elevenlabs-now-lets-users-publish-ai-generated-music-directly-on-soundcloud/",
+    "https://www.theverge.com/ai-artificial-intelligence/903196/ai-music-suno-udio-art-lawsuit"
    ],
    "videos": []
   }
