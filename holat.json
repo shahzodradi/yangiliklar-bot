@@ -316,50 +316,14 @@
   "https://www.unite.ai/suno-launches-visuals-for-ai-generated-lyric-videos-and-album-art/": 1794931283.3393557,
   "https://techcrunch.com/2026/11/17/spotifys-new-tool-aims-to-stop-deepfakes-from-being-attributed-to-real-artists/": 1794931283.3393557,
   "https://finance.yahoo.com/technology/ai/articles/kling-ai-launches-kling-image-163300875.html": 1794935144.1480627,
-  "https://www.billboard.com/pro/soundcloud-ceo-ai-policies-qa/": 1794935144.1480627
+  "https://www.billboard.com/pro/soundcloud-ceo-ai-policies-qa/": 1794935144.1480627,
+  "https://the-decoder.com/ai-agents-are-starting-to-fill-out-medical-forms-and-file-insurance-requests-in-place-of-human-staff/": 1794938627.3183923,
+  "https://the-decoder.com/the-us-wants-to-block-china-from-renting-ai-power-abroad-but-china-already-built-a-parallel-supply-chain-from-us-ai-output/": 1794938627.3183923,
+  "https://the-decoder.com/isomorphic-labs-raises-5-billion-in-its-second-mega-round-within-six-months/": 1794938627.3183923,
+  "https://thenextweb.com/news/suno-visuals-ai-video-lyric-videos-album-art": 1794938627.3183923
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1794589573.0672977,
-   "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
-   "soha": "AI"
-  },
-  {
-   "t": 1794589573.0672977,
-   "title": "Claude’s Duet agent is a little neurotic and surprisingly helpful",
-   "soha": "AI"
-  },
-  {
-   "t": 1794589573.0672977,
-   "title": "ElevenLabs’ new app combines meeting note-taking and dictation for teams",
-   "soha": "AI musiqa"
-  },
-  {
-   "t": 1794589573.0672977,
-   "title": "Anthropic's Claude for Manufacturing plugs AI directly into factory software to automate industrial workflows",
-   "soha": "AI"
-  },
-  {
-   "t": 1794589573.0672977,
-   "title": "OpenAI enters the cybersecurity market with two Daybreak products",
-   "soha": "AI"
-  },
-  {
-   "t": 1794592861.2283416,
-   "title": "ChatGPT’s new Wallet lets AI agents shop and check out for you",
-   "soha": "AI"
-  },
-  {
-   "t": 1794592861.2283416,
-   "title": "Anthropic's IPO is six times oversubscribed and on track to become the largest public offering in history",
-   "soha": "AI"
-  },
-  {
-   "t": 1794592861.2283416,
-   "title": "Adobe Max 2026 Live Updates: All the AI, Photo and Video News",
-   "soha": "AI video"
-  },
   {
    "t": 1794596763.077386,
    "title": "Best AI Video Generation Models in 2026: Elo, Price per Second, Open Weights",
@@ -863,6 +827,26 @@
   {
    "t": 1794935144.1480627,
    "title": "SoundCloud CEO Talks AI Policies: ‘Wishing Away the Advent of AI Music Is Not a Strategy’",
+   "soha": "AI musiqa"
+  },
+  {
+   "t": 1794938627.3183923,
+   "title": "AI agents are starting to fill out medical forms and file insurance requests in place of human staff",
+   "soha": "AI"
+  },
+  {
+   "t": 1794938627.3183923,
+   "title": "The US wants to block China from renting AI power abroad but China already built a parallel supply chain from US AI output",
+   "soha": "AI"
+  },
+  {
+   "t": 1794938627.3183923,
+   "title": "Isomorphic Labs raises $5 billion in its second mega-round within six months",
+   "soha": "AI"
+  },
+  {
+   "t": 1794938627.3183923,
+   "title": "Suno adds AI video to its music app, with filters for artists’ faces",
    "soha": "AI musiqa"
   }
  ],
@@ -2481,6 +2465,70 @@
     "https://techcrunch.com/2026/11/05/elevenlabs-now-lets-users-publish-ai-generated-music-directly-on-soundcloud/",
     "https://www.theverge.com/ai-artificial-intelligence/903196/ai-music-suno-udio-art-lawsuit"
    ],
+   "videos": []
+  },
+  {
+   "t": 1794938627.3183923,
+   "title": "AI agentlari tibbiy hujjatlar va sug'urta so'rovlarini to'ldirmoqda",
+   "text": "OpenAI GPT-6 Astra va GPT-6 Luna yordamida AQSh sog'liqni saqlash tizimidagi ma'muriy vazifalarni avtomatlashtirmoqda. Kompyuterdan foydalanuvchi agentlar klinika dasturlari va sug'urta portallarida ishlaydi.",
+   "orig_title": "AI agents are starting to fill out medical forms and file insurance requests in place of human staff",
+   "link": "https://the-decoder.com/ai-agents-are-starting-to-fill-out-medical-forms-and-file-insurance-requests-in-place-of-human-staff/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": null,
+   "image": "https://the-decoder.com/wp-content/uploads/2026/11/openai_healthcare_agents.png",
+   "domains": [],
+   "urls": [],
+   "videos": []
+  },
+  {
+   "t": 1794938627.3183923,
+   "title": "AQSh Xitoyning chet elda AI quvvatidan foydalanishini cheklamoqda",
+   "text": "AQSh ma'muriyati chip eksporti nazoratini kuchaytirmoqda. Singapur va Malayziyadagi ma'lumotlar markazlari Nvidia chiplarini sotib olish uchun litsenziya olishi shart bo'ladi.",
+   "orig_title": "The US wants to block China from renting AI power abroad but China already built a parallel supply chain from US AI output",
+   "link": "https://the-decoder.com/the-us-wants-to-block-china-from-renting-ai-power-abroad-but-china-already-built-a-parallel-supply-chain-from-us-ai-output/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": null,
+   "image": "https://the-decoder.com/wp-content/uploads/2026/03/Datacenter-Remote.png",
+   "domains": [],
+   "urls": [],
+   "videos": []
+  },
+  {
+   "t": 1794938627.3183923,
+   "title": "Isomorphic Labs 5 milliard dollar mablag' jalb qildi",
+   "text": "Alphabet tarkibidagi sun'iy intellekt orqali dori vositalarini kashf qiluvchi Isomorphic Labs olti oy ichida ikkinchi yirik raundda 5 milliard dollar mablag' to'pladi.",
+   "orig_title": "Isomorphic Labs raises $5 billion in its second mega-round within six months",
+   "link": "https://the-decoder.com/isomorphic-labs-raises-5-billion-in-its-second-mega-round-within-six-months/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 9,
+   "experts": [],
+   "effect": null,
+   "image": "https://the-decoder.com/wp-content/uploads/2026/11/Isomorphic-Labs-Funding.jpg",
+   "domains": [],
+   "urls": [],
+   "videos": []
+  },
+  {
+   "t": 1794938627.3183923,
+   "title": "Suno musiqa ilovasiga AI video vositalarini qo'shdi",
+   "text": "Suno o'zining yangi Visuals vositasi yordamida qo'shiqlarni AI qo'shiq videolari, albom muqovalari va 15 soniyali kliplarga aylantirish imkonini berdi, shuningdek mualliflik huquqini himoya qiluvchi filtrlar qo'shildi.",
+   "orig_title": "Suno adds AI video to its music app, with filters for artists’ faces",
+   "link": "https://thenextweb.com/news/suno-visuals-ai-video-lyric-videos-album-art",
+   "source": "thenextweb.com",
+   "soha": "AI musiqa",
+   "baho": 10,
+   "experts": [],
+   "effect": null,
+   "image": "https://media.thenextweb.com/2026/11/blue-ai-letters-blurred-textured-background.jpg",
+   "domains": [],
+   "urls": [],
    "videos": []
   }
  ]
