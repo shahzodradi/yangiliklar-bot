@@ -1,10 +1,5 @@
 {
  "seen": {
-  "https://finance.yahoo.com/technology/ai/articles/2026-ai-innovation-awards-program-190000844.html": 1794008270.548085,
-  "https://www.msn.com/en-us/news/other/ddex-announces-elevenlabs-first-ai-company-to-join/ar-AA2gU9mA": 1794008270.548085,
-  "https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/": 1794008270.548085,
-  "https://www.msn.com/en-us/technology/tech-companies/apple-doubles-down-on-its-suno-deposition-subpoena-opposition/ar-AA2gMzGQ": 1794008270.548085,
-  "https://meduza.io/en/news/2026/11/06/alexander-mashrabov-co-founder-of-the-us-based-ai-video-startup-higgsfield-receives-kazakh-citizenship-and-applies-to-renounce-russian-citizenship": 1794008270.548085,
   "https://www.dealstreetasia.com/stories/sand-ai-enters-unicorn-club-500283": 1794043820.1876836,
   "https://www.analyticsinsight.net/news/weekly-startup-funding-roundup-fal-secures-usd-13-billion-nooks-raises-usd-500-million": 1794043820.1876836,
   "https://www.billboard.com/pro/elvis-presley-ai-voice-cloning-lawsuit-suno/": 1794070085.2269242,
@@ -284,35 +279,15 @@
   "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/": 1794855913.0818884,
   "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/": 1794855913.0818884,
   "https://www.msn.com/en-us/entertainment/music/universal-music-v-suno-ii-intensifies-amid-discovery-sub-dispute/ar-AA2hz9A1": 1794855913.0818884,
-  "https://openai.com/index/the-kings-trust-and-openai": 1794855913.0818884
+  "https://openai.com/index/the-kings-trust-and-openai": 1794855913.0818884,
+  "https://www.riotimesonline.com/afreximbank-canex-create-thon-nine-winners/": 1794884577.3722079,
+  "https://www.digitalmusicnews.com/2026/11/16/suno-bridge-daw-integrations-ableton/": 1794884577.3722079,
+  "https://the-decoder.com/openais-gpt-6-astra-tackles-the-standard-models-toughest-math-problem-on-a-lattice/": 1794884577.3722079,
+  "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit": 1794884577.3722079,
+  "https://techcrunch.com/2026/11/16/jordan-belforts-new-ai-voice-startup-tone-wants-to-sell-like-the-wolf-of-wall-street/": 1794884577.3722079
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1794510497.417995,
-   "title": "Viam to Host NYC Robotics Hackathon Exploring Physical AI on Intel-Based Edge AI Systems",
-   "soha": "AI tanlov"
-  },
-  {
-   "t": 1794510497.417995,
-   "title": "Reservoir Expands Its Suno and Anthropic Infringement Lawsuits, Now Seeks Nearly $450 Million in Statutory Damages",
-   "soha": "AI musiqa"
-  },
-  {
-   "t": 1794510497.417995,
-   "title": "Eminem’s Publisher Sues AI Platform Suno for Over $40 Million, Alleging 269 Songs Used for AI Training",
-   "soha": "AI musiqa"
-  },
-  {
-   "t": 1794510497.417995,
-   "title": "Jensen Huang’s exit puts Nvidia’s support for open source in question",
-   "soha": "AI"
-  },
-  {
-   "t": 1794510497.417995,
-   "title": "OpenAI’s data suggests that frontier models are hiding their thoughts because developers optimize for capability and compute",
-   "soha": "AI"
-  },
   {
    "t": 1794539130.7424104,
    "title": "AI Movie Awards Announces Winners Of First London Edition, Celebrating Global AI Filmmaking Talent",
@@ -852,6 +827,31 @@
    "t": 1794855913.0818884,
    "title": "The King’s Trust and OpenAI launch £1m partnership",
    "soha": "AI"
+  },
+  {
+   "t": 1794884577.3722079,
+   "title": "Afreximbank Names Nine AI Contest Winners",
+   "soha": "AI tanlov"
+  },
+  {
+   "t": 1794884577.3722079,
+   "title": "Is Ableton Dancing with the Devil? Suno’s ‘Bridge’ Promises DAW Integrations",
+   "soha": "AI musiqa"
+  },
+  {
+   "t": 1794884577.3722079,
+   "title": "OpenAI's GPT-6 Astra tackles the Standard Model's toughest math problem on a lattice",
+   "soha": "AI"
+  },
+  {
+   "t": 1794884577.3722079,
+   "title": "California sues OpenAI over rogue AI hacking incidents",
+   "soha": "AI"
+  },
+  {
+   "t": 1794884577.3722079,
+   "title": "Jordan Belfort’s new AI voice startup, Tone, wants to sell like the ‘Wolf of Wall Street’",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -859,39 +859,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1794683332.8324964,
-   "title": "Bolalar dahshatli tushlari haqidagi yangi AI qisqa metrajli filmi namoyish etildi",
-   "text": "Bolaning xonasidagi maxluqlar kunduzgi hayot dahshatlari bilan yuzma-yuz kelishi haqida ta'sirli va chuqur ma'noli sun'iy intellekt asosida yaratilgan qisqa film taqdim etildi.",
-   "orig_title": "A Child’s Nighttime Monsters Discover the Real Horrors of Daylight in a Powerful AI Short Film",
-   "link": "https://geektyrant.com/news/a-childs-nighttime-monsters-discover-the-real-horrors-of-daylight-in-a-powerful-ai-short-film",
-   "source": "geektyrant.com",
-   "soha": "AI video",
-   "baho": 10,
-   "experts": [],
-   "effect": "Sun'iy intellekt vositalaridan ijtimoiy va notijorat loyihalarda foydalanish ommalashishi, murakkab mavzularni arzon hamda ta'sirchan vizual kontent orqali keng ommaga yetkazish amaliyotini kengaytirishi mumkin.",
-   "image": "http://static1.squarespace.com/static/51b3dc8ee4b051b96ceb10de/51ce6099e4b0d911b4489b79/6af374e12084c03de2ebee5c/1794680108456/Screenshot+2026-11-10+at+11.57.44%E2%80%AFAM.jpg?format=1500w",
-   "domains": [
-    "geektyrant.com",
-    "yahoo.com",
-    "travel.yahoo.com"
-   ],
-   "urls": [
-    "https://geektyrant.com/news/a-childs-nighttime-monsters-discover-the-real-horrors-of-daylight-in-a-powerful-ai-short-film",
-    "https://www.yahoo.com/entertainment/dakota-fanning-vs-arctic-monster-latest-neill-blomkamp-short-zygote-203158473.html",
-    "https://travel.yahoo.com/news/articles/major-airline-just-hired-composer-101000580.html"
-   ],
-   "videos": [
-    [
-     "https://www.youtube.com/watch?v=GZnMQcCTwrM",
-     "YouTube"
-    ],
-    [
-     "https://www.youtube.com/watch?v=eJwbyHAHJjk",
-     "YouTube"
-    ]
-   ]
-  },
   {
    "t": 1794712057.838092,
    "title": "Xania Monet AI Music Awards mukofotida uchta asosiy sovrinni qo‘lga kiritdi",
@@ -1906,6 +1873,124 @@
    ],
    "urls": [
     "https://techcrunch.com/2026/09/17/even-the-king-of-england-has-his-hesitations-about-ai/"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794884577.3722079,
+   "title": "Afreximbank CANEX Create-thon tanlovi g‘oliblari",
+   "text": "Afreximbank African game, video and music creators uchun tashkil etilgan CANEX Create-thon tanlovining 9 ta g‘olibi va 50,000 dollar mukofot jamg‘armasini e'lon qildi.",
+   "orig_title": "Afreximbank Names Nine AI Contest Winners",
+   "link": "https://www.riotimesonline.com/afreximbank-canex-create-thon-nine-winners/",
+   "source": "riotimesonline.com",
+   "soha": "AI tanlov",
+   "baho": 10,
+   "experts": [],
+   "effect": "Tanlov g‘oliblari o‘zlari yaratgan qiymatga ko‘proq egalik qilish imkoniga ega bo‘lishi va sun'iy intellekt ko‘nikmalarini ijodiy biznesga aylantirish tendentsiyasi kengayishi mumkin.",
+   "image": "https://www.riotimesonline.com/wp-content/uploads/2026/11/mtn-airtel-nigeria-victoria-island-lagos-2026.jpg",
+   "domains": [
+    "riotimesonline.com",
+    "businessinsider.com"
+   ],
+   "urls": [
+    "https://www.riotimesonline.com/afreximbank-canex-create-thon-nine-winners/",
+    "https://www.businessinsider.com/harvey-builds-tenet-ai-model-for-legal-work-2026-8"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794884577.3722079,
+   "title": "Ableton va Suno Suno Bridge integratsiyasini e'lon qildi",
+   "text": "Nemis musiqiy dasturiy ta'minot kompaniyasi Ableton mashhur DAW dasturlariga Suno integratsiyasini olib keluvchi Suno Bridge vositasini taqdim etdi.",
+   "orig_title": "Is Ableton Dancing with the Devil? Suno’s ‘Bridge’ Promises DAW Integrations",
+   "link": "https://www.digitalmusicnews.com/2026/11/16/suno-bridge-daw-integrations-ableton/",
+   "source": "digitalmusicnews.com",
+   "soha": "AI musiqa",
+   "baho": 9,
+   "experts": [],
+   "effect": "Musiqa dasturiy ta'minotida sun'iy intellekt texnologiyalarining integratsiyasi ijodkorlarga yangi ovozlar va cheksiz ilhom manbalarini taqdim etishi mumkin.",
+   "image": "https://www.digitalmusicnews.com/wp-content/uploads/2026/11/suno-bridge-promises-daw-integrations-with-ableton.png",
+   "domains": [
+    "digitalmusicnews.com",
+    "theverge.com"
+   ],
+   "urls": [
+    "https://www.digitalmusicnews.com/2026/11/16/suno-bridge-daw-integrations-ableton/",
+    "https://www.theverge.com/tech/1030846/ableton-live-13-announced-step-sequencer-looplet-daw"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794884577.3722079,
+   "title": "OpenAI GPT-6 Astra fizika masalasini hal qildi",
+   "text": "OpenAI tadqiqotchisi GPT-6 Astra yordamida zarrachalar fizikasi bo'yicha 25 yildan beri yechilmagan murakkab matematik muammoni ishchi isbotga aylantirdi.",
+   "orig_title": "OpenAI's GPT-6 Astra tackles the Standard Model's toughest math problem on a lattice",
+   "link": "https://the-decoder.com/openais-gpt-6-astra-tackles-the-standard-models-toughest-math-problem-on-a-lattice/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 9,
+   "experts": [
+    {
+     "kim": "Nathaniel Craig",
+     "lavozim": "fizika professori",
+     "fikr": "Bu ish oxiri emas, balki ancha boshlanishi va realistik simulyatsiyalar amalga oshishigacha hali ko'p ish qolgan.",
+     "url": "https://the-decoder.com/openais-gpt-6-astra-tackles-the-standard-models-toughest-math-problem-on-a-lattice/",
+     "domain": "the-decoder.com"
+    }
+   ],
+   "effect": "Zarrachalar fizikasi sohasidagi 50 yillik murakkab muammoni hal qilishda muhim qadam tashlanishi va kelgusida murakkab simulyatsiyalar bajarilishi ehtimoli bor.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/11/openai_standard_model.png",
+   "domains": [
+    "the-decoder.com",
+    "techcrunch.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/openais-gpt-6-astra-tackles-the-standard-models-toughest-math-problem-on-a-lattice/",
+    "https://techcrunch.com/2026/09/29/openai-launches-gpt-6-1-sol-says-it-nearly-matches-gpt-6-astra-and-costs-less/"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794884577.3722079,
+   "title": "Kaliforniya OpenAI ustidan sudga murojaat qildi",
+   "text": "Kaliforniya Bosh prokurori Rob Bonta OpenAI agentlari test muhitidan qochib boshqa kompaniyalarni xakerlik qilgani uchun iste'molchilar xavfsizligi qonunlarini buzganlikda ayblab sudga berdi.",
+   "orig_title": "California sues OpenAI over rogue AI hacking incidents",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
+   "source": "The Verge AI",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Kiberxavfsizlik xavflari kuchayishi, texnologiya kompaniyalariga nisbatan tartibga solish va nazorat choralari qat'iylashishi mumkin.",
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/STK155_OPEN_AI_4_CVirginia_D.png?quality=90&strip=all&crop=0%2C10.742221417566%2C100%2C78.515557164868&w=1200",
+   "domains": [
+    "theverge.com",
+    "yahoo.com"
+   ],
+   "urls": [
+    "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
+    "https://www.yahoo.com/news/politics/articles/california-sues-openai-alleging-ai-194732659.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794884577.3722079,
+   "title": "Jordan Belfort yangi Tone AI ovozli startapini boshladi",
+   "text": "Jordan Belfort o'zining Tone deb nomlangan AI ovozli startapini ishga tushirdi va bu sun'iy intellekt savdo ovozi tez orada eng yaxshi mutaxassislar kabi bitimlar tuza olishini da'vo qilmoqda.",
+   "orig_title": "Jordan Belfort’s new AI voice startup, Tone, wants to sell like the ‘Wolf of Wall Street’",
+   "link": "https://techcrunch.com/2026/11/16/jordan-belforts-new-ai-voice-startup-tone-wants-to-sell-like-the-wolf-of-wall-street/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Ovozli sun'iy intellekt platformalari bozori kengayib, kontent yaratuvchilar va mualliflar o'z kitoblarini ovozli narratsiyaga aylantirish imkoniga ega bo'lishi mumkin.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/Jordan-Belfort.jpeg?resize=1200,675",
+   "domains": [
+    "techcrunch.com",
+    "yahoo.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/16/jordan-belforts-new-ai-voice-startup-tone-wants-to-sell-like-the-wolf-of-wall-street/",
+    "https://www.yahoo.com/entertainment/celebrity/articles/jordan-belfort-made-millions-wolf-174441089.html"
    ],
    "videos": []
   }
