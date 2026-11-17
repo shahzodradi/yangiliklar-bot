@@ -1,7 +1,5 @@
 {
  "seen": {
-  "https://www.dealstreetasia.com/stories/sand-ai-enters-unicorn-club-500283": 1794043820.1876836,
-  "https://www.analyticsinsight.net/news/weekly-startup-funding-roundup-fal-secures-usd-13-billion-nooks-raises-usd-500-million": 1794043820.1876836,
   "https://www.billboard.com/pro/elvis-presley-ai-voice-cloning-lawsuit-suno/": 1794070085.2269242,
   "https://finance.yahoo.com/technology/ai/articles/iqiyi-revives-90-old-lost-100300931.html": 1794083952.2359965,
   "https://betanews.com/article/chatgpt-images-gifs-faster-generation/": 1794083952.2359965,
@@ -310,16 +308,6 @@
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1794560712.707967,
-   "title": "No, AI agents did not discover a previously unknown Maya site",
-   "soha": "AI"
-  },
-  {
-   "t": 1794560712.707967,
-   "title": "Google DeepMind Staff Tap the UK Government to Escalate Their Unionization Fight",
-   "soha": "AI"
-  },
   {
    "t": 1794568026.2777922,
    "title": "Silicon Valley Is Still Defending Jensen Huang",
