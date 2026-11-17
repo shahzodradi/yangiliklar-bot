@@ -303,25 +303,13 @@
   "https://techcrunch.com/2026/11/16/trump-says-ex-nvidia-ceo-jensen-huangs-affair-with-an-alleged-chinese-spy-did-not-threaten-national-security/": 1794898979.8938375,
   "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/": 1794898979.8938375,
   "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/": 1794898979.8938375,
-  "https://techcrunch.com/2026/11/16/audible-turns-to-ai-to-help-users-discover-audiobooks/": 1794898979.8938375
+  "https://techcrunch.com/2026/11/16/audible-turns-to-ai-to-help-users-discover-audiobooks/": 1794898979.8938375,
+  "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai": 1794902470.3692682,
+  "https://www.technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise/": 1794902470.3692682,
+  "https://www.wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess/": 1794902470.3692682
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1794556851.815429,
-   "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
-   "soha": "AI"
-  },
-  {
-   "t": 1794556851.815429,
-   "title": "Gondola doubles revenue as its team builds more with Codex",
-   "soha": "AI"
-  },
-  {
-   "t": 1794556851.815429,
-   "title": "AI-powered label PaRa Music says it’s identified the next big Indian regional music sub-genre",
-   "soha": "AI musiqa"
-  },
   {
    "t": 1794560712.707967,
    "title": "No, AI agents did not discover a previously unknown Maya site",
@@ -855,6 +843,21 @@
   {
    "t": 1794898979.8938375,
    "title": "Audible turns to AI to help users discover audiobooks",
+   "soha": "AI"
+  },
+  {
+   "t": 1794902470.3692682,
+   "title": "Strengthening NATO and allied cyber defenses with AI",
+   "soha": "AI"
+  },
+  {
+   "t": 1794902470.3692682,
+   "title": "Building AI that can work across the enterprise",
+   "soha": "AI"
+  },
+  {
+   "t": 1794902470.3692682,
+   "title": "Nvidia Was Already in Trouble Before the Jensen Huang Mess",
    "soha": "AI"
   }
  ],
@@ -2328,6 +2331,77 @@
      "YouTube"
     ]
    ]
+  },
+  {
+   "t": 1794902470.3692682,
+   "title": "OpenAI NATO va ittifoqdosh kiberhimoyasini kuchaytirishda yordam bermoqda",
+   "text": "OpenAI NATO va uning kiberagentliklari bilan hamkorlik qilib, muhim tizimlarni himoya qilish va zaifliklarni aniqlash ishlarida ishtirok etmoqda.",
+   "orig_title": "Strengthening NATO and allied cyber defenses with AI",
+   "link": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+   "source": "OpenAI",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Kiber xavfsizlikni kuchaytirish va ittifoqchilar mudofaasini ta'minlashda sun'iy intellekt texnologiyalaridan keng foydalanish kiber hujumlarini oldindan aniqlash hamda ularga qarshi kurashish imkoniyatlarini oshirishi mumkin.",
+   "image": null,
+   "domains": [],
+   "urls": [],
+   "videos": []
+  },
+  {
+   "t": 1794902470.3692682,
+   "title": "Korxonalar uchun avtonom ish jarayonlarini bajaruvchi AI agentlari joriy etilmoqda",
+   "text": "Tashkilotlar yakka tartibdagi tajribalardan voz kechib, biznes jarayonlarini boshqaruvchi avtonom AI agentlari va ish oqimlariga o'tmoqda.",
+   "orig_title": "Building AI that can work across the enterprise",
+   "link": "https://www.technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise/",
+   "source": "MIT Tech Review",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Korxonalarda sun'iy intellekt agentlari va avtonom ish oqimlarining joriy etilishi ma'lumotlar bazasi va boshqaruv mexanizmlarini qayta ko'rib chiqishga, shuningdek, samaradorlikni oshirishga olib kelishi mumkin.",
+   "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/MITTRInfosysSAP-social-card.png?resize=1200,600",
+   "domains": [
+    "technologyreview.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://www.technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise/",
+    "https://finance.yahoo.com/technology/ai/articles/genpact-launches-genpact-onyx-agentic-210500681.html",
+    "https://finance.yahoo.com/technology/ai/articles/snowflake-snow-unveils-autonomous-ai-131644225.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794902470.3692682,
+   "title": "Nvidia kompaniyasi rahbariyatidagi inqirozdan oldin ham qiyinchiliklarga duch kelgandi",
+   "text": "Sun'iy intellekt bozoridagi raqobatchilar Nvidia kompaniyasini quvib yetib, yuzaga kelgan vaziyatdan foydalanishga tayyor turibdi.",
+   "orig_title": "Nvidia Was Already in Trouble Before the Jensen Huang Mess",
+   "link": "https://www.wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess/",
+   "source": "Wired AI",
+   "soha": "AI",
+   "baho": 9,
+   "experts": [
+    {
+     "kim": "Patrick Moorhead",
+     "lavozim": "Bosh tahlilchi",
+     "fikr": "Sun'iy intellekt agentlarining o'sishi xulosa chiqarishni muhimroq qiladi va bu yo'nalishda Nvidia bulut xizmatlari va startaplarga nisbatan kamroq ustunlikka ega.",
+     "url": "https://www.wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess/",
+     "domain": "wired.com"
+    }
+   ],
+   "effect": "Nvidia kompaniyasida rahbar o'zgarishi va raqobatning kuchayishi chip bozorida narxlar va ustunlikning o'zgarishiga hamda boshqa kompaniyalar ulushining ortishiga olib kelishi mumkin.",
+   "image": "https://media.wired.com/photos/6af5e8bf5864e5f624e083f1/191:100/w_1280,c_limit/111226-Nvidia%20In%20Trouble.jpg",
+   "domains": [
+    "wired.com",
+    "finance.yahoo.com",
+    "cnbc.com"
+   ],
+   "urls": [
+    "https://www.wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess/",
+    "https://finance.yahoo.com/video/nvidias-competitors-pounce-and-what-gpu-rental-prices-say-about-the-ai-race-221551379.html",
+    "https://www.cnbc.com/video/2026/11/13/nvidias-grip-on-ai-chip-supply-chain-to-weaken.html"
+   ],
+   "videos": []
   }
  ]
 }
