@@ -55,7 +55,66 @@ def browser_shot(html_path, png, w, h, transparent=False):
 
 
 def voice(text, mp3):
-    """MP3 yozadi va so'zlar vaqtini qaytaradi: [(boshlanish_s, tugash_s, so'z)]."""
+    """MP3 yozadi va so'zlar vaqtini qaytaradi: [(boshlanish_s, tugash_s, so'z)].
+    Asosiy: Gemini TTS (Charon — tabiiy o'zbekcha); limit/xato bo'lsa edge-tts Sardor."""
+    try:
+        return gemini_voice(text, mp3)
+    except Exception as e:
+        print("Gemini ovoz ishlamadi, Sardor bilan:", str(e)[:200])
+        return edge_voice(text, mp3)
+
+
+GEMINI_VOICE = "Charon"
+
+
+def gemini_voice(text, mp3):
+    """Gemini so'z vaqtini bermaydi: jimlik joylarini (ffmpeg silencedetect) gap chegaralariga moslab,
+    har bo'lak ichida so'zlarni harf soniga qarab taqsimlaymiz — subtitr ovozga yaqin tushadi."""
+    import base64, os, urllib.request
+    key = os.environ.get("GEMINI_API_KEY") or next(l.split("=", 1)[1].strip()
+          for l in (HERE.parent / ".env").read_text().splitlines() if l.startswith("GEMINI_API_KEY="))
+    body = {"contents": [{"parts": [{"text": "Read this Uzbek news aloud in clear, natural native Uzbek "
+                                     "(Tashkent pronunciation), energetic news-anchor tone: " + text}]}],
+            "generationConfig": {"responseModalities": ["AUDIO"], "speechConfig": {
+                "voiceConfig": {"prebuiltVoiceConfig": {"voiceName": GEMINI_VOICE}}}}}
+    req = urllib.request.Request("https://generativelanguage.googleapis.com/v1beta/models/"
+                                 "gemini-2.5-flash-preview-tts:generateContent", json.dumps(body).encode(),
+                                 {"Content-Type": "application/json", "x-goog-api-key": key})
+    d = json.load(urllib.request.urlopen(req, timeout=180))
+    pcm = mp3.with_suffix(".pcm")
+    pcm.write_bytes(base64.b64decode(d["candidates"][0]["content"]["parts"][0]["inlineData"]["data"]))
+    raw = ["ffmpeg", "-y", "-loglevel", "error", "-f", "s16le", "-ar", "24000", "-ac", "1", "-i", str(pcm)]
+    subprocess.run(raw + ["-af", "silenceremove=start_periods=1:start_threshold=-45dB,areverse,"
+                          "silenceremove=start_periods=1:start_threshold=-45dB,areverse", "-b:a", "160k", str(mp3)], check=True)
+    pcm.unlink()
+    dur = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(mp3)],
+                               capture_output=True, text=True).stdout)
+    log = subprocess.run(["ffmpeg", "-i", str(mp3), "-af", "silencedetect=n=-38dB:d=0.15", "-f", "null", "-"],
+                         capture_output=True, text=True).stderr
+    st = [float(x) for x in re.findall(r"silence_start: ([\d.]+)", log)]
+    en = [float(x) for x in re.findall(r"silence_end: ([\d.]+)", log)]
+    pauses = [(a, b) for a, b in zip(st, en) if 0.05 < a and b < dur - 0.05]
+    chunks = [c.split() for c in re.split(r"(?<=[.!?,;:—])\s+", text.strip()) if c.split()]
+    k = min(len(chunks) - 1, len(pauses))  # eng uzun k ta jimlik = bo'lak chegaralari
+    cuts = sorted(sorted(pauses, key=lambda p: p[0] - p[1])[:k])
+    if k < len(chunks) - 1:  # jimlik kam: bo'laklarni birlashtiramiz
+        flat = [w for c in chunks for w in c]
+        chunks = [flat] if not k else chunks[:k] + [[w for c in chunks[k:] for w in c]]
+    spans, t = [], 0.0
+    for a, b in cuts:
+        spans.append((t, a)); t = b
+    spans.append((t, dur))
+    words = []
+    for (a, b), ws in zip(spans, chunks):
+        tot = sum(len(w) + 1 for w in ws); x = a
+        for w in ws:
+            y = x + (b - a) * (len(w) + 1) / tot
+            words.append((x, y, w.strip(".,!?;:—«»\"")))
+            x = y
+    return [w for w in words if w[2]]
+
+
+def edge_voice(text, mp3):
     import edge_tts
 
     async def run():

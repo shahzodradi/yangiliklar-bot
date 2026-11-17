@@ -38,6 +38,9 @@ Har biri uchun o'zbek tilida (lotin yozuvi, oʻ gʻ va ʼ belgilari bilan, kiril
   OpenAI -> "Sam Altman"). Aniq shaxs bo'lmasa bo'sh qoldir. Faqat ism-familiya, boshqa so'z qo'shma.
 - "hook": reel boshida 2 soniya katta chiqadigan 2-4 so'zli "ilmoq" — skrollni to'xtatsin, faqat faktga asoslangan
   (masalan "Nvidia larzada!", "$1 mlrd tikildi", "Musiqachilar xavotirda"). Clickbait yolg'on bo'lmasin.
+- "qiziqtir": reel ovozi uchun 1-2 ta QISQA jumla (jami 12-22 so'z) — yangilikning eng qiziq faktini aytib,
+  asosiy javobni ochmasdan qiziqish uyg'otsin, odam postni o'qigisi kelsin (masalan "Sam Altman bitta postda
+  hammani hayratga soldi. U aytgan raqam esa undan ham qo'rqinchli."). Yolg'on va bo'rttirish yo'q.
 - "teglar": 3-5 ta heshteg (# bilan): #AI va mavzuga aniq mos teglar (o'zbekcha va inglizcha aralash).
 Brend va kompaniya nomlarini tarjima qilma.
 
@@ -53,7 +56,7 @@ SCHEMA = {
     "properties": {"tanlov": {"type": "ARRAY", "items": {
         "type": "OBJECT",
         "properties": {"id": {"type": "INTEGER"}, "sarlavha": {"type": "STRING"}, "emoji": {"type": "STRING"},
-                       "savol": {"type": "STRING"}, "rasm": {"type": "STRING"}, "hook": {"type": "STRING"},
+                       "savol": {"type": "STRING"}, "rasm": {"type": "STRING"}, "hook": {"type": "STRING"}, "qiziqtir": {"type": "STRING"},
                        "teglar": {"type": "ARRAY", "items": {"type": "STRING"}}},
         "required": ["id", "sarlavha", "emoji", "savol", "rasm", "teglar"]}}},
     "required": ["tanlov"],
@@ -364,7 +367,8 @@ def har():
         _, i, item, pick, photo, caption = max(reel_cands, key=lambda c: c[0])
         import reel
         title = re.sub(r"\*", "", pick["sarlavha"]).strip()
-        narration = f"{title}. {item['text']} {pick['savol']} Izohda yozing va obuna boʻling."
+        tease = uz(pick.get("qiziqtir", "")).strip() or title  # qisqa: qiziqtiradi, tafsilot izohda
+        narration = f"{tease.rstrip('.!')}. Batafsil izohda oʻqing."
         mp4 = reel.make_reel(f"{stamp}_{i}_reel", photo, headline_html(pick["sarlavha"]), narration,
                              hook=uz(pick.get("hook", "")).strip(" .!") + "!" if pick.get("hook") else "")
         log.info("Reel: %s -> %s", title, mp4)
