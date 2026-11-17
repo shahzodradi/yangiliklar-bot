@@ -293,30 +293,15 @@
   "https://www.msn.com/en-au/news/other/people-are-making-millions-without-showing-their-face-ai-influencers/vi-AA2hzQlX": 1794891779.9417048,
   "https://the-decoder.com/google-warns-that-fully-automated-cyberattacks-have-arrived-and-will-get-worse-fast/": 1794891779.9417048,
   "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/": 1794891779.9417048,
-  "https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/": 1794891779.9417048
+  "https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/": 1794891779.9417048,
+  "https://www.theverge.com/tech/1035027/tech-leaders-nvidia-jensen-huang-theories": 1794895552.3226838,
+  "https://www.wired.com/story/the-big-interview-podcast-lauren-goode-jensen-huang/": 1794895552.3226838,
+  "https://openai.com/index/science-at-the-frontier": 1794895552.3226838,
+  "https://openai.com/index/our-first-phase-of-embedded-assessments": 1794895552.3226838,
+  "https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm/": 1794895552.3226838
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1794546541.9908485,
-   "title": "Phota Labs uses AI to turn everyday photos into professional-looking shots",
-   "soha": "AI rasm"
-  },
-  {
-   "t": 1794549697.8480587,
-   "title": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
-   "soha": "AI"
-  },
-  {
-   "t": 1794549697.8480587,
-   "title": "SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions",
-   "soha": "AI"
-  },
-  {
-   "t": 1794549697.8480587,
-   "title": "Meta’s New Agreements Bring Clean Manufacturing to Data Center Supply Chains",
-   "soha": "AI"
-  },
   {
    "t": 1794553355.0297549,
    "title": "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility",
@@ -825,6 +810,31 @@
   {
    "t": 1794891779.9417048,
    "title": "Building trustworthy AI by fencing it in, not predicting it",
+   "soha": "AI"
+  },
+  {
+   "t": 1794895552.3226838,
+   "title": "Tech leaders are convinced that Jensen Huang’s exit was a plot against him",
+   "soha": "AI"
+  },
+  {
+   "t": 1794895552.3226838,
+   "title": "Jensen Huang Is Gone. Now What?",
+   "soha": "AI"
+  },
+  {
+   "t": 1794895552.3226838,
+   "title": "Science at the Frontier: How scientists use ChatGPT",
+   "soha": "AI"
+  },
+  {
+   "t": 1794895552.3226838,
+   "title": "Our first phase of embedded assessments",
+   "soha": "AI"
+  },
+  {
+   "t": 1794895552.3226838,
+   "title": "Freshworks alums raise $53M to take on Salesforce, HubSpot with AI-native CRM",
    "soha": "AI"
   }
  ],
@@ -2048,6 +2058,129 @@
     "https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/",
     "https://finance.yahoo.com/technology/ai/articles/crowdstrike-launches-ai-agent-kill-211603377.html",
     "https://finance.yahoo.com/technology/ai/articles/5-best-ai-powered-financial-225218465.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794895552.3226838,
+   "title": "Tech leaders react to Jensen Huang's Nvidia exit",
+   "text": "Jensen Huang's sudden resignation from Nvidia after 33 years has shocked the tech industry, prompting calls for his reinstatement.",
+   "orig_title": "Tech leaders are convinced that Jensen Huang’s exit was a plot against him",
+   "link": "https://www.theverge.com/tech/1035027/tech-leaders-nvidia-jensen-huang-theories",
+   "source": "The Verge AI",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Jensen Xuang atrofidagi mojaro AQSHning Xitoyga nisbatan eksport nazoratini yanada kuchaytirishi va Nvidia mahsulotlarini yetkazib berish zanjirida tekshiruvlarni ko‘paytirishi mumkin.",
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2299645290.jpg?quality=90&strip=all&crop=0%2C10.748709970289%2C100%2C78.502580059422&w=1200",
+   "domains": [
+    "theverge.com",
+    "cnbc.com"
+   ],
+   "urls": [
+    "https://www.theverge.com/tech/1035027/tech-leaders-nvidia-jensen-huang-theories",
+    "https://www.cnbc.com/2026/11/16/trump-lutnick-nvidia-national-security-jensen-huant.html"
+   ],
+   "videos": [
+    [
+     "https://x.com/DavidSacks/status/2121070881258504395",
+     "X"
+    ],
+    [
+     "https://x.com/semafor/status/2122387271194231060",
+     "X"
+    ],
+    [
+     "https://x.com/TimSweeneyEpic/status/2121083415487205652",
+     "X"
+    ],
+    [
+     "https://x.com/amasad/status/2120671838909194695",
+     "X"
+    ]
+   ]
+  },
+  {
+   "t": 1794895552.3226838,
+   "title": "Nvidia faces uncertainty following Jensen Huang's departure",
+   "text": "After the shocking departure of its CEO, Nvidia navigates new industry challenges and leadership changes.",
+   "orig_title": "Jensen Huang Is Gone. Now What?",
+   "link": "https://www.wired.com/story/the-big-interview-podcast-lauren-goode-jensen-huang/",
+   "source": "Wired AI",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Kompaniyadagi noaniqlik va tekshiruvlar Nvidia aksiyalari narxining pasayishda davom etishiga hamda bozor kapitallashuvining yanada qisqarishiga sabab bo‘lishi mumkin.",
+   "image": "https://media.wired.com/photos/6af78c75239676948e926fc2/191:100/w_1280,c_limit/Big-Interview-UV-Solo-Katie-Lauren-Business.jpg",
+   "domains": [
+    "wired.com",
+    "cnbc.com"
+   ],
+   "urls": [
+    "https://www.wired.com/story/the-big-interview-podcast-lauren-goode-jensen-huang/",
+    "https://www.cnbc.com/2026/11/16/nvidia-earnings-jensen-huang-resignation.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794895552.3226838,
+   "title": "Study reveals how scientists utilize ChatGPT in research",
+   "text": "Research on over 1,800 scientists shows how ChatGPT impacts daily workflows, productivity, and scientific discovery.",
+   "orig_title": "Science at the Frontier: How scientists use ChatGPT",
+   "link": "https://openai.com/index/science-at-the-frontier",
+   "source": "OpenAI",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "ChatGPT va boshqa sun’iy intellekt vositalarining ommalashishi an’anaviy qayd ilovalarini SI tizimlari bilan integratsiyalashishga majbur qilishi yoki foydalanuvchilarning boshqa platformalarga o‘tishiga sabab bo‘lishi mumkin.",
+   "image": null,
+   "domains": [
+    "tech.yahoo.com"
+   ],
+   "urls": [
+    "https://tech.yahoo.com/ai/chatgpt/articles/im-ditching-google-keep-good-220010780.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794895552.3226838,
+   "title": "OpenAI starts embedded safety assessments with researchers",
+   "text": "OpenAI begins collaborating with independent labs to evaluate model alignment and monitoring systems.",
+   "orig_title": "Our first phase of embedded assessments",
+   "link": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+   "source": "OpenAI",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Mustaqil baholovchilarning modellarni o‘qitish jarayoniga kiritilishi sun’iy intellekt xavfsizligini oshirishi hamda keyingi avlod modellarining sinovdan o‘tish va bozorga chiqish muddatini uzaytirishi mumkin.",
+   "image": null,
+   "domains": [
+    "techcrunch.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794895552.3226838,
+   "title": "Dreamteam raises $53M for AI-native CRM platform",
+   "text": "Freshworks alumni have secured funding to launch an AI-native CRM competing with major established platforms.",
+   "orig_title": "Freshworks alums raise $53M to take on Salesforce, HubSpot with AI-native CRM",
+   "link": "https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 6,
+   "experts": [],
+   "effect": "Sun’iy intellektga asoslangan yangi CRM tizimlari Salesforce va HubSpot kabi an’anaviy platformalar bilan raqobatni kuchaytirib, korporativ mijozlar uchun xizmat narxlarining pasayishiga olib kelishi mumkin.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/dreamteam-co-founders.jpg?resize=1200,800",
+   "domains": [
+    "techcrunch.com",
+    "uk.finance.yahoo.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm/",
+    "https://uk.finance.yahoo.com/news/ai-startup-dreamteam-raises-capital-110000538.html"
    ],
    "videos": []
   }
