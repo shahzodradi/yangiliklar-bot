@@ -311,15 +311,11 @@
   "https://www.theverge.com/ai-artificial-intelligence/1034787/sam-altman-ram-shortage-semafor": 1794916909.3477294,
   "https://www.theverge.com/ai-artificial-intelligence/1034668/data-centers-electricity-climate-pollution-study-harvard": 1794916909.3477294,
   "https://www.theverge.com/tech/1034110/google-ask-maps-ai-trip-planning": 1794916909.3477294,
-  "https://www.msn.com/en-xl/news/other/nvidia-ceo-exit-risks-ai-startup-funding/ar-AA2huAOI": 1794916909.3477294
+  "https://www.msn.com/en-xl/news/other/nvidia-ceo-exit-risks-ai-startup-funding/ar-AA2huAOI": 1794916909.3477294,
+  "https://www.musicbusinessworldwide.com/elevenlabs-agrees-to-acquire-japan-focused-voice-ai-company-kotoba-in-reported-100m-deal/": 1794924078.684282
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1794578463.358221,
-   "title": "This AI finds patterns in visual brain activity and turns them into pictures",
-   "soha": "AI rasm"
-  },
   {
    "t": 1794582238.46558,
    "title": "Suno Launches Bridge Beta for AI Stem Generation in Ableton Live",
@@ -854,6 +850,11 @@
    "t": 1794916909.3477294,
    "title": "NVIDIA CEO exit risks AI startup funding",
    "soha": "AI"
+  },
+  {
+   "t": 1794924078.684282,
+   "title": "ElevenLabs agrees to acquire Japan-focused voice AI company Kotoba in reported $100M deal",
+   "soha": "AI musiqa"
   }
  ],
  "mavzu": {
@@ -2447,6 +2448,38 @@
    ],
    "urls": [
     "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794924078.684282,
+   "title": "ElevenLabs Kotoba kompaniyasini sotib oldi",
+   "text": "ElevenLabs Yaponiyaga ixtisoslashgan Kotoba ovozli suniy intellekt kompaniyasini taxminan 100 million dollarga sotib olishga kelishib oldi.",
+   "orig_title": "ElevenLabs agrees to acquire Japan-focused voice AI company Kotoba in reported $100M deal",
+   "link": "https://www.musicbusinessworldwide.com/elevenlabs-agrees-to-acquire-japan-focused-voice-ai-company-kotoba-in-reported-100m-deal/",
+   "source": "musicbusinessworldwide.com",
+   "soha": "AI musiqa",
+   "baho": 9,
+   "experts": [
+    {
+     "kim": "Vanessa Larco",
+     "lavozim": "investor",
+     "fikr": "Voice is the only acceptable input mode for wearables. This acquisition will only accelerate the need for voice apps.",
+     "url": "https://techcrunch.com/2026/01/22/google-reportedly-snags-up-team-behind-ai-voice-startup-hume-ai/",
+     "domain": "techcrunch.com"
+    }
+   ],
+   "effect": "Bu bitimlar ovozli sun'iy intellekt texnologiyalarining rivojlanishini tezlashtirishi va taqiladigan qurilmalar bozorida ovozli ilovalarga talabni yanada oshirishi mumkin.",
+   "image": "https://www.musicbusinessworldwide.com/files/2026/11/sjc17stvht-IMG_9393-2-e1794886267454-1296x729.webp",
+   "domains": [
+    "musicbusinessworldwide.com",
+    "finance.yahoo.com",
+    "techcrunch.com"
+   ],
+   "urls": [
+    "https://www.musicbusinessworldwide.com/elevenlabs-agrees-to-acquire-japan-focused-voice-ai-company-kotoba-in-reported-100m-deal/",
+    "https://finance.yahoo.com/news/ai-voice-startup-elevenlabs-valued-130941722.html",
+    "https://techcrunch.com/2026/01/22/google-reportedly-snags-up-team-behind-ai-voice-startup-hume-ai/"
    ],
    "videos": []
   }
