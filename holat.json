@@ -298,20 +298,15 @@
   "https://www.wired.com/story/the-big-interview-podcast-lauren-goode-jensen-huang/": 1794895552.3226838,
   "https://openai.com/index/science-at-the-frontier": 1794895552.3226838,
   "https://openai.com/index/our-first-phase-of-embedded-assessments": 1794895552.3226838,
-  "https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm/": 1794895552.3226838
+  "https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm/": 1794895552.3226838,
+  "https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont/": 1794898979.8938375,
+  "https://techcrunch.com/2026/11/16/trump-says-ex-nvidia-ceo-jensen-huangs-affair-with-an-alleged-chinese-spy-did-not-threaten-national-security/": 1794898979.8938375,
+  "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/": 1794898979.8938375,
+  "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/": 1794898979.8938375,
+  "https://techcrunch.com/2026/11/16/audible-turns-to-ai-to-help-users-discover-audiobooks/": 1794898979.8938375
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1794553355.0297549,
-   "title": "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility",
-   "soha": "AI"
-  },
-  {
-   "t": 1794553355.0297549,
-   "title": "Cyberattack on Fireworks AI allowed hackers to access Notion customers’ chat transcripts",
-   "soha": "AI"
-  },
   {
    "t": 1794556851.815429,
    "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
@@ -835,6 +830,31 @@
   {
    "t": 1794895552.3226838,
    "title": "Freshworks alums raise $53M to take on Salesforce, HubSpot with AI-native CRM",
+   "soha": "AI"
+  },
+  {
+   "t": 1794898979.8938375,
+   "title": "All the questions Nvidia should answer on Tuesday — but probably won’t",
+   "soha": "AI"
+  },
+  {
+   "t": 1794898979.8938375,
+   "title": "Trump says ex-Nvidia CEO Jensen Huang’s affair with an alleged Chinese spy did not threaten national security",
+   "soha": "AI"
+  },
+  {
+   "t": 1794898979.8938375,
+   "title": "The open-source movement wants Jensen Huang back",
+   "soha": "AI"
+  },
+  {
+   "t": 1794898979.8938375,
+   "title": "OpenAI releases a new image classifier and ChatGPT warnings to combat CSAM",
+   "soha": "AI"
+  },
+  {
+   "t": 1794898979.8938375,
+   "title": "Audible turns to AI to help users discover audiobooks",
    "soha": "AI"
   }
  ],
@@ -2183,6 +2203,131 @@
     "https://uk.finance.yahoo.com/news/ai-startup-dreamteam-raises-capital-110000538.html"
    ],
    "videos": []
+  },
+  {
+   "t": 1794898979.8938375,
+   "title": "Nvidia to'lovlar va hisobotlar oldidan savollarga javob berishi kerak",
+   "text": "Nvidia vaqtinchalik bosh direktori va moliya direktori Colette Kress kompaniyaning uchinchi chorak natijalarini e'lon qiladigan muhim kunga duch kelmoqda.",
+   "orig_title": "All the questions Nvidia should answer on Tuesday — but probably won’t",
+   "link": "https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Kompaniya aksiyalarining qulashi va ishonchning yo'qolishi fonida uchinchi chorak natijalari va yangi rahbarning bayonotlari bozor uchun hal qiluvchi ahamiyatga ega bo'lishi mumkin.",
+   "image": "https://techcrunch.com/wp-content/uploads/2020/05/GettyImages-1147839035.jpg?resize=1200,800",
+   "domains": [
+    "techcrunch.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont/",
+    "https://finance.yahoo.com/markets/stocks/articles/complete-evaporation-confidence-6-critical-230248982.html"
+   ],
+   "videos": [
+    [
+     "https://www.youtube.com/watch?v=u7Xqu65Gh58",
+     "YouTube"
+    ]
+   ]
+  },
+  {
+   "t": 1794898979.8938375,
+   "title": "Trump Jensen Huang mojarosi milliy xavfsizlikka tahdid solmaganini aytdi",
+   "text": "Trump hukumat razvedka xodimlarining Alice Huang Xitoy josusi ekanligi haqidagi xulosalariga qarshi chiqdi.",
+   "orig_title": "Trump says ex-Nvidia CEO Jensen Huang’s affair with an alleged Chinese spy did not threaten national security",
+   "link": "https://techcrunch.com/2026/11/16/trump-says-ex-nvidia-ceo-jensen-huangs-affair-with-an-alleged-chinese-spy-did-not-threaten-national-security/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "AQSh prezidentining voqea milliy xavfsizlikka tahdid solmagani haqidagi bayonoti kompaniya atrofidagi siyosiy bosimni va tekshiruvlar yo'nalishini o'zgartirishi mumkin.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2297572109.jpg?w=1024",
+   "domains": [
+    "techcrunch.com",
+    "yahoo.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/16/trump-says-ex-nvidia-ceo-jensen-huangs-affair-with-an-alleged-chinese-spy-did-not-threaten-national-security/",
+    "https://www.yahoo.com/news/politics/articles/trump-says-ex-nvidia-ceo-191202200.html"
+   ],
+   "videos": [
+    [
+     "https://www.youtube.com/watch?v=QEqLipeYxQY",
+     "YouTube"
+    ]
+   ]
+  },
+  {
+   "t": 1794898979.8938375,
+   "title": "Ochiq kodli harakat Jensen Huangning qaytarilishini talab qilmoqda",
+   "text": "Ijtimoiy tarmoqlarda Jensen Huangni Nvidia bosh direktori lavozimiga qayta tiklash bo'yicha petitsiya tarqaldi va taniqli shaxslar imzo chekdi.",
+   "orig_title": "The open-source movement wants Jensen Huang back",
+   "link": "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/",
+   "source": "MIT Tech Review",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Ochiq kodli sun'iy intellekt tarafdorlarining Jensen Huangni lavozimiga qaytarish bo'yicha harakatlari va chip smuglassi bo'yicha yangi tadqiqotlar AQShning texnologik yetakchiligiga putur yetkazishi mumkin.",
+   "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/AP26289708196110.jpg?resize=1200,600",
+   "domains": [
+    "technologyreview.com",
+    "cnbc.com"
+   ],
+   "urls": [
+    "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/",
+    "https://www.cnbc.com/2026/11/16/nvidia-jensen-huang-return-tech.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794898979.8938375,
+   "title": "OpenAI bolalar xavfsizligini ta'minlash uchun yangi tasniflagich va ogohlantirishlarni chiqardi",
+   "text": "ChatGPT bolalar ekspluatatsiyasiga qarshi kurash doirasida taqiqlangan kontentga kirishga urinishgan hisoblarni 24 soatga bloklaydi.",
+   "orig_title": "OpenAI releases a new image classifier and ChatGPT warnings to combat CSAM",
+   "link": "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Yangi xavfsizlik vositalari va ogohlantirishlarning joriy etilishi bolalardan foydalanish materiallariga qarshi kurashda tekshiruvchilarning ishini yengillashtirishi va zararli kontent tarqalishini cheklashi mumkin.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/OpenAI-chatgpt-CSAM.jpeg?resize=1200,675",
+   "domains": [
+    "techcrunch.com",
+    "wired.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/",
+    "https://www.wired.com/story/openai-child-safety-reports-ncmec/"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794898979.8938375,
+   "title": "Audible kitobxonlarga audiotermlarni topishda yordam berish uchun sun'iy intellektdan foydalanadi",
+   "text": "Audible'ning sun'iy intellekt yordamida yaratilgan audio prevyulari kitob mavzularini va foydalanuvchilar nimani yoqtirganini qisqacha bayon qiladi.",
+   "orig_title": "Audible turns to AI to help users discover audiobooks",
+   "link": "https://techcrunch.com/2026/11/16/audible-turns-to-ai-to-help-users-discover-audiobooks/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Sun'iy intellekt yordamida audio kitoblarni kashf qilish funksiyasining ishga tushirilishi foydalanuvchilarga tanlov qilishni osonlashtirib, bozor raqobatida ustunlik berishi mumkin.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/Audible_Audio_Discovery_Still.jpeg?resize=1200,824",
+   "domains": [
+    "techcrunch.com",
+    "businessinsider.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/16/audible-turns-to-ai-to-help-users-discover-audiobooks/",
+    "https://www.businessinsider.com/guides/deals/audible-premium-plus-amazon-deal-2025"
+   ],
+   "videos": [
+    [
+     "https://www.youtube.com/watch?v=1HF2kJ_fn5E",
+     "YouTube"
+    ]
+   ]
   }
  ]
 }
