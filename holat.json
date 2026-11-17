@@ -304,30 +304,11 @@
   "https://techcrunch.com/2026/11/16/audible-turns-to-ai-to-help-users-discover-audiobooks/": 1794898979.8938375,
   "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai": 1794902470.3692682,
   "https://www.technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise/": 1794902470.3692682,
-  "https://www.wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess/": 1794902470.3692682
+  "https://www.wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess/": 1794902470.3692682,
+  "https://musically.com/2026/11/17/tuneart-ai-music-video-maker/": 1794913920.5300534
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1794568026.2777922,
-   "title": "Silicon Valley Is Still Defending Jensen Huang",
-   "soha": "AI"
-  },
-  {
-   "t": 1794568026.2777922,
-   "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
-   "soha": "AI"
-  },
-  {
-   "t": 1794568026.2777922,
-   "title": "Jensen Huang Basically Lit More Than $1 Trillion on Fire in Less Than a Month",
-   "soha": "AI"
-  },
-  {
-   "t": 1794568026.2777922,
-   "title": "Trump floats Apple chairman Tim Cook as Jensen Huang’s successor",
-   "soha": "AI"
-  },
   {
    "t": 1794571266.2177112,
    "title": "Oscars short film race: Filmmakers on animation, AI and storytelling",
@@ -847,6 +828,11 @@
    "t": 1794902470.3692682,
    "title": "Nvidia Was Already in Trouble Before the Jensen Huang Mess",
    "soha": "AI"
+  },
+  {
+   "t": 1794913920.5300534,
+   "title": "TuneArt is an indie AI-music-video maker with a pay-as-you-go model",
+   "soha": "AI musiqa"
   }
  ],
  "mavzu": {
@@ -854,93 +840,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1794740812.6366203,
-   "title": "A2E AI 225 ta video va rasm modellarini birlashtirgan platformani taqdim etdi",
-   "text": "A2E AI ijodkorlar va studiyalar uchun bitta brauzer interfeysida 225 ta generativ video va rasm modellarini jamlagan AI Video Generator xizmatini ishga tushirdi.",
-   "orig_title": "A2E AI Launches AI Video Generator With All-in-One Video and Image Models",
-   "link": "https://finance.yahoo.com/technology/ai/articles/a2e-ai-launches-ai-video-101800541.html",
-   "source": "finance.yahoo.com",
-   "soha": "AI video",
-   "baho": 8,
-   "experts": [],
-   "effect": "Bunday platformalar kichik jamoalar va ijodkorlar uchun bir nechta obuna xarajatlarini qisqartirib, sun'iy intellekt videolarini yaratish xarajatlarini sezilarli darajada kamaytirishi mumkin.",
-   "image": "https://s.yimg.com/lo/mysterio/api/9e76909b349ef6009e37418247018750626964d412c2c8afa657d420ef6a87f9/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fglobenewswire.com%2F4b914041d8f4e28e56df6fbf300c258b.jpg",
-   "domains": [
-    "finance.yahoo.com",
-    "theguardian.com",
-    "cnbc.com"
-   ],
-   "urls": [
-    "https://finance.yahoo.com/technology/ai/articles/a2e-ai-launches-ai-video-101800541.html",
-    "https://www.theguardian.com/technology/2026/aug/11/nvidia-wall-street-finance-ai-infrastructure",
-    "https://www.cnbc.com/select/best-peer-to-peer-personal-loans/"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794740812.6366203,
-   "title": "Meituan to‘liq Xitoy chiplarida o‘qitilgan 1,6 trillion parametrli modelni chiqardi",
-   "text": "Meituan kompaniyasi Nvidia chiplarisiz, 194 ta Huawei Ascend platformasida o‘qitilgan LongCat-2.5 agent modelini chiqardi. U Terminal Bench testida 88,4 ball to‘pladi.",
-   "orig_title": "Meituan releases a 1.6-trillion-parameter agent model that never touched an Nvidia GPU",
-   "link": "https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/",
-   "source": "The Decoder",
-   "soha": "AI",
-   "baho": 7,
-   "experts": [],
-   "effect": "Modelning mahalliy chip va infratuzilmalarda muvaffaqiyatli o'qitilishi xorijiy texnologiyalarga bog'liqlikni kamaytirib, Osiyo bozorida muqobil sun'iy intellekt yechimlarini rivojlantirishni tezlashtirishi mumkin.",
-   "image": "https://the-decoder.com/wp-content/uploads/2026/11/meituan-logo-wall-chatgpt-5.6.jpg",
-   "domains": [
-    "the-decoder.com",
-    "hk.finance.yahoo.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/",
-    "https://hk.finance.yahoo.com/news/%E7%BE%8E%E5%9C%98%E7%99%BC%E5%B8%83%E5%8D%87%E7%B4%9A%E7%89%88longcat-2-5-%E5%A4%9A%E9%A0%85%E6%99%BA%E8%83%BD%E9%AB%94%E7%B7%A8%E7%A8%8B%E6%8C%87%E6%A8%99%E5%84%AA%E6%96%BCgpt-5-042719488.html",
-    "https://finance.yahoo.com/news/chinese-delivery-giant-meituan-unleashes-093000347.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794740812.6366203,
-   "title": "Avstraliya markaziy banki: AI dasturchi va xizmat ko‘rsatuvchi yoshlarning ishini qisqartirmoqda",
-   "text": "Avstraliya markaziy banki tadqiqotiga ko‘ra, ChatGPT chiqqanidan beri 15–24 yosh oralig‘idagi dasturchi va mijozlarga xizmat ko‘rsatish xodimlarining bandligi sezilarli kamaygan.",
-   "orig_title": "Australia's central bank finds AI hitting young workers first, especially in software and customer service",
-   "link": "https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service/",
-   "source": "The Decoder",
-   "soha": "AI",
-   "baho": 5,
-   "experts": [
-    {
-     "kim": "Angelo Kourkafas",
-     "lavozim": "katta global strateg",
-     "fikr": "Ish haqi o'sishi kuchaydi, ishsizlik darajasi pasaydi va bandlik ko'rsatkichlari kutilganidan yuqori keldi.",
-     "url": "https://sg.news.yahoo.com/us-sees-unexpected-jobs-boom-184806815.html",
-     "domain": "sg.news.yahoo.com"
-    },
-    {
-     "kim": "Brian Bethune",
-     "lavozim": "iqtisodchi",
-     "fikr": "Dekabr oyida yana bir foiz stavkasi oshirilishi va 2027 yil boshida yana shunday qadam tashlanishi kutilmoqda.",
-     "url": "https://sg.news.yahoo.com/us-sees-unexpected-jobs-boom-184806815.html",
-     "domain": "sg.news.yahoo.com"
-    }
-   ],
-   "effect": "Sun'iy intellektning kirib kelishi dastlabki bosqichda yosh dasturchilar va boshlang'ich darajadagi mutaxassislarning ish topish imkoniyatlarini pasaytirib, kelgusida tajribali kadrlar yetishmasligiga olib kelishi mumkin.",
-   "image": "https://the-decoder.com/wp-content/uploads/2026/11/ai_impact_australian_jobs.png",
-   "domains": [
-    "the-decoder.com",
-    "finance.yahoo.com",
-    "sg.news.yahoo.com"
-   ],
-   "urls": [
-    "https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service/",
-    "https://finance.yahoo.com/markets/stocks/articles/uk-stock-market-today-ftse-071310847.html",
-    "https://sg.news.yahoo.com/us-sees-unexpected-jobs-boom-184806815.html"
-   ],
-   "videos": []
-  },
   {
    "t": 1794744061.3180876,
    "title": "Suno Reservoir da'vosida talablar 445 million dollarga yetdi",
@@ -2388,6 +2287,30 @@
     "https://www.wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess/",
     "https://finance.yahoo.com/video/nvidias-competitors-pounce-and-what-gpu-rental-prices-say-about-the-ai-race-221551379.html",
     "https://www.cnbc.com/video/2026/11/13/nvidias-grip-on-ai-chip-supply-chain-to-weaken.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794913920.5300534,
+   "title": "TuneArt indie sun'iy intellekt musiqa va video Maker'ni taqdim etdi",
+   "text": "TuneArt mualliflar uchun sun'iy intellekt yordamida musiqa va video yaratishga mo'ljallangan yangi xizmatni pay-as-you-go modeli asosida ishga tushirdi.",
+   "orig_title": "TuneArt is an indie AI-music-video maker with a pay-as-you-go model",
+   "link": "https://musically.com/2026/11/17/tuneart-ai-music-video-maker/",
+   "source": "musically.com",
+   "soha": "AI musiqa",
+   "baho": 9,
+   "experts": [],
+   "effect": "Sun'iy intellekt yordamida musiqa klip va filmlar yaratish vositalarining ommalashuvi kichik studiyalar uchun xarajatlarni kamaytirishi mumkin. Shuningdek, bunday loyihalar kelgusida kino industriyasida raqobat muhitini o'zgartirishi ehtimoli bor.",
+   "image": "https://i0.wp.com/musically.com/wp-content/uploads/2026/11/Screenshot-2026-11-16-at-13.29.14.png?fit=1143%2C954&ssl=1",
+   "domains": [
+    "musically.com",
+    "theverge.com",
+    "cnbc.com"
+   ],
+   "urls": [
+    "https://musically.com/2026/11/17/tuneart-ai-music-video-maker/",
+    "https://www.theverge.com/entertainment/1026282/grimes-ai-movie",
+    "https://www.cnbc.com/news-videos/"
    ],
    "videos": []
   }
