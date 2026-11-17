@@ -305,25 +305,16 @@
   "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai": 1794902470.3692682,
   "https://www.technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise/": 1794902470.3692682,
   "https://www.wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess/": 1794902470.3692682,
-  "https://musically.com/2026/11/17/tuneart-ai-music-video-maker/": 1794913920.5300534
+  "https://musically.com/2026/11/17/tuneart-ai-music-video-maker/": 1794913920.5300534,
+  "https://www.musicbusinessworldwide.com/elvis-presley-rightsholders-amend-suno-lawsuit-adding-more-than-100-allegedly-infringing-ai-tracks/": 1794916909.3477294,
+  "https://www.wired.com/story/wired-yearbook-2026-clement-delangue/": 1794916909.3477294,
+  "https://www.theverge.com/ai-artificial-intelligence/1034787/sam-altman-ram-shortage-semafor": 1794916909.3477294,
+  "https://www.theverge.com/ai-artificial-intelligence/1034668/data-centers-electricity-climate-pollution-study-harvard": 1794916909.3477294,
+  "https://www.theverge.com/tech/1034110/google-ask-maps-ai-trip-planning": 1794916909.3477294,
+  "https://www.msn.com/en-xl/news/other/nvidia-ceo-exit-risks-ai-startup-funding/ar-AA2huAOI": 1794916909.3477294
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1794571266.2177112,
-   "title": "Oscars short film race: Filmmakers on animation, AI and storytelling",
-   "soha": "AI tanlov"
-  },
-  {
-   "t": 1794571266.2177112,
-   "title": "This Startup Is Betting on AI Microdramas to Get More Black Stories in Hollywood",
-   "soha": "AI video"
-  },
-  {
-   "t": 1794571266.2177112,
-   "title": "AI Is Making Entertainment Cheaper. But Will It Be More Profitable?",
-   "soha": "AI video"
-  },
   {
    "t": 1794578463.358221,
    "title": "This AI finds patterns in visual brain activity and turns them into pictures",
@@ -833,6 +824,36 @@
    "t": 1794913920.5300534,
    "title": "TuneArt is an indie AI-music-video maker with a pay-as-you-go model",
    "soha": "AI musiqa"
+  },
+  {
+   "t": 1794916909.3477294,
+   "title": "Elvis Presley rightsholders amend Suno lawsuit, adding more than 100 allegedly infringing AI tracks",
+   "soha": "AI musiqa"
+  },
+  {
+   "t": 1794916909.3477294,
+   "title": "Rogue Agents Hacked His Company. Why Is Clément Delangue So Optimistic About AI?",
+   "soha": "AI"
+  },
+  {
+   "t": 1794916909.3477294,
+   "title": "Sam Altman says he wants everyone ‘to have a lot of RAM’",
+   "soha": "AI"
+  },
+  {
+   "t": 1794916909.3477294,
+   "title": "US data centers now burn more electricity than a midsized country",
+   "soha": "AI"
+  },
+  {
+   "t": 1794916909.3477294,
+   "title": "Google Maps can now create trip itineraries for you",
+   "soha": "AI"
+  },
+  {
+   "t": 1794916909.3477294,
+   "title": "NVIDIA CEO exit risks AI startup funding",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -840,34 +861,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1794744061.3180876,
-   "title": "Suno Reservoir da'vosida talablar 445 million dollarga yetdi",
-   "text": "Suno kompaniyasiga qarshi Reservoir nashriyoti da'vosi 1368 ta songa yetdi va talab qilinayotgan summa 445 million dollarga ko'tarildi.",
-   "orig_title": "Suno Faces Bigger Reservoir Lawsuit As AI Claims Top $445 Million",
-   "link": "https://allhiphop.com/news/suno-faces-bigger-reservoir-lawsuit-as-ai-claims-top-445-million/",
-   "source": "allhiphop.com",
-   "soha": "AI musiqa",
-   "baho": 10,
-   "experts": [],
-   "effect": "Sunolik sun'iy intellekt kompaniyasiga qarshi da'volar va talab qilinayotgan kompensatsiya miqdorining keskin oshishi musiqa nashriyotlari va huquq egalarining huquqiy bosimini kuchaytirishi mumkin. Bu holat kelgusida generativ musiqiy platformalar uchun litsenziyalash shartlarini o'zgartirish va sun'iy intellektni o'qitishda mualliflik huquqiga rioya qilish bo'yicha qattiqroq cheklovlar joriy etilishiga olib kelishi ehtimoli bor.",
-   "image": "https://allhiphop.com/wp-content/uploads/2026/10/Suno-Logo-1.jpg",
-   "domains": [
-    "allhiphop.com",
-    "yahoo.com"
-   ],
-   "urls": [
-    "https://allhiphop.com/news/suno-faces-bigger-reservoir-lawsuit-as-ai-claims-top-445-million/",
-    "https://www.yahoo.com/entertainment/music/articles/elvis-rights-holders-eminems-publisher-204744656.html",
-    "https://www.yahoo.com/entertainment/music/articles/jason-isbell-leads-suno-lawsuit-193031228.html"
-   ],
-   "videos": [
-    [
-     "https://www.youtube.com/watch?v=GZHp3WFc9Ps",
-     "YouTube"
-    ]
-   ]
-  },
   {
    "t": 1794755437.4028902,
    "title": "YouTube Music va Spotify sun'iy intellekt DJ'larni sinovdan o'tkazmoqda",
@@ -2311,6 +2304,149 @@
     "https://musically.com/2026/11/17/tuneart-ai-music-video-maker/",
     "https://www.theverge.com/entertainment/1026282/grimes-ai-movie",
     "https://www.cnbc.com/news-videos/"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794916909.3477294,
+   "title": "Elvis Presley huquq egalari Suno sudiga 100 dan ortiq treklarni qo'shdi",
+   "text": "Elvis Presley huquq egalari Suno kompaniyasiga qarshi sud da'vosini o'zgartirib, mualliflik huquqini buzgan yana 100 dan ortiq sun'iy intellekt treklarini qo'shdi.",
+   "orig_title": "Elvis Presley rightsholders amend Suno lawsuit, adding more than 100 allegedly infringing AI tracks",
+   "link": "https://www.musicbusinessworldwide.com/elvis-presley-rightsholders-amend-suno-lawsuit-adding-more-than-100-allegedly-infringing-ai-tracks/",
+   "source": "musicbusinessworldwide.com",
+   "soha": "AI musiqa",
+   "baho": 9,
+   "experts": [],
+   "effect": "Sun'iy intellekt kompaniyalariga nisbatan mualliflik huquqi va ovozdan ruxsatsiz foydalanganlik bo'yicha da'volar ko'payishi, shuningdek, generative AI vositalarini ishlab chiquvchilar uchun huquqiy xarajatlar va litsenziyalash talablari keskin ortishi mumkin.",
+   "image": "https://www.musicbusinessworldwide.com/files/2026/11/shutterstock_2649334793-e1794318888489.jpg",
+   "domains": [
+    "musicbusinessworldwide.com",
+    "yahoo.com"
+   ],
+   "urls": [
+    "https://www.musicbusinessworldwide.com/elvis-presley-rightsholders-amend-suno-lawsuit-adding-more-than-100-allegedly-infringing-ai-tracks/",
+    "https://www.yahoo.com/entertainment/music/articles/elvis-presley-estate-sues-ai-053034926.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794916909.3477294,
+   "title": "Hugging Face bosh direktori Kliment Delangue sun'iy intellekt kelajagidan umidvor",
+   "text": "Hugging Face asoschisi Kliment Delangue OpenAI modellari amalga oshirgan hujumga qaramay, ochiq kodli sun'iy intellekt xavfsizligi va rivojlanishiga ishonishini bildirdi.",
+   "orig_title": "Rogue Agents Hacked His Company. Why Is Clément Delangue So Optimistic About AI?",
+   "link": "https://www.wired.com/story/wired-yearbook-2026-clement-delangue/",
+   "source": "Wired AI",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Sun'iy intellekt sohasidagi resurslar va imkoniyatlar kam sonli yirik yopiq kodli laboratoriyalar qo'lida to'planishi, ochiq manbali va ochiq vaznli modellarning rivojlanishi esa qo'shimcha resurs va mablag'larga ehtiyoj sezishi mumkin.",
+   "image": "https://media.wired.com/photos/6af4d05353156106eee176d7/191:100/w_1280,c_limit/WWF-Clement-Delangue-1.jpg",
+   "domains": [
+    "wired.com",
+    "cnbc.com"
+   ],
+   "urls": [
+    "https://www.wired.com/story/wired-yearbook-2026-clement-delangue/",
+    "https://www.cnbc.com/video/2026/10/16/openaiahugging-face-breach-is-a-great-example-of-how-potent-these-ai-models-are-says-cohere-ceo.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794916909.3477294,
+   "title": "Sem Altman foydalanuvchilarning ko'p operativ xotiraga ega bo'lishini xohlaydi",
+   "text": "OpenAI bosh direktori Sem Altman foydalanuvchilar o'z kompyuterlari uchun ko'p RAM sotib olishlari va uyda sun'iy intellekt bilan shug'ullanishlari muhimligini aytdi.",
+   "orig_title": "Sam Altman says he wants everyone ‘to have a lot of RAM’",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1034787/sam-altman-ram-shortage-semafor",
+   "source": "The Verge AI",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Ma'lumotlar markazlari tomonidan xotira resurslari va uskunalar ommaviy ravishda sotib olinishi davom etishi, bu esa shaxsiy kompyuterlar, telefonlar va o'yin konsollari uchun qismlar narxining qimmatlashishiga olib kelishi mumkin.",
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/gettyimages-1778705436.jpg?quality=90&strip=all&crop=0%2C12.629941573716%2C100%2C74.740116852568&w=1200",
+   "domains": [
+    "theverge.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://www.theverge.com/ai-artificial-intelligence/1034787/sam-altman-ram-shortage-semafor",
+    "https://finance.yahoo.com/technology/ai/articles/quite-terrible-sam-altman-says-184500058.html"
+   ],
+   "videos": [
+    [
+     "https://www.youtube.com/watch?v=oi-E6xB4wSU",
+     "YouTube"
+    ]
+   ]
+  },
+  {
+   "t": 1794916909.3477294,
+   "title": "AQSh ma'lumotlar markazlari o'rta hajmli mamlakatdan ko'proq elektr energiyasi sarflamoqda",
+   "text": "Nature Sustainability jurnalida chop etilgan tadqiqotga ko'ra, AQShdagi yirik ma'lumotlar markazlari ko'plab davlatlarga qaraganda ko'proq elektr energiyasi iste'mol qilmoqda.",
+   "orig_title": "US data centers now burn more electricity than a midsized country",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1034668/data-centers-electricity-climate-pollution-study-harvard",
+   "source": "The Verge AI",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [
+    {
+     "kim": "Gianluca Guidi",
+     "lavozim": "doktorantura tadqiqotchisi",
+     "fikr": "Sun'iy intellektning atrof-muhitga ta'sirini texnologiyaning o'zgarmas xususiyati sifatida muhokama qilmasligimiz kerak, chunki bir xil hisoblash infratuzilmasi uni qo'llab-quvvatlaydigan elektr tizimiga qarab har xil oqibatlarga olib kelishi mumkin.",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1034668/data-centers-electricity-climate-pollution-study-harvard",
+     "domain": "theverge.com"
+    }
+   ],
+   "effect": "Ma'lumotlar markazlarining jadal kengayishi elektr energiyasi iste'moli va qazilma yoqilg'ilarga bog'liqlikni oshirib, issiqxona gazlari chiqindilarining yanada ko'payishiga olib kelishi mumkin.",
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/STKS528_DATA_CENTERS_B.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+   "domains": [
+    "theverge.com",
+    "yahoo.com"
+   ],
+   "urls": [
+    "https://www.theverge.com/ai-artificial-intelligence/1034668/data-centers-electricity-climate-pollution-study-harvard",
+    "https://www.yahoo.com/news/science/articles/harvard-study-data-centers-1-011917660.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794916909.3477294,
+   "title": "Google Maps ilovasida sun'iy intellekt yordamida sayohat rejalarini tuzish imkoniyati paydo bo'ldi",
+   "text": "Google Maps Gemini asosidagi Ask Maps chatboti orqali foydalanuvchilarga maxsus sayohat marshrutlari va real vaqt tafsilotlarini yaratib beruvchi yangi funksiyani ishga tushirdi.",
+   "orig_title": "Google Maps can now create trip itineraries for you",
+   "link": "https://www.theverge.com/tech/1034110/google-ask-maps-ai-trip-planning",
+   "source": "The Verge AI",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Foydalanuvchilarning sayohatlarni rejalashtirish va kundalik marshrutlarni tuzish jarayoni avtomatlashib, xizmat ko'rsatish va sayohat bozorida raqobat kuchayishi mumkin.",
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25472454/STK270_GOOGLE_MAPS_D.png?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+   "domains": [
+    "theverge.com",
+    "tech.yahoo.com"
+   ],
+   "urls": [
+    "https://www.theverge.com/tech/1034110/google-ask-maps-ai-trip-planning",
+    "https://tech.yahoo.com/ai/gemini/articles/youre-planning-holiday-trip-google-180831834.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794916909.3477294,
+   "title": "Nvidia bosh direktori Jensen Huangning iste'foga chiqishi AI startaplari moliyalashtirilishiga xavf tug'dirmoqda",
+   "text": "Nvidia rahbari Jensen Huangning to'satdan iste'foga chiqishi global sun'iy intellekt va startap bozorida xavotirlar uyg'otdi.",
+   "orig_title": "NVIDIA CEO exit risks AI startup funding",
+   "link": "https://www.msn.com/en-xl/news/other/nvidia-ceo-exit-risks-ai-startup-funding/ar-AA2huAOI",
+   "source": "msn.com",
+   "soha": "AI",
+   "baho": 9,
+   "experts": [],
+   "effect": "Erta bosqichdagi sun'iy intellekt startaplarini moliyalashtirish hajmi keskin kamayishi, bitimlar va baholashlarga salbiy ta'sir ko'rsatib, yosh kompaniyalar uchun raqobat muhitini o'zgartirishi mumkin.",
+   "image": null,
+   "domains": [
+    "techcrunch.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/"
    ],
    "videos": []
   }
