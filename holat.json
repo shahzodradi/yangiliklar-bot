@@ -284,90 +284,15 @@
   "https://www.digitalmusicnews.com/2026/11/16/suno-bridge-daw-integrations-ableton/": 1794884577.3722079,
   "https://the-decoder.com/openais-gpt-6-astra-tackles-the-standard-models-toughest-math-problem-on-a-lattice/": 1794884577.3722079,
   "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit": 1794884577.3722079,
-  "https://techcrunch.com/2026/11/16/jordan-belforts-new-ai-voice-startup-tone-wants-to-sell-like-the-wolf-of-wall-street/": 1794884577.3722079
+  "https://techcrunch.com/2026/11/16/jordan-belforts-new-ai-voice-startup-tone-wants-to-sell-like-the-wolf-of-wall-street/": 1794884577.3722079,
+  "https://www.uscannenbergmedia.com/2026/11/16/usc-students-build-ai-tools-for-campus-life-at-two-day-hackathon/": 1794888082.8592849,
+  "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/": 1794888082.8592849,
+  "https://www.theverge.com/tech/1034581/apple-intelligence-siri-ai-daily-usage-limits-icloud-subscription": 1794888082.8592849,
+  "https://www.theverge.com/policy/1034527/openai-csam-classifier": 1794888082.8592849,
+  "https://openai.com/index/expanding-chatgpt-for-academic-researchers": 1794888082.8592849
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1794539130.7424104,
-   "title": "AI Movie Awards Announces Winners Of First London Edition, Celebrating Global AI Filmmaking Talent",
-   "soha": "AI tanlov"
-  },
-  {
-   "t": 1794539130.7424104,
-   "title": "Nine creators win AI‑powered competition at Afreximbank’s Creative Africa Nexus Weekend in Lagos",
-   "soha": "AI tanlov"
-  },
-  {
-   "t": 1794539130.7424104,
-   "title": "ByteDance's Volcano Engine Launches Seedance 2.5 Flash Video Model With Doubled Speed and Lower Costs",
-   "soha": "AI video"
-  },
-  {
-   "t": 1794539130.7424104,
-   "title": "Kling 4.0 vs. Seedance 2.5: Which AI Video Generator Is Better?",
-   "soha": "AI video"
-  },
-  {
-   "t": 1794539130.7424104,
-   "title": "Runway Open-Sources Praxis-1, a 27B-Parameter Robot AI That Applies Video Learning to Robot Control",
-   "soha": "AI video"
-  },
-  {
-   "t": 1794539130.7424104,
-   "title": "Google's Gemini 4 Hydrogen outscores the bigger Argon just four weeks after its launch",
-   "soha": "AI"
-  },
-  {
-   "t": 1794539130.7424104,
-   "title": "Claude Meetings lets Anthropic's AI join your video calls",
-   "soha": "AI"
-  },
-  {
-   "t": 1794539130.7424104,
-   "title": "Voice AI Startup Hits $100 Million Run Rate With $4.6 Million Funding",
-   "soha": "AI"
-  },
-  {
-   "t": 1794539130.7424104,
-   "title": "Nebius tests the neocloud playbook with $40 billion in planned spending",
-   "soha": "AI"
-  },
-  {
-   "t": 1794539130.7424104,
-   "title": "Norwest pushes deeper into AI with new $4B fund",
-   "soha": "AI"
-  },
-  {
-   "t": 1794542462.6867118,
-   "title": "Adobe Firefly: what’s new, and who it’s really for",
-   "soha": "AI video"
-  },
-  {
-   "t": 1794542462.6867118,
-   "title": "Democrats launch Nvidia investigation, write scathing letter on Huang’s ‘scheme’ with Trump",
-   "soha": "AI"
-  },
-  {
-   "t": 1794542462.6867118,
-   "title": "Muse can now place calls to US businesses — if you pay",
-   "soha": "AI"
-  },
-  {
-   "t": 1794542462.6867118,
-   "title": "Google’s latest Search upgrade promises better answers to your most complicated questions",
-   "soha": "AI"
-  },
-  {
-   "t": 1794542462.6867118,
-   "title": "AI chatbots are recommending fake retail websites, study finds",
-   "soha": "AI"
-  },
-  {
-   "t": 1794542462.6867118,
-   "title": "More game developers are starting to use generative AI",
-   "soha": "AI"
-  },
   {
    "t": 1794546541.9908485,
    "title": "Phota Labs uses AI to turn everyday photos into professional-looking shots",
@@ -852,6 +777,31 @@
    "t": 1794884577.3722079,
    "title": "Jordan Belfort’s new AI voice startup, Tone, wants to sell like the ‘Wolf of Wall Street’",
    "soha": "AI"
+  },
+  {
+   "t": 1794888082.8592849,
+   "title": "USC students build AI tools for campus life at two-day hackathon",
+   "soha": "AI tanlov"
+  },
+  {
+   "t": 1794888082.8592849,
+   "title": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
+   "soha": "AI"
+  },
+  {
+   "t": 1794888082.8592849,
+   "title": "Apple is testing daily usage limits for more complex Siri AI interactions",
+   "soha": "AI"
+  },
+  {
+   "t": 1794888082.8592849,
+   "title": "OpenAI wants to stop deepfakes from overwhelming child abuse tiplines",
+   "soha": "AI"
+  },
+  {
+   "t": 1794888082.8592849,
+   "title": "Broadening access to AI for scientists",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -859,141 +809,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1794712057.838092,
-   "title": "Xania Monet AI Music Awards mukofotida uchta asosiy sovrinni qo‘lga kiritdi",
-   "text": "Suno orqali vokal yaratuvchi Xania Monet AI Music Awards taqdirlash marosimida yilning eng yaxshi artisti, qo‘shig‘i va albomi nominatsiyalarida g‘olib deb topildi.",
-   "orig_title": "Xania Monet Wins Artist, Song & Album Honors At AI Music Awards",
-   "link": "https://allhiphop.com/news/xania-monet-wins-artist-song-album-honors-at-ai-music-awards/",
-   "source": "allhiphop.com",
-   "soha": "AI tanlov",
-   "baho": 10,
-   "experts": [],
-   "effect": "Sun'iy intellekt yordamida yaratilgan musiqiy loyihalarning mukofotr olishi va ommalashishi an'anaviy musiqa sanoatida mualliflik huquqi va ijodiy mehnat qadr-qimmati borasidagi baholarni yanada kuchaytirishi mumkin.",
-   "image": "https://allhiphop.com/wp-content/uploads/2025/11/Ai-Artist-Xania-Monet.png",
-   "domains": [
-    "allhiphop.com",
-    "yahoo.com",
-    "de.nachrichten.yahoo.com"
-   ],
-   "urls": [
-    "https://allhiphop.com/news/xania-monet-wins-artist-song-album-honors-at-ai-music-awards/",
-    "https://www.yahoo.com/entertainment/music/festivals/articles/inside-first-ai-music-awards-233941812.html",
-    "https://de.nachrichten.yahoo.com/erste-ai-music-awards-los-142228574.html"
-   ],
-   "videos": [
-    [
-     "https://www.youtube.com/watch?v=EUBhjOToIC0",
-     "YouTube"
-    ]
-   ]
-  },
-  {
-   "t": 1794712057.838092,
-   "title": "Anthropic rahbari rekord IPO arafasida hisoblash quvvati xarajatlari xavfini bildirdi",
-   "text": "Anthropic bosh direktori Dario Amodei IPO oldidan kompaniyaning hisoblash quvvati bo‘yicha majburiyatlari qariyb 901 milliard dollarga yetganini va kelajakdagi daromadlar bu xarajatlarni qoplashi noaniq ekanini aytdi.",
-   "orig_title": "Anthropic CEO Amodei admits \"there's a huge uncertainty in what's going to happen next year\" days before a record IPO",
-   "link": "https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo/",
-   "source": "The Decoder",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Tarixdagi eng yirik IPO'lardan birining amalga oshirilishi sun'iy intellekt bozoriga ulkan sarmoyalar oqimini ta'minlab, kompaniyaning hisoblash quvvatlari va infratuzilma xarajatlarini keskin oshirishi ehtimoli bor.",
-   "image": "https://the-decoder.com/wp-content/uploads/2026/11/anthropic_logos-5.png",
-   "domains": [
-    "the-decoder.com",
-    "finance.yahoo.com",
-    "techcrunch.com"
-   ],
-   "urls": [
-    "https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo/",
-    "https://finance.yahoo.com/technology/ai/articles/amodei-highlights-computing-power-capex-220204087.html?fr=sycsrp_catchall",
-    "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/"
-   ],
-   "videos": [
-    [
-     "https://x.com/firesidealpha/status/2121303747012030844",
-     "X"
-    ]
-   ]
-  },
-  {
-   "t": 1794712057.838092,
-   "title": "Elon Musk va texnologiya rahbarlari Jensen Huangni qaytarish petitsiyasini imzoladi",
-   "text": "Elon Musk va boshqa IT rahbarlari Jensen Huangni Nvidia bosh direktori lavozimiga qaytarishni talab qiluvchi petitsiyani imzoladi. Hujjat 115 000 dan ortiq imzo to‘pladi.",
-   "orig_title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
-   "link": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
-   "source": "TechCrunch AI",
-   "soha": "AI",
-   "baho": 7,
-   "experts": [],
-   "effect": "Bosh direktorning iste'fosi va uning ortidan yuzaga kelgan noroziliklar Nvidia aksiyalari narxining tushishiga hamda sun'iy intellekt sanoatini moliyalashtirishda bo'shliqlar paydo bo'lishiga olib kelishi mumkin.",
-   "image": "https://techcrunch.com/wp-content/uploads/2025/05/GettyImages-2216028442.jpg?w=1024",
-   "domains": [
-    "techcrunch.com",
-    "businessinsider.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
-    "https://www.businessinsider.com/petition-reinstate-jensen-huang-nvidia-elon-musk-2026-11",
-    "https://finance.yahoo.com/markets/stocks/articles/elon-musk-tom-lee-shopify-042453542.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794712057.838092,
-   "title": "Nvidia’ning AI startaplarini moliyalashtirishi geymerlar uchun videokartalarni qimmatlashtirgani aniqlandi",
-   "text": "Yangi surishtiruvga ko‘ra, Nvidia tomonidan sun’iy intellekt kompaniyalariga kiritilgan investitsiyalar oddiy shaxsiy kompyuter geymerlari uchun videokarta narxlarining sun’iy oshishiga olib kelgan bo‘lishi mumkin.",
-   "orig_title": "NVIDIA Potentially Made GPU More Expensive For Gamers By Funding AI Startups",
-   "link": "https://gamerant.com/nvidia-jensen-huang-gpu-prices-ai-startup-deals/",
-   "source": "gamerant.com",
-   "soha": "AI",
-   "baho": 6,
-   "experts": [],
-   "effect": "Moliyaviy kafolatlar va kredit yordami orqali chip savdosining rag'batlantirilishi kelgusida o'yinchi uchun mo'ljallangan GPU'larning narxi yanada qimmatlashishiga sabab bo'lishi ehtimoli bor.",
-   "image": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/11/nvidia-white-and-black-logo-on-lime-green-1.jpg?w=1600&h=900&fit=crop",
-   "domains": [
-    "gamerant.com",
-    "techcrunch.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://gamerant.com/nvidia-jensen-huang-gpu-prices-ai-startup-deals/",
-    "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
-    "https://finance.yahoo.com/video/nvidia-stock-reacts-as-huang-admits-to-an-affair-with-a-chinese-spy-anthropic-moves-ahead-with-ipo-145459810.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794715255.1199021,
-   "title": "IDFA festivalida AI hujjatli filmlarga qiziqish ortmoqda",
-   "text": "Dunyoning eng yirik hujjatli film festivali IDFA o'zining tanlov dasturlarida sun'iy intellekt texnologiyalaridan foydalanishga katta e'tibor qaratmoqda.",
-   "orig_title": "IDFA Artistic Director Isabel Arrate Fernandez On Festival’s Competition Lineups, “Huge” Interest In Elizabeth Holmes Doc, And AI In Documentaries",
-   "link": "https://www.yahoo.com/entertainment/movies/articles/idfa-artistic-director-isabel-arrate-123652501.html",
-   "source": "yahoo.com",
-   "soha": "AI tanlov",
-   "baho": 10,
-   "experts": [],
-   "effect": "Bu festival hujjatli kino bozorida yangi tendentsiyalarni shakllantirishi va ijodkorlar uchun xalqaro hamkorlikni kengaytirish ehtimolini oshirishi mumkin.",
-   "image": "https://s.yimg.com/lo/mysterio/api/e4e70e7c07e54fc574b59416f64e3fc9e594e9095724b3618fe34afe95e07b81/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fdeadline.com%2F0df10a02bf8b002fff555460fc48f16a.jpg",
-   "domains": [
-    "yahoo.com",
-    "screendaily.com",
-    "deadline.com"
-   ],
-   "urls": [
-    "https://www.yahoo.com/entertainment/movies/articles/idfa-artistic-director-isabel-arrate-123652501.html",
-    "https://www.screendaily.com/features/idfa-head-isabel-arrate-fernandez-on-the-you-can-see-everything-effect-on-the-doc-sector/5222313.article",
-    "https://deadline.com/2026/09/2026-idfa-signed-best-of-fests-short-documentary-competition-announcement-1237115956/"
-   ],
-   "videos": [
-    [
-     "https://www.youtube.com/watch?v=_PwKnAadXCc",
-     "YouTube"
-    ]
-   ]
-  },
   {
    "t": 1794740812.6366203,
    "title": "A2E AI 225 ta video va rasm modellarini birlashtirgan platformani taqdim etdi",
@@ -1991,6 +1806,131 @@
    "urls": [
     "https://techcrunch.com/2026/11/16/jordan-belforts-new-ai-voice-startup-tone-wants-to-sell-like-the-wolf-of-wall-street/",
     "https://www.yahoo.com/entertainment/celebrity/articles/jordan-belfort-made-millions-wolf-174441089.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794888082.8592849,
+   "title": "USC talabalari ikki kunlik hackatonda kampus hayoti uchun AI vositalarini yaratishdi",
+   "text": "USC bakalavr va magistratura talabalari universitet resurslaridan foydalanish va karyerani rejalashtirishga yordam beruvchi sun'iy intellekt vositalarini ishlab chiqishdi.",
+   "orig_title": "USC students build AI tools for campus life at two-day hackathon",
+   "link": "https://www.uscannenbergmedia.com/2026/11/16/usc-students-build-ai-tools-for-campus-life-at-two-day-hackathon/",
+   "source": "uscannenbergmedia.com",
+   "soha": "AI tanlov",
+   "baho": 10,
+   "experts": [],
+   "effect": "Talabalar uchun sun'iy intellekt vositalarini yaratish va raqamli ko'nikmalarni oshirish imkoniyatlari kengayishi, shuningdek kelgusida amaliyot va ishga joylashish yo'llari ochilishi mumkin.",
+   "image": "https://uscannenberg-uscannenberg-prod.web.arc-cdn.net/resizer/v2/NXXCUFHXC5DVPHSVY7YZHVELXM.jpg?smart=true&auth=c8582d94ba9ae2c2cac206f059ffb90dd7db17568a7cb8932a6c4ee1283f75f3&width=1200&height=630",
+   "domains": [
+    "uscannenbergmedia.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://www.uscannenbergmedia.com/2026/11/16/usc-students-build-ai-tools-for-campus-life-at-two-day-hackathon/",
+    "https://finance.yahoo.com/technology/articles/eastern-michigan-university-students-organize-130300430.html"
+   ],
+   "videos": [
+    [
+     "https://www.youtube.com/watch?v=rUwzmXX20Ks",
+     "YouTube"
+    ],
+    [
+     "https://www.youtube.com/watch?v=ibR3rRdQMZI",
+     "YouTube"
+    ],
+    [
+     "https://www.youtube.com/watch?v=Q_0etimjWf4",
+     "YouTube"
+    ],
+    [
+     "https://www.youtube.com/watch?v=JjOPIm7Deg4",
+     "YouTube"
+    ]
+   ]
+  },
+  {
+   "t": 1794888082.8592849,
+   "title": "Kiberxavfsizlik bo'yicha AI startapi Corma 3 oy ichida 1 milliard dollarlik bahoga erishdi",
+   "text": "Mahsulotini taqdim etganidan beri uch oy o'tgan Corba startapi NEA boshchiligida 125 million dollarlik Series A investitsiyasini jalb qildi.",
+   "orig_title": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
+   "link": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 9,
+   "experts": [],
+   "effect": "Kiberxavfsizlik sohasida sun'iy intellektga asoslangan mudofaa vositalariga qiziqish yanada ortib, ushbu yo'nalishdagi startaplarga investitsiyalar ko'payishi va bozor raqobati kuchayishi mumkin.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/10/Networked-AI-swarm-with-glowing-nodes.png?resize=1200,600",
+   "domains": [
+    "techcrunch.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
+    "https://finance.yahoo.com/technology/ai/articles/anthropics-path-ai-startup-industry-235243135.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794888082.8592849,
+   "title": "Apple Siri sun'iy intellekt funksiyalari uchun kundalik foydalanish cheklovlarini sinovdan o'tkazmoqda",
+   "text": "Apple iOS 27.3 va macOS 27.3 betalarida murakkabroq Siri AI so'rovlari uchun yangi qurilma bo'yicha kunlik foydalanish limitlarini sinovdan o'tkazishni boshladi.",
+   "orig_title": "Apple is testing daily usage limits for more complex Siri AI interactions",
+   "link": "https://www.theverge.com/tech/1034581/apple-intelligence-siri-ai-daily-usage-limits-icloud-subscription",
+   "source": "The Verge AI",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Foydalanuvchilar murakkabroq sun'iy intellekt funksiyalaridan kundalik foydalanishda cheklovlarga duch kelishi va qo'shimcha xizmatlar uchun obuna sotib olishiga olib kelishi mumkin.",
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/siri-ai.jpg?quality=90&strip=all&crop=0.17391304347827%2C0%2C99.652173913043%2C100&w=1200",
+   "domains": [
+    "theverge.com",
+    "tech.yahoo.com"
+   ],
+   "urls": [
+    "https://www.theverge.com/tech/1034581/apple-intelligence-siri-ai-daily-usage-limits-icloud-subscription",
+    "https://tech.yahoo.com/ai/apple-intelligence/articles/iphone-users-no-longer-wait-135050884.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794888082.8592849,
+   "title": "OpenAI bolalar xavfsizligini himoya qilish uchun yangi tasniflagichni e'lon qildi",
+   "text": "Vashingtondagi brifingda OpenAI bolalarni suiiste'mol qilish tasvirlarini aniqlash va tergovchilarga tezkor harakat qilishda yordam beruvchi yangi klassifikatorni taqdim etdi.",
+   "orig_title": "OpenAI wants to stop deepfakes from overwhelming child abuse tiplines",
+   "link": "https://www.theverge.com/policy/1034527/openai-csam-classifier",
+   "source": "The Verge AI",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Bolalarga nisbatan zo'ravonlik materiallarini aniqlash tizimlaridagi soxta xabarnomalar kamayib, huquqni muhofaza qiluvchi organlarga qonunbuzarliklarni tezroq aniqlashga yordam berishi mumkin.",
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/STK155_OPEN_AI_CVirginia_C-1.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+   "domains": [
+    "theverge.com",
+    "tech.yahoo.com"
+   ],
+   "urls": [
+    "https://www.theverge.com/policy/1034527/openai-csam-classifier",
+    "https://tech.yahoo.com/ai/chatgpt/articles/openai-child-safety-tools-target-170049710.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794888082.8592849,
+   "title": "OpenAI tadqiqotchilar uchun ChatGPT dasturini kengaytirmoqda",
+   "text": "Dastur butun dunyo bo'ylab 200,000 tadqiqotchiga yetakchi modellardan bepul foydalanish imkoniyatini taqdim etish uchun kengaytirilmoqda.",
+   "orig_title": "Broadening access to AI for scientists",
+   "link": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+   "source": "OpenAI",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Ilmiy tadqiqotchilar uchun sun'iy intellekt texnologiyalaridan foydalanish imkoniyatlari kengayib, akademik doiralarda raqamli tadqiqotlar tezlashishi mumkin.",
+   "image": null,
+   "domains": [
+    "tech.yahoo.com"
+   ],
+   "urls": [
+    "https://tech.yahoo.com/ai/chatgpt/articles/openai-announces-program-boosting-access-170613802.html"
    ],
    "videos": []
   }
