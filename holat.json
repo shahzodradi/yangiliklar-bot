@@ -355,7 +355,10 @@
   "https://www.theverge.com/news/1035957/meta-alexandr-wang-sam-altman-instagram-ai-deepfake": 1794992970.697219,
   "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/": 1794992970.697219,
   "https://www.androidauthority.com/google-pics-nano-banana-2-1-3736470/": 1794996065.2269773,
-  "https://www.msn.com/en-in/news/other/microsoft-takes-on-openai-and-anthropic-with-7-new-ai-models-check-what-they-can-do/ar-AA2hGUHh": 1794996065.2269773
+  "https://www.msn.com/en-in/news/other/microsoft-takes-on-openai-and-anthropic-with-7-new-ai-models-check-what-they-can-do/ar-AA2hGUHh": 1794996065.2269773,
+  "https://www.geeky-gadgets.com/extra-high/": 1795000116.2748084,
+  "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership": 1795000116.2748084,
+  "https://tech.yahoo.com/ai/chatgpt/articles/tested-chatgpt-gpt-6-2-064500873.html": 1795000116.2748084
  },
  "fails": 0,
  "sent": [
@@ -1028,6 +1031,21 @@
    "t": 1794996065.2269773,
    "title": "Microsoft takes on OpenAI and Anthropic with 7 new AI models: Check what they can do",
    "soha": "AI"
+  },
+  {
+   "t": 1795000116.2748084,
+   "title": "OpenAI GPT-6.2 Astra vs Fable 5.2: Use Case and Performance Comparison",
+   "soha": "AI"
+  },
+  {
+   "t": 1795000116.2748084,
+   "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+   "soha": "AI"
+  },
+  {
+   "t": 1795000116.2748084,
+   "title": "I tested ChatGPT’s new GPT-6.2 Astra with one prompt — and built a website I’d actually use",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -1035,30 +1053,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1794827255.325033,
-   "title": "Singapurdagi kichik bizneslarning 94 foiziga AI bo‘yicha ko‘mak kerak",
-   "text": "Meta o‘tkazgan so‘rovnomaga ko‘ra, Singapurdagi kichik biznes vakillarining 94 foizi sun’iy intellektdan foydalanishda ko‘proq yo‘riqnoma va yordam talab qilmoqda.",
-   "orig_title": "94% of Singapore Small Business Owners Surveyed Say More AI Guidance Is Needed",
-   "link": "https://about.fb.com/news/2026/11/94-of-singapore-small-business-owners-surveyed-say-more-ai-guidance-is-needed/",
-   "source": "Meta Newsroom",
-   "soha": "AI",
-   "baho": 5,
-   "experts": [],
-   "effect": "Kichik biznes uchun sun’iy intellekt bo‘yicha qo‘llanma va amaliy treninglarning kengayishi mahalliy korxonalarda mijozlarni jalb qilish va operatsion samaradorlikni oshirishga zamin yaratishi mumkin.",
-   "image": "https://about.fb.com/wp-content/uploads/2021/10/meta-social-16x9-1.jpg?w=1200",
-   "domains": [
-    "about.fb.com",
-    "cnbc.com",
-    "businessinsider.com"
-   ],
-   "urls": [
-    "https://about.fb.com/news/2026/11/94-of-singapore-small-business-owners-surveyed-say-more-ai-guidance-is-needed/",
-    "https://www.cnbc.com/2026/11/05/booking-holdings-q3-earnings-ai-opportunity.html",
-    "https://www.businessinsider.com/meta-ai-data-center-construction-louisiana-local-business-growth-economy-2026-10"
-   ],
-   "videos": []
-  },
   {
    "t": 1794830477.5447698,
    "title": "Adobe Creative Agent va Firefly imkoniyatlarini kengaytirdi",
@@ -3351,6 +3345,87 @@
    "urls": [
     "https://tech.yahoo.com/computing/articles/gigabyte-unveils-nvidia-spark-powered-012500948.html",
     "https://tech.yahoo.com/computing/articles/week-toms-hardware-premium-november-150000572.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795000116.2748084,
+   "title": "OpenAI GPT-6.2 Astra va Fable 5.2 taqqoslandi",
+   "text": "OpenAI GPT-6.2 Astra agent imtihonlarida yuqori xarajat samaradorligini ko'rsatdi. Maqolada uning mantiqiy imkoniyatlari Fable 5.2 bilan solishtirilgan.",
+   "orig_title": "OpenAI GPT-6.2 Astra vs Fable 5.2: Use Case and Performance Comparison",
+   "link": "https://www.geeky-gadgets.com/extra-high/",
+   "source": "geeky-gadgets.com",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [
+    {
+     "kim": "Dan Shipper",
+     "lavozim": "texnologiya eksperti",
+     "fikr": "Astra 6 kod yozishda ko‘pincha juda erta to‘xtab qoladi va matn yozishda haddan tashqari qisqalikni ma’qul ko‘radi, natijada javoblarni tushunish qiyinlashishi mumkin.",
+     "url": "https://www.geeky-gadgets.com/extra-high/",
+     "domain": "geeky-gadgets.com"
+    }
+   ],
+   "effect": "AI modellari o‘rtasidagi narx va unumdorlik poygasi kuchayishi, ishlab chiquvchilarning arzonroq yoki ixtisoslashgan modellarga o‘tishi tezlashishi mumkin.",
+   "image": "https://www.geeky-gadgets.com/wp-content/uploads/2026/11/gpt-6-astra-benchmarks.jpg",
+   "domains": [
+    "geeky-gadgets.com",
+    "finance.yahoo.com",
+    "theverge.com"
+   ],
+   "urls": [
+    "https://www.geeky-gadgets.com/extra-high/",
+    "https://finance.yahoo.com/technology/ai/articles/anthropic-debuts-claude-fable-mythos-210210527.html",
+    "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout"
+   ],
+   "videos": [
+    [
+     "https://www.youtube.com/watch?v=K81vU-gykmQ",
+     "YouTube"
+    ]
+   ]
+  },
+  {
+   "t": 1795000116.2748084,
+   "title": "Le Groupe Figaro va OpenAI hamkorlik o'rnatdi",
+   "text": "Le Groupe Figaro va OpenAI nashr materiallarini ChatGPT'ga qo'shish bo'yicha kelishuvga erishdi. Foydalanuvchilar original maqolalarga havolalar orqali xulosalarni olishi mumkin.",
+   "orig_title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+   "link": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+   "source": "OpenAI",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "ChatGPT orqali tashqi xizmatlar va xavfsizlik yechimlarining integratsiyalashuvi platformaning amaliy ekotizimga aylanishini jadallashtirishi ehtimoli bor.",
+   "image": null,
+   "domains": [
+    "techcrunch.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/04/30/openai-announces-new-advanced-security-for-chatgpt-accounts-including-a-partnership-with-yubico/",
+    "https://finance.yahoo.com/news/etsy-openai-chatgpt-partnership-could-201847552.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795000116.2748084,
+   "title": "ChatGPT GPT-6.2 Astra yordamida veb-sayt yaratildi",
+   "text": "Yangi GPT-6.2 Astra modeli yordamida bitta buyruq yordamida oilaviy tashkilot veb-sayti muvaffaqiyatli qurildi.",
+   "orig_title": "I tested ChatGPT’s new GPT-6.2 Astra with one prompt — and built a website I’d actually use",
+   "link": "https://tech.yahoo.com/ai/chatgpt/articles/tested-chatgpt-gpt-6-2-064500873.html",
+   "source": "tech.yahoo.com",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Foydalanuvchilarning kod yozmasdan murakkab veb-saytlar va ilovalar yaratish imkoniyati kengayishi dasturiy ta’minot ishlab chiqish bozorini arzonlashtirishi mumkin.",
+   "image": "https://s.yimg.com/lo/mysterio/api/b1897020f95c56df8c74ecdcf12de35591a17a61eefb74e505ba544702196899/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Ftoms_guide_826%2Fe1b0577027370314040d29b3ae976c5b.jpg",
+   "domains": [
+    "tech.yahoo.com",
+    "theverge.com"
+   ],
+   "urls": [
+    "https://tech.yahoo.com/ai/chatgpt/articles/tested-chatgpt-gpt-6-2-064500873.html",
+    "https://www.theverge.com/2023/11/6/23948619/openai-chatgpt-devday-developer-conference-news"
    ],
    "videos": []
   }
