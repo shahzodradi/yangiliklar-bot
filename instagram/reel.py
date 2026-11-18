@@ -104,7 +104,7 @@ def eleven_voice(text, mp3):
     if not key:
         raise RuntimeError("ELEVENLABS_API_KEY yo'q")
     vid = os.environ.get("ELEVENLABS_VOICE") or ELEVEN_VOICE
-    body = {"text": text, "model_id": "eleven_v3", "language_code": "uz",
+    body = {"text": text, "model_id": "eleven_v3",
             "voice_settings": {"stability": 0.5, "similarity_boost": 0.75}}
     req = urllib.request.Request(f"https://api.elevenlabs.io/v1/text-to-speech/{vid}/with-timestamps"
                                  "?output_format=mp3_44100_128", json.dumps(body).encode(),
