@@ -57,6 +57,16 @@ Musiqa: ElevenLabs music | https://www.bing.com/news/search?q=ElevenLabs+music&f
 Musiqa: Lyria | https://www.bing.com/news/search?q=Google+Lyria+music&format=rss&setlang=en | 72
 Musiqa: musiqa kelishuvlari | https://www.bing.com/news/search?q=AI+music+record+label+deal&format=rss&setlang=en | 72
 
+# --- O'ZBEKISTON: o'zbekistonliklarga oid AI yangiliklari (Instagram uchun eng ulashiladigan, 48 soatlik) ---
+O'zbekiston: AI O'zbekiston | https://www.bing.com/news/search?q=sun%27iy+intellekt+O%27zbekiston&format=rss | 48
+O'zbekiston: sun'iy intellekt | https://www.bing.com/news/search?q=sun%27iy+intellekt&format=rss | 48
+O'zbekiston: IT Park | https://www.bing.com/news/search?q=IT+Park+AI+Uzbekistan&format=rss&setlang=en | 48
+O'zbekiston: Uzbekistan AI | https://www.bing.com/news/search?q=Uzbekistan+artificial+intelligence&format=rss&setlang=en | 48
+O'zbekiston: startaplar | https://www.bing.com/news/search?q=Uzbekistan+AI+startup&format=rss&setlang=en | 48
+O'zbekiston: ИИ (rus) | https://www.bing.com/news/search?q=%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9+%D0%B8%D0%BD%D1%82%D0%B5%D0%BB%D0%BB%D0%B5%D0%BA%D1%82+%D0%A3%D0%B7%D0%B1%D0%B5%D0%BA%D0%B8%D1%81%D1%82%D0%B0%D0%BD&format=rss | 48
+O'zbekiston: ИИ qisqa | https://www.bing.com/news/search?q=%D0%98%D0%98+%D0%A3%D0%B7%D0%B1%D0%B5%D0%BA%D0%B8%D1%81%D1%82%D0%B0%D0%BD&format=rss | 48
+O'zbekiston: neyrotarmoq | https://www.bing.com/news/search?q=%D0%BD%D0%B5%D0%B9%D1%80%D0%BE%D1%81%D0%B5%D1%82%D1%8C+%D0%A3%D0%B7%D0%B1%D0%B5%D0%BA%D0%B8%D1%81%D1%82%D0%B0%D0%BD&format=rss | 48
+
 # --- AI: modellar, kompaniyalar, vositalar ---
 TechCrunch AI | https://techcrunch.com/category/artificial-intelligence/feed/
 The Verge AI | https://www.theverge.com/rss/ai-artificial-intelligence/index.xml

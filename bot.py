@@ -50,7 +50,7 @@ MAVZULAR = {
     "video": "Faqat generativ AI media: video, rasm va musiqa generatsiyasi (modellar, vositalar, yangi versiyalar va "
              "funksiyalar, narxlar, o'sish va investitsiyalar, reytinglar), shu sohalardagi tanlovlar va g'oliblar.",
 }
-SOHALAR = ["AI tanlov", "AI video", "AI rasm", "AI musiqa", "AI"]  # tanlov: konkurs/festival/g'oliblar, doim yuboriladi
+SOHALAR = ["AI tanlov", "AI O'zbekiston", "AI video", "AI rasm", "AI musiqa", "AI"]  # tanlov: konkurs/festival/g'oliblar, doim yuboriladi
 MEDIA = ("AI video", "AI rasm", "AI musiqa")
 SEEN_KEEP_DAYS = 10
 # Shaxsiy blog platformalari (Bing qidiruvi ularni ham olib keladi): yangilik manbai emas
@@ -261,6 +261,11 @@ VAZIFA:
    yoki festival e'lon qilsa, qaysidir AI ish g'olib bo'lsa (mukofot, sovrin, reytingda birinchi o'rin), yoki
    kompaniya, tanlov yoki nashr qaysidir AI videolarni eng yaxshi/kuchli deb tanlasa (g'oliblar, finalistlar,
    "staff picks", haftaning eng yaxshi AI videolari) - bularni HAR DOIM, hammasini qaytar, baho 10.
+   O'ZBEKISTON: O'zbekistonga yoki o'zbekistonliklarga bevosita oid AI yangiliklari (davlat qarorlari va
+   dasturlari, IT Park, o'zbek startaplari va kompaniyalari, o'zbek tilini tushunadigan AI, AI xizmatlari
+   O'zbekistonda ochilishi yoki bloklanishi, narxlari, AI bo'yicha tadbirlar, ta'lim va grantlar, xalqaro
+   kelishuvlar) - bularni HAR DOIM, hammasini qaytar, baho 10. Faqat O'zbekiston nomi tilga olingan, lekin AI'ga
+   aloqasi yo'q yangiliklarni olma.
    Qolgan AI yangiliklaridan ham eng muhim va qiziqlarini {other_max} tagacha qaytar - AI'ga oid HAR QANDAY
    yangilik bo'lishi mumkin: yangi modellar (ChatGPT, Gemini, Claude, Grok, DeepSeek, Llama va h.k.), AI kompaniyalar,
    investitsiyalar va sotib olishlar, chiplar, AI agentlar, qonunlar va siyosat, tadqiqotlar, AI bilan bog'liq
@@ -279,6 +284,7 @@ VAZIFA:
    - "qidiruv": shu voqeani boshqa nashrlardan topish uchun 3-6 so'zli inglizcha qidiruv so'rovi
      (kompaniya, mahsulot va voqea nomlari, masalan "Amazon TorchNeuron Nvidia").
    - "soha": "AI tanlov" (AI video/rasm/musiqa/film tanlovi, konkurs, festival e'loni yoki g'oliblari),
+     "AI O'zbekiston" (O'zbekistonga oid AI yangiliklari),
      "AI video", "AI rasm", "AI musiqa" (shu generatsiyaga oid qolgan yangiliklar) yoki "AI" (qolgan AI yangiliklari).
    Brend, mahsulot va kompaniya nomlarini tarjima qilma.
 
@@ -888,8 +894,10 @@ def choose_posts(posts, only_video=False):
     (MAX_MEDIA tagacha) + qolgan AI'dan MAX_OTHER tasi. Qolgan tartib Gemini'niki (muhimlik).
     only_video: "🎬 Video · Rasm · Musiqa" tugmasi, faqat generativ media."""
     contests = [p for p in posts if p["soha"] == "AI tanlov"]
+    if not only_video:  # O'zbekistonga oid AI yangiliklari ham doim (Instagram'da eng ko'p ulashiladi)
+        contests += [p for p in posts if p["soha"] == "AI O'zbekiston"]
     media = [p for p in posts if p["soha"] in MEDIA][:MAX_MEDIA]
-    other = [] if only_video else [p for p in posts if p["soha"] not in MEDIA + ("AI tanlov",)][:MAX_OTHER]
+    other = [] if only_video else [p for p in posts if p["soha"] not in MEDIA + ("AI tanlov", "AI O'zbekiston")][:MAX_OTHER]
     return contests + [p for p in posts if p in media or p in other]
 
 
