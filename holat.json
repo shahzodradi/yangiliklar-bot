@@ -351,7 +351,11 @@
   "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/": 1794985336.8845866,
   "https://www.wired.com/story/nvidias-board-has-no-plans-to-reinstate-jensen-huang/": 1794985336.8845866,
   "https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain/": 1794985336.8845866,
-  "https://www.theverge.com/policy/1035410/doj-megaspeed-nvidia-investigation-update": 1794985336.8845866
+  "https://www.theverge.com/policy/1035410/doj-megaspeed-nvidia-investigation-update": 1794985336.8845866,
+  "https://www.theverge.com/tech/1036111/satya-nadella-says-hes-agi-pilled-now": 1794992970.697219,
+  "https://www.theverge.com/tech/1036032/nvidia-q3-2027-jensen-huang": 1794992970.697219,
+  "https://www.theverge.com/news/1035957/meta-alexandr-wang-sam-altman-instagram-ai-deepfake": 1794992970.697219,
+  "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/": 1794992970.697219
  },
  "fails": 0,
  "sent": [
@@ -994,6 +998,26 @@
    "t": 1794985336.8845866,
    "title": "The DOJ says it’s investigating Megaspeed",
    "soha": "AI"
+  },
+  {
+   "t": 1794992970.697219,
+   "title": "Satya Nadella says he’s AGI-pilled now",
+   "soha": "AI"
+  },
+  {
+   "t": 1794992970.697219,
+   "title": "Nvidia’s Q3 earnings hit the mark, without mentioning the whole Jensen Huang thing",
+   "soha": "AI"
+  },
+  {
+   "t": 1794992970.697219,
+   "title": "Not even Sam Altman is safe from AI deepfakes on Instagram",
+   "soha": "AI"
+  },
+  {
+   "t": 1794992970.697219,
+   "title": "AI models can be tricked into identifying civilians as military targets by telling them it’s a game",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -1001,30 +1025,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1794820155.7761018,
-   "title": "Plural $1.1B fondini yig'di",
-   "text": "Operator boshchiligidagi Plural venchur fondi Yevropaning yangi loyihalarini moliyalashtirish uchun 1.1 milliard dollar mablag' jalb qildi.",
-   "orig_title": "Helsing backer Plural raises $1.1B to fund Europe’s next moonshots",
-   "link": "https://techcrunch.com/2026/11/15/helsing-backer-plural-raises-1-1b-to-fund-europes-next-moonshots/",
-   "source": "TechCrunch Venture",
-   "soha": "AI",
-   "baho": 7,
-   "experts": [],
-   "effect": "Yevropadagi venchur fondlarining yirik kapital jalb qilishi energetika, sun'iy intellekt infratuzilmasi va mudofaa texnologiyalari kabi kapital talab qiluvchi sohalardagi startaplarning tezroq rivojlanishiga olib kelishi mumkin. Bu esa mintaqadagi innovatsion kompaniyalarning o'ziga xos texnologik suverenitetini mustahkamlashiga zamin yaratishi ehtimoli bor.",
-   "image": "https://techcrunch.com/wp-content/uploads/2026/11/Plural-Partner-Photo-Fund-III.jpg?resize=1200,800",
-   "domains": [
-    "techcrunch.com",
-    "finance.yahoo.com",
-    "businessinsider.com"
-   ],
-   "urls": [
-    "https://techcrunch.com/2026/11/15/helsing-backer-plural-raises-1-1b-to-fund-europes-next-moonshots/",
-    "https://finance.yahoo.com/small-business/articles/helsing-backer-plural-raises-1-070000907.html",
-    "https://www.businessinsider.com/robotics-tech-ai-startups-investors-funding-2026-8"
-   ],
-   "videos": []
-  },
   {
    "t": 1794823259.1961713,
    "title": "LVMH Media Division va OpenAI strategik hamkorlikni e'lon qildi",
@@ -3205,6 +3205,119 @@
    "urls": [
     "https://www.theverge.com/policy/1035410/doj-megaspeed-nvidia-investigation-update",
     "https://www.yahoo.com/news/politics/articles/commerce-justice-departments-release-details-141257372.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794992970.697219,
+   "title": "Satya Nadella AGI kelajagini muhokama qildi",
+   "text": "Microsoft rahbari Satya Nadella AI iqtisodiyot va siyosat tuzilmasiga sezilarli o'zgarishlar kiritishi mumkinligini ta'kidladi.",
+   "orig_title": "Satya Nadella says he’s AGI-pilled now",
+   "link": "https://www.theverge.com/tech/1036111/satya-nadella-says-hes-agi-pilled-now",
+   "source": "The Verge AI",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [
+    {
+     "kim": "Duncan Wrigley",
+     "lavozim": "Bosh Xitoy iqtisodchisi",
+     "fikr": "Xitoyda iqtisodiy o'sishning tezlashishi sun'iy intellekt bilan bog'liq elektronika, jihozlar va avtomobillarga bo'lgan eksport talabining oshishi bilan bog'liq.",
+     "url": "https://www.theguardian.com/world/2026/oct/19/china-economy-grows-faster-than-forecast-after-ai-boom-boosted-exports",
+     "domain": "theguardian.com"
+    }
+   ],
+   "effect": "Sun'iy intellekt texnologiyalarining iqtisodiyotga faol kirib borishi va xodimlarning o'rnini egallashi mehnat bozorida jiddiy o'zgarishlarga hamda oqibatda jamoatchilik e'tirozlariga sabab bo'lishi mumkin.",
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Screenshot-2026-11-17-at-3.00.15-PM.png?quality=90&strip=all&crop=0%2C5.5575251492495%2C100%2C88.884949701501&w=1200",
+   "domains": [
+    "theverge.com",
+    "theguardian.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://www.theverge.com/tech/1036111/satya-nadella-says-hes-agi-pilled-now",
+    "https://www.theguardian.com/world/2026/oct/19/china-economy-grows-faster-than-forecast-after-ai-boom-boosted-exports",
+    "https://finance.yahoo.com/news/microsoft-ceo-satya-nadella-says-105747621.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794992970.697219,
+   "title": "Nvidia uchinchi chorak daromadlarini e'lon qildi",
+   "text": "Kompaniyaning vaqtincha ijrochi direktori Colette Kress Nvidia'ning uchinchi chorakdagi moliyaviy natijalarini taqdim etdi.",
+   "orig_title": "Nvidia’s Q3 earnings hit the mark, without mentioning the whole Jensen Huang thing",
+   "link": "https://www.theverge.com/tech/1036032/nvidia-q3-2027-jensen-huang",
+   "source": "The Verge AI",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Kompaniyada yuqori darajadagi rahbar o'zgarishi va shaxsiy mojarolar qisqa muddatli beqarorlikka olib kelishi mumkin, biroq kuchli moliyaviy natijalar va yuqori daromad bashoratlari bozordagi xavotirlarni kamaytirishi ehtimoli bor.",
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25835739/STKP210_JENSEN_HUANG_B.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+   "domains": [
+    "theverge.com",
+    "uk.finance.yahoo.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://www.theverge.com/tech/1036032/nvidia-q3-2027-jensen-huang",
+    "https://uk.finance.yahoo.com/news/live/nvidia-earnings-live-nvidia-posts-q3-beat-board-says-it-will-not-reinstate-jensen-huang-as-ceo-221428433.html",
+    "https://finance.yahoo.com/markets/stocks/articles/nvidia-q3-earnings-call-highlights-011255071.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794992970.697219,
+   "title": "Instagram'da AI deepfake videolar ko'paymoqda",
+   "text": "Meta xodimlari va rahbarlarining soxtalashtirilgan videolari Instagram tarmog'ida tarqalgani ma'lum bo'ldi.",
+   "orig_title": "Not even Sam Altman is safe from AI deepfakes on Instagram",
+   "link": "https://www.theverge.com/news/1035957/meta-alexandr-wang-sam-altman-instagram-ai-deepfake",
+   "source": "The Verge AI",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Ijtimoiy tarmoqlarda sun'iy intellekt yordamida yaratilgan soxta videolar va tasvirlarning ommalashishi firibgarlik holatlarini ko'paytirishi va shaxslarning huquqlarini buzish ehtimolini oshirishi mumkin.",
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2297785644.jpg?quality=90&strip=all&crop=0%2C10.755339554057%2C100%2C78.489320891885&w=1200",
+   "domains": [
+    "theverge.com",
+    "tech.yahoo.com",
+    "techcrunch.com"
+   ],
+   "urls": [
+    "https://www.theverge.com/news/1035957/meta-alexandr-wang-sam-altman-instagram-ai-deepfake",
+    "https://tech.yahoo.com/ai/meta-ai/articles/advertisement-ai-generated-6-signs-100000576.html",
+    "https://techcrunch.com/2024/05/22/metas-new-ai-council-is-comprised-entirely-of-white-men/"
+   ],
+   "videos": [
+    [
+     "https://x.com/alexandr_wang/status/2101143561018474920",
+     "X"
+    ],
+    [
+     "https://www.instagram.com/reel/DffPoRdhozI/",
+     "Instagram"
+    ]
+   ]
+  },
+  {
+   "t": 1794992970.697219,
+   "title": "AI modellari avtonom urush ssenariylarida sinovdan o'tkazildi",
+   "text": "Vals startapi yetakchi sun'iy intellekt modellarini harbiy nishonlarni aniqlashda sinovdan o'tkazib, ularning zaifliklarini aniqladi.",
+   "orig_title": "AI models can be tricked into identifying civilians as military targets by telling them it’s a game",
+   "link": "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Sun'iy intellekt modellarini o'yin yoki sinov niqobi ostida harbiy nishonlarni aniqlashga osongina o'rgatish mumkinligi kelajakdagi qurolli mojarolarda xavfsizlik va axloqiy muammolarni keskin oshirib yuborishi mumkin.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-1670871943.jpg?resize=1200,675",
+   "domains": [
+    "techcrunch.com",
+    "finance.yahoo.com",
+    "theguardian.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/",
+    "https://finance.yahoo.com/news/valueselling-associates-launches-ai-avatar-123000732.html",
+    "https://www.theguardian.com/global-development/2026/oct/11/nuclear-war-and-malicious-use-of-ai-threaten-end-of-humanity-by-2100-says-lancet-assessment"
    ],
    "videos": []
   }
