@@ -94,7 +94,7 @@ def voice(text, mp3, eleven=False):
 
 
 GEMINI_VOICE = "Charon"
-ELEVEN_VOICE = "JBFqnCBsd6RMkjVDRZzb"  # "George" (bepul API faqat tayyor ovozlar; Davronbek kabi kutubxona ovozi pullik tarifda)
+ELEVEN_VOICE = "mYhf0DXKzjnVi3UQGtCB"  # "AI Tezkor - Jurnalist": Voice Design bilan yaratilgan o'zbek jurnalist ovozi (bepul API ishlatadi)
 ELEVEN_TAGS = "[very fast] [emotional] "  # eleven_v3 audio teglari: tez va jonli (foydalanuvchi tanlagan uslub)
 
 
