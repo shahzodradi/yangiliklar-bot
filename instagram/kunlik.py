@@ -56,7 +56,7 @@ SCHEMA = {
     "properties": {"tanlov": {"type": "ARRAY", "items": {
         "type": "OBJECT",
         "properties": {"id": {"type": "INTEGER"}, "sarlavha": {"type": "STRING"}, "emoji": {"type": "STRING"},
-                       "savol": {"type": "STRING"}, "rasm": {"type": "STRING"}, "hook": {"type": "STRING"}, "qiziqtir": {"type": "STRING"},
+                       "savol": {"type": "STRING"}, "rasm": {"type": "STRING"}, "hook": {"type": "STRING"}, "qiziqtir": {"type": "STRING"}, "takror": {"type": "BOOLEAN"},
                        "teglar": {"type": "ARRAY", "items": {"type": "STRING"}}},
         "required": ["id", "sarlavha", "emoji", "savol", "rasm", "teglar"]}}},
     "required": ["tanlov"],
@@ -325,8 +325,14 @@ def har():
                             "mashhur kompaniya yoki shaxs, katta raqam, janjal, kontent-meykerlarga bevosita ta'sir "
                             "qiladigan voqealar.\nBir xil voqeani ikki marta olma.",
                             "HAR BIRI uchun ({count} ta, hammasini, tashlab ketma) Instagram posti yoz.")
-    result = bot.ask_models(env, prompt.format(count=len(items), items=json.dumps(brief, ensure_ascii=False)),
-                            SCHEMA, fast=True)
+    # Bir voqea turli saytlardan bir necha marta keladi: Gemini takrorni belgilaydi (shu ro'yxatda va oxirgi 48 soatda)
+    mavzular = [m for m in state.get("mavzular", []) if m[0] > now - 48 * 3600]
+    prompt = prompt.format(count=len(items), items=json.dumps(brief, ensure_ascii=False)) + (
+        "\nTAKRORNI TEKSHIR: yangilik ro'yxatdagi kichikroq id'li yangilik bilan yoki quyidagi AVVAL JOYLANGAN "
+        "voqealardan biri bilan BIR XIL voqea bo'lsa (boshqa sayt, boshqa so'zlar bilan yozilgan bo'lsa ham), "
+        "\"takror\": true qo'y. Bir kompaniyaning boshqa-boshqa voqealari takror emas.\nAVVAL JOYLANGAN:\n"
+        + json.dumps([m[1] for m in mavzular[-80:]], ensure_ascii=False))
+    result = bot.ask_models(env, prompt, SCHEMA, fast=True)
     picks = {p["id"]: p for p in result.get("tanlov", []) if isinstance(p.get("id"), int) and 0 <= p["id"] < len(items)}
     IMG_DIR.mkdir(exist_ok=True)
     stamp = time.strftime("%Y-%m-%d_%H%M")
@@ -338,6 +344,10 @@ def har():
             "sarlavha": item["title"], "emoji": "⚡", "savol": "Bu haqda nima deysiz?", "rasm": "",
             "teglar": ["#AI", "#suniyintellekt", "#AIyangiliklar", "#texnologiya", "#AITezkor"]}
         pick.update({k: uz(pick.get(k, "")) for k in ("sarlavha", "savol")})
+        if pick.get("takror"):
+            log.info("Takror voqea, o'tkazildi: %s", item["title"])
+            continue
+        mavzular.append([now, item["title"]])
         found = find_photos(item, pick.get("rasm", ""), used, n=4)  # avval ishlatilgan rasmlar o'tkaziladi
         files, credit = [], None
         for j, (data, ctype, cr, fp) in enumerate(found):
@@ -364,6 +374,7 @@ def har():
 
     def save():
         state["reel_vaqt"], state["har_vaqt"], state["rasmlar"] = reels, posted, list(used)[-2000:]
+        state["mavzular"] = mavzular[-150:]
         if not dry:  # har qadamdan keyin: job uzilsa ham joylangan narsa qayta joylanmaydi
             IG_STATE.write_text(json.dumps(state, ensure_ascii=False, indent=1), encoding="utf-8")
     save()
