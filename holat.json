@@ -346,7 +346,12 @@
   "https://www.msn.com/en-us/technology/artificial-intelligence/openai-just-launched-gpt-6-2-and-it-s-come-a-long-way-from-writing-emails/ar-AA2hDNu9": 1794981707.3867803,
   "https://finance.yahoo.com/technology/ai/articles/adobe-adbe-turns-creative-cloud-191007810.html": 1794981707.3867803,
   "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/": 1794981707.3867803,
-  "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/": 1794981707.3867803
+  "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/": 1794981707.3867803,
+  "https://www.msn.com/en-us/news/other/manchester-animation-festival-bans-genai-films-crowns-in-waves/ar-AA2hyqyv": 1794985336.8845866,
+  "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/": 1794985336.8845866,
+  "https://www.wired.com/story/nvidias-board-has-no-plans-to-reinstate-jensen-huang/": 1794985336.8845866,
+  "https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain/": 1794985336.8845866,
+  "https://www.theverge.com/policy/1035410/doj-megaspeed-nvidia-investigation-update": 1794985336.8845866
  },
  "fails": 0,
  "sent": [
@@ -964,6 +969,31 @@
    "t": 1794981707.3867803,
    "title": "Nvidia promises that revenue will keep soaring — for now",
    "soha": "AI"
+  },
+  {
+   "t": 1794985336.8845866,
+   "title": "Manchester Animation Festival bans GenAI films, crowns In Waves",
+   "soha": "AI video"
+  },
+  {
+   "t": 1794985336.8845866,
+   "title": "Google to keep Gemini chats for 2 months, up from 72 hours, even with history off",
+   "soha": "AI"
+  },
+  {
+   "t": 1794985336.8845866,
+   "title": "Nvidia’s Board Has No Plans to Bring Back Jensen Huang",
+   "soha": "AI"
+  },
+  {
+   "t": 1794985336.8845866,
+   "title": "Pedestal AI raises $4.7 million to agentify the supply chain",
+   "soha": "AI"
+  },
+  {
+   "t": 1794985336.8845866,
+   "title": "The DOJ says it’s investigating Megaspeed",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -971,51 +1001,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1794808920.9056406,
-   "title": "OpenAI fanlar uchun yangi blogini ishga tushirdi",
-   "text": "OpenAI fan blogi sun'iy intellekt yordamida ilmiy kashfiyotlarni rivojlantirayotgan tadqiqotchilarning yangi topilmalari, amaliy usullari va tajribalarini ulashadi.",
-   "orig_title": "Our new blog for science",
-   "link": "https://openai.com/index/our-new-blog-for-science",
-   "source": "OpenAI",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Kompaniya ichki xavfsizlik choralarini kuchaytirishi va muhandislar shtatini qayta taqsimlashi mumkin. Maxfiylikni ta'minlash va tashqi tahdidlarning oldini olish bo'yicha strategik o'zgarishlar amalga oshirilishi ehtimoli bor.",
-   "image": null,
-   "domains": [
-    "tech.yahoo.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://tech.yahoo.com/cybersecurity/articles/openai-employees-warned-operational-security-185557591.html",
-    "https://finance.yahoo.com/markets/stocks/articles/cosmetics-market-reach-us-497-230100044.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794808920.9056406,
-   "title": "Jensen Huang uchun yomon xabar sun'iy intellekt sanoati uchun ham yomonmi?",
-   "text": "Tahlilchilar Jensen Huang va Nvidia kompaniyasi atrofidagi so'nggi vaziyat butun sun'iy intellekt iqtisodiyotiga qanday ta'sir qilishini muhokama qilmoqdalar.",
-   "orig_title": "Is bad news for Jensen Huang also bad news for the AI industry?",
-   "link": "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/",
-   "source": "TechCrunch AI",
-   "soha": "AI",
-   "baho": 7,
-   "experts": [],
-   "effect": "Bozorda raqobat maydoni kengayib, mahalliy chip ishlab chiqaruvchilar va boshqa global o'yinchilar uchun yangi imkoniyatlar ochilishi mumkin. Kompaniyaning strategik yo'nalishi va xarajatlarni boshqarish siyosatida o'zgarishlar bo'lishi ehtimoli bor.",
-   "image": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2294936867.jpg?resize=1200,800",
-   "domains": [
-    "techcrunch.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/",
-    "https://finance.yahoo.com/technology/ai/articles/huangs-exit-rocks-nvidia-creates-203800157.html",
-    "https://finance.yahoo.com/technology/articles/china-says-us-not-huang-073845830.html"
-   ],
-   "videos": []
-  },
   {
    "t": 1794820155.7761018,
    "title": "Plural $1.1B fondini yig'di",
@@ -3099,6 +3084,127 @@
    "urls": [
     "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/",
     "https://finance.yahoo.com/markets/stocks/articles/nvidia-earnings-live-updates-commentary-213634774.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794985336.8845866,
+   "title": "Manchester Animation Festival generativ AI filmlarini taqiqlaydi",
+   "text": "Buyuk Britaniyadagi eng yirik animatsiya festivali 2027-yilgi mavsumdan boshlab generativ sun'iy intellekt orqali yaratilgan filmlarni qabul qilishni to'xtatishini e'lon qildi.",
+   "orig_title": "Manchester Animation Festival bans GenAI films, crowns In Waves",
+   "link": "https://www.msn.com/en-us/news/other/manchester-animation-festival-bans-genai-films-crowns-in-waves/ar-AA2hyqyv",
+   "source": "msn.com",
+   "soha": "AI video",
+   "baho": 8,
+   "experts": [],
+   "effect": "Taqdim etilgan matnda animatsiya festivali haqida ma’lumot bo‘lmagani sababli festival taqiqlarining oqibatlarini aniqlash imkoni yo‘q.",
+   "image": null,
+   "domains": [
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://finance.yahoo.com/quote/MANU/"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794985336.8845866,
+   "title": "Google Gemini yozishmalarini saqlash muddatini uzaytirdi",
+   "text": "Google Gemini foydalanuvchilari tarixi o'chirilgan holatda ham suhbatlar saqlanish muddatini 72 soatdan 2 oygacha oshirmoqda.",
+   "orig_title": "Google to keep Gemini chats for 2 months, up from 72 hours, even with history off",
+   "link": "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Foydalanuvchilar ma’lumotlari uzoqroq saqlanishi xavfsizlik tekshiruvlarini osonlashtirishi, ammo maxfiylikka e’tiborli mijozlarning boshqa neyrotarmoqlarga o‘tishiga turtki bo‘lishi mumkin.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/google-gemini-app.jpg?resize=1200,800",
+   "domains": [
+    "techcrunch.com",
+    "tech.yahoo.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/",
+    "https://tech.yahoo.com/ai/gemini/articles/google-extends-gemini-chat-retention-201112459.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794985336.8845866,
+   "title": "Nvidia direktorlar kengashi Jensen Huangni qaytarmaydi",
+   "text": "Donald Tramp va Ilon Maskning bosimiga qaramay, Nvidia kengashi iste'foga chiqqan bosh direktor Jensen Huangni qaytarish rejasida yo'qligini ma'lum qildi.",
+   "orig_title": "Nvidia’s Board Has No Plans to Bring Back Jensen Huang",
+   "link": "https://www.wired.com/story/nvidias-board-has-no-plans-to-reinstate-jensen-huang/",
+   "source": "Wired AI",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Kengashning Huangni qaytarmaslik qarori rahbariyat almashinuvini tezlashtirishi, biroq kuchli talab hisobiga kompaniyaning moliyaviy barqarorligi saqlanib qolishi mumkin.",
+   "image": "https://media.wired.com/photos/6afce5159891667de5f2b6bb/191:100/w_1280,c_limit/Nvidia-Board-Has-No-Plans-to-Bring-Back-Jensen-Business-2299990450.jpg",
+   "domains": [
+    "wired.com",
+    "theverge.com"
+   ],
+   "urls": [
+    "https://www.wired.com/story/nvidias-board-has-no-plans-to-reinstate-jensen-huang/",
+    "https://www.theverge.com/report/1035465/nvidia-says-it-will-not-reinstate-jensen-huang-as-ceo"
+   ],
+   "videos": [
+    [
+     "https://x.com/elonmusk/status/2121345211959804234",
+     "X"
+    ],
+    [
+     "https://x.com/amasad/status/2121377395244749097",
+     "X"
+    ],
+    [
+     "https://x.com/garrytan/status/2121462697787342932",
+     "X"
+    ]
+   ]
+  },
+  {
+   "t": 1794985336.8845866,
+   "title": "Pedestal AI ta'minot zanjiri agentlari uchun 4,7 mln dollar yig'di",
+   "text": "Startap agentlik sun'iy intellekt yordamida logistika va ta'minot zanjirlarini tezlashtirish hamda ishonchliligini oshirish maqsadida 4,7 million dollar investitsiya jalb qildi.",
+   "orig_title": "Pedestal AI raises $4.7 million to agentify the supply chain",
+   "link": "https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 6,
+   "experts": [],
+   "effect": "Logistika va yetkazib berish zanjirida agentli sun’iy intellektdan foydalanish kechikishlarni kamaytirib, yirik kompaniyalarning operatsion xarajatlarini sezilarli qisqartirishi mumkin.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/Pedestal-Cofounders-Photo-November-2026.jpg?resize=1200,800",
+   "domains": [
+    "techcrunch.com",
+    "businessinsider.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain/",
+    "https://www.businessinsider.com/othello-raises-millions-sales-reps-ai-realtime-recommendations-pitch-deck-2026-10"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794985336.8845866,
+   "title": "AQSh hukumati Megaspeed kompaniyasi ustidan tekshiruv boshladi",
+   "text": "AQSh Adliya va Savdo vazirliklari Nvidia atrofidagi janjalga aloqador Singapurning Megaspeed ma'lumotlar markazi kompaniyasini tekshirmoqda.",
+   "orig_title": "The DOJ says it’s investigating Megaspeed",
+   "link": "https://www.theverge.com/policy/1035410/doj-megaspeed-nvidia-investigation-update",
+   "source": "The Verge AI",
+   "soha": "AI",
+   "baho": 6,
+   "experts": [],
+   "effect": "Tergov harakatlari sun’iy intellekt chiplarining eksport nazoratini yanada kuchaytirishi va AQSH texnologiyalarining vositachilar orqali Xitoyga yetib borishini qiyinlashtirishi mumkin.",
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25461724/STK432_Government__CVirginia_B.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+   "domains": [
+    "theverge.com",
+    "yahoo.com"
+   ],
+   "urls": [
+    "https://www.theverge.com/policy/1035410/doj-megaspeed-nvidia-investigation-update",
+    "https://www.yahoo.com/news/politics/articles/commerce-justice-departments-release-details-141257372.html"
    ],
    "videos": []
   }
