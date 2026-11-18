@@ -331,15 +331,11 @@
   "https://www.billboard.com/pro/suno-moves-into-ai-filmmaking-with-visuals-product/": 1794971153.8142672,
   "https://the-decoder.com/openai-launches-gpt-6-2-astra-and-sol-with-lower-api-prices-and-some-benchmark-gains/": 1794971153.8142672,
   "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/": 1794971153.8142672,
-  "https://the-decoder.com/openai-opens-its-cybersecurity-tool-daybreak-to-nato-and-european-governments/": 1794971153.8142672
+  "https://the-decoder.com/openai-opens-its-cybersecurity-tool-daybreak-to-nato-and-european-governments/": 1794971153.8142672,
+  "https://www.digitalmusicnews.com/2026/11/17/umg-v-suno-subpoena/": 1794974472.6818342
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1794628851.2830174,
-   "title": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!",
-   "soha": "AI"
-  },
   {
    "t": 1794632543.1599967,
    "title": "NVIDIA’s Suno Investor Fights Music Labels Over Court Testimony",
@@ -899,6 +895,11 @@
    "t": 1794971153.8142672,
    "title": "OpenAI opens its cybersecurity tool Daybreak to NATO and European governments",
    "soha": "AI"
+  },
+  {
+   "t": 1794974472.6818342,
+   "title": "One UMG v. Suno Subpoena Battle Down, Many to Go: Universal Music and Sony Music Shelve Motion to Compel Following DistroKid Documents Production",
+   "soha": "AI musiqa"
   }
  ],
  "mavzu": {
@@ -906,28 +907,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1794801668.6522408,
-   "title": "Adobe Firefly yangi sun'iy intellekt yangilanishlarini oldi",
-   "text": "Adobe MAX 2026 konferensiyasida Adobe Firefly uchun generativ sun'iy intellekt va audio kuchaytirish bo'yicha yirik yangi funksiyalar taqdim etildi.",
-   "orig_title": "Adobe Firefly gets major AI upgrades | Generative AI and audio enhancement at Adobe MAX 2026",
-   "link": "https://economictimes.indiatimes.com/news/short-videos/adobe-firefly-gets-major-ai-upgrades-generative-ai-and-audio-enhancement-at-adobe-max-2026/videoshow/135871429.cms",
-   "source": "economictimes.indiatimes.com",
-   "soha": "AI rasm",
-   "baho": 9,
-   "experts": [],
-   "effect": "Turli sun'iy intellekt modellarining bir platformaga jamlanishi ijodkorlarga turli ilovalar o'rtasida o'tish zaruratini kamaytirib, ish jarayonini sezilarli darajada tezlashtirishi mumkin. Shuningdek, yangi avtomatlashtirish vositalari va agentlar kichik biznes hamda kontent yaratuvchilarga yanada murakkab loyihalarni bajarish imkonini berishi ehtimoli bor.",
-   "image": "https://img.etimg.com/thumb/msid-135871429,width-1200,height-900,overlay-economictimes/news/short-videos/adobe-firefly-gets-major-ai-upgrades-generative-ai-and-audio-enhancement-at-adobe-max-2026.jpg",
-   "domains": [
-    "tech.yahoo.com",
-    "markets.ft.com"
-   ],
-   "urls": [
-    "https://tech.yahoo.com/ai/meta-ai/articles/adobe-max-2026-ai-agents-185310326.html",
-    "https://markets.ft.com/data/announce/full?dockey=600-202611100901BIZWIRE_USPRX____20261110_BW476316-1"
-   ],
-   "videos": []
-  },
   {
    "t": 1794808920.9056406,
    "title": "OpenAI fanlar uchun yangi blogini ishga tushirdi",
@@ -2722,6 +2701,28 @@
    "urls": [
     "https://the-decoder.com/openai-opens-its-cybersecurity-tool-daybreak-to-nato-and-european-governments/",
     "https://www.businessinsider.com/math-ai-tools-openai-terence-tao-ucla-2026-10"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794974472.6818342,
+   "title": "Universal va Sony DistroKid hujjatlari taqdim etilgach Suno ishini davom ettirmoqda",
+   "text": "Universal Music, Sony Music va DistroKid Suno sud ishida uchinchi tomon chaqiruv qog'ozi bo'yicha kelishmovchilikni hal qilishdi.",
+   "orig_title": "One UMG v. Suno Subpoena Battle Down, Many to Go: Universal Music and Sony Music Shelve Motion to Compel Following DistroKid Documents Production",
+   "link": "https://www.digitalmusicnews.com/2026/11/17/umg-v-suno-subpoena/",
+   "source": "digitalmusicnews.com",
+   "soha": "AI musiqa",
+   "baho": 8,
+   "experts": [],
+   "effect": "Musiqa va ko‘ngilochar bozorida mualliflik huquqini himoya qilish kuchayishi, sun'iy intellekt kompaniyalari uchun huquqiy xarajatlar va litsenziyalash talablari ortishi ehtimoli bor.",
+   "image": null,
+   "domains": [
+    "theguardian.com",
+    "yahoo.com"
+   ],
+   "urls": [
+    "https://www.theguardian.com/us-news/2026/oct/25/elvis-presley-anthropic-lawsuit-ai-models-music",
+    "https://www.yahoo.com/entertainment/music/articles/universal-music-sony-want-know-181158775.html"
    ],
    "videos": []
   }
