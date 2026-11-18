@@ -1,8 +1,5 @@
 {
  "seen": {
-  "https://finance.yahoo.com/technology/ai/articles/iqiyi-revives-90-old-lost-100300931.html": 1794083952.2359965,
-  "https://betanews.com/article/chatgpt-images-gifs-faster-generation/": 1794083952.2359965,
-  "https://cryptobriefing.com/venice-gpt-image-2-6-flare-sunburst/": 1794083952.2359965,
   "https://tribune.com.pk/story/2639163/elvis-presley-rights-holders-and-eminems-publisher-sue-ai-music-generator-suno": 1794131399.8789122,
   "https://musically.com/2026/11/06/soundcloud-will-soon-have-more-ai-music-from-elevenlabs/": 1794131399.8789122,
   "https://note.com/solomics_zukai/n/n79355787e0b7?hl=en": 1794157188.5484107,
@@ -328,20 +325,16 @@
   "https://techcrunch.com/2026/11/17/daydreams-new-ai-agent-acts-as-your-personal-stylist-and-can-shop-for-you-too/": 1794942420.6631453,
   "https://www.msn.com/en-us/money/general/adobe-completes-topaz-labs-acquisition-adds-ai-media-tools/ar-AA2hE97t": 1794942420.6631453,
   "https://www.musicbusinessworldwide.com/universal-and-sony-fight-sunos-bid-to-freeze-second-lawsuit-warning-its-latest-ai-models-could-escape-scrutiny-until-at-least-2028/": 1794942420.6631453,
-  "https://musically.com/2026/11/16/suno-bridge-takes-ai-music-to-daws-starting-with-ableton-live/": 1794942420.6631453
+  "https://musically.com/2026/11/16/suno-bridge-takes-ai-music-to-daws-starting-with-ableton-live/": 1794942420.6631453,
+  "https://www.bostonglobe.com/2026/11/17/business/ai-music-generator-suno-let-users-create-music-videos/": 1794971153.8142672,
+  "https://www.musicbusinessworldwide.com/suno-launches-ai-music-video-tool-built-on-model-from-minimax-the-chinese-ai-firm-being-sued-by-disney-and-other-hollywood-studios/": 1794971153.8142672,
+  "https://www.billboard.com/pro/suno-moves-into-ai-filmmaking-with-visuals-product/": 1794971153.8142672,
+  "https://the-decoder.com/openai-launches-gpt-6-2-astra-and-sol-with-lower-api-prices-and-some-benchmark-gains/": 1794971153.8142672,
+  "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/": 1794971153.8142672,
+  "https://the-decoder.com/openai-opens-its-cybersecurity-tool-daybreak-to-nato-and-european-governments/": 1794971153.8142672
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1794625332.36186,
-   "title": "AI agent startup LangChain hits $3B valuation",
-   "soha": "AI"
-  },
-  {
-   "t": 1794625332.36186,
-   "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
-   "soha": "AI"
-  },
   {
    "t": 1794628851.2830174,
    "title": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!",
@@ -876,6 +869,36 @@
    "t": 1794942420.6631453,
    "title": "Suno Bridge takes AI music to DAWs – starting with Ableton Live",
    "soha": "AI musiqa"
+  },
+  {
+   "t": 1794971153.8142672,
+   "title": "AI music generator Suno to let users create music videos",
+   "soha": "AI musiqa"
+  },
+  {
+   "t": 1794971153.8142672,
+   "title": "Suno launches AI music video tool built on model from MiniMax – the Chinese AI firm being sued by Disney and other Hollywood studios",
+   "soha": "AI musiqa"
+  },
+  {
+   "t": 1794971153.8142672,
+   "title": "Suno Moves Into AI Filmmaking With New Product ‘Visuals’",
+   "soha": "AI video"
+  },
+  {
+   "t": 1794971153.8142672,
+   "title": "OpenAI launches GPT-6.2 Astra and Sol with lower API prices and some benchmark gains",
+   "soha": "AI"
+  },
+  {
+   "t": 1794971153.8142672,
+   "title": "Amazon and Google will together own nearly 30% of Anthropic after its IPO",
+   "soha": "AI"
+  },
+  {
+   "t": 1794971153.8142672,
+   "title": "OpenAI opens its cybersecurity tool Daybreak to NATO and European governments",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -883,163 +906,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1794798318.1396794,
-   "title": "Adobe Firefly'ni AI agentlar va video vositalariga ega studiyaga aylantirmoqda",
-   "text": "Adobe o‘zining Firefly platformasini AI agentlar, turli AI modellari integratsiyasi hamda video montaj imkoniyatlarini o‘z ichiga olgan ijodiy studiyaga aylantirayotganini e’lon qildi.",
-   "orig_title": "Adobe Wants Firefly To Become The Home Of AI-Powered Creativity",
-   "link": "https://wersm.com/adobe-firefly-ai-creative-studio-agents/",
-   "source": "wersm.com",
-   "soha": "AI video",
-   "baho": 9,
-   "experts": [],
-   "effect": "Firefly ko‘p modelli platformaga aylanishi ijodiy jarayonlarni soddalashtirib, Adobe ekotizimini yanada mustahkamlashi va yakka sun’iy intellekt modeli ishlab chiquvchilari orasidagi raqobatni kuchaytirishi mumkin.",
-   "image": "https://wersm.com/wp-content/uploads/2026/11/nouveautes-adobe-firefly-studio-ia-1-768x432.jpg.webp",
-   "domains": [
-    "wersm.com",
-    "markets.ft.com"
-   ],
-   "urls": [
-    "https://wersm.com/adobe-firefly-ai-creative-studio-agents/",
-    "https://markets.ft.com/data/announce/detail?dockey=600-202611100901BIZWIRE_USPRX____20261110_BW476316-1"
-   ],
-   "videos": [
-    [
-     "https://vimeo.com/1245595091",
-     "Vimeo"
-    ],
-    [
-     "https://vimeo.com/1245595089",
-     "Vimeo"
-    ]
-   ]
-  },
-  {
-   "t": 1794798318.1396794,
-   "title": "OpenAI GPT-6 Astra fizika bo‘yicha nazariy isbot yaratishga yordam berganini bildirdi",
-   "text": "OpenAI tadqiqotchilari Standart modelni panjarada aniqlash bo‘yicha nazariy g‘oyani batafsil matematik isbotga aylantirishda GPT-6 Astra modelidan foydalandi.",
-   "orig_title": "A step toward defining the Standard Model on a lattice",
-   "link": "https://openai.com/index/step-toward-defining-the-standard-model",
-   "source": "OpenAI",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Gumanoid robotlar tannarxining keskin pasayishi va yangi modellar robototexnika sohasida tijoriy joriy etishni tezlashtirishi hamda ishlab chiqarish sohalarida avtomatlashtirishni kuchaytirishi mumkin.",
-   "image": null,
-   "domains": [
-    "tech.yahoo.com"
-   ],
-   "urls": [
-    "https://tech.yahoo.com/ai/meta-ai/articles/figure-ceo-brett-adcock-every-233942226.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794798318.1396794,
-   "title": "AQSh Kongressi janjallar ortidan AI chiplari eksporti qoidalarini kuchaytirmoqda",
-   "text": "Nvidia atrofidagi mojaro ortidan AQSh Kongressining har ikki partiyasi AI chiplari eksportini yanada qattiqroq cheklash bo‘yicha qonun loyihalarini ilgari surmoqda.",
-   "orig_title": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
-   "source": "The Verge AI",
-   "soha": "AI",
-   "baho": 7,
-   "experts": [],
-   "effect": "Eksport nazorati va qonunlarning kuchaytirilishi AQSh chip ishlab chiqaruvchilarining daromadlariga zarba berib, Xitoyning mustaqil yarimo‘tkazgich texnologiyalarini rivojlantirishini tezlashtirishi mumkin.",
-   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25545717/STK481_STK432_CONGRESS_GOVERNMENT_CIVRGINIA_D.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
-   "domains": [
-    "theverge.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
-    "https://finance.yahoo.com/news/nvidia-spy-allegations-likely-spur-215426258.html"
-   ],
-   "videos": [
-    [
-     "https://x.com/elonmusk/status/2121345211959804234",
-     "X"
-    ]
-   ]
-  },
-  {
-   "t": 1794798318.1396794,
-   "title": "Apple tibbiy AI vositalari samaradorligini o‘rganish uchun yangi tadqiqot boshladi",
-   "text": "Apple kompaniyasi OpenEvidence platformasi bilan hamkorlikda foydalanuvchilarning tibbiy AI vositalari bilan qanday muloqot qilishini o‘rganish maqsadida maxsus ilova va tadqiqotni yo‘lga qo‘ydi.",
-   "orig_title": "Apple’s new study looks to improve the effectiveness of AI health tools",
-   "link": "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools",
-   "source": "The Verge AI",
-   "soha": "AI",
-   "baho": 6,
-   "experts": [],
-   "effect": "Klinik AI vositalarining takomillashtirilishi sog‘liqni saqlash ilovalarida tibbiy maslahatlar aniqligini oshirib, raqamli tibbiyot xizmatlari va diagnostikaga bo‘lgan ishonchni mustahkamlashi mumkin.",
-   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/applestudy1b.jpg?quality=90&strip=all&crop=0%2C10.740836125969%2C100%2C78.518327748063&w=1200",
-   "domains": [
-    "theverge.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools",
-    "https://finance.yahoo.com/healthcare/articles/doximity-outranks-openevidence-frontier-models-182600985.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794798318.1396794,
-   "title": "Hindistonning Bharat Semi startapi AI sensorlari uchun 24 million dollar jalb qildi",
-   "text": "AI asosidagi sensor texnologiyalarini ishlab chiquvchi Bharat Semi seed bosqichida 24 million dollar investitsiya oldi va General Atomics kabi kompaniyalar bilan shartnoma imzoladi.",
-   "orig_title": "Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market",
-   "link": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
-   "source": "TechCrunch AI",
-   "soha": "AI",
-   "baho": 6,
-   "experts": [],
-   "effect": "Bitta chipda tasvir va AIni birlashtirish sensorlar tannarxini 70% gacha pasaytirib, Hindistonning yarimo‘tkazgichlar bozoridagi mavqeini oshirishi hamda ta’minot zanjirlarini diversifikatsiya qilishi mumkin.",
-   "image": "https://techcrunch.com/wp-content/uploads/2026/11/bharat-semi-co-founders-vinayak-dalmia-vrinda-kapoor.jpg?resize=1200,800",
-   "domains": [
-    "techcrunch.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
-    "https://finance.yahoo.com/technology/ai/articles/indian-chip-startup-bharat-semi-233000829.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794798318.1396794,
-   "title": "Jensen Huang Nvidia'ga qaytish yo‘llarini izlayotgani haqida xabarlar tarqaldi",
-   "text": "Nvidia sobiq rahbari Jensen Huang atrofidagi mojaro davom etar ekan, uning kompaniyaga qayta rahbarlik qilish yo‘llarini rejalashtirayotgani to‘g‘risida ma’lumotlar paydo bo‘ldi.",
-   "orig_title": "Jensen Huang might be plotting a return and more of the latest Nvidia drama",
-   "link": "https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed",
-   "source": "The Verge AI",
-   "soha": "AI",
-   "baho": 6,
-   "experts": [
-    {
-     "kim": "Elon Musk",
-     "lavozim": "Bosh direktor va tadbirkor",
-     "fikr": "Jensen Nvidia ta’minot zanjirini a’lo darajada boshqargan, uning ishtirokisiz ko‘plab muhim og‘zaki kelishuvlar boy berilishi mumkin.",
-     "url": "https://finance.yahoo.com/technology/articles/breaking-jensen-huang-reportedly-plotting-203249972.html",
-     "domain": "finance.yahoo.com"
-    }
-   ],
-   "effect": "Nvidia atrofidagi boshqaruv inqirozi va Huangning qaytish ehtimoli kompaniya aksiyalari beqarorligini keltirib chiqarishi hamda sheriklar bilan ta’minot zanjirlariga salbiy ta’sir ko‘rsatishi mumkin.",
-   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Nvidia_Jensen_huang_03.jpg?quality=90&strip=all&crop=0%2C12.339110464558%2C100%2C75.321779070884&w=1200",
-   "domains": [
-    "theverge.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed",
-    "https://finance.yahoo.com/technology/articles/breaking-jensen-huang-reportedly-plotting-203249972.html"
-   ],
-   "videos": [
-    [
-     "https://x.com/elonmusk/status/2121345211959804234",
-     "X"
-    ]
-   ]
-  },
   {
    "t": 1794801668.6522408,
    "title": "Adobe Firefly yangi sun'iy intellekt yangilanishlarini oldi",
@@ -2700,6 +2566,162 @@
    "urls": [
     "https://musically.com/2026/11/16/suno-bridge-takes-ai-music-to-daws-starting-with-ableton-live/",
     "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794971153.8142672,
+   "title": "Suno foydalanuvchilarga sun'iy intellekt yordamida musiqa videolari yaratish imkonini taqdim etmoqda",
+   "text": "Suno kompaniyasi foydalanuvchilarga oddiy matnli so‘rovlar asosida audio treklariga mos keluvchi videolar yaratish imkonini beruvchi yangi funksiyani ishga tushirdi.",
+   "orig_title": "AI music generator Suno to let users create music videos",
+   "link": "https://www.bostonglobe.com/2026/11/17/business/ai-music-generator-suno-let-users-create-music-videos/",
+   "source": "bostonglobe.com",
+   "soha": "AI musiqa",
+   "baho": 9,
+   "experts": [],
+   "effect": "Sunoning yangi funksiyasi yaratuvchilarga qo'shiqlar uchun qisqa videolar va albom muqovalarini tayyorlash imkonini berishi ehtimoli bor. Bu qadam brendni musiqiy platformadan ijodiy ko'ngilochar brendga aylantirishi mumkin.",
+   "image": null,
+   "domains": [
+    "billboard.com"
+   ],
+   "urls": [
+    "https://www.billboard.com/pro/suno-moves-into-ai-filmmaking-with-visuals-product/"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794971153.8142672,
+   "title": "Suno o'zining yangi AI musiqa video vositasini taqdim etdi",
+   "text": "Platforma MiniMax kompaniyasining texnologiyasiga asoslangan va foydalanuvchilarga qo‘shiqlar uchun vizual kontent yaratish imkonini beruvchi 'Visuals' mahsulotini chiqardi.",
+   "orig_title": "Suno launches AI music video tool built on model from MiniMax – the Chinese AI firm being sued by Disney and other Hollywood studios",
+   "link": "https://www.musicbusinessworldwide.com/suno-launches-ai-music-video-tool-built-on-model-from-minimax-the-chinese-ai-firm-being-sued-by-disney-and-other-hollywood-studios/",
+   "source": "musicbusinessworldwide.com",
+   "soha": "AI musiqa",
+   "baho": 8,
+   "experts": [],
+   "effect": "Mualliflik huquqi bo'yicha da'volar va sud jarayonlari Sunoning bozordagi mavqeiga salbiy ta'sir ko'rsatishi mumkin. Shuningdek, xususiy modellardan foydalanish sun'iy intellekt sohasidagi huquqiy va litsenziyalash cheklovlarini kuchaytirish ehtimoli bor.",
+   "image": "https://www.musicbusinessworldwide.com/files/2026/11/Screenshot-2026-11-17-at-16.26.43.jpg",
+   "domains": [
+    "musicbusinessworldwide.com",
+    "theverge.com"
+   ],
+   "urls": [
+    "https://www.musicbusinessworldwide.com/suno-launches-ai-music-video-tool-built-on-model-from-minimax-the-chinese-ai-firm-being-sued-by-disney-and-other-hollywood-studios/",
+    "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit"
+   ],
+   "videos": [
+    [
+     "https://www.youtube.com/watch?v=5zFY3KkmSiE",
+     "YouTube"
+    ]
+   ]
+  },
+  {
+   "t": 1794971153.8142672,
+   "title": "Suno 'Visuals' mahsuloti bilan sun'iy intellekt yordamida kino yaratish sohasiga kirdi",
+   "text": "Suno platformasi taqdim etgan yangi mahsulot MiniMax modeli bazasida maxsus sozlangan bo‘lib, hamjamiyat foydalanishi uchun mo‘ljallangan.",
+   "orig_title": "Suno Moves Into AI Filmmaking With New Product ‘Visuals’",
+   "link": "https://www.billboard.com/pro/suno-moves-into-ai-filmmaking-with-visuals-product/",
+   "source": "billboard.com",
+   "soha": "AI video",
+   "baho": 8,
+   "experts": [],
+   "effect": "To'liq sun'iy intellekt yordamida yaratilgan filmlarning kassa yig'imlarida muvaffaqiyatsiz bo'lishi kinoteatrlardagi moliyaviy natijalarga salbiy ta'sir qilishi mumkin. Shunga qaramay, investorlarning sun'iy intellekt texnologiyalariga qiziqishi yuqoriligicha qolish ehtimoli bor.",
+   "image": "https://www.billboard.com/wp-content/uploads/2026/11/suno-visuals-courtesy-of-suno.jpg?w=1024",
+   "domains": [
+    "billboard.com",
+    "theguardian.com"
+   ],
+   "urls": [
+    "https://www.billboard.com/pro/suno-moves-into-ai-filmmaking-with-visuals-product/",
+    "https://www.theguardian.com/film/2026/nov/03/china-first-ai-generated-film-flops-cinema-future"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794971153.8142672,
+   "title": "OpenAI yangi GPT-6.2 Astra va Sol modellarini chiqardi",
+   "text": "OpenAI avvalgilariga qaraganda arzonroq va qobiliyatliroq bo'lgan ikki yangi modelni e'lon qildi, ulardan biri mustaqil reytinglarda yuqori o'rinlarni egallamoqda.",
+   "orig_title": "OpenAI launches GPT-6.2 Astra and Sol with lower API prices and some benchmark gains",
+   "link": "https://the-decoder.com/openai-launches-gpt-6-2-astra-and-sol-with-lower-api-prices-and-some-benchmark-gains/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Narxlarning pasayishi va unumdorlikning oshishi foydalanuvchilar va dasturchilar uchun sun'iy intellekt xizmatlaridan foydalanishni yanada qulaylashtirishi mumkin. Bu esa bozordagi raqobatni keskinlashtirib, boshqa kompaniyalarni ham narxlarni qayta ko'rib chiqishga majbur qilishi ehtimoli bor.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/11/openai_vals_sol.png",
+   "domains": [
+    "the-decoder.com",
+    "tech.yahoo.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/openai-launches-gpt-6-2-astra-and-sol-with-lower-api-prices-and-some-benchmark-gains/",
+    "https://tech.yahoo.com/ai/chatgpt/articles/openais-gpt-6-2-astra-214602224.html"
+   ],
+   "videos": [
+    [
+     "https://www.youtube.com/watch?v=C1zYX5jwqq4",
+     "YouTube"
+    ],
+    [
+     "https://www.youtube.com/watch?v=tKoDPOrLMX0",
+     "YouTube"
+    ],
+    [
+     "https://x.com/ValsAI/status/2122750572533326298",
+     "X"
+    ]
+   ]
+  },
+  {
+   "t": 1794971153.8142672,
+   "title": "Amazon va Google Anthropic aksiyalarining sezilarli qismiga egalik qiladi",
+   "text": "Anthropic kompaniyasining IPO jarayonidan so‘ng Amazon 15% ga yaqin, Google esa 14% atrofida ulushga ega bo‘lishi kutilmoqda.",
+   "orig_title": "Amazon and Google will together own nearly 30% of Anthropic after its IPO",
+   "link": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Katta texnologiya kompaniyalarining aksiyalarga egalik qilishi bozordagi ta'sir doirasini yanada oshirishi mumkin. IPO natijalari investorlarning qog'ozdagi foydasini keskin o'zgartirishi ehtimoli bor.",
+   "image": "https://techcrunch.com/wp-content/uploads/2022/09/GettyImages-1415078085.jpg?resize=1200,721",
+   "domains": [
+    "techcrunch.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/",
+    "https://finance.yahoo.com/markets/stocks/articles/anthropic-ipo-filing-shows-amazon-141838999.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794971153.8142672,
+   "title": "OpenAI o'zining Daybreak kiberxavfsizlik vositasini NATO va Yevropa hukumatlariga ochdi",
+   "text": "OpenAI kiberxavfsizlik vositasi NATO va bir qator Yevropa davlatlariga taqdim etildi, Yevropa Ittifoqi agentligi esa dasturiy zaifliklarni aniqlashda foydalanishni boshladi.",
+   "orig_title": "OpenAI opens its cybersecurity tool Daybreak to NATO and European governments",
+   "link": "https://the-decoder.com/openai-opens-its-cybersecurity-tool-daybreak-to-nato-and-european-governments/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [
+    {
+     "kim": "Tristan Buckmaster",
+     "lavozim": "matematika professori",
+     "fikr": "OpenAI tomonidan muammolarning hal etilishi yosh tadqiqotchilarning butun boshli ilmiy-tadqiqot dasturlarini barbod qilganini bildirdi.",
+     "url": "https://www.businessinsider.com/math-ai-tools-openai-terence-tao-ucla-2026-10",
+     "domain": "businessinsider.com"
+    }
+   ],
+   "effect": "Sun'iy intellekt vositalarining kiberhimoya va ilmiy tadqiqotlarga tatbiq etilishi xavfsizlik tizimlarini avtomatlashtirishni tezlashtirishi mumkin. Shu bilan birga, akademik sohada an'anaviy yondashuvlarni o'zgartirib yuborish ehtimoli bor.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/10/russian_influence_campaigns.png",
+   "domains": [
+    "the-decoder.com",
+    "businessinsider.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/openai-opens-its-cybersecurity-tool-daybreak-to-nato-and-european-governments/",
+    "https://www.businessinsider.com/math-ai-tools-openai-terence-tao-ucla-2026-10"
    ],
    "videos": []
   }
