@@ -39,6 +39,7 @@ jobs:
       - name: Post tayyorlash va yuborish
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
           IG_BOT_TOKEN: ${{ secrets.IG_BOT_TOKEN }}
           IG_CHAT_ID: ${{ secrets.IG_CHAT_ID }}
           SINOV: ${{ github.event.inputs.sinov }}

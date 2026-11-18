@@ -306,6 +306,8 @@ REEL_MAX_DAY = 24   # sutkada nechta yangilik reel bo'lib ham chiqadi (har yangi
 IMG_MAX_DAY = 5     # rasmli post sutkada 5 ta (rasmlar 0 ko'rish oldi, reellar ~120): faqat eng kuchli, haqiqiy rasmli
 IMG_MAX_RUN = 1     # bir ishga tushishda bitta rasm — kun bo'yi tarqalsin, spamdek ko'rinmasin
 HAR_WINDOW = 6 * 3600
+# hookdan keyin darhol: obuna bo'lsa nima oladi (obunachisiz sahifa uchun eng muhim jumla)
+OBUNA = "Obuna boʻling — AI yangiliklarini har kuni birinchi boʻlib siz bilasiz."
 
 
 def har():
@@ -397,7 +399,7 @@ def har():
             break
         title = re.sub(r"\*", "", pick["sarlavha"]).strip()
         tease = uz(pick.get("qiziqtir", "")).strip() or title  # qisqa: qiziqtiradi, tafsilot izohda
-        narration = f"{tease.rstrip('.!')}. Batafsil izohda oʻqing."
+        narration = f"{OBUNA} {tease.rstrip('.!')}. Batafsil izohda oʻqing."
         mp4 = reel.make_reel(f"{stamp}_{i}_reel", photo, headline_html(pick["sarlavha"]), narration,
                              hook=uz(pick.get("hook", "")).strip(" .!") + "!" if pick.get("hook") else "")
         log.info("Reel: %s -> %s", title, mp4)
@@ -422,14 +424,18 @@ def har():
 # ---------- Kechki TOP-3 reel (Toshkent 20:00) ----------
 
 TOP3_PROMPT = """Sen o'zbek tilidagi "AI.TezkorYangiliklari" Instagram sahifasi muharririsan.
-Quyida bugun (oxirgi 24 soat) yuborilgan AI yangiliklari bor. Kechki "Bugun AI'da TOP-3" reeli uchun eng muhim,
-ko'p odamni qiziqtiradigan 3 ta TURLI voqeani tanla (bir voqeaning ikki maqolasini olma; O'zbekistonga oid
-AI yangiligi bo'lsa, uni albatta qo'sh). O'zbek tilida (lotin, oʻ gʻ ʼ belgilari bilan, kirillsiz) yoz:
+Quyida bugun (oxirgi 24 soat) yuborilgan AI yangiliklari bor. Kechki "Bugun AI'da TOP-3" reeli uchun ODDIY
+ODAMLARNI (faqat mutaxassislarni emas) eng ko'p qiziqtiradigan 3 ta TURLI voqeani tanla. Ustunlik: hamma biladigan
+nomlar (ChatGPT, OpenAI, Google, Apple, Elon Musk, Nvidia...), katta pul va raqamlar, janjal va kutilmagan voqealar,
+odamlarning ishi, puli yoki telefoniga ta'sir qiladiganlar, bepul yangi imkoniyatlar, O'zbekistonga oid AI yangiligi.
+Texnik, tor sohaviy yoki zerikarli korporativ xabarlarni olma. Bir voqeaning ikki maqolasini olma. O'zbek tilida (lotin, oʻ gʻ ʼ belgilari bilan, kirillsiz) yoz:
 - "sarlavha": 4-7 so'zli qisqa sarlavha (ovozda o'qiladi), faqat berilgan faktlar.
 - "gap": bitta JUDA qisqa gap (6-10 so'z): eng qiziq fakt yoki raqam, faqat berilgan faktlar.
 Reel 25 soniyadan oshmasin: ortiqcha so'z yozma.
 - "rasm": voqeadagi asosiy shaxsning ism-familiyasi lotincha (kompaniya bo'lsa uning rahbari), bo'lmasa bo'sh.
-Umumiy: "savol" — izohga yozdiradigan 3-6 so'zli savol; "teglar" — 3-5 heshteg (#AI bilan).
+Umumiy: "hook" — reel boshida aytiladigan va katta chiqadigan 3-6 so'zli ilmoq: eng kuchli voqeaning eng
+shok fakti (raqam, mashhur ism yoki "sizga ta'siri"), masalan "OpenAI hammani hayratga soldi!", "Endi ChatGPT
+bepul emasmi?". Faqat faktga asoslangan. "savol" — izohga yozdiradigan 3-6 so'zli savol; "teglar" — 3-5 heshteg (#AI bilan).
 
 YANGILIKLAR (JSON):
 {items}
@@ -441,8 +447,9 @@ TOP3_SCHEMA = {
         "top": {"type": "ARRAY", "items": {"type": "OBJECT", "properties": {
             "id": {"type": "INTEGER"}, "sarlavha": {"type": "STRING"}, "gap": {"type": "STRING"},
             "rasm": {"type": "STRING"}}, "required": ["id", "sarlavha", "gap", "rasm"]}},
-        "savol": {"type": "STRING"}, "teglar": {"type": "ARRAY", "items": {"type": "STRING"}}},
-    "required": ["top", "savol", "teglar"],
+        "hook": {"type": "STRING"}, "savol": {"type": "STRING"},
+        "teglar": {"type": "ARRAY", "items": {"type": "STRING"}}},
+    "required": ["top", "hook", "savol", "teglar"],
 }
 
 
@@ -486,12 +493,13 @@ def top3():
     say = [f"{a}." for a, b in s]  # ovozda faqat sarlavhalar (~20 s); fakt va tafsilot izohda
     savol = uz(res.get("savol", "")).strip() or "Qaysi biri sizni hayratga soldi?"
     segments = [
-        (f"Birinchi: {say[0]}", "1-voqea"),
+        (f"Bugungi eng qiziq uchtasi. {OBUNA} Birinchi: {say[0]}", "1-voqea"),
         (f"Ikkinchi: {say[1]}", "2-voqea"),
         (f"Uchinchi: {say[2]} {savol} Izohda yozing.", "3-voqea"),
     ]
     mp4 = reel.make_reel(f"{stamp}_top3", photos, headline_html("Bugun AI'da *TOP-3* voqea"), "",
-                         hook="Bugun AI'da TOP-3", segments=segments)
+                         hook=(uz(res.get("hook", "")).strip(" .!") + "!") if res.get("hook") else "Bugun AI'da TOP-3",
+                         segments=segments, eleven=True)
     log.info("TOP-3 reel: %s -> %s", [x[0] for x in s], mp4)
     if not mp4:
         return

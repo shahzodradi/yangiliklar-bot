@@ -77,9 +77,15 @@ def title_card(name, num, text):
     return png if browser_shot(page, png, W, PH) else None
 
 
-def voice(text, mp3):
+def voice(text, mp3, eleven=False):
     """MP3 yozadi va so'zlar vaqtini qaytaradi: [(boshlanish_s, tugash_s, so'z)].
-    Asosiy: Gemini TTS (Charon — tabiiy o'zbekcha); limit/xato bo'lsa edge-tts Sardor."""
+    eleven=True (kechki TOP-3): ElevenLabs — eng tabiiy ovoz (bepul 10k kredit/oy faqat shunga yetadi).
+    Asosiy: Gemini TTS (Charon); limit/xato bo'lsa edge-tts Sardor."""
+    if eleven:
+        try:
+            return eleven_voice(text, mp3)
+        except Exception as e:
+            print("ElevenLabs ishlamadi, Gemini bilan:", str(e)[:200])
     try:
         return gemini_voice(text, mp3)
     except Exception as e:
@@ -88,6 +94,40 @@ def voice(text, mp3):
 
 
 GEMINI_VOICE = "Charon"
+ELEVEN_VOICE = "JBFqnCBsd6RMkjVDRZzb"  # ElevenLabs "George": iliq, tabiiy erkak ovozi (ELEVENLABS_VOICE bilan almashadi)
+
+
+def eleven_voice(text, mp3):
+    """ElevenLabs eleven_v3 (o'zbek tilini biladi) + harf vaqtlari -> so'z vaqtlari (subtitr aniq tushadi)."""
+    import base64, os, urllib.request
+    key = os.environ.get("ELEVENLABS_API_KEY")
+    if not key:
+        raise RuntimeError("ELEVENLABS_API_KEY yo'q")
+    vid = os.environ.get("ELEVENLABS_VOICE") or ELEVEN_VOICE
+    body = {"text": text, "model_id": "eleven_v3", "language_code": "uz",
+            "voice_settings": {"stability": 0.5, "similarity_boost": 0.75}}
+    req = urllib.request.Request(f"https://api.elevenlabs.io/v1/text-to-speech/{vid}/with-timestamps"
+                                 "?output_format=mp3_44100_128", json.dumps(body).encode(),
+                                 {"Content-Type": "application/json", "xi-api-key": key})
+    d = json.load(urllib.request.urlopen(req, timeout=180))
+    mp3.write_bytes(base64.b64decode(d["audio_base64"]))
+    al = d.get("alignment") or d.get("normalized_alignment") or {}
+    chars, st, en = al.get("characters", []), al.get("character_start_times_seconds", []), \
+        al.get("character_end_times_seconds", [])
+    words, cur, a = [], "", None
+    for c, s0, e0 in zip(chars, st, en):
+        if c.isspace():
+            if cur:
+                words.append((a, last, cur.strip(".,!?;:—«»\"")))
+            cur, a = "", None
+            continue
+        if a is None:
+            a = s0
+        cur += c
+        last = e0
+    if cur:
+        words.append((a, last, cur.strip(".,!?;:—«»\"")))
+    return [w for w in words if w[2]]
 
 
 def gemini_voice(text, mp3):
@@ -96,8 +136,10 @@ def gemini_voice(text, mp3):
     import base64, os, urllib.request
     key = os.environ.get("GEMINI_API_KEY") or next(l.split("=", 1)[1].strip()
           for l in (HERE.parent / ".env").read_text().splitlines() if l.startswith("GEMINI_API_KEY="))
-    body = {"contents": [{"parts": [{"text": "Read this Uzbek news aloud in clear, natural native Uzbek "
-                                     "(Tashkent pronunciation), energetic news-anchor tone: " + text}]}],
+    body = {"contents": [{"parts": [{"text": "Say this in Uzbek like a real young Tashkent guy telling "
+                                     "a friend surprising news: relaxed, conversational, warm, natural pauses and "
+                                     "intonation, slightly excited but NOT a news anchor, NOT robotic, NOT "
+                                     "over-acted. Native Uzbek pronunciation: " + text}]}],
             "generationConfig": {"responseModalities": ["AUDIO"], "speechConfig": {
                 "voiceConfig": {"prebuiltVoiceConfig": {"voiceName": GEMINI_VOICE}}}}}
     req = urllib.request.Request("https://generativelanguage.googleapis.com/v1beta/models/"
@@ -216,7 +258,7 @@ def clip_filter(idx, path, logo, frames, move):
             f"zoompan=z='{z}':x='{x}':y='ih/2-(ih/zoom/2)':d={frames}:s={W}x{PH}:fps=30,format=yuv420p[c{idx}]")
 
 
-def make_reel(name, photos, h1_html, narration, hook="", fs=None, segments=None):
+def make_reel(name, photos, h1_html, narration, hook="", fs=None, segments=None, eleven=False):
     """photos: rasm yo'llari ro'yxati (1-4 ta, har biri boshqa rasm) yoki None (logo).
     segments: [(matn, yorliq)] — har bo'lak o'z rasmi bilan (photos bilan teng), rasm aynan shu bo'lak
     aytilganda chiqadi, yorliq ("1-VOQEA") tepada sakrab chiqadi. Bunda narration = bo'laklar matni."""
@@ -232,7 +274,7 @@ def make_reel(name, photos, h1_html, narration, hook="", fs=None, segments=None)
     mp3 = OUT / f"{name}.mp3"
     if segments:
         narration = " ".join(t for t, _ in segments)
-    words = voice(speakable(f"{hook}. {narration}" if hook else narration), mp3)
+    words = voice(speakable(f"{hook}. {narration}" if hook else narration), mp3, eleven=eleven)
     if not mp3.exists() or not mp3.stat().st_size:
         return None
     ass = subtitles(words, OUT / f"{name}.ass", hook=hook)
