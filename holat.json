@@ -1,8 +1,5 @@
 {
  "seen": {
-  "https://note.com/solomics_zukai/n/n79355787e0b7?hl=en": 1794157188.5484107,
-  "https://gcn.com/fal-raises-billion-inference-startup-doubles/23096/": 1794157188.5484107,
-  "https://the-decoder.com/andrej-karpathy-built-a-curated-video-platform-in-a-weekend-using-claude-and-20-years-of-hacker-news/": 1794157188.5484107,
   "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit": 1794171411.059314,
   "https://the-decoder.com/ai-coding-agents-still-need-human-cleanup-on-nearly-three-out-of-four-tasks-in-a-real-world-test/": 1794171411.059314,
   "https://note.com/strawberry1982/n/n48becdacf6cd?hl=en": 1794221257.5365393,
@@ -369,7 +366,7 @@
   "https://the-decoder.com/sec-probes-nvidia-over-undisclosed-chip-sales-tied-to-china/": 1795017767.9373405,
   "https://www.theverge.com/tech/1036445/nvidia-h200-ai-chips-china-stop-selling": 1795017767.9373405
  },
- "fails": 0,
+ "fails": 1,
  "sent": [
   {
    "t": 1794676080.9185567,
