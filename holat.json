@@ -359,7 +359,8 @@
   "https://www.geeky-gadgets.com/extra-high/": 1795000116.2748084,
   "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership": 1795000116.2748084,
   "https://tech.yahoo.com/ai/chatgpt/articles/tested-chatgpt-gpt-6-2-064500873.html": 1795000116.2748084,
-  "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/": 1795003288.0055163
+  "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/": 1795003288.0055163,
+  "https://techcrunch.com/2026/11/18/felicis-leads-7-5m-bet-on-unsiloed-ai-to-make-enterprise-documents-usable-by-ai-agents/": 1795007185.7900019
  },
  "fails": 0,
  "sent": [
@@ -1036,6 +1037,11 @@
   {
    "t": 1795003288.0055163,
    "title": "India’s Humyn Labs raises $47M to feed U.S. robotics companies the data they need",
+   "soha": "AI"
+  },
+  {
+   "t": 1795007185.7900019,
+   "title": "Felicis leads $7.5M bet on Unsiloed AI to make enterprise documents usable by AI agents",
    "soha": "AI"
   }
  ],
@@ -3417,6 +3423,30 @@
     "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/",
     "https://www.businessinsider.com/robotics-tech-ai-startups-investors-funding-2026-8",
     "https://ca.finance.yahoo.com/news/toyota-mobility-foundation-mars-select-140000216.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795007185.7900019,
+   "title": "Unsiloed AI korxona hujjatlari bilan ishlash uchun 7.5 million dollar mablag‘ jalb qildi",
+   "text": "Yetti kishilik jamoadan iborat Unsiloed AI startapi sun’iy intellekt agentlari uchun korxona hujjatlarini foydalanishga qulay qilish maqsadida 7.5 million dollar investitsiya to‘pladi.",
+   "orig_title": "Felicis leads $7.5M bet on Unsiloed AI to make enterprise documents usable by AI agents",
+   "link": "https://techcrunch.com/2026/11/18/felicis-leads-7-5m-bet-on-unsiloed-ai-to-make-enterprise-documents-usable-by-ai-agents/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Kompaniyalar murakkab hujjatlarni avtomatlashtirishda tezlikni oshirishi va xatolarni kamaytirishi mumkin. Raqobat kuchayib, sun'iy intellekt agentlari uchun ma'lumotlarni qayta ishlash xizmatlari yanada ommalashishi ehtimoli bor.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/unsiloed-AI-founders-adnan-abbas-aman-mishra.jpg?resize=1200,800",
+   "domains": [
+    "techcrunch.com",
+    "businessinsider.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/18/felicis-leads-7-5m-bet-on-unsiloed-ai-to-make-enterprise-documents-usable-by-ai-agents/",
+    "https://www.businessinsider.com/zeroset-startup-funding-ai-agents-gradient-ventures-enterprise-2026-10",
+    "https://finance.yahoo.com/technology/ai/articles/twin1-ai-raises-20-million-140000905.html"
    ],
    "videos": []
   }
