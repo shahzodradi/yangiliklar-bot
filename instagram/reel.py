@@ -94,7 +94,8 @@ def voice(text, mp3, eleven=False):
 
 
 GEMINI_VOICE = "Charon"
-ELEVEN_VOICE = "JBFqnCBsd6RMkjVDRZzb"  # ElevenLabs "George": iliq, tabiiy erkak ovozi (ELEVENLABS_VOICE bilan almashadi)
+ELEVEN_VOICE = "JBFqnCBsd6RMkjVDRZzb"  # "George" (bepul API faqat tayyor ovozlar; Davronbek kabi kutubxona ovozi pullik tarifda)
+ELEVEN_TAGS = "[very fast] [emotional] "  # eleven_v3 audio teglari: tez va jonli (foydalanuvchi tanlagan uslub)
 
 
 def eleven_voice(text, mp3):
@@ -104,7 +105,7 @@ def eleven_voice(text, mp3):
     if not key:
         raise RuntimeError("ELEVENLABS_API_KEY yo'q")
     vid = os.environ.get("ELEVENLABS_VOICE") or ELEVEN_VOICE
-    body = {"text": text, "model_id": "eleven_v3",
+    body = {"text": ELEVEN_TAGS + text, "model_id": "eleven_v3",
             "voice_settings": {"stability": 0.5, "similarity_boost": 0.75}}
     req = urllib.request.Request(f"https://api.elevenlabs.io/v1/text-to-speech/{vid}/with-timestamps"
                                  "?output_format=mp3_44100_128", json.dumps(body).encode(),
@@ -127,7 +128,8 @@ def eleven_voice(text, mp3):
         last = e0
     if cur:
         words.append((a, last, cur.strip(".,!?;:—«»\"")))
-    return [w for w in words if w[2]]
+    # [very fast] kabi teglar ovozda aytilmaydi — subtitrga ham chiqmasin
+    return [w for w in words if w[2] and not re.search(r"[\[\]]", w[2])]
 
 
 def gemini_voice(text, mp3):
