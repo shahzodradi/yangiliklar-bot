@@ -360,20 +360,11 @@
   "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership": 1795000116.2748084,
   "https://tech.yahoo.com/ai/chatgpt/articles/tested-chatgpt-gpt-6-2-064500873.html": 1795000116.2748084,
   "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/": 1795003288.0055163,
-  "https://techcrunch.com/2026/11/18/felicis-leads-7-5m-bet-on-unsiloed-ai-to-make-enterprise-documents-usable-by-ai-agents/": 1795007185.7900019
+  "https://techcrunch.com/2026/11/18/felicis-leads-7-5m-bet-on-unsiloed-ai-to-make-enterprise-documents-usable-by-ai-agents/": 1795007185.7900019,
+  "https://www.theverge.com/ai-artificial-intelligence/1036415/suno-visuals-ai-generated-video-images-feature": 1795010502.875698
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1794664875.3591092,
-   "title": "The 2026 Boston-Silicon Valley AI Film Festival: 11 Awards and the Convergence of AI & Filmmaking",
-   "soha": "AI tanlov"
-  },
-  {
-   "t": 1794664875.3591092,
-   "title": "Beware the New AI-Fueled Ransomware Boom",
-   "soha": "AI"
-  },
   {
    "t": 1794676080.9185567,
    "title": "Runway Gen-4 could change the AI video industry",
@@ -1043,6 +1034,11 @@
    "t": 1795007185.7900019,
    "title": "Felicis leads $7.5M bet on Unsiloed AI to make enterprise documents usable by AI agents",
    "soha": "AI"
+  },
+  {
+   "t": 1795010502.875698,
+   "title": "Suno now lets you make AI videos for your AI music",
+   "soha": "AI musiqa"
   }
  ],
  "mavzu": {
@@ -3449,6 +3445,35 @@
     "https://finance.yahoo.com/technology/ai/articles/twin1-ai-raises-20-million-140000905.html"
    ],
    "videos": []
+  },
+  {
+   "t": 1795010502.875698,
+   "title": "Suno sun'iy intellekt musiqalari uchun video yaratish funksiyasini qo'shdi",
+   "text": "Suno platformasi foydalanuvchilarga o'z qo'shiqlari uchun avtomatik ravishda qo'shiq matniga lab qimirlatuvchi AI videolarni yaratish imkonini beruvchi yangi Visuals funksiyasini taqdim etdi.",
+   "orig_title": "Suno now lets you make AI videos for your AI music",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1036415/suno-visuals-ai-generated-video-images-feature",
+   "source": "The Verge AI",
+   "soha": "AI musiqa",
+   "baho": 10,
+   "experts": [],
+   "effect": "Sunoning yangi funksiyalari va mualliflik huquqi bo'yicha sud da'volari sun'iy intellekt va musiqa industriyasida huquqiy cheklovlar kuchayishiga hamda ijodkorlar huquqlarini himoya qilish mexanizmlari o'zgarishiga olib kelishi mumkin.",
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/suno-ai-visuals.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+   "domains": [
+    "theverge.com",
+    "yahoo.com",
+    "tech.yahoo.com"
+   ],
+   "urls": [
+    "https://www.theverge.com/ai-artificial-intelligence/1036415/suno-visuals-ai-generated-video-images-feature",
+    "https://www.yahoo.com/news/politics/articles/elvis-music-owners-eminem-publisher-161526743.html",
+    "https://tech.yahoo.com/ai/deals/articles/suno-ai-music-generator-sued-194214898.html"
+   ],
+   "videos": [
+    [
+     "https://www.youtube.com/watch?v=5zFY3KkmSiE",
+     "YouTube"
+    ]
+   ]
   }
  ]
 }
