@@ -332,25 +332,18 @@
   "https://the-decoder.com/openai-launches-gpt-6-2-astra-and-sol-with-lower-api-prices-and-some-benchmark-gains/": 1794971153.8142672,
   "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/": 1794971153.8142672,
   "https://the-decoder.com/openai-opens-its-cybersecurity-tool-daybreak-to-nato-and-european-governments/": 1794971153.8142672,
-  "https://www.digitalmusicnews.com/2026/11/17/umg-v-suno-subpoena/": 1794974472.6818342
+  "https://www.digitalmusicnews.com/2026/11/17/umg-v-suno-subpoena/": 1794974472.6818342,
+  "https://www.uzdaily.uz/uz/%C3%B6zbekiston-va-kanada-suniy-intellekt-sohasidagi-hamkorlikni-muhokama-qildi/": 1794978365.1363087,
+  "https://www.uzdaily.uz/uz/%C3%B6zbekiston-markaziy-banki-suniy-intellekt-sohasida-%C3%B6z-ye%C3%A7imlarini-i%C5%9Flab-%C3%A7iqmoqda/": 1794978365.1363087,
+  "https://www.uzdaily.uz/en/rezet-hackers-target-companies-in-uzbekistan-and-cis/": 1794978365.1363087,
+  "https://www.billboard.com/pro/distrokid-ai-data-umg-sony-lawsuit-suno/": 1794978365.1363087,
+  "https://openai.com/index/introducing-chatgpt-for-sales": 1794978365.1363087,
+  "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/": 1794978365.1363087,
+  "https://the-decoder.com/reports-of-ai-generated-child-sexual-abuse-material-have-surged-more-than-8400-percent-in-two-years/": 1794978365.1363087,
+  "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/": 1794978365.1363087
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1794632543.1599967,
-   "title": "NVIDIA’s Suno Investor Fights Music Labels Over Court Testimony",
-   "soha": "AI musiqa"
-  },
-  {
-   "t": 1794632543.1599967,
-   "title": "Jensen Huang's ouster likely traces back to Nvidia's risky business practices more than his personal life",
-   "soha": "AI"
-  },
-  {
-   "t": 1794632543.1599967,
-   "title": "Shield helps technicians hand off legacy portal work with OpenAI",
-   "soha": "AI"
-  },
   {
    "t": 1794636064.4992228,
    "title": "Manchester Animation Festival Bans Films Made With GenAI, Names ‘In Waves’ Best Feature",
@@ -900,6 +893,46 @@
    "t": 1794974472.6818342,
    "title": "One UMG v. Suno Subpoena Battle Down, Many to Go: Universal Music and Sony Music Shelve Motion to Compel Following DistroKid Documents Production",
    "soha": "AI musiqa"
+  },
+  {
+   "t": 1794978365.1363087,
+   "title": "Özbekiston va Kanada sun’iy intellekt sohasidagi hamkorlikni muhokama qildi",
+   "soha": "AI O'zbekiston"
+  },
+  {
+   "t": 1794978365.1363087,
+   "title": "Özbekiston Markaziy banki sun’iy intellekt sohasida öz yeçimlarini işlab çiqmoqda",
+   "soha": "AI O'zbekiston"
+  },
+  {
+   "t": 1794978365.1363087,
+   "title": "Rezet Hackers Target Companies in Uzbekistan and CIS",
+   "soha": "AI O'zbekiston"
+  },
+  {
+   "t": 1794978365.1363087,
+   "title": "DistroKid Gives AI Upload Data to UMG and Sony for Suno Copyright Lawsuit After Initial Refusal",
+   "soha": "AI musiqa"
+  },
+  {
+   "t": 1794978365.1363087,
+   "title": "Introducing ChatGPT for Sales",
+   "soha": "AI"
+  },
+  {
+   "t": 1794978365.1363087,
+   "title": "Model ML raises $250M to automate investment banking grunt work",
+   "soha": "AI"
+  },
+  {
+   "t": 1794978365.1363087,
+   "title": "Reports of AI-generated child sexual abuse material have surged more than 8,400 percent in two years",
+   "soha": "AI"
+  },
+  {
+   "t": 1794978365.1363087,
+   "title": "SEC reportedly investigating Nvidia amid Huang exit",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -2723,6 +2756,180 @@
    "urls": [
     "https://www.theguardian.com/us-news/2026/oct/25/elvis-presley-anthropic-lawsuit-ai-models-music",
     "https://www.yahoo.com/entertainment/music/articles/universal-music-sony-want-know-181158775.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794978365.1363087,
+   "title": "O‘zbekiston va Kanada sun’iy intellekt sohasida hamkorlikni muhokama qildi",
+   "text": "O‘zbekiston va Kanada raqamli texnologiyalar, AI bo‘yicha qo‘shma loyihalar va soha mutaxassislarini tayyorlash masalalarini muhokama qildi.",
+   "orig_title": "Özbekiston va Kanada sun’iy intellekt sohasidagi hamkorlikni muhokama qildi",
+   "link": "https://www.uzdaily.uz/uz/%C3%B6zbekiston-va-kanada-suniy-intellekt-sohasidagi-hamkorlikni-muhokama-qildi/",
+   "source": "uzdaily.uz",
+   "soha": "AI O'zbekiston",
+   "baho": 10,
+   "experts": [],
+   "effect": "O‘zbekiston va Kanada o‘rtasida raqamli texnologiyalar va sun’iy intellekt yo‘nalishidagi hamkorlikning kengayishi mamlakatda IT xizmatlar eksporti va kadrlar salohiyatining oshishiga olib kelishi mumkin.",
+   "image": "https://www.uzdaily.uz/media/filer_public/83/b1/83b1c02d-56d1-4262-9057-5fe414660105/shermatovcanada1711_20261117120257.webp",
+   "domains": [
+    "uzdaily.uz",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://www.uzdaily.uz/uz/%C3%B6zbekiston-va-kanada-suniy-intellekt-sohasidagi-hamkorlikni-muhokama-qildi/",
+    "https://finance.yahoo.com/quote/AIQ/"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794978365.1363087,
+   "title": "O‘zbekiston Markaziy banki o‘z AI vositalarini ishlab chiqmoqda",
+   "text": "Markaziy bank xalqaro platformalarga qaramlikni kamaytirish maqsadida sun’iy intellekt bo‘yicha o‘z tizimlarini ishlab chiqmoqda.",
+   "orig_title": "Özbekiston Markaziy banki sun’iy intellekt sohasida öz yeçimlarini işlab çiqmoqda",
+   "link": "https://www.uzdaily.uz/uz/%C3%B6zbekiston-markaziy-banki-suniy-intellekt-sohasida-%C3%B6z-ye%C3%A7imlarini-i%C5%9Flab-%C3%A7iqmoqda/",
+   "source": "uzdaily.uz",
+   "soha": "AI O'zbekiston",
+   "baho": 10,
+   "experts": [],
+   "effect": "Markaziy bankning o‘z sun’iy intellekt yechimlarini ishlab chiqishi global texnologik xizmatlarga qaramlikni kamaytirib, moliyaviy barqarorlikni ta’minlashi mumkin.",
+   "image": "https://www.uzdaily.uz/media/filer_public/9c/44/9c440ddf-3415-4f4d-85ad-1e580e8dd690/cbu8_20260613102359.webp",
+   "domains": [
+    "uzdaily.uz",
+    "uk.news.yahoo.com"
+   ],
+   "urls": [
+    "https://www.uzdaily.uz/uz/%C3%B6zbekiston-markaziy-banki-suniy-intellekt-sohasida-%C3%B6z-ye%C3%A7imlarini-i%C5%9Flab-%C3%A7iqmoqda/",
+    "https://uk.news.yahoo.com/power-home-women-changing-opportunities-062107279.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794978365.1363087,
+   "title": "Rezet xakerlar guruhi O‘zbekistondagi kompaniyalarga AI bilan hujum qilmoqda",
+   "text": "F6 ma’lumotlariga ko‘ra, Rezet kiberjosuslik guruhi AI vositalari yordamida O‘zbekiston va MDH davlatlaridagi kompaniyalarga qarshi fishing hujumlarini amalga oshirmoqda.",
+   "orig_title": "Rezet Hackers Target Companies in Uzbekistan and CIS",
+   "link": "https://www.uzdaily.uz/en/rezet-hackers-target-companies-in-uzbekistan-and-cis/",
+   "source": "uzdaily.uz",
+   "soha": "AI O'zbekiston",
+   "baho": 10,
+   "experts": [],
+   "effect": "Kiberxavfsizlik tahdidlari va sun’iy intellekt yordamida avtomatlashtirilgan hujumlarning ko‘payishi kompaniyalar va chakana savdo tarmoqlari infratuzilmasiga jiddiy zarar yetkazishi mumkin.",
+   "image": "https://www.uzdaily.uz/media/filer_public/91/f5/91f549da-74d0-490b-be4b-d6a84a4df110/f6_20260915035213.webp",
+   "domains": [
+    "uzdaily.uz",
+    "theguardian.com"
+   ],
+   "urls": [
+    "https://www.uzdaily.uz/en/rezet-hackers-target-companies-in-uzbekistan-and-cis/",
+    "https://www.theguardian.com/world/2026/nov/02/supermarket-freezers-across-europe-hit-by-second-suspected-cyber-attack"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794978365.1363087,
+   "title": "DistroKid Suno sud ishi uchun UMG va Sony’ga AI yuklamalari ma’lumotlarini berdi",
+   "text": "DistroKid leyblar bosimi ostida Suno mualliflik huquqi buzilishi bo‘yicha sud ishida UMG va Sony Music kompaniyalariga AI treklari yuklamalari haqidagi ma’lumotlarni taqdim etdi.",
+   "orig_title": "DistroKid Gives AI Upload Data to UMG and Sony for Suno Copyright Lawsuit After Initial Refusal",
+   "link": "https://www.billboard.com/pro/distrokid-ai-data-umg-sony-lawsuit-suno/",
+   "source": "billboard.com",
+   "soha": "AI musiqa",
+   "baho": 9,
+   "experts": [],
+   "effect": "Musiqa tarqatuvchi platformalarning sun’iy intellekt bo‘yicha ma’lumotlarni yirik leyveblarga taqdim etishi mualliflik huquqi nizolarida yangi sud amaliyotlarini keltirib chiqarishi mumkin.",
+   "image": "https://www.billboard.com/wp-content/uploads/2025/06/distrokid-logo-2025-billboard-1548.jpg?w=1024",
+   "domains": [
+    "billboard.com",
+    "yahoo.com"
+   ],
+   "urls": [
+    "https://www.billboard.com/pro/distrokid-ai-data-umg-sony-lawsuit-suno/",
+    "https://www.yahoo.com/entertainment/music/articles/umg-sony-music-file-second-171435929.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794978365.1363087,
+   "title": "OpenAI ChatGPT uchun sotuvlar plaginini taqdim etdi",
+   "text": "OpenAI kompaniyasi mijozlarni o‘rganish, bitimlar tayyorlash va CRM tizimlarini yangilashga mo‘ljallangan yangi Sales plagini hamda 30 dan ortiq hamkor plaginlarini chiqardi.",
+   "orig_title": "Introducing ChatGPT for Sales",
+   "link": "https://openai.com/index/introducing-chatgpt-for-sales",
+   "source": "OpenAI",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Savdo jarayonlariga sun’iy intellekt vositalarining integratsiya qilinishi sotuvchilarning ish unumdorligini oshirib, mijozlar bilan ishlash tezligini ta’minlashi mumkin.",
+   "image": null,
+   "domains": [
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://finance.yahoo.com/technology/ai/articles/zoominfo-launches-sales-plugin-extensions-220200614.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794978365.1363087,
+   "title": "Model ML moliyaviy tahlilni avtomatlashtirish uchun 250 million dollar jalb qildi",
+   "text": "Startap investitsiya bankirlari va konsultantlar uchun moliyaviy modellarni avtomatik yangilaydigan AI agentlarini rivojlantirishga 250 million dollar sarmoya oldi.",
+   "orig_title": "Model ML raises $250M to automate investment banking grunt work",
+   "link": "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Investitsiya bankirlari va maslahatchilarining ishini avtomatlashtiruvchi startaplarga yirik sarmoyalar kiritilishi moliya bozoridagi xarajatlarni kamaytirishi mumkin.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-1283692332.jpg?resize=1200,633",
+   "domains": [
+    "techcrunch.com",
+    "businessinsider.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/",
+    "https://www.businessinsider.com/othello-raises-millions-sales-reps-ai-realtime-recommendations-pitch-deck-2026-10"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794978365.1363087,
+   "title": "AI orqali yaratilgan noqonuniy materiallar 8400 foizga oshgani ma’lum qilindi",
+   "text": "Childlight instituti hisobotiga ko‘ra, bolalarga oid AI yaratgan noqonuniy ekspluatatsiya materiallari 2 yil ichida 4,7 mingtadan 400 mingtaga ko‘paygan.",
+   "orig_title": "Reports of AI-generated child sexual abuse material have surged more than 8,400 percent in two years",
+   "link": "https://the-decoder.com/reports-of-ai-generated-child-sexual-abuse-material-have-surged-more-than-8400-percent-in-two-years/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Sun’iy intellekt yordamida bolalar ekspluatatsiyasi materiallarining keskin ko‘payishi hukumatlar va texnologiya kompaniyalaridan qattiqroq tartibga solish choralarini talab qilishi mumkin.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/11/ai_generated_abuse.png",
+   "domains": [
+    "the-decoder.com",
+    "theguardian.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/reports-of-ai-generated-child-sexual-abuse-material-have-surged-more-than-8400-percent-in-two-years/",
+    "https://www.theguardian.com/technology/2026/nov/16/ai-related-child-sexual-abuse-material-rise-exploitation-deepfakes"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794978365.1363087,
+   "title": "SEC Nvidia kompaniyasiga nisbatan tergov boshladi",
+   "text": "AQSh qimmatli qog‘ozlar va birjalar komissiyasi (SEC) bosh direktor Jensen Huang ketganidan so‘ng Nvidia faoliyati yuzasidan tekshiruv boshladi.",
+   "orig_title": "SEC reportedly investigating Nvidia amid Huang exit",
+   "link": "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Nvidia atrofidagi tekshiruvlar va rahbariyatning o‘zgarishi kompaniya aksiyalari narxining o‘zgaruvchanligini oshirib, chip bozoridagi raqobatga ta’sir ko‘rsatishi mumkin.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/09/Jensen-Huang.jpg?resize=1200,800",
+   "domains": [
+    "techcrunch.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/",
+    "https://finance.yahoo.com/technology/articles/sec-probes-nvidia-ceo-jensen-215711893.html"
    ],
    "videos": []
   }
