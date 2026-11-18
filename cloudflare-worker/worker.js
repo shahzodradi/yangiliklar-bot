@@ -49,7 +49,7 @@ export default {
       }
     }));
     // Instagram postlari ham shu yerdan (GitHub cron'i ishonchsiz): 07 UTC = fakt, 14 UTC = yangilik postlari + videolar
-    const tur = {7: 'fakt', 14: 'video'}[vaqt.getUTCHours()];
+    const tur = {7: 'fakt', 14: 'video', 15: 'top3'}[vaqt.getUTCHours()];  // 15 UTC = Toshkent 20:00 TOP-3 reel
     if (tur) {
       ctx.waitUntil(github(env, '/actions/workflows/instagram.yml/dispatches', {
         method: 'POST', body: JSON.stringify({ref: 'main', inputs: {tur}}),

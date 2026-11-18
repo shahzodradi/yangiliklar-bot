@@ -412,11 +412,102 @@ def har():
     save()
 
 
+# ---------- Kechki TOP-3 reel (Toshkent 20:00) ----------
+
+TOP3_PROMPT = """Sen o'zbek tilidagi "AI.TezkorYangiliklari" Instagram sahifasi muharririsan.
+Quyida bugun (oxirgi 24 soat) yuborilgan AI yangiliklari bor. Kechki "Bugun AI'da TOP-3" reeli uchun eng muhim,
+ko'p odamni qiziqtiradigan 3 ta TURLI voqeani tanla (bir voqeaning ikki maqolasini olma; O'zbekistonga oid
+AI yangiligi bo'lsa, uni albatta qo'sh). O'zbek tilida (lotin, oʻ gʻ ʼ belgilari bilan, kirillsiz) yoz:
+- "sarlavha": 5-8 so'zli qisqa sarlavha (ovozda o'qiladi), faqat berilgan faktlar.
+- "gap": bitta qisqa gap (10-16 so'z): eng qiziq fakt yoki raqam, faqat berilgan faktlar.
+- "rasm": voqeadagi asosiy shaxsning ism-familiyasi lotincha (kompaniya bo'lsa uning rahbari), bo'lmasa bo'sh.
+Umumiy: "savol" — izohga yozdiradigan qisqa savol; "teglar" — 3-5 heshteg (#AI bilan).
+
+YANGILIKLAR (JSON):
+{items}
+"""
+
+TOP3_SCHEMA = {
+    "type": "OBJECT",
+    "properties": {
+        "top": {"type": "ARRAY", "items": {"type": "OBJECT", "properties": {
+            "id": {"type": "INTEGER"}, "sarlavha": {"type": "STRING"}, "gap": {"type": "STRING"},
+            "rasm": {"type": "STRING"}}, "required": ["id", "sarlavha", "gap", "rasm"]}},
+        "savol": {"type": "STRING"}, "teglar": {"type": "ARRAY", "items": {"type": "STRING"}}},
+    "required": ["top", "savol", "teglar"],
+}
+
+
+def top3():
+    """Kunning eng muhim 3 voqeasi bitta reelda: har voqea o'z rasmi va "1-VOQEA" yorlig'i bilan."""
+    dry = "--quruq" in sys.argv
+    state = load_json(IG_STATE, {"links": []})
+    today = time.strftime("%Y-%m-%d", time.gmtime(time.time() + 5 * 3600))  # Toshkent sanasi
+    if state.get("top3_kun") == today and not dry:
+        return log.info("TOP-3 bugun allaqachon chiqqan")
+    now = time.time()
+    items = [x for x in bot.load_state().get("kunlik", []) if x["t"] > now - 86400]
+    if len(items) < 3:
+        return log.info("TOP-3 uchun yangilik kam: %d", len(items))
+    items = sorted(items, key=lambda x: -(x.get("baho") or 0))[:40]
+    brief = [{"id": i, "sarlavha": x["title"], "mazmun": x["text"], "soha": x["soha"]} for i, x in enumerate(items)]
+    res = bot.ask_models(bot.load_env(), TOP3_PROMPT.format(items=json.dumps(brief, ensure_ascii=False)),
+                         TOP3_SCHEMA, fast=True)
+    top = [t for t in res.get("top", []) if isinstance(t.get("id"), int) and 0 <= t["id"] < len(items)][:3]
+    if len(top) < 3:
+        return log.info("TOP-3: Gemini 3 ta voqea bermadi")
+    used = set(state.get("rasmlar", []))
+    stamp = time.strftime("%Y-%m-%d_%H%M")
+    IMG_DIR.mkdir(exist_ok=True)
+    photos, credits = [], []
+    for n, t in enumerate(top):
+        found = find_photos(items[t["id"]], t.get("rasm", ""), used, n=1)
+        if found:
+            data, ctype, cr, fp = found[0]
+            f = IMG_DIR / f"{stamp}_top3_{n}.{'png' if 'png' in ctype else 'jpg'}"
+            f.write_bytes(data)
+            used.add(fp)
+            photos.append(f)
+            credits.append(cr)
+        else:  # yangi sifatli rasm yo'q: logo (rasm takrorlanmasin)
+            photos.append(HERE / "logo" / "L1_evolving.png")
+    s = [(uz(t["sarlavha"]).strip(" .!"), uz(t["gap"]).strip()) for t in top]
+    savol = uz(res.get("savol", "")).strip() or "Qaysi biri sizni hayratga soldi?"
+    segments = [
+        (f"Bugun AI'da eng muhim 3 voqea. Birinchi: {s[0][0]}. {s[0][1]}", "1-voqea"),
+        (f"Ikkinchi: {s[1][0]}. {s[1][1]}", "2-voqea"),
+        (f"Uchinchi: {s[2][0]}. {s[2][1]} {savol} Izohda yozing va obuna boʻling.", "3-voqea"),
+    ]
+    import reel
+    mp4 = reel.make_reel(f"{stamp}_top3", photos, headline_html("Bugun AI'da *TOP-3* voqea"), "",
+                         hook="TOP-3 AI", segments=segments)
+    log.info("TOP-3 reel: %s -> %s", [x[0] for x in s], mp4)
+    if not mp4:
+        return
+    tags = " ".join(t if t.startswith("#") else "#" + t for t in res.get("teglar", [])[:5]) or "#AI"
+    caption = (f"| Bugun AI'da TOP-3 voqea 🔥\n\n"
+               + "\n\n".join(f"{e} {a}\n{b}" for e, (a, b) in zip(("1️⃣", "2️⃣", "3️⃣"), s))
+               + f"\n\n❓ {savol} Izohda yozing 👇\n📌 Saqlab qoʻying, 📤 doʻstingizga yuboring.\n\n"
+               + (f"📷 {', '.join(dict.fromkeys(credits))}\n\n" if credits else "") + tags)
+    if dry:
+        return print(caption)
+    token, chat = ig.ig_bot()
+    if ig.publish_reel(token, chat, mp4, caption):
+        state = load_json(IG_STATE, {"links": []})  # har() shu orada yozgan bo'lishi mumkin
+        state["top3_kun"] = today
+        state["rasmlar"] = list(set(state.get("rasmlar", [])) | used)[-2000:]
+        state["reel_vaqt"] = state.get("reel_vaqt", []) + [time.time()]
+        state["har_vaqt"] = state.get("har_vaqt", []) + [time.time()]
+        IG_STATE.write_text(json.dumps(state, ensure_ascii=False, indent=1), encoding="utf-8")
+
+
 # ---------- Asosiy ----------
 
 def main():
     if "--har" in sys.argv:
         return har()
+    if "--top3" in sys.argv:
+        return top3()
     if "--video" in sys.argv:  # 19:00 da faqat kunning videolari (postlarni endi har() joylaydi)
         state = load_json(IG_STATE, {"links": []})
         token, chat = ig.ig_bot()

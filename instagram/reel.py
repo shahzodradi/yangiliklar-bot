@@ -189,8 +189,10 @@ def clip_filter(idx, path, logo, frames, move):
             f"zoompan=z='{z}':x='{x}':y='ih/2-(ih/zoom/2)':d={frames}:s={W}x{PH}:fps=30,format=yuv420p[c{idx}]")
 
 
-def make_reel(name, photos, h1_html, narration, hook="", fs=None):
-    """photos: rasm yo'llari ro'yxati (1-4 ta, har biri boshqa rasm) yoki None (logo)."""
+def make_reel(name, photos, h1_html, narration, hook="", fs=None, segments=None):
+    """photos: rasm yo'llari ro'yxati (1-4 ta, har biri boshqa rasm) yoki None (logo).
+    segments: [(matn, yorliq)] — har bo'lak o'z rasmi bilan (photos bilan teng), rasm aynan shu bo'lak
+    aytilganda chiqadi, yorliq ("1-VOQEA") tepada sakrab chiqadi. Bunda narration = bo'laklar matni."""
     import math, random
     if fs is None:  # sarlavha uzunligiga qarab: panelga 3 qatorgacha sig'sin
         n = len(re.sub(r"<[^>]+>", "", h1_html))
@@ -201,27 +203,46 @@ def make_reel(name, photos, h1_html, narration, hook="", fs=None):
     if not browser_shot(panel_html, panel_png, W, H, transparent=True):
         return None
     mp3 = OUT / f"{name}.mp3"
+    if segments:
+        narration = " ".join(t for t, _ in segments)
     words = voice(speakable(f"{hook}. {narration}" if hook else narration), mp3)
     if not mp3.exists() or not mp3.stat().st_size:
         return None
     ass = subtitles(words, OUT / f"{name}.ass", hook=hook)
     dur = duration(mp3) + 0.8
+    starts = None
+    if segments:  # har bo'lak boshlanish vaqti: so'zlar sonidan (ovoz so'z vaqtlari bo'yicha)
+        idx = len(speakable(hook + ".").split()) if hook else 0
+        starts, labels = [], []
+        for t, lab in segments:
+            starts.append(words[min(idx, len(words) - 1)][0] if words else 0)
+            labels.append(lab)
+            idx += len(speakable(t).split())
+        starts[0] = 0.0
+        extra = []
+        for st, lab in zip(starts, labels):
+            if lab:
+                a = max(st, 2.3 if hook else 0)
+                extra.append(rf"Dialogue: 1,{ass_time(a)},{ass_time(a + 1.8)},H,{{\pos(540,120)\fscx135\fscy135"
+                             rf"\t(0,180,\fscx100\fscy100)\fad(0,200)}}{lab.upper()}")
+        ass.write_text(ass.read_text(encoding="utf-8") + "\n".join(extra) + "\n", encoding="utf-8")
     if isinstance(photos, (str, pathlib.Path)):
         photos = [photos]
     logo = not photos
     photos = [pathlib.Path(p) for p in photos] if photos else [HERE / "logo" / "L1_evolving.png"]
     k, T = len(photos), 0.45
     seg = dur / k
+    bounds = (starts + [dur]) if starts and len(starts) == k else [i * seg for i in range(k)] + [dur]
     moves = random.sample(MOVES, len(MOVES))
     parts, inputs = [], []
     for i, ph in enumerate(photos):
-        length = seg + (T if i < k - 1 else 0)
+        length = bounds[i + 1] - bounds[i] + T
         inputs += ["-i", str(ph)]
         parts.append(clip_filter(i, ph, logo, math.ceil(length * 30) + 2, moves[i % len(moves)]))
     prev = "c0"
     for i in range(1, k):  # rasmlar orasida turli o'tish effektlari
         out = f"x{i}"
-        parts.append(f"[{prev}][c{i}]xfade=transition={random.choice(XFADES)}:duration={T}:offset={i * seg:.3f}[{out}]")
+        parts.append(f"[{prev}][c{i}]xfade=transition={random.choice(XFADES)}:duration={T}:offset={max(bounds[i] - T / 2, 0.1):.3f}[{out}]")
         prev = out
     pi, ai = k, k + 1  # panel va ovoz kirish indekslari
     vf = ";".join(parts) + (

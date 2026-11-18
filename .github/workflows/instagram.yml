@@ -46,6 +46,7 @@ jobs:
         run: |
           if [ "$TUR" = "fakt" ]; then python instagram/fakt.py ${SINOV:+--quruq}
           elif [ "$TUR" = "har" ]; then python instagram/kunlik.py --har ${SINOV:+--quruq}
+          elif [ "$TUR" = "top3" ]; then python instagram/kunlik.py --top3 ${SINOV:+--quruq}
           elif [ "$TUR" = "video" ]; then python instagram/kunlik.py --video
           elif [ "$SINOV" = "quruq" ]; then python instagram/kunlik.py --sinov --quruq
           else python instagram/kunlik.py ${SINOV:+--sinov}; fi
