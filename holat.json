@@ -364,7 +364,10 @@
   "https://www.theverge.com/ai-artificial-intelligence/1036415/suno-visuals-ai-generated-video-images-feature": 1795010502.875698,
   "https://www.uzdaily.uz/uz/%C5%8Fzbekistonning-aqlli-%C5%9F%C3%A4h%C3%A4rl%C3%A4ri-cop31-doirasida-%C3%A7iqindilar-va-energiya-istemolini-kamaytiri%C5%9F-u%C3%A7un-suniy-intellektdan-foydalanish-taklif-etildi/": 1795014399.3249671,
   "https://the-decoder.com/kpmgs-project-exponential-put-ai-agents-alongside-a-real-audit-team-and-found-the-bots-dug-deeper-on-individual-questions/": 1795014399.3249671,
-  "https://the-decoder.com/openai-opens-its-ai-systems-to-four-independent-on-site-auditors-for-the-first-time/": 1795014399.3249671
+  "https://the-decoder.com/openai-opens-its-ai-systems-to-four-independent-on-site-auditors-for-the-first-time/": 1795014399.3249671,
+  "https://the-decoder.com/anthropic-openai-and-google-models-readily-marked-medics-journalists-and-surrendering-soldiers-as-kamikaze-drone-targets/": 1795017767.9373405,
+  "https://the-decoder.com/sec-probes-nvidia-over-undisclosed-chip-sales-tied-to-china/": 1795017767.9373405,
+  "https://www.theverge.com/tech/1036445/nvidia-h200-ai-chips-china-stop-selling": 1795017767.9373405
  },
  "fails": 0,
  "sent": [
@@ -1056,6 +1059,21 @@
   {
    "t": 1795014399.3249671,
    "title": "OpenAI opens its AI systems to four independent on-site auditors for the first time",
+   "soha": "AI"
+  },
+  {
+   "t": 1795017767.9373405,
+   "title": "Anthropic, OpenAI, and Google models readily marked medics, journalists, and surrendering soldiers as kamikaze drone targets",
+   "soha": "AI"
+  },
+  {
+   "t": 1795017767.9373405,
+   "title": "SEC probes Nvidia over undisclosed chip sales tied to China",
+   "soha": "AI"
+  },
+  {
+   "t": 1795017767.9373405,
+   "title": "Nvidia isn’t selling any more AI chips to China",
    "soha": "AI"
   }
  ],
@@ -3516,6 +3534,59 @@
    "experts": [],
    "effect": null,
    "image": "https://the-decoder.com/wp-content/uploads/2026/10/openai_logo-1.png",
+   "domains": [],
+   "urls": [],
+   "videos": []
+  },
+  {
+   "t": 1795017767.9373405,
+   "title": "AI modellarining harbiy maqsadlarda foydalanish xavfi",
+   "text": "Anthropic, OpenAI va Google modellari avtonom qurollar tizimida sinovdan o'tkazilganda tinch aholini harbiy nishon sifatida belgilagani aniqlandi.",
+   "orig_title": "Anthropic, OpenAI, and Google models readily marked medics, journalists, and surrendering soldiers as kamikaze drone targets",
+   "link": "https://the-decoder.com/anthropic-openai-and-google-models-readily-marked-medics-journalists-and-surrendering-soldiers-as-kamikaze-drone-targets/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": null,
+   "image": "https://the-decoder.com/wp-content/uploads/2026/03/AI-Fake-Chain-of-Evidence-1200x670.png",
+   "domains": [],
+   "urls": [],
+   "videos": [
+    [
+     "https://x.com/ValsAI/status/2122721547958059038",
+     "X"
+    ]
+   ]
+  },
+  {
+   "t": 1795017767.9373405,
+   "title": "SEC Nvidia kompaniyasiga nisbatan tekshiruv boshladi",
+   "text": "AQSh Qimmatli qog'ozlar va birja komissiyasi Nvidia kompaniyasiga qarshi Xitoy bilan bog'liq oshkor etilmagan chip savdosi yuzasidan fuqarolik tekshiruvini boshladi.",
+   "orig_title": "SEC probes Nvidia over undisclosed chip sales tied to China",
+   "link": "https://the-decoder.com/sec-probes-nvidia-over-undisclosed-chip-sales-tied-to-china/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": null,
+   "image": "https://the-decoder.com/wp-content/uploads/2026/11/nvidia_logo_glitch.png",
+   "domains": [],
+   "urls": [],
+   "videos": []
+  },
+  {
+   "t": 1795017767.9373405,
+   "title": "Nvidia Xitoyga ilg'or AI chiplarini sotishni to'xtatdi",
+   "text": "Nvidia Oq uy tomonidan ruxsat berilganiga qaramay, Xitoyga o'zining ilg'or sun'iy intellekt chiplarini jo'natishni to'xtatdi.",
+   "orig_title": "Nvidia isn’t selling any more AI chips to China",
+   "link": "https://www.theverge.com/tech/1036445/nvidia-h200-ai-chips-china-stop-selling",
+   "source": "The Verge AI",
+   "soha": "AI",
+   "baho": 9,
+   "experts": [],
+   "effect": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/04/STK083_NVIDIA_C.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
    "domains": [],
    "urls": [],
    "videos": []
