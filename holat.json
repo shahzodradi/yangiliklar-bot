@@ -340,15 +340,16 @@
   "https://openai.com/index/introducing-chatgpt-for-sales": 1794978365.1363087,
   "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/": 1794978365.1363087,
   "https://the-decoder.com/reports-of-ai-generated-child-sexual-abuse-material-have-surged-more-than-8400-percent-in-two-years/": 1794978365.1363087,
-  "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/": 1794978365.1363087
+  "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/": 1794978365.1363087,
+  "https://www.pravda.ru/news/world/2444132-uzbekistan-tax-reform-bot/": 1794981707.3867803,
+  "https://www.uzdaily.uz/ru/ii-i-energetika-uzbekistana-oon-prizvala-uchityvat-ekologicheskie-riski-data-tsentrov/": 1794981707.3867803,
+  "https://www.msn.com/en-us/technology/artificial-intelligence/openai-just-launched-gpt-6-2-and-it-s-come-a-long-way-from-writing-emails/ar-AA2hDNu9": 1794981707.3867803,
+  "https://finance.yahoo.com/technology/ai/articles/adobe-adbe-turns-creative-cloud-191007810.html": 1794981707.3867803,
+  "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/": 1794981707.3867803,
+  "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/": 1794981707.3867803
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1794636064.4992228,
-   "title": "Manchester Animation Festival Bans Films Made With GenAI, Names ‘In Waves’ Best Feature",
-   "soha": "AI tanlov"
-  },
   {
    "t": 1794657675.029715,
    "title": "OpenAI reassigns robotics researchers to other teams as general-purpose models might make specialized robotics AI unnecessary",
@@ -932,6 +933,36 @@
   {
    "t": 1794978365.1363087,
    "title": "SEC reportedly investigating Nvidia amid Huang exit",
+   "soha": "AI"
+  },
+  {
+   "t": 1794981707.3867803,
+   "title": "В Узбекистане внедряют искусственный интеллект в работу налоговой службы через новый бот",
+   "soha": "AI O'zbekiston"
+  },
+  {
+   "t": 1794981707.3867803,
+   "title": "ИИ и энергетика Узбекистана: ООН призвала учитывать экологические риски дата-центров",
+   "soha": "AI O'zbekiston"
+  },
+  {
+   "t": 1794981707.3867803,
+   "title": "OpenAI just launched GPT-6.2, and it's come a long way from writing emails",
+   "soha": "AI"
+  },
+  {
+   "t": 1794981707.3867803,
+   "title": "Adobe (ADBE) Turns Creative Cloud And Firefly Into AI Studios With New Partnerships",
+   "soha": "AI rasm"
+  },
+  {
+   "t": 1794981707.3867803,
+   "title": "Google expands access to Gemini Tasks, which can help with calls, purchases",
+   "soha": "AI"
+  },
+  {
+   "t": 1794981707.3867803,
+   "title": "Nvidia promises that revenue will keep soaring — for now",
    "soha": "AI"
   }
  ],
@@ -2930,6 +2961,144 @@
    "urls": [
     "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/",
     "https://finance.yahoo.com/technology/articles/sec-probes-nvidia-ceo-jensen-215711893.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794981707.3867803,
+   "title": "O‘zbekiston soliq xizmatida sun’iy intellekt joriy etilmoqda",
+   "text": "O‘zbekiston soliq xizmati ishiga sun’iy intellekt texnologiyalari joriy etilib, fuqarolar o‘z takliflarini maxsus Telegram-bot orqali yuborishlari mumkin bo‘ldi.",
+   "orig_title": "В Узбекистане внедряют искусственный интеллект в работу налоговой службы через новый бот",
+   "link": "https://www.pravda.ru/news/world/2444132-uzbekistan-tax-reform-bot/",
+   "source": "pravda.ru",
+   "soha": "AI O'zbekiston",
+   "baho": 10,
+   "experts": [],
+   "effect": "Soliq ma'muratchiligiga sun'iy intellektning joriy etilishi kelgusida fuqarolar va biznes uchun davlat organlari bilan o'zaro munosabatlarni optimallashtirish hamda qonunchilikni takomillashtirish imkonini berishi mumkin.",
+   "image": "https://img.pravda.ru/image/preview/article/1/3/2/2444132_amp.jpeg",
+   "domains": [
+    "pravda.ru",
+    "cnbc.com"
+   ],
+   "urls": [
+    "https://www.pravda.ru/news/world/2444132-uzbekistan-tax-reform-bot/",
+    "https://www.cnbc.com/select/best-tax-software-for-small-businesses/"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794981707.3867803,
+   "title": "BMT O‘zbekistonda sun’iy intellekt va energetika xavfini muhokama qildi",
+   "text": "BMT sun’iy intellektning rivojlanishi elektr energiyasi va suv iste’molini oshirib, O‘zbekiston infratuzilmasiga qo‘shimcha yuklama yaratishini ta’kidladi.",
+   "orig_title": "ИИ и энергетика Узбекистана: ООН призвала учитывать экологические риски дата-центров",
+   "link": "https://www.uzdaily.uz/ru/ii-i-energetika-uzbekistana-oon-prizvala-uchityvat-ekologicheskie-riski-data-tsentrov/",
+   "source": "uzdaily.uz",
+   "soha": "AI O'zbekiston",
+   "baho": 10,
+   "experts": [],
+   "effect": "Ma'lumotlar markazlarining jadal rivojlanishi energiya va suv resurslariga qo'shimcha yuklama tug'dirib, kelgusida ekologik xavflarni kuchaytirishi hamda iste'molchilar uchun xarajatlarning oshishiga olib kelishi mumkin.",
+   "image": "https://www.uzdaily.uz/media/filer_public/7a/d3/7ad36b1c-a95c-4e53-b02d-2a8973b928b6/unccsimonstiell_20261116111404.webp",
+   "domains": [
+    "uzdaily.uz",
+    "businessinsider.com"
+   ],
+   "urls": [
+    "https://www.uzdaily.uz/ru/ii-i-energetika-uzbekistana-oon-prizvala-uchityvat-ekologicheskie-riski-data-tsentrov/",
+    "https://www.businessinsider.com/where-every-us-governor-stands-ai-data-centers-midterms-2026-10"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794981707.3867803,
+   "title": "OpenAI yangi GPT-6.2 modellarini taqdim etdi",
+   "text": "OpenAI kompaniyasi pullik foydalanuvchilar uchun ChatGPT-6.2 Astra va ChatGPT-6.2 Sol yangi modellarini chiqarishini e’lon qildi.",
+   "orig_title": "OpenAI just launched GPT-6.2, and it's come a long way from writing emails",
+   "link": "https://www.msn.com/en-us/technology/artificial-intelligence/openai-just-launched-gpt-6-2-and-it-s-come-a-long-way-from-writing-emails/ar-AA2hDNu9",
+   "source": "msn.com",
+   "soha": "AI",
+   "baho": 9,
+   "experts": [],
+   "effect": "Yangi avlod sun'iy intellekt modellarining taqdim etilishi matnlar yaratish, hujjatlar va dasturlash jarayonlarini yanada avtomatlashtirib, foydalanuvchilarning kundalik vazifalarini bajarish samaradorligini oshirishi mumkin.",
+   "image": null,
+   "domains": [
+    "theverge.com"
+   ],
+   "urls": [
+    "https://www.theverge.com/tech/1035483/openai-releases-its-updated-gpt-6-2-astra-model"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794981707.3867803,
+   "title": "Adobe Creative Cloud va Firefly dasturlarini AI studiyaga aylantirdi",
+   "text": "Adobe kompaniyasi o‘zining ijodiy platformalariga sun’iy intellekt agentlari va yangi funksiyalarni qo‘shib, ularni to‘liq AI studiyasiga aylantirdi.",
+   "orig_title": "Adobe (ADBE) Turns Creative Cloud And Firefly Into AI Studios With New Partnerships",
+   "link": "https://finance.yahoo.com/technology/ai/articles/adobe-adbe-turns-creative-cloud-191007810.html",
+   "source": "finance.yahoo.com",
+   "soha": "AI rasm",
+   "baho": 9,
+   "experts": [],
+   "effect": "Kreativ platformalarga agentik sun'iy intellekt vositalarining qo'shilishi dizaynerlar va mutaxassislarning ko'p bosqichli ish jarayonlarini soddalashtirib, dasturiy ta'minot bozoridagi raqobatni kuchaytirishi mumkin.",
+   "image": "https://s.yimg.com/lo/mysterio/api/4d9fbe543bc034a3757bd28760f89e2fd6fba319dfdb849470d6751d16568680/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsimply_wall_st__316%2Ff1d8517431a04778ef7df561df0da0e7.jpg",
+   "domains": [
+    "finance.yahoo.com",
+    "tech.yahoo.com"
+   ],
+   "urls": [
+    "https://finance.yahoo.com/technology/ai/articles/adobe-adbe-turns-creative-cloud-191007810.html",
+    "https://tech.yahoo.com/ai/meta-ai/articles/adobe-max-2026-ai-agents-185310326.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794981707.3867803,
+   "title": "Google Gemini Tasks xizmatini kengaytirdi",
+   "text": "Gemini Task rejimi foydalanuvchilarga qo‘ng‘iroqlarni muvofiqlashtirish, veb-saytlarga kirish va xarid qilish ishlarida yordam berishni boshladi.",
+   "orig_title": "Google expands access to Gemini Tasks, which can help with calls, purchases",
+   "link": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Sun'iy intellekt yordamchisining funksiyalari kengaytirilishi foydalanuvchilarga kundalik ishlarni, masalan, qo'ng'iroq qilish va xaridlarni avtomatlashtirilgan tarzda bajarish imkonini berishi mumkin.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/06/gemini-app-GettyImages-2276204472-1.jpg?w=1024",
+   "domains": [
+    "techcrunch.com",
+    "theverge.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/",
+    "https://www.theverge.com/tech/1035756/google-spark-ai-tasks-free"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1794981707.3867803,
+   "title": "Nvidia daromadlari o‘sishda davom etishini bildirdi",
+   "text": "Nvidia kompaniyasi sobiq rahbari iste’fosidan keyingi qiyinchiliklarga qaramay, daromadlar o‘sish sur’ati pasaymasligini ma’lum qildi.",
+   "orig_title": "Nvidia promises that revenue will keep soaring — for now",
+   "link": "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [
+    {
+     "kim": "Cullen Rogers",
+     "lavozim": "Wedbush Fund Advisers bosh investitsiya direktori",
+     "fikr": "Sun'iy intellekt inqilobi hech qachon bir insonga bog'liq bo'lmagan, kompaniya o'z asoschisisiz ham ishlay olishini isbotlashi kerak.",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-earnings-live-updates-commentary-213634774.html",
+     "domain": "finance.yahoo.com"
+    }
+   ],
+   "effect": "Rahbariyatdagi o'zgarishlarga qaram compagnies daromadining o'sishda davom etishi investorlarning ishonchini qo'llab-quvvatlab, bozor qiymatining tiklanishiga olib kelishi mumkin.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/02/GettyImages-157503102.jpg?resize=1200,776",
+   "domains": [
+    "techcrunch.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/",
+    "https://finance.yahoo.com/markets/stocks/articles/nvidia-earnings-live-updates-commentary-213634774.html"
    ],
    "videos": []
   }
