@@ -296,6 +296,8 @@ def send_videos(items, state, token, chat, dry):
 HAR_MAX_RUN = 25    # bir ishga tushishda (bot bir soatda bundan ko'p yubormaydi)
 HAR_MAX_DAY = 48    # sutkada: Instagram API'ning qat'iy limiti 50 post/24 soat
 REEL_MAX_DAY = 24   # sutkada nechta yangilik reel bo'lib ham chiqadi (har yangilik; IG limiti 50 post/sutka)
+IMG_MAX_DAY = 5     # rasmli post sutkada 5 ta (rasmlar 0 ko'rish oldi, reellar ~120): faqat eng kuchli, haqiqiy rasmli
+IMG_MAX_RUN = 1     # bir ishga tushishda bitta rasm — kun bo'yi tarqalsin, spamdek ko'rinmasin
 HAR_WINDOW = 6 * 3600
 
 
@@ -354,12 +356,9 @@ def har():
         log.info("IG avto: %s (%d rasm)", pick["sarlavha"], len(files))
         # har yangilik reel bo'ladi; reel postdagi rasmni takrorlamasin: 3+ rasm bo'lsa birinchisisiz (rasmsiz -> logo)
         reel_cands.append((item.get("baho", 0) + len(files), i, item, pick,
-                           (files[1:] if len(files) >= 3 else files) or None, caption))
+                           (files[1:] if len(files) >= 3 else files) or None, caption, png if files else None))
         if dry:
             print(f"\n=== {png}\n{caption}\n")
-            continue
-        if ig.publish_post(token, chat, png, caption):
-            posted.append(time.time())
     # Har bir yangilik reel ham bo'ladi (reel'lar obunachi bo'lmaganlarga ham tarqaladi), eng kuchlisi birinchi
     reels = [t for t in state.get("reel_vaqt", []) if t > now - 86400]
 
@@ -369,7 +368,7 @@ def har():
             IG_STATE.write_text(json.dumps(state, ensure_ascii=False, indent=1), encoding="utf-8")
     save()
     import reel
-    for _, i, item, pick, photo, caption in sorted(reel_cands, key=lambda c: -c[0]):
+    for _, i, item, pick, photo, caption, _png in sorted(reel_cands, key=lambda c: -c[0]):
         if len(reels) >= REEL_MAX_DAY or len(posted) >= HAR_MAX_DAY:
             break
         title = re.sub(r"\*", "", pick["sarlavha"]).strip()
@@ -384,6 +383,16 @@ def har():
             save()
         if dry:
             break  # sinovda bitta reel yetadi
+    # Rasmli post: reellardan keyin, faqat eng kuchli haqiqiy rasmli yangilik, sutkada IMG_MAX_DAY ta
+    imgs = [t for t in state.get("img_vaqt", []) if t > now - 86400]
+    for _, i, item, pick, photo, caption, png in sorted(reel_cands, key=lambda c: -c[0])[:IMG_MAX_RUN]:
+        if dry or not png or len(imgs) >= IMG_MAX_DAY or len(posted) >= HAR_MAX_DAY:
+            break
+        if ig.publish_post(token, chat, png, caption):
+            imgs.append(time.time())
+            posted.append(time.time())
+    state["img_vaqt"] = imgs
+    save()
 
 
 # ---------- Asosiy ----------
