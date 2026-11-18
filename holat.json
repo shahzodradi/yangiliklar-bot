@@ -361,7 +361,10 @@
   "https://tech.yahoo.com/ai/chatgpt/articles/tested-chatgpt-gpt-6-2-064500873.html": 1795000116.2748084,
   "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/": 1795003288.0055163,
   "https://techcrunch.com/2026/11/18/felicis-leads-7-5m-bet-on-unsiloed-ai-to-make-enterprise-documents-usable-by-ai-agents/": 1795007185.7900019,
-  "https://www.theverge.com/ai-artificial-intelligence/1036415/suno-visuals-ai-generated-video-images-feature": 1795010502.875698
+  "https://www.theverge.com/ai-artificial-intelligence/1036415/suno-visuals-ai-generated-video-images-feature": 1795010502.875698,
+  "https://www.uzdaily.uz/uz/%C5%8Fzbekistonning-aqlli-%C5%9F%C3%A4h%C3%A4rl%C3%A4ri-cop31-doirasida-%C3%A7iqindilar-va-energiya-istemolini-kamaytiri%C5%9F-u%C3%A7un-suniy-intellektdan-foydalanish-taklif-etildi/": 1795014399.3249671,
+  "https://the-decoder.com/kpmgs-project-exponential-put-ai-agents-alongside-a-real-audit-team-and-found-the-bots-dug-deeper-on-individual-questions/": 1795014399.3249671,
+  "https://the-decoder.com/openai-opens-its-ai-systems-to-four-independent-on-site-auditors-for-the-first-time/": 1795014399.3249671
  },
  "fails": 0,
  "sent": [
@@ -1039,6 +1042,21 @@
    "t": 1795010502.875698,
    "title": "Suno now lets you make AI videos for your AI music",
    "soha": "AI musiqa"
+  },
+  {
+   "t": 1795014399.3249671,
+   "title": "Ŏzbekistonning aqlli şähärläri: COP31 doirasida çiqindilar va energiya iste’molini kamaytiriş uçun sun’iy intellektdan foydalanish taklif etildi",
+   "soha": "AI O'zbekiston"
+  },
+  {
+   "t": 1795014399.3249671,
+   "title": "KPMG's \"Project Exponential\" put AI agents alongside a real audit team and found the bots dug deeper on individual questions",
+   "soha": "AI"
+  },
+  {
+   "t": 1795014399.3249671,
+   "title": "OpenAI opens its AI systems to four independent on-site auditors for the first time",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -1046,27 +1064,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1794841559.0184994,
-   "title": "AI musiqa Suno treki Melon chartida birinchi o'rinni egalladi",
-   "text": "Generativ AI Suno yordamida yaratilgan Have You Become the Adult You Dreamed Of? qo'shig'i Melon Top 100 chartida birinchi o'ringa chiqdi.",
-   "orig_title": "The day AI music claimed the nation's top spot",
-   "link": "https://www.msn.com/en-xl/news/other/the-day-ai-music-claimed-the-nations-top-spot/ar-AA2hxKGq",
-   "source": "msn.com",
-   "soha": "AI musiqa",
-   "baho": 9,
-   "experts": [],
-   "effect": "Sun'iy intellekt xarajatlaridan qochgan Apple aksiyalari qimmatlashib, Nvidia'ni ortda qoldirishi mumkin. Investorlar texnologik gigantlarning ulkan xarajatlaridan xavotirga tushib, mablag'larini xavfsizroq aktivlarga yo'naltirishi ehtimoli bor.",
-   "image": null,
-   "domains": [
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://finance.yahoo.com/markets/article/apple-has-turned-into-wall-streets-hedge-against-the-ai-trade-chart-of-the-day-131527512.html",
-    "https://finance.yahoo.com/quote/RZLV/chart/"
-   ],
-   "videos": []
-  },
   {
    "t": 1794848685.9660392,
    "title": "Santa Fe AI xakatoni yong'in ekspertlari va dasturchilarni birlashtirdi",
@@ -3474,6 +3471,54 @@
      "YouTube"
     ]
    ]
+  },
+  {
+   "t": 1795014399.3249671,
+   "title": "O‘zbekistonning aqlli shaharlari: COP31 da sun’iy intellekt taklif etildi",
+   "text": "Antaliyadagi COP31 konferensiyasida shahar ekologiyasini yaxshilash va chiqindilarni kamaytirish uchun sun’iy intellekt texnologiyalaridan foydalanish taklif etildi.",
+   "orig_title": "Ŏzbekistonning aqlli şähärläri: COP31 doirasida çiqindilar va energiya iste’molini kamaytiriş uçun sun’iy intellektdan foydalanish taklif etildi",
+   "link": "https://www.uzdaily.uz/uz/%C5%8Fzbekistonning-aqlli-%C5%9F%C3%A4h%C3%A4rl%C3%A4ri-cop31-doirasida-%C3%A7iqindilar-va-energiya-istemolini-kamaytiri%C5%9F-u%C3%A7un-suniy-intellektdan-foydalanish-taklif-etildi/",
+   "source": "uzdaily.uz",
+   "soha": "AI O'zbekiston",
+   "baho": 10,
+   "experts": [],
+   "effect": null,
+   "image": "https://www.uzdaily.uz/media/filer_public/02/fc/02fc2260-e922-4b09-a4c8-94fbfda37998/cop31antalya_20261110182725.webp",
+   "domains": [],
+   "urls": [],
+   "videos": []
+  },
+  {
+   "t": 1795014399.3249671,
+   "title": "KPMG audit jarayonida sun’iy intellekt agentlarini sinovdan o‘tkazdi",
+   "text": "KPMG kompaniyasi audit jarayonida 100 dan ortiq sun’iy intellekt agentlarini ishga tushirdi va botlar ba’zi savollar bo‘yicha chuqurroq tahlil o‘tkazganini aniqladi.",
+   "orig_title": "KPMG's \"Project Exponential\" put AI agents alongside a real audit team and found the bots dug deeper on individual questions",
+   "link": "https://the-decoder.com/kpmgs-project-exponential-put-ai-agents-alongside-a-real-audit-team-and-found-the-bots-dug-deeper-on-individual-questions/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 9,
+   "experts": [],
+   "effect": null,
+   "image": "https://the-decoder.com/wp-content/uploads/2026/11/KPMG-Audit-Agents-1200x670.png",
+   "domains": [],
+   "urls": [],
+   "videos": []
+  },
+  {
+   "t": 1795014399.3249671,
+   "title": "OpenAI o‘z tizimlarini mustaqil auditorlarga ochdi",
+   "text": "OpenAI xavfsizlik bo‘shliqlarini aniqlash maqsadida Apollo Research va METR kabi to‘rtta mustaqil tashkilotga chiqarilmagan modellar va manba kodiga to‘g‘ridan-to‘g‘ri kirish huquqini berdi.",
+   "orig_title": "OpenAI opens its AI systems to four independent on-site auditors for the first time",
+   "link": "https://the-decoder.com/openai-opens-its-ai-systems-to-four-independent-on-site-auditors-for-the-first-time/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": null,
+   "image": "https://the-decoder.com/wp-content/uploads/2026/10/openai_logo-1.png",
+   "domains": [],
+   "urls": [],
+   "videos": []
   }
  ]
 }
