@@ -54,6 +54,29 @@ def browser_shot(html_path, png, w, h, transparent=False):
     return png.exists()
 
 
+CARD = """<!doctype html><html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+<style>*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1100px;overflow:hidden;background:radial-gradient(circle at %(gx)s%% %(gy)s%%,%(glow)s,#020814 72%%)}
+.n{position:absolute;left:70px;top:150px;font-family:Anton,Impact,sans-serif;font-size:420px;line-height:1;
+ color:transparent;-webkit-text-stroke:6px #3d8bff;opacity:.9}
+.t{position:absolute;left:70px;right:70px;bottom:230px;font-family:Anton,Impact,sans-serif;font-size:%(fs)spx;
+ line-height:1.08;color:#fff;text-transform:uppercase}
+</style></head><body><div class="n">%(num)s</div><div class="t">%(text)s</div></body></html>"""
+
+
+def title_card(name, num, text):
+    """Yangi rasm topilmagan voqea uchun rasm o'rniga: katta raqam + sarlavha (logo takrorlanmasin)."""
+    import html, random
+    OUT.mkdir(exist_ok=True)
+    page, png = OUT / f"{name}.html", OUT / f"{name}.png"
+    fs = 96 if len(text) <= 40 else 80 if len(text) <= 65 else 68
+    page.write_text(CARD % dict(num=num, text=html.escape(text), fs=fs,
+                                glow=random.choice(["#0d3b8f", "#5b1fa8", "#0f6e6e", "#8f1d3b", "#1f4fd1", "#2b2b8f"]),
+                                gx=random.randint(55, 85), gy=random.randint(15, 45)), encoding="utf-8")
+    return png if browser_shot(page, png, W, PH) else None
+
+
 def voice(text, mp3):
     """MP3 yozadi va so'zlar vaqtini qaytaradi: [(boshlanish_s, tugash_s, so'z)].
     Asosiy: Gemini TTS (Charon — tabiiy o'zbekcha); limit/xato bo'lsa edge-tts Sardor."""

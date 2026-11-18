@@ -418,10 +418,11 @@ TOP3_PROMPT = """Sen o'zbek tilidagi "AI.TezkorYangiliklari" Instagram sahifasi 
 Quyida bugun (oxirgi 24 soat) yuborilgan AI yangiliklari bor. Kechki "Bugun AI'da TOP-3" reeli uchun eng muhim,
 ko'p odamni qiziqtiradigan 3 ta TURLI voqeani tanla (bir voqeaning ikki maqolasini olma; O'zbekistonga oid
 AI yangiligi bo'lsa, uni albatta qo'sh). O'zbek tilida (lotin, oʻ gʻ ʼ belgilari bilan, kirillsiz) yoz:
-- "sarlavha": 5-8 so'zli qisqa sarlavha (ovozda o'qiladi), faqat berilgan faktlar.
-- "gap": bitta qisqa gap (10-16 so'z): eng qiziq fakt yoki raqam, faqat berilgan faktlar.
+- "sarlavha": 4-7 so'zli qisqa sarlavha (ovozda o'qiladi), faqat berilgan faktlar.
+- "gap": bitta JUDA qisqa gap (6-10 so'z): eng qiziq fakt yoki raqam, faqat berilgan faktlar.
+Reel 25 soniyadan oshmasin: ortiqcha so'z yozma.
 - "rasm": voqeadagi asosiy shaxsning ism-familiyasi lotincha (kompaniya bo'lsa uning rahbari), bo'lmasa bo'sh.
-Umumiy: "savol" — izohga yozdiradigan qisqa savol; "teglar" — 3-5 heshteg (#AI bilan).
+Umumiy: "savol" — izohga yozdiradigan 3-6 so'zli savol; "teglar" — 3-5 heshteg (#AI bilan).
 
 YANGILIKLAR (JSON):
 {items}
@@ -460,6 +461,7 @@ def top3():
     stamp = time.strftime("%Y-%m-%d_%H%M")
     IMG_DIR.mkdir(exist_ok=True)
     photos, credits = [], []
+    import reel
     for n, t in enumerate(top):
         found = find_photos(items[t["id"]], t.get("rasm", ""), used, n=1)
         if found:
@@ -469,18 +471,18 @@ def top3():
             used.add(fp)
             photos.append(f)
             credits.append(cr)
-        else:  # yangi sifatli rasm yo'q: logo (rasm takrorlanmasin)
-            photos.append(HERE / "logo" / "L1_evolving.png")
+        else:  # yangi sifatli rasm yo'q: raqam + sarlavha kartasi (rasm takrorlanmasin, logo emas)
+            c = reel.title_card(f"{stamp}_top3_karta{n}", n + 1, uz(t["sarlavha"]).strip(" .!").replace("*", ""))
+            photos.append(c or HERE / "logo" / "L1_evolving.png")
     s = [(uz(t["sarlavha"]).strip(" .!"), uz(t["gap"]).strip()) for t in top]
     savol = uz(res.get("savol", "")).strip() or "Qaysi biri sizni hayratga soldi?"
     segments = [
-        (f"Bugun AI'da eng muhim 3 voqea. Birinchi: {s[0][0]}. {s[0][1]}", "1-voqea"),
+        (f"Birinchi: {s[0][0]}. {s[0][1]}", "1-voqea"),
         (f"Ikkinchi: {s[1][0]}. {s[1][1]}", "2-voqea"),
         (f"Uchinchi: {s[2][0]}. {s[2][1]} {savol} Izohda yozing va obuna boʻling.", "3-voqea"),
     ]
-    import reel
     mp4 = reel.make_reel(f"{stamp}_top3", photos, headline_html("Bugun AI'da *TOP-3* voqea"), "",
-                         hook="TOP-3 AI", segments=segments)
+                         hook="Bugun AI'da TOP-3", segments=segments)
     log.info("TOP-3 reel: %s -> %s", [x[0] for x in s], mp4)
     if not mp4:
         return
