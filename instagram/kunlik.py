@@ -36,11 +36,18 @@ Har biri uchun o'zbek tilida (lotin yozuvi, oʻ gʻ va ʼ belgilari bilan, kiril
 - "rasm": voqeadagi asosiy SHAXSning ism-familiyasi lotincha (Wikimedia'da surat qidirish uchun, masalan
   "Elvis Presley"). Yangilik kompaniya haqida bo'lsa, uning hozirgi rahbari (masalan Anthropic -> "Dario Amodei",
   OpenAI -> "Sam Altman"). Aniq shaxs bo'lmasa bo'sh qoldir. Faqat ism-familiya, boshqa so'z qo'shma.
-- "hook": reel boshida 2 soniya katta chiqadigan 2-4 so'zli "ilmoq" — skrollni to'xtatsin, faqat faktga asoslangan
-  (masalan "Nvidia larzada!", "$1 mlrd tikildi", "Musiqachilar xavotirda"). Clickbait yolg'on bo'lmasin.
-- "qiziqtir": reel ovozi uchun 1-2 ta QISQA jumla (jami 12-22 so'z) — yangilikning eng qiziq faktini aytib,
-  asosiy javobni ochmasdan qiziqish uyg'otsin, odam postni o'qigisi kelsin (masalan "Sam Altman bitta postda
-  hammani hayratga soldi. U aytgan raqam esa undan ham qo'rqinchli."). Yolg'on va bo'rttirish yo'q.
+- "hook": reel boshida 2 soniya katta chiqadigan va OVOZDA BIRINCHI aytiladigan 2-5 so'zli "ilmoq".
+  Skrollni 1 soniyada to'xtatsin. Voqeaga eng mos BITTA formulani tanla (har xil postda har xil bo'lsin):
+  1) Raqam zarbasi: "$100 mln bir kunda!", "10 baravar arzon!"
+  2) Ism + shok fe'l: "Nvidia larzada!", "Google tan oldi!"
+  3) Sizga ta'sir: "Endi telefoningiz ham...", "Rassomlar ishsiz qoladimi?"
+  4) Taqiq/sir: "Buni hech kim aytmadi", "OpenAI yashirgan narsa"
+  5) Kutilmagan qarama-qarshilik: "Bepul, lekin…", "Hamma xato qildi"
+  6) Savol-ilmoq: "Suno endi kino ham qiladimi?"
+  Faqat faktga asoslangan, yolg'on clickbait yo'q. Brend yoki raqam iloji bo'lsa hookda bo'lsin.
+- "qiziqtir": reel ovozi uchun hookdan KEYIN aytiladigan 1-2 ta QISQA jumla (jami 12-20 so'z). Hookni takrorlama.
+  Birinchi jumla eng qiziq faktni aytadi, ikkinchisi "ochiq halqa" qoldiradi — javobni bermaydi, odam postni
+  o'qigisi keladi (masalan "Lekin eng qizig'i — narxi.", "Va bu hali boshlanishi."). Yolg'on va bo'rttirish yo'q.
 - "teglar": 3-5 ta heshteg (# bilan): #AI va mavzuga aniq mos teglar (o'zbekcha va inglizcha aralash).
 Brend va kompaniya nomlarini tarjima qilma.
 

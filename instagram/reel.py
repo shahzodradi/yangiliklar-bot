@@ -164,7 +164,7 @@ def subtitles(words, path, hook="", y=960, per=3):
             "Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, BorderStyle, "
             "Alignment, MarginL, MarginR, MarginV, Outline, Shadow\n"
             "Style: S,Anton,104,&H00FFFFFF,&H00000000,&H00000000,0,1,5,40,40,0,7,0\n"
-            "Style: H,Anton,96,&H00FFFFFF,&H00FF8B3D,&H00000000,0,3,5,60,60,0,22,0\n\n[Events]\n"
+            "Style: H,Anton,120,&H00FFFFFF,&H00FF8B3D,&H00000000,0,3,5,60,60,0,22,0\n\n[Events]\n"
             "Format: Layer, Start, End, Style, Text\n")
     lines = []
     if hook:
@@ -210,6 +210,8 @@ def clip_filter(idx, path, logo, frames, move):
             "right": ("1.18", f"(iw-iw/zoom)*on/{frames}")}[move]
     if "_karta" in pathlib.Path(path).name:  # matnli karta: chetidagi yozuv kesilmasin, faqat sekin yaqinlashadi
         z, x = f"1+0.04*on/{frames}", "iw/2-(iw/zoom/2)"
+    if idx == 0:  # vizual hook: birinchi kadr 0.4 s da "zarba" bilan yaqinlashib keladi
+        z = f"({z})*(1+0.3*max(0,1-on/12))"
     return (f"[{idx}:v]{fit},scale={W * 2}:{PH * 2},setsar=1,"
             f"zoompan=z='{z}':x='{x}':y='ih/2-(ih/zoom/2)':d={frames}:s={W}x{PH}:fps=30,format=yuv420p[c{idx}]")
 
@@ -280,13 +282,16 @@ def make_reel(name, photos, h1_html, narration, hook="", fs=None, segments=None)
     vf = ";".join(parts) + (
         f";[{prev}]pad={W}:{H}:0:0:black[bg];[bg][{pi}:v]overlay=0:0[v1];"
         f"color=c=0x3d8bff:s={W}x10:r=30[bar];[v1][bar]overlay=x='-{W}+{W}*t/{dur:.2f}':y={H - 10}:shortest=1[v2];"
-        f"[v2]subtitles=filename='{esc(ass)}':fontsdir='{esc(HERE / 'fonts')}'[v]")
+        f"[v2]subtitles=filename='{esc(ass)}':fontsdir='{esc(HERE / 'fonts')}',"
+        f"fade=t=in:st=0:d=0.3:color=white[v]")
     # fon musiqasi (musiqa/ dagi CC0 treklardan tasodifiy, aylanib turadi): ovoz ostida past, oxirida so'nadi
     tracks = sorted((HERE / "musiqa").glob("*.mp3"))
     music = ["-stream_loop", "-1", "-i", str(random.choice(tracks))] if tracks else []
     if tracks:
         vf += (f";[{ai + 1}:a]volume=0.18,afade=t=in:d=0.3,afade=t=out:st={dur - 1.2:.2f}:d=1.2[m];"
-               f"[{ai}:a]aresample=44100,volume=1.0[vo];[vo][m]amix=inputs=2:duration=first:dropout_transition=0:normalize=0,"
+               f"aevalsrc='0.9*sin(2*PI*(48+60*exp(-9*t))*t)*exp(-5*t)+0.25*(random(0)-0.5)*exp(-18*t)':d=0.9:s=44100,"
+               f"aformat=channel_layouts=mono,volume=0.8[bm];"
+               f"[{ai}:a]aresample=44100,volume=1.0[vo];[vo][m][bm]amix=inputs=3:duration=first:dropout_transition=0:normalize=0,"
                f"loudnorm=I=-14:TP=-1.5:LRA=11,aresample=44100[a]")
     mp4 = OUT / f"{name}.mp4"
     cmd = [ffmpeg(), "-y", "-loglevel", "error", *inputs, "-i", str(panel_png), "-i", str(mp3),
