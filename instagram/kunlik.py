@@ -307,7 +307,7 @@ IMG_MAX_DAY = 5     # rasmli post sutkada 5 ta (rasmlar 0 ko'rish oldi, reellar 
 IMG_MAX_RUN = 1     # bir ishga tushishda bitta rasm — kun bo'yi tarqalsin, spamdek ko'rinmasin
 HAR_WINDOW = 6 * 3600
 # hookdan keyin darhol: obuna bo'lsa nima oladi (obunachisiz sahifa uchun eng muhim jumla)
-OBUNA = "Obuna boʻling — AI yangiliklarini har kuni birinchi boʻlib siz bilasiz."
+OBUNA = "Bunaqa yangiliklarni oʻtkazib yubormaslik uchun obuna boʻling!"
 
 
 def har():
