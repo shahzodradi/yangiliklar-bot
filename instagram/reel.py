@@ -239,10 +239,17 @@ def make_reel(name, photos, h1_html, narration, hook="", fs=None, segments=None)
     if segments:  # har bo'lak boshlanish vaqti: so'zlar sonidan (ovoz so'z vaqtlari bo'yicha)
         idx = len(speakable(hook + ".").split()) if hook else 0
         starts, labels = [], []
+        norm = lambda w: re.sub(r"\W", "", w.lower())
+        pos = 0
         for t, lab in segments:
-            starts.append(words[min(idx, len(words) - 1)][0] if words else 0)
+            first = norm(speakable(t).split()[0]) if t.split() else ""
+            # bo'lak birinchi so'zini ("Ikkinchi") ovoz so'zlari ichidan qidiramiz; topilmasa so'z sanog'i bilan
+            hit = next((j for j in range(pos, len(words)) if first and norm(words[j][2]) == first), None)
+            j = hit if hit is not None else min(idx, len(words) - 1)
+            starts.append(words[j][0] if words else 0)
             labels.append(lab)
-            idx += len(speakable(t).split())
+            pos = j + 1
+            idx = j + len(speakable(t).split())
         starts[0] = 0.0
         extra = []
         for st, lab in zip(starts, labels):

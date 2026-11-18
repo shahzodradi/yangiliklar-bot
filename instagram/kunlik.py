@@ -476,7 +476,7 @@ def top3():
             photos.append(c or HERE / "logo" / "L1_evolving.png")
     s = [(uz(t["sarlavha"]).strip(" .!"), uz(t["gap"]).strip()) for t in top]
     # ~25 s: ovozda gap faqat qisqa bo'lsa o'qiladi (to'liq matn izohda), uzun bo'lsa faqat sarlavha
-    say = [f"{a}. {b}" if len(b.split()) <= 9 else f"{a}." for a, b in s]
+    say = [f"{a}." for a, b in s]  # ovozda faqat sarlavhalar (~20 s); fakt va tafsilot izohda
     savol = uz(res.get("savol", "")).strip() or "Qaysi biri sizni hayratga soldi?"
     segments = [
         (f"Birinchi: {say[0]}", "1-voqea"),
