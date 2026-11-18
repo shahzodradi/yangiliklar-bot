@@ -60,7 +60,7 @@ CARD = """<!doctype html><html><head><meta charset="utf-8">
 html,body{width:1080px;height:1100px;overflow:hidden;background:radial-gradient(circle at %(gx)s%% %(gy)s%%,%(glow)s,#020814 72%%)}
 .n{position:absolute;left:70px;top:150px;font-family:Anton,Impact,sans-serif;font-size:420px;line-height:1;
  color:transparent;-webkit-text-stroke:6px #3d8bff;opacity:.9}
-.t{position:absolute;left:70px;right:70px;bottom:230px;font-family:Anton,Impact,sans-serif;font-size:%(fs)spx;
+.t{position:absolute;left:80px;right:80px;top:590px;font-family:Anton,Impact,sans-serif;font-size:%(fs)spx;
  line-height:1.08;color:#fff;text-transform:uppercase}
 </style></head><body><div class="n">%(num)s</div><div class="t">%(text)s</div></body></html>"""
 
@@ -208,6 +208,8 @@ def clip_filter(idx, path, logo, frames, move):
             "out": (f"1.16-0.16*on/{frames}", "iw/2-(iw/zoom/2)"),
             "left": ("1.18", f"(iw-iw/zoom)*(1-on/{frames})"),
             "right": ("1.18", f"(iw-iw/zoom)*on/{frames}")}[move]
+    if "_karta" in pathlib.Path(path).name:  # matnli karta: chetidagi yozuv kesilmasin, faqat sekin yaqinlashadi
+        z, x = f"1+0.04*on/{frames}", "iw/2-(iw/zoom/2)"
     return (f"[{idx}:v]{fit},scale={W * 2}:{PH * 2},setsar=1,"
             f"zoompan=z='{z}':x='{x}':y='ih/2-(ih/zoom/2)':d={frames}:s={W}x{PH}:fps=30,format=yuv420p[c{idx}]")
 

@@ -475,11 +475,13 @@ def top3():
             c = reel.title_card(f"{stamp}_top3_karta{n}", n + 1, uz(t["sarlavha"]).strip(" .!").replace("*", ""))
             photos.append(c or HERE / "logo" / "L1_evolving.png")
     s = [(uz(t["sarlavha"]).strip(" .!"), uz(t["gap"]).strip()) for t in top]
+    # ~25 s: ovozda gap faqat qisqa bo'lsa o'qiladi (to'liq matn izohda), uzun bo'lsa faqat sarlavha
+    say = [f"{a}. {b}" if len(b.split()) <= 9 else f"{a}." for a, b in s]
     savol = uz(res.get("savol", "")).strip() or "Qaysi biri sizni hayratga soldi?"
     segments = [
-        (f"Birinchi: {s[0][0]}. {s[0][1]}", "1-voqea"),
-        (f"Ikkinchi: {s[1][0]}. {s[1][1]}", "2-voqea"),
-        (f"Uchinchi: {s[2][0]}. {s[2][1]} {savol} Izohda yozing va obuna boʻling.", "3-voqea"),
+        (f"Birinchi: {say[0]}", "1-voqea"),
+        (f"Ikkinchi: {say[1]}", "2-voqea"),
+        (f"Uchinchi: {say[2]} {savol} Izohda yozing.", "3-voqea"),
     ]
     mp4 = reel.make_reel(f"{stamp}_top3", photos, headline_html("Bugun AI'da *TOP-3* voqea"), "",
                          hook="Bugun AI'da TOP-3", segments=segments)
