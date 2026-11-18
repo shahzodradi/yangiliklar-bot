@@ -56,7 +56,7 @@ SCHEMA = {
     "properties": {"tanlov": {"type": "ARRAY", "items": {
         "type": "OBJECT",
         "properties": {"id": {"type": "INTEGER"}, "sarlavha": {"type": "STRING"}, "emoji": {"type": "STRING"},
-                       "savol": {"type": "STRING"}, "rasm": {"type": "STRING"}, "hook": {"type": "STRING"}, "qiziqtir": {"type": "STRING"}, "takror": {"type": "BOOLEAN"},
+                       "savol": {"type": "STRING"}, "rasm": {"type": "STRING"}, "hook": {"type": "STRING"}, "qiziqtir": {"type": "STRING"}, "takror": {"type": "BOOLEAN"}, "voqea": {"type": "STRING"},
                        "teglar": {"type": "ARRAY", "items": {"type": "STRING"}}},
         "required": ["id", "sarlavha", "emoji", "savol", "rasm", "teglar"]}}},
     "required": ["tanlov"],
@@ -330,9 +330,13 @@ def har():
     prompt = prompt.format(count=len(items), items=json.dumps(brief, ensure_ascii=False)) + (
         "\nTAKRORNI TEKSHIR: yangilik ro'yxatdagi kichikroq id'li yangilik bilan yoki quyidagi AVVAL JOYLANGAN "
         "voqealardan biri bilan BIR XIL voqea bo'lsa (boshqa sayt, boshqa so'zlar bilan yozilgan bo'lsa ham), "
-        "\"takror\": true qo'y. Bir kompaniyaning boshqa-boshqa voqealari takror emas.\nAVVAL JOYLANGAN:\n"
+        "\"takror\": true qo'y. Bir kompaniyaning boshqa-boshqa voqealari takror emas.\n"
+        "Har biriga \"voqea\" ham yoz: voqeaning qisqa inglizcha kaliti, kichik harfda, 2-3 so'z: kompaniya + "
+        "mahsulot/harakat (masalan \"suno visuals launch\", \"openai daybreak nato\"). Bir voqea haqidagi "
+        "yangiliklarga AYNAN BIR XIL kalit ber.\nAVVAL JOYLANGAN:\n"
         + json.dumps([m[1] for m in mavzular[-80:]], ensure_ascii=False))
     result = bot.ask_models(env, prompt, SCHEMA, fast=True)
+    keys = {m[2] for m in mavzular if len(m) > 2 and m[2]}  # voqea kalitlari (48 soat): bir voqea bir marta
     picks = {p["id"]: p for p in result.get("tanlov", []) if isinstance(p.get("id"), int) and 0 <= p["id"] < len(items)}
     IMG_DIR.mkdir(exist_ok=True)
     stamp = time.strftime("%Y-%m-%d_%H%M")
@@ -344,10 +348,12 @@ def har():
             "sarlavha": item["title"], "emoji": "⚡", "savol": "Bu haqda nima deysiz?", "rasm": "",
             "teglar": ["#AI", "#suniyintellekt", "#AIyangiliklar", "#texnologiya", "#AITezkor"]}
         pick.update({k: uz(pick.get(k, "")) for k in ("sarlavha", "savol")})
-        if pick.get("takror"):
+        key = re.sub(r"[^a-z0-9 ]", "", str(pick.get("voqea", "")).lower()).strip()
+        if pick.get("takror") or (key and key in keys):
             log.info("Takror voqea, o'tkazildi: %s", item["title"])
             continue
-        mavzular.append([now, item["title"]])
+        keys.add(key)
+        mavzular.append([now, item["title"], key])
         found = find_photos(item, pick.get("rasm", ""), used, n=4)  # avval ishlatilgan rasmlar o'tkaziladi
         files, credit = [], None
         for j, (data, ctype, cr, fp) in enumerate(found):
