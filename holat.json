@@ -378,7 +378,12 @@
   "https://www.cnet.com/tech/services-and-software/openai-chatgpt-astra-6-2-microsoft-ignite-news/": 1795060869.6064322,
   "https://memeburn.com/best-ai-image-to-video-generator/": 1795064755.821135,
   "https://www.analyticsinsight.net/news/suno-brings-ai-music-videos-to-creators-with-new-visuals-feature-what-you-need-to-know": 1795064755.821135,
-  "https://kun.uz/news/2026/11/19/suniy-intellekt-yaratgan-film-xarajatini-ham-qoplay-olmadi-61301": 1795068068.706351
+  "https://kun.uz/news/2026/11/19/suniy-intellekt-yaratgan-film-xarajatini-ham-qoplay-olmadi-61301": 1795068068.706351,
+  "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/": 1795072167.1746418,
+  "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/": 1795072167.1746418,
+  "https://techcrunch.com/2026/11/18/elon-musk-says-ousting-jensen-huang-is-like-kicking-michael-jordan-off-your-team/": 1795072167.1746418,
+  "https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/": 1795072167.1746418,
+  "https://techcrunch.com/2026/11/18/palmer-luckey-warns-ai-powered-cyberattacks-are-outpacing-defenses-its-time-to-start-running/": 1795072167.1746418
  },
  "fails": 0,
  "sent": [
@@ -1111,6 +1116,31 @@
    "t": 1795068068.706351,
    "title": "Sunʼiy intellekt yaratgan film xarajatini ham qoplay olmadi",
    "soha": "AI video"
+  },
+  {
+   "t": 1795072167.1746418,
+   "title": "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit",
+   "soha": "AI"
+  },
+  {
+   "t": 1795072167.1746418,
+   "title": "Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is ‘unpatchable’",
+   "soha": "AI"
+  },
+  {
+   "t": 1795072167.1746418,
+   "title": "Elon Musk says ousting Jensen Huang is like ‘kicking Michael Jordan off your team’",
+   "soha": "AI"
+  },
+  {
+   "t": 1795072167.1746418,
+   "title": "Satya Nadella predicts AI agents will reshuffle the economics of the web",
+   "soha": "AI"
+  },
+  {
+   "t": 1795072167.1746418,
+   "title": "Palmer Luckey warns AI-powered cyberattacks are outpacing defenses: ‘It’s time to start running’",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -1118,254 +1148,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1794895552.3226838,
-   "title": "Tech leaders react to Jensen Huang's Nvidia exit",
-   "text": "Jensen Huang's sudden resignation from Nvidia after 33 years has shocked the tech industry, prompting calls for his reinstatement.",
-   "orig_title": "Tech leaders are convinced that Jensen Huang’s exit was a plot against him",
-   "link": "https://www.theverge.com/tech/1035027/tech-leaders-nvidia-jensen-huang-theories",
-   "source": "The Verge AI",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Jensen Xuang atrofidagi mojaro AQSHning Xitoyga nisbatan eksport nazoratini yanada kuchaytirishi va Nvidia mahsulotlarini yetkazib berish zanjirida tekshiruvlarni ko‘paytirishi mumkin.",
-   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2299645290.jpg?quality=90&strip=all&crop=0%2C10.748709970289%2C100%2C78.502580059422&w=1200",
-   "domains": [
-    "theverge.com",
-    "cnbc.com"
-   ],
-   "urls": [
-    "https://www.theverge.com/tech/1035027/tech-leaders-nvidia-jensen-huang-theories",
-    "https://www.cnbc.com/2026/11/16/trump-lutnick-nvidia-national-security-jensen-huant.html"
-   ],
-   "videos": [
-    [
-     "https://x.com/DavidSacks/status/2121070881258504395",
-     "X"
-    ],
-    [
-     "https://x.com/semafor/status/2122387271194231060",
-     "X"
-    ],
-    [
-     "https://x.com/TimSweeneyEpic/status/2121083415487205652",
-     "X"
-    ],
-    [
-     "https://x.com/amasad/status/2120671838909194695",
-     "X"
-    ]
-   ]
-  },
-  {
-   "t": 1794895552.3226838,
-   "title": "Nvidia faces uncertainty following Jensen Huang's departure",
-   "text": "After the shocking departure of its CEO, Nvidia navigates new industry challenges and leadership changes.",
-   "orig_title": "Jensen Huang Is Gone. Now What?",
-   "link": "https://www.wired.com/story/the-big-interview-podcast-lauren-goode-jensen-huang/",
-   "source": "Wired AI",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Kompaniyadagi noaniqlik va tekshiruvlar Nvidia aksiyalari narxining pasayishda davom etishiga hamda bozor kapitallashuvining yanada qisqarishiga sabab bo‘lishi mumkin.",
-   "image": "https://media.wired.com/photos/6af78c75239676948e926fc2/191:100/w_1280,c_limit/Big-Interview-UV-Solo-Katie-Lauren-Business.jpg",
-   "domains": [
-    "wired.com",
-    "cnbc.com"
-   ],
-   "urls": [
-    "https://www.wired.com/story/the-big-interview-podcast-lauren-goode-jensen-huang/",
-    "https://www.cnbc.com/2026/11/16/nvidia-earnings-jensen-huang-resignation.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794895552.3226838,
-   "title": "Study reveals how scientists utilize ChatGPT in research",
-   "text": "Research on over 1,800 scientists shows how ChatGPT impacts daily workflows, productivity, and scientific discovery.",
-   "orig_title": "Science at the Frontier: How scientists use ChatGPT",
-   "link": "https://openai.com/index/science-at-the-frontier",
-   "source": "OpenAI",
-   "soha": "AI",
-   "baho": 7,
-   "experts": [],
-   "effect": "ChatGPT va boshqa sun’iy intellekt vositalarining ommalashishi an’anaviy qayd ilovalarini SI tizimlari bilan integratsiyalashishga majbur qilishi yoki foydalanuvchilarning boshqa platformalarga o‘tishiga sabab bo‘lishi mumkin.",
-   "image": null,
-   "domains": [
-    "tech.yahoo.com"
-   ],
-   "urls": [
-    "https://tech.yahoo.com/ai/chatgpt/articles/im-ditching-google-keep-good-220010780.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794895552.3226838,
-   "title": "OpenAI starts embedded safety assessments with researchers",
-   "text": "OpenAI begins collaborating with independent labs to evaluate model alignment and monitoring systems.",
-   "orig_title": "Our first phase of embedded assessments",
-   "link": "https://openai.com/index/our-first-phase-of-embedded-assessments",
-   "source": "OpenAI",
-   "soha": "AI",
-   "baho": 7,
-   "experts": [],
-   "effect": "Mustaqil baholovchilarning modellarni o‘qitish jarayoniga kiritilishi sun’iy intellekt xavfsizligini oshirishi hamda keyingi avlod modellarining sinovdan o‘tish va bozorga chiqish muddatini uzaytirishi mumkin.",
-   "image": null,
-   "domains": [
-    "techcrunch.com"
-   ],
-   "urls": [
-    "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794895552.3226838,
-   "title": "Dreamteam raises $53M for AI-native CRM platform",
-   "text": "Freshworks alumni have secured funding to launch an AI-native CRM competing with major established platforms.",
-   "orig_title": "Freshworks alums raise $53M to take on Salesforce, HubSpot with AI-native CRM",
-   "link": "https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm/",
-   "source": "TechCrunch AI",
-   "soha": "AI",
-   "baho": 6,
-   "experts": [],
-   "effect": "Sun’iy intellektga asoslangan yangi CRM tizimlari Salesforce va HubSpot kabi an’anaviy platformalar bilan raqobatni kuchaytirib, korporativ mijozlar uchun xizmat narxlarining pasayishiga olib kelishi mumkin.",
-   "image": "https://techcrunch.com/wp-content/uploads/2026/11/dreamteam-co-founders.jpg?resize=1200,800",
-   "domains": [
-    "techcrunch.com",
-    "uk.finance.yahoo.com"
-   ],
-   "urls": [
-    "https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm/",
-    "https://uk.finance.yahoo.com/news/ai-startup-dreamteam-raises-capital-110000538.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794898979.8938375,
-   "title": "Nvidia to'lovlar va hisobotlar oldidan savollarga javob berishi kerak",
-   "text": "Nvidia vaqtinchalik bosh direktori va moliya direktori Colette Kress kompaniyaning uchinchi chorak natijalarini e'lon qiladigan muhim kunga duch kelmoqda.",
-   "orig_title": "All the questions Nvidia should answer on Tuesday — but probably won’t",
-   "link": "https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont/",
-   "source": "TechCrunch AI",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Kompaniya aksiyalarining qulashi va ishonchning yo'qolishi fonida uchinchi chorak natijalari va yangi rahbarning bayonotlari bozor uchun hal qiluvchi ahamiyatga ega bo'lishi mumkin.",
-   "image": "https://techcrunch.com/wp-content/uploads/2020/05/GettyImages-1147839035.jpg?resize=1200,800",
-   "domains": [
-    "techcrunch.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont/",
-    "https://finance.yahoo.com/markets/stocks/articles/complete-evaporation-confidence-6-critical-230248982.html"
-   ],
-   "videos": [
-    [
-     "https://www.youtube.com/watch?v=u7Xqu65Gh58",
-     "YouTube"
-    ]
-   ]
-  },
-  {
-   "t": 1794898979.8938375,
-   "title": "Trump Jensen Huang mojarosi milliy xavfsizlikka tahdid solmaganini aytdi",
-   "text": "Trump hukumat razvedka xodimlarining Alice Huang Xitoy josusi ekanligi haqidagi xulosalariga qarshi chiqdi.",
-   "orig_title": "Trump says ex-Nvidia CEO Jensen Huang’s affair with an alleged Chinese spy did not threaten national security",
-   "link": "https://techcrunch.com/2026/11/16/trump-says-ex-nvidia-ceo-jensen-huangs-affair-with-an-alleged-chinese-spy-did-not-threaten-national-security/",
-   "source": "TechCrunch AI",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "AQSh prezidentining voqea milliy xavfsizlikka tahdid solmagani haqidagi bayonoti kompaniya atrofidagi siyosiy bosimni va tekshiruvlar yo'nalishini o'zgartirishi mumkin.",
-   "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2297572109.jpg?w=1024",
-   "domains": [
-    "techcrunch.com",
-    "yahoo.com"
-   ],
-   "urls": [
-    "https://techcrunch.com/2026/11/16/trump-says-ex-nvidia-ceo-jensen-huangs-affair-with-an-alleged-chinese-spy-did-not-threaten-national-security/",
-    "https://www.yahoo.com/news/politics/articles/trump-says-ex-nvidia-ceo-191202200.html"
-   ],
-   "videos": [
-    [
-     "https://www.youtube.com/watch?v=QEqLipeYxQY",
-     "YouTube"
-    ]
-   ]
-  },
-  {
-   "t": 1794898979.8938375,
-   "title": "Ochiq kodli harakat Jensen Huangning qaytarilishini talab qilmoqda",
-   "text": "Ijtimoiy tarmoqlarda Jensen Huangni Nvidia bosh direktori lavozimiga qayta tiklash bo'yicha petitsiya tarqaldi va taniqli shaxslar imzo chekdi.",
-   "orig_title": "The open-source movement wants Jensen Huang back",
-   "link": "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/",
-   "source": "MIT Tech Review",
-   "soha": "AI",
-   "baho": 7,
-   "experts": [],
-   "effect": "Ochiq kodli sun'iy intellekt tarafdorlarining Jensen Huangni lavozimiga qaytarish bo'yicha harakatlari va chip smuglassi bo'yicha yangi tadqiqotlar AQShning texnologik yetakchiligiga putur yetkazishi mumkin.",
-   "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/AP26289708196110.jpg?resize=1200,600",
-   "domains": [
-    "technologyreview.com",
-    "cnbc.com"
-   ],
-   "urls": [
-    "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/",
-    "https://www.cnbc.com/2026/11/16/nvidia-jensen-huang-return-tech.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794898979.8938375,
-   "title": "OpenAI bolalar xavfsizligini ta'minlash uchun yangi tasniflagich va ogohlantirishlarni chiqardi",
-   "text": "ChatGPT bolalar ekspluatatsiyasiga qarshi kurash doirasida taqiqlangan kontentga kirishga urinishgan hisoblarni 24 soatga bloklaydi.",
-   "orig_title": "OpenAI releases a new image classifier and ChatGPT warnings to combat CSAM",
-   "link": "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/",
-   "source": "TechCrunch AI",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Yangi xavfsizlik vositalari va ogohlantirishlarning joriy etilishi bolalardan foydalanish materiallariga qarshi kurashda tekshiruvchilarning ishini yengillashtirishi va zararli kontent tarqalishini cheklashi mumkin.",
-   "image": "https://techcrunch.com/wp-content/uploads/2026/11/OpenAI-chatgpt-CSAM.jpeg?resize=1200,675",
-   "domains": [
-    "techcrunch.com",
-    "wired.com"
-   ],
-   "urls": [
-    "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/",
-    "https://www.wired.com/story/openai-child-safety-reports-ncmec/"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794898979.8938375,
-   "title": "Audible kitobxonlarga audiotermlarni topishda yordam berish uchun sun'iy intellektdan foydalanadi",
-   "text": "Audible'ning sun'iy intellekt yordamida yaratilgan audio prevyulari kitob mavzularini va foydalanuvchilar nimani yoqtirganini qisqacha bayon qiladi.",
-   "orig_title": "Audible turns to AI to help users discover audiobooks",
-   "link": "https://techcrunch.com/2026/11/16/audible-turns-to-ai-to-help-users-discover-audiobooks/",
-   "source": "TechCrunch AI",
-   "soha": "AI",
-   "baho": 7,
-   "experts": [],
-   "effect": "Sun'iy intellekt yordamida audio kitoblarni kashf qilish funksiyasining ishga tushirilishi foydalanuvchilarga tanlov qilishni osonlashtirib, bozor raqobatida ustunlik berishi mumkin.",
-   "image": "https://techcrunch.com/wp-content/uploads/2026/11/Audible_Audio_Discovery_Still.jpeg?resize=1200,824",
-   "domains": [
-    "techcrunch.com",
-    "businessinsider.com"
-   ],
-   "urls": [
-    "https://techcrunch.com/2026/11/16/audible-turns-to-ai-to-help-users-discover-audiobooks/",
-    "https://www.businessinsider.com/guides/deals/audible-premium-plus-amazon-deal-2025"
-   ],
-   "videos": [
-    [
-     "https://www.youtube.com/watch?v=1HF2kJ_fn5E",
-     "YouTube"
-    ]
-   ]
-  },
   {
    "t": 1794902470.3692682,
    "title": "OpenAI NATO va ittifoqdosh kiberhimoyasini kuchaytirishda yordam bermoqda",
@@ -3394,6 +3176,121 @@
     "https://kun.uz/news/2026/11/19/suniy-intellekt-yaratgan-film-xarajatini-ham-qoplay-olmadi-61301",
     "https://www.yahoo.com/entertainment/movies/articles/china-first-ai-generated-film-184405359.html",
     "https://www.yahoo.com/entertainment/movies/articles/china-box-office-once-upon-062719844.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795072167.1746418,
+   "title": "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit",
+   "text": "Microsoft CEO Satya Nadella explained why he offered buyouts to 60,000 of his employees, urging them to voluntarily quit rather than executing massive layoffs. The short answer driving this workplace restructuring is artificial intelligence.",
+   "orig_title": "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit",
+   "link": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Ish joylarida sun'iy intellekt agentlarini boshqarishga o'tish jarayoni xodimlarda ortiqcha tashvish uyg'otib, kompaniyalarning ish unumdorligi va tuzilmasini o'zgartirishi mumkin.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/Microsoft-Satya-Nadella.jpg?resize=1200,800",
+   "domains": [
+    "techcrunch.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/",
+    "https://finance.yahoo.com/markets/article/microsoft-says-ai-didnt-break-outlook--its-own-network-upgrade-did-133858185.html"
+   ],
+   "videos": [
+    [
+     "https://www.youtube.com/watch?v=0NE89Nzfk20",
+     "YouTube"
+    ]
+   ]
+  },
+  {
+   "t": 1795072167.1746418,
+   "title": "Amidst fears of AI cyberattacks, Satya Nadella says critical infrastructure is unpatchable",
+   "text": "Microsoft CEO Satya Nadella noted that artificial intelligence is creating both new opportunities and unprecedented challenges for securing the connected world against sophisticated cyberthreats.",
+   "orig_title": "Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is ‘unpatchable’",
+   "link": "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Kritik infratuzilmalardagi eskirgan va yamoq qilib bo'lmaydigan tizimlar sun'iy intellekt yordamidagi kiberhujumlar davrida jiddiy xavfsizlik tahdidlarini keltirib chiqarishi mumkin.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2305773699.jpg?resize=857,1200",
+   "domains": [
+    "techcrunch.com",
+    "cnbc.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/",
+    "https://www.cnbc.com/video/2026/11/18/microsoft-ceo-satya-nadella-cyber-defenses-and-infrastructure-upgrades-are-all-at-a-premium-now.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795072167.1746418,
+   "title": "Elon Musk says ousting Jensen Huang is like kicking Michael Jordan off your team",
+   "text": "Elon Musk commented on the recent leadership changes at Nvidia, defending the ousted CEO Jensen Huang and comparing his departure to removing a legendary player from a top sports team.",
+   "orig_title": "Elon Musk says ousting Jensen Huang is like ‘kicking Michael Jordan off your team’",
+   "link": "https://techcrunch.com/2026/11/18/elon-musk-says-ousting-jensen-huang-is-like-kicking-michael-jordan-off-your-team/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Rahbariyatning o'zgarishi va asosiy rahbarning ketishi kompaniyaning bozor qiymatiga salbiy ta'sir ko'rsatib, aksiyadorlar ishonchini pasaytirishi mumkin.",
+   "image": "https://techcrunch.com/wp-content/uploads/2024/08/GettyImages-524212924.jpg?resize=1200,800",
+   "domains": [
+    "techcrunch.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/18/elon-musk-says-ousting-jensen-huang-is-like-kicking-michael-jordan-off-your-team/",
+    "https://finance.yahoo.com/markets/stocks/articles/elon-musk-says-nvidia-ousting-002332874.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795072167.1746418,
+   "title": "Satya Nadella predicts AI agents will reshuffle the economics of the web",
+   "text": "Microsoft's CEO stated that autonomous AI agents could disrupt traditional advertising-driven business models, forcing major tech companies to rethink how they acquire and compete for customers.",
+   "orig_title": "Satya Nadella predicts AI agents will reshuffle the economics of the web",
+   "link": "https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Sun'iy intellekt agentlarining ommalashuvi an'anaviy qidiruv tizimlari va reklama modellariga asoslangan internet iqtisodiyotini tubdan o'zgartirishi ehtimoli bor.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2305773211.jpg?w=594",
+   "domains": [
+    "techcrunch.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/",
+    "https://finance.yahoo.com/technology/ai/articles/satya-nadella-predicts-ai-agents-225811295.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795072167.1746418,
+   "title": "Palmer Luckey warns AI-powered cyberattacks are outpacing defenses",
+   "text": "Anduril co-founder Palmer Luckey warned that outdated technology leaves systems highly vulnerable to a rapidly growing wave of sophisticated AI-enabled cyberattacks.",
+   "orig_title": "Palmer Luckey warns AI-powered cyberattacks are outpacing defenses: ‘It’s time to start running’",
+   "link": "https://techcrunch.com/2026/11/18/palmer-luckey-warns-ai-powered-cyberattacks-are-outpacing-defenses-its-time-to-start-running/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Sun'iy intellektga asoslangan kiberhujumlarning tezlashishi eskirgan texnologiya tizimlarini himoya qilishni qiyinlashtirib, tashkilotlarni tezkor choralar ko'rishga majbur qilishi mumkin.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2305757563-Medium.jpeg?w=594",
+   "domains": [
+    "techcrunch.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/18/palmer-luckey-warns-ai-powered-cyberattacks-are-outpacing-defenses-its-time-to-start-running/",
+    "https://finance.yahoo.com/news/drone-maker-anduril-expand-long-113100664.html"
    ],
    "videos": []
   }
