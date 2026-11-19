@@ -393,7 +393,15 @@
   "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/": 1795079336.648598,
   "https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode/": 1795079336.648598,
   "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/": 1795079336.648598,
-  "https://www.theverge.com/games/1036140/will-wright-mymems-ai-game-interview": 1795079336.648598
+  "https://www.theverge.com/games/1036140/will-wright-mymems-ai-game-interview": 1795079336.648598,
+  "https://www.msn.com/en-gb/video/other/how-i-use-higgsfield-wan-25-for-ai-video-creation/vi-AA2hLrHE": 1795082488.399293,
+  "https://www.marketscreener.com/news/kuaishou-swings-to-quarterly-loss-as-ai-spending-intensifies-ce785ed2d988fe2c": 1795082488.399293,
+  "https://techcrunch.com/2026/11/18/palmer-luckey-thinks-china-is-thrilled-to-have-jensen-out-so-he-wants-the-ousted-nvidia-ceo-reinstated/": 1795082488.399293,
+  "https://www.wired.com/story/inside-nvidias-first-all-hands-without-jensen-huang-as-ceo/": 1795082488.399293,
+  "https://www.wired.com/story/artex-ai-hacking-tools/": 1795082488.399293,
+  "https://the-decoder.com/pangram-flags-99-percent-of-an-award-winning-peruvian-novel-as-ai-generated-but-the-publisher-stands-by-its-author/": 1795082488.399293,
+  "https://thedroidguy.com/midjourney-basic-vs-standard-vs-pro-vs-mega-1289604": 1795082488.399293,
+  "https://www.recordoftheday.com/news-and-press/sonilo-signs-music-licensing-deal-with-symphonic-enabling-independent-artists-to-join-the-ai-music-economy": 1795082488.399293
  },
  "fails": 0,
  "sent": [
@@ -1201,6 +1209,46 @@
    "t": 1795079336.648598,
    "title": "Will Wright’s next game uses AI to map your memories",
    "soha": "AI"
+  },
+  {
+   "t": 1795082488.399293,
+   "title": "How I use Higgsfield WAN 2.5 for AI video creation",
+   "soha": "AI video"
+  },
+  {
+   "t": 1795082488.399293,
+   "title": "Kuaishou Swings to Quarterly Loss as AI Spending Intensifies",
+   "soha": "AI"
+  },
+  {
+   "t": 1795082488.399293,
+   "title": "Palmer Luckey thinks China is ‘thrilled to have Jensen out,’ so he wants the ousted Nvidia CEO reinstated",
+   "soha": "AI"
+  },
+  {
+   "t": 1795082488.399293,
+   "title": "Inside Nvidia’s First Post-Jensen All-Hands: Pay Raises and More Equity",
+   "soha": "AI"
+  },
+  {
+   "t": 1795082488.399293,
+   "title": "Artex Is Criminals’ New Favorite ‘Point-and-Shoot’ AI Hacking Tool",
+   "soha": "AI"
+  },
+  {
+   "t": 1795082488.399293,
+   "title": "Pangram flags 99 percent of an award-winning Peruvian novel as AI-generated, but the publisher stands by its author",
+   "soha": "AI"
+  },
+  {
+   "t": 1795082488.399293,
+   "title": "Midjourney Basic Vs Standard Vs Pro Vs Mega: Differences (2026)",
+   "soha": "AI rasm"
+  },
+  {
+   "t": 1795082488.399293,
+   "title": "Sonilo Signs Music Licensing Deal with Symphonic, Enabling Independent Artists to Join the AI Music Economy",
+   "soha": "AI musiqa"
   }
  ],
  "mavzu": {
@@ -3491,6 +3539,183 @@
    "urls": [
     "https://www.theverge.com/games/1036140/will-wright-mymems-ai-game-interview",
     "https://markets.businessinsider.com/news/stocks/gallium-studios-founded-by-the-sims-creator-will-wright-partners-with-artificial-agency-to-power-characters-in-new-simulation-game-1036779005"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795082488.399293,
+   "title": "Higgsfield va WAN 2.5 yordamida AI video yaratish",
+   "text": "Higgsfield platformasida mavjud vositalar yordamida sun'iy intellekt asosida video kontent generatsiya qilish va tahrirlash jarayoni ko'rsatib berildi.",
+   "orig_title": "How I use Higgsfield WAN 2.5 for AI video creation",
+   "link": "https://www.msn.com/en-gb/video/other/how-i-use-higgsfield-wan-25-for-ai-video-creation/vi-AA2hLrHE",
+   "source": "msn.com",
+   "soha": "AI video",
+   "baho": 8,
+   "experts": [],
+   "effect": "Sun'iy intellekt yordamida yaratilgan aktyorlar va raqamli nusxalarning ommalashuvi kino sanoatida aktyorlarning o'rnini qisqartirishi va tomoshabinlar hamda ijodkorlar o'rtasida jiddiy e'tirozlarga sabab bo'lishi mumkin.",
+   "image": null,
+   "domains": [
+    "theguardian.com"
+   ],
+   "urls": [
+    "https://www.theguardian.com/film/2026/oct/20/ai-actors-val-kilmer-as-deep-as-the-grave-tilly-norwood"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795082488.399293,
+   "title": "Kuaishou kompaniyasi sun'iy intellekt xarajatlari sababli zarar ko'rdi",
+   "text": "Xitoyning qisqa videolar platformasi Kuaishou sun'iy intellekt biznesiga kiritilayotgan investitsiyalar oshgani sababli uchinchi chorakda moliyaviy yo'qotishlarga uchradi.",
+   "orig_title": "Kuaishou Swings to Quarterly Loss as AI Spending Intensifies",
+   "link": "https://www.marketscreener.com/news/kuaishou-swings-to-quarterly-loss-as-ai-spending-intensifies-ce785ed2d988fe2c",
+   "source": "marketscreener.com",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Kompaniyaning kutilganidan kamroq zarar ko'rgani va daromadi oshgani aksiyadorlarning ishonchini va bozor qiymatini saqlab qolishga ijobiy ta'sir ko'rsatishi mumkin.",
+   "image": null,
+   "domains": [
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://finance.yahoo.com/markets/stocks/articles/joby-aviation-inc-joby-reports-234520877.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795082488.399293,
+   "title": "Palmer Laker Jensen Xuangni lavozimiga qaytarishni talab qildi",
+   "text": "Anduril rahbari Palmer Laker kompaniyadan ketgan Nvidia asoschisi Jensen Xuangning chetlatilishi Amerikani zaiflashtirganini ta'kidlab, uni qayta tiklashga chaqirdi.",
+   "orig_title": "Palmer Luckey thinks China is ‘thrilled to have Jensen out,’ so he wants the ousted Nvidia CEO reinstated",
+   "link": "https://techcrunch.com/2026/11/18/palmer-luckey-thinks-china-is-thrilled-to-have-jensen-out-so-he-wants-the-ousted-nvidia-ceo-reinstated/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Rahbariyatdagi kutilmagan o'zgarishlar va mojara Nvidia bozor qiymatining keskin tushib ketishiga, xalqaro savdo cheklovlariga hamda yarimo'tkazgichlar bozorida raqobat muhitining o'zgarishiga olib kelishi mumkin.",
+   "image": "https://techcrunch.com/wp-content/uploads/2024/11/GettyImages-1728513578-e.jpg?resize=1200,800",
+   "domains": [
+    "techcrunch.com",
+    "sg.news.yahoo.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/18/palmer-luckey-thinks-china-is-thrilled-to-have-jensen-out-so-he-wants-the-ousted-nvidia-ceo-reinstated/",
+    "https://sg.news.yahoo.com/live/singapore-live-news-whats-next-for-jensen-huang-elon-musk-says-hiring-ex-nvidia-ceo-an-honour-microsoft-365-outage-hits-singapore-users-overnight-as-servers-go-offline-014728620.html"
+   ],
+   "videos": [
+    [
+     "https://x.com/PalmerLuckey/status/2120770412741263858",
+     "X"
+    ]
+   ]
+  },
+  {
+   "t": 1795082488.399293,
+   "title": "Nvidia xodimlarning maoshlarini oshirishni rejalashtirmoqda",
+   "text": "Jensen Xuang ketganidan keyin o'tkazilgan ilk umumiy yig'ilishda vaqtinchalik bosh direktor Kolette Kress xodimlarning xavotirlarini kamaytirish uchun maoshlar va aksiyalarni oshirishga va'da berdi.",
+   "orig_title": "Inside Nvidia’s First Post-Jensen All-Hands: Pay Raises and More Equity",
+   "link": "https://www.wired.com/story/inside-nvidias-first-all-hands-without-jensen-huang-as-ceo/",
+   "source": "Wired AI",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Maoshlarning muddatidan oldin oshirilishi va aksiyalar ulushining berilishi xodimlar o'rtasidagi xavotirlarni kamaytirib, yuqori malakali mutaxassislarning kompaniyadan ketib qolishining oldini olishi mumkin.",
+   "image": "https://media.wired.com/photos/6afddee377c5562ae471019b/191:100/w_1280,c_limit/GettyImages-2304258889.jpg",
+   "domains": [
+    "wired.com",
+    "bbc.com"
+   ],
+   "urls": [
+    "https://www.wired.com/story/inside-nvidias-first-all-hands-without-jensen-huang-as-ceo/",
+    "https://www.bbc.com/news/live/c6zjry11v8w1t"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795082488.399293,
+   "title": "Artex yangi xavfli sun'iy intellekt xakerlik vositasiga aylandi",
+   "text": "Yangi Artex va shunga o'xshash skanerlash qurollari tajribasiz xakerlarga chatbotlar yordamida zaifliklarni topish va muvaffaqiyatli kiberhujumlar uyushtirish imkonini bermoqda.",
+   "orig_title": "Artex Is Criminals’ New Favorite ‘Point-and-Shoot’ AI Hacking Tool",
+   "link": "https://www.wired.com/story/artex-ai-hacking-tools/",
+   "source": "Wired AI",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Sun'iy intellektga asoslangan bunday zafliklarni qidirish vositalarining ommalashuvi kiberjinoyatchilarga hujumlarni tezroq va osonroq amalga oshirish imkonini berib, butun dunyo bo'ylab tashkilotlar xavfsizligiga jiddiy xavf tug'dirishi mumkin.",
+   "image": "https://media.wired.com/photos/6afdd3316a27dda013bf584c/191:100/w_1280,c_limit/Security_Criminals%20Have%20a%20New%20Favorite%20AI%20Hacking%20Tool_v2.jpg",
+   "domains": [
+    "wired.com",
+    "techcrunch.com"
+   ],
+   "urls": [
+    "https://www.wired.com/story/artex-ai-hacking-tools/",
+    "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795082488.399293,
+   "title": "Pangram sun'iy intellekt detektori mukofotga sazovor bo'lgan roman bo'yicha bahsga sabab bo'ldi",
+   "text": "Pangram dasturi Perulik yozuvchining mukofot olgan romanini 96 foizga sun'iy intellekt mahsuli deb topdi, biroq nashriyot muallifni qo'llab-quvvatlashini bildirdi.",
+   "orig_title": "Pangram flags 99 percent of an award-winning Peruvian novel as AI-generated, but the publisher stands by its author",
+   "link": "https://the-decoder.com/pangram-flags-99-percent-of-an-award-winning-peruvian-novel-as-ai-generated-but-the-publisher-stands-by-its-author/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Sun'iy intellektni aniqlash vositalarining adabiy asarlarga nisbatan qo'llanilishi adabiyot olamida mualliflik huquqi va ijodning haqiqiyligi yuzasidan jiddiy bahs-munozaralarga sabab bo'lishi mumkin.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/11/pangram_literature.png",
+   "domains": [
+    "the-decoder.com",
+    "wired.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/pangram-flags-99-percent-of-an-award-winning-peruvian-novel-as-ai-generated-but-the-publisher-stands-by-its-author/",
+    "https://www.wired.com/story/i-let-pangram-loose-on-my-gmail-inbox-heres-how-much-ai-it-found/"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795082488.399293,
+   "title": "Midjourney tarif rejalari va ularning farqlari",
+   "text": "Midjourney to'rtta asosiy tarif rejasini taqdim etadi, ularda asosiy farq Fast GPU vaqti hamda Relax rejimidagi imkoniyatlardan iborat.",
+   "orig_title": "Midjourney Basic Vs Standard Vs Pro Vs Mega: Differences (2026)",
+   "link": "https://thedroidguy.com/midjourney-basic-vs-standard-vs-pro-vs-mega-1289604",
+   "source": "thedroidguy.com",
+   "soha": "AI rasm",
+   "baho": 7,
+   "experts": [],
+   "effect": "Yangi turar-joy va golf maydoni loyihasining amalga oshirilishi hududdagi aholi sonining sezilarli darajada oshishiga hamda mahalliy infratuzilmaning rivojlanishiga olib kelishi mumkin.",
+   "image": "https://thedroidguy.com/wp-content/uploads/2026/11/midjourney-basic-vs-standard-vs-pro-vs-mega.jpg",
+   "domains": [
+    "thedroidguy.com",
+    "sports.yahoo.com"
+   ],
+   "urls": [
+    "https://thedroidguy.com/midjourney-basic-vs-standard-vs-pro-vs-mega-1289604",
+    "https://sports.yahoo.com/articles/bryson-dechambeau-announces-mega-plans-221742422.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795082488.399293,
+   "title": "Sonilo va Symphonic musiqiy litsenziyalash shartnomasini imzoladi",
+   "text": "Generativ audio kompaniyasi Sonilo mustaqil artistlarga sun'iy intellekt iqtisodiyotiga qo'shilish imkonini berish uchun Symphonic bilan hamkorlik kelishuviga erishdi.",
+   "orig_title": "Sonilo Signs Music Licensing Deal with Symphonic, Enabling Independent Artists to Join the AI Music Economy",
+   "link": "https://www.recordoftheday.com/news-and-press/sonilo-signs-music-licensing-deal-with-symphonic-enabling-independent-artists-to-join-the-ai-music-economy",
+   "source": "recordoftheday.com",
+   "soha": "AI musiqa",
+   "baho": 8,
+   "experts": [],
+   "effect": "Musiqa kataloglarini litsenziyalash bo'yicha bunday kelishuvlar sun'iy intellekt sanoatida mualliflik huquqlarini himoya qilish standartlarini yaxshilashga va ijodkorlarning adolatli daromad olishiga zamin yaratishi mumkin.",
+   "image": null,
+   "domains": [
+    "recordoftheday.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://www.recordoftheday.com/news-and-press/sonilo-signs-music-licensing-deal-with-symphonic-enabling-independent-artists-to-join-the-ai-music-economy",
+    "https://finance.yahoo.com/sectors/technology/articles/sonilo-partners-shutterstock-build-gold-211800717.html"
    ],
    "videos": []
   }
