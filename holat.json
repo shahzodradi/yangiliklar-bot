@@ -370,15 +370,15 @@
   "https://www.azcentral.com/press-release/story/154310/flow-ai-video-expands-multi-model-creation-for-short-form-and-product-campaigns/": 1795057766.6398566,
   "https://www.musicbusinessworldwide.com/11m-backed-ai-startup-sonilo-founded-by-tiktok-veterans-inks-licensing-deal-with-symphonic-to-train-its-model-on-opted-in-indie-recordings/": 1795057766.6398566,
   "https://the-decoder.com/mistral-plays-catch-up-with-vibe-desktop-as-rivals-already-command-full-operating-systems/": 1795057766.6398566,
-  "https://the-decoder.com/hugging-face-now-routes-model-requests-through-openrouter-for-the-best-price-or-speed/": 1795057766.6398566
+  "https://the-decoder.com/hugging-face-now-routes-model-requests-through-openrouter-for-the-best-price-or-speed/": 1795057766.6398566,
+  "https://www.uzdaily.uz/en/uzbekistan-and-canada-discuss-cooperation-on-artificial-intelligence/": 1795060869.6064322,
+  "https://www.theverge.com/tech/1036729/disney-star-wars-anzellans-animatronic-amazon-aws-cloud-ai": 1795060869.6064322,
+  "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/": 1795060869.6064322,
+  "https://www.theverge.com/ai-artificial-intelligence/1037151/school-districts-ditching-google": 1795060869.6064322,
+  "https://www.cnet.com/tech/services-and-software/openai-chatgpt-astra-6-2-microsoft-ignite-news/": 1795060869.6064322
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1794715255.1199021,
-   "title": "IDFA Artistic Director Isabel Arrate Fernandez On Festival’s Competition Lineups, “Huge” Interest In Elizabeth Holmes Doc, And AI In Documentaries",
-   "soha": "AI tanlov"
-  },
   {
    "t": 1794740812.6366203,
    "title": "A2E AI Launches AI Video Generator With All-in-One Video and Image Models",
@@ -1067,6 +1067,31 @@
   {
    "t": 1795057766.6398566,
    "title": "Hugging Face now routes model requests through OpenRouter for the best price or speed",
+   "soha": "AI"
+  },
+  {
+   "t": 1795060869.6064322,
+   "title": "Uzbekistan and Canada Discuss Cooperation on Artificial Intelligence",
+   "soha": "AI O'zbekiston"
+  },
+  {
+   "t": 1795060869.6064322,
+   "title": "Disney’s new Star Wars animatronics interact with guests using AI",
+   "soha": "AI video"
+  },
+  {
+   "t": 1795060869.6064322,
+   "title": "Anthropic prices IPO at $83 a share, above projected range",
+   "soha": "AI"
+  },
+  {
+   "t": 1795060869.6064322,
+   "title": "The nation’s largest school districts consider ditching Google Search",
+   "soha": "AI"
+  },
+  {
+   "t": 1795060869.6064322,
+   "title": "Amid AI Industry Chaos, Microsoft and OpenAI Drop New Models for Coding and Work",
    "soha": "AI"
   }
  ],
@@ -3385,6 +3410,112 @@
    "urls": [
     "https://the-decoder.com/hugging-face-now-routes-model-requests-through-openrouter-for-the-best-price-or-speed/",
     "https://www.theguardian.com/technology/2026/sep/03/nvidia-to-buy-hugging-face-in-129bn-deal"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795060869.6064322,
+   "title": "O‘zbekiston va Kanada sun’iy intellekt sohasidagi hamkorlikni muhokama qildi",
+   "text": "O‘zbekiston va Kanada sun’iy intellekt, raqamli texnologiyalar, IT eksporti va mutaxassislarni tayyorlash yo‘nalishlarida hamkorlik masalalarini muhokama qildilar.",
+   "orig_title": "Uzbekistan and Canada Discuss Cooperation on Artificial Intelligence",
+   "link": "https://www.uzdaily.uz/en/uzbekistan-and-canada-discuss-cooperation-on-artificial-intelligence/",
+   "source": "uzdaily.uz",
+   "soha": "AI O'zbekiston",
+   "baho": 10,
+   "experts": [],
+   "effect": "O‘zbekiston va Kanada o‘rtasida raqamli texnologiyalar va sun’iy intellekt yo‘nalishidagi hamkorlik IT sohasida ta’lim darajasini oshirish hamda xizmatlar eksportini kengaytirishga xizmat qilishi mumkin.",
+   "image": "https://www.uzdaily.uz/media/filer_public/83/b1/83b1c02d-56d1-4262-9057-5fe414660105/shermatovcanada1711_20261117120257.webp",
+   "domains": [
+    "uzdaily.uz",
+    "sports.yahoo.com"
+   ],
+   "urls": [
+    "https://www.uzdaily.uz/en/uzbekistan-and-canada-discuss-cooperation-on-artificial-intelligence/",
+    "https://sports.yahoo.com/articles/why-alphonso-davies-not-playing-004500445.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795060869.6064322,
+   "title": "Disney’ning yangi Star Wars animatronikalari sun’iy intellekt yordamida muloqot qiladi",
+   "text": "Walt Disney Imagineering R&D bo‘limi parklardagi animatronik qahramonlar mehmonlar bilan sun’iy intellekt yordamida o‘z-o‘zidan muloqot qilishini ta’minlaydigan yangi texnologiyani taqdim etdi.",
+   "orig_title": "Disney’s new Star Wars animatronics interact with guests using AI",
+   "link": "https://www.theverge.com/tech/1036729/disney-star-wars-anzellans-animatronic-amazon-aws-cloud-ai",
+   "source": "The Verge AI",
+   "soha": "AI video",
+   "baho": 9,
+   "experts": [],
+   "effect": "Disney parklarida sun’iy intellektga asoslangan animatronik robotlarning joriy etilishi tashrif buyuruvchilarning ko‘ngilochar maskanlardagi tajribasini yanada interaktiv va real vaqt rejimidagi muloqotlar evaziga boyitishi mumkin.",
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/disney1.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+   "domains": [
+    "theverge.com"
+   ],
+   "urls": [
+    "https://www.theverge.com/tech/1036729/disney-star-wars-anzellans-animatronic-amazon-aws-cloud-ai"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795060869.6064322,
+   "title": "Anthropic IPO narxini belgiladi",
+   "text": "Anthropic kompaniyasi o‘z aksiyalarining birlamchi ommaviy joylashtirish (IPO) narxini kutilgan diapazondan yuqori qilib belgiladi, bu esa kompaniya qiymatini 1,5 trillion dollarga baholash imkonini berdi.",
+   "orig_title": "Anthropic prices IPO at $83 a share, above projected range",
+   "link": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Anthropic kompaniyasining aksiyalarini kutilganidan yuqori narxda ommaviy joylashtirishi sun’iy intellekt bozorida investorlarning qiziqishi yuqoriligicha qolayotganini ko‘rsatib, boshqa xususiy AI kompaniyalari uchun ham ijobiy zamin yaratishi mumkin.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2295579000.jpg?resize=1200,800",
+   "domains": [
+    "techcrunch.com",
+    "cnbc.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
+    "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795060869.6064322,
+   "title": "AQShning yirik maktab okruglari Google Qidiruvdan voz kechishni ko‘rib chiqmoqda",
+   "text": "Nyu-York, Los-Anjeles va Chikago maktablari Google o‘zining sun’iy intellekt funksiyalaridan voz kechgan ta’lim muassasalari uchun qidiruv tizimini o‘chirib qo‘yishini e’lon qilganidan so‘ng muqobil variantlarni o‘rganmoqda.",
+   "orig_title": "The nation’s largest school districts consider ditching Google Search",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1037151/school-districts-ditching-google",
+   "source": "The Verge AI",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Google kompaniyasining sun’iy intellekt funksiyalaridan voz kechgan maktablar uchun qidiruv tizimini ham o‘chirib qo‘yish qarori yirik shahar ta'lim okruglari boshqa muqobil qidiruv yechimlarini izlashiga olib kelishi mumkin.",
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/01/STK255_Google_Gemini_D.jpg?quality=90&strip=all&crop=0%2C9.9676601489831%2C100%2C80.064679702034&w=1200",
+   "domains": [
+    "theverge.com"
+   ],
+   "urls": [
+    "https://www.theverge.com/ai-artificial-intelligence/1037151/school-districts-ditching-google"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795060869.6064322,
+   "title": "Microsoft va OpenAI ish va kod yozish uchun yangi modellarni taqdim etdi",
+   "text": "Sun’iy intellekt bozoridagi o‘zgarishlar fonida Microsoft va OpenAI kompaniyalari dasturlash va kundalik vazifalar uchun mo‘ljallangan bir nechta yangi modellarni chiqarishdi.",
+   "orig_title": "Amid AI Industry Chaos, Microsoft and OpenAI Drop New Models for Coding and Work",
+   "link": "https://www.cnet.com/tech/services-and-software/openai-chatgpt-astra-6-2-microsoft-ignite-news/",
+   "source": "cnet.com",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Microsoft va OpenAI tomonidan yangi dasturlash va ishchi modellarning taqdim etilishi korporativ mijozlar uchun sun’iy intellekt xarajatlarini sezilarli darajada kamaytirib, bozordagi raqobatni yanada kuchaytirishi mumkin.",
+   "image": "https://www.cnet.com/wp-content/uploads/sites/2/GettyImages-2294922440.jpg",
+   "domains": [
+    "cnet.com",
+    "tech.yahoo.com"
+   ],
+   "urls": [
+    "https://www.cnet.com/tech/services-and-software/openai-chatgpt-astra-6-2-microsoft-ignite-news/",
+    "https://tech.yahoo.com/ai/copilot/articles/microsoft-says-ai-coding-model-224244170.html"
    ],
    "videos": []
   }
