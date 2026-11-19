@@ -1,7 +1,5 @@
 {
  "seen": {
-  "https://note.com/strawberry1982/n/n48becdacf6cd?hl=en": 1794221257.5365393,
-  "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic": 1794221916.4914405,
   "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/": 1794222520.0133631,
   "https://the-decoder.com/the-inventor-of-the-bitter-lesson-has-a-bitter-lesson-for-llm-scaling-enthusiasts/": 1794222520.0133631,
   "https://the-decoder.com/the-brain-as-computer-metaphor-shaped-modern-ai-but-may-be-misleading-the-consciousness-debate/": 1794222520.0133631,
@@ -401,7 +399,12 @@
   "https://www.wired.com/story/artex-ai-hacking-tools/": 1795082488.399293,
   "https://the-decoder.com/pangram-flags-99-percent-of-an-award-winning-peruvian-novel-as-ai-generated-but-the-publisher-stands-by-its-author/": 1795082488.399293,
   "https://thedroidguy.com/midjourney-basic-vs-standard-vs-pro-vs-mega-1289604": 1795082488.399293,
-  "https://www.recordoftheday.com/news-and-press/sonilo-signs-music-licensing-deal-with-symphonic-enabling-independent-artists-to-join-the-ai-music-economy": 1795082488.399293
+  "https://www.recordoftheday.com/news-and-press/sonilo-signs-music-licensing-deal-with-symphonic-enabling-independent-artists-to-join-the-ai-music-economy": 1795082488.399293,
+  "https://the-decoder.com/ocr-models-now-digitize-a-million-pages-for-under-130-as-costs-drop-fivefold-in-18-months/": 1795086399.1825829,
+  "https://www.wired.com/story/the-ai-chip-war-meets-the-jensen-huang-affair/": 1795086399.1825829,
+  "https://www.theverge.com/policy/1036935/congress-forced-arbitration-deepfakes-defiance-act": 1795086399.1825829,
+  "https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots/": 1795086399.1825829,
+  "https://about.fb.com/news/2026/11/meta-welcomes-loblaw-as-first-canadian-retail-partner-to-muse/": 1795086399.1825829
  },
  "fails": 0,
  "sent": [
@@ -1249,6 +1252,31 @@
    "t": 1795082488.399293,
    "title": "Sonilo Signs Music Licensing Deal with Symphonic, Enabling Independent Artists to Join the AI Music Economy",
    "soha": "AI musiqa"
+  },
+  {
+   "t": 1795086399.1825829,
+   "title": "OCR models now digitize a million pages for under $130 as costs drop fivefold in 18 months",
+   "soha": "AI"
+  },
+  {
+   "t": 1795086399.1825829,
+   "title": "America’s AI Chip War Is Heating Up in the Dumbest Possible Ways",
+   "soha": "AI"
+  },
+  {
+   "t": 1795086399.1825829,
+   "title": "Tech lawsuits defined 2026 — and lawmakers want more",
+   "soha": "AI"
+  },
+  {
+   "t": 1795086399.1825829,
+   "title": "Sam Altman warns against a future where AI, not humans, calls the shots",
+   "soha": "AI"
+  },
+  {
+   "t": 1795086399.1825829,
+   "title": "Meta Welcomes Loblaw as First Canadian Retail Partner to Muse",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -3716,6 +3744,124 @@
    "urls": [
     "https://www.recordoftheday.com/news-and-press/sonilo-signs-music-licensing-deal-with-symphonic-enabling-independent-artists-to-join-the-ai-music-economy",
     "https://finance.yahoo.com/sectors/technology/articles/sonilo-partners-shutterstock-build-gold-211800717.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795086399.1825829,
+   "title": "AI orqali matnni raqamlashtirish narxi keskin arzonlashdi",
+   "text": "Ochiq AI modellari yordamida skanerlangan kitob va hujjatlarni raqamlashtirish narxi 18 oyda 5 barobarga tushib, 1 million sahifa uchun 130 dollargacha pasaydi.",
+   "orig_title": "OCR models now digitize a million pages for under $130 as costs drop fivefold in 18 months",
+   "link": "https://the-decoder.com/ocr-models-now-digitize-a-million-pages-for-under-130-as-costs-drop-fivefold-in-18-months/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Hujjatlarni raqamlashtirish tannarxining keskin pasayishi arxivlar va yirik korxonalarga xarajatlarni tejash, ochiq kodli arzon AI modellariga talabni esa yanada oshirish imkonini berishi mumkin.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/07/baidu-ocr-machine-nano-banana-pro.jpg",
+   "domains": [
+    "the-decoder.com",
+    "businessinsider.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/ocr-models-now-digitize-a-million-pages-for-under-130-as-costs-drop-fivefold-in-18-months/",
+    "https://www.businessinsider.com/thomson-reuters-builds-ai-model-rely-less-on-anthropic-2026-8"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795086399.1825829,
+   "title": "AQSH Xitoyga AI chiplari eksporti bo‘yicha nazoratni kuchaytirmoqda",
+   "text": "Tramp ma'muriyati Xitoyning AI chiplariga kirishini yanada cheklash rejasini e'lon qildi va sanksiyalar doirasini kengaytirishga kirishdi.",
+   "orig_title": "America’s AI Chip War Is Heating Up in the Dumbest Possible Ways",
+   "link": "https://www.wired.com/story/the-ai-chip-war-meets-the-jensen-huang-affair/",
+   "source": "Wired AI",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Uchinchi davlatlar orqali hisoblash quvvatlarini ijaraga olishga cheklovlar kuchaysa, Xitoy texnologik firmalarining ilg‘or AI modellarini yaratishi sekinlashishi va noqonuniy vositachilik xarajatlari oshishi mumkin.",
+   "image": "https://media.wired.com/photos/6afcdd342972080ddb9f0499/191:100/w_1280,c_limit/AI-Lab-US-Chip-War-Business.jpg",
+   "domains": [
+    "wired.com",
+    "ca.news.yahoo.com"
+   ],
+   "urls": [
+    "https://www.wired.com/story/the-ai-chip-war-meets-the-jensen-huang-affair/",
+    "https://ca.news.yahoo.com/u-clamp-down-ai-chip-174217859.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795086399.1825829,
+   "title": "AQSH qonunchilari deepfake yaratuvchilariga qarshi jazo choralarini kuchaytirmoqda",
+   "text": "AQSH Senati deepfake yaratuvchilari va noqonuniy kontent tarqatuvchi platformalarni javobgarlikka tortishni ko‘zda tutuvchi yangi qonun loyihalarini muhokama qilmoqda.",
+   "orig_title": "Tech lawsuits defined 2026 — and lawmakers want more",
+   "link": "https://www.theverge.com/policy/1036935/congress-forced-arbitration-deepfakes-defiance-act",
+   "source": "The Verge AI",
+   "soha": "AI",
+   "baho": 6,
+   "experts": [
+    {
+     "kim": "Brian Hauss",
+     "lavozim": "ACLU bosh yuristi",
+     "fikr": "Yangi texnologiyani tartibga soluvchi ko‘plab qonun loyihalari chegarani noto‘g‘ri belgilaydi va ularning amalga oshirilishi jiddiy sud nizolariga olib keladi.",
+     "url": "https://www.wired.com/story/aclu-artificial-intelligence-deepfakes-free-speech/",
+     "domain": "wired.com"
+    }
+   ],
+   "effect": "Majburiy arbitraj taqiqlanishi va dipfeyklar bo‘yicha qonunlar qabul qilinishi onlayn platformalarga nisbatan sud da’volarining keskin ko‘payishiga hamda xavfsizlik choralarining qat’iylashuviga olib kelishi mumkin.",
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK470_AI_LAW_CVIRGINIA_C.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+   "domains": [
+    "theverge.com",
+    "wired.com"
+   ],
+   "urls": [
+    "https://www.theverge.com/policy/1036935/congress-forced-arbitration-deepfakes-defiance-act",
+    "https://www.wired.com/story/aclu-artificial-intelligence-deepfakes-free-speech/"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795086399.1825829,
+   "title": "Sam Altman sun'iy intellekt nazoratsiz qolish xavfidan ogohlantirdi",
+   "text": "OpenAI rahbari Sam Altman va Greg Brokman ilg‘or AI modellarini inson nazorati ostida ushlab turishdagi qiyinchiliklar va xavflar haqida fikr bildirdi.",
+   "orig_title": "Sam Altman warns against a future where AI, not humans, calls the shots",
+   "link": "https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 6,
+   "experts": [],
+   "effect": "Sun’iy intellekt ustidan nazoratni kuchaytirish talablari yirik texnologik kompaniyalarni resurslarining salmoqli qismini xavfsizlik va yangi monitoring vositalarini yaratishga yo‘naltirishga majbur qilishi mumkin.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2305723022.jpg?w=594",
+   "domains": [
+    "techcrunch.com",
+    "tech.yahoo.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots/",
+    "https://tech.yahoo.com/ai/articles/openai-board-member-fired-sam-150000454.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795086399.1825829,
+   "title": "Meta o‘zining Muse AI xizmatiga kanadalik hamkorni uladi",
+   "text": "Loblaw kompaniyasi o‘z mahsulotlar katalogini Meta kompaniyasining Muse AI assistentiga integratsiya qilgan ilk Kanada riteyleri bo‘ldi.",
+   "orig_title": "Meta Welcomes Loblaw as First Canadian Retail Partner to Muse",
+   "link": "https://about.fb.com/news/2026/11/meta-welcomes-loblaw-as-first-canadian-retail-partner-to-muse/",
+   "source": "Meta Newsroom",
+   "soha": "AI",
+   "baho": 5,
+   "experts": [],
+   "effect": "Raqamli yordamchilarning bevosita xarid qilish va to‘lov tizimlariga integratsiyalashuvi chakana savdoda onlayn buyurtmalar tezligini oshirib, an’anaviy elektron tijorat platformalariga raqobat bosimini kuchaytirishi mumkin.",
+   "image": "https://about.fb.com/wp-content/uploads/2026/11/ad846cce-d851-423a-a491-374201cd55ba.png?w=1200",
+   "domains": [
+    "about.fb.com",
+    "businessinsider.com"
+   ],
+   "urls": [
+    "https://about.fb.com/news/2026/11/meta-welcomes-loblaw-as-first-canadian-retail-partner-to-muse/",
+    "https://www.businessinsider.com/amazon-continues-job-cuts-retail-ai-2026-5"
    ],
    "videos": []
   }
