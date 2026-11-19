@@ -1,9 +1,5 @@
 {
  "seen": {
-  "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/": 1794243746.115088,
-  "https://the-decoder.com/disney-bets-on-adobes-firefly-to-create-brand-safe-ai-models-for-its-entertainment-empire/": 1794243746.115088,
-  "https://www.wired.com/story/nvidia-ceo-jensen-huang-hired-a-pr-firm-known-for-handling-sex-scandals-last-year/": 1794243746.115088,
-  "https://www.wired.com/story/authors-can-defend-against-ai-allegations-with-paper-trail-tools/": 1794243746.115088,
   "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/": 1794247280.3149226,
   "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/": 1794247280.3149226,
   "https://www.theverge.com/ai-artificial-intelligence/1029802/trump-60-minutes-ai": 1794247280.3149226,
@@ -402,9 +398,12 @@
   "https://www.uzdaily.uz/uz/raqamli-davrda-geologiya-universitet-suniy-intellekt-3d-modellashtirish-va-muhim-minerallarga-pul-tikmoqda/": 1795096895.8013613,
   "https://finance.yahoo.com/technology/ai/articles/clinch-expands-generative-ai-capabilities-140000826.html": 1795100971.2257173,
   "https://klgadgetguy.com/alibaba-qwen4-max-malaysia-launch/": 1795100971.2257173,
-  "https://www.gazeta.uz/oz/2026/11/19/cambridge-dictionary/": 1795100971.2257173
+  "https://www.gazeta.uz/oz/2026/11/19/cambridge-dictionary/": 1795100971.2257173,
+  "https://www.uzdaily.uz/en/uzbekistan-favours-balanced-approach-to-ai-regulation/": 1795108153.5261927,
+  "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/": 1795108153.5261927,
+  "https://www.theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation": 1795108153.5261927
  },
- "fails": 1,
+ "fails": 0,
  "sent": [
   {
    "t": 1794769351.206209,
@@ -1300,6 +1299,21 @@
    "t": 1795100971.2257173,
    "title": "“Insoniy” so‘zi Kembrij lug‘ati talqiniga ko‘ra 2026-yil so‘zi deb topildi",
    "soha": "AI"
+  },
+  {
+   "t": 1795108153.5261927,
+   "title": "Uzbekistan Favours Balanced Approach to AI Regulation",
+   "soha": "AI O'zbekiston"
+  },
+  {
+   "t": 1795108153.5261927,
+   "title": "Anthropic hits NASDAQ exchanges at $110, $27 above IPO price",
+   "soha": "AI"
+  },
+  {
+   "t": 1795108153.5261927,
+   "title": "ChatGPT can transcribe as you speak now with Live Dictation",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -1307,54 +1321,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1794935144.1480627,
-   "title": "Kling AI Kling Image 4.0 modelini chiqardi",
-   "text": "Kling AI platformasi fotografik realizm va nativ 8K formatini qo‘llab-quvvatlovchi Kling Image 4.0 yangi rasm generatsiya modelini taqdim etdi.",
-   "orig_title": "Kling AI Launches Kling Image 4.0 with Photographic Realism and Native 8K Generation",
-   "link": "https://finance.yahoo.com/technology/ai/articles/kling-ai-launches-kling-image-163300875.html",
-   "source": "finance.yahoo.com",
-   "soha": "AI rasm",
-   "baho": 9,
-   "experts": [],
-   "effect": "Professional darajadagi vizual kontent yaratish imkoniyatlari yanada kengayib, yuqori sifatli va realistik tasvirlar hamda videolarni ishlab chiqish jarayoni sezilarli darajada tezlashishi mumkin.",
-   "image": "https://s.yimg.com/lo/mysterio/api/85e2e2b6625d082528c9177e8a1735fa826310396d61e070b80e3cf255903b4f/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Faccesswire.ca%2F7a8c98b39d7f5fb20559dce6d8de19bc.jpg",
-   "domains": [
-    "finance.yahoo.com",
-    "tech.yahoo.com",
-    "markets.businessinsider.com"
-   ],
-   "urls": [
-    "https://finance.yahoo.com/technology/ai/articles/kling-ai-launches-kling-image-163300875.html",
-    "https://tech.yahoo.com/ai/meta-ai/articles/adobe-firefly-now-creative-studio-140000261.html",
-    "https://markets.businessinsider.com/news/stocks/kling-ai-launches-kling-4-0-globally-with-professional-grade-output-stable-motion-and-multimodal-control-1036633972"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794935144.1480627,
-   "title": "SoundCloud ElevenLabs va Moises bilan hamkorlik qilmoqda",
-   "text": "SoundCloud rahbariyati sun'iy intellekt musiqasi strategiyasi doirasida ElevenLabs va Moises bilan yangi hamkorlik kelishuvlarini imzoladi.",
-   "orig_title": "SoundCloud CEO Talks AI Policies: ‘Wishing Away the Advent of AI Music Is Not a Strategy’",
-   "link": "https://www.billboard.com/pro/soundcloud-ceo-ai-policies-qa/",
-   "source": "billboard.com",
-   "soha": "AI musiqa",
-   "baho": 8,
-   "experts": [],
-   "effect": "Musiqa industriyasida sun'iy intellekt yordamida yaratilgan treklar soni keskin ortib, platformalar o'rtasida kontentni filtrlash va litsenziyalash siyosati bo'yicha raqobat kuchayishi mumkin.",
-   "image": "https://www.billboard.com/wp-content/uploads/2026/11/eliah-seton-courtesy-of-soundcloud.jpg?w=667",
-   "domains": [
-    "billboard.com",
-    "techcrunch.com",
-    "theverge.com"
-   ],
-   "urls": [
-    "https://www.billboard.com/pro/soundcloud-ceo-ai-policies-qa/",
-    "https://techcrunch.com/2026/11/05/elevenlabs-now-lets-users-publish-ai-generated-music-directly-on-soundcloud/",
-    "https://www.theverge.com/ai-artificial-intelligence/903196/ai-music-suno-udio-art-lawsuit"
-   ],
-   "videos": []
-  },
   {
    "t": 1794938627.3183923,
    "title": "AI agentlari tibbiy hujjatlar va sug'urta so'rovlarini to'ldirmoqda",
@@ -3936,6 +3902,59 @@
    "domains": [],
    "urls": [],
    "videos": []
+  },
+  {
+   "t": 1795108153.5261927,
+   "title": "O‘zbekiston sun’iy intellektni tartibga solishda muvozanatli yondashuvni tanladi",
+   "text": "O‘zbekiston rasmiylari texnologik rivojlanishni qo‘llab-quvvatlash va raqobatni himoya qilish maqsadida sun’iy intellekt bo‘yicha muvozanatli siyosat olib borayotganini ma’lum qildi.",
+   "orig_title": "Uzbekistan Favours Balanced Approach to AI Regulation",
+   "link": "https://www.uzdaily.uz/en/uzbekistan-favours-balanced-approach-to-ai-regulation/",
+   "source": "uzdaily.uz",
+   "soha": "AI O'zbekiston",
+   "baho": 10,
+   "experts": [],
+   "effect": null,
+   "image": "https://www.uzdaily.uz/media/filer_public/a8/90/a8909d8d-061e-4aa2-b849-c0edc21c46df/finnext19112_20261119151841.webp",
+   "domains": [],
+   "urls": [],
+   "videos": []
+  },
+  {
+   "t": 1795108153.5261927,
+   "title": "Anthropic kompaniyasi NASDAQ birjasida aksiyalarini chiqardi",
+   "text": "Anthropic kompaniyasi aksiyalarini ilk bor birjaga chiqarib, $83 lik boshlang‘ich narxdan yuqoriga ko‘tarildi va qariyb 1,5 trillion dollar qiymatga baholandi.",
+   "orig_title": "Anthropic hits NASDAQ exchanges at $110, $27 above IPO price",
+   "link": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 10,
+   "experts": [],
+   "effect": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/anthropic-opening-Getty.jpg?resize=1200,801",
+   "domains": [],
+   "urls": [],
+   "videos": []
+  },
+  {
+   "t": 1795108153.5261927,
+   "title": "ChatGPT Live Dictation funksiyasini ishga tushirdi",
+   "text": "ChatGPT ovozli buyruqlarni yozib olishni kutmasdan, real vaqt rejimida matnga o‘tkazuvchi Live Dictation funksiyasini barcha foydalanuvchilar uchun taqdim etdi.",
+   "orig_title": "ChatGPT can transcribe as you speak now with Live Dictation",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation",
+   "source": "The Verge AI",
+   "soha": "AI",
+   "baho": 9,
+   "experts": [],
+   "effect": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/chatgpt-live-dictation-promo-screenshot.jpeg?quality=90&strip=all&crop=8.4734375%2C20.737347294939%2C85.1578125%2C79.262652705061&w=1200",
+   "domains": [],
+   "urls": [],
+   "videos": [
+    [
+     "https://x.com/ChatGPT/status/2123114715257946334",
+     "X"
+    ]
+   ]
   }
  ]
 }
