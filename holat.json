@@ -1,6 +1,5 @@
 {
  "seen": {
-  "https://www.notebookcheck.net/GPT-6-Cyber-OpenAI-rates-its-new-security-model-as-Critical.1445199.0.html": 1794236933.5860488,
   "https://wccftech.com/higgsfield-miracle-promises-real-time-ai-video-editing-turning-any-clip-into-editable-layers/": 1794240080.4155982,
   "https://www.theverge.com/tech/1029773/disney-adobe-generative-ai-partnership": 1794240080.4155982,
   "https://the-decoder.com/tencents-ai-chief-says-ai-bioweapons-are-coming-but-closing-off-models-isnt-the-answer/": 1794240080.4155982,
@@ -404,7 +403,10 @@
   "https://the-decoder.com/googles-latest-ai-model-is-faster-cheaper-and-smarter-than-its-flagship-predecessor-from-just-weeks-ago/": 1795093733.0938947,
   "https://www.wired.com/story/anthropics-record-breaking-ipo-highlights-the-ai-giants-worst-enemy-itself/": 1795093733.0938947,
   "https://www.theverge.com/ai-artificial-intelligence/1036549/nvidia-amd-earnings-fall-2026-chips-pause-frontier-models": 1795093733.0938947,
-  "https://www.uzdaily.uz/uz/raqamli-davrda-geologiya-universitet-suniy-intellekt-3d-modellashtirish-va-muhim-minerallarga-pul-tikmoqda/": 1795096895.8013613
+  "https://www.uzdaily.uz/uz/raqamli-davrda-geologiya-universitet-suniy-intellekt-3d-modellashtirish-va-muhim-minerallarga-pul-tikmoqda/": 1795096895.8013613,
+  "https://finance.yahoo.com/technology/ai/articles/clinch-expands-generative-ai-capabilities-140000826.html": 1795100971.2257173,
+  "https://klgadgetguy.com/alibaba-qwen4-max-malaysia-launch/": 1795100971.2257173,
+  "https://www.gazeta.uz/oz/2026/11/19/cambridge-dictionary/": 1795100971.2257173
  },
  "fails": 0,
  "sent": [
@@ -1307,6 +1309,21 @@
    "t": 1795096895.8013613,
    "title": "Raqamli davrda geologiya: universitet sun'iy intellekt, 3D modellashtirish va muhim minerallarga pul tikmoqda",
    "soha": "AI O'zbekiston"
+  },
+  {
+   "t": 1795100971.2257173,
+   "title": "Clinch Expands Generative AI Capabilities with Higgsfield and ByteDance Integrations",
+   "soha": "AI video"
+  },
+  {
+   "t": 1795100971.2257173,
+   "title": "Alibaba Launches Qwen4-Max With 2.4 Trillion Parameters at Malaysia AI Conference",
+   "soha": "AI"
+  },
+  {
+   "t": 1795100971.2257173,
+   "title": "“Insoniy” so‘zi Kembrij lug‘ati talqiniga ko‘ra 2026-yil so‘zi deb topildi",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -3964,6 +3981,54 @@
     "https://finance.yahoo.com/quote/AIQ/",
     "https://finance.yahoo.com/quote/WTAI/"
    ],
+   "videos": []
+  },
+  {
+   "t": 1795100971.2257173,
+   "title": "Clinch Higgsfield va Seedance modellarini integratsiya qildi",
+   "text": "Clinch kontent yaratish platformasiga Higgsfield hamda ByteDance kompaniyasining Seedream va Seedance modellarini integratsiya qildi.",
+   "orig_title": "Clinch Expands Generative AI Capabilities with Higgsfield and ByteDance Integrations",
+   "link": "https://finance.yahoo.com/technology/ai/articles/clinch-expands-generative-ai-capabilities-140000826.html",
+   "source": "finance.yahoo.com",
+   "soha": "AI video",
+   "baho": 9,
+   "experts": [],
+   "effect": null,
+   "image": "https://s.yimg.com/lo/mysterio/api/f6c0b57ffdb491c65253af014c47cefcac01cde36cddefb8bed18ba9081f96c6/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fprnewswire.com%2Fe4c52cab9c4bb9e2a65bc8c471b829e0.jpg",
+   "domains": [],
+   "urls": [],
+   "videos": []
+  },
+  {
+   "t": 1795100971.2257173,
+   "title": "Alibaba Qwen4-Max modelini taqdim etdi",
+   "text": "Alibaba kompaniyasi Malayziyadagi anjumanda 2.4 trillion parametrli va 1 million tokenga ega Qwen4-Max modelini e'lon qildi.",
+   "orig_title": "Alibaba Launches Qwen4-Max With 2.4 Trillion Parameters at Malaysia AI Conference",
+   "link": "https://klgadgetguy.com/alibaba-qwen4-max-malaysia-launch/",
+   "source": "klgadgetguy.com",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": null,
+   "image": "https://klgadgetguy.com/wp-content/uploads/2026/11/alibaba-qwen-conference-malaysia-featured-63a4b7ef.jpg",
+   "domains": [],
+   "urls": [],
+   "videos": []
+  },
+  {
+   "t": 1795100971.2257173,
+   "title": "Kembrij lug'ati 2026-yil so'zini e'lon qildi",
+   "text": "Kembrij lug'ati sun'iy intellekt yaratmalaridan farqli o'laroq 'insoniy' so'zini yil so'zi deb tanladi.",
+   "orig_title": "“Insoniy” so‘zi Kembrij lug‘ati talqiniga ko‘ra 2026-yil so‘zi deb topildi",
+   "link": "https://www.gazeta.uz/oz/2026/11/19/cambridge-dictionary/",
+   "source": "gazeta.uz",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": null,
+   "image": "https://www.gazeta.uz/media/img/2026/11/d9gjbk34h2bhbUvwaZR17950078150123_211163_og.webp?r=1795041431",
+   "domains": [],
+   "urls": [],
    "videos": []
   }
  ]
