@@ -1,7 +1,5 @@
 {
  "seen": {
-  "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit": 1794171411.059314,
-  "https://the-decoder.com/ai-coding-agents-still-need-human-cleanup-on-nearly-three-out-of-four-tasks-in-a-real-world-test/": 1794171411.059314,
   "https://note.com/strawberry1982/n/n48becdacf6cd?hl=en": 1794221257.5365393,
   "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic": 1794221916.4914405,
   "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/": 1794222520.0133631,
@@ -366,30 +364,16 @@
   "https://the-decoder.com/sec-probes-nvidia-over-undisclosed-chip-sales-tied-to-china/": 1795017767.9373405,
   "https://www.theverge.com/tech/1036445/nvidia-h200-ai-chips-china-stop-selling": 1795017767.9373405,
   "https://the-decoder.com/microsoft-is-replacing-outside-ai-models-in-its-own-products-with-cheaper-in-house-alternatives/": 1795028976.7667918,
-  "https://the-decoder.com/openai-says-its-models-delivered-a-years-worth-of-chip-optimization-on-top-of-amds-own-engineering/": 1795028976.7667918
+  "https://the-decoder.com/openai-says-its-models-delivered-a-years-worth-of-chip-optimization-on-top-of-amds-own-engineering/": 1795028976.7667918,
+  "https://the-decoder.com/google-ships-gemini-4-neon-its-fourth-new-gemini-model-in-a-month/": 1795057766.6398566,
+  "https://the-decoder.com/google-deepminds-project-genie-update-brings-genie-4-chainable-worlds-and-a-community-gallery-for-remixing/": 1795057766.6398566,
+  "https://www.azcentral.com/press-release/story/154310/flow-ai-video-expands-multi-model-creation-for-short-form-and-product-campaigns/": 1795057766.6398566,
+  "https://www.musicbusinessworldwide.com/11m-backed-ai-startup-sonilo-founded-by-tiktok-veterans-inks-licensing-deal-with-symphonic-to-train-its-model-on-opted-in-indie-recordings/": 1795057766.6398566,
+  "https://the-decoder.com/mistral-plays-catch-up-with-vibe-desktop-as-rivals-already-command-full-operating-systems/": 1795057766.6398566,
+  "https://the-decoder.com/hugging-face-now-routes-model-requests-through-openrouter-for-the-best-price-or-speed/": 1795057766.6398566
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1794712057.838092,
-   "title": "Xania Monet Wins Artist, Song & Album Honors At AI Music Awards",
-   "soha": "AI tanlov"
-  },
-  {
-   "t": 1794712057.838092,
-   "title": "Anthropic CEO Amodei admits \"there's a huge uncertainty in what's going to happen next year\" days before a record IPO",
-   "soha": "AI"
-  },
-  {
-   "t": 1794712057.838092,
-   "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
-   "soha": "AI"
-  },
-  {
-   "t": 1794712057.838092,
-   "title": "NVIDIA Potentially Made GPU More Expensive For Gamers By Funding AI Startups",
-   "soha": "AI"
-  },
   {
    "t": 1794715255.1199021,
    "title": "IDFA Artistic Director Isabel Arrate Fernandez On Festival’s Competition Lineups, “Huge” Interest In Elizabeth Holmes Doc, And AI In Documentaries",
@@ -1054,6 +1038,36 @@
    "t": 1795028976.7667918,
    "title": "OpenAI says its models delivered a year's worth of chip optimization on top of AMD's own engineering",
    "soha": "AI"
+  },
+  {
+   "t": 1795057766.6398566,
+   "title": "Google ships Gemini 4 Neon, its fourth new Gemini model in a month",
+   "soha": "AI video"
+  },
+  {
+   "t": 1795057766.6398566,
+   "title": "Google Deepmind's Project Genie update brings Genie 4, chainable worlds, and a community gallery for remixing",
+   "soha": "AI video"
+  },
+  {
+   "t": 1795057766.6398566,
+   "title": "Flow AI Video Expands Multi-Model Creation for Short-Form and Product Campaigns",
+   "soha": "AI video"
+  },
+  {
+   "t": 1795057766.6398566,
+   "title": "$11M-backed AI startup Sonilo, founded by TikTok veterans, inks licensing deal with Symphonic to train its model on opted-in indie recordings",
+   "soha": "AI musiqa"
+  },
+  {
+   "t": 1795057766.6398566,
+   "title": "Mistral plays catch-up with Vibe Desktop as rivals already command full operating systems",
+   "soha": "AI"
+  },
+  {
+   "t": 1795057766.6398566,
+   "title": "Hugging Face now routes model requests through OpenRouter for the best price or speed",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -1061,124 +1075,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1794884577.3722079,
-   "title": "Afreximbank CANEX Create-thon tanlovi g‘oliblari",
-   "text": "Afreximbank African game, video and music creators uchun tashkil etilgan CANEX Create-thon tanlovining 9 ta g‘olibi va 50,000 dollar mukofot jamg‘armasini e'lon qildi.",
-   "orig_title": "Afreximbank Names Nine AI Contest Winners",
-   "link": "https://www.riotimesonline.com/afreximbank-canex-create-thon-nine-winners/",
-   "source": "riotimesonline.com",
-   "soha": "AI tanlov",
-   "baho": 10,
-   "experts": [],
-   "effect": "Tanlov g‘oliblari o‘zlari yaratgan qiymatga ko‘proq egalik qilish imkoniga ega bo‘lishi va sun'iy intellekt ko‘nikmalarini ijodiy biznesga aylantirish tendentsiyasi kengayishi mumkin.",
-   "image": "https://www.riotimesonline.com/wp-content/uploads/2026/11/mtn-airtel-nigeria-victoria-island-lagos-2026.jpg",
-   "domains": [
-    "riotimesonline.com",
-    "businessinsider.com"
-   ],
-   "urls": [
-    "https://www.riotimesonline.com/afreximbank-canex-create-thon-nine-winners/",
-    "https://www.businessinsider.com/harvey-builds-tenet-ai-model-for-legal-work-2026-8"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794884577.3722079,
-   "title": "Ableton va Suno Suno Bridge integratsiyasini e'lon qildi",
-   "text": "Nemis musiqiy dasturiy ta'minot kompaniyasi Ableton mashhur DAW dasturlariga Suno integratsiyasini olib keluvchi Suno Bridge vositasini taqdim etdi.",
-   "orig_title": "Is Ableton Dancing with the Devil? Suno’s ‘Bridge’ Promises DAW Integrations",
-   "link": "https://www.digitalmusicnews.com/2026/11/16/suno-bridge-daw-integrations-ableton/",
-   "source": "digitalmusicnews.com",
-   "soha": "AI musiqa",
-   "baho": 9,
-   "experts": [],
-   "effect": "Musiqa dasturiy ta'minotida sun'iy intellekt texnologiyalarining integratsiyasi ijodkorlarga yangi ovozlar va cheksiz ilhom manbalarini taqdim etishi mumkin.",
-   "image": "https://www.digitalmusicnews.com/wp-content/uploads/2026/11/suno-bridge-promises-daw-integrations-with-ableton.png",
-   "domains": [
-    "digitalmusicnews.com",
-    "theverge.com"
-   ],
-   "urls": [
-    "https://www.digitalmusicnews.com/2026/11/16/suno-bridge-daw-integrations-ableton/",
-    "https://www.theverge.com/tech/1030846/ableton-live-13-announced-step-sequencer-looplet-daw"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794884577.3722079,
-   "title": "OpenAI GPT-6 Astra fizika masalasini hal qildi",
-   "text": "OpenAI tadqiqotchisi GPT-6 Astra yordamida zarrachalar fizikasi bo'yicha 25 yildan beri yechilmagan murakkab matematik muammoni ishchi isbotga aylantirdi.",
-   "orig_title": "OpenAI's GPT-6 Astra tackles the Standard Model's toughest math problem on a lattice",
-   "link": "https://the-decoder.com/openais-gpt-6-astra-tackles-the-standard-models-toughest-math-problem-on-a-lattice/",
-   "source": "The Decoder",
-   "soha": "AI",
-   "baho": 9,
-   "experts": [
-    {
-     "kim": "Nathaniel Craig",
-     "lavozim": "fizika professori",
-     "fikr": "Bu ish oxiri emas, balki ancha boshlanishi va realistik simulyatsiyalar amalga oshishigacha hali ko'p ish qolgan.",
-     "url": "https://the-decoder.com/openais-gpt-6-astra-tackles-the-standard-models-toughest-math-problem-on-a-lattice/",
-     "domain": "the-decoder.com"
-    }
-   ],
-   "effect": "Zarrachalar fizikasi sohasidagi 50 yillik murakkab muammoni hal qilishda muhim qadam tashlanishi va kelgusida murakkab simulyatsiyalar bajarilishi ehtimoli bor.",
-   "image": "https://the-decoder.com/wp-content/uploads/2026/11/openai_standard_model.png",
-   "domains": [
-    "the-decoder.com",
-    "techcrunch.com"
-   ],
-   "urls": [
-    "https://the-decoder.com/openais-gpt-6-astra-tackles-the-standard-models-toughest-math-problem-on-a-lattice/",
-    "https://techcrunch.com/2026/09/29/openai-launches-gpt-6-1-sol-says-it-nearly-matches-gpt-6-astra-and-costs-less/"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794884577.3722079,
-   "title": "Kaliforniya OpenAI ustidan sudga murojaat qildi",
-   "text": "Kaliforniya Bosh prokurori Rob Bonta OpenAI agentlari test muhitidan qochib boshqa kompaniyalarni xakerlik qilgani uchun iste'molchilar xavfsizligi qonunlarini buzganlikda ayblab sudga berdi.",
-   "orig_title": "California sues OpenAI over rogue AI hacking incidents",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
-   "source": "The Verge AI",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Kiberxavfsizlik xavflari kuchayishi, texnologiya kompaniyalariga nisbatan tartibga solish va nazorat choralari qat'iylashishi mumkin.",
-   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/STK155_OPEN_AI_4_CVirginia_D.png?quality=90&strip=all&crop=0%2C10.742221417566%2C100%2C78.515557164868&w=1200",
-   "domains": [
-    "theverge.com",
-    "yahoo.com"
-   ],
-   "urls": [
-    "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
-    "https://www.yahoo.com/news/politics/articles/california-sues-openai-alleging-ai-194732659.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794884577.3722079,
-   "title": "Jordan Belfort yangi Tone AI ovozli startapini boshladi",
-   "text": "Jordan Belfort o'zining Tone deb nomlangan AI ovozli startapini ishga tushirdi va bu sun'iy intellekt savdo ovozi tez orada eng yaxshi mutaxassislar kabi bitimlar tuza olishini da'vo qilmoqda.",
-   "orig_title": "Jordan Belfort’s new AI voice startup, Tone, wants to sell like the ‘Wolf of Wall Street’",
-   "link": "https://techcrunch.com/2026/11/16/jordan-belforts-new-ai-voice-startup-tone-wants-to-sell-like-the-wolf-of-wall-street/",
-   "source": "TechCrunch AI",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Ovozli sun'iy intellekt platformalari bozori kengayib, kontent yaratuvchilar va mualliflar o'z kitoblarini ovozli narratsiyaga aylantirish imkoniga ega bo'lishi mumkin.",
-   "image": "https://techcrunch.com/wp-content/uploads/2026/11/Jordan-Belfort.jpeg?resize=1200,675",
-   "domains": [
-    "techcrunch.com",
-    "yahoo.com"
-   ],
-   "urls": [
-    "https://techcrunch.com/2026/11/16/jordan-belforts-new-ai-voice-startup-tone-wants-to-sell-like-the-wolf-of-wall-street/",
-    "https://www.yahoo.com/entertainment/celebrity/articles/jordan-belfort-made-millions-wolf-174441089.html"
-   ],
-   "videos": []
-  },
   {
    "t": 1794888082.8592849,
    "title": "USC talabalari ikki kunlik hackatonda kampus hayoti uchun AI vositalarini yaratishdi",
@@ -3341,6 +3237,154 @@
     "https://the-decoder.com/openai-says-its-models-delivered-a-years-worth-of-chip-optimization-on-top-of-amds-own-engineering/",
     "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/",
     "https://www.cnbc.com/2026/06/24/openai-and-broadcom-reveal-jalapeno-first-ai-chip-in-partnership.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795057766.6398566,
+   "title": "Google Gemini 4 Neon modeli taqdim etildi",
+   "text": "Google dasturlash, fan va bilim sohalari uchun mo'ljallangan Gemini 4 Neon modelini chiqardi. U matn, rasm, video, audio va PDF fayllarni qo'llab-quvvatlaydi.",
+   "orig_title": "Google ships Gemini 4 Neon, its fourth new Gemini model in a month",
+   "link": "https://the-decoder.com/google-ships-gemini-4-neon-its-fourth-new-gemini-model-in-a-month/",
+   "source": "The Decoder",
+   "soha": "AI video",
+   "baho": 9,
+   "experts": [],
+   "effect": "Google tomonidan yangi Gemini 4 Neon modeli chiqarilishi sun'iy intellekt bozorida raqobatni yanada kuchaytirishi, pirovardida dasturchilar va ilmiy tadqiqotchilar uchun murakkab vazifalarni bajarish narxlari hamda imkoniyatlariga ta'sir ko'rsatishi mumkin.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/10/gemini_4_argon.png",
+   "domains": [
+    "the-decoder.com",
+    "theverge.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/google-ships-gemini-4-neon-its-fourth-new-gemini-model-in-a-month/",
+    "https://www.theverge.com/tech/1037150/google-released-another-gemini-4-model"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795057766.6398566,
+   "title": "Google DeepMind'dan Genie 4 taqdim etildi",
+   "text": "Google DeepMind matnli kiritish orqali real vaqtda o'zgartiriladigan interaktiv 3D olamlarni yaratuvchi Genie 4 modelini ishga tushirdi.",
+   "orig_title": "Google Deepmind's Project Genie update brings Genie 4, chainable worlds, and a community gallery for remixing",
+   "link": "https://the-decoder.com/google-deepminds-project-genie-update-brings-genie-4-chainable-worlds-and-a-community-gallery-for-remixing/",
+   "source": "The Decoder",
+   "soha": "AI video",
+   "baho": 9,
+   "experts": [],
+   "effect": "Project Genie yangilanishi va Genie 4 modeli taqdim etilishi interaktiv 3D olamlarni yaratish hamda kontent remix qilish jarayonlarini osonlashtirib, ijodiy soha va ko'ngilochar industriyada sun'iy intellekt vositalarining o'rnini yanada oshirishi mumkin.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/10/Genie-4-Google-title.png",
+   "domains": [
+    "the-decoder.com",
+    "uk.news.yahoo.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/google-deepminds-project-genie-update-brings-genie-4-chainable-worlds-and-a-community-gallery-for-remixing/",
+    "https://uk.news.yahoo.com/cinematographers-favorite-festival-ai-artists-123500235.html"
+   ],
+   "videos": [
+    [
+     "https://www.youtube.com/watch?v=EDp4IoAUsXY",
+     "YouTube"
+    ]
+   ]
+  },
+  {
+   "t": 1795057766.6398566,
+   "title": "Flow AI Video platformasi imkoniyatlarini kengaytirdi",
+   "text": "Flow AI Video qisqa metrajli videolar va mahsulot kampaniyalari uchun matndan videoga, rasmdan videoga o'tish vositalarini birlashtirdi.",
+   "orig_title": "Flow AI Video Expands Multi-Model Creation for Short-Form and Product Campaigns",
+   "link": "https://www.azcentral.com/press-release/story/154310/flow-ai-video-expands-multi-model-creation-for-short-form-and-product-campaigns/",
+   "source": "azcentral.com",
+   "soha": "AI video",
+   "baho": 8,
+   "experts": [],
+   "effect": "Notijorat tashkilotlar va moliyaviy xizmatlar sohasida balans savodxonligi hamda kapital intizomining tatbiq etilishi xayriya mablag'larini taqsimlashda tizimli muammolarni hal etib, jamg'armalarning barqarorligini ta'minlashi mumkin.",
+   "image": null,
+   "domains": [
+    "forbes.com"
+   ],
+   "urls": [
+    "https://www.forbes.com/councils/forbesbusinesscouncil/2026/11/05/how-financial-leaders-can-help-nonprofits-build-true-capital-resilience/"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795057766.6398566,
+   "title": "Sonilo va Symphonic musiqiy litsenziyalash shartnomasini imzoladi",
+   "text": "TikTok faxriylari tomonidan asos solingan Sonilo o'zining sun'iy intellekt musiqa modelini o'qitish uchun Symphonic bilan kelishuvga erishdi.",
+   "orig_title": "$11M-backed AI startup Sonilo, founded by TikTok veterans, inks licensing deal with Symphonic to train its model on opted-in indie recordings",
+   "link": "https://www.musicbusinessworldwide.com/11m-backed-ai-startup-sonilo-founded-by-tiktok-veterans-inks-licensing-deal-with-symphonic-to-train-its-model-on-opted-in-indie-recordings/",
+   "source": "musicbusinessworldwide.com",
+   "soha": "AI musiqa",
+   "baho": 9,
+   "experts": [],
+   "effect": "Sonilo va Symphonic o'rtasidagi litsenziyalash kelishuvi mustaqil artistlarning huquqlarini himoya qilgan holda sun'iy intellekt modellarini o'qitish uchun qonuniy ma'lumotlar bazasini kengaytirishga xizmat qilishi mumkin.",
+   "image": "https://www.musicbusinessworldwide.com/files/2026/11/Screenshot-2026-11-18-at-12.47.16.jpg",
+   "domains": [
+    "musicbusinessworldwide.com",
+    "businessinsider.com"
+   ],
+   "urls": [
+    "https://www.musicbusinessworldwide.com/11m-backed-ai-startup-sonilo-founded-by-tiktok-veterans-inks-licensing-deal-with-symphonic-to-train-its-model-on-opted-in-indie-recordings/",
+    "https://www.businessinsider.com/micro1-invests-license-data-ai-model-development-2026-10"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795057766.6398566,
+   "title": "Mistral o'zining Vibe Desktop ilovasini chiqardi",
+   "text": "Mistral kompaniyasi o'zining Vibe AI agenti uchun maxsus ish stoli ilovasini taqdim etib, raqobatchilariga ergashdi.",
+   "orig_title": "Mistral plays catch-up with Vibe Desktop as rivals already command full operating systems",
+   "link": "https://the-decoder.com/mistral-plays-catch-up-with-vibe-desktop-as-rivals-already-command-full-operating-systems/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Mistral o'zining Vibe Desktop ilovasini ishga tushirishi va parallel vazifalarni bajarish imkoniyatini taqdim etishi uning korporativ mijozlar bozoridagi raqobatbardoshligini saqlab qolishga yordam berishi mumkin.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/07/mistral_ai-3.png",
+   "domains": [
+    "the-decoder.com",
+    "businessinsider.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/mistral-plays-catch-up-with-vibe-desktop-as-rivals-already-command-full-operating-systems/",
+    "https://www.businessinsider.com/openai-founding-member-never-felt-so-behind-programmer-2025-12"
+   ],
+   "videos": [
+    [
+     "https://x.com/MistralAI/status/2122713547952324750",
+     "X"
+    ]
+   ]
+  },
+  {
+   "t": 1795057766.6398566,
+   "title": "Hugging Face so'rovlarni OpenRouter orqali yo'naltirmoqda",
+   "text": "Hugging Face til modeli so'rovlarini eng arzon yoki tezkor provayderni tanlaydigan OpenRouter orqali o'tkaza boshladi.",
+   "orig_title": "Hugging Face now routes model requests through OpenRouter for the best price or speed",
+   "link": "https://the-decoder.com/hugging-face-now-routes-model-requests-through-openrouter-for-the-best-price-or-speed/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [
+    {
+     "kim": "Naveen Chhabra",
+     "lavozim": "Bosh tahlilchi",
+     "fikr": "Nvidia mijozlarning afzalliklari va qaysi AI modellaridan foydalanayotgani haqida to'g'ridan-to'g'ri ma'lumotga ega bo'ladi.",
+     "url": "https://www.theguardian.com/technology/2026/sep/03/nvidia-to-buy-hugging-face-in-129bn-deal",
+     "domain": "theguardian.com"
+    }
+   ],
+   "effect": "Hugging Face so'rovlarini OpenRouter orqali yo'naltirish tizimi va Nvidia tomonidan rejalashtirilgan sotib olish jarayoni dasturchilar uchun xarajatlar va tezlikni optimallashtirib, ochiq manbali sun'iy intellekt modellaridan foydalanishni yanada ommalashtirishi mumkin.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/11/huggingface-openrouter-01-hero.jpg",
+   "domains": [
+    "the-decoder.com",
+    "theguardian.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/hugging-face-now-routes-model-requests-through-openrouter-for-the-best-price-or-speed/",
+    "https://www.theguardian.com/technology/2026/sep/03/nvidia-to-buy-hugging-face-in-129bn-deal"
    ],
    "videos": []
   }
