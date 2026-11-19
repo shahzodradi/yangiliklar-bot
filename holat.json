@@ -383,7 +383,9 @@
   "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/": 1795072167.1746418,
   "https://techcrunch.com/2026/11/18/elon-musk-says-ousting-jensen-huang-is-like-kicking-michael-jordan-off-your-team/": 1795072167.1746418,
   "https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/": 1795072167.1746418,
-  "https://techcrunch.com/2026/11/18/palmer-luckey-warns-ai-powered-cyberattacks-are-outpacing-defenses-its-time-to-start-running/": 1795072167.1746418
+  "https://techcrunch.com/2026/11/18/palmer-luckey-warns-ai-powered-cyberattacks-are-outpacing-defenses-its-time-to-start-running/": 1795072167.1746418,
+  "https://allhiphop.com/news/suno-promises-artist-likeness-filters-as-it-expands-into-ai-music-videos/": 1795075269.0206704,
+  "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/": 1795075269.0206704
  },
  "fails": 0,
  "sent": [
@@ -1140,6 +1142,16 @@
   {
    "t": 1795072167.1746418,
    "title": "Palmer Luckey warns AI-powered cyberattacks are outpacing defenses: ‘It’s time to start running’",
+   "soha": "AI"
+  },
+  {
+   "t": 1795075269.0206704,
+   "title": "Suno Promises Artist-Likeness Filters As It Expands Into AI Music Videos",
+   "soha": "AI musiqa"
+  },
+  {
+   "t": 1795075269.0206704,
+   "title": "Snapchat now lets developers build AR Lenses with AI assistants like Claude Code and Cursor",
    "soha": "AI"
   }
  ],
@@ -3292,6 +3304,43 @@
     "https://techcrunch.com/2026/11/18/palmer-luckey-warns-ai-powered-cyberattacks-are-outpacing-defenses-its-time-to-start-running/",
     "https://finance.yahoo.com/news/drone-maker-anduril-expand-long-113100664.html"
    ],
+   "videos": []
+  },
+  {
+   "t": 1795075269.0206704,
+   "title": "Suno AI musiqiy videolarni yaratish funksiyasini taqdim etdi",
+   "text": "Suno platformasi foydalanuvchilarga sun'iy intellekt yordamida musiqa uchun videokliplar yaratish imkonini beruvchi yangi funksiyani ishga tushirdi.",
+   "orig_title": "Suno Promises Artist-Likeness Filters As It Expands Into AI Music Videos",
+   "link": "https://allhiphop.com/news/suno-promises-artist-likeness-filters-as-it-expands-into-ai-music-videos/",
+   "source": "allhiphop.com",
+   "soha": "AI musiqa",
+   "baho": 10,
+   "experts": [],
+   "effect": null,
+   "image": "https://allhiphop.com/wp-content/uploads/2026/02/Eminem.jpg",
+   "domains": [],
+   "urls": [],
+   "videos": [
+    [
+     "https://www.youtube.com/watch?v=7XgDdxcEfOY",
+     "YouTube"
+    ]
+   ]
+  },
+  {
+   "t": 1795075269.0206704,
+   "title": "Snapchat dasturchilarga Claude Code va Cursor yordamida AR Lenses yaratishga ruxsat berdi",
+   "text": "Snapchat platformasida yaratuvchilar tabiiy tilda ta'rif berish orqali sun'iy intellekt yordamida AR Lenses yaratishlari mumkin bo'ldi.",
+   "orig_title": "Snapchat now lets developers build AR Lenses with AI assistants like Claude Code and Cursor",
+   "link": "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 9,
+   "experts": [],
+   "effect": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2024/06/snapchat-getty.jpg?w=1200",
+   "domains": [],
+   "urls": [],
    "videos": []
   }
  ]
