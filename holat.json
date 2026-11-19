@@ -385,7 +385,15 @@
   "https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/": 1795072167.1746418,
   "https://techcrunch.com/2026/11/18/palmer-luckey-warns-ai-powered-cyberattacks-are-outpacing-defenses-its-time-to-start-running/": 1795072167.1746418,
   "https://allhiphop.com/news/suno-promises-artist-likeness-filters-as-it-expands-into-ai-music-videos/": 1795075269.0206704,
-  "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/": 1795075269.0206704
+  "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/": 1795075269.0206704,
+  "https://en.apa.az/ict/uzbek-cybersecurity-official-un-unesco-and-itu-should-play-important-role-in-international-dialogue-on-artificial-intelligence-537137": 1795079336.648598,
+  "https://www.ciol.com/funding-acquistion-merger/lemonpeel-raises-1-million-ai-video-production-platform-12822704": 1795079336.648598,
+  "https://www.msn.com/en-us/technology/artificial-intelligence/exclusive-we-need-to-label-originality-not-just-ai-adobe-s-ely-greenfield-on-c2pa-and-ai-content/ar-AA2hKSFO": 1795079336.648598,
+  "https://techcrunch.com/2026/11/18/spend-management-platform-payhawk-announces-280m-raise-2b-valuation/": 1795079336.648598,
+  "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/": 1795079336.648598,
+  "https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode/": 1795079336.648598,
+  "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/": 1795079336.648598,
+  "https://www.theverge.com/games/1036140/will-wright-mymems-ai-game-interview": 1795079336.648598
  },
  "fails": 0,
  "sent": [
@@ -1153,6 +1161,46 @@
    "t": 1795075269.0206704,
    "title": "Snapchat now lets developers build AR Lenses with AI assistants like Claude Code and Cursor",
    "soha": "AI"
+  },
+  {
+   "t": 1795079336.648598,
+   "title": "Uzbek cybersecurity official: UN, UNESCO and ITU should play important role in international dialogue on artificial intelligence",
+   "soha": "AI O'zbekiston"
+  },
+  {
+   "t": 1795079336.648598,
+   "title": "AI Video Startup Lemonpeel Raises $1 Million From Shastra VC, Rukam Sitara",
+   "soha": "AI video"
+  },
+  {
+   "t": 1795079336.648598,
+   "title": "[Exclusive] \"We need to label originality, not just AI\": Adobe's Ely Greenfield on C2PA and AI content",
+   "soha": "AI rasm"
+  },
+  {
+   "t": 1795079336.648598,
+   "title": "Spend management platform Payhawk announces $280M raise, 2B valuation",
+   "soha": "AI"
+  },
+  {
+   "t": 1795079336.648598,
+   "title": "The Gemini app is now available on lower-memory Android devices.",
+   "soha": "AI"
+  },
+  {
+   "t": 1795079336.648598,
+   "title": "Google’s AI feature in Search gets its own incognito mode",
+   "soha": "AI"
+  },
+  {
+   "t": 1795079336.648598,
+   "title": "More banks say customers using AI agents are on their own — even if they get hacked",
+   "soha": "AI"
+  },
+  {
+   "t": 1795079336.648598,
+   "title": "Will Wright’s next game uses AI to map your memories",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -1160,77 +1208,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1794902470.3692682,
-   "title": "OpenAI NATO va ittifoqdosh kiberhimoyasini kuchaytirishda yordam bermoqda",
-   "text": "OpenAI NATO va uning kiberagentliklari bilan hamkorlik qilib, muhim tizimlarni himoya qilish va zaifliklarni aniqlash ishlarida ishtirok etmoqda.",
-   "orig_title": "Strengthening NATO and allied cyber defenses with AI",
-   "link": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
-   "source": "OpenAI",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Kiber xavfsizlikni kuchaytirish va ittifoqchilar mudofaasini ta'minlashda sun'iy intellekt texnologiyalaridan keng foydalanish kiber hujumlarini oldindan aniqlash hamda ularga qarshi kurashish imkoniyatlarini oshirishi mumkin.",
-   "image": null,
-   "domains": [],
-   "urls": [],
-   "videos": []
-  },
-  {
-   "t": 1794902470.3692682,
-   "title": "Korxonalar uchun avtonom ish jarayonlarini bajaruvchi AI agentlari joriy etilmoqda",
-   "text": "Tashkilotlar yakka tartibdagi tajribalardan voz kechib, biznes jarayonlarini boshqaruvchi avtonom AI agentlari va ish oqimlariga o'tmoqda.",
-   "orig_title": "Building AI that can work across the enterprise",
-   "link": "https://www.technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise/",
-   "source": "MIT Tech Review",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Korxonalarda sun'iy intellekt agentlari va avtonom ish oqimlarining joriy etilishi ma'lumotlar bazasi va boshqaruv mexanizmlarini qayta ko'rib chiqishga, shuningdek, samaradorlikni oshirishga olib kelishi mumkin.",
-   "image": "https://wp.technologyreview.com/wp-content/uploads/2026/10/MITTRInfosysSAP-social-card.png?resize=1200,600",
-   "domains": [
-    "technologyreview.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://www.technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise/",
-    "https://finance.yahoo.com/technology/ai/articles/genpact-launches-genpact-onyx-agentic-210500681.html",
-    "https://finance.yahoo.com/technology/ai/articles/snowflake-snow-unveils-autonomous-ai-131644225.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794902470.3692682,
-   "title": "Nvidia kompaniyasi rahbariyatidagi inqirozdan oldin ham qiyinchiliklarga duch kelgandi",
-   "text": "Sun'iy intellekt bozoridagi raqobatchilar Nvidia kompaniyasini quvib yetib, yuzaga kelgan vaziyatdan foydalanishga tayyor turibdi.",
-   "orig_title": "Nvidia Was Already in Trouble Before the Jensen Huang Mess",
-   "link": "https://www.wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess/",
-   "source": "Wired AI",
-   "soha": "AI",
-   "baho": 9,
-   "experts": [
-    {
-     "kim": "Patrick Moorhead",
-     "lavozim": "Bosh tahlilchi",
-     "fikr": "Sun'iy intellekt agentlarining o'sishi xulosa chiqarishni muhimroq qiladi va bu yo'nalishda Nvidia bulut xizmatlari va startaplarga nisbatan kamroq ustunlikka ega.",
-     "url": "https://www.wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess/",
-     "domain": "wired.com"
-    }
-   ],
-   "effect": "Nvidia kompaniyasida rahbar o'zgarishi va raqobatning kuchayishi chip bozorida narxlar va ustunlikning o'zgarishiga hamda boshqa kompaniyalar ulushining ortishiga olib kelishi mumkin.",
-   "image": "https://media.wired.com/photos/6af5e8bf5864e5f624e083f1/191:100/w_1280,c_limit/111226-Nvidia%20In%20Trouble.jpg",
-   "domains": [
-    "wired.com",
-    "finance.yahoo.com",
-    "cnbc.com"
-   ],
-   "urls": [
-    "https://www.wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess/",
-    "https://finance.yahoo.com/video/nvidias-competitors-pounce-and-what-gpu-rental-prices-say-about-the-ai-race-221551379.html",
-    "https://www.cnbc.com/video/2026/11/13/nvidias-grip-on-ai-chip-supply-chain-to-weaken.html"
-   ],
-   "videos": []
-  },
   {
    "t": 1794913920.5300534,
    "title": "TuneArt indie sun'iy intellekt musiqa va video Maker'ni taqdim etdi",
@@ -3341,6 +3318,180 @@
    "image": "https://techcrunch.com/wp-content/uploads/2024/06/snapchat-getty.jpg?w=1200",
    "domains": [],
    "urls": [],
+   "videos": []
+  },
+  {
+   "t": 1795079336.648598,
+   "title": "O‘zbekiston xalqaro AI muloqotida BMT va YUNESKO rolini oshirishga chaqirdi",
+   "text": "O‘zbekiston kiberxavfsizlik vakili Bekzod Mo‘minov sun’iy intellekt bo‘yicha global muloqotda BMT, YUNESKO va Xalqaro elektraloqa ittifoqi muhim rol o‘ynashi kerakligini ma’lum qildi.",
+   "orig_title": "Uzbek cybersecurity official: UN, UNESCO and ITU should play important role in international dialogue on artificial intelligence",
+   "link": "https://en.apa.az/ict/uzbek-cybersecurity-official-un-unesco-and-itu-should-play-important-role-in-international-dialogue-on-artificial-intelligence-537137",
+   "source": "en.apa.az",
+   "soha": "AI O'zbekiston",
+   "baho": 10,
+   "experts": [],
+   "effect": "Sun'iy intellekt xavfsizligi va axborot ishonchliligi borasidagi xalqaro farqlar kuchayishi, texnologik ekotizimlar ajralib qolishi ehtimoli bor. Shu bilan birga, kiberxavfsizlik sohasida sun'iy intellektga asoslangan vositalar bozori kengayib, kompaniyalar uchun yirik biznes imkoniyatlari ochilishi mumkin.",
+   "image": null,
+   "domains": [
+    "en.apa.az",
+    "businessinsider.com"
+   ],
+   "urls": [
+    "https://en.apa.az/ict/uzbek-cybersecurity-official-un-unesco-and-itu-should-play-important-role-in-international-dialogue-on-artificial-intelligence-537137",
+    "https://www.businessinsider.com/nvidia-ceo-predicts-ai-cybersecurity-as-the-next-big-thing-2026-9"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795079336.648598,
+   "title": "Lemonpeel AI video startapi 1 million dollar investitsiya jalb qildi",
+   "text": "Mumbayda joylashgan Lemonpeel 300 dan ortiq modellarni birlashtiruvchi AI video ishlab chiqarish platformasini rivojlantirish uchun 1 million dollar sarmoya oldi.",
+   "orig_title": "AI Video Startup Lemonpeel Raises $1 Million From Shastra VC, Rukam Sitara",
+   "link": "https://www.ciol.com/funding-acquistion-merger/lemonpeel-raises-1-million-ai-video-production-platform-12822704",
+   "source": "ciol.com",
+   "soha": "AI video",
+   "baho": 9,
+   "experts": [],
+   "effect": "Sun'iy intellekt yordamida video ishlab chiqarish va korxonalarning ichki jarayonlarini avtomatlashtirish texnologiyalari jadal rivojlanishi mumkin. Yangi moliyalashtirilgan стартаплар bozorida raqobat kuchayib, korporativ mijozlarga mo'ljallangan mahsulotlar qamrovi kengayishi ehtimoli bor.",
+   "image": "https://img-cdn.publive.online/fit-in/1200x675/ciol/media/media_files/2026/11/19/ciol-37-2026-11-19-13-03-54.png",
+   "domains": [
+    "ciol.com",
+    "businessinsider.com"
+   ],
+   "urls": [
+    "https://www.ciol.com/funding-acquistion-merger/lemonpeel-raises-1-million-ai-video-production-platform-12822704",
+    "https://www.businessinsider.com/zeroset-startup-funding-ai-agents-gradient-ventures-enterprise-2026-10"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795079336.648598,
+   "title": "Adobe C2PA va sun’iy intellekt kontenti bo‘yicha yangi yondashuvni taklif qildi",
+   "text": "Adobe vakili Ili Grinfild kontentga faqat sun’iy intellekt tamg‘asini bosish o‘rniga, mualliflikning o‘ziga xosligi va haqiqiyligini belgilash zarurligini bildirdi.",
+   "orig_title": "[Exclusive] \"We need to label originality, not just AI\": Adobe's Ely Greenfield on C2PA and AI content",
+   "link": "https://www.msn.com/en-us/technology/artificial-intelligence/exclusive-we-need-to-label-originality-not-just-ai-adobe-s-ely-greenfield-on-c2pa-and-ai-content/ar-AA2hKSFO",
+   "source": "msn.com",
+   "soha": "AI rasm",
+   "baho": 8,
+   "experts": [],
+   "effect": "Ijodiy ish oqimlarini avtomatlashtirishda uchinchi tomon sun'iy intellekt agentlaridan keng foydalanish imkoniyati yaratilishi mumkin. Bu dizaynerlar va foydalanuvchilarga Adobe dasturlarida turli xil AI yordamchilari o'rtasida erkin tanlov qilish imkonini berishi ehtimoli bor.",
+   "image": null,
+   "domains": [
+    "theverge.com"
+   ],
+   "urls": [
+    "https://www.theverge.com/tech/1030593/adobe-max-ai-agents-mcp-firefly-assistant-updates"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795079336.648598,
+   "title": "Payhawk AI agentlar asosidagi platformasi uchun 280 million dollar jalb qildi",
+   "text": "Xarajatlarni AI agentlari yordamida boshqaruvchi moliyaviy platforma Payhawk 2 milliard dollar baho bilan 280 million dollarlik investitsiya kiritilishini e’lon qildi.",
+   "orig_title": "Spend management platform Payhawk announces $280M raise, 2B valuation",
+   "link": "https://techcrunch.com/2026/11/18/spend-management-platform-payhawk-announces-280m-raise-2b-valuation/",
+   "source": "TechCrunch Venture",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Moliya va xarajatlarni boshqarish bozorida sun'iy intellekt agentlariga asoslangan mahsulotlar ulushi ortishi mumkin. Yirik sarmoyalar evaziga kompaniyalarning global miqyosdagi kengayishi va an'anaviy moliya jarayonlari tezlashishi ehtimoli bor.",
+   "image": "https://techcrunch.com/wp-content/uploads/2024/07/GettyImages-1414277307.jpg?resize=1200,776",
+   "domains": [
+    "techcrunch.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/18/spend-management-platform-payhawk-announces-280m-raise-2b-valuation/",
+    "https://finance.yahoo.com/technology/ai/articles/payhawk-raises-280m-2bn-valuation-115600377.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795079336.648598,
+   "title": "Google Gemini ilovasi kam xotirali Android qurilmalarga ham chiqdi",
+   "text": "Google kompaniyasi Gemini Live va maxsus tasvirlar yaratish funksiyalariga ega Gemini ilovasini operativ xotirasi kam bo‘lgan Android qurilmalar uchun ham ochiqladi.",
+   "orig_title": "The Gemini app is now available on lower-memory Android devices.",
+   "link": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
+   "source": "Google AI",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Xotirasi pastroq bo'lgan arzonroq qurilmalarda ham sun'iy intellekt xizmatlaridan foydalanish imkoniyati kengayishi mumkin. Bu esa Google yordamchisining foydalanuvchilar qamrovini oshirib, mobil qurilmalar bozorida raqobatni kuchaytirishi ehtimoli bor.",
+   "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_app_Android_social_share.max-1440x810.png",
+   "domains": [
+    "blog.google",
+    "tech.yahoo.com"
+   ],
+   "urls": [
+    "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
+    "https://tech.yahoo.com/computing/articles/lenovo-googlebook-15-review-google-032306864.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795079336.648598,
+   "title": "Google Search AI rejimiga inkognito xususiyati qo‘shildi",
+   "text": "Google foydalanuvchilarga AI qidiruv suhbatlarini tarixda saqlamasdan va tavsiyalarga ta’sir qilmasdan olib borish imkonini beruvchi vaqtinchalik chatlar funksiyasini joriy qildi.",
+   "orig_title": "Google’s AI feature in Search gets its own incognito mode",
+   "link": "https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 6,
+   "experts": [],
+   "effect": "Foydalanuvchilarning internetdagi shaxsiy maxfiyligi yaxshilanib, qidiruv tarixida iz qoldirmasdan muloqot qilish imkoniyati oshishi mumkin. Bu holat yirik texnologiya kompaniyalarining ma'lumotlarni yig'ish va maqsadli reklama ko'rsatish amaliyotiga qisman ta'sir ko'rsatishi ehtimoli bor.",
+   "image": "https://techcrunch.com/wp-content/uploads/2019/10/google-search-app-ios.jpg?resize=1200,644",
+   "domains": [
+    "techcrunch.com",
+    "tech.yahoo.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode/",
+    "https://tech.yahoo.com/cybersecurity/articles/invisible-online-think-not-unless-151501678.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795079336.648598,
+   "title": "Yirik banklar shaxsiy AI agentlardan foydalanayotgan mijozlarni ogohlantirmoqda",
+   "text": "Citi va boshqa yirik moliyaviy tashkilotlar mijozlar AI agentlaridan foydalanganda va kiberhujumga uchraganda javobgarlikni o‘z zimmalariga olmasliklarini ma’lum qildi.",
+   "orig_title": "More banks say customers using AI agents are on their own — even if they get hacked",
+   "link": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 6,
+   "experts": [],
+   "effect": "Banklar tomonidan sun'iy intellekt agentlaridan foydalanish shartlari qat'iylashishi natijasida mijozlar uchun xavfsizlik va javobgarlik masalalari keskinlashishi mumkin. Shuningdek, bank sektorida jarayonlarni avtomatlashtirish hisobiga ish o'rinlari qisqarishi va xarajatlar kamayishi ehtimoli bor.",
+   "image": "https://techcrunch.com/wp-content/uploads/2025/03/GettyImages-1497343848.jpeg?resize=1200,800",
+   "domains": [
+    "techcrunch.com",
+    "businessinsider.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/",
+    "https://www.businessinsider.com/barclays-job-cuts-ai-push-layoffs-2026-10"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795079336.648598,
+   "title": "The Sims yaratuvchisi Uill Rayt yangi AI o‘yinini ishlab chiqmoqda",
+   "text": "SimCity va The Sims yaratuvchisi xotiralarni xaritalash va yangi dunyolar yaratishga asoslangan MyMems nomli AI loyihasini e’lon qildi.",
+   "orig_title": "Will Wright’s next game uses AI to map your memories",
+   "link": "https://www.theverge.com/games/1036140/will-wright-mymems-ai-game-interview",
+   "source": "The Verge AI",
+   "soha": "AI",
+   "baho": 6,
+   "experts": [],
+   "effect": "O'yin sanoatida xotiralar va agentlik xulq-atvoriga asoslangan yangi turdagi ijtimoiy simulyatsiya o'yinlari paydo bo'lishi mumkin. Bu o'yinchilarga shaxsiy tajribalari asosida noyob va shaxsiylashtirilgan virtual olamlarni yaratish imkonini berishi ehtimoli bor.",
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Grand-Canyon-Family-Portrait.png?quality=90&strip=all&crop=0%2C23.821989528796%2C100%2C52.356020942408&w=1200",
+   "domains": [
+    "theverge.com",
+    "markets.businessinsider.com"
+   ],
+   "urls": [
+    "https://www.theverge.com/games/1036140/will-wright-mymems-ai-game-interview",
+    "https://markets.businessinsider.com/news/stocks/gallium-studios-founded-by-the-sims-creator-will-wright-partners-with-artificial-agency-to-power-characters-in-new-simulation-game-1036779005"
+   ],
    "videos": []
   }
  ]
