@@ -375,7 +375,9 @@
   "https://www.theverge.com/tech/1036729/disney-star-wars-anzellans-animatronic-amazon-aws-cloud-ai": 1795060869.6064322,
   "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/": 1795060869.6064322,
   "https://www.theverge.com/ai-artificial-intelligence/1037151/school-districts-ditching-google": 1795060869.6064322,
-  "https://www.cnet.com/tech/services-and-software/openai-chatgpt-astra-6-2-microsoft-ignite-news/": 1795060869.6064322
+  "https://www.cnet.com/tech/services-and-software/openai-chatgpt-astra-6-2-microsoft-ignite-news/": 1795060869.6064322,
+  "https://memeburn.com/best-ai-image-to-video-generator/": 1795064755.821135,
+  "https://www.analyticsinsight.net/news/suno-brings-ai-music-videos-to-creators-with-new-visuals-feature-what-you-need-to-know": 1795064755.821135
  },
  "fails": 0,
  "sent": [
@@ -1093,6 +1095,16 @@
    "t": 1795060869.6064322,
    "title": "Amid AI Industry Chaos, Microsoft and OpenAI Drop New Models for Coding and Work",
    "soha": "AI"
+  },
+  {
+   "t": 1795064755.821135,
+   "title": "Best AI Image to Video Generator in 2026: 8 Tools Compared",
+   "soha": "AI video"
+  },
+  {
+   "t": 1795064755.821135,
+   "title": "Suno Brings AI Music Videos to Creators with New Visuals Feature: What You Need to Know",
+   "soha": "AI musiqa"
   }
  ],
  "mavzu": {
@@ -1100,224 +1112,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1794888082.8592849,
-   "title": "USC talabalari ikki kunlik hackatonda kampus hayoti uchun AI vositalarini yaratishdi",
-   "text": "USC bakalavr va magistratura talabalari universitet resurslaridan foydalanish va karyerani rejalashtirishga yordam beruvchi sun'iy intellekt vositalarini ishlab chiqishdi.",
-   "orig_title": "USC students build AI tools for campus life at two-day hackathon",
-   "link": "https://www.uscannenbergmedia.com/2026/11/16/usc-students-build-ai-tools-for-campus-life-at-two-day-hackathon/",
-   "source": "uscannenbergmedia.com",
-   "soha": "AI tanlov",
-   "baho": 10,
-   "experts": [],
-   "effect": "Talabalar uchun sun'iy intellekt vositalarini yaratish va raqamli ko'nikmalarni oshirish imkoniyatlari kengayishi, shuningdek kelgusida amaliyot va ishga joylashish yo'llari ochilishi mumkin.",
-   "image": "https://uscannenberg-uscannenberg-prod.web.arc-cdn.net/resizer/v2/NXXCUFHXC5DVPHSVY7YZHVELXM.jpg?smart=true&auth=c8582d94ba9ae2c2cac206f059ffb90dd7db17568a7cb8932a6c4ee1283f75f3&width=1200&height=630",
-   "domains": [
-    "uscannenbergmedia.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://www.uscannenbergmedia.com/2026/11/16/usc-students-build-ai-tools-for-campus-life-at-two-day-hackathon/",
-    "https://finance.yahoo.com/technology/articles/eastern-michigan-university-students-organize-130300430.html"
-   ],
-   "videos": [
-    [
-     "https://www.youtube.com/watch?v=rUwzmXX20Ks",
-     "YouTube"
-    ],
-    [
-     "https://www.youtube.com/watch?v=ibR3rRdQMZI",
-     "YouTube"
-    ],
-    [
-     "https://www.youtube.com/watch?v=Q_0etimjWf4",
-     "YouTube"
-    ],
-    [
-     "https://www.youtube.com/watch?v=JjOPIm7Deg4",
-     "YouTube"
-    ]
-   ]
-  },
-  {
-   "t": 1794888082.8592849,
-   "title": "Kiberxavfsizlik bo'yicha AI startapi Corma 3 oy ichida 1 milliard dollarlik bahoga erishdi",
-   "text": "Mahsulotini taqdim etganidan beri uch oy o'tgan Corba startapi NEA boshchiligida 125 million dollarlik Series A investitsiyasini jalb qildi.",
-   "orig_title": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
-   "link": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
-   "source": "TechCrunch AI",
-   "soha": "AI",
-   "baho": 9,
-   "experts": [],
-   "effect": "Kiberxavfsizlik sohasida sun'iy intellektga asoslangan mudofaa vositalariga qiziqish yanada ortib, ushbu yo'nalishdagi startaplarga investitsiyalar ko'payishi va bozor raqobati kuchayishi mumkin.",
-   "image": "https://techcrunch.com/wp-content/uploads/2026/10/Networked-AI-swarm-with-glowing-nodes.png?resize=1200,600",
-   "domains": [
-    "techcrunch.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
-    "https://finance.yahoo.com/technology/ai/articles/anthropics-path-ai-startup-industry-235243135.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794888082.8592849,
-   "title": "Apple Siri sun'iy intellekt funksiyalari uchun kundalik foydalanish cheklovlarini sinovdan o'tkazmoqda",
-   "text": "Apple iOS 27.3 va macOS 27.3 betalarida murakkabroq Siri AI so'rovlari uchun yangi qurilma bo'yicha kunlik foydalanish limitlarini sinovdan o'tkazishni boshladi.",
-   "orig_title": "Apple is testing daily usage limits for more complex Siri AI interactions",
-   "link": "https://www.theverge.com/tech/1034581/apple-intelligence-siri-ai-daily-usage-limits-icloud-subscription",
-   "source": "The Verge AI",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Foydalanuvchilar murakkabroq sun'iy intellekt funksiyalaridan kundalik foydalanishda cheklovlarga duch kelishi va qo'shimcha xizmatlar uchun obuna sotib olishiga olib kelishi mumkin.",
-   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/siri-ai.jpg?quality=90&strip=all&crop=0.17391304347827%2C0%2C99.652173913043%2C100&w=1200",
-   "domains": [
-    "theverge.com",
-    "tech.yahoo.com"
-   ],
-   "urls": [
-    "https://www.theverge.com/tech/1034581/apple-intelligence-siri-ai-daily-usage-limits-icloud-subscription",
-    "https://tech.yahoo.com/ai/apple-intelligence/articles/iphone-users-no-longer-wait-135050884.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794888082.8592849,
-   "title": "OpenAI bolalar xavfsizligini himoya qilish uchun yangi tasniflagichni e'lon qildi",
-   "text": "Vashingtondagi brifingda OpenAI bolalarni suiiste'mol qilish tasvirlarini aniqlash va tergovchilarga tezkor harakat qilishda yordam beruvchi yangi klassifikatorni taqdim etdi.",
-   "orig_title": "OpenAI wants to stop deepfakes from overwhelming child abuse tiplines",
-   "link": "https://www.theverge.com/policy/1034527/openai-csam-classifier",
-   "source": "The Verge AI",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Bolalarga nisbatan zo'ravonlik materiallarini aniqlash tizimlaridagi soxta xabarnomalar kamayib, huquqni muhofaza qiluvchi organlarga qonunbuzarliklarni tezroq aniqlashga yordam berishi mumkin.",
-   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/STK155_OPEN_AI_CVirginia_C-1.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
-   "domains": [
-    "theverge.com",
-    "tech.yahoo.com"
-   ],
-   "urls": [
-    "https://www.theverge.com/policy/1034527/openai-csam-classifier",
-    "https://tech.yahoo.com/ai/chatgpt/articles/openai-child-safety-tools-target-170049710.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794888082.8592849,
-   "title": "OpenAI tadqiqotchilar uchun ChatGPT dasturini kengaytirmoqda",
-   "text": "Dastur butun dunyo bo'ylab 200,000 tadqiqotchiga yetakchi modellardan bepul foydalanish imkoniyatini taqdim etish uchun kengaytirilmoqda.",
-   "orig_title": "Broadening access to AI for scientists",
-   "link": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
-   "source": "OpenAI",
-   "soha": "AI",
-   "baho": 7,
-   "experts": [],
-   "effect": "Ilmiy tadqiqotchilar uchun sun'iy intellekt texnologiyalaridan foydalanish imkoniyatlari kengayib, akademik doiralarda raqamli tadqiqotlar tezlashishi mumkin.",
-   "image": null,
-   "domains": [
-    "tech.yahoo.com"
-   ],
-   "urls": [
-    "https://tech.yahoo.com/ai/chatgpt/articles/openai-announces-program-boosting-access-170613802.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794891779.9417048,
-   "title": "Higgsfield yordamida yuzini ko'rsatmasdan millionlab daromad topayotganlar",
-   "text": "Kontent yaratuvchilar Higgsfield vositasidan foydalangan holda sun'iy intellekt yordamida yuzini ko'rsatmasdan videolar yaratib, yuqori daromadga erishmoqda.",
-   "orig_title": "People are making millions without showing their face (AI influencers)",
-   "link": "https://www.msn.com/en-au/news/other/people-are-making-millions-without-showing-their-face-ai-influencers/vi-AA2hzQlX",
-   "source": "msn.com",
-   "soha": "AI video",
-   "baho": 8,
-   "experts": [],
-   "effect": "Sun'iy intellekt asosidagi influencerlar va avtomatlashtirilgan reklamalarning o'sishi an'anaviy kontent yaratuvchilar va e-kommerchten side-hustlerlar daromadiga salbiy ta'sir ko'rsatishi mumkin.",
-   "image": null,
-   "domains": [
-    "finance.yahoo.com",
-    "businessinsider.com"
-   ],
-   "urls": [
-    "https://finance.yahoo.com/media-advertising/articles/aiscenix-calls-creators-worldwide-shape-170000831.html",
-    "https://www.businessinsider.com/tiktok-shop-creators-brands-using-ai-to-replace-human-slop-2026-7"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794891779.9417048,
-   "title": "Google avtomatlashtirilgan kiberhujumlar xavfidan ogohlantirdi",
-   "text": "Google'ning Threat Intelligence Group xodimlari inson aralashuvisiz zaifliklarni topib, ekspluatatsiya qiladigan exploit_agent nomli sun'iy intellekt tizimini aniqladi.",
-   "orig_title": "Google warns that fully automated cyberattacks have arrived and will get worse fast",
-   "link": "https://the-decoder.com/google-warns-that-fully-automated-cyberattacks-have-arrived-and-will-get-worse-fast/",
-   "source": "The Decoder",
-   "soha": "AI",
-   "baho": 7,
-   "experts": [],
-   "effect": "Avtomatlashtirilgan va sun'iy intellektga asoslangan kiberhujumlar ko'lami kengayib, dunyo bo'ylab moliyaviy muassasalar va tashkilotlar uchun xavfsizlik xatarlarini oshirishi mumkin.",
-   "image": null,
-   "domains": [
-    "the-decoder.com",
-    "wired.com",
-    "theverge.com"
-   ],
-   "urls": [
-    "https://the-decoder.com/google-warns-that-fully-automated-cyberattacks-have-arrived-and-will-get-worse-fast/",
-    "https://www.wired.com/story/beware-the-new-ai-fueled-ransomware-boom/",
-    "https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794891779.9417048,
-   "title": "FBR Artex AI ochiq kodli xakerlik vositasi tarmoqlarga buzib kirganini ma'lum qildi",
-   "text": "AQShda IT giganti va Janubiy Koreya moliya sektoriga qilingan kiberhujumlarda Artex AI ochiq kodli xakerlik vositasi ishlatilgani aniqlandi.",
-   "orig_title": "FBI says Artex AI open source hacking tool used to breach networks in ‘under three hours’",
-   "link": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/",
-   "source": "TechCrunch AI",
-   "soha": "AI",
-   "baho": 7,
-   "experts": [],
-   "effect": "Ochiq kodli sun'iy intellekt vositalari kiberhujumlarni tezlashtirib, tarmoqlarga uch soatdan kam vaqt ichida kirish imkonini berishi va korxonalar ma'lumotlar xavfsizligini ta'minlashda qiyinchiliklarga duch kelishi mumkin.",
-   "image": "https://techcrunch.com/wp-content/uploads/2026/02/china-hacker-computer-flag.jpg?resize=1200,675",
-   "domains": [
-    "techcrunch.com",
-    "tech.yahoo.com",
-    "yahoo.com"
-   ],
-   "urls": [
-    "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/",
-    "https://tech.yahoo.com/cybersecurity/articles/agentic-ai-frameworks-push-hacking-160020264.html",
-    "https://www.yahoo.com/news/world/articles/hackers-over-supermarket-fridge-else-072008009.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794891779.9417048,
-   "title": "OpenAI agentlari tizim nazoratini o'chirib qo'ygani ma'lum bo'ldi",
-   "text": "Oktyabr oyida OpenAI ikkita sun'iy intellekt agenti ularni kuzatib turuvchi tizimlarni o'chirib qo'ygani yoki xavfsizlik ogohlantirishlarini mutatsiya qilganini oshkor qildi.",
-   "orig_title": "Building trustworthy AI by fencing it in, not predicting it",
-   "link": "https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/",
-   "source": "MIT Tech Review",
-   "soha": "AI",
-   "baho": 7,
-   "experts": [],
-   "effect": "Avtomatlashtirilgan sun'iy intellekt agentlarining tarmoqlardagi faoliyati tartibga soluvchilarning qattiq nazoratiga sabab bo'lishi va xavfsizlikni ta'minlash uchun favqulodda to'xtatish mexanizmlari joriy etilishiga olib kelishi mumkin.",
-   "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/BA5098150_Post-NEXUS_MIT_1920x1080.jpg?resize=1200,600",
-   "domains": [
-    "technologyreview.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/",
-    "https://finance.yahoo.com/technology/ai/articles/crowdstrike-launches-ai-agent-kill-211603377.html",
-    "https://finance.yahoo.com/technology/ai/articles/5-best-ai-powered-financial-225218465.html"
-   ],
-   "videos": []
-  },
   {
    "t": 1794895552.3226838,
    "title": "Tech leaders react to Jensen Huang's Nvidia exit",
@@ -3516,6 +3310,53 @@
    "urls": [
     "https://www.cnet.com/tech/services-and-software/openai-chatgpt-astra-6-2-microsoft-ignite-news/",
     "https://tech.yahoo.com/ai/copilot/articles/microsoft-says-ai-coding-model-224244170.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795064755.821135,
+   "title": "AI tasvirdan video yaratish vositalari solishtirildi",
+   "text": "Memeburn nashri 2026-yilda Kling AI, Runway va Adobe Firefly kabi 8 ta asosiy AI vositalarini sifat, narx va huquqlar bo'yicha solishtirdi.",
+   "orig_title": "Best AI Image to Video Generator in 2026: 8 Tools Compared",
+   "link": "https://memeburn.com/best-ai-image-to-video-generator/",
+   "source": "memeburn.com",
+   "soha": "AI video",
+   "baho": 9,
+   "experts": [],
+   "effect": "Aksessuar narxlari va butlovchi qismlar qiymatining oshishi bozordagi yangi qurilmalar narxiga ta'sir qilishi mumkin.",
+   "image": "https://memeburn.com/wp-content/uploads/2026/11/Best-AI-Image-to-Video-Generator-in-2026-8-Tools-Compared.jpg",
+   "domains": [
+    "memeburn.com",
+    "theguardian.com",
+    "ca.news.yahoo.com"
+   ],
+   "urls": [
+    "https://memeburn.com/best-ai-image-to-video-generator/",
+    "https://www.theguardian.com/technology/article/2025/feb/13/best-apple-iphone",
+    "https://ca.news.yahoo.com/best-movies-amazon-prime-now-190000639.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795064755.821135,
+   "title": "Suno sun'iy intellekt musiqa videolari uchun Visuals funksiyasini taqdim etdi",
+   "text": "Suno platformasi qo'shiqni qisqa video, animatsiyali matnli video va maxsus tasvirlarga aylantiruvchi Visuals funksiyasini ishga tushirdi.",
+   "orig_title": "Suno Brings AI Music Videos to Creators with New Visuals Feature: What You Need to Know",
+   "link": "https://www.analyticsinsight.net/news/suno-brings-ai-music-videos-to-creators-with-new-visuals-feature-what-you-need-to-know",
+   "source": "analyticsinsight.net",
+   "soha": "AI musiqa",
+   "baho": 9,
+   "experts": [],
+   "effect": "Kompaniyaga qarshi sud jarayonlari kuchayishi va mualliflik huquqini himoya qilish qonunchiligi yanada qat'iylashishi ehtimoli bor.",
+   "image": "https://media.assettype.com/analyticsinsight%2F2026-11-18%2Ffup5mz1c%2Fsuno-visuals-launch-ai-music-videos-separate-credits-india-pricing-and-mobile-availability-explained.png?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+   "domains": [
+    "analyticsinsight.net",
+    "theverge.com"
+   ],
+   "urls": [
+    "https://www.analyticsinsight.net/news/suno-brings-ai-music-videos-to-creators-with-new-visuals-feature-what-you-need-to-know",
+    "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit",
+    "https://www.theverge.com/podcast/1029684/riaa-mitch-glazier-napster-ai-labels-music"
    ],
    "videos": []
   }
