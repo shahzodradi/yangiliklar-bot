@@ -1,8 +1,5 @@
 {
  "seen": {
-  "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/": 1794247280.3149226,
-  "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/": 1794247280.3149226,
-  "https://www.theverge.com/ai-artificial-intelligence/1029802/trump-60-minutes-ai": 1794247280.3149226,
   "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2": 1794251150.3879302,
   "https://the-decoder.com/bytedances-seedream-5-5-promises-pixel-stable-image-editing-across-100-rounds-without-color-drift/": 1794251150.3879302,
   "https://www.theverge.com/tech/1030061/instagram-ai-effect-builder-filters": 1794251150.3879302,
@@ -403,7 +400,7 @@
   "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/": 1795108153.5261927,
   "https://www.theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation": 1795108153.5261927
  },
- "fails": 0,
+ "fails": 1,
  "sent": [
   {
    "t": 1794769351.206209,
