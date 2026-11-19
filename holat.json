@@ -1,7 +1,5 @@
 {
  "seen": {
-  "https://the-decoder.com/nvidia-espionage-scandal-weakens-huangs-lobby-against-tighter-ai-chip-export-controls/": 1794232863.0342844,
-  "https://about.fb.com/news/2026/11/expanding-teen-account-protections-to-teens-around-the-world/": 1794232863.0342844,
   "https://www.notebookcheck.net/GPT-6-Cyber-OpenAI-rates-its-new-security-model-as-Critical.1445199.0.html": 1794236933.5860488,
   "https://wccftech.com/higgsfield-miracle-promises-real-time-ai-video-editing-turning-any-clip-into-editable-layers/": 1794240080.4155982,
   "https://www.theverge.com/tech/1029773/disney-adobe-generative-ai-partnership": 1794240080.4155982,
@@ -405,7 +403,8 @@
   "https://techcrunch.com/2026/11/18/openai-ceo-sam-altman-says-its-hard-to-imagine-the-ai-industry-without-jensen/": 1795089700.8831615,
   "https://the-decoder.com/googles-latest-ai-model-is-faster-cheaper-and-smarter-than-its-flagship-predecessor-from-just-weeks-ago/": 1795093733.0938947,
   "https://www.wired.com/story/anthropics-record-breaking-ipo-highlights-the-ai-giants-worst-enemy-itself/": 1795093733.0938947,
-  "https://www.theverge.com/ai-artificial-intelligence/1036549/nvidia-amd-earnings-fall-2026-chips-pause-frontier-models": 1795093733.0938947
+  "https://www.theverge.com/ai-artificial-intelligence/1036549/nvidia-amd-earnings-fall-2026-chips-pause-frontier-models": 1795093733.0938947,
+  "https://www.uzdaily.uz/uz/raqamli-davrda-geologiya-universitet-suniy-intellekt-3d-modellashtirish-va-muhim-minerallarga-pul-tikmoqda/": 1795096895.8013613
  },
  "fails": 0,
  "sent": [
@@ -1303,6 +1302,11 @@
    "t": 1795093733.0938947,
    "title": "Remember the frontier AI pause? Chip companies don’t either",
    "soha": "AI"
+  },
+  {
+   "t": 1795096895.8013613,
+   "title": "Raqamli davrda geologiya: universitet sun'iy intellekt, 3D modellashtirish va muhim minerallarga pul tikmoqda",
+   "soha": "AI O'zbekiston"
   }
  ],
  "mavzu": {
@@ -1310,38 +1314,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1794924078.684282,
-   "title": "ElevenLabs Kotoba kompaniyasini sotib oldi",
-   "text": "ElevenLabs Yaponiyaga ixtisoslashgan Kotoba ovozli suniy intellekt kompaniyasini taxminan 100 million dollarga sotib olishga kelishib oldi.",
-   "orig_title": "ElevenLabs agrees to acquire Japan-focused voice AI company Kotoba in reported $100M deal",
-   "link": "https://www.musicbusinessworldwide.com/elevenlabs-agrees-to-acquire-japan-focused-voice-ai-company-kotoba-in-reported-100m-deal/",
-   "source": "musicbusinessworldwide.com",
-   "soha": "AI musiqa",
-   "baho": 9,
-   "experts": [
-    {
-     "kim": "Vanessa Larco",
-     "lavozim": "investor",
-     "fikr": "Voice is the only acceptable input mode for wearables. This acquisition will only accelerate the need for voice apps.",
-     "url": "https://techcrunch.com/2026/01/22/google-reportedly-snags-up-team-behind-ai-voice-startup-hume-ai/",
-     "domain": "techcrunch.com"
-    }
-   ],
-   "effect": "Bu bitimlar ovozli sun'iy intellekt texnologiyalarining rivojlanishini tezlashtirishi va taqiladigan qurilmalar bozorida ovozli ilovalarga talabni yanada oshirishi mumkin.",
-   "image": "https://www.musicbusinessworldwide.com/files/2026/11/sjc17stvht-IMG_9393-2-e1794886267454-1296x729.webp",
-   "domains": [
-    "musicbusinessworldwide.com",
-    "finance.yahoo.com",
-    "techcrunch.com"
-   ],
-   "urls": [
-    "https://www.musicbusinessworldwide.com/elevenlabs-agrees-to-acquire-japan-focused-voice-ai-company-kotoba-in-reported-100m-deal/",
-    "https://finance.yahoo.com/news/ai-voice-startup-elevenlabs-valued-130941722.html",
-    "https://techcrunch.com/2026/01/22/google-reportedly-snags-up-team-behind-ai-voice-startup-hume-ai/"
-   ],
-   "videos": []
-  },
   {
    "t": 1794931283.3393557,
    "title": "YouCam Muse AI musiqa va video platformasi hamda pul mukofotli tanlov e'lon qilindi",
@@ -3968,6 +3940,29 @@
     "https://www.theverge.com/ai-artificial-intelligence/1036549/nvidia-amd-earnings-fall-2026-chips-pause-frontier-models",
     "https://tech.yahoo.com/cybersecurity/articles/ai-changed-why-enterprises-attacked-192140660.html",
     "https://tech.yahoo.com/ai/articles/openai-board-member-fired-sam-150000454.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795096895.8013613,
+   "title": "Universitet geologiya sohasida sun'iy intellektga tayanmoqda",
+   "text": "O'zbekistonda geologiya sohasiga sun'iy intellekt va raqamli texnologiyalarni joriy etish choralari ko'rilmoqda.",
+   "orig_title": "Raqamli davrda geologiya: universitet sun'iy intellekt, 3D modellashtirish va muhim minerallarga pul tikmoqda",
+   "link": "https://www.uzdaily.uz/uz/raqamli-davrda-geologiya-universitet-suniy-intellekt-3d-modellashtirish-va-muhim-minerallarga-pul-tikmoqda/",
+   "source": "uzdaily.uz",
+   "soha": "AI O'zbekiston",
+   "baho": 10,
+   "experts": [],
+   "effect": "Ta'lim jarayoniga sun'iy intellekt va 3D modellashtirishning joriy etilishi geologiya sohasida raqamli ko'nikmalarga ega malakali kadrlar tayyorlashni yaxshilashi mumkin. Ishlab chiqarish korxonalari bilan hamkorlik va dual ta'limning kengaytirilishi bitiruvchilarning real ish sharoitiga tez moslashishiga va sohada kadrlar taqchilligini kamaytirishga xizmat qilishi ehtimoli bor.",
+   "image": "https://www.uzdaily.uz/media/filer_public/49/c7/49c79e3d-f7f2-4300-8f1b-61d354ebedce/geologpress1911_20261119131933.webp",
+   "domains": [
+    "uzdaily.uz",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://www.uzdaily.uz/uz/raqamli-davrda-geologiya-universitet-suniy-intellekt-3d-modellashtirish-va-muhim-minerallarga-pul-tikmoqda/",
+    "https://finance.yahoo.com/quote/AIQ/",
+    "https://finance.yahoo.com/quote/WTAI/"
    ],
    "videos": []
   }
