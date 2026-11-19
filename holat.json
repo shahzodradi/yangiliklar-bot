@@ -398,15 +398,16 @@
   "https://www.gazeta.uz/oz/2026/11/19/cambridge-dictionary/": 1795100971.2257173,
   "https://www.uzdaily.uz/en/uzbekistan-favours-balanced-approach-to-ai-regulation/": 1795108153.5261927,
   "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/": 1795108153.5261927,
-  "https://www.theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation": 1795108153.5261927
+  "https://www.theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation": 1795108153.5261927,
+  "https://www.uzdaily.uz/en/uzbekistan-publishes-6bn-word-uzbek-language-corpus-for-ai/": 1795115001.4363093,
+  "https://www.uzdaily.uz/ru/uzbekistan-predpochitaet-sbalansirovannoe-regulirovanie-ii/": 1795115001.4363093,
+  "https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq": 1795115001.4363093,
+  "https://daryo.uz/2026/11/19/tarixdagi-eng-yirik-ipo-claudeni-yaratgan-kompaniya-81-mlrd-dollar-jalb-qildi/": 1795115001.4363093,
+  "https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use": 1795115001.4363093,
+  "https://www.wired.com/story/google-built-a-giant-mirror-dimension-internet-to-test-its-chrome-ai-agents/": 1795115001.4363093
  },
- "fails": 1,
+ "fails": 0,
  "sent": [
-  {
-   "t": 1794769351.206209,
-   "title": "EXCLUSIVE: Suno Faces Demand To Open New AI Models To Copyright Discovery",
-   "soha": "AI musiqa"
-  },
   {
    "t": 1794798318.1396794,
    "title": "Adobe Wants Firefly To Become The Home Of AI-Powered Creativity",
@@ -1311,6 +1312,36 @@
    "t": 1795108153.5261927,
    "title": "ChatGPT can transcribe as you speak now with Live Dictation",
    "soha": "AI"
+  },
+  {
+   "t": 1795115001.4363093,
+   "title": "Uzbekistan Publishes 6bn-Word Uzbek Language Corpus for AI",
+   "soha": "AI O'zbekiston"
+  },
+  {
+   "t": 1795115001.4363093,
+   "title": "Узбекистан предпочитает сбалансированное регулирование ИИ",
+   "soha": "AI O'zbekiston"
+  },
+  {
+   "t": 1795115001.4363093,
+   "title": "Anthropic starts trading on Wall Street",
+   "soha": "AI"
+  },
+  {
+   "t": 1795115001.4363093,
+   "title": "Tarixdagi eng yirik IPO: Claude’ni yaratgan kompaniya 81 mlrd dollar jalb qildi",
+   "soha": "AI"
+  },
+  {
+   "t": 1795115001.4363093,
+   "title": "Gemini on Mac can now use your computer",
+   "soha": "AI"
+  },
+  {
+   "t": 1795115001.4363093,
+   "title": "Google Built a Giant ‘Mirror Dimension’ Internet to Test Its Chrome AI Agents",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -1318,70 +1349,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1794938627.3183923,
-   "title": "AI agentlari tibbiy hujjatlar va sug'urta so'rovlarini to'ldirmoqda",
-   "text": "OpenAI GPT-6 Astra va GPT-6 Luna yordamida AQSh sog'liqni saqlash tizimidagi ma'muriy vazifalarni avtomatlashtirmoqda. Kompyuterdan foydalanuvchi agentlar klinika dasturlari va sug'urta portallarida ishlaydi.",
-   "orig_title": "AI agents are starting to fill out medical forms and file insurance requests in place of human staff",
-   "link": "https://the-decoder.com/ai-agents-are-starting-to-fill-out-medical-forms-and-file-insurance-requests-in-place-of-human-staff/",
-   "source": "The Decoder",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": null,
-   "image": "https://the-decoder.com/wp-content/uploads/2026/11/openai_healthcare_agents.png",
-   "domains": [],
-   "urls": [],
-   "videos": []
-  },
-  {
-   "t": 1794938627.3183923,
-   "title": "AQSh Xitoyning chet elda AI quvvatidan foydalanishini cheklamoqda",
-   "text": "AQSh ma'muriyati chip eksporti nazoratini kuchaytirmoqda. Singapur va Malayziyadagi ma'lumotlar markazlari Nvidia chiplarini sotib olish uchun litsenziya olishi shart bo'ladi.",
-   "orig_title": "The US wants to block China from renting AI power abroad but China already built a parallel supply chain from US AI output",
-   "link": "https://the-decoder.com/the-us-wants-to-block-china-from-renting-ai-power-abroad-but-china-already-built-a-parallel-supply-chain-from-us-ai-output/",
-   "source": "The Decoder",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": null,
-   "image": "https://the-decoder.com/wp-content/uploads/2026/03/Datacenter-Remote.png",
-   "domains": [],
-   "urls": [],
-   "videos": []
-  },
-  {
-   "t": 1794938627.3183923,
-   "title": "Isomorphic Labs 5 milliard dollar mablag' jalb qildi",
-   "text": "Alphabet tarkibidagi sun'iy intellekt orqali dori vositalarini kashf qiluvchi Isomorphic Labs olti oy ichida ikkinchi yirik raundda 5 milliard dollar mablag' to'pladi.",
-   "orig_title": "Isomorphic Labs raises $5 billion in its second mega-round within six months",
-   "link": "https://the-decoder.com/isomorphic-labs-raises-5-billion-in-its-second-mega-round-within-six-months/",
-   "source": "The Decoder",
-   "soha": "AI",
-   "baho": 9,
-   "experts": [],
-   "effect": null,
-   "image": "https://the-decoder.com/wp-content/uploads/2026/11/Isomorphic-Labs-Funding.jpg",
-   "domains": [],
-   "urls": [],
-   "videos": []
-  },
-  {
-   "t": 1794938627.3183923,
-   "title": "Suno musiqa ilovasiga AI video vositalarini qo'shdi",
-   "text": "Suno o'zining yangi Visuals vositasi yordamida qo'shiqlarni AI qo'shiq videolari, albom muqovalari va 15 soniyali kliplarga aylantirish imkonini berdi, shuningdek mualliflik huquqini himoya qiluvchi filtrlar qo'shildi.",
-   "orig_title": "Suno adds AI video to its music app, with filters for artists’ faces",
-   "link": "https://thenextweb.com/news/suno-visuals-ai-video-lyric-videos-album-art",
-   "source": "thenextweb.com",
-   "soha": "AI musiqa",
-   "baho": 10,
-   "experts": [],
-   "effect": null,
-   "image": "https://media.thenextweb.com/2026/11/blue-ai-letters-blurred-textured-background.jpg",
-   "domains": [],
-   "urls": [],
-   "videos": []
-  },
   {
    "t": 1794942420.6631453,
    "title": "Google’s Spark AI agent becomes Tasks",
@@ -3952,6 +3919,138 @@
      "X"
     ]
    ]
+  },
+  {
+   "t": 1795115001.4363093,
+   "title": "O‘zbekiston sun’iy intellekt uchun 6 milliard so‘zli korpusni e'lon qildi",
+   "text": "O‘zbekiston Raqamli texnologiyalar vazirligi sun’iy intellektni rivojlantirishni qo‘llab-quvvatlash maqsadida 5,6 million hujjat va qariyb 6 milliard so‘zdan iborat ochiq o‘zbek tili korpusini taqdim etdi.",
+   "orig_title": "Uzbekistan Publishes 6bn-Word Uzbek Language Corpus for AI",
+   "link": "https://www.uzdaily.uz/en/uzbekistan-publishes-6bn-word-uzbek-language-corpus-for-ai/",
+   "source": "uzdaily.uz",
+   "soha": "AI O'zbekiston",
+   "baho": 10,
+   "experts": [],
+   "effect": "Hisoblash quvvatlari va ma'lumotlar bazalarining kengayishi mahalliy sun'iy intellekt modellarining rivojlanishini tezlashtirishi hamda xalqaro texnologik investitsiyalarni jalb qilishi mumkin.",
+   "image": "https://www.uzdaily.uz/media/filer_public/bd/ba/bdbafea6-79c1-4307-b199-295c0b6c9825/uzbeklanguagecorpus_20261119184150.webp",
+   "domains": [
+    "uzdaily.uz",
+    "uk.news.yahoo.com"
+   ],
+   "urls": [
+    "https://www.uzdaily.uz/en/uzbekistan-publishes-6bn-word-uzbek-language-corpus-for-ai/",
+    "https://uk.news.yahoo.com/ai-infrastructure-push-draws-6bn-120635738.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795115001.4363093,
+   "title": "O‘zbekiston sun’iy intellektni tartibga solishda muvozanatli yondashuvni tanlaydi",
+   "text": "Sun’iy intellekt markazi rahbar o‘rinbosari Zuxriddin Shadmonovning ta’kidlashicha, kutilayotgan sun’iy intellekt to‘g‘risidagi qonun bank va boshqa sektorlarni cheklab qo‘ymaslik uchun lozim darajada yumshoq bo‘ladi.",
+   "orig_title": "Узбекистан предпочитает сбалансированное регулирование ИИ",
+   "link": "https://www.uzdaily.uz/ru/uzbekistan-predpochitaet-sbalansirovannoe-regulirovanie-ii/",
+   "source": "uzdaily.uz",
+   "soha": "AI O'zbekiston",
+   "baho": 10,
+   "experts": [],
+   "effect": "Xavfsizlik qoidalarining yumshatilishi kompaniyalarga sun'iy intellekt bozoridagi raqobatda tezroq harakat qilish va yangi modellarni bozorga chiqarish imkonini berishi mumkin.",
+   "image": "https://www.uzdaily.uz/media/filer_public/a8/90/a8909d8d-061e-4aa2-b849-c0edc21c46df/finnext19112_20261119151841.webp",
+   "domains": [
+    "uzdaily.uz",
+    "businessinsider.com"
+   ],
+   "urls": [
+    "https://www.uzdaily.uz/ru/uzbekistan-predpochitaet-sbalansirovannoe-regulirovanie-ii/",
+    "https://www.businessinsider.com/anthropic-changing-safety-policy-2026-2"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795115001.4363093,
+   "title": "Anthropic kompaniyasi Wall Street birjasida savdolarni boshladi",
+   "text": "Anthropic kompaniyasi aksiyalarini Nasdaq birjasiga chiqarib, har bir aksiya uchun 111.50 dollardan savdoni boshladi va uning qiymati qariyb 1.5 trillion dollarga baholandi.",
+   "orig_title": "Anthropic starts trading on Wall Street",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq",
+   "source": "The Verge AI",
+   "soha": "AI",
+   "baho": 9,
+   "experts": [],
+   "effect": "Aksiyalarning ommaviy savdoga chiqarilishi sun'iy intellekt sohasidagi kompaniyalarga yirik moliyaviy mablag'lar jalb qilish va kelgusidagi investitsiya oqimini o'zgartirish ehtimolini oshiradi.",
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2305334560.jpg?quality=90&strip=all&crop=0%2C10.752607989199%2C100%2C78.494784021602&w=1200",
+   "domains": [
+    "theverge.com",
+    "yahoo.com"
+   ],
+   "urls": [
+    "https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq",
+    "https://www.yahoo.com/news/videos/anthropic-nasdaq-debut-ais-biggest-180429452.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795115001.4363093,
+   "title": "Tarixdagi eng yirik IPO: Claude yaratuvchisi 81 milliard dollar jalb qildi",
+   "text": "Anthropic kompaniyasi aksiyalarini ilk bor birjaga chiqarib, SpaceX kompaniyasining avvalgi rekordini yangiladi va jami 81.3 milliard dollar mablag‘ to‘pladi.",
+   "orig_title": "Tarixdagi eng yirik IPO: Claude’ni yaratgan kompaniya 81 mlrd dollar jalb qildi",
+   "link": "https://daryo.uz/2026/11/19/tarixdagi-eng-yirik-ipo-claudeni-yaratgan-kompaniya-81-mlrd-dollar-jalb-qildi/",
+   "source": "daryo.uz",
+   "soha": "AI",
+   "baho": 9,
+   "experts": [],
+   "effect": "Rekord darajadagi kapital qo'yilmalar sun'iy intellekt infratuzilmasini kengaytirishga bo'lgan talabni oshirishi va texnologik gigantlar o'rtasidagi raqobatni kuchaytirishi mumkin.",
+   "image": "https://gocdn.daryo.uz/large/2026/11/19/17734d17b3933969e7fe3bb9586eb6e5add584459c85020bad4c04f06315a7a6.webp",
+   "domains": [
+    "daryo.uz",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://daryo.uz/2026/11/19/tarixdagi-eng-yirik-ipo-claudeni-yaratgan-kompaniya-81-mlrd-dollar-jalb-qildi/",
+    "https://finance.yahoo.com/technology/ai/articles/3-us-ai-infrastructure-stocks-152001324.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795115001.4363093,
+   "title": "Google Gemini ilovasi macOS tizimida kompyuterni boshqara oladi",
+   "text": "Google kompaniyasining macOS uchun Gemini ilovasi foydalanuvchining fayllari, ilovalari va veb-sahifalari bo‘ylab ko‘p bosqichli vazifalarni bajarish imkonini beruvchi agent funksiyasiga ega bo‘ldi.",
+   "orig_title": "Gemini on Mac can now use your computer",
+   "link": "https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use",
+   "source": "The Verge AI",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Sun'iy intellekt agentlarining kompyuter tizimlarida to'g'ridan-to'g'ri amallarni bajarishi foydalanuvchilar uchun ish jarayonlarini tezlashtirishi, biroq xavfsizlik va maxfiylik bo'yicha yangi cheklovlarga olib kelishi mumkin.",
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/M6_MBP_hero2.jpg?quality=90&strip=all&crop=0%2C10.738463156834%2C100%2C78.523073686333&w=1200",
+   "domains": [
+    "theverge.com",
+    "tech.yahoo.com"
+   ],
+   "urls": [
+    "https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use",
+    "https://tech.yahoo.com/computing/articles/windows-11-now-boots-locally-183005619.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795115001.4363093,
+   "title": "Google Chrome AI agentlarini sinash uchun ulkan virtual muhit yaratdi",
+   "text": "Google kompaniyasi Chrome jamoasiga internetda ishlaydigan sun’iy intellekt agentlarini xavfsiz tarzda o‘qitish uchun muqobil internet - maxsus sinov maydonchasini ishlab chiqdi.",
+   "orig_title": "Google Built a Giant ‘Mirror Dimension’ Internet to Test Its Chrome AI Agents",
+   "link": "https://www.wired.com/story/google-built-a-giant-mirror-dimension-internet-to-test-its-chrome-ai-agents/",
+   "source": "Wired AI",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Izolyatsiya qilingan muhitda sun'iy intellekt agentlarini sinovdan o'tkazish ularning real internetdagi xavfsizligini oshirib, foydalanuvchilarga xizmat ko'rsatish sifatini yaxshilashi mumkin.",
+   "image": "https://media.wired.com/photos/6aff2988bee7350f3da10056/191:100/w_1280,c_limit/GettyImages-2229158642.jpg",
+   "domains": [
+    "wired.com",
+    "theverge.com"
+   ],
+   "urls": [
+    "https://www.wired.com/story/google-built-a-giant-mirror-dimension-internet-to-test-its-chrome-ai-agents/",
+    "https://www.theverge.com/podcast/936445/sundar-pichai-ai-search-google-zero-youtube-web"
+   ],
+   "videos": []
   }
  ]
 }
