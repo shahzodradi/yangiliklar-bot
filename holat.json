@@ -377,7 +377,8 @@
   "https://www.theverge.com/ai-artificial-intelligence/1037151/school-districts-ditching-google": 1795060869.6064322,
   "https://www.cnet.com/tech/services-and-software/openai-chatgpt-astra-6-2-microsoft-ignite-news/": 1795060869.6064322,
   "https://memeburn.com/best-ai-image-to-video-generator/": 1795064755.821135,
-  "https://www.analyticsinsight.net/news/suno-brings-ai-music-videos-to-creators-with-new-visuals-feature-what-you-need-to-know": 1795064755.821135
+  "https://www.analyticsinsight.net/news/suno-brings-ai-music-videos-to-creators-with-new-visuals-feature-what-you-need-to-know": 1795064755.821135,
+  "https://kun.uz/news/2026/11/19/suniy-intellekt-yaratgan-film-xarajatini-ham-qoplay-olmadi-61301": 1795068068.706351
  },
  "fails": 0,
  "sent": [
@@ -1105,6 +1106,11 @@
    "t": 1795064755.821135,
    "title": "Suno Brings AI Music Videos to Creators with New Visuals Feature: What You Need to Know",
    "soha": "AI musiqa"
+  },
+  {
+   "t": 1795068068.706351,
+   "title": "Sunʼiy intellekt yaratgan film xarajatini ham qoplay olmadi",
+   "soha": "AI video"
   }
  ],
  "mavzu": {
@@ -3357,6 +3363,37 @@
     "https://www.analyticsinsight.net/news/suno-brings-ai-music-videos-to-creators-with-new-visuals-feature-what-you-need-to-know",
     "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit",
     "https://www.theverge.com/podcast/1029684/riaa-mitch-glazier-napster-ai-labels-music"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795068068.706351,
+   "title": "Sunʼiy intellekt yaratgan film xarajatini qoplay olmadi",
+   "text": "Xitoyda sunʼiy intellekt yordamida yaratilgan «Sansinduy: kelajak va ötmiş» töliq metrajli filmi kinoşabinlarga maʼqul kelmadi.",
+   "orig_title": "Sunʼiy intellekt yaratgan film xarajatini ham qoplay olmadi",
+   "link": "https://kun.uz/news/2026/11/19/suniy-intellekt-yaratgan-film-xarajatini-ham-qoplay-olmadi-61301",
+   "source": "kun.uz",
+   "soha": "AI video",
+   "baho": 10,
+   "experts": [
+    {
+     "kim": "Maykl Berri",
+     "lavozim": "universitet professori",
+     "fikr": "Aynan sunʼiy intellekt kontentining hamma joyda keng tarqalgani filmga salbiy taʼsir körsatgan bölişi mumkin. Köplab tomoşabinlar bunday videolarni smartfonda arzon kontent sifatida qabul qiladi.",
+     "url": "https://kun.uz/news/2026/11/19/suniy-intellekt-yaratgan-film-xarajatini-ham-qoplay-olmadi-61301",
+     "domain": "kun.uz"
+    }
+   ],
+   "effect": "Sunʼiy intellekt yordamida yaratilgan toliq metrajli filmlarning kinoprokatda muvaffaqiyatsizbikka uchrashi kinoijodkorlarning bu texnologiyaga bolgan yondashuvini ozgartirishi va kelgusida moliyaviy xatarlarni oshirishi mumkin.",
+   "image": "https://storage.kun.uz/source/1/-Smilff5G4aAN7pXZ3HSJblhbI9K16po.webp",
+   "domains": [
+    "kun.uz",
+    "yahoo.com"
+   ],
+   "urls": [
+    "https://kun.uz/news/2026/11/19/suniy-intellekt-yaratgan-film-xarajatini-ham-qoplay-olmadi-61301",
+    "https://www.yahoo.com/entertainment/movies/articles/china-first-ai-generated-film-184405359.html",
+    "https://www.yahoo.com/entertainment/movies/articles/china-box-office-once-upon-062719844.html"
    ],
    "videos": []
   }
