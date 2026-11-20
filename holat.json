@@ -1,11 +1,5 @@
 {
  "seen": {
-  "https://the-decoder.com/nvidias-model-gr00t-2-watches-humans-on-video-then-imagines-itself-as-the-robot/": 1794337472.488967,
-  "https://the-decoder.com/gemini-4-carbon-arrives-just-in-time-to-feel-like-yesterdays-news-in-the-fastest-model-cycle-yet/": 1794337472.488967,
-  "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/": 1794337472.488967,
-  "https://www.theverge.com/ai-artificial-intelligence/1030703/anthropic-ipo-1-4-trillion": 1794337472.488967,
-  "https://techcrunch.com/2026/11/10/ring-known-for-its-doorbell-cameras-launches-a-home-security-drone-and-an-enterprise-security-robot/": 1794337472.488967,
-  "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/": 1794337472.488967,
   "https://the-decoder.com/openai-turns-chatgpt-into-a-business-directory-with-ai-agents-that-handle-customer-questions/": 1794366541.3395271,
   "https://the-decoder.com/anthropic-turns-claude-into-a-full-workspace-with-plugins-spreadsheets-whiteboards-and-soon-meeting-notes/": 1794366541.3395271,
   "https://www.theverge.com/games/1030994/big-walk-independent-games-festival-igf-ai": 1794366541.3395271,
@@ -407,45 +401,15 @@
   "https://ru.apa.az/ikt/bekzod-muminov-oon-yunesko-i-mse-dolzny-igrat-vaznuyu-rol-v-mezdunarodnom-dialoge-v-sfere-iskusstvennogo-intellekta-685256": 1795187202.6255264,
   "https://the-decoder.com/nvidia-bets-at-least-500-million-on-inceptions-diffusion-models-to-strengthen-its-open-source-nemotron-lineup/": 1795187202.6255264,
   "https://www.wired.com/story/muse-is-unleashing-a-world-of-pettiness-on-instagram/": 1795187202.6255264,
-  "https://www.analyticsinsight.net/artificial-intelligence/the-prototype-that-helped-bring-ai-translation-to-facebook-and-instagram": 1795187202.6255264
+  "https://www.analyticsinsight.net/artificial-intelligence/the-prototype-that-helped-bring-ai-translation-to-facebook-and-instagram": 1795187202.6255264,
+  "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem": 1795201597.9731865,
+  "https://the-decoder.com/bloomberg-analysis-of-10-million-job-postings-shows-ai-exposed-roles-in-china-fell-10-percentage-points-faster-than-others/": 1795201597.9731865,
+  "https://the-decoder.com/googles-gemini-can-now-run-mac-apps-and-finish-desktop-chores-in-the-background-while-you-keep-working/": 1795201597.9731865,
+  "https://the-decoder.com/apple-joins-the-race-for-ai-agents-that-control-your-device-while-raising-new-barriers-for-competitors/": 1795201597.9731865,
+  "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax": 1795201597.9731865
  },
- "fails": 3,
+ "fails": 0,
  "sent": [
-  {
-   "t": 1794855913.0818884,
-   "title": "From the virtual to the sacramental: Hackathon in Rome reimagines parish life in age of AI",
-   "soha": "AI tanlov"
-  },
-  {
-   "t": 1794855913.0818884,
-   "title": "Flova Introduces AI Animation Generator That Turns Text or Images into Animated Video",
-   "soha": "AI video"
-  },
-  {
-   "t": 1794855913.0818884,
-   "title": "Moonshot AI pivots Kimi models from coding to science as benchmark gains flatten",
-   "soha": "AI"
-  },
-  {
-   "t": 1794855913.0818884,
-   "title": "OpenAI will embed safety researchers to investigate AI subversion",
-   "soha": "AI"
-  },
-  {
-   "t": 1794855913.0818884,
-   "title": "US tightens AI chip export controls to deter Chinese companies from accessing compute remotely",
-   "soha": "AI"
-  },
-  {
-   "t": 1794855913.0818884,
-   "title": "Universal Music v. Suno II intensifies amid discovery sub-dispute",
-   "soha": "AI musiqa"
-  },
-  {
-   "t": 1794855913.0818884,
-   "title": "The King’s Trust and OpenAI launch £1m partnership",
-   "soha": "AI"
-  },
   {
    "t": 1794884577.3722079,
    "title": "Afreximbank Names Nine AI Contest Winners",
@@ -1504,6 +1468,31 @@
   {
    "t": 1795187202.6255264,
    "title": "The Prototype That Helped Bring AI Translation to Facebook and Instagram",
+   "soha": "AI"
+  },
+  {
+   "t": 1795201597.9731865,
+   "title": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude",
+   "soha": "AI"
+  },
+  {
+   "t": 1795201597.9731865,
+   "title": "Bloomberg analysis of 10 million job postings shows AI-exposed roles in China fell 10 percentage points faster than others",
+   "soha": "AI"
+  },
+  {
+   "t": 1795201597.9731865,
+   "title": "Google's Gemini can now run Mac apps and finish desktop chores in the background while you keep working",
+   "soha": "AI"
+  },
+  {
+   "t": 1795201597.9731865,
+   "title": "Apple joins the race for AI agents that control your device while raising new barriers for competitors",
+   "soha": "AI"
+  },
+  {
+   "t": 1795201597.9731865,
+   "title": "Trump threatens ‘tremendous tax’ for moving AI data centers outside the US",
    "soha": "AI"
   }
  ],
@@ -4237,6 +4226,121 @@
    "domains": [],
    "urls": [],
    "videos": []
+  },
+  {
+   "t": 1795201597.9731865,
+   "title": "Antropic matematigi Claude yordamida Riman gipotezasini yechganini da'vo qilmoqda",
+   "text": "Anthropic kompaniyasi matematigi Levent Alpöge o'nlab yillar davomida yechilmay kelingan Riman gipotezasini Claude yordamida isbotlaganini ma'lum qildi.",
+   "orig_title": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+   "source": "The Verge AI",
+   "soha": "AI",
+   "baho": 10,
+   "experts": [],
+   "effect": "Bu yutuq mustaqil tekshiruvdan o'tsa, sun'iy intellektning matematika fanidagi imkoniyatlarini yanada kengaytirishi hamda murakkab ilmiy muammolarni yechishda raqamli vositalarning o'rnini oshirishi mumkin.",
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2305894185.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+   "domains": [
+    "theverge.com",
+    "tech.yahoo.com"
+   ],
+   "urls": [
+    "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+    "https://tech.yahoo.com/ai/claude/articles/anthropic-researcher-says-claude-solved-172553925.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795201597.9731865,
+   "title": "Xitoyda sun'iy intellekt ta'siridagi ish o'rinlari tezroq qisqarmoqda",
+   "text": "Bloomberg tahliliga ko'ra, Xitoyda AI sababli ijodiy va boshlang'ich darajadagi bo'sh ish o'rinlari tezroq kamaymoqda, mamlakatdagi qisqa metrajli dramalarning 90% dan ortig'i sun'iy intellekt yordamida yaratilmoqda.",
+   "orig_title": "Bloomberg analysis of 10 million job postings shows AI-exposed roles in China fell 10 percentage points faster than others",
+   "link": "https://the-decoder.com/bloomberg-analysis-of-10-million-job-postings-shows-ai-exposed-roles-in-china-fell-10-percentage-points-faster-than-others/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 9,
+   "experts": [],
+   "effect": "Sun'iy intellekt ta'siridagi ish o'rinlarining qisqarishi boshlang'ich bosqichdagi xodimlar hamda ijodiy soha vakillari uchun mehnat bozoridagi raqobatni kuchaytirishi ehtimoli bor.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/08/china_flag_visual-1.png",
+   "domains": [
+    "the-decoder.com",
+    "forbes.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/bloomberg-analysis-of-10-million-job-postings-shows-ai-exposed-roles-in-china-fell-10-percentage-points-faster-than-others/",
+    "https://www.forbes.com/connect/event/2026-forbes-iconoclast-summit/"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795201597.9731865,
+   "title": "Google Gemini Mac ilovalarini boshqarish imkoniyatiga ega bo'ldi",
+   "text": "Google Gemini uchun \"Computer Use\" funksiyasini taqdim etdi, bu foydalanuvchilarga ish jarayonida fonda turib Mac ilovalari, fayllari va veb-saytlarini boshqarish imkonini beradi.",
+   "orig_title": "Google's Gemini can now run Mac apps and finish desktop chores in the background while you keep working",
+   "link": "https://the-decoder.com/googles-gemini-can-now-run-mac-apps-and-finish-desktop-chores-in-the-background-while-you-keep-working/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Foydalanuvchilar o'z kompyuterlarida boshqa ishlar bilan band bo'lgan paytda ham sun'iy intellekt murakkab vazifalarni fon rejimida bajarib berishi ish unumdorligini oshirishi mumkin.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/09/gemini_blue.png",
+   "domains": [
+    "the-decoder.com",
+    "theverge.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/googles-gemini-can-now-run-mac-apps-and-finish-desktop-chores-in-the-background-while-you-keep-working/",
+    "https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795201597.9731865,
+   "title": "Apple ham o'z qurilmalarini boshqaruvchi sun'iy intellekt agentini yaratmoqda",
+   "text": "Meta, OpenAI, Anthropic va Googledan keyin Apple ham o'z qurilmalarini boshqaruvchi sun'iy intellekt agentini ishlab chiqishni boshladi.",
+   "orig_title": "Apple joins the race for AI agents that control your device while raising new barriers for competitors",
+   "link": "https://the-decoder.com/apple-joins-the-race-for-ai-agents-that-control-your-device-while-raising-new-barriers-for-competitors/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Apple kompaniyasining o'z qurilmalarida raqobatchi agentlar uchun cheklovlar o'rnatishi boshqa kompaniyalarning sun'iy intellekt xizmatlarini rivojlantirishini sekinlashtirishi mumkin.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/07/apple_logo_neon_green.png",
+   "domains": [
+    "the-decoder.com",
+    "tech.yahoo.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/apple-joins-the-race-for-ai-agents-that-control-your-device-while-raising-new-barriers-for-competitors/",
+    "https://tech.yahoo.com/ai/apple-intelligence/articles/apple-develops-ai-agent-control-160700103.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795201597.9731865,
+   "title": "AQShda sun'iy intellekt ma'lumotlar markazlari uchun yuqori soliq joriy etilishi mumkin",
+   "text": "Prezident Donald Trump ma'lumotlar markazlarini AQShdan tashqarida quradigan kompaniyalarga ulkan soliq solish bilan tahdid qildi.",
+   "orig_title": "Trump threatens ‘tremendous tax’ for moving AI data centers outside the US",
+   "link": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
+   "source": "The Verge AI",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Ma'lumotlar markazlarini AQShdan tashqarida qurishga solinadigan soliqlar kompaniyalarning xarajatlarini oshirib, global miqyosdagi infratuzilma loyihalariga ta'sir ko'rsatishi mumkin.",
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/STK466_ELECTION_2024_CVirginia_E.jpg?quality=90&strip=all&crop=0%2C9.9676601489831%2C100%2C80.064679702034&w=1200",
+   "domains": [
+    "theverge.com",
+    "yahoo.com"
+   ],
+   "urls": [
+    "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
+    "https://www.yahoo.com/news/politics/articles/trump-says-us-penalize-firms-180803711.html"
+   ],
+   "videos": [
+    [
+     "https://www.youtube.com/watch?v=VD-KP5xTESY",
+     "YouTube"
+    ]
+   ]
   }
  ]
 }
