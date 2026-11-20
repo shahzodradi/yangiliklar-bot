@@ -1,12 +1,5 @@
 {
  "seen": {
-  "https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/": 1794322959.1546466,
-  "https://www.foxbusiness.com/technology/adobe-google-broaden-ai-partnership-across-creative-workplace-apps": 1794322959.1546466,
-  "https://the-decoder.com/anthropics-fable-5-2-completes-41-percent-of-real-freelance-jobs-up-from-2-5-percent-a-year-ago/": 1794322959.1546466,
-  "https://techcrunch.com/2026/11/10/spotifys-ai-dj-gets-new-voices-personalities-and-an-option-for-less-chatter/": 1794322959.1546466,
-  "https://techcrunch.com/2026/11/10/after-challenging-googles-android-with-cyanogen-its-co-founder-takes-aim-at-windows-for-ai-era/": 1794322959.1546466,
-  "https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/": 1794322959.1546466,
-  "https://techcrunch.com/2026/11/09/otter-ai-can-now-follow-conversations-across-30-languages/": 1794322959.1546466,
   "https://www.msn.com/en-in/news/other/adobe-firefly-gets-new-ai-powered-tools-agentic-capabilities-and-other-features-check-all-updates/ar-AA2h9urt": 1794326607.452162,
   "https://thenextweb.com/news/adobe-firefly-creative-agent-plan-mode-model-selector": 1794326607.452162,
   "https://www.musicbusinessworldwide.com/elvis-presleys-rightsholders-and-other-song-owners-sue-suno-for-more-than-202m-alleging-its-ai-imitates-the-kings-voice-eight-mile-style-has-filed-a-separate-47-7m-suit-over-269/": 1794326607.452162,
@@ -424,15 +417,14 @@
   "https://www.ozodlik.org/a/central-asia-ai-race-data-centers-/33902523.html": 1795180243.5463223,
   "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app": 1795180243.5463223,
   "https://www.entrepreneur.com/business-news/tech/expanding-possibilities-how-adobe-is-powering-a-new-era-of-creativity": 1795183334.803022,
-  "https://the-decoder.com/googles-latest-homepage-update-pushes-its-search-engine-further-toward-an-ai-answer-engine/": 1795183334.803022
+  "https://the-decoder.com/googles-latest-homepage-update-pushes-its-search-engine-further-toward-an-ai-answer-engine/": 1795183334.803022,
+  "https://ru.apa.az/ikt/bekzod-muminov-oon-yunesko-i-mse-dolzny-igrat-vaznuyu-rol-v-mezdunarodnom-dialoge-v-sfere-iskusstvennogo-intellekta-685256": 1795187202.6255264,
+  "https://the-decoder.com/nvidia-bets-at-least-500-million-on-inceptions-diffusion-models-to-strengthen-its-open-source-nemotron-lineup/": 1795187202.6255264,
+  "https://www.wired.com/story/muse-is-unleashing-a-world-of-pettiness-on-instagram/": 1795187202.6255264,
+  "https://www.analyticsinsight.net/artificial-intelligence/the-prototype-that-helped-bring-ai-translation-to-facebook-and-instagram": 1795187202.6255264
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1794841559.0184994,
-   "title": "The day AI music claimed the nation's top spot",
-   "soha": "AI musiqa"
-  },
   {
    "t": 1794848685.9660392,
    "title": "A Mother’s Escape From the Paradise Fire Inspires Santa Fe AI Hackathon",
@@ -1527,6 +1519,26 @@
    "t": 1795183334.803022,
    "title": "Google's latest homepage update pushes its search engine further toward an AI answer engine",
    "soha": "AI"
+  },
+  {
+   "t": 1795187202.6255264,
+   "title": "Бекзод Муминов: ООН, ЮНЕСКО и МСЭ должны играть важную роль в международном диалоге в сфере ...",
+   "soha": "AI O'zbekiston"
+  },
+  {
+   "t": 1795187202.6255264,
+   "title": "Nvidia bets at least $500 million on Inception's diffusion models to strengthen its open-source Nemotron lineup",
+   "soha": "AI"
+  },
+  {
+   "t": 1795187202.6255264,
+   "title": "Muse Is Unleashing a World of Pettiness on Instagram",
+   "soha": "AI"
+  },
+  {
+   "t": 1795187202.6255264,
+   "title": "The Prototype That Helped Bring AI Translation to Facebook and Instagram",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -1534,54 +1546,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1795014399.3249671,
-   "title": "O‘zbekistonning aqlli shaharlari: COP31 da sun’iy intellekt taklif etildi",
-   "text": "Antaliyadagi COP31 konferensiyasida shahar ekologiyasini yaxshilash va chiqindilarni kamaytirish uchun sun’iy intellekt texnologiyalaridan foydalanish taklif etildi.",
-   "orig_title": "Ŏzbekistonning aqlli şähärläri: COP31 doirasida çiqindilar va energiya iste’molini kamaytiriş uçun sun’iy intellektdan foydalanish taklif etildi",
-   "link": "https://www.uzdaily.uz/uz/%C5%8Fzbekistonning-aqlli-%C5%9F%C3%A4h%C3%A4rl%C3%A4ri-cop31-doirasida-%C3%A7iqindilar-va-energiya-istemolini-kamaytiri%C5%9F-u%C3%A7un-suniy-intellektdan-foydalanish-taklif-etildi/",
-   "source": "uzdaily.uz",
-   "soha": "AI O'zbekiston",
-   "baho": 10,
-   "experts": [],
-   "effect": null,
-   "image": "https://www.uzdaily.uz/media/filer_public/02/fc/02fc2260-e922-4b09-a4c8-94fbfda37998/cop31antalya_20261110182725.webp",
-   "domains": [],
-   "urls": [],
-   "videos": []
-  },
-  {
-   "t": 1795014399.3249671,
-   "title": "KPMG audit jarayonida sun’iy intellekt agentlarini sinovdan o‘tkazdi",
-   "text": "KPMG kompaniyasi audit jarayonida 100 dan ortiq sun’iy intellekt agentlarini ishga tushirdi va botlar ba’zi savollar bo‘yicha chuqurroq tahlil o‘tkazganini aniqladi.",
-   "orig_title": "KPMG's \"Project Exponential\" put AI agents alongside a real audit team and found the bots dug deeper on individual questions",
-   "link": "https://the-decoder.com/kpmgs-project-exponential-put-ai-agents-alongside-a-real-audit-team-and-found-the-bots-dug-deeper-on-individual-questions/",
-   "source": "The Decoder",
-   "soha": "AI",
-   "baho": 9,
-   "experts": [],
-   "effect": null,
-   "image": "https://the-decoder.com/wp-content/uploads/2026/11/KPMG-Audit-Agents-1200x670.png",
-   "domains": [],
-   "urls": [],
-   "videos": []
-  },
-  {
-   "t": 1795014399.3249671,
-   "title": "OpenAI o‘z tizimlarini mustaqil auditorlarga ochdi",
-   "text": "OpenAI xavfsizlik bo‘shliqlarini aniqlash maqsadida Apollo Research va METR kabi to‘rtta mustaqil tashkilotga chiqarilmagan modellar va manba kodiga to‘g‘ridan-to‘g‘ri kirish huquqini berdi.",
-   "orig_title": "OpenAI opens its AI systems to four independent on-site auditors for the first time",
-   "link": "https://the-decoder.com/openai-opens-its-ai-systems-to-four-independent-on-site-auditors-for-the-first-time/",
-   "source": "The Decoder",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": null,
-   "image": "https://the-decoder.com/wp-content/uploads/2026/10/openai_logo-1.png",
-   "domains": [],
-   "urls": [],
-   "videos": []
-  },
   {
    "t": 1795017767.9373405,
    "title": "AI modellarining harbiy maqsadlarda foydalanish xavfi",
@@ -4279,6 +4243,87 @@
      "X"
     ]
    ]
+  },
+  {
+   "t": 1795187202.6255264,
+   "title": "O‘zbekiston vakili BMT va xalqaro tashkilotlarni SI muloqotiga chaqirdi",
+   "text": "O‘zbekistonlik mutaxassis Bekzod Mo‘minov xalqaro jarayonlarni tahlil qilishda SI muhimligini aytib, BMT, YuNESKO va XEI bu sohadagi muloqotda asosiy rol o‘ynashi kerakligini bildirdi.",
+   "orig_title": "Бекзод Муминов: ООН, ЮНЕСКО и МСЭ должны играть важную роль в международном диалоге в сфере ...",
+   "link": "https://ru.apa.az/ikt/bekzod-muminov-oon-yunesko-i-mse-dolzny-igrat-vaznuyu-rol-v-mezdunarodnom-dialoge-v-sfere-iskusstvennogo-intellekta-685256",
+   "source": "ru.apa.az",
+   "soha": "AI O'zbekiston",
+   "baho": 7,
+   "experts": [],
+   "effect": null,
+   "image": "https://ru.apa.az/storage/news/2026/november/19/big/6afeb0b597ed36afeb0b597ed417950762776afeb0b597ed16afeb0b597ed2.jpg",
+   "domains": [],
+   "urls": [],
+   "videos": []
+  },
+  {
+   "t": 1795187202.6255264,
+   "title": "Nvidia Inception startapini 500 million dollarga sotib olmoqda",
+   "text": "Nvidia diffuzion til modellarini ishlab chiquvchi Inception startapini kamida 500 million dollarga sotib olish arafasida. Kelishuv ochiq kodli Nemotron modellar qatorini kuchaytirishga qaratilgan.",
+   "orig_title": "Nvidia bets at least $500 million on Inception's diffusion models to strengthen its open-source Nemotron lineup",
+   "link": "https://the-decoder.com/nvidia-bets-at-least-500-million-on-inceptions-diffusion-models-to-strengthen-its-open-source-nemotron-lineup/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": null,
+   "image": "https://the-decoder.com/wp-content/uploads/2026/10/inception.png",
+   "domains": [],
+   "urls": [],
+   "videos": []
+  },
+  {
+   "t": 1795187202.6255264,
+   "title": "Meta Muse yordamchisiga Instagram’da obunachilarni tekshirish funksiyasi kirdi",
+   "text": "Meta’ning Muse sun’iy intellekt assistenti Instagram’da qayta obuna bo‘lmagan foydalanuvchilarni kuzatish va ulardan obunani bekor qilish imkoniyatini taqdim etmoqda.",
+   "orig_title": "Muse Is Unleashing a World of Pettiness on Instagram",
+   "link": "https://www.wired.com/story/muse-is-unleashing-a-world-of-pettiness-on-instagram/",
+   "source": "Wired AI",
+   "soha": "AI",
+   "baho": 6,
+   "experts": [],
+   "effect": null,
+   "image": "https://media.wired.com/photos/6aff9abb37d7793ac7889730/191:100/w_1280,c_limit/Meta-Muse-Pettiness-Culture.jpg",
+   "domains": [],
+   "urls": [],
+   "videos": [
+    [
+     "https://x.com/JudasAffiliated/status/2119239810854302012",
+     "X"
+    ],
+    [
+     "https://x.com/justdrmj/status/2118738237170831635",
+     "X"
+    ],
+    [
+     "https://x.com/_Mark__MyWords/status/2118801864200511616",
+     "X"
+    ],
+    [
+     "https://x.com/Jeremiyahhh/status/2119231687385354406",
+     "X"
+    ]
+   ]
+  },
+  {
+   "t": 1795187202.6255264,
+   "title": "Meta Facebook va Instagram uchun sun’iy intellektli tarjimani qanday yaratdi",
+   "text": "Facebook va Instagram’ga generativ SI tarjima funksiyalarini joriy etishga yordam bergan ilk prototiplar va mahsulot dizaynerlarining dastlabki ishlanmalari haqida ma’lumot berildi.",
+   "orig_title": "The Prototype That Helped Bring AI Translation to Facebook and Instagram",
+   "link": "https://www.analyticsinsight.net/artificial-intelligence/the-prototype-that-helped-bring-ai-translation-to-facebook-and-instagram",
+   "source": "analyticsinsight.net",
+   "soha": "AI",
+   "baho": 5,
+   "experts": [],
+   "effect": null,
+   "image": "https://media.assettype.com/analyticsinsight%2F2026-11-17%2Fg348mg0r%2FThano-Sipsis-Meta-AI-translation?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+   "domains": [],
+   "urls": [],
+   "videos": []
   }
  ]
 }
