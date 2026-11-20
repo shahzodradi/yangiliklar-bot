@@ -1,7 +1,5 @@
 {
  "seen": {
-  "https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/": 1794315958.6113648,
-  "https://the-decoder.com/anthropic-kicks-off-ipo-roadshow-offering-shares-at-70-to-78-and-targeting-a-trillion-dollar-valuation/": 1794315958.6113648,
   "https://the-decoder.com/eight-countries-and-top-ai-labs-agree-to-shutdown-mechanisms-in-new-paris-declaration/": 1794319257.5646298,
   "https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/": 1794322959.1546466,
   "https://www.foxbusiness.com/technology/adobe-google-broaden-ai-partnership-across-creative-workplace-apps": 1794322959.1546466,
@@ -423,7 +421,9 @@
   "https://www.tech-critter.com/alibaba-cloud-malaysia-ai-investment-qwen-conference-2026/": 1795176101.1063173,
   "https://zamin.uz/en/technology/227628-how-can-uzbekistan-become-a-regional-it-hub-key-achievements-and-challenges.html": 1795176101.1063173,
   "https://www.msn.com/en-in/news/other/how-to-create-gta-style-images-using-gemini-and-other-ai-tools/ar-AA2hLjUm": 1795176101.1063173,
-  "https://www.msn.com/en-in/news/other/gta-style-photo-is-just-one-ai-prompt-away-heres-how-to-create-yours/ar-AA2hQJLI": 1795176101.1063173
+  "https://www.msn.com/en-in/news/other/gta-style-photo-is-just-one-ai-prompt-away-heres-how-to-create-yours/ar-AA2hQJLI": 1795176101.1063173,
+  "https://www.ozodlik.org/a/central-asia-ai-race-data-centers-/33902523.html": 1795180243.5463223,
+  "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app": 1795180243.5463223
  },
  "fails": 0,
  "sent": [
@@ -1506,6 +1506,16 @@
    "t": 1795176101.1063173,
    "title": "GTA-style photo is just one AI prompt away: Here's how to create yours",
    "soha": "AI rasm"
+  },
+  {
+   "t": 1795180243.5463223,
+   "title": "Markaziy Osiyoda sun’iy intellekt poygasi: imkoniyatlar va tahdidlar",
+   "soha": "AI O'zbekiston"
+  },
+  {
+   "t": 1795180243.5463223,
+   "title": "Signal is blocking Gemini and Siri AI from reading your screen",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -1513,30 +1523,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1795007185.7900019,
-   "title": "Unsiloed AI korxona hujjatlari bilan ishlash uchun 7.5 million dollar mablag‘ jalb qildi",
-   "text": "Yetti kishilik jamoadan iborat Unsiloed AI startapi sun’iy intellekt agentlari uchun korxona hujjatlarini foydalanishga qulay qilish maqsadida 7.5 million dollar investitsiya to‘pladi.",
-   "orig_title": "Felicis leads $7.5M bet on Unsiloed AI to make enterprise documents usable by AI agents",
-   "link": "https://techcrunch.com/2026/11/18/felicis-leads-7-5m-bet-on-unsiloed-ai-to-make-enterprise-documents-usable-by-ai-agents/",
-   "source": "TechCrunch AI",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Kompaniyalar murakkab hujjatlarni avtomatlashtirishda tezlikni oshirishi va xatolarni kamaytirishi mumkin. Raqobat kuchayib, sun'iy intellekt agentlari uchun ma'lumotlarni qayta ishlash xizmatlari yanada ommalashishi ehtimoli bor.",
-   "image": "https://techcrunch.com/wp-content/uploads/2026/11/unsiloed-AI-founders-adnan-abbas-aman-mishra.jpg?resize=1200,800",
-   "domains": [
-    "techcrunch.com",
-    "businessinsider.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://techcrunch.com/2026/11/18/felicis-leads-7-5m-bet-on-unsiloed-ai-to-make-enterprise-documents-usable-by-ai-agents/",
-    "https://www.businessinsider.com/zeroset-startup-funding-ai-agents-gradient-ventures-enterprise-2026-10",
-    "https://finance.yahoo.com/technology/ai/articles/twin1-ai-raises-20-million-140000905.html"
-   ],
-   "videos": []
-  },
   {
    "t": 1795010502.875698,
    "title": "Suno sun'iy intellekt musiqalari uchun video yaratish funksiyasini qo'shdi",
@@ -4200,6 +4186,62 @@
    "urls": [
     "https://www.wired.com/story/uncanny-valley-podcast-whats-with-all-these-outages/",
     "https://www.theguardian.com/media/2026/oct/19/no-influencers-hotels-restaurants-beauty-spots-restricting-photoshoots"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795180243.5463223,
+   "title": "Markaziy Osiyoda sun’iy intellekt poygasi",
+   "text": "Markaziy Osiyo hukumatlari global sun’iy intellekt markaziga aylanish uchun kurashmoqda, ammo mutaxassislar moliyalashtirish va shaffoflik muammolarini ta'kidlamoqda.",
+   "orig_title": "Markaziy Osiyoda sun’iy intellekt poygasi: imkoniyatlar va tahdidlar",
+   "link": "https://www.ozodlik.org/a/central-asia-ai-race-data-centers-/33902523.html",
+   "source": "ozodlik.org",
+   "soha": "AI O'zbekiston",
+   "baho": 10,
+   "experts": [
+    {
+     "kim": "Grace Yuehan Wang",
+     "lavozim": "kompaniya rahbari va olim",
+     "fikr": "Mintaqa davlatlari yaqin kelajakda suniy intellekt poygasida yetakchilik qilishi dargumon, chunki raqamli infratuzilma va yuqori malakali kadrlar yetishmaydi.",
+     "url": "https://www.cnbc.com/2024/12/14/southeast-asian-nations-battle-to-become-the-regions-top-ai-hub.html",
+     "domain": "cnbc.com"
+    }
+   ],
+   "effect": "Markaziy Osiyoda yirik ma'lumotlar markazlarining qurilishi mintaqani hisoblash quvvatining yirik eksportchisiga aylantirishi hamda mahalliy kompaniyalarga yangi imkoniyatlar ochishi mumkin. Biroq elektr taqchilligi va moliyalashtirishdagi shaffoflik yo'qligi jiddiy xatarlarni keltirib chiqarishi ehtimoli bor.",
+   "image": "https://gdb.rferl.org/7544f38d-fe89-413d-e780-08df13afe2a0_cx0_cy10_cw0_w1200_h630.jpg",
+   "domains": [
+    "ozodlik.org",
+    "bbc.com",
+    "cnbc.com"
+   ],
+   "urls": [
+    "https://www.ozodlik.org/a/central-asia-ai-race-data-centers-/33902523.html",
+    "https://www.bbc.com/travel/article/20261111-the-20-best-places-to-travel-in-2027?shem=aimgspe,i3ppac",
+    "https://www.cnbc.com/2024/12/14/southeast-asian-nations-battle-to-become-the-regions-top-ai-hub.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795180243.5463223,
+   "title": "Signal bloks AI agents from reading screen data",
+   "text": "Signal restricts screenshots on Android and iOS to prevent AI agents from reading user messages and private data.",
+   "orig_title": "Signal is blocking Gemini and Siri AI from reading your screen",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
+   "source": "The Verge AI",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Signal ilovasining skrinshotlarni va suniy intellekt agentlarining ekrandagi ma'lumotlarni o'qishini bloklashi foydalanuvchilarning maxfiyligini kuchaytirishi mumkin. Operatsion tizim darajasida maxfiylik vositalarining yetishmasligi esa ilova ishlab chiquvchilariga qo'shimcha qiyinchiliklar tug'dirishi ehtimoli bor.",
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/protecting-your-privacy-1.png?quality=90&strip=all&crop=0%2C3.8035109331691%2C100%2C92.392978133662&w=1200",
+   "domains": [
+    "theverge.com",
+    "businessinsider.com",
+    "techcrunch.com"
+   ],
+   "urls": [
+    "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
+    "https://www.businessinsider.com/google-unveils-gemini-enterprise-for-legal-law-tech-push-2026-8",
+    "https://techcrunch.com/2026/09/14/with-ios-27-im-actually-using-siri-again/"
    ],
    "videos": []
   }
