@@ -1,7 +1,5 @@
 {
  "seen": {
-  "https://campaignbrief.com/tbwaaustralias-disrupt-ai-film-festival-returns-with-record-entries-expanded-2026-programme/": 1794294173.5031517,
-  "https://au.pcmag.com/video-editing/120829/adobe-firefly-text-to-video-guide-how-to-generate-ai-video-animate-still-images-and-extend-clips-in": 1794294173.5031517,
   "https://english.news.cn/20261110/34eb3a8213674d9fb7be705cc4cfb911/c.html": 1794297683.2016978,
   "https://www.msn.com/en-us/money/general/elvis-rights-holders-and-eminem-s-publisher-sue-suno-testing-the-elvis-act/ar-AA2h5oua": 1794303444.248303,
   "https://www.dispatch.com/press-release/story/265381/the-2026-boston-silicon-valley-ai-film-festival-11-awards-and-the-convergence-of-ai-filmmaking/": 1794312099.5438285,
@@ -409,20 +407,12 @@
   "https://the-decoder.com/openais-own-researchers-now-say-they-value-their-ai-tools-more-than-nearly-half-their-colleagues/": 1795150996.1960669,
   "https://www.gazeta.uz/oz/2026/11/20/uzbek-words/": 1795154476.520971,
   "https://www.okayafrica.com/the-ai-music-revolution-is-getting-stranger-by-the-day/1442058": 1795154476.520971,
-  "https://www.msn.com/en-in/news/other/adobe-firefly-expands-on-ai-audio-generation-tool-with-new-features/ar-AA2hH6KL": 1795154476.520971
+  "https://www.msn.com/en-in/news/other/adobe-firefly-expands-on-ai-audio-generation-tool-with-new-features/ar-AA2hH6KL": 1795154476.520971,
+  "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing": 1795158402.4482796,
+  "https://techcrunch.com/2026/11/19/superhuman-pushes-its-go-assistant-everywhere/": 1795158402.4482796
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1794808920.9056406,
-   "title": "Our new blog for science",
-   "soha": "AI"
-  },
-  {
-   "t": 1794808920.9056406,
-   "title": "Is bad news for Jensen Huang also bad news for the AI industry?",
-   "soha": "AI"
-  },
   {
    "t": 1794820155.7761018,
    "title": "Helsing backer Plural raises $1.1B to fund Europe’s next moonshots",
@@ -1412,6 +1402,16 @@
    "t": 1795154476.520971,
    "title": "Adobe Firefly expands on AI audio generation tool with new features",
    "soha": "AI video"
+  },
+  {
+   "t": 1795158402.4482796,
+   "title": "Apple is hiring engineers to build its own AI agent",
+   "soha": "AI"
+  },
+  {
+   "t": 1795158402.4482796,
+   "title": "Superhuman pushes its Go assistant everywhere",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -1419,265 +1419,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1794981707.3867803,
-   "title": "O‘zbekiston soliq xizmatida sun’iy intellekt joriy etilmoqda",
-   "text": "O‘zbekiston soliq xizmati ishiga sun’iy intellekt texnologiyalari joriy etilib, fuqarolar o‘z takliflarini maxsus Telegram-bot orqali yuborishlari mumkin bo‘ldi.",
-   "orig_title": "В Узбекистане внедряют искусственный интеллект в работу налоговой службы через новый бот",
-   "link": "https://www.pravda.ru/news/world/2444132-uzbekistan-tax-reform-bot/",
-   "source": "pravda.ru",
-   "soha": "AI O'zbekiston",
-   "baho": 10,
-   "experts": [],
-   "effect": "Soliq ma'muratchiligiga sun'iy intellektning joriy etilishi kelgusida fuqarolar va biznes uchun davlat organlari bilan o'zaro munosabatlarni optimallashtirish hamda qonunchilikni takomillashtirish imkonini berishi mumkin.",
-   "image": "https://img.pravda.ru/image/preview/article/1/3/2/2444132_amp.jpeg",
-   "domains": [
-    "pravda.ru",
-    "cnbc.com"
-   ],
-   "urls": [
-    "https://www.pravda.ru/news/world/2444132-uzbekistan-tax-reform-bot/",
-    "https://www.cnbc.com/select/best-tax-software-for-small-businesses/"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794981707.3867803,
-   "title": "BMT O‘zbekistonda sun’iy intellekt va energetika xavfini muhokama qildi",
-   "text": "BMT sun’iy intellektning rivojlanishi elektr energiyasi va suv iste’molini oshirib, O‘zbekiston infratuzilmasiga qo‘shimcha yuklama yaratishini ta’kidladi.",
-   "orig_title": "ИИ и энергетика Узбекистана: ООН призвала учитывать экологические риски дата-центров",
-   "link": "https://www.uzdaily.uz/ru/ii-i-energetika-uzbekistana-oon-prizvala-uchityvat-ekologicheskie-riski-data-tsentrov/",
-   "source": "uzdaily.uz",
-   "soha": "AI O'zbekiston",
-   "baho": 10,
-   "experts": [],
-   "effect": "Ma'lumotlar markazlarining jadal rivojlanishi energiya va suv resurslariga qo'shimcha yuklama tug'dirib, kelgusida ekologik xavflarni kuchaytirishi hamda iste'molchilar uchun xarajatlarning oshishiga olib kelishi mumkin.",
-   "image": "https://www.uzdaily.uz/media/filer_public/7a/d3/7ad36b1c-a95c-4e53-b02d-2a8973b928b6/unccsimonstiell_20261116111404.webp",
-   "domains": [
-    "uzdaily.uz",
-    "businessinsider.com"
-   ],
-   "urls": [
-    "https://www.uzdaily.uz/ru/ii-i-energetika-uzbekistana-oon-prizvala-uchityvat-ekologicheskie-riski-data-tsentrov/",
-    "https://www.businessinsider.com/where-every-us-governor-stands-ai-data-centers-midterms-2026-10"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794981707.3867803,
-   "title": "OpenAI yangi GPT-6.2 modellarini taqdim etdi",
-   "text": "OpenAI kompaniyasi pullik foydalanuvchilar uchun ChatGPT-6.2 Astra va ChatGPT-6.2 Sol yangi modellarini chiqarishini e’lon qildi.",
-   "orig_title": "OpenAI just launched GPT-6.2, and it's come a long way from writing emails",
-   "link": "https://www.msn.com/en-us/technology/artificial-intelligence/openai-just-launched-gpt-6-2-and-it-s-come-a-long-way-from-writing-emails/ar-AA2hDNu9",
-   "source": "msn.com",
-   "soha": "AI",
-   "baho": 9,
-   "experts": [],
-   "effect": "Yangi avlod sun'iy intellekt modellarining taqdim etilishi matnlar yaratish, hujjatlar va dasturlash jarayonlarini yanada avtomatlashtirib, foydalanuvchilarning kundalik vazifalarini bajarish samaradorligini oshirishi mumkin.",
-   "image": null,
-   "domains": [
-    "theverge.com"
-   ],
-   "urls": [
-    "https://www.theverge.com/tech/1035483/openai-releases-its-updated-gpt-6-2-astra-model"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794981707.3867803,
-   "title": "Adobe Creative Cloud va Firefly dasturlarini AI studiyaga aylantirdi",
-   "text": "Adobe kompaniyasi o‘zining ijodiy platformalariga sun’iy intellekt agentlari va yangi funksiyalarni qo‘shib, ularni to‘liq AI studiyasiga aylantirdi.",
-   "orig_title": "Adobe (ADBE) Turns Creative Cloud And Firefly Into AI Studios With New Partnerships",
-   "link": "https://finance.yahoo.com/technology/ai/articles/adobe-adbe-turns-creative-cloud-191007810.html",
-   "source": "finance.yahoo.com",
-   "soha": "AI rasm",
-   "baho": 9,
-   "experts": [],
-   "effect": "Kreativ platformalarga agentik sun'iy intellekt vositalarining qo'shilishi dizaynerlar va mutaxassislarning ko'p bosqichli ish jarayonlarini soddalashtirib, dasturiy ta'minot bozoridagi raqobatni kuchaytirishi mumkin.",
-   "image": "https://s.yimg.com/lo/mysterio/api/4d9fbe543bc034a3757bd28760f89e2fd6fba319dfdb849470d6751d16568680/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsimply_wall_st__316%2Ff1d8517431a04778ef7df561df0da0e7.jpg",
-   "domains": [
-    "finance.yahoo.com",
-    "tech.yahoo.com"
-   ],
-   "urls": [
-    "https://finance.yahoo.com/technology/ai/articles/adobe-adbe-turns-creative-cloud-191007810.html",
-    "https://tech.yahoo.com/ai/meta-ai/articles/adobe-max-2026-ai-agents-185310326.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794981707.3867803,
-   "title": "Google Gemini Tasks xizmatini kengaytirdi",
-   "text": "Gemini Task rejimi foydalanuvchilarga qo‘ng‘iroqlarni muvofiqlashtirish, veb-saytlarga kirish va xarid qilish ishlarida yordam berishni boshladi.",
-   "orig_title": "Google expands access to Gemini Tasks, which can help with calls, purchases",
-   "link": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/",
-   "source": "TechCrunch AI",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Sun'iy intellekt yordamchisining funksiyalari kengaytirilishi foydalanuvchilarga kundalik ishlarni, masalan, qo'ng'iroq qilish va xaridlarni avtomatlashtirilgan tarzda bajarish imkonini berishi mumkin.",
-   "image": "https://techcrunch.com/wp-content/uploads/2026/06/gemini-app-GettyImages-2276204472-1.jpg?w=1024",
-   "domains": [
-    "techcrunch.com",
-    "theverge.com"
-   ],
-   "urls": [
-    "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/",
-    "https://www.theverge.com/tech/1035756/google-spark-ai-tasks-free"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794981707.3867803,
-   "title": "Nvidia daromadlari o‘sishda davom etishini bildirdi",
-   "text": "Nvidia kompaniyasi sobiq rahbari iste’fosidan keyingi qiyinchiliklarga qaramay, daromadlar o‘sish sur’ati pasaymasligini ma’lum qildi.",
-   "orig_title": "Nvidia promises that revenue will keep soaring — for now",
-   "link": "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/",
-   "source": "TechCrunch AI",
-   "soha": "AI",
-   "baho": 7,
-   "experts": [
-    {
-     "kim": "Cullen Rogers",
-     "lavozim": "Wedbush Fund Advisers bosh investitsiya direktori",
-     "fikr": "Sun'iy intellekt inqilobi hech qachon bir insonga bog'liq bo'lmagan, kompaniya o'z asoschisisiz ham ishlay olishini isbotlashi kerak.",
-     "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-earnings-live-updates-commentary-213634774.html",
-     "domain": "finance.yahoo.com"
-    }
-   ],
-   "effect": "Rahbariyatdagi o'zgarishlarga qaram compagnies daromadining o'sishda davom etishi investorlarning ishonchini qo'llab-quvvatlab, bozor qiymatining tiklanishiga olib kelishi mumkin.",
-   "image": "https://techcrunch.com/wp-content/uploads/2026/02/GettyImages-157503102.jpg?resize=1200,776",
-   "domains": [
-    "techcrunch.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/",
-    "https://finance.yahoo.com/markets/stocks/articles/nvidia-earnings-live-updates-commentary-213634774.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794985336.8845866,
-   "title": "Manchester Animation Festival generativ AI filmlarini taqiqlaydi",
-   "text": "Buyuk Britaniyadagi eng yirik animatsiya festivali 2027-yilgi mavsumdan boshlab generativ sun'iy intellekt orqali yaratilgan filmlarni qabul qilishni to'xtatishini e'lon qildi.",
-   "orig_title": "Manchester Animation Festival bans GenAI films, crowns In Waves",
-   "link": "https://www.msn.com/en-us/news/other/manchester-animation-festival-bans-genai-films-crowns-in-waves/ar-AA2hyqyv",
-   "source": "msn.com",
-   "soha": "AI video",
-   "baho": 8,
-   "experts": [],
-   "effect": "Taqdim etilgan matnda animatsiya festivali haqida ma’lumot bo‘lmagani sababli festival taqiqlarining oqibatlarini aniqlash imkoni yo‘q.",
-   "image": null,
-   "domains": [
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://finance.yahoo.com/quote/MANU/"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794985336.8845866,
-   "title": "Google Gemini yozishmalarini saqlash muddatini uzaytirdi",
-   "text": "Google Gemini foydalanuvchilari tarixi o'chirilgan holatda ham suhbatlar saqlanish muddatini 72 soatdan 2 oygacha oshirmoqda.",
-   "orig_title": "Google to keep Gemini chats for 2 months, up from 72 hours, even with history off",
-   "link": "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/",
-   "source": "TechCrunch AI",
-   "soha": "AI",
-   "baho": 7,
-   "experts": [],
-   "effect": "Foydalanuvchilar ma’lumotlari uzoqroq saqlanishi xavfsizlik tekshiruvlarini osonlashtirishi, ammo maxfiylikka e’tiborli mijozlarning boshqa neyrotarmoqlarga o‘tishiga turtki bo‘lishi mumkin.",
-   "image": "https://techcrunch.com/wp-content/uploads/2026/11/google-gemini-app.jpg?resize=1200,800",
-   "domains": [
-    "techcrunch.com",
-    "tech.yahoo.com"
-   ],
-   "urls": [
-    "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/",
-    "https://tech.yahoo.com/ai/gemini/articles/google-extends-gemini-chat-retention-201112459.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794985336.8845866,
-   "title": "Nvidia direktorlar kengashi Jensen Huangni qaytarmaydi",
-   "text": "Donald Tramp va Ilon Maskning bosimiga qaramay, Nvidia kengashi iste'foga chiqqan bosh direktor Jensen Huangni qaytarish rejasida yo'qligini ma'lum qildi.",
-   "orig_title": "Nvidia’s Board Has No Plans to Bring Back Jensen Huang",
-   "link": "https://www.wired.com/story/nvidias-board-has-no-plans-to-reinstate-jensen-huang/",
-   "source": "Wired AI",
-   "soha": "AI",
-   "baho": 7,
-   "experts": [],
-   "effect": "Kengashning Huangni qaytarmaslik qarori rahbariyat almashinuvini tezlashtirishi, biroq kuchli talab hisobiga kompaniyaning moliyaviy barqarorligi saqlanib qolishi mumkin.",
-   "image": "https://media.wired.com/photos/6afce5159891667de5f2b6bb/191:100/w_1280,c_limit/Nvidia-Board-Has-No-Plans-to-Bring-Back-Jensen-Business-2299990450.jpg",
-   "domains": [
-    "wired.com",
-    "theverge.com"
-   ],
-   "urls": [
-    "https://www.wired.com/story/nvidias-board-has-no-plans-to-reinstate-jensen-huang/",
-    "https://www.theverge.com/report/1035465/nvidia-says-it-will-not-reinstate-jensen-huang-as-ceo"
-   ],
-   "videos": [
-    [
-     "https://x.com/elonmusk/status/2121345211959804234",
-     "X"
-    ],
-    [
-     "https://x.com/amasad/status/2121377395244749097",
-     "X"
-    ],
-    [
-     "https://x.com/garrytan/status/2121462697787342932",
-     "X"
-    ]
-   ]
-  },
-  {
-   "t": 1794985336.8845866,
-   "title": "Pedestal AI ta'minot zanjiri agentlari uchun 4,7 mln dollar yig'di",
-   "text": "Startap agentlik sun'iy intellekt yordamida logistika va ta'minot zanjirlarini tezlashtirish hamda ishonchliligini oshirish maqsadida 4,7 million dollar investitsiya jalb qildi.",
-   "orig_title": "Pedestal AI raises $4.7 million to agentify the supply chain",
-   "link": "https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain/",
-   "source": "TechCrunch AI",
-   "soha": "AI",
-   "baho": 6,
-   "experts": [],
-   "effect": "Logistika va yetkazib berish zanjirida agentli sun’iy intellektdan foydalanish kechikishlarni kamaytirib, yirik kompaniyalarning operatsion xarajatlarini sezilarli qisqartirishi mumkin.",
-   "image": "https://techcrunch.com/wp-content/uploads/2026/11/Pedestal-Cofounders-Photo-November-2026.jpg?resize=1200,800",
-   "domains": [
-    "techcrunch.com",
-    "businessinsider.com"
-   ],
-   "urls": [
-    "https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain/",
-    "https://www.businessinsider.com/othello-raises-millions-sales-reps-ai-realtime-recommendations-pitch-deck-2026-10"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794985336.8845866,
-   "title": "AQSh hukumati Megaspeed kompaniyasi ustidan tekshiruv boshladi",
-   "text": "AQSh Adliya va Savdo vazirliklari Nvidia atrofidagi janjalga aloqador Singapurning Megaspeed ma'lumotlar markazi kompaniyasini tekshirmoqda.",
-   "orig_title": "The DOJ says it’s investigating Megaspeed",
-   "link": "https://www.theverge.com/policy/1035410/doj-megaspeed-nvidia-investigation-update",
-   "source": "The Verge AI",
-   "soha": "AI",
-   "baho": 6,
-   "experts": [],
-   "effect": "Tergov harakatlari sun’iy intellekt chiplarining eksport nazoratini yanada kuchaytirishi va AQSH texnologiyalarining vositachilar orqali Xitoyga yetib borishini qiyinlashtirishi mumkin.",
-   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25461724/STK432_Government__CVirginia_B.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
-   "domains": [
-    "theverge.com",
-    "yahoo.com"
-   ],
-   "urls": [
-    "https://www.theverge.com/policy/1035410/doj-megaspeed-nvidia-investigation-update",
-    "https://www.yahoo.com/news/politics/articles/commerce-justice-departments-release-details-141257372.html"
-   ],
-   "videos": []
-  },
   {
    "t": 1794992970.697219,
    "title": "Satya Nadella AGI kelajagini muhokama qildi",
@@ -4105,6 +3846,52 @@
    "urls": [
     "https://www.theverge.com/tech/1031505/adobe-max-2026-sneaks-experiments-ai",
     "https://www.yahoo.com/entertainment/movies/articles/adobe-unveils-10-filmmakers-receiving-170000179.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795158402.4482796,
+   "title": "Apple o‘zining mustaqil AI agentini ishlab chiqishni boshladi",
+   "text": "Apple veb-brauzerda ishlash, ilovalarni boshqarish va kod yozish qobiliyatiga ega sun’iy intellekt agentini yaratish uchun yangi muhandislar guruhini yollamoqda.",
+   "orig_title": "Apple is hiring engineers to build its own AI agent",
+   "link": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
+   "source": "The Verge AI",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Sun'iy intellekt agentlari bozorida raqobat kuchayishi va Apple foydalanuvchilarning shaxsiy ma'lumotlari xavfsizligini ta'minlagan holda yangi imkoniyatlarni taqdim etishi mumkin.",
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/DSC04239.jpg?quality=90&strip=all&crop=0%2C10.628272251309%2C100%2C78.743455497382&w=1200",
+   "domains": [
+    "theverge.com",
+    "tech.yahoo.com"
+   ],
+   "urls": [
+    "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
+    "https://tech.yahoo.com/ai/apple-intelligence/articles/apple-wants-turn-siri-personal-054204446.html",
+    "https://tech.yahoo.com/ai/apple-intelligence/articles/job-posting-seemingly-confirms-apple-000322700.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795158402.4482796,
+   "title": "Superhuman o‘zining Go AI assistentini pochta va hujjatlarga integratsiya qildi",
+   "text": "Superhuman kompaniyasi Go nomli sun’iy intellekt assistentini barcha asosiy mahsulotlariga, jumladan Mail va Docs xizmatlariga to‘liq joriy etmoqda.",
+   "orig_title": "Superhuman pushes its Go assistant everywhere",
+   "link": "https://techcrunch.com/2026/11/19/superhuman-pushes-its-go-assistant-everywhere/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Mahsuldorlik ilovalari va sun'iy intellekt yordamchilari integratsiyasi kengayib, foydalanuvchilarning kundalik ish jarayonlarini avtomatlashtirish va ma'lumotlarni boshqarish imkoniyatlari ortishi ehtimoli bor.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/Static_Go-Proactive.jpeg?resize=1200,675",
+   "domains": [
+    "techcrunch.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/19/superhuman-pushes-its-go-assistant-everywhere/",
+    "https://finance.yahoo.com/technology/ai/articles/zoominfo-launches-superhuman-connector-bringing-133000501.html",
+    "https://finance.yahoo.com/technology/ai/articles/zoominfo-gtm-ai-integrations-superhuman-140835144.html"
    ],
    "videos": []
   }
