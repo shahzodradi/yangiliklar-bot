@@ -1,11 +1,5 @@
 {
  "seen": {
-  "https://www.msn.com/en-in/news/other/adobe-firefly-gets-new-ai-powered-tools-agentic-capabilities-and-other-features-check-all-updates/ar-AA2h9urt": 1794326607.452162,
-  "https://thenextweb.com/news/adobe-firefly-creative-agent-plan-mode-model-selector": 1794326607.452162,
-  "https://www.musicbusinessworldwide.com/elvis-presleys-rightsholders-and-other-song-owners-sue-suno-for-more-than-202m-alleging-its-ai-imitates-the-kings-voice-eight-mile-style-has-filed-a-separate-47-7m-suit-over-269/": 1794326607.452162,
-  "https://www.theverge.com/tech/1030593/adobe-max-ai-agents-mcp-firefly-assistant-updates": 1794326607.452162,
-  "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/": 1794326607.452162,
-  "https://www.wired.com/story/kora-new-linux-based-desktop-operating-system-is-built-for-ai-nerds/": 1794326607.452162,
   "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout": 1794330159.6686654,
   "https://www.msn.com/en-in/news/other/adobe-firefly-gets-ai-assistant-new-video-and-image-editing-tools-here-is-everything-you-need-to-know/ar-AA2h9f6e": 1794330159.6686654,
   "https://www.techjuice.pk/adobe-reveals-massive-ai-upgrades-firefly-builder-mcp-integration/": 1794330159.6686654,
@@ -423,7 +417,7 @@
   "https://www.wired.com/story/muse-is-unleashing-a-world-of-pettiness-on-instagram/": 1795187202.6255264,
   "https://www.analyticsinsight.net/artificial-intelligence/the-prototype-that-helped-bring-ai-translation-to-facebook-and-instagram": 1795187202.6255264
  },
- "fails": 1,
+ "fails": 2,
  "sent": [
   {
    "t": 1794848685.9660392,
