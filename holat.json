@@ -1,14 +1,5 @@
 {
  "seen": {
-  "https://www.news.com.au/lifestyle/real-life/news-life/deserves-an-oscar-disturbing-ai-short-film-about-domestic-violence-leaves-internet-in-tears/news-story/cb1df1f05a3dca802873beec6706ae05": 1794280048.2738967,
-  "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/": 1794280048.2738967,
-  "https://techcrunch.com/2026/11/09/jensen-huang-pulls-out-of-elevenlabs-summit-amid-nvidia-controversy/": 1794280048.2738967,
-  "https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai": 1794280048.2738967,
-  "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro": 1794280048.2738967,
-  "https://openai.com/index/control-room": 1794280048.2738967,
-  "https://openai.com/index/chatgpt-enterprise-aws-marketplace": 1794280048.2738967,
-  "https://www.forbes.com/sites/jamiegutfreund/2026/11/09/luma-ai-and-infinite-studios-are-moving-in-where-do-agencies-fit/": 1794283256.8771405,
-  "https://www.msn.com/en-us/entertainment/music/lawsuit-accuses-generative-ai-company-of-illegally-profiting-from-elvis-presley-s-music/ar-AA2h6hyj": 1794283256.8771405,
   "https://www.analyticsinsight.net/reports/generative-ai-in-music-market-to-reach-usd-147-billion-in-2035": 1794285481.3743186,
   "https://tech.yahoo.com/social-media/articles/tiktok-updates-ai-video-ad-234653668.html": 1794290452.4902194,
   "https://www.wired.com/story/jensen-huangs-troubles-leaves-the-ai-industry-reeling/": 1794290452.4902194,
@@ -410,7 +401,10 @@
   "https://www.theverge.com/tech/1038059/google-search-homepage-ai-chats": 1795144011.1856623,
   "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/": 1795144011.1856623,
   "https://the-decoder.com/chinese-tech-firms-face-a-double-hit-as-chip-shipments-stop-and-overseas-cloud-access-disappears/": 1795144011.1856623,
-  "https://the-decoder.com/an-openai-agent-assigned-a-simple-writing-task-decided-on-its-own-to-build-a-secret-email-surveillance-tool/": 1795144011.1856623
+  "https://the-decoder.com/an-openai-agent-assigned-a-simple-writing-task-decided-on-its-own-to-build-a-secret-email-surveillance-tool/": 1795144011.1856623,
+  "https://www.uzdaily.uz/ru/uzbekistan-opublikoval-korpus-iz-6-mlrd-slov-dlia-ii/": 1795147266.350535,
+  "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/": 1795147266.350535,
+  "https://the-decoder.com/ai-industry-growth-remains-strong-but-the-pace-is-slowing/": 1795147266.350535
  },
  "fails": 0,
  "sent": [
@@ -1362,6 +1356,21 @@
   {
    "t": 1795144011.1856623,
    "title": "An OpenAI agent assigned a simple writing task decided on its own to build a secret email surveillance tool",
+   "soha": "AI"
+  },
+  {
+   "t": 1795147266.350535,
+   "title": "Узбекистан опубликовал корпус из 6 млрд слов для ИИ",
+   "soha": "AI O'zbekiston"
+  },
+  {
+   "t": 1795147266.350535,
+   "title": "Google gives Gemini the ability to use your Mac for you",
+   "soha": "AI"
+  },
+  {
+   "t": 1795147266.350535,
+   "title": "AI industry growth remains strong, but the pace is slowing",
    "soha": "AI"
   }
  ],
@@ -3954,6 +3963,94 @@
     "https://www.yahoo.com/news/us/articles/secret-underwater-surveillance-mission-ended-211903877.html"
    ],
    "videos": []
+  },
+  {
+   "t": 1795147266.350535,
+   "title": "O‘zbekiston sun’iy intellekt uchun 6 milliard so‘zli korpusni e'lon qildi",
+   "text": "Raqamli texnologiyalar vazirligi Hugging Face platformasida lotin va kirill alifbosidagi 5,6 million hujjatni o‘z ichiga olgan o‘zbek tili korpusini joylashtirdi.",
+   "orig_title": "Узбекистан опубликовал корпус из 6 млрд слов для ИИ",
+   "link": "https://www.uzdaily.uz/ru/uzbekistan-opublikoval-korpus-iz-6-mlrd-slov-dlia-ii/",
+   "source": "uzdaily.uz",
+   "soha": "AI O'zbekiston",
+   "baho": 10,
+   "experts": [
+    {
+     "kim": "Naveen Chhabra",
+     "lavozim": "asosiy tahlilchi",
+     "fikr": "Nvidia mijozlarning afzalliklari va qaysi sun'iy intellekt modellaridan foydalanayotganini yaqqol ko'ra oladi.",
+     "url": "https://www.theguardian.com/technology/2026/sep/03/nvidia-to-buy-hugging-face-in-129bn-deal",
+     "domain": "theguardian.com"
+    }
+   ],
+   "effect": "Kompaniyaning ushbu xaridi sun'iy intellekt bozorida Nvidia uchun mijozlarning afzalliklarini oldindan ko'rish va texnologik tafovutni qisqartirish imkonini berishi mumkin.",
+   "image": "https://www.uzdaily.uz/media/filer_public/bd/ba/bdbafea6-79c1-4307-b199-295c0b6c9825/uzbeklanguagecorpus_20261119184150.webp",
+   "domains": [
+    "uzdaily.uz",
+    "businessinsider.com",
+    "theguardian.com"
+   ],
+   "urls": [
+    "https://www.uzdaily.uz/ru/uzbekistan-opublikoval-korpus-iz-6-mlrd-slov-dlia-ii/",
+    "https://www.businessinsider.com/hugging-face-ai-model-carbon-x-dna-sequences-gene-therapies-2026-10",
+    "https://www.theguardian.com/technology/2026/sep/03/nvidia-to-buy-hugging-face-in-129bn-deal"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795147266.350535,
+   "title": "Google Gemini Mac kompyuterlarida ishlaydigan agent funksiyasiga ega bo‘ldi",
+   "text": "Google kompaniyasi Gemini yangilanishini taqdim etdi, uning yordamida AI agenti Mac qurilmalarida fayllarni tartibga solish va shakllarni to‘ldirishi mumkin.",
+   "orig_title": "Google gives Gemini the ability to use your Mac for you",
+   "link": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 9,
+   "experts": [],
+   "effect": "Boshqa raqobatdosh kompaniyalar allaqachon taklif etib kelayotgan funksiyalarning joriy etilishi foydalanuvchilarga macOS muhitida murakkab va takrorlanuvchi vazifalarni avtomatlashtirish imkonini berishi mumkin.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/hero_header_CU_copy.width-2200.format-webp.jpeg?resize=1200,675",
+   "domains": [
+    "techcrunch.com",
+    "tech.yahoo.com",
+    "businessinsider.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+    "https://tech.yahoo.com/cybersecurity/articles/ai-broke-cybersecurity-world-next-150000238.html",
+    "https://www.businessinsider.com/gemini-self-loathing-i-am-a-failure-comments-google-fix-2025-8"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795147266.350535,
+   "title": "Sun’iy intellekt token narxlari pasaymoqda, foydalanish hajmi esa o‘smoqda",
+   "text": "Ramp AI Index ma'lumotlariga ko‘ra, olti hafta ichida AI modellari token narxlari 21 foizga tushdi, foydalanish hajmi esa rekord darajaga yetdi.",
+   "orig_title": "AI industry growth remains strong, but the pace is slowing",
+   "link": "https://the-decoder.com/ai-industry-growth-remains-strong-but-the-pace-is-slowing/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Sun'iy intellekt xizmatlari narxlarining pasayishi va token hajmining o'sishi kompaniyalar uchun xarajatlarni kamaytirishi, biroq umumiy tarmoq o'sish sur'atining sekinlashishiga olib kelishi mumkin.",
+   "image": "https://the-decoder.com/wp-content/uploads/2024/02/Throwing-money-at-AI.jpg",
+   "domains": [
+    "the-decoder.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/ai-industry-growth-remains-strong-but-the-pace-is-slowing/",
+    "https://finance.yahoo.com/markets/stocks/articles/bullish-blsh-q3-2026-earnings-210124607.html",
+    "https://finance.yahoo.com/markets/stocks/articles/why-hsbc-says-buy-google-184152472.html"
+   ],
+   "videos": [
+    [
+     "https://x.com/arakharazian/status/2123402698766655877",
+     "X"
+    ],
+    [
+     "https://x.com/PeterJ_Walker/status/2123476053696119173",
+     "X"
+    ]
+   ]
   }
  ]
 }
