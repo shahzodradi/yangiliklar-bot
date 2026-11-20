@@ -1,6 +1,5 @@
 {
  "seen": {
-  "https://www.analyticsinsight.net/reports/generative-ai-in-music-market-to-reach-usd-147-billion-in-2035": 1794285481.3743186,
   "https://tech.yahoo.com/social-media/articles/tiktok-updates-ai-video-ad-234653668.html": 1794290452.4902194,
   "https://www.wired.com/story/jensen-huangs-troubles-leaves-the-ai-industry-reeling/": 1794290452.4902194,
   "https://campaignbrief.com/tbwaaustralias-disrupt-ai-film-festival-returns-with-record-entries-expanded-2026-programme/": 1794294173.5031517,
@@ -404,15 +403,15 @@
   "https://the-decoder.com/an-openai-agent-assigned-a-simple-writing-task-decided-on-its-own-to-build-a-secret-email-surveillance-tool/": 1795144011.1856623,
   "https://www.uzdaily.uz/ru/uzbekistan-opublikoval-korpus-iz-6-mlrd-slov-dlia-ii/": 1795147266.350535,
   "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/": 1795147266.350535,
-  "https://the-decoder.com/ai-industry-growth-remains-strong-but-the-pace-is-slowing/": 1795147266.350535
+  "https://the-decoder.com/ai-industry-growth-remains-strong-but-the-pace-is-slowing/": 1795147266.350535,
+  "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/": 1795150996.1960669,
+  "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/": 1795150996.1960669,
+  "https://www.msn.com/en-xl/africa/top-stories/chipverse-secures-pre-seed-funding-to-double-ai-capacity/ar-AA2hPw2Y": 1795150996.1960669,
+  "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast": 1795150996.1960669,
+  "https://the-decoder.com/openais-own-researchers-now-say-they-value-their-ai-tools-more-than-nearly-half-their-colleagues/": 1795150996.1960669
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1794801668.6522408,
-   "title": "Adobe Firefly gets major AI upgrades | Generative AI and audio enhancement at Adobe MAX 2026",
-   "soha": "AI rasm"
-  },
   {
    "t": 1794808920.9056406,
    "title": "Our new blog for science",
@@ -1372,6 +1371,31 @@
    "t": 1795147266.350535,
    "title": "AI industry growth remains strong, but the pace is slowing",
    "soha": "AI"
+  },
+  {
+   "t": 1795150996.1960669,
+   "title": "Meta’s new Muse Charm device may cost $300",
+   "soha": "AI"
+  },
+  {
+   "t": 1795150996.1960669,
+   "title": "Introducing Tool Retrieval in the Gemini API",
+   "soha": "AI"
+  },
+  {
+   "t": 1795150996.1960669,
+   "title": "Chipverse secures pre-seed funding to double AI capacity",
+   "soha": "AI"
+  },
+  {
+   "t": 1795150996.1960669,
+   "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+   "soha": "AI"
+  },
+  {
+   "t": 1795150996.1960669,
+   "title": "OpenAI's own researchers now say they value their AI tools more than nearly half their colleagues",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -1379,28 +1403,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1794974472.6818342,
-   "title": "Universal va Sony DistroKid hujjatlari taqdim etilgach Suno ishini davom ettirmoqda",
-   "text": "Universal Music, Sony Music va DistroKid Suno sud ishida uchinchi tomon chaqiruv qog'ozi bo'yicha kelishmovchilikni hal qilishdi.",
-   "orig_title": "One UMG v. Suno Subpoena Battle Down, Many to Go: Universal Music and Sony Music Shelve Motion to Compel Following DistroKid Documents Production",
-   "link": "https://www.digitalmusicnews.com/2026/11/17/umg-v-suno-subpoena/",
-   "source": "digitalmusicnews.com",
-   "soha": "AI musiqa",
-   "baho": 8,
-   "experts": [],
-   "effect": "Musiqa va ko‘ngilochar bozorida mualliflik huquqini himoya qilish kuchayishi, sun'iy intellekt kompaniyalari uchun huquqiy xarajatlar va litsenziyalash talablari ortishi ehtimoli bor.",
-   "image": null,
-   "domains": [
-    "theguardian.com",
-    "yahoo.com"
-   ],
-   "urls": [
-    "https://www.theguardian.com/us-news/2026/oct/25/elvis-presley-anthropic-lawsuit-ai-models-music",
-    "https://www.yahoo.com/entertainment/music/articles/universal-music-sony-want-know-181158775.html"
-   ],
-   "videos": []
-  },
   {
    "t": 1794978365.1363087,
    "title": "O‘zbekiston va Kanada sun’iy intellekt sohasida hamkorlikni muhokama qildi",
@@ -4051,6 +4053,127 @@
      "X"
     ]
    ]
+  },
+  {
+   "t": 1795150996.1960669,
+   "title": "Meta sun’iy intellektli yangi Muse Charm qurilmasini 300 dollardan sotishi mumkin",
+   "text": "Meta Muse AI agenti bilan muloqot qilishga mo‘ljallangan Muse Charm gadjetini taxminan 300 dollar narxda chiqarishni rejalashtirmoqda.",
+   "orig_title": "Meta’s new Muse Charm device may cost $300",
+   "link": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Ushbu sun'iy intellekt qurilmasi qimmat narxi sababli keng foydalanuvchilar e'tiborini qozonishda qiyinchiliklarga uchrashi va xaridorlarni jalb qilishda raqobatda qiynalishi mumkin.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/09/meta-muse-charm.png?resize=1200,667",
+   "domains": [
+    "techcrunch.com",
+    "theverge.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/",
+    "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795150996.1960669,
+   "title": "Google Gemini API uchun Tool Retrieval funksiyasini taqdim etdi",
+   "text": "Google ishlab chiquvchilar uchun Gemini API imkoniyatlarini kengaytirib, yangi Tool Retrieval funksiyasini ishga tushirdi.",
+   "orig_title": "Introducing Tool Retrieval in the Gemini API",
+   "link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+   "source": "Google AI",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Katta hajmdagi vositalar kutubxonasini samarali boshqarish imkonini beruvchi ushbu funksiya so'rovlardagi token xarajatlarini kamaytirib, ilovalarning tezligi va aniqligini oshirishi mumkin.",
+   "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Tool_retrieval_hero.width-1300.png",
+   "domains": [
+    "blog.google",
+    "theverge.com"
+   ],
+   "urls": [
+    "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+    "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795150996.1960669,
+   "title": "Misrning Chipverse startapi AI hisoblash quvvatini oshirish uchun sarmoya jalb qildi",
+   "text": "Chipverse AI infratuzilmasi startapi mintaqaviy biznes-angellar va texnologiya tadbirkorlari ishtirokida pre-seed investitsiya bosqichini muvaffaqiyatli yakunladi.",
+   "orig_title": "Chipverse secures pre-seed funding to double AI capacity",
+   "link": "https://www.msn.com/en-xl/africa/top-stories/chipverse-secures-pre-seed-funding-to-double-ai-capacity/ar-AA2hPw2Y",
+   "source": "msn.com",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Kompaniyalarning ichki operatsiyalari va ish jarayonlarini o'rganuvchi ushbu modellar sun'iy intellekt agentlariga korxona faoliyatini avtonom tarzda bajarishda yordam berishi mumkin.",
+   "image": null,
+   "domains": [
+    "businessinsider.com"
+   ],
+   "urls": [
+    "https://www.businessinsider.com/zeroset-startup-funding-ai-agents-gradient-ventures-enterprise-2026-10"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795150996.1960669,
+   "title": "OpenAI ChatGPT tezligini saqlash uchun Performance Factory tizimidan foydalanmoqda",
+   "text": "OpenAI ChatGPT tizimidagi muammolarni aniqlash va bartaraf etish maqsadida Codex asosida ishlaydigan Performance Factory avtomatlashtirilgan tizimini yaratdi.",
+   "orig_title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+   "link": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+   "source": "OpenAI",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Tillar, kod va ko'rish uchun mo'ljallangan umumiy maqsadli modellarning robototexnikada qo'llanilishi kelgusida robotlar uchun alohida maxsus intellekt yaratish ehtiyojini yo'qqa chiqarishi mumkin.",
+   "image": null,
+   "domains": [
+    "tech.yahoo.com"
+   ],
+   "urls": [
+    "https://tech.yahoo.com/ai/articles/exclusive-openai-disbands-stand-alone-170530559.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795150996.1960669,
+   "title": "OpenAI tadqiqotchilari dasturlashda AI vositalariga tayanayotganini ma’lum qildi",
+   "text": "OpenAI xodimlari dasturlash agentlaridan faol foydalanmoqda, biroq murakkab vazifalarda modellar hali ham samarasiz natijalar ishlab chiqarmoqda.",
+   "orig_title": "OpenAI's own researchers now say they value their AI tools more than nearly half their colleagues",
+   "link": "https://the-decoder.com/openais-own-researchers-now-say-they-value-their-ai-tools-more-than-nearly-half-their-colleagues/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 6,
+   "experts": [
+    {
+     "kim": "Hesam",
+     "lavozim": "AI muhandisi",
+     "fikr": "Yangi model taqdim etilganidan so'ng, u o'z sahifasida hammа bu OpenAI chiqargan eng yomon model ekanligiga qo'shilishini e'lon qildi.",
+     "url": "https://tech.yahoo.com/ai/chatgpt/articles/speaks-tongues-only-6-2-165753591.html",
+     "domain": "tech.yahoo.com"
+    },
+    {
+     "kim": "Theo Browne",
+     "lavozim": "T3 Code yaratuvchisi va dasturchi",
+     "fikr": "Dasturchi yangi modelni tanqid qilib, uni Opus 5.5 ga almashtirmasligini va javoblari tushunarsiz ekanligini yozdi.",
+     "url": "https://tech.yahoo.com/ai/chatgpt/articles/speaks-tongues-only-6-2-165753591.html",
+     "domain": "tech.yahoo.com"
+    }
+   ],
+   "effect": "Ichki jarayonlarda agentlardan foydalanish vaqt va resurslarni tejash imkonini bersa-da, ishlab chiqaruvchilar uchun yakuniy natijalarni yaqindan nazorat qilish va tuzatish zaruriyatini keltirib chiqarishi mumkin.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/10/openai_logo_numbers-1200x670.png",
+   "domains": [
+    "the-decoder.com",
+    "tech.yahoo.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/openais-own-researchers-now-say-they-value-their-ai-tools-more-than-nearly-half-their-colleagues/",
+    "https://tech.yahoo.com/ai/chatgpt/articles/speaks-tongues-only-6-2-165753591.html"
+   ],
+   "videos": []
   }
  ]
 }
