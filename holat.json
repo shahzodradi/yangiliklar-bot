@@ -1,6 +1,5 @@
 {
  "seen": {
-  "https://www.msn.com/en-us/money/general/elvis-rights-holders-and-eminem-s-publisher-sue-suno-testing-the-elvis-act/ar-AA2h5oua": 1794303444.248303,
   "https://www.dispatch.com/press-release/story/265381/the-2026-boston-silicon-valley-ai-film-festival-11-awards-and-the-convergence-of-ai-filmmaking/": 1794312099.5438285,
   "https://www.msn.com/en-gb/entertainment/movies/i-analyze-the-differences-between-seedance-2-0-and-kling-3-0/vi-AA2h7S9H": 1794312099.5438285,
   "https://www.azernews.az/region/267163.html": 1794312099.5438285,
@@ -419,20 +418,12 @@
   "https://techcrunch.com/2026/11/19/anthropic-rival-says-companies-can-mostly-skip-the-pricey-models/": 1795165752.5138679,
   "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/": 1795165752.5138679,
   "https://www.theverge.com/ai-artificial-intelligence/1037459/anthropic-ipo-safe-ai-reputation-power-structure": 1795165752.5138679,
-  "https://www.marketscreener.com/news/kuaishou-flags-short-term-impact-as-intensifying-competition-batters-third-quarter-results-ce785ed2d189f02c": 1795165752.5138679
+  "https://www.marketscreener.com/news/kuaishou-flags-short-term-impact-as-intensifying-competition-batters-third-quarter-results-ce785ed2d189f02c": 1795165752.5138679,
+  "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/": 1795168869.5862103,
+  "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/": 1795168869.5862103
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1794820155.7761018,
-   "title": "Helsing backer Plural raises $1.1B to fund Europe’s next moonshots",
-   "soha": "AI"
-  },
-  {
-   "t": 1794823259.1961713,
-   "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
-   "soha": "AI"
-  },
   {
    "t": 1794827255.325033,
    "title": "94% of Singapore Small Business Owners Surveyed Say More AI Guidance Is Needed",
@@ -1477,6 +1468,16 @@
    "t": 1795165752.5138679,
    "title": "Kuaishou Flags Short-Term Impact as 'Intensifying Competition' Batters Third-Quarter Results",
    "soha": "AI video"
+  },
+  {
+   "t": 1795168869.5862103,
+   "title": "Anthropic’s IPO could deliver $156B to charity",
+   "soha": "AI"
+  },
+  {
+   "t": 1795168869.5862103,
+   "title": "Anthropic’s IPO puts AI’s circular financing boom to the test",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -1484,164 +1485,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1794992970.697219,
-   "title": "Satya Nadella AGI kelajagini muhokama qildi",
-   "text": "Microsoft rahbari Satya Nadella AI iqtisodiyot va siyosat tuzilmasiga sezilarli o'zgarishlar kiritishi mumkinligini ta'kidladi.",
-   "orig_title": "Satya Nadella says he’s AGI-pilled now",
-   "link": "https://www.theverge.com/tech/1036111/satya-nadella-says-hes-agi-pilled-now",
-   "source": "The Verge AI",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [
-    {
-     "kim": "Duncan Wrigley",
-     "lavozim": "Bosh Xitoy iqtisodchisi",
-     "fikr": "Xitoyda iqtisodiy o'sishning tezlashishi sun'iy intellekt bilan bog'liq elektronika, jihozlar va avtomobillarga bo'lgan eksport talabining oshishi bilan bog'liq.",
-     "url": "https://www.theguardian.com/world/2026/oct/19/china-economy-grows-faster-than-forecast-after-ai-boom-boosted-exports",
-     "domain": "theguardian.com"
-    }
-   ],
-   "effect": "Sun'iy intellekt texnologiyalarining iqtisodiyotga faol kirib borishi va xodimlarning o'rnini egallashi mehnat bozorida jiddiy o'zgarishlarga hamda oqibatda jamoatchilik e'tirozlariga sabab bo'lishi mumkin.",
-   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Screenshot-2026-11-17-at-3.00.15-PM.png?quality=90&strip=all&crop=0%2C5.5575251492495%2C100%2C88.884949701501&w=1200",
-   "domains": [
-    "theverge.com",
-    "theguardian.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://www.theverge.com/tech/1036111/satya-nadella-says-hes-agi-pilled-now",
-    "https://www.theguardian.com/world/2026/oct/19/china-economy-grows-faster-than-forecast-after-ai-boom-boosted-exports",
-    "https://finance.yahoo.com/news/microsoft-ceo-satya-nadella-says-105747621.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794992970.697219,
-   "title": "Nvidia uchinchi chorak daromadlarini e'lon qildi",
-   "text": "Kompaniyaning vaqtincha ijrochi direktori Colette Kress Nvidia'ning uchinchi chorakdagi moliyaviy natijalarini taqdim etdi.",
-   "orig_title": "Nvidia’s Q3 earnings hit the mark, without mentioning the whole Jensen Huang thing",
-   "link": "https://www.theverge.com/tech/1036032/nvidia-q3-2027-jensen-huang",
-   "source": "The Verge AI",
-   "soha": "AI",
-   "baho": 7,
-   "experts": [],
-   "effect": "Kompaniyada yuqori darajadagi rahbar o'zgarishi va shaxsiy mojarolar qisqa muddatli beqarorlikka olib kelishi mumkin, biroq kuchli moliyaviy natijalar va yuqori daromad bashoratlari bozordagi xavotirlarni kamaytirishi ehtimoli bor.",
-   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25835739/STKP210_JENSEN_HUANG_B.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
-   "domains": [
-    "theverge.com",
-    "uk.finance.yahoo.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://www.theverge.com/tech/1036032/nvidia-q3-2027-jensen-huang",
-    "https://uk.finance.yahoo.com/news/live/nvidia-earnings-live-nvidia-posts-q3-beat-board-says-it-will-not-reinstate-jensen-huang-as-ceo-221428433.html",
-    "https://finance.yahoo.com/markets/stocks/articles/nvidia-q3-earnings-call-highlights-011255071.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794992970.697219,
-   "title": "Instagram'da AI deepfake videolar ko'paymoqda",
-   "text": "Meta xodimlari va rahbarlarining soxtalashtirilgan videolari Instagram tarmog'ida tarqalgani ma'lum bo'ldi.",
-   "orig_title": "Not even Sam Altman is safe from AI deepfakes on Instagram",
-   "link": "https://www.theverge.com/news/1035957/meta-alexandr-wang-sam-altman-instagram-ai-deepfake",
-   "source": "The Verge AI",
-   "soha": "AI",
-   "baho": 7,
-   "experts": [],
-   "effect": "Ijtimoiy tarmoqlarda sun'iy intellekt yordamida yaratilgan soxta videolar va tasvirlarning ommalashishi firibgarlik holatlarini ko'paytirishi va shaxslarning huquqlarini buzish ehtimolini oshirishi mumkin.",
-   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2297785644.jpg?quality=90&strip=all&crop=0%2C10.755339554057%2C100%2C78.489320891885&w=1200",
-   "domains": [
-    "theverge.com",
-    "tech.yahoo.com",
-    "techcrunch.com"
-   ],
-   "urls": [
-    "https://www.theverge.com/news/1035957/meta-alexandr-wang-sam-altman-instagram-ai-deepfake",
-    "https://tech.yahoo.com/ai/meta-ai/articles/advertisement-ai-generated-6-signs-100000576.html",
-    "https://techcrunch.com/2024/05/22/metas-new-ai-council-is-comprised-entirely-of-white-men/"
-   ],
-   "videos": [
-    [
-     "https://x.com/alexandr_wang/status/2101143561018474920",
-     "X"
-    ],
-    [
-     "https://www.instagram.com/reel/DffPoRdhozI/",
-     "Instagram"
-    ]
-   ]
-  },
-  {
-   "t": 1794992970.697219,
-   "title": "AI modellari avtonom urush ssenariylarida sinovdan o'tkazildi",
-   "text": "Vals startapi yetakchi sun'iy intellekt modellarini harbiy nishonlarni aniqlashda sinovdan o'tkazib, ularning zaifliklarini aniqladi.",
-   "orig_title": "AI models can be tricked into identifying civilians as military targets by telling them it’s a game",
-   "link": "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/",
-   "source": "TechCrunch AI",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Sun'iy intellekt modellarini o'yin yoki sinov niqobi ostida harbiy nishonlarni aniqlashga osongina o'rgatish mumkinligi kelajakdagi qurolli mojarolarda xavfsizlik va axloqiy muammolarni keskin oshirib yuborishi mumkin.",
-   "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-1670871943.jpg?resize=1200,675",
-   "domains": [
-    "techcrunch.com",
-    "finance.yahoo.com",
-    "theguardian.com"
-   ],
-   "urls": [
-    "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/",
-    "https://finance.yahoo.com/news/valueselling-associates-launches-ai-avatar-123000732.html",
-    "https://www.theguardian.com/global-development/2026/oct/11/nuclear-war-and-malicious-use-of-ai-threaten-end-of-humanity-by-2100-says-lancet-assessment"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794996065.2269773,
-   "title": "Google Pics Nano Banana 2.1 yangilanishini oldi",
-   "text": "Google o'zining Pics ilovasini Nano Banana 2.1 versiyasiga yangiladi, bu esa yanada realistik rasmlar va aniq tahrirlash imkoniyatlarini beradi.",
-   "orig_title": "Google Pics gets Nano Banana 2.1 for sharper text and more accurate edits",
-   "link": "https://www.androidauthority.com/google-pics-nano-banana-2-1-3736470/",
-   "source": "androidauthority.com",
-   "soha": "AI rasm",
-   "baho": 8,
-   "experts": [],
-   "effect": "Google Pics dasturining yangi sun'iy intellekt modeli bilan boyitilishi tasvir sifati va matn tahrirlash imkoniyatlarini yanada oshirishi mumkin. Bu o'zgarish foydalanuvchilarga yanada aniqroq va tabiiyroq suratlar yaratishda qulayliklar keltirishi ehtimoli bor.",
-   "image": "https://www.androidauthority.com/wp-content/uploads/2026/05/Google-Pics-official-image.jpg",
-   "domains": [
-    "androidauthority.com",
-    "tech.yahoo.com",
-    "theverge.com"
-   ],
-   "urls": [
-    "https://www.androidauthority.com/google-pics-nano-banana-2-1-3736470/",
-    "https://tech.yahoo.com/ai/gemini/articles/google-launches-nano-banana-2-224603710.html",
-    "https://www.theverge.com/2021/1/14/22188428/google-fitbit-acquisition-completed-approved"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1794996065.2269773,
-   "title": "Microsoft yettita yangi sun'iy intellekt modelini taqdim etdi",
-   "text": "Microsoft kod yozish, kiberxavfsizlik, rasm yaratish va ovozni matnga o'girishga mo'ljallangan yettita yangi AI modelini e'lon qildi.",
-   "orig_title": "Microsoft takes on OpenAI and Anthropic with 7 new AI models: Check what they can do",
-   "link": "https://www.msn.com/en-in/news/other/microsoft-takes-on-openai-and-anthropic-with-7-new-ai-models-check-what-they-can-do/ar-AA2hGUHh",
-   "source": "msn.com",
-   "soha": "AI",
-   "baho": 7,
-   "experts": [],
-   "effect": "Microsoft kompaniyasining yangi sun'iy intellekt modellarini taqdim etishi sun'iy intellekt bozoridagi raqobatni yanada kuchaytirishi mumkin. Bu holat foydalanuvchilar va tadbirkorlar uchun yangi imkoniyatlar yaratib, texnologik xizmatlar narxi va sifatiga ta'sir ko'rsatishi ehtimoli bor.",
-   "image": null,
-   "domains": [
-    "tech.yahoo.com"
-   ],
-   "urls": [
-    "https://tech.yahoo.com/computing/articles/gigabyte-unveils-nvidia-spark-powered-012500948.html",
-    "https://tech.yahoo.com/computing/articles/week-toms-hardware-premium-november-150000572.html"
-   ],
-   "videos": []
-  },
   {
    "t": 1795000116.2748084,
    "title": "OpenAI GPT-6.2 Astra va Fable 5.2 taqqoslandi",
@@ -4230,6 +4073,54 @@
    ],
    "urls": [
     "https://finance.yahoo.com/markets/stocks/articles/china-kuaishou-slumps-record-low-061651762.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795168869.5862103,
+   "title": "Anthropic kompaniyasining IPO si xayriya tashkilotlariga 156 milliard dollar keltirishi mumkin",
+   "text": "Anthropic kompaniyasining aksiyalari 95 dollardan baholanganda, uning Public Benefit Foundation jamg'armasi va xodimlar xayriyalari umumiy hisobda 156 milliard dollarni tashkil etishi mumkin.",
+   "orig_title": "Anthropic’s IPO could deliver $156B to charity",
+   "link": "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 9,
+   "experts": [],
+   "effect": "Kompaniyaning aksiyalar chiqarishi xayriya jamg'armalari va xodimlarining tashabbuslari orqali yuzlab milliardlab mablag'lar ijtimoiy loyihalar va sun'iy intellekt xavfsizligini o'rganishga yo'naltirilishiga olib kelishi mumkin.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/01/GettyImages-2256664479.jpg?resize=1200,800",
+   "domains": [
+    "techcrunch.com",
+    "finance.yahoo.com",
+    "businessinsider.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/",
+    "https://finance.yahoo.com/technology/ai/article/anthropic-ipo-what-we-know-143321078.html",
+    "https://www.businessinsider.com/how-rich-anthropic-ipo-7-cofounders-2026-10"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795168869.5862103,
+   "title": "Anthropic aksiyalarini ommaviy joylashtirish sun'iy intellekt bozorini sinovdan o'tkazmoqda",
+   "text": "Anthropic IPO jarayonida ulkan hisoblash quvvatlari majburiyatlarini o'z zimmasiga olmoqda, Amazon va Google kabi infratuzilma hamkorlari esa foyda olishda davom etishi mumkin.",
+   "orig_title": "Anthropic’s IPO puts AI’s circular financing boom to the test",
+   "link": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Mazkur ommaviy taklif sun'iy intellekt bozoridagi aylanma moliyalashtirish tizimini mustaqil darajaga olib chiqib, xususiy ta'minotchilarga bo'lgan qaramlikni kamaytirishi va ommaviy bozor investorlari hisobiga o'zini o'zi moliyalashtirish imkonini berishi mumkin.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2304538389.jpg?w=1024",
+   "domains": [
+    "techcrunch.com",
+    "uk.finance.yahoo.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
+    "https://uk.finance.yahoo.com/news/anthropics-ipo-close-look-ai-132951093.html",
+    "https://finance.yahoo.com/technology/ai/articles/anthropics-historic-debut-put-ais-110740345.html"
    ],
    "videos": []
   }
