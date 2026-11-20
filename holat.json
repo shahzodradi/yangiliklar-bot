@@ -420,7 +420,10 @@
   "https://www.theverge.com/ai-artificial-intelligence/1037459/anthropic-ipo-safe-ai-reputation-power-structure": 1795165752.5138679,
   "https://www.marketscreener.com/news/kuaishou-flags-short-term-impact-as-intensifying-competition-batters-third-quarter-results-ce785ed2d189f02c": 1795165752.5138679,
   "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/": 1795168869.5862103,
-  "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/": 1795168869.5862103
+  "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/": 1795168869.5862103,
+  "https://tbreak.com/ai-film-award-dubai-1-million-second-edition/": 1795172759.6239216,
+  "https://business.com.tm/post/16667/parlak-nesil-to-participate-in-developing-ai-and-mining-centers-in-uzbekistan": 1795172759.6239216,
+  "https://the-decoder.com/hermes-agents-collective-wisdom-feature-turns-one-employees-ai-trick-into-the-whole-teams-skill/": 1795172759.6239216
  },
  "fails": 0,
  "sent": [
@@ -1477,6 +1480,21 @@
   {
    "t": 1795168869.5862103,
    "title": "Anthropic’s IPO puts AI’s circular financing boom to the test",
+   "soha": "AI"
+  },
+  {
+   "t": 1795172759.6239216,
+   "title": "The UAE is offering $1 million for an AI short film",
+   "soha": "AI tanlov"
+  },
+  {
+   "t": 1795172759.6239216,
+   "title": "Parlak Nesil to Participate in Developing AI and Mining Centers in Uzbekistan",
+   "soha": "AI O'zbekiston"
+  },
+  {
+   "t": 1795172759.6239216,
+   "title": "Hermes Agent's Collective Wisdom feature turns one employee's AI trick into the whole team's skill",
    "soha": "AI"
   }
  ],
@@ -4121,6 +4139,76 @@
     "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
     "https://uk.finance.yahoo.com/news/anthropics-ipo-close-look-ai-132951093.html",
     "https://finance.yahoo.com/technology/ai/articles/anthropics-historic-debut-put-ais-110740345.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795172759.6239216,
+   "title": "BAA sun'iy intellekt yordamida yaratilgan qisqa metrajli film uchun 1 million dollar mukofot e'lon qildi",
+   "text": "Dubaydagi 1 Billion Followers Summit doirasida ikkinchi AI Film Award tanlovi boshlandi. Tanlovning bosh sovrini 1 million dollarni tashkil etadi.",
+   "orig_title": "The UAE is offering $1 million for an AI short film",
+   "link": "https://tbreak.com/ai-film-award-dubai-1-million-second-edition/",
+   "source": "tbreak.com",
+   "soha": "AI tanlov",
+   "baho": 10,
+   "experts": [],
+   "effect": "Sun'iy intellekt va kontent yaratish sohasidagi bunday yirik mukofotlar va platformalar yangi iste'dodlarni kashf etishga, shuningdek global miqyosda raqobat va innovatsiyalarni tezlashtirishga xizmat qilishi mumkin.",
+   "image": "https://i0.wp.com/tbreak.com/wp-content/uploads/2026/11/relationships.jpg?fit=880%2C1100&ssl=1",
+   "domains": [
+    "tbreak.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://tbreak.com/ai-film-award-dubai-1-million-second-edition/",
+    "https://finance.yahoo.com/technology/ai/articles/dubai-launches-global-create-ai-170500843.html",
+    "https://finance.yahoo.com/technology/ai/articles/aijobsuae-launches-dubai-ai-festival-064000174.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795172759.6239216,
+   "title": "O'zbekistonda sun'iy intellekt markazlarini rivojlantirish bo'yicha hamkorlik memorandumi imzolandi",
+   "text": "Turkmanistonning Parlak Nesil kompaniyasi O'zbekistonning NexaGrid kompaniyasi bilan sun'iy intellekt ilovalari uchun ma'lumotlar markazlarini tashkil etish bo'yicha kelishuvga erishdi.",
+   "orig_title": "Parlak Nesil to Participate in Developing AI and Mining Centers in Uzbekistan",
+   "link": "https://business.com.tm/post/16667/parlak-nesil-to-participate-in-developing-ai-and-mining-centers-in-uzbekistan",
+   "source": "business.com.tm",
+   "soha": "AI O'zbekiston",
+   "baho": 10,
+   "experts": [],
+   "effect": "Ma'lumotlar markazlari va raqamli infratuzilmaning kengayishi energiya sarfi oshishiga olib kelishi hamda mintaqalarda iqtisodiy imkoniyatlar yaratishi ehtimoli bor.",
+   "image": "https://business.com.tm/images/uploads/posts/f01771af2aa3c6dbb1c9ce4c3e2d4165.png",
+   "domains": [
+    "business.com.tm",
+    "businessinsider.com",
+    "forbes.com"
+   ],
+   "urls": [
+    "https://business.com.tm/post/16667/parlak-nesil-to-participate-in-developing-ai-and-mining-centers-in-uzbekistan",
+    "https://www.businessinsider.com/where-every-us-governor-stands-ai-data-centers-midterms-2026-10",
+    "https://www.forbes.com/councils/forbestechcouncil/2026/06/12/the-truth-about-ai-data-centers-and-why-it-matters/"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795172759.6239216,
+   "title": "Hermes Agent jamoaviy bilimlarni ulashish funksiyasiga ega bo'ldi",
+   "text": "Ochiq kodli Hermes Agent dasturiy ta'minoti foydalanuvchilarga Microsoft Teams platformasi ichida to'g'ridan-to'g'ri ishlash imkonini beruvchi yangi funksiya bilan ta'minlandi.",
+   "orig_title": "Hermes Agent's Collective Wisdom feature turns one employee's AI trick into the whole team's skill",
+   "link": "https://the-decoder.com/hermes-agents-collective-wisdom-feature-turns-one-employees-ai-trick-into-the-whole-teams-skill/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Ochiq kodli sun'iy intellekt agentlari va jamoaviy bilim almashish funksiyalarining joriy etilishi korxonalarda ish unumdorligini oshirib, mutaxassislar o'rtasidagi hamkorlikni kuchaytirishi mumkin.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/06/hermes-og-image-blue.png",
+   "domains": [
+    "the-decoder.com",
+    "sports.yahoo.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/hermes-agents-collective-wisdom-feature-turns-one-employees-ai-trick-into-the-whole-teams-skill/",
+    "https://sports.yahoo.com/articles/greatest-agent-time-nfl-fans-220925283.html",
+    "https://sports.yahoo.com/mlb/article/mlb-free-agency-top-50-ranking-the-best-players-available-this-winter-starting-with-tarik-skubal-and-freddy-peralta-200115707.html"
    ],
    "videos": []
   }
