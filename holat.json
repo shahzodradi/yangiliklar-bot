@@ -1,9 +1,5 @@
 {
  "seen": {
-  "https://www.dispatch.com/press-release/story/265381/the-2026-boston-silicon-valley-ai-film-festival-11-awards-and-the-convergence-of-ai-filmmaking/": 1794312099.5438285,
-  "https://www.msn.com/en-gb/entertainment/movies/i-analyze-the-differences-between-seedance-2-0-and-kling-3-0/vi-AA2h7S9H": 1794312099.5438285,
-  "https://www.azernews.az/region/267163.html": 1794312099.5438285,
-  "https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/": 1794312099.5438285,
   "https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/": 1794315958.6113648,
   "https://the-decoder.com/anthropic-kicks-off-ipo-roadshow-offering-shares-at-70-to-78-and-targeting-a-trillion-dollar-valuation/": 1794315958.6113648,
   "https://the-decoder.com/eight-countries-and-top-ai-labs-agree-to-shutdown-mechanisms-in-new-paris-declaration/": 1794319257.5646298,
@@ -423,20 +419,14 @@
   "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/": 1795168869.5862103,
   "https://tbreak.com/ai-film-award-dubai-1-million-second-edition/": 1795172759.6239216,
   "https://business.com.tm/post/16667/parlak-nesil-to-participate-in-developing-ai-and-mining-centers-in-uzbekistan": 1795172759.6239216,
-  "https://the-decoder.com/hermes-agents-collective-wisdom-feature-turns-one-employees-ai-trick-into-the-whole-teams-skill/": 1795172759.6239216
+  "https://the-decoder.com/hermes-agents-collective-wisdom-feature-turns-one-employees-ai-trick-into-the-whole-teams-skill/": 1795172759.6239216,
+  "https://www.tech-critter.com/alibaba-cloud-malaysia-ai-investment-qwen-conference-2026/": 1795176101.1063173,
+  "https://zamin.uz/en/technology/227628-how-can-uzbekistan-become-a-regional-it-hub-key-achievements-and-challenges.html": 1795176101.1063173,
+  "https://www.msn.com/en-in/news/other/how-to-create-gta-style-images-using-gemini-and-other-ai-tools/ar-AA2hLjUm": 1795176101.1063173,
+  "https://www.msn.com/en-in/news/other/gta-style-photo-is-just-one-ai-prompt-away-heres-how-to-create-yours/ar-AA2hQJLI": 1795176101.1063173
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1794827255.325033,
-   "title": "94% of Singapore Small Business Owners Surveyed Say More AI Guidance Is Needed",
-   "soha": "AI"
-  },
-  {
-   "t": 1794830477.5447698,
-   "title": "Adobe Brings AI Agents and Creative Tools to Creators Everywhere",
-   "soha": "AI rasm"
-  },
   {
    "t": 1794841559.0184994,
    "title": "The day AI music claimed the nation's top spot",
@@ -1496,6 +1486,26 @@
    "t": 1795172759.6239216,
    "title": "Hermes Agent's Collective Wisdom feature turns one employee's AI trick into the whole team's skill",
    "soha": "AI"
+  },
+  {
+   "t": 1795176101.1063173,
+   "title": "Alibaba Cloud expands Malaysia AI investment with new data centre and youth innovation contest",
+   "soha": "AI tanlov"
+  },
+  {
+   "t": 1795176101.1063173,
+   "title": "How can Uzbekistan become a regional IT hub? Key achievements and challenges",
+   "soha": "AI O'zbekiston"
+  },
+  {
+   "t": 1795176101.1063173,
+   "title": "How to create GTA-style images using Gemini and other AI tools",
+   "soha": "AI rasm"
+  },
+  {
+   "t": 1795176101.1063173,
+   "title": "GTA-style photo is just one AI prompt away: Here's how to create yours",
+   "soha": "AI rasm"
   }
  ],
  "mavzu": {
@@ -1503,111 +1513,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1795000116.2748084,
-   "title": "OpenAI GPT-6.2 Astra va Fable 5.2 taqqoslandi",
-   "text": "OpenAI GPT-6.2 Astra agent imtihonlarida yuqori xarajat samaradorligini ko'rsatdi. Maqolada uning mantiqiy imkoniyatlari Fable 5.2 bilan solishtirilgan.",
-   "orig_title": "OpenAI GPT-6.2 Astra vs Fable 5.2: Use Case and Performance Comparison",
-   "link": "https://www.geeky-gadgets.com/extra-high/",
-   "source": "geeky-gadgets.com",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [
-    {
-     "kim": "Dan Shipper",
-     "lavozim": "texnologiya eksperti",
-     "fikr": "Astra 6 kod yozishda ko‘pincha juda erta to‘xtab qoladi va matn yozishda haddan tashqari qisqalikni ma’qul ko‘radi, natijada javoblarni tushunish qiyinlashishi mumkin.",
-     "url": "https://www.geeky-gadgets.com/extra-high/",
-     "domain": "geeky-gadgets.com"
-    }
-   ],
-   "effect": "AI modellari o‘rtasidagi narx va unumdorlik poygasi kuchayishi, ishlab chiquvchilarning arzonroq yoki ixtisoslashgan modellarga o‘tishi tezlashishi mumkin.",
-   "image": "https://www.geeky-gadgets.com/wp-content/uploads/2026/11/gpt-6-astra-benchmarks.jpg",
-   "domains": [
-    "geeky-gadgets.com",
-    "finance.yahoo.com",
-    "theverge.com"
-   ],
-   "urls": [
-    "https://www.geeky-gadgets.com/extra-high/",
-    "https://finance.yahoo.com/technology/ai/articles/anthropic-debuts-claude-fable-mythos-210210527.html",
-    "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout"
-   ],
-   "videos": [
-    [
-     "https://www.youtube.com/watch?v=K81vU-gykmQ",
-     "YouTube"
-    ]
-   ]
-  },
-  {
-   "t": 1795000116.2748084,
-   "title": "Le Groupe Figaro va OpenAI hamkorlik o'rnatdi",
-   "text": "Le Groupe Figaro va OpenAI nashr materiallarini ChatGPT'ga qo'shish bo'yicha kelishuvga erishdi. Foydalanuvchilar original maqolalarga havolalar orqali xulosalarni olishi mumkin.",
-   "orig_title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
-   "link": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
-   "source": "OpenAI",
-   "soha": "AI",
-   "baho": 7,
-   "experts": [],
-   "effect": "ChatGPT orqali tashqi xizmatlar va xavfsizlik yechimlarining integratsiyalashuvi platformaning amaliy ekotizimga aylanishini jadallashtirishi ehtimoli bor.",
-   "image": null,
-   "domains": [
-    "techcrunch.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://techcrunch.com/2026/04/30/openai-announces-new-advanced-security-for-chatgpt-accounts-including-a-partnership-with-yubico/",
-    "https://finance.yahoo.com/news/etsy-openai-chatgpt-partnership-could-201847552.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795000116.2748084,
-   "title": "ChatGPT GPT-6.2 Astra yordamida veb-sayt yaratildi",
-   "text": "Yangi GPT-6.2 Astra modeli yordamida bitta buyruq yordamida oilaviy tashkilot veb-sayti muvaffaqiyatli qurildi.",
-   "orig_title": "I tested ChatGPT’s new GPT-6.2 Astra with one prompt — and built a website I’d actually use",
-   "link": "https://tech.yahoo.com/ai/chatgpt/articles/tested-chatgpt-gpt-6-2-064500873.html",
-   "source": "tech.yahoo.com",
-   "soha": "AI",
-   "baho": 7,
-   "experts": [],
-   "effect": "Foydalanuvchilarning kod yozmasdan murakkab veb-saytlar va ilovalar yaratish imkoniyati kengayishi dasturiy ta’minot ishlab chiqish bozorini arzonlashtirishi mumkin.",
-   "image": "https://s.yimg.com/lo/mysterio/api/b1897020f95c56df8c74ecdcf12de35591a17a61eefb74e505ba544702196899/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Ftoms_guide_826%2Fe1b0577027370314040d29b3ae976c5b.jpg",
-   "domains": [
-    "tech.yahoo.com",
-    "theverge.com"
-   ],
-   "urls": [
-    "https://tech.yahoo.com/ai/chatgpt/articles/tested-chatgpt-gpt-6-2-064500873.html",
-    "https://www.theverge.com/2023/11/6/23948619/openai-chatgpt-devday-developer-conference-news"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795003288.0055163,
-   "title": "Humyn Labs 47 million dollar investitsiya jalb qildi",
-   "text": "Sun'iy intellekt va robototexnika uchun ma'lumotlar yetkazib beruvchi Humyn Labs 47 million dollar investitsiya oldi, uning daromadining 90 foizi AQSh bozoriga to'g'ri keladi.",
-   "orig_title": "India’s Humyn Labs raises $47M to feed U.S. robotics companies the data they need",
-   "link": "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/",
-   "source": "TechCrunch AI",
-   "soha": "AI",
-   "baho": 9,
-   "experts": [],
-   "effect": "Sun'iy intellekt va robototexnika kompaniyalari uchun real hayotdagi ma'lumotlarni yig'ish va o'qitish jarayoni tezlashishi, shuningdek, jismoniy sun'iy intellekt yo'nalishidagi startaplar o'rtasidagi raqobat yanada kuchayishi mumkin.",
-   "image": "https://techcrunch.com/wp-content/uploads/2026/11/humyn-labs-co-founders_164602.jpg?resize=1200,800",
-   "domains": [
-    "techcrunch.com",
-    "businessinsider.com",
-    "ca.finance.yahoo.com"
-   ],
-   "urls": [
-    "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/",
-    "https://www.businessinsider.com/robotics-tech-ai-startups-investors-funding-2026-8",
-    "https://ca.finance.yahoo.com/news/toyota-mobility-foundation-mars-select-140000216.html"
-   ],
-   "videos": []
-  },
   {
    "t": 1795007185.7900019,
    "title": "Unsiloed AI korxona hujjatlari bilan ishlash uchun 7.5 million dollar mablag‘ jalb qildi",
@@ -4209,6 +4114,92 @@
     "https://the-decoder.com/hermes-agents-collective-wisdom-feature-turns-one-employees-ai-trick-into-the-whole-teams-skill/",
     "https://sports.yahoo.com/articles/greatest-agent-time-nfl-fans-220925283.html",
     "https://sports.yahoo.com/mlb/article/mlb-free-agency-top-50-ranking-the-best-players-available-this-winter-starting-with-tarik-skubal-and-freddy-peralta-200115707.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795176101.1063173,
+   "title": "Alibaba Cloud Malayziyada AI tanlovi va ma'lumotlar markazini ochdi",
+   "text": "Alibaba Cloud Malayziyada yangi ma'lumotlar markazi va yoshlar uchun sun'iy intellekt bo'yicha innovatsion tanlov tashkil etdi.",
+   "orig_title": "Alibaba Cloud expands Malaysia AI investment with new data centre and youth innovation contest",
+   "link": "https://www.tech-critter.com/alibaba-cloud-malaysia-ai-investment-qwen-conference-2026/",
+   "source": "tech-critter.com",
+   "soha": "AI tanlov",
+   "baho": 10,
+   "experts": [],
+   "effect": "Infratuzilmaning kengayishi va arzonroq ochiq kodli suniy intellekt modellarining paydo bo'lishi korxonalarga xarajatlarni kamaytirish hamda ma'lumotlarni mahalliy darajada saqlash imkonini berishi mumkin.",
+   "image": "https://www.tech-critter.com/wp-content/uploads/2026/11/Alibaba-Qwen-Conference-Malaysia-2026-4-scaled.webp",
+   "domains": [
+    "tech-critter.com",
+    "businessinsider.com",
+    "forbes.com"
+   ],
+   "urls": [
+    "https://www.tech-critter.com/alibaba-cloud-malaysia-ai-investment-qwen-conference-2026/",
+    "https://www.businessinsider.com/thomson-reuters-builds-ai-model-rely-less-on-anthropic-2026-8",
+    "https://www.forbes.com/councils/forbestechcouncil/2026/10/15/the-ai-data-center-race-is-a-strategic-contest-not-an-it-project/"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795176101.1063173,
+   "title": "O'zbekistonning raqamli kelajagi va IT-hubga aylanish yo'li",
+   "text": "O'zbekiston Markaziy Osiyoda yetakchi texnologik markazga aylanish uchun yuqori o'sish sur'atlari va salohiyatga ega.",
+   "orig_title": "How can Uzbekistan become a regional IT hub? Key achievements and challenges",
+   "link": "https://zamin.uz/en/technology/227628-how-can-uzbekistan-become-a-regional-it-hub-key-achievements-and-challenges.html",
+   "source": "zamin.uz",
+   "soha": "AI O'zbekiston",
+   "baho": 10,
+   "experts": [],
+   "effect": "Raqamli infratuzilma va eksport hajmining oshishi mamlakatni mintaqaviy IT markaziga aylantirishi hamda futbol jamoasining xalqaro maydondagi tajribasini oshirishi mumkin.",
+   "image": "https://zamin.uz/uploads/posts/2026-11/82147a9308_9781c34e-9695-4db9-8e5e-fb9d12fbd093.webp",
+   "domains": [
+    "zamin.uz",
+    "uk.sports.yahoo.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://zamin.uz/en/technology/227628-how-can-uzbekistan-become-a-regional-it-hub-key-achievements-and-challenges.html",
+    "https://uk.sports.yahoo.com/news/24-days-to-the-world-cup-the-italy-legend-now-leading-uzbekistan-120000797.html",
+    "https://finance.yahoo.com/economy/policy/articles/global-times-xiongan-turning-bold-044100204.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795176101.1063173,
+   "title": "Gemini va boshqa vositalar yordamida GTA uslubidagi rasmlar yaratish",
+   "text": "Google Gemini va ChatGPT kabi sun'iy intellekt vositalari yordamida oddiy suratlarni mashhur videoo'yin uslubidagi tasvirlarga aylantirish mumkin.",
+   "orig_title": "How to create GTA-style images using Gemini and other AI tools",
+   "link": "https://www.msn.com/en-in/news/other/how-to-create-gta-style-images-using-gemini-and-other-ai-tools/ar-AA2hLjUm",
+   "source": "msn.com",
+   "soha": "AI rasm",
+   "baho": 8,
+   "experts": [],
+   "effect": "Sun'iy intellekt vositalari yordamida turli uslubdagi tasvirlarni yaratish imkoniyatlari kengayishi foydalanuvchilar orasida ijodiy kontent yaratish jarayonini tezlashtirishi mumkin.",
+   "image": null,
+   "domains": [],
+   "urls": [],
+   "videos": []
+  },
+  {
+   "t": 1795176101.1063173,
+   "title": "Ijtimoiy tarmoqlarda GTA uslubidagi AI rasmlar ommalashmoqda",
+   "text": "Ijtimoiy tarmoqlarda foydalanuvchilarga mashhur videoo'yin qahramonlari ko'rinishini beruvchi sun'iy intellekt rasmlari ommalashib bormoqda.",
+   "orig_title": "GTA-style photo is just one AI prompt away: Here's how to create yours",
+   "link": "https://www.msn.com/en-in/news/other/gta-style-photo-is-just-one-ai-prompt-away-heres-how-to-create-yours/ar-AA2hQJLI",
+   "source": "msn.com",
+   "soha": "AI rasm",
+   "baho": 7,
+   "experts": [],
+   "effect": "Katta texnologik uzilishlar va inflatsiyaning kuchayishi raqamli xizmatlardan foydalanishda xavfsizlik choralarini qaytadan ko'rib chiqishga olib kelishi mumkin.",
+   "image": null,
+   "domains": [
+    "wired.com",
+    "theguardian.com"
+   ],
+   "urls": [
+    "https://www.wired.com/story/uncanny-valley-podcast-whats-with-all-these-outages/",
+    "https://www.theguardian.com/media/2026/oct/19/no-influencers-hotels-restaurants-beauty-spots-restricting-photoshoots"
    ],
    "videos": []
   }
