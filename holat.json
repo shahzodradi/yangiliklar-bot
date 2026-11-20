@@ -1,6 +1,5 @@
 {
  "seen": {
-  "https://the-decoder.com/eight-countries-and-top-ai-labs-agree-to-shutdown-mechanisms-in-new-paris-declaration/": 1794319257.5646298,
   "https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/": 1794322959.1546466,
   "https://www.foxbusiness.com/technology/adobe-google-broaden-ai-partnership-across-creative-workplace-apps": 1794322959.1546466,
   "https://the-decoder.com/anthropics-fable-5-2-completes-41-percent-of-real-freelance-jobs-up-from-2-5-percent-a-year-ago/": 1794322959.1546466,
@@ -423,7 +422,9 @@
   "https://www.msn.com/en-in/news/other/how-to-create-gta-style-images-using-gemini-and-other-ai-tools/ar-AA2hLjUm": 1795176101.1063173,
   "https://www.msn.com/en-in/news/other/gta-style-photo-is-just-one-ai-prompt-away-heres-how-to-create-yours/ar-AA2hQJLI": 1795176101.1063173,
   "https://www.ozodlik.org/a/central-asia-ai-race-data-centers-/33902523.html": 1795180243.5463223,
-  "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app": 1795180243.5463223
+  "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app": 1795180243.5463223,
+  "https://www.entrepreneur.com/business-news/tech/expanding-possibilities-how-adobe-is-powering-a-new-era-of-creativity": 1795183334.803022,
+  "https://the-decoder.com/googles-latest-homepage-update-pushes-its-search-engine-further-toward-an-ai-answer-engine/": 1795183334.803022
  },
  "fails": 0,
  "sent": [
@@ -1516,6 +1517,16 @@
    "t": 1795180243.5463223,
    "title": "Signal is blocking Gemini and Siri AI from reading your screen",
    "soha": "AI"
+  },
+  {
+   "t": 1795183334.803022,
+   "title": "Expanding Possibilities: How Adobe Is Powering a New Era of Creativity",
+   "soha": "AI rasm"
+  },
+  {
+   "t": 1795183334.803022,
+   "title": "Google's latest homepage update pushes its search engine further toward an AI answer engine",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -1523,35 +1534,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1795010502.875698,
-   "title": "Suno sun'iy intellekt musiqalari uchun video yaratish funksiyasini qo'shdi",
-   "text": "Suno platformasi foydalanuvchilarga o'z qo'shiqlari uchun avtomatik ravishda qo'shiq matniga lab qimirlatuvchi AI videolarni yaratish imkonini beruvchi yangi Visuals funksiyasini taqdim etdi.",
-   "orig_title": "Suno now lets you make AI videos for your AI music",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1036415/suno-visuals-ai-generated-video-images-feature",
-   "source": "The Verge AI",
-   "soha": "AI musiqa",
-   "baho": 10,
-   "experts": [],
-   "effect": "Sunoning yangi funksiyalari va mualliflik huquqi bo'yicha sud da'volari sun'iy intellekt va musiqa industriyasida huquqiy cheklovlar kuchayishiga hamda ijodkorlar huquqlarini himoya qilish mexanizmlari o'zgarishiga olib kelishi mumkin.",
-   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/suno-ai-visuals.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
-   "domains": [
-    "theverge.com",
-    "yahoo.com",
-    "tech.yahoo.com"
-   ],
-   "urls": [
-    "https://www.theverge.com/ai-artificial-intelligence/1036415/suno-visuals-ai-generated-video-images-feature",
-    "https://www.yahoo.com/news/politics/articles/elvis-music-owners-eminem-publisher-161526743.html",
-    "https://tech.yahoo.com/ai/deals/articles/suno-ai-music-generator-sued-194214898.html"
-   ],
-   "videos": [
-    [
-     "https://www.youtube.com/watch?v=5zFY3KkmSiE",
-     "YouTube"
-    ]
-   ]
-  },
   {
    "t": 1795014399.3249671,
    "title": "O‘zbekistonning aqlli shaharlari: COP31 da sun’iy intellekt taklif etildi",
@@ -4244,6 +4226,59 @@
     "https://techcrunch.com/2026/09/14/with-ios-27-im-actually-using-siri-again/"
    ],
    "videos": []
+  },
+  {
+   "t": 1795183334.803022,
+   "title": "Adobe Firefly va Creative Cloud uchun yangi agentlar va vositalar taqdim etildi",
+   "text": "Adobe ijodkorlarga o'z ishi ustidan nazoratni saqlagan holda ko'proq ijodiy imkoniyatlar taqdim etish uchun yangi funksiyalarni ishga tushirdi.",
+   "orig_title": "Expanding Possibilities: How Adobe Is Powering a New Era of Creativity",
+   "link": "https://www.entrepreneur.com/business-news/tech/expanding-possibilities-how-adobe-is-powering-a-new-era-of-creativity",
+   "source": "entrepreneur.com",
+   "soha": "AI rasm",
+   "baho": 8,
+   "experts": [],
+   "effect": "Ijodkorlar uchun murakkab va ko‘p bosqichli jarayonlarni avtomatlashtirish, loyihalarni bajarish vaqtini qisqartirish hamda ish unumdorligini oshirish imkonini berishi mumkin. Shuningdek, bu yangi funksiyalar sun'iy intellekt vositalari bozordagi raqobatni yanada kuchaytirishi ehtimoli bor.",
+   "image": "https://www.entrepreneur.com/wp-content/uploads/sites/2/2026/11/HERO-Quick-Action-To-Assemble-a-Video-No-Logo-4-1.jpg",
+   "domains": [
+    "entrepreneur.com",
+    "finance.yahoo.com",
+    "tech.yahoo.com"
+   ],
+   "urls": [
+    "https://www.entrepreneur.com/business-news/tech/expanding-possibilities-how-adobe-is-powering-a-new-era-of-creativity",
+    "https://finance.yahoo.com/sectors/technology/articles/adobe-ushers-era-creativity-creative-130000427.html",
+    "https://tech.yahoo.com/ai/meta-ai/articles/adobe-firefly-ai-assistant-now-140000893.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795183334.803022,
+   "title": "Google qidiruv bosh sahifasiga sun'iy intellektga asoslangan yordamchi funksiyalarni qo'shdi",
+   "text": "Google qidiruv bosh sahifasiga AI rejimini va yig'iladigan yon panelni joriy etdi, bu foydalanuvchilarga so'nggi qidiruvlarni boshqarish imkonini beradi.",
+   "orig_title": "Google's latest homepage update pushes its search engine further toward an AI answer engine",
+   "link": "https://the-decoder.com/googles-latest-homepage-update-pushes-its-search-engine-further-toward-an-ai-answer-engine/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Foydalanuvchilarga qidiruv jarayonida oldingi savollar va natijalarni osonroq boshqarish imkonini berib, sun'iy intellektga asoslangan qidiruv tizimlariga o‘tishni tezlashtirishi mumkin. Bu esa raqobatchilar o‘rtasidagi kurashni yanada kuchaytirishi ehtimoli bor.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/07/google_gemini-1.png",
+   "domains": [
+    "the-decoder.com",
+    "tech.yahoo.com",
+    "sports.yahoo.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/googles-latest-homepage-update-pushes-its-search-engine-further-toward-an-ai-answer-engine/",
+    "https://tech.yahoo.com/ai/gemini/articles/googles-latest-home-page-redesign-054538194.html",
+    "https://sports.yahoo.com/betting/canada/article/betvictor-alberta-review-144625576.html"
+   ],
+   "videos": [
+    [
+     "https://x.com/rmstein/status/2123500235930640844",
+     "X"
+    ]
+   ]
   }
  ]
 }
