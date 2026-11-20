@@ -413,7 +413,13 @@
   "https://www.techloy.com/how-to-make-an-ai-short-film-comparing-flova-runway-google-flow-and-luma-dream-machine/": 1795161745.3864126,
   "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/": 1795161745.3864126,
   "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/": 1795161745.3864126,
-  "https://www.theverge.com/ai-artificial-intelligence/1038063/nvidia-stock-market-price-earnings": 1795161745.3864126
+  "https://www.theverge.com/ai-artificial-intelligence/1038063/nvidia-stock-market-price-earnings": 1795161745.3864126,
+  "https://en.antaranews.com/news/444003/iqiyi-revives-90-year-old-lost-film-with-nadoupro-shortlisted-for-the-ai-unit-at-the-golden-rooster-awards": 1795165752.5138679,
+  "https://www.greenbaypressgazette.com/press-release/story/209999/from-film-sets-to-animated-dramas-how-ai-is-reshaping-film-production/": 1795165752.5138679,
+  "https://techcrunch.com/2026/11/19/anthropic-rival-says-companies-can-mostly-skip-the-pricey-models/": 1795165752.5138679,
+  "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/": 1795165752.5138679,
+  "https://www.theverge.com/ai-artificial-intelligence/1037459/anthropic-ipo-safe-ai-reputation-power-structure": 1795165752.5138679,
+  "https://www.marketscreener.com/news/kuaishou-flags-short-term-impact-as-intensifying-competition-batters-third-quarter-results-ce785ed2d189f02c": 1795165752.5138679
  },
  "fails": 0,
  "sent": [
@@ -1441,6 +1447,36 @@
    "t": 1795161745.3864126,
    "title": "A brief history of Nvidia’s recent stock fluctuations",
    "soha": "AI"
+  },
+  {
+   "t": 1795165752.5138679,
+   "title": "iQIYI Revives 90-Year-Old Lost Film with NadouPro, Shortlisted for the AI Unit at the Golden Rooster Awards",
+   "soha": "AI tanlov"
+  },
+  {
+   "t": 1795165752.5138679,
+   "title": "From Film Sets to Animated Dramas: How AI Is Reshaping Film Production",
+   "soha": "AI video"
+  },
+  {
+   "t": 1795165752.5138679,
+   "title": "Anthropic rival says companies can (mostly) skip the pricey models",
+   "soha": "AI"
+  },
+  {
+   "t": 1795165752.5138679,
+   "title": "At Nasdaq opening bell, Anthropic CEO recommits to pacing AI development",
+   "soha": "AI"
+  },
+  {
+   "t": 1795165752.5138679,
+   "title": "With the biggest IPO of all time, Anthropic’s ‘good guy’ reputation is on the line",
+   "soha": "AI"
+  },
+  {
+   "t": 1795165752.5138679,
+   "title": "Kuaishou Flags Short-Term Impact as 'Intensifying Competition' Batters Third-Quarter Results",
+   "soha": "AI video"
   }
  ],
  "mavzu": {
@@ -4051,6 +4087,151 @@
      "X"
     ]
    ]
+  },
+  {
+   "t": 1795165752.5138679,
+   "title": "iQIYI sun'iy intellekt yordamida yo'qolgan filmni tikladi",
+   "text": "iQIYI platformasi NadouPro vositasi yordamida 90 yillik eski filmni tikladi va Oltin Xo'roz mukofotining sun'iy intellekt bo'limiga kiritildi.",
+   "orig_title": "iQIYI Revives 90-Year-Old Lost Film with NadouPro, Shortlisted for the AI Unit at the Golden Rooster Awards",
+   "link": "https://en.antaranews.com/news/444003/iqiyi-revives-90-year-old-lost-film-with-nadoupro-shortlisted-for-the-ai-unit-at-the-golden-rooster-awards",
+   "source": "en.antaranews.com",
+   "soha": "AI tanlov",
+   "baho": 10,
+   "experts": [],
+   "effect": "Sun'iy intellekt texnologiyalarining kinolarni noldan qayta tiklashdagi imkoniyatlarini kengaytirishi hamda kelgusida yo‘qolib ketgan madaniy meroslarni asl holatiga yaqinlashtirib qayta jonlantirishga zamin yaratishi mumkin.",
+   "image": "https://cdn.antaranews.com/cache/1200x800/2026/11/20/shanghai.jpg",
+   "domains": [
+    "en.antaranews.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://en.antaranews.com/news/444003/iqiyi-revives-90-year-old-lost-film-with-nadoupro-shortlisted-for-the-ai-unit-at-the-golden-rooster-awards",
+    "https://finance.yahoo.com/technology/ai/articles/iqiyi-revives-90-old-lost-100300931.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795165752.5138679,
+   "title": "Sun'iy intellekt qisqa metrajli seriallar ishlab chiqarishni o'zgartirmoqda",
+   "text": "Cheng sun'iy intellekt texnologiyalaridan foydalangan holda hikoya tuzilmalarini tahlil qilish va qahramonlar munosabatlarini xaritalash ishlarini amalga oshirdi.",
+   "orig_title": "From Film Sets to Animated Dramas: How AI Is Reshaping Film Production",
+   "link": "https://www.greenbaypressgazette.com/press-release/story/209999/from-film-sets-to-animated-dramas-how-ai-is-reshaping-film-production/",
+   "source": "greenbaypressgazette.com",
+   "soha": "AI video",
+   "baho": 9,
+   "experts": [
+    {
+     "kim": "Alex Gibney",
+     "lavozim": "rejissyor",
+     "fikr": "Maskning siyosatda o‘ngga burilishi va Trampni qo‘llab-quvvatlashiga unga qarshi ochilgan jinoiy tergovlar sabab bo‘lgan deb o‘ylayman.",
+     "url": "https://uk.news.yahoo.com/musk-director-alex-gibney-reveals-160000881.html",
+     "domain": "uk.news.yahoo.com"
+    }
+   ],
+   "effect": "Taniqli shaxslar va yirik texnologiya rahbarlarining siyosiy jarayonlar hamda saylovlarga ta'siri kuchayishi, shuningdek, yirik kompaniyalar rahbarlariga nisbatan davlat organlarining tergovlari yanada qattiqlashishiga olib kelishi ehtimoli bor.",
+   "image": null,
+   "domains": [
+    "uk.news.yahoo.com"
+   ],
+   "urls": [
+    "https://uk.news.yahoo.com/musk-director-alex-gibney-reveals-160000881.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795165752.5138679,
+   "title": "Fireworks AI ochiq kodli modellarni afzal ko'rishni taklif qildi",
+   "text": "Anthropic kompaniyasi aksiyalarini ommaviy joylashtirgan kunda, Fireworks AI asoschisi qimmat modellarga arzon muqobil sifatida ochiq kodli modellarni keltirdi.",
+   "orig_title": "Anthropic rival says companies can (mostly) skip the pricey models",
+   "link": "https://techcrunch.com/2026/11/19/anthropic-rival-says-companies-can-mostly-skip-the-pricey-models/",
+   "source": "TechCrunch Venture",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Qimmat va yirik umumiy intellekt modellariga qaramlikni kamaytirib, kompaniyalarning o‘z ma'lumotlari asosida ishlaydigan arzonroq va moslashuvchan ochiq modellar bozorining jadal rivojlanishiga olib kelishi mumkin.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/Screenshot-2026-11-20-at-12.43.24-AM.png?resize=1200,601",
+   "domains": [
+    "techcrunch.com",
+    "businessinsider.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/19/anthropic-rival-says-companies-can-mostly-skip-the-pricey-models/",
+    "https://www.businessinsider.com/jensen-huang-nvidia-ouster-removes-major-threat-to-anthropic-ipo-2026-11"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795165752.5138679,
+   "title": "Anthropic rahbari sun'iy intellekt rivojlanishini sekinlashtirishga va'da berdi",
+   "text": "Nasdaq birjasining ochilish marosimida Dario Amodei biznes yoki siyosiy bosimlardan qat'i nazar, sun'iy intellekt taraqqiyotini bosqichma-bosqich olib borishini ta'kidladi.",
+   "orig_title": "At Nasdaq opening bell, Anthropic CEO recommits to pacing AI development",
+   "link": "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Texnologik aksiyalar bozorida keskin o‘zgarishlar va sotuvlar davom etib, investorlarning sun'iy intellekt sohasidagi qimmat qog‘ozlarga bo‘lgan yondashuvi yanada ehtiyotkorona tus olishi mumkin.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2305298275.jpg?w=594",
+   "domains": [
+    "techcrunch.com",
+    "businessinsider.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/",
+    "https://www.businessinsider.com/nasdaq-correction-decline-ai-spending-tech-stocks-market-outlook-midterms-2026-11"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795165752.5138679,
+   "title": "Anthropic tarixidagi eng yirik IPO orqali ommaga chiqdi",
+   "text": "Anthropic 81.3 milliard dollar mablag' jalb qilib, eng qimmat IPO rekordini o'rnatdi va boshqa sun'iy intellekt laboratoriyalari uchun muhim presedent yaratdi.",
+   "orig_title": "With the biggest IPO of all time, Anthropic’s ‘good guy’ reputation is on the line",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1037459/anthropic-ipo-safe-ai-reputation-power-structure",
+   "source": "The Verge AI",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Bozordagi aksiyalar narxining o‘zgaruvchanligini oshirishi hamda texnologiya kompaniyalarining infratuzilma uchun qilayotgan ulkan xarajatlari o‘zini oqlashi bo‘yicha investorlarning xavotirlarini kuchaytirishi mumkin.",
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/STK202_DARIO_AMODEI_CVIRGINIA_D.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+   "domains": [
+    "theverge.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://www.theverge.com/ai-artificial-intelligence/1037459/anthropic-ipo-safe-ai-reputation-power-structure",
+    "https://finance.yahoo.com/markets/stocks/articles/wall-street-wipes-early-gains-213741131.html"
+   ],
+   "videos": [
+    [
+     "https://x.com/MrinankSharma/status/2020881722003583421",
+     "X"
+    ],
+    [
+     "https://x.com/hilbertspaess/status/2097476196791709843",
+     "X"
+    ]
+   ]
+  },
+  {
+   "t": 1795165752.5138679,
+   "title": "Kuchayib borayotgan raqobat Kuaishou natijalariga ta'sir ko'rsatdi",
+   "text": "Qisqa video va jonli translatsiya platformalarini boshqaruvchi Kuaishou kompaniyasi kuchaygan raqobat sharoitida uchinchi chorak natijalarini e'lon qildi.",
+   "orig_title": "Kuaishou Flags Short-Term Impact as 'Intensifying Competition' Batters Third-Quarter Results",
+   "link": "https://www.marketscreener.com/news/kuaishou-flags-short-term-impact-as-intensifying-competition-batters-third-quarter-results-ce785ed2d189f02c",
+   "source": "marketscreener.com",
+   "soha": "AI video",
+   "baho": 7,
+   "experts": [],
+   "effect": "Kompaniyaning yaqin kelajakdagi moliyaviy ko‘rsatkichlariga bosim o‘tkazib, sun'iy intellekt texnologiyalariga qilinayotgan yuqori xarajatlar fonida raqobatbardoshlikni saqlab qolish uchun qo‘shimcha strategik qadamlar qo‘yilishiga olib kelishi mumkin.",
+   "image": null,
+   "domains": [
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://finance.yahoo.com/markets/stocks/articles/china-kuaishou-slumps-record-low-061651762.html"
+   ],
+   "videos": []
   }
  ]
 }
