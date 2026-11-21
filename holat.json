@@ -393,7 +393,9 @@
   "https://about.fb.com/news/2026/11/advancing-science-together-highlights-from-the-open-source-ai-for-science-summit/": 1795240884.5004683,
   "https://dailytrojan.com/2026/11/18/students-compete-to-improve-campus-life-using-ai/": 1795244548.1798391,
   "https://the-decoder.com/signal-blocks-screenshots-on-ios-27-and-android-to-stop-ai-agents-from-reading-private-chats/": 1795244548.1798391,
-  "https://www.jagonews24.com/en/biz-econ/news/98590": 1795248093.007624
+  "https://www.jagonews24.com/en/biz-econ/news/98590": 1795248093.007624,
+  "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/": 1795251955.8930604,
+  "https://www.deccanchronicle.com/southern-states/telangana/ai-challenges-notions-of-film-education-2006450": 1795251955.8930604
  },
  "fails": 0,
  "sent": [
@@ -1391,6 +1393,16 @@
    "t": 1795248093.007624,
    "title": "PRAN-RFL presents platform for emerging AI creators",
    "soha": "AI tanlov"
+  },
+  {
+   "t": 1795251955.8930604,
+   "title": "Chips can survive the space environment — can their financing?",
+   "soha": "AI"
+  },
+  {
+   "t": 1795251955.8930604,
+   "title": "AI Challenges Notions Of Film Education",
+   "soha": "AI video"
   }
  ],
  "mavzu": {
@@ -3918,6 +3930,60 @@
    "urls": [
     "https://finance.yahoo.com/news/ai-powered-creator-monetisation-platform-000100943.html",
     "https://finance.yahoo.com/technology/ai/articles/progress-data-platform-summit-2026-130000074.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795251955.8930604,
+   "title": "Kosmik AI ma’lumotlar markazlarini moliyalashtirish muammoga aylanmoqda",
+   "text": "Kosmik muhitga chidamli chiplar paydo bo‘layotgan bo‘lsa-da, kreditorlar garov mulkini orbitaga chiqarishga xavfsiramoqda, bu esa kosmik AI infratuzilmasiga ta’sir qilmoqda.",
+   "orig_title": "Chips can survive the space environment — can their financing?",
+   "link": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 6,
+   "experts": [],
+   "effect": "Fazoviy ma'lumotlar markazlarini moliyalashtirishda aktiv sifatida ta'minlangan qarz shartlari qiyinlashishi, kompaniyalar chiplarni sotib olish uchun yer ustidagilarga qaraganda ko'proq mablag' sarflashiga olib kelishi mumkin.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/06/SpaceXAIsatrender.jpg?resize=1200,639",
+   "domains": [
+    "techcrunch.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/",
+    "https://finance.yahoo.com/technology/ai/articles/spacex-lenders-reportedly-sought-keep-184700255.html",
+    "https://finance.yahoo.com/technology/ai/articles/spacex-just-raised-32-billion-174802436.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795251955.8930604,
+   "title": "AI kino ta’limi va an’anaviy tushunchalarni o‘zgartirmoqda",
+   "text": "Kino san’atida AI texnologiyalari ta’lim jarayoniga ta’sir qilib, texnik ko‘nikmalar bilan birga san’atning mazmuniy jihatlarini tushunish zarurati haqida bahslar keltirib chiqarmoqda.",
+   "orig_title": "AI Challenges Notions Of Film Education",
+   "link": "https://www.deccanchronicle.com/southern-states/telangana/ai-challenges-notions-of-film-education-2006450",
+   "source": "deccanchronicle.com",
+   "soha": "AI video",
+   "baho": 6,
+   "experts": [
+    {
+     "kim": "B. Narsing Rao",
+     "lavozim": "Telangana kinorejissori",
+     "fikr": "Texnik jihatlarni o'qish orqali o'rganish mumkin, lekin san'at va hayotni tushunmasdan kino kursini tamomlasangiz, qiyin ahvolda qolasiz.",
+     "url": "https://www.deccanchronicle.com/southern-states/telangana/ai-challenges-notions-of-film-education-2006450",
+     "domain": "deccanchronicle.com"
+    }
+   ],
+   "effect": "Sun'iy intellekt texnologiyalarining joriy etilishi va reklamalarni avtomatlashtirilgan ishlab chiqarish kelgusida yosh rejissyorlar uchun amaliy tajriba orttirish va kasbni o'rganish imkoniyatlarini qisqartirishi mumkin.",
+   "image": null,
+   "domains": [
+    "deccanchronicle.com",
+    "theguardian.com"
+   ],
+   "urls": [
+    "https://www.deccanchronicle.com/southern-states/telangana/ai-challenges-notions-of-film-education-2006450",
+    "https://www.theguardian.com/film/2026/nov/03/china-first-ai-generated-film-flops-cinema-future",
+    "https://www.theguardian.com/film/2026/oct/09/ai-threat-britain-directors-ridley-scott-guy-ritchie"
    ],
    "videos": []
   }
