@@ -1,8 +1,5 @@
 {
  "seen": {
-  "https://www.msn.com/en-gb/technology/artificial-intelligence/how-i-create-fashion-images-with-higgsfield-soul-2-0/vi-AA2he0g8": 1794405767.6505322,
-  "https://the-decoder.com/us-data-brokers-are-selling-half-a-billion-dollars-in-rl-training-environments-to-chinese-ai-labs/": 1794405767.6505322,
-  "https://the-decoder.com/grok-built-apps-exposed-patient-data-plaintext-passwords-and-spacexsis-own-sales-pipeline/": 1794405767.6505322,
   "https://www.jsonline.com/press-release/story/267599/protoface-announces-worlds-lowest-seedance-2-5-api-prices-starting-at-0-08-per-second/": 1794420074.9810429,
   "https://www.theverge.com/tech/1031505/adobe-max-2026-sneaks-experiments-ai": 1794420074.9810429,
   "https://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days/": 1794420074.9810429,
@@ -394,11 +391,6 @@
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1794924078.684282,
-   "title": "ElevenLabs agrees to acquire Japan-focused voice AI company Kotoba in reported $100M deal",
-   "soha": "AI musiqa"
-  },
   {
    "t": 1794931283.3393557,
    "title": "Perfect Corp. introduces a brand-new AI Song & Music Video Platform, YouCam Muse, and kicks off the AI Music Video Challenge with Cash Prizes",
@@ -1395,29 +1387,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1795096895.8013613,
-   "title": "Universitet geologiya sohasida sun'iy intellektga tayanmoqda",
-   "text": "O'zbekistonda geologiya sohasiga sun'iy intellekt va raqamli texnologiyalarni joriy etish choralari ko'rilmoqda.",
-   "orig_title": "Raqamli davrda geologiya: universitet sun'iy intellekt, 3D modellashtirish va muhim minerallarga pul tikmoqda",
-   "link": "https://www.uzdaily.uz/uz/raqamli-davrda-geologiya-universitet-suniy-intellekt-3d-modellashtirish-va-muhim-minerallarga-pul-tikmoqda/",
-   "source": "uzdaily.uz",
-   "soha": "AI O'zbekiston",
-   "baho": 10,
-   "experts": [],
-   "effect": "Ta'lim jarayoniga sun'iy intellekt va 3D modellashtirishning joriy etilishi geologiya sohasida raqamli ko'nikmalarga ega malakali kadrlar tayyorlashni yaxshilashi mumkin. Ishlab chiqarish korxonalari bilan hamkorlik va dual ta'limning kengaytirilishi bitiruvchilarning real ish sharoitiga tez moslashishiga va sohada kadrlar taqchilligini kamaytirishga xizmat qilishi ehtimoli bor.",
-   "image": "https://www.uzdaily.uz/media/filer_public/49/c7/49c79e3d-f7f2-4300-8f1b-61d354ebedce/geologpress1911_20261119131933.webp",
-   "domains": [
-    "uzdaily.uz",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://www.uzdaily.uz/uz/raqamli-davrda-geologiya-universitet-suniy-intellekt-3d-modellashtirish-va-muhim-minerallarga-pul-tikmoqda/",
-    "https://finance.yahoo.com/quote/AIQ/",
-    "https://finance.yahoo.com/quote/WTAI/"
-   ],
-   "videos": []
-  },
   {
    "t": 1795100971.2257173,
    "title": "Clinch Higgsfield va Seedance modellarini integratsiya qildi",
