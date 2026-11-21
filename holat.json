@@ -1,7 +1,5 @@
 {
  "seen": {
-  "https://markets.businessinsider.com/news/stocks/ai-era-corp-acquires-exclusive-rights-to-ai-script-to-video-pipeline-1036743477": 1794376890.129379,
-  "https://finance.yahoo.com/technology/ai/articles/ai-video-generator-free-trial-151300153.html": 1794376890.129379,
   "https://www.thurrott.com/a-i/343687/adobe-expands-microsoft-partnership-at-max": 1794380809.7387686,
   "https://www.koreatimes.co.kr/lifestyle/people-events/20261105/korean-chinese-filmmakers-seek-common-ground-beyond-politics-through-ai": 1794380809.7387686,
   "https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/": 1794380809.7387686,
@@ -397,35 +395,12 @@
   "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/": 1795233672.1287954,
   "https://openai.com/index/combatting-adversarial-distillation": 1795237813.932109,
   "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/": 1795240884.5004683,
-  "https://about.fb.com/news/2026/11/advancing-science-together-highlights-from-the-open-source-ai-for-science-summit/": 1795240884.5004683
+  "https://about.fb.com/news/2026/11/advancing-science-together-highlights-from-the-open-source-ai-for-science-summit/": 1795240884.5004683,
+  "https://dailytrojan.com/2026/11/18/students-compete-to-improve-campus-life-using-ai/": 1795244548.1798391,
+  "https://the-decoder.com/signal-blocks-screenshots-on-ios-27-and-android-to-stop-ai-agents-from-reading-private-chats/": 1795244548.1798391
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1794895552.3226838,
-   "title": "Tech leaders are convinced that Jensen Huang’s exit was a plot against him",
-   "soha": "AI"
-  },
-  {
-   "t": 1794895552.3226838,
-   "title": "Jensen Huang Is Gone. Now What?",
-   "soha": "AI"
-  },
-  {
-   "t": 1794895552.3226838,
-   "title": "Science at the Frontier: How scientists use ChatGPT",
-   "soha": "AI"
-  },
-  {
-   "t": 1794895552.3226838,
-   "title": "Our first phase of embedded assessments",
-   "soha": "AI"
-  },
-  {
-   "t": 1794895552.3226838,
-   "title": "Freshworks alums raise $53M to take on Salesforce, HubSpot with AI-native CRM",
-   "soha": "AI"
-  },
   {
    "t": 1794898979.8938375,
    "title": "All the questions Nvidia should answer on Tuesday — but probably won’t",
@@ -1444,6 +1419,16 @@
   {
    "t": 1795240884.5004683,
    "title": "Advancing Science Together: Highlights From the Open Source AI For Science Summit",
+   "soha": "AI"
+  },
+  {
+   "t": 1795244548.1798391,
+   "title": "Students compete to improve campus life using AI",
+   "soha": "AI tanlov"
+  },
+  {
+   "t": 1795244548.1798391,
+   "title": "Signal blocks screenshots on iOS 27 and Android to stop AI agents from reading private chats",
    "soha": "AI"
   }
  ],
@@ -4055,6 +4040,54 @@
     "https://about.fb.com/news/2026/11/advancing-science-together-highlights-from-the-open-source-ai-for-science-summit/",
     "https://www.yahoo.com/news/science/articles/cop31-ai-pledge-fails-lure-164411235.html",
     "https://www.forbes.com/connect/event/2026-forbes-cio-summit/"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795244548.1798391,
+   "title": "Talabalar sun'iy intellekt yordamida kampus hayotini yaxshilash uchun bellashdi",
+   "text": "USC talabalari sun'iy intellekt yordamida kampus hayotini yaxshilash bo'yicha o'tkazilgan tanlovda 14 ming dollar mukofot jamg'armasi uchun kurashdi.",
+   "orig_title": "Students compete to improve campus life using AI",
+   "link": "https://dailytrojan.com/2026/11/18/students-compete-to-improve-campus-life-using-ai/",
+   "source": "dailytrojan.com",
+   "soha": "AI tanlov",
+   "baho": 10,
+   "experts": [],
+   "effect": "Talabalarning sun'iy intellektga asoslangan ishlanmalari universitet hududidagi xizmatlar va infratuzilmani yaxshilashga hamda talabalar hayotini qulaylashtirishga xizmat qilishi mumkin.",
+   "image": "https://dailytrojan.com/wp-content/uploads/2026/11/IMG_8724-scaled.jpg",
+   "domains": [
+    "dailytrojan.com",
+    "yahoo.com",
+    "sports.yahoo.com"
+   ],
+   "urls": [
+    "https://dailytrojan.com/2026/11/18/students-compete-to-improve-campus-life-using-ai/",
+    "https://www.yahoo.com/news/videos/maryland-students-compete-regional-round-155118113.html",
+    "https://sports.yahoo.com/articles/mcalester-krebs-students-compete-special-045900525.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795244548.1798391,
+   "title": "Signal AI agentlarining shaxsiy chatlarni o'qishini bloklaydi",
+   "text": "Signal ilovasi iOS va Android uchun skrinshotlarni bloklash funksiyasini joriy qildi. Bu Apple Siri, Google Gemini va Meta Muse kabi AI agentlarining maxfiy chatlarni o'qishining oldini olish uchun qilingan.",
+   "orig_title": "Signal blocks screenshots on iOS 27 and Android to stop AI agents from reading private chats",
+   "link": "https://the-decoder.com/signal-blocks-screenshots-on-ios-27-and-android-to-stop-ai-agents-from-reading-private-chats/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Operatsion tizim darajasidagi sun'iy intellekt agentlarining shaxsiy chatlardagi ma'lumotlarni o'qishi cheklanishi maxfiylikni oshirishi hamda texnologiya kompaniyalari o'rtasida ma'lumotlar xavfsizligi borasidagi cheklovlarni yanada kuchaytirishi ehtimoli bor.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/11/signal_ai_agents.png",
+   "domains": [
+    "the-decoder.com",
+    "tech.yahoo.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/signal-blocks-screenshots-on-ios-27-and-android-to-stop-ai-agents-from-reading-private-chats/",
+    "https://tech.yahoo.com/ai/articles/two-nmsu-professors-earn-600k-013319424.html",
+    "https://finance.yahoo.com/technology/ai/articles/amazon-blocks-meta-muse-agent-123836124.html"
    ],
    "videos": []
   }
