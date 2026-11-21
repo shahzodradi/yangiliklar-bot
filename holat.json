@@ -1,16 +1,5 @@
 {
  "seen": {
-  "https://www.msn.com/en-us/entertainment/general/umg-v-suno-discovery-dispute-rages-amid-marathon-legal-battle/ar-AA2hbpBj?ocid=BingNewsVerp": 1794369673.2776096,
-  "https://www.engadget.com/2310316/suno-ai-music-generator-sued-again-for-copyright-infringement/": 1794369673.2776096,
-  "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/": 1794369673.2776096,
-  "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/": 1794369673.2776096,
-  "https://www.theverge.com/ai-artificial-intelligence/1031063/jensen-huang-ai-race-us-china-spy": 1794369673.2776096,
-  "https://www.cartoonbrew.com/artificial-intelligence/el-empleo-unauthorized-ai-remake-269233.html": 1794373354.7292726,
-  "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/": 1794373354.7292726,
-  "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/": 1794373354.7292726,
-  "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/": 1794373354.7292726,
-  "https://www.wired.com/story/tear-down-those-guardrails-meet-the-renegades-freeing-chatbots-from-corporate-enslavers/": 1794373354.7292726,
-  "https://techcrunch.com/2026/11/10/proximal-ventures-raises-debut-fund-to-back-startups-bringing-ai-to-drug-development/": 1794373354.7292726,
   "https://markets.businessinsider.com/news/stocks/ai-era-corp-acquires-exclusive-rights-to-ai-script-to-video-pipeline-1036743477": 1794376890.129379,
   "https://finance.yahoo.com/technology/ai/articles/ai-video-generator-free-trial-151300153.html": 1794376890.129379,
   "https://www.thurrott.com/a-i/343687/adobe-expands-microsoft-partnership-at-max": 1794380809.7387686,
@@ -405,55 +394,11 @@
   "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax": 1795201597.9731865,
   "https://the-decoder.com/openai-makes-it-much-harder-for-attackers-to-extract-how-its-latest-ai-models-think/": 1795230355.866579,
   "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/": 1795230355.866579,
-  "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/": 1795233672.1287954
+  "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/": 1795233672.1287954,
+  "https://openai.com/index/combatting-adversarial-distillation": 1795237813.932109
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1794888082.8592849,
-   "title": "USC students build AI tools for campus life at two-day hackathon",
-   "soha": "AI tanlov"
-  },
-  {
-   "t": 1794888082.8592849,
-   "title": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
-   "soha": "AI"
-  },
-  {
-   "t": 1794888082.8592849,
-   "title": "Apple is testing daily usage limits for more complex Siri AI interactions",
-   "soha": "AI"
-  },
-  {
-   "t": 1794888082.8592849,
-   "title": "OpenAI wants to stop deepfakes from overwhelming child abuse tiplines",
-   "soha": "AI"
-  },
-  {
-   "t": 1794888082.8592849,
-   "title": "Broadening access to AI for scientists",
-   "soha": "AI"
-  },
-  {
-   "t": 1794891779.9417048,
-   "title": "People are making millions without showing their face (AI influencers)",
-   "soha": "AI video"
-  },
-  {
-   "t": 1794891779.9417048,
-   "title": "Google warns that fully automated cyberattacks have arrived and will get worse fast",
-   "soha": "AI"
-  },
-  {
-   "t": 1794891779.9417048,
-   "title": "FBI says Artex AI open source hacking tool used to breach networks in ‘under three hours’",
-   "soha": "AI"
-  },
-  {
-   "t": 1794891779.9417048,
-   "title": "Building trustworthy AI by fencing it in, not predicting it",
-   "soha": "AI"
-  },
   {
    "t": 1794895552.3226838,
    "title": "Tech leaders are convinced that Jensen Huang’s exit was a plot against him",
@@ -1483,6 +1428,11 @@
    "t": 1795233672.1287954,
    "title": "AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too",
    "soha": "AI"
+  },
+  {
+   "t": 1795237813.932109,
+   "title": "Combatting adversarial distillation",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -1490,53 +1440,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1795064755.821135,
-   "title": "AI tasvirdan video yaratish vositalari solishtirildi",
-   "text": "Memeburn nashri 2026-yilda Kling AI, Runway va Adobe Firefly kabi 8 ta asosiy AI vositalarini sifat, narx va huquqlar bo'yicha solishtirdi.",
-   "orig_title": "Best AI Image to Video Generator in 2026: 8 Tools Compared",
-   "link": "https://memeburn.com/best-ai-image-to-video-generator/",
-   "source": "memeburn.com",
-   "soha": "AI video",
-   "baho": 9,
-   "experts": [],
-   "effect": "Aksessuar narxlari va butlovchi qismlar qiymatining oshishi bozordagi yangi qurilmalar narxiga ta'sir qilishi mumkin.",
-   "image": "https://memeburn.com/wp-content/uploads/2026/11/Best-AI-Image-to-Video-Generator-in-2026-8-Tools-Compared.jpg",
-   "domains": [
-    "memeburn.com",
-    "theguardian.com",
-    "ca.news.yahoo.com"
-   ],
-   "urls": [
-    "https://memeburn.com/best-ai-image-to-video-generator/",
-    "https://www.theguardian.com/technology/article/2025/feb/13/best-apple-iphone",
-    "https://ca.news.yahoo.com/best-movies-amazon-prime-now-190000639.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795064755.821135,
-   "title": "Suno sun'iy intellekt musiqa videolari uchun Visuals funksiyasini taqdim etdi",
-   "text": "Suno platformasi qo'shiqni qisqa video, animatsiyali matnli video va maxsus tasvirlarga aylantiruvchi Visuals funksiyasini ishga tushirdi.",
-   "orig_title": "Suno Brings AI Music Videos to Creators with New Visuals Feature: What You Need to Know",
-   "link": "https://www.analyticsinsight.net/news/suno-brings-ai-music-videos-to-creators-with-new-visuals-feature-what-you-need-to-know",
-   "source": "analyticsinsight.net",
-   "soha": "AI musiqa",
-   "baho": 9,
-   "experts": [],
-   "effect": "Kompaniyaga qarshi sud jarayonlari kuchayishi va mualliflik huquqini himoya qilish qonunchiligi yanada qat'iylashishi ehtimoli bor.",
-   "image": "https://media.assettype.com/analyticsinsight%2F2026-11-18%2Ffup5mz1c%2Fsuno-visuals-launch-ai-music-videos-separate-credits-india-pricing-and-mobile-availability-explained.png?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
-   "domains": [
-    "analyticsinsight.net",
-    "theverge.com"
-   ],
-   "urls": [
-    "https://www.analyticsinsight.net/news/suno-brings-ai-music-videos-to-creators-with-new-visuals-feature-what-you-need-to-know",
-    "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit",
-    "https://www.theverge.com/podcast/1029684/riaa-mitch-glazier-napster-ai-labels-music"
-   ],
-   "videos": []
-  },
   {
    "t": 1795068068.706351,
    "title": "Sunʼiy intellekt yaratgan film xarajatini qoplay olmadi",
@@ -4099,6 +4002,30 @@
     "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
     "https://www.yahoo.com/news/science/articles/ai-riemann-hypothesis-proof-almost-210000837.html",
     "https://www.businessinsider.com/riemann-hypothesis-math-human-ai-dueling-solution-alpoge-masullo-2026-11"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795237813.932109,
+   "title": "OpenAI xavfsizlikni kuchaytirish uchun yangi usullarni joriy qildi",
+   "text": "OpenAI model imkoniyatlarini ruxsatsiz nusxalashdan himoya qilish uchun modelni o'qitish va himoya choralarini o'z ichiga olgan ko'p qatlamli yondashuvni taqdim etdi.",
+   "orig_title": "Combatting adversarial distillation",
+   "link": "https://openai.com/index/combatting-adversarial-distillation",
+   "source": "OpenAI",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Sun'iy intellekt modellaridan ma'lumotlarni o'g'irlash va ruxsatsiz distillash holatlarining ko'payishi xavfsizlik choralarini yanada kuchaytirishga olib kelishi mumkin. Bu esa kompaniyalarni yangi himoya qatlamlarini joriy etishga va sun'iy intellekt bozorida raqobat shartlarini qayta ko'rib chiqishga majbur qilishi ehtimoli bor.",
+   "image": "https://images.ctfassets.net/kftzwdyauwt9/5SUtPGdssrttC7LfP1yoJ1/b6b000846ab3576c1735c29534ab20b0/combatting-adversarial-distillation-social.png?w=1600&h=900&fit=fill",
+   "domains": [
+    "openai.com",
+    "businessinsider.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://openai.com/index/combatting-adversarial-distillation",
+    "https://www.businessinsider.com/anthropic-changing-safety-policy-2026-2",
+    "https://finance.yahoo.com/technology/ai/articles/openai-accuses-kimi-operator-china-031602762.html"
    ],
    "videos": []
   }
