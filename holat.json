@@ -1381,59 +1381,6 @@
  },
  "kunlik": [
   {
-   "t": 1795108153.5261927,
-   "title": "O‘zbekiston sun’iy intellektni tartibga solishda muvozanatli yondashuvni tanladi",
-   "text": "O‘zbekiston rasmiylari texnologik rivojlanishni qo‘llab-quvvatlash va raqobatni himoya qilish maqsadida sun’iy intellekt bo‘yicha muvozanatli siyosat olib borayotganini ma’lum qildi.",
-   "orig_title": "Uzbekistan Favours Balanced Approach to AI Regulation",
-   "link": "https://www.uzdaily.uz/en/uzbekistan-favours-balanced-approach-to-ai-regulation/",
-   "source": "uzdaily.uz",
-   "soha": "AI O'zbekiston",
-   "baho": 10,
-   "experts": [],
-   "effect": null,
-   "image": "https://www.uzdaily.uz/media/filer_public/a8/90/a8909d8d-061e-4aa2-b849-c0edc21c46df/finnext19112_20261119151841.webp",
-   "domains": [],
-   "urls": [],
-   "videos": []
-  },
-  {
-   "t": 1795108153.5261927,
-   "title": "Anthropic kompaniyasi NASDAQ birjasida aksiyalarini chiqardi",
-   "text": "Anthropic kompaniyasi aksiyalarini ilk bor birjaga chiqarib, $83 lik boshlang‘ich narxdan yuqoriga ko‘tarildi va qariyb 1,5 trillion dollar qiymatga baholandi.",
-   "orig_title": "Anthropic hits NASDAQ exchanges at $110, $27 above IPO price",
-   "link": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/",
-   "source": "TechCrunch AI",
-   "soha": "AI",
-   "baho": 10,
-   "experts": [],
-   "effect": null,
-   "image": "https://techcrunch.com/wp-content/uploads/2026/11/anthropic-opening-Getty.jpg?resize=1200,801",
-   "domains": [],
-   "urls": [],
-   "videos": []
-  },
-  {
-   "t": 1795108153.5261927,
-   "title": "ChatGPT Live Dictation funksiyasini ishga tushirdi",
-   "text": "ChatGPT ovozli buyruqlarni yozib olishni kutmasdan, real vaqt rejimida matnga o‘tkazuvchi Live Dictation funksiyasini barcha foydalanuvchilar uchun taqdim etdi.",
-   "orig_title": "ChatGPT can transcribe as you speak now with Live Dictation",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation",
-   "source": "The Verge AI",
-   "soha": "AI",
-   "baho": 9,
-   "experts": [],
-   "effect": null,
-   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/chatgpt-live-dictation-promo-screenshot.jpeg?quality=90&strip=all&crop=8.4734375%2C20.737347294939%2C85.1578125%2C79.262652705061&w=1200",
-   "domains": [],
-   "urls": [],
-   "videos": [
-    [
-     "https://x.com/ChatGPT/status/2123114715257946334",
-     "X"
-    ]
-   ]
-  },
-  {
    "t": 1795115001.4363093,
    "title": "O‘zbekiston sun’iy intellekt uchun 6 milliard so‘zli korpusni e'lon qildi",
    "text": "O‘zbekiston Raqamli texnologiyalar vazirligi sun’iy intellektni rivojlantirishni qo‘llab-quvvatlash maqsadida 5,6 million hujjat va qariyb 6 milliard so‘zdan iborat ochiq o‘zbek tili korpusini taqdim etdi.",
