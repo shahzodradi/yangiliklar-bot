@@ -395,7 +395,9 @@
   "https://the-decoder.com/openai-makes-it-much-harder-for-attackers-to-extract-how-its-latest-ai-models-think/": 1795230355.866579,
   "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/": 1795230355.866579,
   "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/": 1795233672.1287954,
-  "https://openai.com/index/combatting-adversarial-distillation": 1795237813.932109
+  "https://openai.com/index/combatting-adversarial-distillation": 1795237813.932109,
+  "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/": 1795240884.5004683,
+  "https://about.fb.com/news/2026/11/advancing-science-together-highlights-from-the-open-source-ai-for-science-summit/": 1795240884.5004683
  },
  "fails": 0,
  "sent": [
@@ -1433,6 +1435,16 @@
    "t": 1795237813.932109,
    "title": "Combatting adversarial distillation",
    "soha": "AI"
+  },
+  {
+   "t": 1795240884.5004683,
+   "title": "Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.",
+   "soha": "AI"
+  },
+  {
+   "t": 1795240884.5004683,
+   "title": "Advancing Science Together: Highlights From the Open Source AI For Science Summit",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -1440,37 +1452,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1795068068.706351,
-   "title": "Sunʼiy intellekt yaratgan film xarajatini qoplay olmadi",
-   "text": "Xitoyda sunʼiy intellekt yordamida yaratilgan «Sansinduy: kelajak va ötmiş» töliq metrajli filmi kinoşabinlarga maʼqul kelmadi.",
-   "orig_title": "Sunʼiy intellekt yaratgan film xarajatini ham qoplay olmadi",
-   "link": "https://kun.uz/news/2026/11/19/suniy-intellekt-yaratgan-film-xarajatini-ham-qoplay-olmadi-61301",
-   "source": "kun.uz",
-   "soha": "AI video",
-   "baho": 10,
-   "experts": [
-    {
-     "kim": "Maykl Berri",
-     "lavozim": "universitet professori",
-     "fikr": "Aynan sunʼiy intellekt kontentining hamma joyda keng tarqalgani filmga salbiy taʼsir körsatgan bölişi mumkin. Köplab tomoşabinlar bunday videolarni smartfonda arzon kontent sifatida qabul qiladi.",
-     "url": "https://kun.uz/news/2026/11/19/suniy-intellekt-yaratgan-film-xarajatini-ham-qoplay-olmadi-61301",
-     "domain": "kun.uz"
-    }
-   ],
-   "effect": "Sunʼiy intellekt yordamida yaratilgan toliq metrajli filmlarning kinoprokatda muvaffaqiyatsizbikka uchrashi kinoijodkorlarning bu texnologiyaga bolgan yondashuvini ozgartirishi va kelgusida moliyaviy xatarlarni oshirishi mumkin.",
-   "image": "https://storage.kun.uz/source/1/-Smilff5G4aAN7pXZ3HSJblhbI9K16po.webp",
-   "domains": [
-    "kun.uz",
-    "yahoo.com"
-   ],
-   "urls": [
-    "https://kun.uz/news/2026/11/19/suniy-intellekt-yaratgan-film-xarajatini-ham-qoplay-olmadi-61301",
-    "https://www.yahoo.com/entertainment/movies/articles/china-first-ai-generated-film-184405359.html",
-    "https://www.yahoo.com/entertainment/movies/articles/china-box-office-once-upon-062719844.html"
-   ],
-   "videos": []
-  },
   {
    "t": 1795072167.1746418,
    "title": "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit",
@@ -4026,6 +4007,54 @@
     "https://openai.com/index/combatting-adversarial-distillation",
     "https://www.businessinsider.com/anthropic-changing-safety-policy-2026-2",
     "https://finance.yahoo.com/technology/ai/articles/openai-accuses-kimi-operator-china-031602762.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795240884.5004683,
+   "title": "Daniel Ek sun'iy intellekt tadqiqotchisining termoyadroviy стартапини qo‘llab-quvvatladi",
+   "text": "Spotify asoschisi Daniel Ek sun'iy intellekt tadqiqotchisi tomonidan asos solingan Europa Fusion termoyadroviy energetika стартаpiga sarmoya kiritdi.",
+   "orig_title": "Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.",
+   "link": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Yadroviy sintez texnologiyasining tijoriy jihatdan qulaylashishi kelgusida uglerodsiz yirik energiya manbasini yaratish hamda sun'iy intellektning energiya iste'moli bo'yicha xavotirlarni kamaytirish imkonini berishi mumkin.",
+   "image": "https://techcrunch.com/wp-content/uploads/2023/07/GettyImages-1500013882.jpg?resize=1200,812",
+   "domains": [
+    "techcrunch.com",
+    "businessinsider.com",
+    "kucoin.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
+    "https://www.businessinsider.com/harvey-builds-tenet-ai-model-for-legal-work-2026-8",
+    "https://www.kucoin.com/news/flash/spotify-founder-daniel-ek-backs-ai-researcher-s-fusion-startup-europa-fusion"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795240884.5004683,
+   "title": "Meta Open Source AI for Science Summit tadbirining asosiy natijalarini e'lon qildi",
+   "text": "Meta ilmiy kashfiyotlarni tezlashtirish uchun ochiq kodli sun'iy intellekt texnologiyalarini muhokama qilish maqsadida universitetlar va shifoxonalar tadqiqotchilarini yig‘di.",
+   "orig_title": "Advancing Science Together: Highlights From the Open Source AI For Science Summit",
+   "link": "https://about.fb.com/news/2026/11/advancing-science-together-highlights-from-the-open-source-ai-for-science-summit/",
+   "source": "Meta Newsroom",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Ochiq kodli sun'iy intellekt modellarining ilmiy tadqiqotlarga tatbiq etilishi tibbiyot, neyrologiya va dori vositalarini yaratish jarayonlarini tezlashtirishi hamda nogironligi bo'lgan shaxslar uchun mustaqillikni oshirishi mumkin.",
+   "image": "https://about.fb.com/wp-content/uploads/2026/11/Highlights-From-the-Open-Source-AI-For-Science-Summit_Social-Share-1.jpg?w=1200",
+   "domains": [
+    "about.fb.com",
+    "yahoo.com",
+    "forbes.com"
+   ],
+   "urls": [
+    "https://about.fb.com/news/2026/11/advancing-science-together-highlights-from-the-open-source-ai-for-science-summit/",
+    "https://www.yahoo.com/news/science/articles/cop31-ai-pledge-fails-lure-164411235.html",
+    "https://www.forbes.com/connect/event/2026-forbes-cio-summit/"
    ],
    "videos": []
   }
