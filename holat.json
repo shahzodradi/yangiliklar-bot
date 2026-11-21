@@ -1,12 +1,5 @@
 {
  "seen": {
-  "https://www.jsonline.com/press-release/story/267599/protoface-announces-worlds-lowest-seedance-2-5-api-prices-starting-at-0-08-per-second/": 1794420074.9810429,
-  "https://www.theverge.com/tech/1031505/adobe-max-2026-sneaks-experiments-ai": 1794420074.9810429,
-  "https://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days/": 1794420074.9810429,
-  "https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model": 1794420074.9810429,
-  "https://the-decoder.com/with-its-new-voice-model-deepl-voice-now-translates-intonation-and-speaking-speed-into-other-languages-as-well/": 1794420074.9810429,
-  "https://www.unite.ai/elevenlabs-unveils-model-customization-elevenai-and-partner-program/": 1794420074.9810429,
-  "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/": 1794423851.663401,
   "https://decrypt.co/383070/new-ai-music-model-already-better-than-suno-ace-review": 1794452753.907915,
   "https://www.digitaltoday.co.kr/en/view/124503/kakao-ventures-teams-up-with-ai-video-platform-higgsfield": 1794452753.907915,
   "https://the-decoder.com/google-joins-the-decision-model-wave-with-gemini-decision-1-scoring-1000-questions-in-a-single-pass/": 1794452753.907915,
@@ -390,70 +383,11 @@
   "https://the-decoder.com/us-technology-stocks-suffer-their-worst-weekly-loss-since-the-pandemic-as-ai-doubts-pile-up/": 1795262480.6524577,
   "https://www.msn.com/en-in/news/other/singapore-india-hackathon-2026-indian-students-build-ai-platform-to-help-farmers-plan-crops-based-on-buyer-demand-four-teams-win-s-88000-in-prizes/ar-AA2hGqu7": 1795280875.502619,
   "https://the-decoder.com/nvidia-researchers-argue-huge-ai-context-windows-are-a-dead-end/": 1795280875.502619,
-  "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/": 1795280875.502619
+  "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/": 1795280875.502619,
+  "https://www.dexerto.com/gaming/binding-of-isaac-fans-review-bomb-dlc-after-discovering-gta-6-mode-songs-are-ai-3430318/": 1795288058.93629
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1794938627.3183923,
-   "title": "AI agents are starting to fill out medical forms and file insurance requests in place of human staff",
-   "soha": "AI"
-  },
-  {
-   "t": 1794938627.3183923,
-   "title": "The US wants to block China from renting AI power abroad but China already built a parallel supply chain from US AI output",
-   "soha": "AI"
-  },
-  {
-   "t": 1794938627.3183923,
-   "title": "Isomorphic Labs raises $5 billion in its second mega-round within six months",
-   "soha": "AI"
-  },
-  {
-   "t": 1794938627.3183923,
-   "title": "Suno adds AI video to its music app, with filters for artists’ faces",
-   "soha": "AI musiqa"
-  },
-  {
-   "t": 1794942420.6631453,
-   "title": "Google’s Spark AI agent becomes ‘Tasks’ — and now it’s free",
-   "soha": "AI"
-  },
-  {
-   "t": 1794942420.6631453,
-   "title": "Muse Is Now Available in Australia: The World’s First Personal AI Agent Built for Everyone",
-   "soha": "AI"
-  },
-  {
-   "t": 1794942420.6631453,
-   "title": "Introducing GPT-6.2 Astra and Sol",
-   "soha": "AI"
-  },
-  {
-   "t": 1794942420.6631453,
-   "title": "Proton’s Lumo, a privacy-focused alternative to ChatGPT and Claude, arrives on desktop",
-   "soha": "AI"
-  },
-  {
-   "t": 1794942420.6631453,
-   "title": "Daydream’s new AI agent acts as your personal stylist — and can shop for you, too",
-   "soha": "AI"
-  },
-  {
-   "t": 1794942420.6631453,
-   "title": "Adobe completes Topaz Labs acquisition, adds AI media tools",
-   "soha": "AI rasm"
-  },
-  {
-   "t": 1794942420.6631453,
-   "title": "Universal and Sony fight Suno’s bid to freeze second lawsuit, warning its latest AI models could escape scrutiny until at least 2028",
-   "soha": "AI musiqa"
-  },
-  {
-   "t": 1794942420.6631453,
-   "title": "Suno Bridge takes AI music to DAWs – starting with Ableton Live",
-   "soha": "AI musiqa"
-  },
   {
    "t": 1794971153.8142672,
    "title": "AI music generator Suno to let users create music videos",
@@ -1373,6 +1307,11 @@
    "t": 1795280875.502619,
    "title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
    "soha": "AI video"
+  },
+  {
+   "t": 1795288058.93629,
+   "title": "Binding of Isaac fans review bomb DLC after discovering GTA 6 mode songs are AI",
+   "soha": "AI musiqa"
   }
  ],
  "mavzu": {
@@ -1380,138 +1319,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1795115001.4363093,
-   "title": "O‘zbekiston sun’iy intellekt uchun 6 milliard so‘zli korpusni e'lon qildi",
-   "text": "O‘zbekiston Raqamli texnologiyalar vazirligi sun’iy intellektni rivojlantirishni qo‘llab-quvvatlash maqsadida 5,6 million hujjat va qariyb 6 milliard so‘zdan iborat ochiq o‘zbek tili korpusini taqdim etdi.",
-   "orig_title": "Uzbekistan Publishes 6bn-Word Uzbek Language Corpus for AI",
-   "link": "https://www.uzdaily.uz/en/uzbekistan-publishes-6bn-word-uzbek-language-corpus-for-ai/",
-   "source": "uzdaily.uz",
-   "soha": "AI O'zbekiston",
-   "baho": 10,
-   "experts": [],
-   "effect": "Hisoblash quvvatlari va ma'lumotlar bazalarining kengayishi mahalliy sun'iy intellekt modellarining rivojlanishini tezlashtirishi hamda xalqaro texnologik investitsiyalarni jalb qilishi mumkin.",
-   "image": "https://www.uzdaily.uz/media/filer_public/bd/ba/bdbafea6-79c1-4307-b199-295c0b6c9825/uzbeklanguagecorpus_20261119184150.webp",
-   "domains": [
-    "uzdaily.uz",
-    "uk.news.yahoo.com"
-   ],
-   "urls": [
-    "https://www.uzdaily.uz/en/uzbekistan-publishes-6bn-word-uzbek-language-corpus-for-ai/",
-    "https://uk.news.yahoo.com/ai-infrastructure-push-draws-6bn-120635738.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795115001.4363093,
-   "title": "O‘zbekiston sun’iy intellektni tartibga solishda muvozanatli yondashuvni tanlaydi",
-   "text": "Sun’iy intellekt markazi rahbar o‘rinbosari Zuxriddin Shadmonovning ta’kidlashicha, kutilayotgan sun’iy intellekt to‘g‘risidagi qonun bank va boshqa sektorlarni cheklab qo‘ymaslik uchun lozim darajada yumshoq bo‘ladi.",
-   "orig_title": "Узбекистан предпочитает сбалансированное регулирование ИИ",
-   "link": "https://www.uzdaily.uz/ru/uzbekistan-predpochitaet-sbalansirovannoe-regulirovanie-ii/",
-   "source": "uzdaily.uz",
-   "soha": "AI O'zbekiston",
-   "baho": 10,
-   "experts": [],
-   "effect": "Xavfsizlik qoidalarining yumshatilishi kompaniyalarga sun'iy intellekt bozoridagi raqobatda tezroq harakat qilish va yangi modellarni bozorga chiqarish imkonini berishi mumkin.",
-   "image": "https://www.uzdaily.uz/media/filer_public/a8/90/a8909d8d-061e-4aa2-b849-c0edc21c46df/finnext19112_20261119151841.webp",
-   "domains": [
-    "uzdaily.uz",
-    "businessinsider.com"
-   ],
-   "urls": [
-    "https://www.uzdaily.uz/ru/uzbekistan-predpochitaet-sbalansirovannoe-regulirovanie-ii/",
-    "https://www.businessinsider.com/anthropic-changing-safety-policy-2026-2"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795115001.4363093,
-   "title": "Anthropic kompaniyasi Wall Street birjasida savdolarni boshladi",
-   "text": "Anthropic kompaniyasi aksiyalarini Nasdaq birjasiga chiqarib, har bir aksiya uchun 111.50 dollardan savdoni boshladi va uning qiymati qariyb 1.5 trillion dollarga baholandi.",
-   "orig_title": "Anthropic starts trading on Wall Street",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq",
-   "source": "The Verge AI",
-   "soha": "AI",
-   "baho": 9,
-   "experts": [],
-   "effect": "Aksiyalarning ommaviy savdoga chiqarilishi sun'iy intellekt sohasidagi kompaniyalarga yirik moliyaviy mablag'lar jalb qilish va kelgusidagi investitsiya oqimini o'zgartirish ehtimolini oshiradi.",
-   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2305334560.jpg?quality=90&strip=all&crop=0%2C10.752607989199%2C100%2C78.494784021602&w=1200",
-   "domains": [
-    "theverge.com",
-    "yahoo.com"
-   ],
-   "urls": [
-    "https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq",
-    "https://www.yahoo.com/news/videos/anthropic-nasdaq-debut-ais-biggest-180429452.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795115001.4363093,
-   "title": "Tarixdagi eng yirik IPO: Claude yaratuvchisi 81 milliard dollar jalb qildi",
-   "text": "Anthropic kompaniyasi aksiyalarini ilk bor birjaga chiqarib, SpaceX kompaniyasining avvalgi rekordini yangiladi va jami 81.3 milliard dollar mablag‘ to‘pladi.",
-   "orig_title": "Tarixdagi eng yirik IPO: Claude’ni yaratgan kompaniya 81 mlrd dollar jalb qildi",
-   "link": "https://daryo.uz/2026/11/19/tarixdagi-eng-yirik-ipo-claudeni-yaratgan-kompaniya-81-mlrd-dollar-jalb-qildi/",
-   "source": "daryo.uz",
-   "soha": "AI",
-   "baho": 9,
-   "experts": [],
-   "effect": "Rekord darajadagi kapital qo'yilmalar sun'iy intellekt infratuzilmasini kengaytirishga bo'lgan talabni oshirishi va texnologik gigantlar o'rtasidagi raqobatni kuchaytirishi mumkin.",
-   "image": "https://gocdn.daryo.uz/large/2026/11/19/17734d17b3933969e7fe3bb9586eb6e5add584459c85020bad4c04f06315a7a6.webp",
-   "domains": [
-    "daryo.uz",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://daryo.uz/2026/11/19/tarixdagi-eng-yirik-ipo-claudeni-yaratgan-kompaniya-81-mlrd-dollar-jalb-qildi/",
-    "https://finance.yahoo.com/technology/ai/articles/3-us-ai-infrastructure-stocks-152001324.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795115001.4363093,
-   "title": "Google Gemini ilovasi macOS tizimida kompyuterni boshqara oladi",
-   "text": "Google kompaniyasining macOS uchun Gemini ilovasi foydalanuvchining fayllari, ilovalari va veb-sahifalari bo‘ylab ko‘p bosqichli vazifalarni bajarish imkonini beruvchi agent funksiyasiga ega bo‘ldi.",
-   "orig_title": "Gemini on Mac can now use your computer",
-   "link": "https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use",
-   "source": "The Verge AI",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Sun'iy intellekt agentlarining kompyuter tizimlarida to'g'ridan-to'g'ri amallarni bajarishi foydalanuvchilar uchun ish jarayonlarini tezlashtirishi, biroq xavfsizlik va maxfiylik bo'yicha yangi cheklovlarga olib kelishi mumkin.",
-   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/M6_MBP_hero2.jpg?quality=90&strip=all&crop=0%2C10.738463156834%2C100%2C78.523073686333&w=1200",
-   "domains": [
-    "theverge.com",
-    "tech.yahoo.com"
-   ],
-   "urls": [
-    "https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use",
-    "https://tech.yahoo.com/computing/articles/windows-11-now-boots-locally-183005619.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795115001.4363093,
-   "title": "Google Chrome AI agentlarini sinash uchun ulkan virtual muhit yaratdi",
-   "text": "Google kompaniyasi Chrome jamoasiga internetda ishlaydigan sun’iy intellekt agentlarini xavfsiz tarzda o‘qitish uchun muqobil internet - maxsus sinov maydonchasini ishlab chiqdi.",
-   "orig_title": "Google Built a Giant ‘Mirror Dimension’ Internet to Test Its Chrome AI Agents",
-   "link": "https://www.wired.com/story/google-built-a-giant-mirror-dimension-internet-to-test-its-chrome-ai-agents/",
-   "source": "Wired AI",
-   "soha": "AI",
-   "baho": 7,
-   "experts": [],
-   "effect": "Izolyatsiya qilingan muhitda sun'iy intellekt agentlarini sinovdan o'tkazish ularning real internetdagi xavfsizligini oshirib, foydalanuvchilarga xizmat ko'rsatish sifatini yaxshilashi mumkin.",
-   "image": "https://media.wired.com/photos/6aff2988bee7350f3da10056/191:100/w_1280,c_limit/GettyImages-2229158642.jpg",
-   "domains": [
-    "wired.com",
-    "theverge.com"
-   ],
-   "urls": [
-    "https://www.wired.com/story/google-built-a-giant-mirror-dimension-internet-to-test-its-chrome-ai-agents/",
-    "https://www.theverge.com/podcast/936445/sundar-pichai-ai-search-google-zero-youtube-web"
-   ],
-   "videos": []
-  },
   {
    "t": 1795144011.1856623,
    "title": "Chroma Awards AI ijodkorlar tanlovi ikkinchi mavsumini boshladi",
@@ -3322,6 +3129,29 @@
     "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
     "https://finance.yahoo.com/technology/ai/articles/hollywood-studios-sued-over-ai-100000457.html",
     "https://www.businessinsider.com/harvey-builds-tenet-ai-model-for-legal-work-2026-8"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795288058.93629,
+   "title": "The Binding of Isaac uchun Suno orqali yaratilgan musiqalar norozilik keltirib chiqardi",
+   "text": "The Binding of Isaac: Repentance+ uchun yangi GTA 6 mavzusidagi maxfiy bosqich musiqasi Suno yordamida yaratilgani aniqlangach, foydalanuvchilar Steam'da salbiy sharhlar qoldirdi.",
+   "orig_title": "Binding of Isaac fans review bomb DLC after discovering GTA 6 mode songs are AI",
+   "link": "https://www.dexerto.com/gaming/binding-of-isaac-fans-review-bomb-dlc-after-discovering-gta-6-mode-songs-are-ai-3430318/",
+   "source": "dexerto.com",
+   "soha": "AI musiqa",
+   "baho": 8,
+   "experts": [],
+   "effect": "Sun’iy intellekt musiqasidan yashirincha foydalanish Steam qoidalarining buzilishiga, o‘yin sotuvining pasayishiga va geymerlar auditoriyasining jiddiy noroziligiga sabab bo‘lishi mumkin.",
+   "image": "https://www.dexerto.com/cdn-image/wp-content/uploads/2023/12/13/The-Binding-of-Isaac-Repentance.jpg",
+   "domains": [
+    "dexerto.com",
+    "theguardian.com"
+   ],
+   "urls": [
+    "https://www.dexerto.com/gaming/binding-of-isaac-fans-review-bomb-dlc-after-discovering-gta-6-mode-songs-are-ai-3430318/",
+    "https://www.theguardian.com/music/2026/oct/19/australia-music-global-copywright-outlier-ai-music-body-warnsns",
+    "https://www.theguardian.com/music/2026/oct/09/jess-williamson-a-mile-south-of-heaven-review"
    ],
    "videos": []
   }
