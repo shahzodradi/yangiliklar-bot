@@ -406,35 +406,12 @@
   "https://the-decoder.com/bloomberg-analysis-of-10-million-job-postings-shows-ai-exposed-roles-in-china-fell-10-percentage-points-faster-than-others/": 1795201597.9731865,
   "https://the-decoder.com/googles-gemini-can-now-run-mac-apps-and-finish-desktop-chores-in-the-background-while-you-keep-working/": 1795201597.9731865,
   "https://the-decoder.com/apple-joins-the-race-for-ai-agents-that-control-your-device-while-raising-new-barriers-for-competitors/": 1795201597.9731865,
-  "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax": 1795201597.9731865
+  "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax": 1795201597.9731865,
+  "https://the-decoder.com/openai-makes-it-much-harder-for-attackers-to-extract-how-its-latest-ai-models-think/": 1795230355.866579,
+  "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/": 1795230355.866579
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1794884577.3722079,
-   "title": "Afreximbank Names Nine AI Contest Winners",
-   "soha": "AI tanlov"
-  },
-  {
-   "t": 1794884577.3722079,
-   "title": "Is Ableton Dancing with the Devil? Suno’s ‘Bridge’ Promises DAW Integrations",
-   "soha": "AI musiqa"
-  },
-  {
-   "t": 1794884577.3722079,
-   "title": "OpenAI's GPT-6 Astra tackles the Standard Model's toughest math problem on a lattice",
-   "soha": "AI"
-  },
-  {
-   "t": 1794884577.3722079,
-   "title": "California sues OpenAI over rogue AI hacking incidents",
-   "soha": "AI"
-  },
-  {
-   "t": 1794884577.3722079,
-   "title": "Jordan Belfort’s new AI voice startup, Tone, wants to sell like the ‘Wolf of Wall Street’",
-   "soha": "AI"
-  },
   {
    "t": 1794888082.8592849,
    "title": "USC students build AI tools for campus life at two-day hackathon",
@@ -1494,6 +1471,16 @@
    "t": 1795201597.9731865,
    "title": "Trump threatens ‘tremendous tax’ for moving AI data centers outside the US",
    "soha": "AI"
+  },
+  {
+   "t": 1795230355.866579,
+   "title": "OpenAI makes it much harder for attackers to extract how its latest AI models think",
+   "soha": "AI"
+  },
+  {
+   "t": 1795230355.866579,
+   "title": "The most misunderstood graph in AI just got a major update",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -1501,53 +1488,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1795028976.7667918,
-   "title": "Microsoft yangi sun’iy intellekt modellarini taqdim etdi",
-   "text": "Microsoft o'z mahsulotlaridagi tashqi sun'iy intellekt modellarini arzonroq ichki muqobillariga almashtirmoqda. Kompaniya kod yozish, xavfsizlik, tasvir va til yaratishga mo'ljallangan yettita yangi modelni e'lon qildi.",
-   "orig_title": "Microsoft is replacing outside AI models in its own products with cheaper in-house alternatives",
-   "link": "https://the-decoder.com/microsoft-is-replacing-outside-ai-models-in-its-own-products-with-cheaper-in-house-alternatives/",
-   "source": "The Decoder",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Arzonroq ichki modellarning joriy etilishi korxonalar uchun sun'iy intellekt xarajatlarini sezilarli darajada kamaytirishi va agentlarni masshtablash imkonini berishi mumkin. Bu holat bozorda raqobatni kuchaytirib, boshqa texnologiya gigantlarini ham narxlarni qayta ko'rib chiqishga majbur qilishi ehtimoli bor.",
-   "image": "https://the-decoder.com/wp-content/uploads/2026/06/microsoft_logo_red_pink.png",
-   "domains": [
-    "the-decoder.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://the-decoder.com/microsoft-is-replacing-outside-ai-models-in-its-own-products-with-cheaper-in-house-alternatives/",
-    "https://finance.yahoo.com/news/microsoft-expands-mai-portfolio-seven-100915966.html",
-    "https://finance.yahoo.com/markets/article/microsoft-ignite-focuses-on-ai-models-for-specific-tasks-lowering-costs-for-enterprise-203433266.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795028976.7667918,
-   "title": "OpenAI AMD chiplarini optimizatsiya qilishda muhim natijaga erishdi",
-   "text": "OpenAI va AMD hamkorligi natijasida grafik protsessorlar unumdorligi qisqa vaqt ichida sezilarli darajada oshdi. Kompaniya bu yutuqni sun'iy intellekt yordamida amalga oshirganini bildirdi.",
-   "orig_title": "OpenAI says its models delivered a year's worth of chip optimization on top of AMD's own engineering",
-   "link": "https://the-decoder.com/openai-says-its-models-delivered-a-years-worth-of-chip-optimization-on-top-of-amds-own-engineering/",
-   "source": "The Decoder",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Maxsus chiplar va sun'iy intellekt yordamida loyihalash jarayonining tezlashishi infratuzilma xarajatlarini pasaytirishi va chiplar tanqisligini yumshatishi mumkin. Bu esa kompaniyalarga hisoblash quvvatlarini kengaytirish hamda sun'iy intellekt xizmatlarini yanada arzonroq va ommabop qilish imkonini berishi ehtimoli bor.",
-   "image": "https://the-decoder.com/wp-content/uploads/2026/07/openai_red_Logo.png",
-   "domains": [
-    "the-decoder.com",
-    "techcrunch.com",
-    "cnbc.com"
-   ],
-   "urls": [
-    "https://the-decoder.com/openai-says-its-models-delivered-a-years-worth-of-chip-optimization-on-top-of-amds-own-engineering/",
-    "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/",
-    "https://www.cnbc.com/2026/06/24/openai-and-broadcom-reveal-jalapeno-first-ai-chip-in-partnership.html"
-   ],
-   "videos": []
-  },
   {
    "t": 1795057766.6398566,
    "title": "Google Gemini 4 Neon modeli taqdim etildi",
@@ -4341,6 +4281,54 @@
      "YouTube"
     ]
    ]
+  },
+  {
+   "t": 1795230355.866579,
+   "title": "OpenAI himoyani kuchaytirdi",
+   "text": "OpenAI GPT-6.2 modellari ichki mantiqiy xulosalarini chiqarib olishdan himoya qilish mexanizmlarini sezilarli darajada kuchaytirdi.",
+   "orig_title": "OpenAI makes it much harder for attackers to extract how its latest AI models think",
+   "link": "https://the-decoder.com/openai-makes-it-much-harder-for-attackers-to-extract-how-its-latest-ai-models-think/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Kompaniyalarning xavfsizlik choralarini kuchaytirishi va maxsus modellarni joriy etishi zararli so‘rovlar va xavfli suhbatlarning oldini olishga yordam berishi mumkin.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/02/ai_model_distill.jpeg",
+   "domains": [
+    "the-decoder.com",
+    "businessinsider.com",
+    "techcrunch.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/openai-makes-it-much-harder-for-attackers-to-extract-how-its-latest-ai-models-think/",
+    "https://www.businessinsider.com/anthropic-changing-safety-policy-2026-2",
+    "https://techcrunch.com/2025/09/02/openai-to-route-sensitive-conversations-to-gpt-5-introduce-parental-controls/"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795230355.866579,
+   "title": "AI qobiliyatlari bo'yicha yangi hisobot",
+   "text": "METR tashkilotining yangi hisobotiga ko'ra, sun'iy intellekt imkoniyatlari eksponentsial traektoriya bo'yicha o'sishda davom etmoqda.",
+   "orig_title": "The most misunderstood graph in AI just got a major update",
+   "link": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
+   "source": "MIT Tech Review",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Sun'iy intellekt modellarining tezkor rivojlanishi va vazifalarni avtomatlashtirishi kelgusida yangi qonunchilik tashabbuslari va cheklovlarning paydo bo‘lishiga olib kelishi mumkin.",
+   "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/metr2a.jpg?resize=1200,600",
+   "domains": [
+    "technologyreview.com",
+    "techcrunch.com",
+    "yahoo.com"
+   ],
+   "urls": [
+    "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
+    "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+    "https://www.yahoo.com/news/politics/articles/bernie-sanders-superintelligence-ban-criminalize-144535157.html"
+   ],
+   "videos": []
   }
  ]
 }
