@@ -1,7 +1,5 @@
 {
  "seen": {
-  "https://the-decoder.com/elevenlabs-scribe-v3-live-uses-conversational-context-to-stop-voice-agents-from-cutting-off-callers-mid-sentence/": 1794492152.4698534,
-  "https://www.billboard.com/pro/beatbread-advisors-from-meta-suno/": 1794492152.4698534,
   "https://www.billboard.com/pro/elvis-ai-music-lawsuit-explained-why-estate-suing-suno/": 1794496058.9920905,
   "https://siliconangle.com/2026/11/12/with-23m-in-funding-luminal-is-the-latest-startup-to-put-nvidias-cuda-moat-in-its-crosshairs/": 1794499425.926031,
   "https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/": 1794499425.926031,
@@ -370,20 +368,12 @@
   "https://the-decoder.com/gpt-6-2-astra-and-sol-get-to-the-point-faster-but-score-lower-on-transparency-than-claude/": 1795341686.54873,
   "https://www.uzdaily.uz/en/world-bank-discusses-tax-administration-reform-with-uzbekistan/": 1795348868.7465935,
   "https://the-decoder.com/openai-shares-new-prompting-tips-for-gpt-6-2-astra-and-sol-to-fix-brief-answers-and-unnecessary-questions/": 1795352777.0793417,
-  "https://the-decoder.com/security-researchers-show-how-cheap-ai-inference-providers-steal-keys-and-snoop-on-users/": 1795352777.0793417
+  "https://the-decoder.com/security-researchers-show-how-cheap-ai-inference-providers-steal-keys-and-snoop-on-users/": 1795352777.0793417,
+  "https://www.msn.com/en-in/news/other/gta-6-style-ai-photos-flood-instagram-gemini-and-chatgpt-prompts-to-turn-your-selfie-into-vice-city-poster/ar-AA2hXie9": 1795356357.7129755,
+  "https://the-decoder.com/ai-is-getting-better-faster-than-experts-can-reliably-test-whether-new-systems-are-safe-metr-warns/": 1795356357.7129755
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1795007185.7900019,
-   "title": "Felicis leads $7.5M bet on Unsiloed AI to make enterprise documents usable by AI agents",
-   "soha": "AI"
-  },
-  {
-   "t": 1795010502.875698,
-   "title": "Suno now lets you make AI videos for your AI music",
-   "soha": "AI musiqa"
-  },
   {
    "t": 1795014399.3249671,
    "title": "Ŏzbekistonning aqlli şähärläri: COP31 doirasida çiqindilar va energiya iste’molini kamaytiriş uçun sun’iy intellektdan foydalanish taklif etildi",
@@ -1168,6 +1158,16 @@
    "t": 1795352777.0793417,
    "title": "Security researchers show how cheap AI inference providers steal keys and snoop on users",
    "soha": "AI"
+  },
+  {
+   "t": 1795356357.7129755,
+   "title": "GTA 6-style AI photos flood Instagram: Gemini and ChatGPT prompts to turn your selfie into Vice City poster",
+   "soha": "AI rasm"
+  },
+  {
+   "t": 1795356357.7129755,
+   "title": "AI is getting better faster than experts can reliably test whether new systems are safe, METR warns",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -1175,115 +1175,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1795180243.5463223,
-   "title": "Markaziy Osiyoda sun’iy intellekt poygasi",
-   "text": "Markaziy Osiyo hukumatlari global sun’iy intellekt markaziga aylanish uchun kurashmoqda, ammo mutaxassislar moliyalashtirish va shaffoflik muammolarini ta'kidlamoqda.",
-   "orig_title": "Markaziy Osiyoda sun’iy intellekt poygasi: imkoniyatlar va tahdidlar",
-   "link": "https://www.ozodlik.org/a/central-asia-ai-race-data-centers-/33902523.html",
-   "source": "ozodlik.org",
-   "soha": "AI O'zbekiston",
-   "baho": 10,
-   "experts": [
-    {
-     "kim": "Grace Yuehan Wang",
-     "lavozim": "kompaniya rahbari va olim",
-     "fikr": "Mintaqa davlatlari yaqin kelajakda suniy intellekt poygasida yetakchilik qilishi dargumon, chunki raqamli infratuzilma va yuqori malakali kadrlar yetishmaydi.",
-     "url": "https://www.cnbc.com/2024/12/14/southeast-asian-nations-battle-to-become-the-regions-top-ai-hub.html",
-     "domain": "cnbc.com"
-    }
-   ],
-   "effect": "Markaziy Osiyoda yirik ma'lumotlar markazlarining qurilishi mintaqani hisoblash quvvatining yirik eksportchisiga aylantirishi hamda mahalliy kompaniyalarga yangi imkoniyatlar ochishi mumkin. Biroq elektr taqchilligi va moliyalashtirishdagi shaffoflik yo'qligi jiddiy xatarlarni keltirib chiqarishi ehtimoli bor.",
-   "image": "https://gdb.rferl.org/7544f38d-fe89-413d-e780-08df13afe2a0_cx0_cy10_cw0_w1200_h630.jpg",
-   "domains": [
-    "ozodlik.org",
-    "bbc.com",
-    "cnbc.com"
-   ],
-   "urls": [
-    "https://www.ozodlik.org/a/central-asia-ai-race-data-centers-/33902523.html",
-    "https://www.bbc.com/travel/article/20261111-the-20-best-places-to-travel-in-2027?shem=aimgspe,i3ppac",
-    "https://www.cnbc.com/2024/12/14/southeast-asian-nations-battle-to-become-the-regions-top-ai-hub.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795180243.5463223,
-   "title": "Signal bloks AI agents from reading screen data",
-   "text": "Signal restricts screenshots on Android and iOS to prevent AI agents from reading user messages and private data.",
-   "orig_title": "Signal is blocking Gemini and Siri AI from reading your screen",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
-   "source": "The Verge AI",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Signal ilovasining skrinshotlarni va suniy intellekt agentlarining ekrandagi ma'lumotlarni o'qishini bloklashi foydalanuvchilarning maxfiyligini kuchaytirishi mumkin. Operatsion tizim darajasida maxfiylik vositalarining yetishmasligi esa ilova ishlab chiquvchilariga qo'shimcha qiyinchiliklar tug'dirishi ehtimoli bor.",
-   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/protecting-your-privacy-1.png?quality=90&strip=all&crop=0%2C3.8035109331691%2C100%2C92.392978133662&w=1200",
-   "domains": [
-    "theverge.com",
-    "businessinsider.com",
-    "techcrunch.com"
-   ],
-   "urls": [
-    "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
-    "https://www.businessinsider.com/google-unveils-gemini-enterprise-for-legal-law-tech-push-2026-8",
-    "https://techcrunch.com/2026/09/14/with-ios-27-im-actually-using-siri-again/"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795183334.803022,
-   "title": "Adobe Firefly va Creative Cloud uchun yangi agentlar va vositalar taqdim etildi",
-   "text": "Adobe ijodkorlarga o'z ishi ustidan nazoratni saqlagan holda ko'proq ijodiy imkoniyatlar taqdim etish uchun yangi funksiyalarni ishga tushirdi.",
-   "orig_title": "Expanding Possibilities: How Adobe Is Powering a New Era of Creativity",
-   "link": "https://www.entrepreneur.com/business-news/tech/expanding-possibilities-how-adobe-is-powering-a-new-era-of-creativity",
-   "source": "entrepreneur.com",
-   "soha": "AI rasm",
-   "baho": 8,
-   "experts": [],
-   "effect": "Ijodkorlar uchun murakkab va ko‘p bosqichli jarayonlarni avtomatlashtirish, loyihalarni bajarish vaqtini qisqartirish hamda ish unumdorligini oshirish imkonini berishi mumkin. Shuningdek, bu yangi funksiyalar sun'iy intellekt vositalari bozordagi raqobatni yanada kuchaytirishi ehtimoli bor.",
-   "image": "https://www.entrepreneur.com/wp-content/uploads/sites/2/2026/11/HERO-Quick-Action-To-Assemble-a-Video-No-Logo-4-1.jpg",
-   "domains": [
-    "entrepreneur.com",
-    "finance.yahoo.com",
-    "tech.yahoo.com"
-   ],
-   "urls": [
-    "https://www.entrepreneur.com/business-news/tech/expanding-possibilities-how-adobe-is-powering-a-new-era-of-creativity",
-    "https://finance.yahoo.com/sectors/technology/articles/adobe-ushers-era-creativity-creative-130000427.html",
-    "https://tech.yahoo.com/ai/meta-ai/articles/adobe-firefly-ai-assistant-now-140000893.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795183334.803022,
-   "title": "Google qidiruv bosh sahifasiga sun'iy intellektga asoslangan yordamchi funksiyalarni qo'shdi",
-   "text": "Google qidiruv bosh sahifasiga AI rejimini va yig'iladigan yon panelni joriy etdi, bu foydalanuvchilarga so'nggi qidiruvlarni boshqarish imkonini beradi.",
-   "orig_title": "Google's latest homepage update pushes its search engine further toward an AI answer engine",
-   "link": "https://the-decoder.com/googles-latest-homepage-update-pushes-its-search-engine-further-toward-an-ai-answer-engine/",
-   "source": "The Decoder",
-   "soha": "AI",
-   "baho": 7,
-   "experts": [],
-   "effect": "Foydalanuvchilarga qidiruv jarayonida oldingi savollar va natijalarni osonroq boshqarish imkonini berib, sun'iy intellektga asoslangan qidiruv tizimlariga o‘tishni tezlashtirishi mumkin. Bu esa raqobatchilar o‘rtasidagi kurashni yanada kuchaytirishi ehtimoli bor.",
-   "image": "https://the-decoder.com/wp-content/uploads/2026/07/google_gemini-1.png",
-   "domains": [
-    "the-decoder.com",
-    "tech.yahoo.com",
-    "sports.yahoo.com"
-   ],
-   "urls": [
-    "https://the-decoder.com/googles-latest-homepage-update-pushes-its-search-engine-further-toward-an-ai-answer-engine/",
-    "https://tech.yahoo.com/ai/gemini/articles/googles-latest-home-page-redesign-054538194.html",
-    "https://sports.yahoo.com/betting/canada/article/betvictor-alberta-review-144625576.html"
-   ],
-   "videos": [
-    [
-     "https://x.com/rmstein/status/2123500235930640844",
-     "X"
-    ]
-   ]
-  },
   {
    "t": 1795187202.6255264,
    "title": "O‘zbekiston vakili BMT va xalqaro tashkilotlarni SI muloqotiga chaqirdi",
@@ -2230,6 +2121,38 @@
     "https://www.businessinsider.com/amazon-nvidia-ai-gpu-data-centers-power-shortages-2026-10",
     "https://www.forbes.com/councils/forbestechcouncil/2026/02/20/how-ai-inference-costs-are-reshaping-the-cloud-economy/"
    ],
+   "videos": []
+  },
+  {
+   "t": 1795356357.7129755,
+   "title": "GTA 6 uslubidagi sun'iy intellekt rasmlari Instagram'ni egallamoqda",
+   "text": "Foydalanuvchilar o'z rasmlarini GTA 6 uslubidagi videoo'yin posterlariga aylantirib, tarmoqda ommalashtirmoqda. Bu jarayon uchun Gemini va ChatGPT kabi zamonaviy sun'iy intellekt vositalari ishlatilmoqda.",
+   "orig_title": "GTA 6-style AI photos flood Instagram: Gemini and ChatGPT prompts to turn your selfie into Vice City poster",
+   "link": "https://www.msn.com/en-in/news/other/gta-6-style-ai-photos-flood-instagram-gemini-and-chatgpt-prompts-to-turn-your-selfie-into-vice-city-poster/ar-AA2hXie9",
+   "source": "msn.com",
+   "soha": "AI rasm",
+   "baho": 8,
+   "experts": [],
+   "effect": null,
+   "image": null,
+   "domains": [],
+   "urls": [],
+   "videos": []
+  },
+  {
+   "t": 1795356357.7129755,
+   "title": "Sun'iy intellekt modellari xavfsizligini sinovdan o'tkazish qiyinlashmoqda",
+   "text": "METR tashkiloti hisobotiga ko'ra, ilg'or sun'iy intellekt modellari tadqiqot vazifalarida tezkorlik bilan o'smoqda, biroq ularning xavfsizligini o'lchash tobora qiyinlashmoqda.",
+   "orig_title": "AI is getting better faster than experts can reliably test whether new systems are safe, METR warns",
+   "link": "https://the-decoder.com/ai-is-getting-better-faster-than-experts-can-reliably-test-whether-new-systems-are-safe-metr-warns/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": null,
+   "image": "https://the-decoder.com/wp-content/uploads/2026/06/metr_logo.png",
+   "domains": [],
+   "urls": [],
    "videos": []
   }
  ]
