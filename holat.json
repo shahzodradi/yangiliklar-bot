@@ -372,65 +372,11 @@
   "https://www.marketscreener.com/news/perfect-corp-introduces-youcam-muse-ai-song-and-music-video-platform-ce785edcdd8af52c": 1795316615.5396836,
   "https://www.theverge.com/tech/1039554/un-regulations-killer-robots": 1795316615.5396836,
   "https://www.wired.com/story/brace-yourself-for-years-of-outage-chaos/": 1795316615.5396836,
-  "https://the-decoder.com/silicon-valleys-growing-obsession-with-ai-doomsday-is-turning-parts-of-the-tech-industry-toward-cult-like-devotion/": 1795316615.5396836
+  "https://the-decoder.com/silicon-valleys-growing-obsession-with-ai-doomsday-is-turning-parts-of-the-tech-industry-toward-cult-like-devotion/": 1795316615.5396836,
+  "https://gonintendo.com/contents/67471-the-binding-of-isaac-repentance-online-mode-appears-to-contain-ai-generated-music": 1795330976.5242789
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1794981707.3867803,
-   "title": "В Узбекистане внедряют искусственный интеллект в работу налоговой службы через новый бот",
-   "soha": "AI O'zbekiston"
-  },
-  {
-   "t": 1794981707.3867803,
-   "title": "ИИ и энергетика Узбекистана: ООН призвала учитывать экологические риски дата-центров",
-   "soha": "AI O'zbekiston"
-  },
-  {
-   "t": 1794981707.3867803,
-   "title": "OpenAI just launched GPT-6.2, and it's come a long way from writing emails",
-   "soha": "AI"
-  },
-  {
-   "t": 1794981707.3867803,
-   "title": "Adobe (ADBE) Turns Creative Cloud And Firefly Into AI Studios With New Partnerships",
-   "soha": "AI rasm"
-  },
-  {
-   "t": 1794981707.3867803,
-   "title": "Google expands access to Gemini Tasks, which can help with calls, purchases",
-   "soha": "AI"
-  },
-  {
-   "t": 1794981707.3867803,
-   "title": "Nvidia promises that revenue will keep soaring — for now",
-   "soha": "AI"
-  },
-  {
-   "t": 1794985336.8845866,
-   "title": "Manchester Animation Festival bans GenAI films, crowns In Waves",
-   "soha": "AI video"
-  },
-  {
-   "t": 1794985336.8845866,
-   "title": "Google to keep Gemini chats for 2 months, up from 72 hours, even with history off",
-   "soha": "AI"
-  },
-  {
-   "t": 1794985336.8845866,
-   "title": "Nvidia’s Board Has No Plans to Bring Back Jensen Huang",
-   "soha": "AI"
-  },
-  {
-   "t": 1794985336.8845866,
-   "title": "Pedestal AI raises $4.7 million to agentify the supply chain",
-   "soha": "AI"
-  },
-  {
-   "t": 1794985336.8845866,
-   "title": "The DOJ says it’s investigating Megaspeed",
-   "soha": "AI"
-  },
   {
    "t": 1794992970.697219,
    "title": "Satya Nadella says he’s AGI-pilled now",
@@ -1245,6 +1191,11 @@
    "t": 1795316615.5396836,
    "title": "Silicon Valley's growing obsession with AI doomsday is turning parts of the tech industry toward cult-like devotion",
    "soha": "AI"
+  },
+  {
+   "t": 1795330976.5242789,
+   "title": "The Binding of Isaac: Repentance+ Online mode appears to contain AI generated music, creator working on getting it removed",
+   "soha": "AI musiqa"
   }
  ],
  "mavzu": {
@@ -2669,6 +2620,35 @@
     "https://techcrunch.com/2025/10/17/silicon-valley-spooks-the-ai-safety-advocates/"
    ],
    "videos": []
+  },
+  {
+   "t": 1795330976.5242789,
+   "title": "The Binding of Isaac o'yinining internet rejimida sun'iy intellekt musiqasi aniqlandi",
+   "text": "The Binding of Isaac Repentance+ Online rejimida AI yordamida yaratilgan musiqalar borligi aniqlandi va uni o'yindan olib tashlash ishlari boshlandi.",
+   "orig_title": "The Binding of Isaac: Repentance+ Online mode appears to contain AI generated music, creator working on getting it removed",
+   "link": "https://gonintendo.com/contents/67471-the-binding-of-isaac-repentance-online-mode-appears-to-contain-ai-generated-music",
+   "source": "gonintendo.com",
+   "soha": "AI musiqa",
+   "baho": 8,
+   "experts": [],
+   "effect": "Sun'iy intellekt yordamida yaratilgan musiqalarning chartlarga kiritilmasligi litsenziyasiz kontentlar tarqalishining oldini olishi va mualliflik huquqlarini himoya qilish choralarini kuchaytirishi mumkin.",
+   "image": "https://gonintendo.com/attachments/image/89295/file/medium-19ca6fd43c15d50f903fa1747978cb8b.png",
+   "domains": [
+    "gonintendo.com",
+    "theverge.com",
+    "yahoo.com"
+   ],
+   "urls": [
+    "https://gonintendo.com/contents/67471-the-binding-of-isaac-repentance-online-mode-appears-to-contain-ai-generated-music",
+    "https://www.theverge.com/23912370/google-pixel-8-pro-review-camera-assistant-magic-editor-best-take-audio-eraser",
+    "https://www.yahoo.com/entertainment/music/articles/ai-generated-music-barred-australian-000108610.html"
+   ],
+   "videos": [
+    [
+     "https://x.com/edmundmcmillen/status/2124169167880470745",
+     "X"
+    ]
+   ]
   }
  ]
 }
