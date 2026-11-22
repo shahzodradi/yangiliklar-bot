@@ -1,8 +1,5 @@
 {
  "seen": {
-  "https://the-decoder.com/australias-proposed-ai-safety-bill-would-force-frontier-model-makers-to-open-up-to-independent-testing/": 1794481541.030661,
-  "https://openai.com/index/children-first-declaration": 1794481541.030661,
-  "https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/": 1794481541.030661,
   "https://the-decoder.com/google-deepmind-shifts-genomics-ai-from-bulk-tissue-predictions-to-single-cell-type-resolution-with-alphagenome-2/": 1794488765.0476463,
   "https://the-decoder.com/elevenlabs-scribe-v3-live-uses-conversational-context-to-stop-voice-agents-from-cutting-off-callers-mid-sentence/": 1794492152.4698534,
   "https://www.billboard.com/pro/beatbread-advisors-from-meta-suno/": 1794492152.4698534,
@@ -371,25 +368,11 @@
   "https://the-decoder.com/silicon-valleys-growing-obsession-with-ai-doomsday-is-turning-parts-of-the-tech-industry-toward-cult-like-devotion/": 1795316615.5396836,
   "https://gonintendo.com/contents/67471-the-binding-of-isaac-repentance-online-mode-appears-to-contain-ai-generated-music": 1795330976.5242789,
   "https://daryo.uz/2026/11/22/ozbekistonda-chatgpt-gemini-va-claude-ham-yangi-alifboga-moslashtiriladi/": 1795341686.54873,
-  "https://the-decoder.com/gpt-6-2-astra-and-sol-get-to-the-point-faster-but-score-lower-on-transparency-than-claude/": 1795341686.54873
+  "https://the-decoder.com/gpt-6-2-astra-and-sol-get-to-the-point-faster-but-score-lower-on-transparency-than-claude/": 1795341686.54873,
+  "https://www.uzdaily.uz/en/world-bank-discusses-tax-administration-reform-with-uzbekistan/": 1795348868.7465935
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1795000116.2748084,
-   "title": "OpenAI GPT-6.2 Astra vs Fable 5.2: Use Case and Performance Comparison",
-   "soha": "AI"
-  },
-  {
-   "t": 1795000116.2748084,
-   "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
-   "soha": "AI"
-  },
-  {
-   "t": 1795000116.2748084,
-   "title": "I tested ChatGPT’s new GPT-6.2 Astra with one prompt — and built a website I’d actually use",
-   "soha": "AI"
-  },
   {
    "t": 1795003288.0055163,
    "title": "India’s Humyn Labs raises $47M to feed U.S. robotics companies the data they need",
@@ -1174,6 +1157,11 @@
    "t": 1795341686.54873,
    "title": "GPT-6.2 Astra and Sol get to the point faster but score lower on transparency than Claude",
    "soha": "AI"
+  },
+  {
+   "t": 1795348868.7465935,
+   "title": "World Bank Discusses Tax Administration Reform with Uzbekistan",
+   "soha": "AI O'zbekiston"
   }
  ],
  "mavzu": {
@@ -1181,76 +1169,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1795172759.6239216,
-   "title": "BAA sun'iy intellekt yordamida yaratilgan qisqa metrajli film uchun 1 million dollar mukofot e'lon qildi",
-   "text": "Dubaydagi 1 Billion Followers Summit doirasida ikkinchi AI Film Award tanlovi boshlandi. Tanlovning bosh sovrini 1 million dollarni tashkil etadi.",
-   "orig_title": "The UAE is offering $1 million for an AI short film",
-   "link": "https://tbreak.com/ai-film-award-dubai-1-million-second-edition/",
-   "source": "tbreak.com",
-   "soha": "AI tanlov",
-   "baho": 10,
-   "experts": [],
-   "effect": "Sun'iy intellekt va kontent yaratish sohasidagi bunday yirik mukofotlar va platformalar yangi iste'dodlarni kashf etishga, shuningdek global miqyosda raqobat va innovatsiyalarni tezlashtirishga xizmat qilishi mumkin.",
-   "image": "https://i0.wp.com/tbreak.com/wp-content/uploads/2026/11/relationships.jpg?fit=880%2C1100&ssl=1",
-   "domains": [
-    "tbreak.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://tbreak.com/ai-film-award-dubai-1-million-second-edition/",
-    "https://finance.yahoo.com/technology/ai/articles/dubai-launches-global-create-ai-170500843.html",
-    "https://finance.yahoo.com/technology/ai/articles/aijobsuae-launches-dubai-ai-festival-064000174.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795172759.6239216,
-   "title": "O'zbekistonda sun'iy intellekt markazlarini rivojlantirish bo'yicha hamkorlik memorandumi imzolandi",
-   "text": "Turkmanistonning Parlak Nesil kompaniyasi O'zbekistonning NexaGrid kompaniyasi bilan sun'iy intellekt ilovalari uchun ma'lumotlar markazlarini tashkil etish bo'yicha kelishuvga erishdi.",
-   "orig_title": "Parlak Nesil to Participate in Developing AI and Mining Centers in Uzbekistan",
-   "link": "https://business.com.tm/post/16667/parlak-nesil-to-participate-in-developing-ai-and-mining-centers-in-uzbekistan",
-   "source": "business.com.tm",
-   "soha": "AI O'zbekiston",
-   "baho": 10,
-   "experts": [],
-   "effect": "Ma'lumotlar markazlari va raqamli infratuzilmaning kengayishi energiya sarfi oshishiga olib kelishi hamda mintaqalarda iqtisodiy imkoniyatlar yaratishi ehtimoli bor.",
-   "image": "https://business.com.tm/images/uploads/posts/f01771af2aa3c6dbb1c9ce4c3e2d4165.png",
-   "domains": [
-    "business.com.tm",
-    "businessinsider.com",
-    "forbes.com"
-   ],
-   "urls": [
-    "https://business.com.tm/post/16667/parlak-nesil-to-participate-in-developing-ai-and-mining-centers-in-uzbekistan",
-    "https://www.businessinsider.com/where-every-us-governor-stands-ai-data-centers-midterms-2026-10",
-    "https://www.forbes.com/councils/forbestechcouncil/2026/06/12/the-truth-about-ai-data-centers-and-why-it-matters/"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795172759.6239216,
-   "title": "Hermes Agent jamoaviy bilimlarni ulashish funksiyasiga ega bo'ldi",
-   "text": "Ochiq kodli Hermes Agent dasturiy ta'minoti foydalanuvchilarga Microsoft Teams platformasi ichida to'g'ridan-to'g'ri ishlash imkonini beruvchi yangi funksiya bilan ta'minlandi.",
-   "orig_title": "Hermes Agent's Collective Wisdom feature turns one employee's AI trick into the whole team's skill",
-   "link": "https://the-decoder.com/hermes-agents-collective-wisdom-feature-turns-one-employees-ai-trick-into-the-whole-teams-skill/",
-   "source": "The Decoder",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Ochiq kodli sun'iy intellekt agentlari va jamoaviy bilim almashish funksiyalarining joriy etilishi korxonalarda ish unumdorligini oshirib, mutaxassislar o'rtasidagi hamkorlikni kuchaytirishi mumkin.",
-   "image": "https://the-decoder.com/wp-content/uploads/2026/06/hermes-og-image-blue.png",
-   "domains": [
-    "the-decoder.com",
-    "sports.yahoo.com"
-   ],
-   "urls": [
-    "https://the-decoder.com/hermes-agents-collective-wisdom-feature-turns-one-employees-ai-trick-into-the-whole-teams-skill/",
-    "https://sports.yahoo.com/articles/greatest-agent-time-nfl-fans-220925283.html",
-    "https://sports.yahoo.com/mlb/article/mlb-free-agency-top-50-ranking-the-best-players-available-this-winter-starting-with-tarik-skubal-and-freddy-peralta-200115707.html"
-   ],
-   "videos": []
-  },
   {
    "t": 1795176101.1063173,
    "title": "Alibaba Cloud Malayziyada AI tanlovi va ma'lumotlar markazini ochdi",
@@ -2313,6 +2231,30 @@
      "X"
     ]
    ]
+  },
+  {
+   "t": 1795348868.7465935,
+   "title": "Jahon banki O‘zbekiston bilan soliq ma'muriyatchiligini isloh qilishni muhokama qildi",
+   "text": "O‘zbekiston Soliq qo‘mitasi Jahon banki delegatsiyasi bilan sun'iy intellekt vositalari, soliq xavflarini boshqarish va xalqaro soliqqa tortish masalalari bo‘yicha texnik maslahatlashuvlar o‘tkazdi.",
+   "orig_title": "World Bank Discusses Tax Administration Reform with Uzbekistan",
+   "link": "https://www.uzdaily.uz/en/world-bank-discusses-tax-administration-reform-with-uzbekistan/",
+   "source": "uzdaily.uz",
+   "soha": "AI O'zbekiston",
+   "baho": 10,
+   "experts": [],
+   "effect": "Bu maslahatlashuvlar soliq ma'muriyatchiligini isloh qilish va sun'iy intellekt vositalarini joriy etish orqali jarayonlarni raqamlashtirishni tezlashtirishi mumkin.",
+   "image": "https://www.uzdaily.uz/media/filer_public/c5/26/c5265525-8f89-43d8-86c8-518b8859d016/soliqwb2211_20261122034201.webp",
+   "domains": [
+    "uzdaily.uz",
+    "bbc.com",
+    "techcrunch.com"
+   ],
+   "urls": [
+    "https://www.uzdaily.uz/en/world-bank-discusses-tax-administration-reform-with-uzbekistan/",
+    "https://www.bbc.com/news/resources/idt-4f79d09b-655a-42f8-82b4-9b2ecebab611",
+    "https://techcrunch.com/2024/12/20/uzbekistans-mobile-bank-tbc-bags-37m-to-expand-with-new-ai-and-insurance-products/"
+   ],
+   "videos": []
   }
  ]
 }
