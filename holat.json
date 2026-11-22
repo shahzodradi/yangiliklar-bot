@@ -384,7 +384,11 @@
   "https://www.msn.com/en-in/news/other/singapore-india-hackathon-2026-indian-students-build-ai-platform-to-help-farmers-plan-crops-based-on-buyer-demand-four-teams-win-s-88000-in-prizes/ar-AA2hGqu7": 1795280875.502619,
   "https://the-decoder.com/nvidia-researchers-argue-huge-ai-context-windows-are-a-dead-end/": 1795280875.502619,
   "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/": 1795280875.502619,
-  "https://www.dexerto.com/gaming/binding-of-isaac-fans-review-bomb-dlc-after-discovering-gta-6-mode-songs-are-ai-3430318/": 1795288058.93629
+  "https://www.dexerto.com/gaming/binding-of-isaac-fans-review-bomb-dlc-after-discovering-gta-6-mode-songs-are-ai-3430318/": 1795288058.93629,
+  "https://www.marketscreener.com/news/perfect-corp-introduces-youcam-muse-ai-song-and-music-video-platform-ce785edcdd8af52c": 1795316615.5396836,
+  "https://www.theverge.com/tech/1039554/un-regulations-killer-robots": 1795316615.5396836,
+  "https://www.wired.com/story/brace-yourself-for-years-of-outage-chaos/": 1795316615.5396836,
+  "https://the-decoder.com/silicon-valleys-growing-obsession-with-ai-doomsday-is-turning-parts-of-the-tech-industry-toward-cult-like-devotion/": 1795316615.5396836
  },
  "fails": 0,
  "sent": [
@@ -1312,6 +1316,26 @@
    "t": 1795288058.93629,
    "title": "Binding of Isaac fans review bomb DLC after discovering GTA 6 mode songs are AI",
    "soha": "AI musiqa"
+  },
+  {
+   "t": 1795316615.5396836,
+   "title": "Perfect Corp. Introduces Youcam Muse Ai Song and Music Video Platform",
+   "soha": "AI musiqa"
+  },
+  {
+   "t": 1795316615.5396836,
+   "title": "The UN fails to agree on rules regulating ‘killer robots’",
+   "soha": "AI"
+  },
+  {
+   "t": 1795316615.5396836,
+   "title": "The Outages Are Just Getting Started",
+   "soha": "AI"
+  },
+  {
+   "t": 1795316615.5396836,
+   "title": "Silicon Valley's growing obsession with AI doomsday is turning parts of the tech industry toward cult-like devotion",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -3152,6 +3176,98 @@
     "https://www.dexerto.com/gaming/binding-of-isaac-fans-review-bomb-dlc-after-discovering-gta-6-mode-songs-are-ai-3430318/",
     "https://www.theguardian.com/music/2026/oct/19/australia-music-global-copywright-outlier-ai-music-body-warnsns",
     "https://www.theguardian.com/music/2026/oct/09/jess-williamson-a-mile-south-of-heaven-review"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795316615.5396836,
+   "title": "Perfect Corp. AI musiqa va klip yaratuvchi YouCam Muse platformasini chiqardi",
+   "text": "Perfect Corp. yangi YouCam Muse platformasini taqdim etdi. Xizmat mualliflarga sun’iy intellekt yordamida original qo‘shiqlar yaratish va ularni to‘liq musiqiy videolarga aylantirish imkonini beradi.",
+   "orig_title": "Perfect Corp. Introduces Youcam Muse Ai Song and Music Video Platform",
+   "link": "https://www.marketscreener.com/news/perfect-corp-introduces-youcam-muse-ai-song-and-music-video-platform-ce785edcdd8af52c",
+   "source": "marketscreener.com",
+   "soha": "AI musiqa",
+   "baho": 9,
+   "experts": [],
+   "effect": "Musiqa va videokontent yaratish jarayoni sezilarli darajada tezlashib, arzonlashishi mumkin; bu esa mustaqil ijodkorlar faolligini oshirib, an’anaviy video ishlab chiqarish studiyalariga bo‘lgan talabni kamaytirishi mumkin.",
+   "image": null,
+   "domains": [
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://finance.yahoo.com/technology/ai/articles/perfect-corp-introduces-brand-ai-130000756.html",
+    "https://finance.yahoo.com/technology/ai/articles/perfect-corp-launches-ai-mv-110000993.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795316615.5396836,
+   "title": "BMT avtonom qurollarni tartibga solish bo‘yicha kelishuvga erisha olmadi",
+   "text": "BMT diplomatlarining Jenevadagi uchrashuvida avtonom jangovar tizimlarni cheklash bo‘yicha aniq qoidalar qabul qilinmadi. Tomonlar bir haftalik samarasiz muzokaralardan so‘ng faqat variantlarni muhokama qilishga kelishib oldi.",
+   "orig_title": "The UN fails to agree on rules regulating ‘killer robots’",
+   "link": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
+   "source": "The Verge AI",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Avtonom qurollar ustidan qat’iy xalqaro nazoratning kechikishi yetakchi davlatlar o‘rtasidagi harbiy sun’iy intellekt poygasini tezlashtirishi va mojarolarda tinch aholi uchun xavflarni kuchaytirishi mumkin.",
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/13611631/503831564.jpg.jpg?quality=90&strip=all&crop=0%2C11.089604074363%2C100%2C77.820791851273&w=1200",
+   "domains": [
+    "theverge.com",
+    "yahoo.com"
+   ],
+   "urls": [
+    "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
+    "https://www.yahoo.com/news/world/articles/nearly-100-countries-called-imminent-110951425.html",
+    "https://www.yahoo.com/news/politics/articles/killer-robots-talks-battle-against-141706438.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795316615.5396836,
+   "title": "AI xakerlik xavfi tufayli tizimlardagi uzilishlar ko‘payishi kutilmoqda",
+   "text": "Sun’iy intellekt vositalari xavfsizlik zaifliklarini tezda topish imkonini berayotgani sababli, kompaniyalar tizimlarni zudlik bilan yangilashga majbur bo‘lmoqda va bu global internet uzilishlariga olib kelmoqda.",
+   "orig_title": "The Outages Are Just Getting Started",
+   "link": "https://www.wired.com/story/brace-yourself-for-years-of-outage-chaos/",
+   "source": "Wired AI",
+   "soha": "AI",
+   "baho": 6,
+   "experts": [],
+   "effect": "IT infratuzilmalarni shoshilinch yangilash zarurati ko‘payishi sababli kelgusida yirik global tizim uzilishlari davom etishi va kompaniyalarning texnik xavfsizlikka ajratadigan xarajatlari ortishi mumkin.",
+   "image": "https://media.wired.com/photos/6b00ba06fb286bb31d23be2b/191:100/w_1280,c_limit/Kernel-Panic-Brace-for-More-Outages-Security.jpg",
+   "domains": [
+    "wired.com",
+    "finance.yahoo.com",
+    "nbcnews.com"
+   ],
+   "urls": [
+    "https://www.wired.com/story/brace-yourself-for-years-of-outage-chaos/",
+    "https://finance.yahoo.com/video/cybersecurity-ceo-warns-ai-accelerating-224442009.html",
+    "https://www.nbcnews.com/tech/security/microsoft-outage-ai-race-fix-security-flaws-cyber-tech-outages-common-rcna610143"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795316615.5396836,
+   "title": "Kremniy vodiysida sun’iy intellektga sig‘inuvchi guruh faoliyati ma’lum bo‘ldi",
+   "text": "Vermonthdagi Maple monastiri Kremniy vodiysi mutaxassislari ishtirokida sun’iy intellekt asosida rahbarining nusxasini yaratmoqda. Sobiq a’zolar texnologiya atrofida o‘ziga xos diniy kult shakllanayotganini aytmoqda.",
+   "orig_title": "Silicon Valley's growing obsession with AI doomsday is turning parts of the tech industry toward cult-like devotion",
+   "link": "https://the-decoder.com/silicon-valleys-growing-obsession-with-ai-doomsday-is-turning-parts-of-the-tech-industry-toward-cult-like-devotion/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 5,
+   "experts": [],
+   "effect": "Sun’iy intellekt muhandislari va rahbarlari o‘rtasidagi ekzistensial qo‘rquvlar kuchayishi texnologik muhitda mafkuraviy parokandalikni keltirib chiqarishi va xavfsizlik qonunchiligini qabul qilishni qiyinlashtirishi mumkin.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/11/buddhist_ai_sect-1200x670.png",
+   "domains": [
+    "the-decoder.com",
+    "wired.com",
+    "techcrunch.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/silicon-valleys-growing-obsession-with-ai-doomsday-is-turning-parts-of-the-tech-industry-toward-cult-like-devotion/",
+    "https://www.wired.com/story/eight-google-employees-invented-modern-ai-transformers-paper/",
+    "https://techcrunch.com/2025/10/17/silicon-valley-spooks-the-ai-safety-advocates/"
    ],
    "videos": []
   }
