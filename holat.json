@@ -1,9 +1,5 @@
 {
  "seen": {
-  "https://www.msn.com/en-in/news/other/adobe-max-2026-sneaks-from-turning-images-into-navigable-worlds-to-ai-generated-characters-for-videos-check-out-all-announcements/ar-AA2hgDGm": 1794474226.8714855,
-  "https://www.msn.com/en-gb/technology/hardware-and-devices/using-kling-3-0-for-multi-shot-and-consistent-ai-video/vi-AA2hgXlA": 1794474226.8714855,
-  "https://www.trendforce.com/news/2026/11/12/news-bytedance-reportedly-to-launch-meta-muse-like-ai-assistant-within-weeks-eyes-up-to-us70b-in-broader-ai-push/": 1794474226.8714855,
-  "https://www.technobezz.com/news/openai-service-incident-ba2a3924": 1794477653.023465,
   "https://the-decoder.com/australias-proposed-ai-safety-bill-would-force-frontier-model-makers-to-open-up-to-independent-testing/": 1794481541.030661,
   "https://openai.com/index/children-first-declaration": 1794481541.030661,
   "https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/": 1794481541.030661,
@@ -373,40 +369,12 @@
   "https://www.theverge.com/tech/1039554/un-regulations-killer-robots": 1795316615.5396836,
   "https://www.wired.com/story/brace-yourself-for-years-of-outage-chaos/": 1795316615.5396836,
   "https://the-decoder.com/silicon-valleys-growing-obsession-with-ai-doomsday-is-turning-parts-of-the-tech-industry-toward-cult-like-devotion/": 1795316615.5396836,
-  "https://gonintendo.com/contents/67471-the-binding-of-isaac-repentance-online-mode-appears-to-contain-ai-generated-music": 1795330976.5242789
+  "https://gonintendo.com/contents/67471-the-binding-of-isaac-repentance-online-mode-appears-to-contain-ai-generated-music": 1795330976.5242789,
+  "https://daryo.uz/2026/11/22/ozbekistonda-chatgpt-gemini-va-claude-ham-yangi-alifboga-moslashtiriladi/": 1795341686.54873,
+  "https://the-decoder.com/gpt-6-2-astra-and-sol-get-to-the-point-faster-but-score-lower-on-transparency-than-claude/": 1795341686.54873
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1794992970.697219,
-   "title": "Satya Nadella says he’s AGI-pilled now",
-   "soha": "AI"
-  },
-  {
-   "t": 1794992970.697219,
-   "title": "Nvidia’s Q3 earnings hit the mark, without mentioning the whole Jensen Huang thing",
-   "soha": "AI"
-  },
-  {
-   "t": 1794992970.697219,
-   "title": "Not even Sam Altman is safe from AI deepfakes on Instagram",
-   "soha": "AI"
-  },
-  {
-   "t": 1794992970.697219,
-   "title": "AI models can be tricked into identifying civilians as military targets by telling them it’s a game",
-   "soha": "AI"
-  },
-  {
-   "t": 1794996065.2269773,
-   "title": "Google Pics gets Nano Banana 2.1 for sharper text and more accurate edits",
-   "soha": "AI rasm"
-  },
-  {
-   "t": 1794996065.2269773,
-   "title": "Microsoft takes on OpenAI and Anthropic with 7 new AI models: Check what they can do",
-   "soha": "AI"
-  },
   {
    "t": 1795000116.2748084,
    "title": "OpenAI GPT-6.2 Astra vs Fable 5.2: Use Case and Performance Comparison",
@@ -1196,6 +1164,16 @@
    "t": 1795330976.5242789,
    "title": "The Binding of Isaac: Repentance+ Online mode appears to contain AI generated music, creator working on getting it removed",
    "soha": "AI musiqa"
+  },
+  {
+   "t": 1795341686.54873,
+   "title": "O‘zbekistonda ChatGPT, Gemini va Claude ham yangi alifboga moslashtiriladi",
+   "soha": "AI O'zbekiston"
+  },
+  {
+   "t": 1795341686.54873,
+   "title": "GPT-6.2 Astra and Sol get to the point faster but score lower on transparency than Claude",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -1203,199 +1181,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1795165752.5138679,
-   "title": "iQIYI sun'iy intellekt yordamida yo'qolgan filmni tikladi",
-   "text": "iQIYI platformasi NadouPro vositasi yordamida 90 yillik eski filmni tikladi va Oltin Xo'roz mukofotining sun'iy intellekt bo'limiga kiritildi.",
-   "orig_title": "iQIYI Revives 90-Year-Old Lost Film with NadouPro, Shortlisted for the AI Unit at the Golden Rooster Awards",
-   "link": "https://en.antaranews.com/news/444003/iqiyi-revives-90-year-old-lost-film-with-nadoupro-shortlisted-for-the-ai-unit-at-the-golden-rooster-awards",
-   "source": "en.antaranews.com",
-   "soha": "AI tanlov",
-   "baho": 10,
-   "experts": [],
-   "effect": "Sun'iy intellekt texnologiyalarining kinolarni noldan qayta tiklashdagi imkoniyatlarini kengaytirishi hamda kelgusida yo‘qolib ketgan madaniy meroslarni asl holatiga yaqinlashtirib qayta jonlantirishga zamin yaratishi mumkin.",
-   "image": "https://cdn.antaranews.com/cache/1200x800/2026/11/20/shanghai.jpg",
-   "domains": [
-    "en.antaranews.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://en.antaranews.com/news/444003/iqiyi-revives-90-year-old-lost-film-with-nadoupro-shortlisted-for-the-ai-unit-at-the-golden-rooster-awards",
-    "https://finance.yahoo.com/technology/ai/articles/iqiyi-revives-90-old-lost-100300931.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795165752.5138679,
-   "title": "Sun'iy intellekt qisqa metrajli seriallar ishlab chiqarishni o'zgartirmoqda",
-   "text": "Cheng sun'iy intellekt texnologiyalaridan foydalangan holda hikoya tuzilmalarini tahlil qilish va qahramonlar munosabatlarini xaritalash ishlarini amalga oshirdi.",
-   "orig_title": "From Film Sets to Animated Dramas: How AI Is Reshaping Film Production",
-   "link": "https://www.greenbaypressgazette.com/press-release/story/209999/from-film-sets-to-animated-dramas-how-ai-is-reshaping-film-production/",
-   "source": "greenbaypressgazette.com",
-   "soha": "AI video",
-   "baho": 9,
-   "experts": [
-    {
-     "kim": "Alex Gibney",
-     "lavozim": "rejissyor",
-     "fikr": "Maskning siyosatda o‘ngga burilishi va Trampni qo‘llab-quvvatlashiga unga qarshi ochilgan jinoiy tergovlar sabab bo‘lgan deb o‘ylayman.",
-     "url": "https://uk.news.yahoo.com/musk-director-alex-gibney-reveals-160000881.html",
-     "domain": "uk.news.yahoo.com"
-    }
-   ],
-   "effect": "Taniqli shaxslar va yirik texnologiya rahbarlarining siyosiy jarayonlar hamda saylovlarga ta'siri kuchayishi, shuningdek, yirik kompaniyalar rahbarlariga nisbatan davlat organlarining tergovlari yanada qattiqlashishiga olib kelishi ehtimoli bor.",
-   "image": null,
-   "domains": [
-    "uk.news.yahoo.com"
-   ],
-   "urls": [
-    "https://uk.news.yahoo.com/musk-director-alex-gibney-reveals-160000881.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795165752.5138679,
-   "title": "Fireworks AI ochiq kodli modellarni afzal ko'rishni taklif qildi",
-   "text": "Anthropic kompaniyasi aksiyalarini ommaviy joylashtirgan kunda, Fireworks AI asoschisi qimmat modellarga arzon muqobil sifatida ochiq kodli modellarni keltirdi.",
-   "orig_title": "Anthropic rival says companies can (mostly) skip the pricey models",
-   "link": "https://techcrunch.com/2026/11/19/anthropic-rival-says-companies-can-mostly-skip-the-pricey-models/",
-   "source": "TechCrunch Venture",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Qimmat va yirik umumiy intellekt modellariga qaramlikni kamaytirib, kompaniyalarning o‘z ma'lumotlari asosida ishlaydigan arzonroq va moslashuvchan ochiq modellar bozorining jadal rivojlanishiga olib kelishi mumkin.",
-   "image": "https://techcrunch.com/wp-content/uploads/2026/11/Screenshot-2026-11-20-at-12.43.24-AM.png?resize=1200,601",
-   "domains": [
-    "techcrunch.com",
-    "businessinsider.com"
-   ],
-   "urls": [
-    "https://techcrunch.com/2026/11/19/anthropic-rival-says-companies-can-mostly-skip-the-pricey-models/",
-    "https://www.businessinsider.com/jensen-huang-nvidia-ouster-removes-major-threat-to-anthropic-ipo-2026-11"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795165752.5138679,
-   "title": "Anthropic rahbari sun'iy intellekt rivojlanishini sekinlashtirishga va'da berdi",
-   "text": "Nasdaq birjasining ochilish marosimida Dario Amodei biznes yoki siyosiy bosimlardan qat'i nazar, sun'iy intellekt taraqqiyotini bosqichma-bosqich olib borishini ta'kidladi.",
-   "orig_title": "At Nasdaq opening bell, Anthropic CEO recommits to pacing AI development",
-   "link": "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/",
-   "source": "TechCrunch AI",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Texnologik aksiyalar bozorida keskin o‘zgarishlar va sotuvlar davom etib, investorlarning sun'iy intellekt sohasidagi qimmat qog‘ozlarga bo‘lgan yondashuvi yanada ehtiyotkorona tus olishi mumkin.",
-   "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2305298275.jpg?w=594",
-   "domains": [
-    "techcrunch.com",
-    "businessinsider.com"
-   ],
-   "urls": [
-    "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/",
-    "https://www.businessinsider.com/nasdaq-correction-decline-ai-spending-tech-stocks-market-outlook-midterms-2026-11"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795165752.5138679,
-   "title": "Anthropic tarixidagi eng yirik IPO orqali ommaga chiqdi",
-   "text": "Anthropic 81.3 milliard dollar mablag' jalb qilib, eng qimmat IPO rekordini o'rnatdi va boshqa sun'iy intellekt laboratoriyalari uchun muhim presedent yaratdi.",
-   "orig_title": "With the biggest IPO of all time, Anthropic’s ‘good guy’ reputation is on the line",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1037459/anthropic-ipo-safe-ai-reputation-power-structure",
-   "source": "The Verge AI",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Bozordagi aksiyalar narxining o‘zgaruvchanligini oshirishi hamda texnologiya kompaniyalarining infratuzilma uchun qilayotgan ulkan xarajatlari o‘zini oqlashi bo‘yicha investorlarning xavotirlarini kuchaytirishi mumkin.",
-   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/STK202_DARIO_AMODEI_CVIRGINIA_D.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
-   "domains": [
-    "theverge.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://www.theverge.com/ai-artificial-intelligence/1037459/anthropic-ipo-safe-ai-reputation-power-structure",
-    "https://finance.yahoo.com/markets/stocks/articles/wall-street-wipes-early-gains-213741131.html"
-   ],
-   "videos": [
-    [
-     "https://x.com/MrinankSharma/status/2020881722003583421",
-     "X"
-    ],
-    [
-     "https://x.com/hilbertspaess/status/2097476196791709843",
-     "X"
-    ]
-   ]
-  },
-  {
-   "t": 1795165752.5138679,
-   "title": "Kuchayib borayotgan raqobat Kuaishou natijalariga ta'sir ko'rsatdi",
-   "text": "Qisqa video va jonli translatsiya platformalarini boshqaruvchi Kuaishou kompaniyasi kuchaygan raqobat sharoitida uchinchi chorak natijalarini e'lon qildi.",
-   "orig_title": "Kuaishou Flags Short-Term Impact as 'Intensifying Competition' Batters Third-Quarter Results",
-   "link": "https://www.marketscreener.com/news/kuaishou-flags-short-term-impact-as-intensifying-competition-batters-third-quarter-results-ce785ed2d189f02c",
-   "source": "marketscreener.com",
-   "soha": "AI video",
-   "baho": 7,
-   "experts": [],
-   "effect": "Kompaniyaning yaqin kelajakdagi moliyaviy ko‘rsatkichlariga bosim o‘tkazib, sun'iy intellekt texnologiyalariga qilinayotgan yuqori xarajatlar fonida raqobatbardoshlikni saqlab qolish uchun qo‘shimcha strategik qadamlar qo‘yilishiga olib kelishi mumkin.",
-   "image": null,
-   "domains": [
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://finance.yahoo.com/markets/stocks/articles/china-kuaishou-slumps-record-low-061651762.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795168869.5862103,
-   "title": "Anthropic kompaniyasining IPO si xayriya tashkilotlariga 156 milliard dollar keltirishi mumkin",
-   "text": "Anthropic kompaniyasining aksiyalari 95 dollardan baholanganda, uning Public Benefit Foundation jamg'armasi va xodimlar xayriyalari umumiy hisobda 156 milliard dollarni tashkil etishi mumkin.",
-   "orig_title": "Anthropic’s IPO could deliver $156B to charity",
-   "link": "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/",
-   "source": "TechCrunch AI",
-   "soha": "AI",
-   "baho": 9,
-   "experts": [],
-   "effect": "Kompaniyaning aksiyalar chiqarishi xayriya jamg'armalari va xodimlarining tashabbuslari orqali yuzlab milliardlab mablag'lar ijtimoiy loyihalar va sun'iy intellekt xavfsizligini o'rganishga yo'naltirilishiga olib kelishi mumkin.",
-   "image": "https://techcrunch.com/wp-content/uploads/2026/01/GettyImages-2256664479.jpg?resize=1200,800",
-   "domains": [
-    "techcrunch.com",
-    "finance.yahoo.com",
-    "businessinsider.com"
-   ],
-   "urls": [
-    "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/",
-    "https://finance.yahoo.com/technology/ai/article/anthropic-ipo-what-we-know-143321078.html",
-    "https://www.businessinsider.com/how-rich-anthropic-ipo-7-cofounders-2026-10"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795168869.5862103,
-   "title": "Anthropic aksiyalarini ommaviy joylashtirish sun'iy intellekt bozorini sinovdan o'tkazmoqda",
-   "text": "Anthropic IPO jarayonida ulkan hisoblash quvvatlari majburiyatlarini o'z zimmasiga olmoqda, Amazon va Google kabi infratuzilma hamkorlari esa foyda olishda davom etishi mumkin.",
-   "orig_title": "Anthropic’s IPO puts AI’s circular financing boom to the test",
-   "link": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
-   "source": "TechCrunch AI",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Mazkur ommaviy taklif sun'iy intellekt bozoridagi aylanma moliyalashtirish tizimini mustaqil darajaga olib chiqib, xususiy ta'minotchilarga bo'lgan qaramlikni kamaytirishi va ommaviy bozor investorlari hisobiga o'zini o'zi moliyalashtirish imkonini berishi mumkin.",
-   "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2304538389.jpg?w=1024",
-   "domains": [
-    "techcrunch.com",
-    "uk.finance.yahoo.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
-    "https://uk.finance.yahoo.com/news/anthropics-ipo-close-look-ai-132951093.html",
-    "https://finance.yahoo.com/technology/ai/articles/anthropics-historic-debut-put-ais-110740345.html"
-   ],
-   "videos": []
-  },
   {
    "t": 1795172759.6239216,
    "title": "BAA sun'iy intellekt yordamida yaratilgan qisqa metrajli film uchun 1 million dollar mukofot e'lon qildi",
@@ -2472,6 +2257,59 @@
    "videos": [
     [
      "https://x.com/edmundmcmillen/status/2124169167880470745",
+     "X"
+    ]
+   ]
+  },
+  {
+   "t": 1795341686.54873,
+   "title": "O‘zbekistonda ChatGPT, Gemini va Claude sun’iy intellekt platformalari yangi alifboga moslashtiriladi",
+   "text": "OpenAI, Google, Anthropic, xAI, DeepSeek, Meta va boshqa kompaniyalarga o‘zbek tilining takomillashtirilgan alifbosiga asoslangan platformalarni joriy etish yuzasidan murojaat qilindi.",
+   "orig_title": "O‘zbekistonda ChatGPT, Gemini va Claude ham yangi alifboga moslashtiriladi",
+   "link": "https://daryo.uz/2026/11/22/ozbekistonda-chatgpt-gemini-va-claude-ham-yangi-alifboga-moslashtiriladi/",
+   "source": "daryo.uz",
+   "soha": "AI O'zbekiston",
+   "baho": 10,
+   "experts": [],
+   "effect": "Sun’iy intellekt platformalarining yangi o‘zbek alifbosiga moslashuvi mamlakatda raqamli xizmatlar va elektron tijorat sifatini oshirishi, shuningdek, mahalliy foydalanuvchilar uchun qulayliklar yaratishi mumkin.",
+   "image": "https://gocdn.daryo.uz/large/2026/11/22/39ee57a296b3dff1a506d3c71210e8590c3ce1415fa09616dc36a7a3f2552fdc.webp",
+   "domains": [
+    "daryo.uz",
+    "cnbc.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://daryo.uz/2026/11/22/ozbekistonda-chatgpt-gemini-va-claude-ham-yangi-alifboga-moslashtiriladi/",
+    "https://www.cnbc.com/2025/11/19/alphabet-stock-gemini-3-ai.html",
+    "https://finance.yahoo.com/markets/stocks/articles/gemini-falls-behind-chatgpt-grok-155145121.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795341686.54873,
+   "title": "GPT-6.2 Astra va Sol modellarining shaffofligi Claude'dan ortda qolmoqda",
+   "text": "OpenAI'ning yangi modellari tezroq javob bersa-da, noaniqliklarni tan olishda kamroq shaffoflik ko'rsatmoqda, Anthropic esa bu borada oldinda bormoqda.",
+   "orig_title": "GPT-6.2 Astra and Sol get to the point faster but score lower on transparency than Claude",
+   "link": "https://the-decoder.com/gpt-6-2-astra-and-sol-get-to-the-point-faster-but-score-lower-on-transparency-than-claude/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Sun’iy intellekt modellarining tezroq va qisqaroq javob berishga o‘tishi foydalanuvchilar vaqtini tejashga yordam berishi, biroq shaffoflik va aniqlik ko‘rsatkichlarining pasayishi ma’lumotlarni tekshirishda qiyinchiliklar tug‘dirishi mumkin.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/11/OpenAI-Logo-1200x670.png",
+   "domains": [
+    "the-decoder.com",
+    "tech.yahoo.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/gpt-6-2-astra-and-sol-get-to-the-point-faster-but-score-lower-on-transparency-than-claude/",
+    "https://tech.yahoo.com/ai/copilot/articles/why-microsoft-thinks-smaller-cheaper-231603664.html",
+    "https://finance.yahoo.com/technology/ai/articles/openai-launches-gpt-6-sol-190038195.html"
+   ],
+   "videos": [
+    [
+     "https://x.com/ArtificialAnlys/status/2123236464003588136",
      "X"
     ]
    ]
