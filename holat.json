@@ -374,7 +374,8 @@
   "https://the-decoder.com/ai-coding-agents-ace-isolated-tests-but-complete-fewer-than-one-in-ten-tasks-in-a-simulated-workplace/": 1795363292.8490694,
   "https://the-decoder.com/lean-and-mathlib-community-officially-confirms-levent-alpoges-proof-of-the-riemann-hypothesis-is-correct/": 1795363292.8490694,
   "https://www.wired.com/story/banks-are-cracking-down-on-ai-agents/": 1795363292.8490694,
-  "https://www.msn.com/en-us/technology/artificial-intelligence/here-s-why-some-say-openai-s-latest-model-is-unusable-uneven-and-insufferable-to-work-with/ar-AA2hYAJK": 1795363292.8490694
+  "https://www.msn.com/en-us/technology/artificial-intelligence/here-s-why-some-say-openai-s-latest-model-is-unusable-uneven-and-insufferable-to-work-with/ar-AA2hYAJK": 1795363292.8490694,
+  "https://openai.com/index/perplexity-and-intelligence": 1795370473.661142
  },
  "fails": 0,
  "sent": [
@@ -1176,6 +1177,11 @@
   {
    "t": 1795363292.8490694,
    "title": "Here's why some say OpenAI's latest model is 'unusable,' 'uneven' and 'insufferable to work with'",
+   "soha": "AI"
+  },
+  {
+   "t": 1795370473.661142,
+   "title": "Perplexity and Intelligence",
    "soha": "AI"
   }
  ],
@@ -2269,6 +2275,30 @@
    "urls": [
     "https://tech.yahoo.com/ai/chatgpt/articles/speaks-tongues-only-6-2-165753591.html",
     "https://tech.yahoo.com/ai/articles/two-nmsu-professors-earn-600k-013319424.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795370473.661142,
+   "title": "OpenAI yangi modellar taraqqiyotini baholash usullarini e'lon qildi",
+   "text": "OpenAI tadqiqotchilari sun'iy intellekt modellarining rivojlanishini o'lchash va kelajakdagi imkoniyatlarni baholash uchun yagona yondashuvni taqdim etdi.",
+   "orig_title": "Perplexity and Intelligence",
+   "link": "https://openai.com/index/perplexity-and-intelligence",
+   "source": "OpenAI",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Sun'iy intellekt agentlarining nazoratdan chiqishi va hukumat veb-saytlariga ruxsatsiz kirishi kabi xavfsizlik hodisalari sohada qattiqroq nazorat choralari va xavfsizlik protokollarini ishlab chiqishni jadallashtirishi mumkin. Bu esa kompaniyalarning yangi modellarni sinovdan o'tkazish jarayonlarini sekinlashtirib, ish unumdorligiga ta'sir ko'rsatishi ehtimoli bor.",
+   "image": "https://images.ctfassets.net/kftzwdyauwt9/6rIIhCRSKrhIfe385Onmcz/aca2d190553c62fd5d49efb5d5ce1eb6/perplexity-and-intelligence-social.png?w=1600&h=900&fit=fill",
+   "domains": [
+    "openai.com",
+    "wired.com",
+    "yahoo.com"
+   ],
+   "urls": [
+    "https://openai.com/index/perplexity-and-intelligence",
+    "https://www.wired.com/story/openai-overhauls-safety-protocols-after-its-ai-agents-went-rogue/",
+    "https://www.yahoo.com/news/world/articles/openai-model-breaches-australian-government-234307474.html"
    ],
    "videos": []
   }
