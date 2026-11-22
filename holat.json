@@ -1204,52 +1204,6 @@
  },
  "kunlik": [
   {
-   "t": 1795158402.4482796,
-   "title": "Apple o‘zining mustaqil AI agentini ishlab chiqishni boshladi",
-   "text": "Apple veb-brauzerda ishlash, ilovalarni boshqarish va kod yozish qobiliyatiga ega sun’iy intellekt agentini yaratish uchun yangi muhandislar guruhini yollamoqda.",
-   "orig_title": "Apple is hiring engineers to build its own AI agent",
-   "link": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
-   "source": "The Verge AI",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Sun'iy intellekt agentlari bozorida raqobat kuchayishi va Apple foydalanuvchilarning shaxsiy ma'lumotlari xavfsizligini ta'minlagan holda yangi imkoniyatlarni taqdim etishi mumkin.",
-   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/DSC04239.jpg?quality=90&strip=all&crop=0%2C10.628272251309%2C100%2C78.743455497382&w=1200",
-   "domains": [
-    "theverge.com",
-    "tech.yahoo.com"
-   ],
-   "urls": [
-    "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
-    "https://tech.yahoo.com/ai/apple-intelligence/articles/apple-wants-turn-siri-personal-054204446.html",
-    "https://tech.yahoo.com/ai/apple-intelligence/articles/job-posting-seemingly-confirms-apple-000322700.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795158402.4482796,
-   "title": "Superhuman o‘zining Go AI assistentini pochta va hujjatlarga integratsiya qildi",
-   "text": "Superhuman kompaniyasi Go nomli sun’iy intellekt assistentini barcha asosiy mahsulotlariga, jumladan Mail va Docs xizmatlariga to‘liq joriy etmoqda.",
-   "orig_title": "Superhuman pushes its Go assistant everywhere",
-   "link": "https://techcrunch.com/2026/11/19/superhuman-pushes-its-go-assistant-everywhere/",
-   "source": "TechCrunch AI",
-   "soha": "AI",
-   "baho": 7,
-   "experts": [],
-   "effect": "Mahsuldorlik ilovalari va sun'iy intellekt yordamchilari integratsiyasi kengayib, foydalanuvchilarning kundalik ish jarayonlarini avtomatlashtirish va ma'lumotlarni boshqarish imkoniyatlari ortishi ehtimoli bor.",
-   "image": "https://techcrunch.com/wp-content/uploads/2026/11/Static_Go-Proactive.jpeg?resize=1200,675",
-   "domains": [
-    "techcrunch.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://techcrunch.com/2026/11/19/superhuman-pushes-its-go-assistant-everywhere/",
-    "https://finance.yahoo.com/technology/ai/articles/zoominfo-launches-superhuman-connector-bringing-133000501.html",
-    "https://finance.yahoo.com/technology/ai/articles/zoominfo-gtm-ai-integrations-superhuman-140835144.html"
-   ],
-   "videos": []
-  },
-  {
    "t": 1795161745.3864126,
    "title": "O‘zbekiston BMT Elektron hukumat indeksida 31 pog‘onaga ko‘tarildi",
    "text": "O‘zbekiston 2026-yilgi BMT Elektron hukumatni rivojlantirish indeksida 194 ta davlat orasida 32-o‘rinni egalladi, bu 2024-yilga nisbatan 31 pog‘onalik o‘sishdir.",
