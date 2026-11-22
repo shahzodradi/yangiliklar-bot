@@ -370,7 +370,10 @@
   "https://the-decoder.com/openai-shares-new-prompting-tips-for-gpt-6-2-astra-and-sol-to-fix-brief-answers-and-unnecessary-questions/": 1795352777.0793417,
   "https://the-decoder.com/security-researchers-show-how-cheap-ai-inference-providers-steal-keys-and-snoop-on-users/": 1795352777.0793417,
   "https://www.msn.com/en-in/news/other/gta-6-style-ai-photos-flood-instagram-gemini-and-chatgpt-prompts-to-turn-your-selfie-into-vice-city-poster/ar-AA2hXie9": 1795356357.7129755,
-  "https://the-decoder.com/ai-is-getting-better-faster-than-experts-can-reliably-test-whether-new-systems-are-safe-metr-warns/": 1795356357.7129755
+  "https://the-decoder.com/ai-is-getting-better-faster-than-experts-can-reliably-test-whether-new-systems-are-safe-metr-warns/": 1795356357.7129755,
+  "https://www.indystar.com/press-release/story/154760/seedeo-mcp-adds-suno-kling-and-veo-to-chatgpt-and-claude-connectors/": 1795359984.6370823,
+  "https://roboticsandautomationnews.com/2026/11/22/runway-releases-praxis-1-open-weight-world-action-model-for-robotics/107430/": 1795359984.6370823,
+  "https://the-decoder.com/perplexitys-new-monitor-api-turns-web-search-from-a-one-off-query-into-a-nonstop-watchdog/": 1795359984.6370823
  },
  "fails": 0,
  "sent": [
@@ -1167,6 +1170,21 @@
   {
    "t": 1795356357.7129755,
    "title": "AI is getting better faster than experts can reliably test whether new systems are safe, METR warns",
+   "soha": "AI"
+  },
+  {
+   "t": 1795359984.6370823,
+   "title": "Seedeo MCP Adds Suno, Kling and Veo to ChatGPT and Claude Connectors",
+   "soha": "AI video"
+  },
+  {
+   "t": 1795359984.6370823,
+   "title": "Runway releases Praxis-1 open-weight world action model for robotics",
+   "soha": "AI video"
+  },
+  {
+   "t": 1795359984.6370823,
+   "title": "Perplexity's new Monitor API turns web search from a one-off query into a nonstop watchdog",
    "soha": "AI"
   }
  ],
@@ -2153,6 +2171,75 @@
    "image": "https://the-decoder.com/wp-content/uploads/2026/06/metr_logo.png",
    "domains": [],
    "urls": [],
+   "videos": []
+  },
+  {
+   "t": 1795359984.6370823,
+   "title": "Seedeo Suno, Kling va Veo modellarini ChatGPT hamda Claude uchun qo'shdi",
+   "text": "Yagona API serveri orqali ChatGPT yoki Claude platformalaridan turib Suno, Kling hamda Veo yordamida video, rasm va musiqa yaratish imkoniyati yaratildi.",
+   "orig_title": "Seedeo MCP Adds Suno, Kling and Veo to ChatGPT and Claude Connectors",
+   "link": "https://www.indystar.com/press-release/story/154760/seedeo-mcp-adds-suno-kling-and-veo-to-chatgpt-and-claude-connectors/",
+   "source": "indystar.com",
+   "soha": "AI video",
+   "baho": 9,
+   "experts": [],
+   "effect": "Korporativ foydalanuvchilar uchun bulutli xizmatlar va yig‘ilishlarni yozib olish integratsiyasining qo‘shilishi OpenAI kompaniyasining ish joylaridagi mavqeini yanada mustahkamlashi mumkin. Shuningdek, mazkur yangi funksiyalar va sun'iy intellektga asoslangan tadqiqot vositalari mahsuldorlik dasturlari bozoridagi raqobatni yanada kuchaytirishi ehtimoli bor.",
+   "image": null,
+   "domains": [
+    "techcrunch.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2025/06/04/chatgpt-introduces-meeting-recording-and-connectors-for-google-drive-box-and-more/",
+    "https://techcrunch.com/2026/09/29/openai-expands-chatgpts-plugins-with-app-like-interfaces-and-automations/"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795359984.6370823,
+   "title": "Runway robototexnika uchun Praxis-1 ochiq og'irlikdagi modelini taqdim etdi",
+   "text": "Eng yuqori baholangan AI video modellari yaratuvchisi Runway robotlarga jismoniy vazifalarni bajarishni o'rgatuvchi Praxis-1 modelini chiqardi.",
+   "orig_title": "Runway releases Praxis-1 open-weight world action model for robotics",
+   "link": "https://roboticsandautomationnews.com/2026/11/22/runway-releases-praxis-1-open-weight-world-action-model-for-robotics/107430/",
+   "source": "roboticsandautomationnews.com",
+   "soha": "AI video",
+   "baho": 8,
+   "experts": [],
+   "effect": "Ochiq vaznli dunyo harakati modelining taqdim etilishi robototexnika dasturchilariga qimmat o‘qitish ma'lumotlar bazalariga bo‘lgan qaramlikni kamaytirishga yordam berishi mumkin. Bu holat ilg‘or robototexnika imkoniyatlarini yanada ochiq va foydalanish uchun qulay qilib, sanoatda avtomatlashtirish jarayonlarini tezlashtirishi ehtimoli bor.",
+   "image": "https://roboticsandautomationnews.com/wp-content/uploads/2026/11/runway-robotics-world-model-1.png",
+   "domains": [
+    "roboticsandautomationnews.com",
+    "finance.yahoo.com",
+    "techcrunch.com"
+   ],
+   "urls": [
+    "https://roboticsandautomationnews.com/2026/11/22/runway-releases-praxis-1-open-weight-world-action-model-for-robotics/107430/",
+    "https://finance.yahoo.com/quote/PRAX/",
+    "https://techcrunch.com/2025/12/11/runway-releases-its-first-world-model-adds-native-audio-to-latest-video-model/"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795359984.6370823,
+   "title": "Perplexity'ning yangi Monitor API xizmati agentlarga o'zgarishlar haqida xabar beradi",
+   "text": "Perplexity veb-qidiruvni doimiy kuzatuvchiga aylantiruvchi Monitor APIʼni ishga tushirdi, u muhim o'zgarishlar sodir bo'lganda webhook orqali agentlarni ogohlantiradi.",
+   "orig_title": "Perplexity's new Monitor API turns web search from a one-off query into a nonstop watchdog",
+   "link": "https://the-decoder.com/perplexitys-new-monitor-api-turns-web-search-from-a-one-off-query-into-a-nonstop-watchdog/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Veb-qidiruvni doimiy kuzatuvga aylantiruvchi yangi API xizmatining ishga tushirilishi dasturchilar va biznes jamoalariga axborotlarni avtomatlashtirilgan tarzda kuzatishda qulayliklar yaratishi mumkin. Bu vosita qidiruv va sun'iy intellekt bozorida kompaniyaning raqobatbardoshligini oshirib, qo‘shimcha daromad manbalarini shakllantirishi ehtimoli bor.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/06/Perplexity-Logo-Silhouette-Nano-Banana-Pro.jpg",
+   "domains": [
+    "the-decoder.com",
+    "finance.yahoo.com",
+    "techcrunch.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/perplexitys-new-monitor-api-turns-web-search-from-a-one-off-query-into-a-nonstop-watchdog/",
+    "https://finance.yahoo.com/quote/PEAI.PVT/",
+    "https://techcrunch.com/2025/01/21/perplexity-launches-sonar-an-api-for-ai-search/"
+   ],
    "videos": []
   }
  ]
