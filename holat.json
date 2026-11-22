@@ -1,7 +1,5 @@
 {
  "seen": {
-  "https://siliconangle.com/2026/11/12/with-23m-in-funding-luminal-is-the-latest-startup-to-put-nvidias-cuda-moat-in-its-crosshairs/": 1794499425.926031,
-  "https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/": 1794499425.926031,
   "https://cxotoday.com/media-coverage/inmobi-and-uttar-pradesh-government-launch-ai-kaushal-hackathon-2026-to-accelerate-real-world-ai-innovation/": 1794506557.1584666,
   "https://www.catholicworldreport.com/2026/11/11/from-the-virtual-to-the-sacramental-hackathon-in-rome-reimagines-parish-life-in-age-of-ai/": 1794506557.1584666,
   "https://techcrunch.com/2026/11/12/jensen-huang-agrees-to-testify-before-congress/": 1794506557.1584666,
@@ -380,21 +378,6 @@
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1795017767.9373405,
-   "title": "Anthropic, OpenAI, and Google models readily marked medics, journalists, and surrendering soldiers as kamikaze drone targets",
-   "soha": "AI"
-  },
-  {
-   "t": 1795017767.9373405,
-   "title": "SEC probes Nvidia over undisclosed chip sales tied to China",
-   "soha": "AI"
-  },
-  {
-   "t": 1795017767.9373405,
-   "title": "Nvidia isn’t selling any more AI chips to China",
-   "soha": "AI"
-  },
   {
    "t": 1795028976.7667918,
    "title": "Microsoft is replacing outside AI models in its own products with cheaper in-house alternatives",
