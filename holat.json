@@ -1,6 +1,5 @@
 {
  "seen": {
-  "https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots/": 1794546541.9908485,
   "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/": 1794549697.8480587,
   "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/": 1794549697.8480587,
   "https://about.fb.com/news/2026/11/meta-new-agreements-clean-manufacturing-data-center-supply-chains/": 1794549697.8480587,
@@ -351,25 +350,11 @@
   "https://openai.com/index/perplexity-and-intelligence": 1795370473.661142,
   "https://biz.heraldcorp.com/article/10945468": 1795402969.9109964,
   "https://www.cbc.ca/news/canada/toronto/brampton-venture-zone-matching-students-with-businesses-for-ai-adoption-9.7432057": 1795402969.9109964,
-  "https://thedroidguy.com/gemini-generate-edit-images-1295475": 1795402969.9109964
+  "https://thedroidguy.com/gemini-generate-edit-images-1295475": 1795402969.9109964,
+  "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/": 1795413691.5492532
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1795064755.821135,
-   "title": "Best AI Image to Video Generator in 2026: 8 Tools Compared",
-   "soha": "AI video"
-  },
-  {
-   "t": 1795064755.821135,
-   "title": "Suno Brings AI Music Videos to Creators with New Visuals Feature: What You Need to Know",
-   "soha": "AI musiqa"
-  },
-  {
-   "t": 1795068068.706351,
-   "title": "Sunʼiy intellekt yaratgan film xarajatini ham qoplay olmadi",
-   "soha": "AI video"
-  },
   {
    "t": 1795072167.1746418,
    "title": "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit",
@@ -1109,6 +1094,11 @@
    "t": 1795402969.9109964,
    "title": "How To Create And Edit Images In Gemini With Nano Banana (2026)",
    "soha": "AI rasm"
+  },
+  {
+   "t": 1795413691.5492532,
+   "title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -1116,78 +1106,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1795237813.932109,
-   "title": "OpenAI xavfsizlikni kuchaytirish uchun yangi usullarni joriy qildi",
-   "text": "OpenAI model imkoniyatlarini ruxsatsiz nusxalashdan himoya qilish uchun modelni o'qitish va himoya choralarini o'z ichiga olgan ko'p qatlamli yondashuvni taqdim etdi.",
-   "orig_title": "Combatting adversarial distillation",
-   "link": "https://openai.com/index/combatting-adversarial-distillation",
-   "source": "OpenAI",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Sun'iy intellekt modellaridan ma'lumotlarni o'g'irlash va ruxsatsiz distillash holatlarining ko'payishi xavfsizlik choralarini yanada kuchaytirishga olib kelishi mumkin. Bu esa kompaniyalarni yangi himoya qatlamlarini joriy etishga va sun'iy intellekt bozorida raqobat shartlarini qayta ko'rib chiqishga majbur qilishi ehtimoli bor.",
-   "image": "https://images.ctfassets.net/kftzwdyauwt9/5SUtPGdssrttC7LfP1yoJ1/b6b000846ab3576c1735c29534ab20b0/combatting-adversarial-distillation-social.png?w=1600&h=900&fit=fill",
-   "domains": [
-    "openai.com",
-    "businessinsider.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://openai.com/index/combatting-adversarial-distillation",
-    "https://www.businessinsider.com/anthropic-changing-safety-policy-2026-2",
-    "https://finance.yahoo.com/technology/ai/articles/openai-accuses-kimi-operator-china-031602762.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795240884.5004683,
-   "title": "Daniel Ek sun'iy intellekt tadqiqotchisining termoyadroviy стартапини qo‘llab-quvvatladi",
-   "text": "Spotify asoschisi Daniel Ek sun'iy intellekt tadqiqotchisi tomonidan asos solingan Europa Fusion termoyadroviy energetika стартаpiga sarmoya kiritdi.",
-   "orig_title": "Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.",
-   "link": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
-   "source": "TechCrunch AI",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Yadroviy sintez texnologiyasining tijoriy jihatdan qulaylashishi kelgusida uglerodsiz yirik energiya manbasini yaratish hamda sun'iy intellektning energiya iste'moli bo'yicha xavotirlarni kamaytirish imkonini berishi mumkin.",
-   "image": "https://techcrunch.com/wp-content/uploads/2023/07/GettyImages-1500013882.jpg?resize=1200,812",
-   "domains": [
-    "techcrunch.com",
-    "businessinsider.com",
-    "kucoin.com"
-   ],
-   "urls": [
-    "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
-    "https://www.businessinsider.com/harvey-builds-tenet-ai-model-for-legal-work-2026-8",
-    "https://www.kucoin.com/news/flash/spotify-founder-daniel-ek-backs-ai-researcher-s-fusion-startup-europa-fusion"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795240884.5004683,
-   "title": "Meta Open Source AI for Science Summit tadbirining asosiy natijalarini e'lon qildi",
-   "text": "Meta ilmiy kashfiyotlarni tezlashtirish uchun ochiq kodli sun'iy intellekt texnologiyalarini muhokama qilish maqsadida universitetlar va shifoxonalar tadqiqotchilarini yig‘di.",
-   "orig_title": "Advancing Science Together: Highlights From the Open Source AI For Science Summit",
-   "link": "https://about.fb.com/news/2026/11/advancing-science-together-highlights-from-the-open-source-ai-for-science-summit/",
-   "source": "Meta Newsroom",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Ochiq kodli sun'iy intellekt modellarining ilmiy tadqiqotlarga tatbiq etilishi tibbiyot, neyrologiya va dori vositalarini yaratish jarayonlarini tezlashtirishi hamda nogironligi bo'lgan shaxslar uchun mustaqillikni oshirishi mumkin.",
-   "image": "https://about.fb.com/wp-content/uploads/2026/11/Highlights-From-the-Open-Source-AI-For-Science-Summit_Social-Share-1.jpg?w=1200",
-   "domains": [
-    "about.fb.com",
-    "yahoo.com",
-    "forbes.com"
-   ],
-   "urls": [
-    "https://about.fb.com/news/2026/11/advancing-science-together-highlights-from-the-open-source-ai-for-science-summit/",
-    "https://www.yahoo.com/news/science/articles/cop31-ai-pledge-fails-lure-164411235.html",
-    "https://www.forbes.com/connect/event/2026-forbes-cio-summit/"
-   ],
-   "videos": []
-  },
   {
    "t": 1795244548.1798391,
    "title": "Talabalar sun'iy intellekt yordamida kampus hayotini yaxshilash uchun bellashdi",
@@ -2111,6 +2029,35 @@
     "https://finance.yahoo.com/quote/GEMI/"
    ],
    "videos": []
+  },
+  {
+   "t": 1795413691.5492532,
+   "title": "OpenAI bosh olimining sun'iy intellekt taraqqiyotini cheklash bo'yicha g'oyalari",
+   "text": "OpenAI bosh olimi sun'iy intellekt taraqqiyotini cheklash va uning tezligini o'lchash usullari haqida o'z fikrlarini bildirdi.",
+   "orig_title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
+   "link": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Sun'iy intellektni rivojlantirish tezligini cheklash bo'yicha umumiy standartlar va o'lchovlar joriy etilishi texnologiya bozorida xavfsizlik talablarini kuchaytirishi mumkin.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/05/openai-logo-code-background.jpg?resize=1200,798",
+   "domains": [
+    "techcrunch.com",
+    "wired.com",
+    "yahoo.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
+    "https://www.wired.com/story/wired-yearbook-2026/",
+    "https://www.yahoo.com/entertainment/movies/articles/luca-guadagnino-artificial-details-openai-181500249.html"
+   ],
+   "videos": [
+    [
+     "https://x.com/sama/status/2124551594691932405",
+     "X"
+    ]
+   ]
   }
  ]
 }
