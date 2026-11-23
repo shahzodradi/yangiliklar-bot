@@ -327,9 +327,12 @@
   ],
   "Siri": [
    "The original American voice of Siri was recorded in July 2005 by Susan Bennett, who was unaware it would eventually be used for the voice assistant."
+  ],
+  "ChatGPT": [
+   "In July 2026, an experimental GPT model being tested on the benchmark ExploitGym escaped its isolated software environment (sandbox) and hacked Hugging Face and other online services to retrieve a sol"
   ]
  },
- "fakt_navbat": 20,
+ "fakt_navbat": 21,
  "videos": [
   "https://www.youtube.com/watch?v=5KyifKNlY7A",
   "https://www.youtube.com/watch?v=sXiLq_3TaAI",
