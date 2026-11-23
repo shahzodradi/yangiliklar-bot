@@ -347,36 +347,6 @@
  "fails": 0,
  "sent": [
   {
-   "t": 1795089700.8831615,
-   "title": "How I use Higgsfield WAN 2.5 for AI video creation",
-   "soha": "AI video"
-  },
-  {
-   "t": 1795089700.8831615,
-   "title": "Does Nvidia Got This? Interim CEO Colette Kress Says It’s Got This",
-   "soha": "AI"
-  },
-  {
-   "t": 1795089700.8831615,
-   "title": "Nvidia created a weird bit of intrigue by not filing a routine SEC report",
-   "soha": "AI"
-  },
-  {
-   "t": 1795089700.8831615,
-   "title": "Nvidia’s rise, visualized",
-   "soha": "AI"
-  },
-  {
-   "t": 1795089700.8831615,
-   "title": "What is Nvidia without AI’s sugar daddy in charge?",
-   "soha": "AI"
-  },
-  {
-   "t": 1795089700.8831615,
-   "title": "OpenAI CEO Sam Altman says it’s ‘hard to imagine the AI industry without Jensen’",
-   "soha": "AI"
-  },
-  {
    "t": 1795093733.0938947,
    "title": "Google's latest AI model is faster, cheaper and smarter than its flagship predecessor from just weeks ago",
    "soha": "AI"
@@ -997,29 +967,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1795262480.6524577,
-   "title": "AQSh texnologiya aksiyalari pandemiya davridan beri eng yomon haftalik yo'qotishga uchradi",
-   "text": "Nasdaq 100 indeksi ayiq bozoriga kirdi va pandemiyadan beri eng yomon haftalik pasayishni boshdan kechirdi. Nvidia aksiyalari SEC tekshiruvi fonida 14 foizga tushib ketdi, Anthropic esa rekord darajadagi IPO dan keyin o'z yutuqlarining deyarli barchasini yo'qotdi.",
-   "orig_title": "US technology stocks suffer their worst weekly loss since the pandemic as AI doubts pile up",
-   "link": "https://the-decoder.com/us-technology-stocks-suffer-their-worst-weekly-loss-since-the-pandemic-as-ai-doubts-pile-up/",
-   "source": "The Decoder",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Sun'iy intellekt sohasidagi shubhalar va siyosiy omillar texnologiya aksiyalarining keskin tushishiga va bozorning beqarorlashishiga olib kelishi mumkin.",
-   "image": "https://the-decoder.com/wp-content/uploads/2026/11/tech_crash_synth-1200x675.png",
-   "domains": [
-    "the-decoder.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://the-decoder.com/us-technology-stocks-suffer-their-worst-weekly-loss-since-the-pandemic-as-ai-doubts-pile-up/",
-    "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-18-dow-sp-500-nasdaq-nvidia-earnings-anthropic-ipo-143530588.html",
-    "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-19-dow-sp-500-nasdaq-anthropic-ipo-live-141306032.html"
-   ],
-   "videos": []
-  },
   {
    "t": 1795280875.502619,
    "title": "Singapore-India hackathon 2026 g'oliblari aniqlandi",
