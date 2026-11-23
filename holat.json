@@ -1,7 +1,5 @@
 {
  "seen": {
-  "https://www.theverge.com/ai-artificial-intelligence/1032125/ai-agents-maya-site-archeology-discovery": 1794560712.707967,
-  "https://www.wired.com/story/google-deepmind-staff-escalate-their-union-fight/": 1794560712.707967,
   "https://www.wired.com/story/silicon-valley-is-still-defending-jensen-huang/": 1794568026.2777922,
   "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite": 1794568026.2777922,
   "https://www.wired.com/story/jensen-huang-tanked-a-trillion-dollars-in-less-than-a-month/": 1794568026.2777922,
@@ -344,50 +342,11 @@
   "https://www.cbc.ca/news/canada/toronto/brampton-venture-zone-matching-students-with-businesses-for-ai-adoption-9.7432057": 1795402969.9109964,
   "https://thedroidguy.com/gemini-generate-edit-images-1295475": 1795402969.9109964,
   "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/": 1795413691.5492532,
-  "https://brandequity.economictimes.indiatimes.com/news/digital/elo-elo-group-launches-dolphin-ai-film-studio-at-iffi-2026/136093103": 1795420870.630156
+  "https://brandequity.economictimes.indiatimes.com/news/digital/elo-elo-group-launches-dolphin-ai-film-studio-at-iffi-2026/136093103": 1795420870.630156,
+  "https://www.msn.com/en-us/entertainment/movies/ai-films-from-kerala-to-andaman-islands-win-google-flow-filmathon/ar-AA2i1nd4": 1795425005.360213
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1795079336.648598,
-   "title": "Uzbek cybersecurity official: UN, UNESCO and ITU should play important role in international dialogue on artificial intelligence",
-   "soha": "AI O'zbekiston"
-  },
-  {
-   "t": 1795079336.648598,
-   "title": "AI Video Startup Lemonpeel Raises $1 Million From Shastra VC, Rukam Sitara",
-   "soha": "AI video"
-  },
-  {
-   "t": 1795079336.648598,
-   "title": "[Exclusive] \"We need to label originality, not just AI\": Adobe's Ely Greenfield on C2PA and AI content",
-   "soha": "AI rasm"
-  },
-  {
-   "t": 1795079336.648598,
-   "title": "Spend management platform Payhawk announces $280M raise, 2B valuation",
-   "soha": "AI"
-  },
-  {
-   "t": 1795079336.648598,
-   "title": "The Gemini app is now available on lower-memory Android devices.",
-   "soha": "AI"
-  },
-  {
-   "t": 1795079336.648598,
-   "title": "Google’s AI feature in Search gets its own incognito mode",
-   "soha": "AI"
-  },
-  {
-   "t": 1795079336.648598,
-   "title": "More banks say customers using AI agents are on their own — even if they get hacked",
-   "soha": "AI"
-  },
-  {
-   "t": 1795079336.648598,
-   "title": "Will Wright’s next game uses AI to map your memories",
-   "soha": "AI"
-  },
   {
    "t": 1795082488.399293,
    "title": "How I use Higgsfield WAN 2.5 for AI video creation",
@@ -1062,6 +1021,11 @@
    "t": 1795420870.630156,
    "title": "Elo Elo Group launches Dolphin AI Film Studio at IFFI 2026",
    "soha": "AI tanlov"
+  },
+  {
+   "t": 1795425005.360213,
+   "title": "AI Films From Kerala to Andaman Islands Win Google Flow Filmathon",
+   "soha": "AI tanlov"
   }
  ],
  "mavzu": {
@@ -1069,81 +1033,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1795248093.007624,
-   "title": "PRAN-RFL Group sun'iy intellekt ijodkorlari uchun platforma taqdim etdi",
-   "text": "PRAN-RFL Group Dakka shahrida sun'iy intellekt yordamida kontent yaratuvchi yosh ijodkorlarni qo'llab-quvvatlash uchun sammit o'tkazdi.",
-   "orig_title": "PRAN-RFL presents platform for emerging AI creators",
-   "link": "https://www.jagonews24.com/en/biz-econ/news/98590",
-   "source": "jagonews24.com",
-   "soha": "AI tanlov",
-   "baho": 10,
-   "experts": [],
-   "effect": "Sun'iy intellekt texnologiyalarining jadal rivojlanishi vacreator iqtisodiyotining kengayishi mazkur sohadagi platformalar va xizmatlar bozorida raqobatning yanada kuchayishiga olib kelishi mumkin.",
-   "image": null,
-   "domains": [
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://finance.yahoo.com/news/ai-powered-creator-monetisation-platform-000100943.html",
-    "https://finance.yahoo.com/technology/ai/articles/progress-data-platform-summit-2026-130000074.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795251955.8930604,
-   "title": "Kosmik AI ma’lumotlar markazlarini moliyalashtirish muammoga aylanmoqda",
-   "text": "Kosmik muhitga chidamli chiplar paydo bo‘layotgan bo‘lsa-da, kreditorlar garov mulkini orbitaga chiqarishga xavfsiramoqda, bu esa kosmik AI infratuzilmasiga ta’sir qilmoqda.",
-   "orig_title": "Chips can survive the space environment — can their financing?",
-   "link": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/",
-   "source": "TechCrunch AI",
-   "soha": "AI",
-   "baho": 6,
-   "experts": [],
-   "effect": "Fazoviy ma'lumotlar markazlarini moliyalashtirishda aktiv sifatida ta'minlangan qarz shartlari qiyinlashishi, kompaniyalar chiplarni sotib olish uchun yer ustidagilarga qaraganda ko'proq mablag' sarflashiga olib kelishi mumkin.",
-   "image": "https://techcrunch.com/wp-content/uploads/2026/06/SpaceXAIsatrender.jpg?resize=1200,639",
-   "domains": [
-    "techcrunch.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/",
-    "https://finance.yahoo.com/technology/ai/articles/spacex-lenders-reportedly-sought-keep-184700255.html",
-    "https://finance.yahoo.com/technology/ai/articles/spacex-just-raised-32-billion-174802436.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795251955.8930604,
-   "title": "AI kino ta’limi va an’anaviy tushunchalarni o‘zgartirmoqda",
-   "text": "Kino san’atida AI texnologiyalari ta’lim jarayoniga ta’sir qilib, texnik ko‘nikmalar bilan birga san’atning mazmuniy jihatlarini tushunish zarurati haqida bahslar keltirib chiqarmoqda.",
-   "orig_title": "AI Challenges Notions Of Film Education",
-   "link": "https://www.deccanchronicle.com/southern-states/telangana/ai-challenges-notions-of-film-education-2006450",
-   "source": "deccanchronicle.com",
-   "soha": "AI video",
-   "baho": 6,
-   "experts": [
-    {
-     "kim": "B. Narsing Rao",
-     "lavozim": "Telangana kinorejissori",
-     "fikr": "Texnik jihatlarni o'qish orqali o'rganish mumkin, lekin san'at va hayotni tushunmasdan kino kursini tamomlasangiz, qiyin ahvolda qolasiz.",
-     "url": "https://www.deccanchronicle.com/southern-states/telangana/ai-challenges-notions-of-film-education-2006450",
-     "domain": "deccanchronicle.com"
-    }
-   ],
-   "effect": "Sun'iy intellekt texnologiyalarining joriy etilishi va reklamalarni avtomatlashtirilgan ishlab chiqarish kelgusida yosh rejissyorlar uchun amaliy tajriba orttirish va kasbni o'rganish imkoniyatlarini qisqartirishi mumkin.",
-   "image": null,
-   "domains": [
-    "deccanchronicle.com",
-    "theguardian.com"
-   ],
-   "urls": [
-    "https://www.deccanchronicle.com/southern-states/telangana/ai-challenges-notions-of-film-education-2006450",
-    "https://www.theguardian.com/film/2026/nov/03/china-first-ai-generated-film-flops-cinema-future",
-    "https://www.theguardian.com/film/2026/oct/09/ai-threat-britain-directors-ridley-scott-guy-ritchie"
-   ],
-   "videos": []
-  },
   {
    "t": 1795255325.7332647,
    "title": "YourStory va Google Cloud ovozli AI hackathon o'tkazmoqda",
@@ -1994,6 +1883,27 @@
     "https://brandequity.economictimes.indiatimes.com/news/digital/elo-elo-group-launches-dolphin-ai-film-studio-at-iffi-2026/136093103",
     "https://www.theguardian.com/film/2026/nov/10/storyboard-artists-ai",
     "https://www.theguardian.com/film/2026/oct/09/ai-threat-britain-directors-ridley-scott-guy-ritchie"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795425005.360213,
+   "title": "Google Flow Filmathon tanlovida sun'iy intellekt yordamida yaratilgan filmlar g'olib bo'ldi",
+   "text": "Google Flow yordamida yaratilgan beshta AI film Kerala va Andaman orollaridan bo'lgan kinijodkorlarga WIF India x Google Flow tanlovida g'alaba keltirdi.",
+   "orig_title": "AI Films From Kerala to Andaman Islands Win Google Flow Filmathon",
+   "link": "https://www.msn.com/en-us/entertainment/movies/ai-films-from-kerala-to-andaman-islands-win-google-flow-filmathon/ar-AA2i1nd4",
+   "source": "msn.com",
+   "soha": "AI tanlov",
+   "baho": 10,
+   "experts": [],
+   "effect": "Sun'iy intellekt vositalarining kino sanoatiga kirib kelishi turli hududlardagi kinoijodkorlarga yangi imkoniyatlar yaratib, kinolar tayyorlash jarayonini osonlashtirishi va ayol rejissyorlarning sohadagi o'rnini kengaytirishi mumkin.",
+   "image": null,
+   "domains": [
+    "yahoo.com"
+   ],
+   "urls": [
+    "https://www.yahoo.com/entertainment/movies/articles/ai-films-kerala-andaman-islands-081412610.html",
+    "https://www.yahoo.com/entertainment/videos/miley-cyrus-wedding-dress-revealed-223700403.html"
    ],
    "videos": []
   }
