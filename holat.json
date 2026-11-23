@@ -343,75 +343,14 @@
   "https://thedroidguy.com/gemini-generate-edit-images-1295475": 1795402969.9109964,
   "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/": 1795413691.5492532,
   "https://brandequity.economictimes.indiatimes.com/news/digital/elo-elo-group-launches-dolphin-ai-film-studio-at-iffi-2026/136093103": 1795420870.630156,
-  "https://www.msn.com/en-us/entertainment/movies/ai-films-from-kerala-to-andaman-islands-win-google-flow-filmathon/ar-AA2i1nd4": 1795425005.360213
+  "https://www.msn.com/en-us/entertainment/movies/ai-films-from-kerala-to-andaman-islands-win-google-flow-filmathon/ar-AA2i1nd4": 1795425005.360213,
+  "https://www.tweaktown.com/news/114783/epics-ai-megajam-contest-is-being-dominated-by-a-game-made-entirely-without-ai/index.html": 1795432009.5032444,
+  "https://www.musicbusinessworldwide.com/eminem-co-publisher-eight-mile-style-adds-108-allegedly-infringing-ai-tracks-to-47-7m-suno-lawsuit-calling-sunos-denials-false/": 1795432009.5032444,
+  "https://www.musicbusinessworldwide.com/5-things-to-know-about-sunos-move-into-ai-video-the-distrokid-documents-and-the-fight-over-v6/": 1795432009.5032444,
+  "https://www.musicbusinessworldwide.com/soundcloud-cracks-down-on-ai-slop-spam-and-excessive-uploads-weeks-after-striking-ai-deals-with-moises-and-elevenlabs/": 1795432009.5032444
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1795082488.399293,
-   "title": "How I use Higgsfield WAN 2.5 for AI video creation",
-   "soha": "AI video"
-  },
-  {
-   "t": 1795082488.399293,
-   "title": "Kuaishou Swings to Quarterly Loss as AI Spending Intensifies",
-   "soha": "AI"
-  },
-  {
-   "t": 1795082488.399293,
-   "title": "Palmer Luckey thinks China is ‘thrilled to have Jensen out,’ so he wants the ousted Nvidia CEO reinstated",
-   "soha": "AI"
-  },
-  {
-   "t": 1795082488.399293,
-   "title": "Inside Nvidia’s First Post-Jensen All-Hands: Pay Raises and More Equity",
-   "soha": "AI"
-  },
-  {
-   "t": 1795082488.399293,
-   "title": "Artex Is Criminals’ New Favorite ‘Point-and-Shoot’ AI Hacking Tool",
-   "soha": "AI"
-  },
-  {
-   "t": 1795082488.399293,
-   "title": "Pangram flags 99 percent of an award-winning Peruvian novel as AI-generated, but the publisher stands by its author",
-   "soha": "AI"
-  },
-  {
-   "t": 1795082488.399293,
-   "title": "Midjourney Basic Vs Standard Vs Pro Vs Mega: Differences (2026)",
-   "soha": "AI rasm"
-  },
-  {
-   "t": 1795082488.399293,
-   "title": "Sonilo Signs Music Licensing Deal with Symphonic, Enabling Independent Artists to Join the AI Music Economy",
-   "soha": "AI musiqa"
-  },
-  {
-   "t": 1795086399.1825829,
-   "title": "OCR models now digitize a million pages for under $130 as costs drop fivefold in 18 months",
-   "soha": "AI"
-  },
-  {
-   "t": 1795086399.1825829,
-   "title": "America’s AI Chip War Is Heating Up in the Dumbest Possible Ways",
-   "soha": "AI"
-  },
-  {
-   "t": 1795086399.1825829,
-   "title": "Tech lawsuits defined 2026 — and lawmakers want more",
-   "soha": "AI"
-  },
-  {
-   "t": 1795086399.1825829,
-   "title": "Sam Altman warns against a future where AI, not humans, calls the shots",
-   "soha": "AI"
-  },
-  {
-   "t": 1795086399.1825829,
-   "title": "Meta Welcomes Loblaw as First Canadian Retail Partner to Muse",
-   "soha": "AI"
-  },
   {
    "t": 1795089700.8831615,
    "title": "How I use Higgsfield WAN 2.5 for AI video creation",
@@ -1026,6 +965,26 @@
    "t": 1795425005.360213,
    "title": "AI Films From Kerala to Andaman Islands Win Google Flow Filmathon",
    "soha": "AI tanlov"
+  },
+  {
+   "t": 1795432009.5032444,
+   "title": "Epic's AI MegaJam contest is being dominated by a game made entirely without AI",
+   "soha": "AI tanlov"
+  },
+  {
+   "t": 1795432009.5032444,
+   "title": "Eminem co-publisher Eight Mile Style adds 108 allegedly infringing AI tracks to $47.7m Suno lawsuit, calling Suno’s denials ‘false’",
+   "soha": "AI musiqa"
+  },
+  {
+   "t": 1795432009.5032444,
+   "title": "5 things to know about Suno’s move into AI video, the DistroKid documents, and the fight over v6",
+   "soha": "AI video"
+  },
+  {
+   "t": 1795432009.5032444,
+   "title": "SoundCloud cracks down on ‘AI slop, spam, and excessive uploads’ – weeks after striking AI deals with Moises and ElevenLabs",
+   "soha": "AI musiqa"
   }
  ],
  "mavzu": {
@@ -1033,90 +992,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1795255325.7332647,
-   "title": "YourStory va Google Cloud ovozli AI hackathon o'tkazmoqda",
-   "text": "YourStory kompaniyasi Google Cloud India bilan hamkorlikda 8 lakh mukofot jamg'armasiga ega ovozli sun'iy intellekt hackathonini e'lon qildi.",
-   "orig_title": "YourStory launches voice AI hackathon with Rs 8 lakh prize pool in collaboration with Google Cloud India",
-   "link": "https://yourstory.com/2026/11/hack2skill-yourstory-launches-voice-ai-hackathon-with-rs-8-lakh-prize-pool-in-collaboration-with-google-cloud-india",
-   "source": "yourstory.com",
-   "soha": "AI tanlov",
-   "baho": 10,
-   "experts": [],
-   "effect": "Sun'iy intellekt va ovozli texnologiyalar sohasidagi bunday tashabbuslar kelgusida biznes jarayonlarini avtomatlashtirish va mijozlar bilan muloqotni tubdan o'zgartirishi mumkin. Shuningdek, Hindiston bozorida raqobat kuchayib, xizmatlar narxi yanada pasayish ehtimoli bor.",
-   "image": "https://images.yourstory.com/cs/2/21ccd920843c11ec88170b5512a0f9d5/Buildwithgooglegemini16x8-1795141350519.png",
-   "domains": [
-    "yourstory.com",
-    "theguardian.com",
-    "techcrunch.com"
-   ],
-   "urls": [
-    "https://yourstory.com/2026/11/hack2skill-yourstory-launches-voice-ai-hackathon-with-rs-8-lakh-prize-pool-in-collaboration-with-google-cloud-india",
-    "https://www.theguardian.com/environment/ng-interactive/2026/oct/22/finland-google-felling-trees-datacentre",
-    "https://techcrunch.com/2026/05/09/voice-ai-in-india-is-hard-wispr-flow-is-betting-on-it-anyway/"
-   ],
-   "videos": [
-    [
-     "https://www.youtube.com/watch?v=9Myi6aIdVk8",
-     "YouTube"
-    ]
-   ]
-  },
-  {
-   "t": 1795255325.7332647,
-   "title": "Bytedance va AQSh universitetlari yangi Axion 1.0 modelini taqdim etdi",
-   "text": "Bytedance va bir nechta universitetlar qisqa o'qitish bosqichlaridan so'ng yetakchi tijorat modellariga raqobatchi bo'lgan Axion 1.0 sun'iy intellekt agentini taqdim etdi.",
-   "orig_title": "Bytedance argues most AI training phases are unnecessary and backs it up with a competitive open model",
-   "link": "https://the-decoder.com/bytedance-argues-most-ai-training-phases-are-unnecessary-and-backs-it-up-with-a-competitive-open-model/",
-   "source": "The Decoder",
-   "soha": "AI",
-   "baho": 9,
-   "experts": [
-    {
-     "kim": "Wei Xiong",
-     "lavozim": "China internet analyst",
-     "fikr": "Sun'iy intellekt yordamida video generatsiya qilish ishlab chiqarish samaradorligini oshirish, yaratish to'siqlarini kamaytirish va yangi monetizatsiya modellarini ochish orqali kontent industriyasini qayta shakllantirishi mumkin.",
-     "url": "https://www.cnbc.com/2025/08/01/after-tiktok-chinese-businesses-like-kling-ramp-up-ai-for-video.html",
-     "domain": "cnbc.com"
-    }
-   ],
-   "effect": "Video generatsiya bozorida Xitoy va AQSh kompaniyalari o'rtasidagi raqobat keskinlashishi va yangi monetizatsiya modellari paydo bo'lishi mumkin. Bu holat kontent yaratish jarayonlarini osonlashtirib, xarajatlarni qisqartirish ehtimolini oshiradi.",
-   "image": "https://the-decoder.com/wp-content/uploads/2026/11/bytedance-axio-training-pipeline-nano-banana-pro.jpg",
-   "domains": [
-    "the-decoder.com",
-    "cnbc.com"
-   ],
-   "urls": [
-    "https://the-decoder.com/bytedance-argues-most-ai-training-phases-are-unnecessary-and-backs-it-up-with-a-competitive-open-model/",
-    "https://www.cnbc.com/2026/04/10/alibaba-happyhorse-ai-video-model-benchmark-reveal.html",
-    "https://www.cnbc.com/2025/08/01/after-tiktok-chinese-businesses-like-kling-ramp-up-ai-for-video.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795255325.7332647,
-   "title": "Kuaishou aksiyalari uchinchi chorak natijalaridan so'ng pasayib ketdi",
-   "text": "Xitoyning qisqa video platformasi operatori Kuaishou texnologiyasi uchinchi chorakda kutilganidan past natijalarni ko'rsatgani sababli aksiyalari rekord darajada tushib ketdi.",
-   "orig_title": "China’s Kuaishou slumps to record low after weak Q3 results",
-   "link": "https://finance.yahoo.com/markets/stocks/articles/china-kuaishou-slumps-record-low-061651762.html",
-   "source": "finance.yahoo.com",
-   "soha": "AI video",
-   "baho": 8,
-   "experts": [],
-   "effect": "Kompaniyaning moliyaviy ko'rsatkichlari yomonlashishi va sun'iy intellekt yo'nalishidagi yuqori xarajatlar yaqin oylarda daromadlar o'sishiga bosim o'tkazishda davom etishi mumkin. Shuningdek, iste'molchilarning ehtiyotkorona xatti-harakatlari bozor sharoitlarini yanada qiyinlashtirishi ehtimoli bor.",
-   "image": "https://s.yimg.com/lo/mysterio/api/150afeec82b96c8edfb05d7e98a23e7e5f1e6917dc328e2c1a7c8ecc4d4736fe/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fs.yimg.com%2Fcv%2Fapiv2%2Fsocial%2Fimages%2Fyahoo_default_logo-1200x1200.png",
-   "domains": [
-    "finance.yahoo.com",
-    "yahoo.com",
-    "reuters.com"
-   ],
-   "urls": [
-    "https://finance.yahoo.com/markets/stocks/articles/china-kuaishou-slumps-record-low-061651762.html",
-    "https://www.yahoo.com/entertainment/celebrity/articles/unlikely-reason-kris-jenner-going-160446561.html",
-    "https://www.reuters.com/graphics/US-ELECTIONS/GRAPHICS-BLOG/akpelkldzvr/2026-11-04/midterm-results/"
-   ],
-   "videos": []
-  },
   {
    "t": 1795259502.672911,
    "title": "Inkling 2 Mini ochiq modeli taqdim etildi",
@@ -1904,6 +1779,95 @@
    "urls": [
     "https://www.yahoo.com/entertainment/movies/articles/ai-films-kerala-andaman-islands-081412610.html",
     "https://www.yahoo.com/entertainment/videos/miley-cyrus-wedding-dress-revealed-223700403.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795432009.5032444,
+   "title": "Epic Games tanlovida sun’iy intellektsiz yaratilgan o‘yin yetakchilik qilmoqda",
+   "text": "Epic Games tomonidan tashkil etilgan AI MegaJam tanlovida sun’iy intellekt vositalarisiz yaratilgan baliq otish o‘yini omma ovoz berish jarayonida birinchi o‘rinni egallamoqda.",
+   "orig_title": "Epic's AI MegaJam contest is being dominated by a game made entirely without AI",
+   "link": "https://www.tweaktown.com/news/114783/epics-ai-megajam-contest-is-being-dominated-by-a-game-made-entirely-without-ai/index.html",
+   "source": "tweaktown.com",
+   "soha": "AI tanlov",
+   "baho": 10,
+   "experts": [],
+   "effect": "Sun'iy intellekt tanlovlarida inson qo'li bilan yaratilgan o'yinlarning ustun kelishi va Microsoft'ning ma'lumotlar markazi loyihasidan chiqib ketishi texnologiya bozorida investorlar ishonchiga salbiy ta'sir ko'rsatishi mumkin.",
+   "image": "https://static.tweaktown.com/news/1/1/114783_4_epics-ai-megajam-contest-is-being-dominated-by-game-made-entirely-without_full.jpg?v=1795367153",
+   "domains": [
+    "tweaktown.com",
+    "forbes.com",
+    "theguardian.com"
+   ],
+   "urls": [
+    "https://www.tweaktown.com/news/114783/epics-ai-megajam-contest-is-being-dominated-by-a-game-made-entirely-without-ai/index.html",
+    "https://www.forbes.com/companies/epic-systems/",
+    "https://www.theguardian.com/uk-news/2026/oct/18/microsoft-drops-huge-ai-datacentre-project-in-essex-over-power-supply-concerns"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795432009.5032444,
+   "title": "Eminem qo‘shiqlarini muallifi Suno ustidan sudga da’vo kiritdi",
+   "text": "Eight Mile Style kompaniyasi Suno kompaniyasini Eminem ovozi va qiyofasini ruxsatsiz ishlatganlikda ayblab, 47.7 million dollarlik da’voga 108 ta qo‘shiqni qo‘shdi.",
+   "orig_title": "Eminem co-publisher Eight Mile Style adds 108 allegedly infringing AI tracks to $47.7m Suno lawsuit, calling Suno’s denials ‘false’",
+   "link": "https://www.musicbusinessworldwide.com/eminem-co-publisher-eight-mile-style-adds-108-allegedly-infringing-ai-tracks-to-47-7m-suno-lawsuit-calling-sunos-denials-false/",
+   "source": "musicbusinessworldwide.com",
+   "soha": "AI musiqa",
+   "baho": 9,
+   "experts": [],
+   "effect": "Mualliflik huquqi va ELVIS act qonuni bo'yicha ochilgan yirik sud da'volari sun'iy intellekt musiqiy platformalarining moliyaviy barqarorligiga jiddiy xavf tug'dirishi va kelgusida generativ texnologiyalar faoliyatini cheklashi mumkin.",
+   "image": null,
+   "domains": [
+    "yahoo.com"
+   ],
+   "urls": [
+    "https://www.yahoo.com/entertainment/music/articles/eminem-publisher-files-40m-lawsuit-171540862.html",
+    "https://www.yahoo.com/entertainment/music/articles/elvis-rights-holders-eminems-publisher-204744656.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795432009.5032444,
+   "title": "Suno sun’iy intellekt yordamida video yaratish bozoriga kirdi",
+   "text": "Musiqiy generatsiya vositasi bo‘lgan Suno o‘z faoliyatini kengaytirib, sun’iy intellekt yordamida video yaratish xizmatini ishga tushirdi va yangi hujjatlar taqdim etdi.",
+   "orig_title": "5 things to know about Suno’s move into AI video, the DistroKid documents, and the fight over v6",
+   "link": "https://www.musicbusinessworldwide.com/5-things-to-know-about-sunos-move-into-ai-video-the-distrokid-documents-and-the-fight-over-v6/",
+   "source": "musicbusinessworldwide.com",
+   "soha": "AI video",
+   "baho": 8,
+   "experts": [],
+   "effect": "Musiqa sanoati vakillari va ijodkorlarning sun'iy intellekt kompaniyalariga qarshi birlashishi hamda yirik kontent yaratuvchilarning AI-native formatlarga o'tishi raqamli o'yin-kulgi bozorida keskin o'zgarishlarga sabab bo'lishi mumkin.",
+   "image": null,
+   "domains": [
+    "theverge.com",
+    "businessinsider.com"
+   ],
+   "urls": [
+    "https://www.theverge.com/podcast/1029684/riaa-mitch-glazier-napster-ai-labels-music",
+    "https://www.businessinsider.com/mrbeast-plots-move-into-ai-native-entertainment-2026-4"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795432009.5032444,
+   "title": "SoundCloud sun’iy intellekt yaratgan spam kontentlarga qarshi kurashni boshladi",
+   "text": "SoundCloud platformasi sun’iy intellekt yordamida yaratilgan haddan tashqari ko‘p treklar va spam materiallarga qarshi chora ko‘rib, to‘lovlarni to‘xtatib turishini e'lon qildi.",
+   "orig_title": "SoundCloud cracks down on ‘AI slop, spam, and excessive uploads’ – weeks after striking AI deals with Moises and ElevenLabs",
+   "link": "https://www.musicbusinessworldwide.com/soundcloud-cracks-down-on-ai-slop-spam-and-excessive-uploads-weeks-after-striking-ai-deals-with-moises-and-elevenlabs/",
+   "source": "musicbusinessworldwide.com",
+   "soha": "AI musiqa",
+   "baho": 8,
+   "experts": [],
+   "effect": "Kompaniyalarning qat'iy ofis siyosati va sun'iy intellekt spamlariga qarshi kurashi xodimlar orasida norozilikni kuchaytirib, umumiy unumdorlikning pasayishiga va ishdan sovishiga olib kelishi mumkin.",
+   "image": null,
+   "domains": [
+    "theguardian.com",
+    "businessinsider.com"
+   ],
+   "urls": [
+    "https://www.theguardian.com/business/2026/oct/20/natwest-staff-back-two-days-a-week-policy",
+    "https://www.businessinsider.com/quiet-cracking-warning-signs-work-employees-for-2025-8"
    ],
    "videos": []
   }
