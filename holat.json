@@ -1,9 +1,5 @@
 {
  "seen": {
-  "https://www.unite.ai/suno-launches-bridge-beta-for-ai-stem-generation-in-ableton-live/": 1794582238.46558,
-  "https://www.indiewire.com/news/festivals/camerimage-2026-is-all-about-ai-1235226124/": 1794585678.3947253,
-  "https://the-decoder.com/former-openai-researcher-says-he-found-nvidia-blackwell-fingerprints-hidden-inside-six-chinese-ai-models/": 1794585678.3947253,
-  "https://www.therobotreport.com/runways-praxis-1-world-action-model-for-robotics-is-now-available/": 1794585678.3947253,
   "https://huggingface.co/blog/ggml-org/llama-cpp-v1": 1794589573.0672977,
   "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on": 1794589573.0672977,
   "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/": 1794589573.0672977,
@@ -343,23 +339,8 @@
   "https://www.wired.com/story/states-sue-spacex-over-grok-deepfakes/": 1795435272.246094,
   "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/": 1795435272.246094
  },
- "fails": 2,
+ "fails": 3,
  "sent": [
-  {
-   "t": 1795100971.2257173,
-   "title": "Clinch Expands Generative AI Capabilities with Higgsfield and ByteDance Integrations",
-   "soha": "AI video"
-  },
-  {
-   "t": 1795100971.2257173,
-   "title": "Alibaba Launches Qwen4-Max With 2.4 Trillion Parameters at Malaysia AI Conference",
-   "soha": "AI"
-  },
-  {
-   "t": 1795100971.2257173,
-   "title": "“Insoniy” so‘zi Kembrij lug‘ati talqiniga ko‘ra 2026-yil so‘zi deb topildi",
-   "soha": "AI"
-  },
   {
    "t": 1795108153.5261927,
    "title": "Uzbekistan Favours Balanced Approach to AI Regulation",
