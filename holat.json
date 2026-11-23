@@ -334,40 +334,14 @@
   "https://www.wired.com/story/jensen-huang-is-back-as-nvidia-ceo/": 1795456990.5738983,
   "https://the-decoder.com/z-ai-follows-openai-into-loop-transformer-territory-with-its-new-750b-flagship-model/": 1795456990.5738983,
   "https://the-decoder.com/gpt-6-2-astra-solved-a-math-theorem-no-other-ai-could-crack-then-invented-its-own-proof-strategy/": 1795456990.5738983,
-  "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/": 1795456990.5738983
+  "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/": 1795456990.5738983,
+  "https://techcrunch.com/2026/11/23/jensen-huang-isnt-out-of-the-woods-yet/": 1795460602.959582,
+  "https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday": 1795460602.959582,
+  "https://the-decoder.com/anthropics-appetite-for-compute-is-pushing-xai-toward-a-rent-over-build-strategy/": 1795460602.959582,
+  "https://the-decoder.com/metas-alexandr-wang-warns-the-ai-industry-isnt-ready-for-whats-coming-after-riemann-breakthrough/": 1795460602.959582
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1795115001.4363093,
-   "title": "Uzbekistan Publishes 6bn-Word Uzbek Language Corpus for AI",
-   "soha": "AI O'zbekiston"
-  },
-  {
-   "t": 1795115001.4363093,
-   "title": "Узбекистан предпочитает сбалансированное регулирование ИИ",
-   "soha": "AI O'zbekiston"
-  },
-  {
-   "t": 1795115001.4363093,
-   "title": "Anthropic starts trading on Wall Street",
-   "soha": "AI"
-  },
-  {
-   "t": 1795115001.4363093,
-   "title": "Tarixdagi eng yirik IPO: Claude’ni yaratgan kompaniya 81 mlrd dollar jalb qildi",
-   "soha": "AI"
-  },
-  {
-   "t": 1795115001.4363093,
-   "title": "Gemini on Mac can now use your computer",
-   "soha": "AI"
-  },
-  {
-   "t": 1795115001.4363093,
-   "title": "Google Built a Giant ‘Mirror Dimension’ Internet to Test Its Chrome AI Agents",
-   "soha": "AI"
-  },
   {
    "t": 1795144011.1856623,
    "title": "Chroma Awards Return for a Bigger Second Year",
@@ -926,6 +900,26 @@
   {
    "t": 1795456990.5738983,
    "title": "Sierra doubles valuation to $30B within six months as demand for AI in CX takes off",
+   "soha": "AI"
+  },
+  {
+   "t": 1795460602.959582,
+   "title": "Jensen Huang isn’t out of the woods yet",
+   "soha": "AI"
+  },
+  {
+   "t": 1795460602.959582,
+   "title": "Meta Muse can do your Black Friday shopping at Walmart",
+   "soha": "AI"
+  },
+  {
+   "t": 1795460602.959582,
+   "title": "Anthropic's appetite for compute is pushing xAI toward a rent-over-build strategy",
+   "soha": "AI"
+  },
+  {
+   "t": 1795460602.959582,
+   "title": "Meta's Alexandr Wang warns the AI industry isn't ready for what's coming after Riemann breakthrough",
    "soha": "AI"
   }
  ],
@@ -1830,6 +1824,84 @@
    "domains": [],
    "urls": [],
    "videos": []
+  },
+  {
+   "t": 1795460602.959582,
+   "title": "Jensen Huang Nvidia kompaniyasiga bosh direktor sifatida qaytdi",
+   "text": "Nvidia bosh direktori Jensen Huang o'z lavozimiga qaytdi. Kompaniya rahbariyatidagi bu o'zgarishlar texnologiya olamida katta muhokamalarga sabab bo'lmoqda.",
+   "orig_title": "Jensen Huang isn’t out of the woods yet",
+   "link": "https://techcrunch.com/2026/11/23/jensen-huang-isnt-out-of-the-woods-yet/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2026/09/Jensen-Huang.jpg?resize=1200,800",
+   "domains": [],
+   "urls": [],
+   "videos": []
+  },
+  {
+   "t": 1795460602.959582,
+   "title": "Walmart va Meta hamkorlikda xaridlar uchun AI agentini ishga tushirdi",
+   "text": "Walmart mijozlarga Meta'ning Muse AI agenti orqali xaridlarni amalga oshirish imkoniyatini taqdim etdi.",
+   "orig_title": "Meta Muse can do your Black Friday shopping at Walmart",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday",
+   "source": "The Verge AI",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": null,
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Walmart-Meta-Muse-Agent-Gateway.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+   "domains": [],
+   "urls": [],
+   "videos": [
+    [
+     "https://www.youtube.com/watch?v=SdKFDIAGF24",
+     "YouTube"
+    ],
+    [
+     "https://x.com/alexandr_wang/status/2122795379263750477",
+     "X"
+    ]
+   ]
+  },
+  {
+   "t": 1795460602.959582,
+   "title": "Anthropic kompaniyasining hisoblash quvvatlariga talabi oshmoqda",
+   "text": "Anthropic va boshqa kompaniyalar o'z loyihalari uchun katta miqdordagi hisoblash quvvatlarini ijaraga olmoqda.",
+   "orig_title": "Anthropic's appetite for compute is pushing xAI toward a rent-over-build strategy",
+   "link": "https://the-decoder.com/anthropics-appetite-for-compute-is-pushing-xai-toward-a-rent-over-build-strategy/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 6,
+   "experts": [],
+   "effect": null,
+   "image": "https://the-decoder.com/wp-content/uploads/2026/06/xai_logo_wall-2.png",
+   "domains": [],
+   "urls": [],
+   "videos": []
+  },
+  {
+   "t": 1795460602.959582,
+   "title": "Aleksandr Vang sun'iy intellekt sohasidagi yutuqlar haqida ogohlantirdi",
+   "text": "Meta kompaniyasining bosh sun'iy intellekt direktori Aleksandr Vang so'nggi ilmiy yutuqlardan keyin sanoat kelajagi haqida fikr bildirdi.",
+   "orig_title": "Meta's Alexandr Wang warns the AI industry isn't ready for what's coming after Riemann breakthrough",
+   "link": "https://the-decoder.com/metas-alexandr-wang-warns-the-ai-industry-isnt-ready-for-whats-coming-after-riemann-breakthrough/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 6,
+   "experts": [],
+   "effect": null,
+   "image": "https://the-decoder.com/wp-content/uploads/2026/07/meta_logo-2.png",
+   "domains": [],
+   "urls": [],
+   "videos": [
+    [
+     "https://x.com/alexandr_wang/status/2124636606959345776",
+     "X"
+    ]
+   ]
   }
  ]
 }
