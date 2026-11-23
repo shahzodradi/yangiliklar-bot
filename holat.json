@@ -1,13 +1,5 @@
 {
  "seen": {
-  "https://huggingface.co/blog/ggml-org/llama-cpp-v1": 1794589573.0672977,
-  "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on": 1794589573.0672977,
-  "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/": 1794589573.0672977,
-  "https://the-decoder.com/anthropics-claude-for-manufacturing-plugs-ai-directly-into-factory-software-to-automate-industrial-workflows/": 1794589573.0672977,
-  "https://the-decoder.com/openai-enters-the-cybersecurity-market-with-two-daybreak-products/": 1794589573.0672977,
-  "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/": 1794592861.2283416,
-  "https://the-decoder.com/anthropics-ipo-is-six-times-oversubscribed-and-on-track-to-become-the-largest-public-offering-in-history/": 1794592861.2283416,
-  "https://www.msn.com/en-us/technology/software/adobe-max-2026-live-updates-all-the-ai-photo-and-video-news/ar-AA2h8D7o": 1794592861.2283416,
   "https://www.marktechpost.com/2026/11/13/best-ai-video-generation-models-2026/": 1794596763.077386,
   "https://www.analyticsinsight.net/artificial-intelligence/best-ai-drama-generator-tools-in-2026-ranked-for-short-dramas-anime-episodes-and-music-videos": 1794596763.077386,
   "https://the-decoder.com/banks-bar-chinese-and-hong-kong-investors-from-anthropic-ipo-over-us-export-controls/": 1794596763.077386,
@@ -337,25 +329,15 @@
   "https://www.musicbusinessworldwide.com/5-things-to-know-about-sunos-move-into-ai-video-the-distrokid-documents-and-the-fight-over-v6/": 1795432009.5032444,
   "https://www.musicbusinessworldwide.com/soundcloud-cracks-down-on-ai-slop-spam-and-excessive-uploads-weeks-after-striking-ai-deals-with-moises-and-elevenlabs/": 1795432009.5032444,
   "https://www.wired.com/story/states-sue-spacex-over-grok-deepfakes/": 1795435272.246094,
-  "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/": 1795435272.246094
+  "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/": 1795435272.246094,
+  "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/": 1795456990.5738983,
+  "https://www.wired.com/story/jensen-huang-is-back-as-nvidia-ceo/": 1795456990.5738983,
+  "https://the-decoder.com/z-ai-follows-openai-into-loop-transformer-territory-with-its-new-750b-flagship-model/": 1795456990.5738983,
+  "https://the-decoder.com/gpt-6-2-astra-solved-a-math-theorem-no-other-ai-could-crack-then-invented-its-own-proof-strategy/": 1795456990.5738983,
+  "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/": 1795456990.5738983
  },
- "fails": 4,
+ "fails": 0,
  "sent": [
-  {
-   "t": 1795108153.5261927,
-   "title": "Uzbekistan Favours Balanced Approach to AI Regulation",
-   "soha": "AI O'zbekiston"
-  },
-  {
-   "t": 1795108153.5261927,
-   "title": "Anthropic hits NASDAQ exchanges at $110, $27 above IPO price",
-   "soha": "AI"
-  },
-  {
-   "t": 1795108153.5261927,
-   "title": "ChatGPT can transcribe as you speak now with Live Dictation",
-   "soha": "AI"
-  },
   {
    "t": 1795115001.4363093,
    "title": "Uzbekistan Publishes 6bn-Word Uzbek Language Corpus for AI",
@@ -920,6 +902,31 @@
    "t": 1795435272.246094,
    "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
    "soha": "AI"
+  },
+  {
+   "t": 1795456990.5738983,
+   "title": "Amazon snaps up Decart’s AI optimization tech for $7.5B as it prepares to sell Trainium chips",
+   "soha": "AI"
+  },
+  {
+   "t": 1795456990.5738983,
+   "title": "Jensen Huang Is Back as Nvidia CEO",
+   "soha": "AI"
+  },
+  {
+   "t": 1795456990.5738983,
+   "title": "Z.ai follows OpenAI into loop transformer territory with its new 750B flagship model",
+   "soha": "AI"
+  },
+  {
+   "t": 1795456990.5738983,
+   "title": "GPT-6.2 Astra solved a math theorem no other AI could crack, then invented its own proof strategy",
+   "soha": "AI"
+  },
+  {
+   "t": 1795456990.5738983,
+   "title": "Sierra doubles valuation to $30B within six months as demand for AI in CX takes off",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -927,84 +934,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1795280875.502619,
-   "title": "Singapore-India hackathon 2026 g'oliblari aniqlandi",
-   "text": "Singapore-India hackathon 2026 tanlovida talabalar xaridorlar talabiga qarab ekin rejalashtiruvchi AI platformani yaratdi va to'rtta jamoa S$88,000 miqdorida mukofot yutib oldi.",
-   "orig_title": "Singapore-India hackathon 2026: Indian students build AI platform to help farmers plan crops based on buyer demand; four teams win S$88,000 in prizes",
-   "link": "https://www.msn.com/en-in/news/other/singapore-india-hackathon-2026-indian-students-build-ai-platform-to-help-farmers-plan-crops-based-on-buyer-demand-four-teams-win-s-88000-in-prizes/ar-AA2hGqu7",
-   "source": "msn.com",
-   "soha": "AI tanlov",
-   "baho": 10,
-   "experts": [
-    {
-     "kim": "Andrew Geddis",
-     "lavozim": "saylov huquqi eksperti",
-     "fikr": "Imkoniyatlar partiyasi kabi kutilmagan kuch qaysi blok hukumat tuzishini hal qilishi mumkin.",
-     "url": "https://sg.news.yahoo.com/no-clear-winner-tight-zealand-150016193.html",
-     "domain": "sg.news.yahoo.com"
-    }
-   ],
-   "effect": "Parlamentdagi kuchlar nisbati koalitsion muzokaralar va yon bosishlarni talab qilishi hamda siyosiy jarayonlarda noaniqlik saqlanib qolishi mumkin.",
-   "image": null,
-   "domains": [
-    "sports.yahoo.com",
-    "sg.news.yahoo.com"
-   ],
-   "urls": [
-    "https://sports.yahoo.com/articles/every-india-england-semi-final-060100276.html",
-    "https://sg.news.yahoo.com/no-clear-winner-tight-zealand-150016193.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795280875.502619,
-   "title": "Nvidia tadqiqotchilari ulkan AI kontekst oynalari samarasiz ekanini ta'kidladi",
-   "text": "Nvidia tadqiqotchilari til modellariga to'liq kontekst har doim ham kerak emasligini, davriy qisqachalar va kalit so'zlar qidiruvi arzonroq va samaraliroq natija berishini isbotladi.",
-   "orig_title": "Nvidia researchers argue huge AI context windows are a dead end",
-   "link": "https://the-decoder.com/nvidia-researchers-argue-huge-ai-context-windows-are-a-dead-end/",
-   "source": "The Decoder",
-   "soha": "AI",
-   "baho": 7,
-   "experts": [],
-   "effect": "Elektr quvvati yetishmovchiligi va ma'lumotlar markazlarini ishga tushirishdagi muammolar yirik investitsiyalarning vaqtinchalik muzlab qolishiga hamda xarajatlarning oshishiga olib kelishi mumkin.",
-   "image": "https://the-decoder.com/wp-content/uploads/2026/11/you-dont-need-long-context-nano-banana-pro.jpg",
-   "domains": [
-    "the-decoder.com",
-    "businessinsider.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://the-decoder.com/nvidia-researchers-argue-huge-ai-context-windows-are-a-dead-end/",
-    "https://www.businessinsider.com/amazon-nvidia-ai-gpu-data-centers-power-shortages-2026-10",
-    "https://finance.yahoo.com/markets/stocks/articles/galvanizing-services-market-size-reach-221500655.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795280875.502619,
-   "title": "Aktyor o'z yuzini mikrodrama startapiga litsenziyaladi",
-   "text": "Xitoyda ommalashgan trend asosida aktyor o'z yuzining AI versiyasini mikrodrama startapiga litsenziyalab berdi, bu esa Hollivud kelajagi bo'yicha muhokamalarni keltirib chiqardi.",
-   "orig_title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
-   "link": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
-   "source": "TechCrunch AI",
-   "soha": "AI video",
-   "baho": 6,
-   "experts": [],
-   "effect": "Sun'iy intellekt texnologiyalarining kinoindustriyaga kirib borishi xarajatlarni qisqartirish va ijodiy jarayonlarni o'zgartirishi, biroq mualliflik huquqi va kasaba uyushmalari bilan bog'liq murakkabliklarni keltirib chiqarishi mumkin.",
-   "image": "https://techcrunch.com/wp-content/uploads/2026/11/Inevitable-Key-Art_3x4-full-size.jpg?resize=899,1200",
-   "domains": [
-    "techcrunch.com",
-    "finance.yahoo.com",
-    "businessinsider.com"
-   ],
-   "urls": [
-    "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
-    "https://finance.yahoo.com/technology/ai/articles/hollywood-studios-sued-over-ai-100000457.html",
-    "https://www.businessinsider.com/harvey-builds-tenet-ai-model-for-legal-work-2026-8"
-   ],
-   "videos": []
-  },
   {
    "t": 1795288058.93629,
    "title": "The Binding of Isaac uchun Suno orqali yaratilgan musiqalar norozilik keltirib chiqardi",
@@ -1811,6 +1740,95 @@
     "https://www.cnbc.com/video/2026/10/26/anthropic-investment-will-be-by-far-the-biggest-return-in-menlos-history-says-partner-matt-murphy.html",
     "https://www.businessinsider.com/spark-capital-anthropic-s-1-yasmin-razavi-2026-10"
    ],
+   "videos": []
+  },
+  {
+   "t": 1795456990.5738983,
+   "title": "Amazon Decart AI texnologiyasini sotib oldi",
+   "text": "Amazon kompaniyasi Trainium chiplarini sotishga tayyorgarlik ko'rish maqsadida Decart kompaniyasining AI optimizatsiya texnologiyasi va tadqiqot guruhini 7.5 milliard dollarga sotib oldi.",
+   "orig_title": "Amazon snaps up Decart’s AI optimization tech for $7.5B as it prepares to sell Trainium chips",
+   "link": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 9,
+   "experts": [],
+   "effect": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2024/12/Decart-Founders-Dean-Leitersdorf-CEO-and-Moshe-Shalev-CPO.jpg?resize=1200,800",
+   "domains": [],
+   "urls": [],
+   "videos": []
+  },
+  {
+   "t": 1795456990.5738983,
+   "title": "Jensen Huang Nvidia bosh direktori lavozimiga qaytdi",
+   "text": "Nvidia direktorlar kengashi Jensen Huangni iste'foga chiqqanidan ikki hafta o'tib bir ovozdan kompaniya prezidenti va bosh direktori lavozimiga qayta tikladi.",
+   "orig_title": "Jensen Huang Is Back as Nvidia CEO",
+   "link": "https://www.wired.com/story/jensen-huang-is-back-as-nvidia-ceo/",
+   "source": "Wired AI",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": null,
+   "image": "https://media.wired.com/photos/6b04495d307e146147156b9d/191:100/w_1280,c_limit/GettyImages-2266718431.jpg",
+   "domains": [],
+   "urls": [],
+   "videos": [
+    [
+     "https://x.com/elonmusk/status/2121345211959804234",
+     "X"
+    ],
+    [
+     "https://x.com/garrytan/status/2121462697787342932",
+     "X"
+    ]
+   ]
+  },
+  {
+   "t": 1795456990.5738983,
+   "title": "Z.ai yangi 750B bayroqdor modelini taqdim etdi",
+   "text": "Z.ai o'zining yangi GLM-5.4 modelini halqa arxitekturasiga o'tkazdi, bu esa 750 milliard parametli modelga kattaroq modellar bilan raqobat qilish imkonini beradi.",
+   "orig_title": "Z.ai follows OpenAI into loop transformer territory with its new 750B flagship model",
+   "link": "https://the-decoder.com/z-ai-follows-openai-into-loop-transformer-territory-with-its-new-750b-flagship-model/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": null,
+   "image": "https://the-decoder.com/wp-content/uploads/2026/06/zhipu-ai-logo-wall-nano-banana-pro.jpg",
+   "domains": [],
+   "urls": [],
+   "videos": []
+  },
+  {
+   "t": 1795456990.5738983,
+   "title": "GPT-6.2 Astra murakkab matematik teoremani hal qildi",
+   "text": "OpenAI kompaniyasining GPT-6.2 Astra modeli Smoktunowicz gap teoremasining mashinada tekshiriladigan ilk isbotini mustaqil ravishda taqdim etdi.",
+   "orig_title": "GPT-6.2 Astra solved a math theorem no other AI could crack, then invented its own proof strategy",
+   "link": "https://the-decoder.com/gpt-6-2-astra-solved-a-math-theorem-no-other-ai-could-crack-then-invented-its-own-proof-strategy/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": null,
+   "image": "https://the-decoder.com/wp-content/uploads/2026/11/gpt_lean_proof.png",
+   "domains": [],
+   "urls": [],
+   "videos": []
+  },
+  {
+   "t": 1795456990.5738983,
+   "title": "Sierra kompaniyasi 30 milliard dollarlik bahoga erishdi",
+   "text": "Mijozlarga xizmat ko'rsatish sun'iy intellekt xizmatlarini taqdim etuvchi Sierra kompaniyasi F raundida 1.75 milliard dollar mablag' yig'ib, o'z bahosini 30 milliard dollarga yetkazdi.",
+   "orig_title": "Sierra doubles valuation to $30B within six months as demand for AI in CX takes off",
+   "link": "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2022/10/AP22166762816752.jpg?w=1200",
+   "domains": [],
+   "urls": [],
    "videos": []
   }
  ]
