@@ -1,15 +1,5 @@
 {
  "seen": {
-  "https://roastbrief.us/ai-movie-awards-announces-winners-of-first-london-edition-celebrating-global-ai-filmmaking-talent/": 1794539130.7424104,
-  "https://kenya-today.com/report-nine-creators-win-aipowered-competition-at-afreximbanks-creative-africa-nexus-weekend-in-lagos-26512/": 1794539130.7424104,
-  "https://phemex.com/news/article/bytedances-volcano-engine-launches-seedance-25-flash-video-model-with-doubled-speed-and-lower-costs-103289": 1794539130.7424104,
-  "https://curiousrefuge.com/blog/kling-vs-seedance": 1794539130.7424104,
-  "https://xenospectrum.com/en/runway-praxis-1-open-robot-model/": 1794539130.7424104,
-  "https://the-decoder.com/googles-gemini-4-hydrogen-outscores-the-bigger-argon-just-four-weeks-after-its-launch/": 1794539130.7424104,
-  "https://the-decoder.com/claude-meetings-lets-anthropics-ai-join-your-video-calls/": 1794539130.7424104,
-  "https://www.forbes.com/sites/timkeary/2026/11/12/voice-ai-startup-hits-100-million--run-rate-with-46-million-funding/": 1794539130.7424104,
-  "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/": 1794539130.7424104,
-  "https://techcrunch.com/2026/11/12/norwest-pushes-deeper-into-ai-with-new-4b-fund/": 1794539130.7424104,
   "https://www.gadgetguy.com.au/adobe-firefly-whats-new-and-who-its-really-for/": 1794542462.6867118,
   "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/": 1794542462.6867118,
   "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/": 1794542462.6867118,
@@ -371,36 +361,6 @@
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1795057766.6398566,
-   "title": "Google ships Gemini 4 Neon, its fourth new Gemini model in a month",
-   "soha": "AI video"
-  },
-  {
-   "t": 1795057766.6398566,
-   "title": "Google Deepmind's Project Genie update brings Genie 4, chainable worlds, and a community gallery for remixing",
-   "soha": "AI video"
-  },
-  {
-   "t": 1795057766.6398566,
-   "title": "Flow AI Video Expands Multi-Model Creation for Short-Form and Product Campaigns",
-   "soha": "AI video"
-  },
-  {
-   "t": 1795057766.6398566,
-   "title": "$11M-backed AI startup Sonilo, founded by TikTok veterans, inks licensing deal with Symphonic to train its model on opted-in indie recordings",
-   "soha": "AI musiqa"
-  },
-  {
-   "t": 1795057766.6398566,
-   "title": "Mistral plays catch-up with Vibe Desktop as rivals already command full operating systems",
-   "soha": "AI"
-  },
-  {
-   "t": 1795057766.6398566,
-   "title": "Hugging Face now routes model requests through OpenRouter for the best price or speed",
-   "soha": "AI"
-  },
   {
    "t": 1795060869.6064322,
    "title": "Uzbekistan and Canada Discuss Cooperation on Artificial Intelligence",
@@ -1187,54 +1147,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1795230355.866579,
-   "title": "OpenAI himoyani kuchaytirdi",
-   "text": "OpenAI GPT-6.2 modellari ichki mantiqiy xulosalarini chiqarib olishdan himoya qilish mexanizmlarini sezilarli darajada kuchaytirdi.",
-   "orig_title": "OpenAI makes it much harder for attackers to extract how its latest AI models think",
-   "link": "https://the-decoder.com/openai-makes-it-much-harder-for-attackers-to-extract-how-its-latest-ai-models-think/",
-   "source": "The Decoder",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Kompaniyalarning xavfsizlik choralarini kuchaytirishi va maxsus modellarni joriy etishi zararli so‘rovlar va xavfli suhbatlarning oldini olishga yordam berishi mumkin.",
-   "image": "https://the-decoder.com/wp-content/uploads/2026/02/ai_model_distill.jpeg",
-   "domains": [
-    "the-decoder.com",
-    "businessinsider.com",
-    "techcrunch.com"
-   ],
-   "urls": [
-    "https://the-decoder.com/openai-makes-it-much-harder-for-attackers-to-extract-how-its-latest-ai-models-think/",
-    "https://www.businessinsider.com/anthropic-changing-safety-policy-2026-2",
-    "https://techcrunch.com/2025/09/02/openai-to-route-sensitive-conversations-to-gpt-5-introduce-parental-controls/"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795230355.866579,
-   "title": "AI qobiliyatlari bo'yicha yangi hisobot",
-   "text": "METR tashkilotining yangi hisobotiga ko'ra, sun'iy intellekt imkoniyatlari eksponentsial traektoriya bo'yicha o'sishda davom etmoqda.",
-   "orig_title": "The most misunderstood graph in AI just got a major update",
-   "link": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
-   "source": "MIT Tech Review",
-   "soha": "AI",
-   "baho": 7,
-   "experts": [],
-   "effect": "Sun'iy intellekt modellarining tezkor rivojlanishi va vazifalarni avtomatlashtirishi kelgusida yangi qonunchilik tashabbuslari va cheklovlarning paydo bo‘lishiga olib kelishi mumkin.",
-   "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/metr2a.jpg?resize=1200,600",
-   "domains": [
-    "technologyreview.com",
-    "techcrunch.com",
-    "yahoo.com"
-   ],
-   "urls": [
-    "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
-    "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
-    "https://www.yahoo.com/news/politics/articles/bernie-sanders-superintelligence-ban-criminalize-144535157.html"
-   ],
-   "videos": []
-  },
   {
    "t": 1795233672.1287954,
    "title": "Sun'iy intellekt Riman gipotezasini yechishga da'vo qildi",
