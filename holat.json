@@ -1,8 +1,5 @@
 {
  "seen": {
-  "https://openai.com/business/customer-stories/amplitude": 1794556851.815429,
-  "https://openai.com/business/customer-stories/gondola": 1794556851.815429,
-  "https://musically.com/2026/11/12/ai-powered-label-para-music-says-its-identified-the-next-big-indian-regional-music-sub-genre/": 1794556851.815429,
   "https://www.theverge.com/ai-artificial-intelligence/1032125/ai-agents-maya-site-archeology-discovery": 1794560712.707967,
   "https://www.wired.com/story/google-deepmind-staff-escalate-their-union-fight/": 1794560712.707967,
   "https://www.wired.com/story/silicon-valley-is-still-defending-jensen-huang/": 1794568026.2777922,
@@ -346,45 +343,11 @@
   "https://biz.heraldcorp.com/article/10945468": 1795402969.9109964,
   "https://www.cbc.ca/news/canada/toronto/brampton-venture-zone-matching-students-with-businesses-for-ai-adoption-9.7432057": 1795402969.9109964,
   "https://thedroidguy.com/gemini-generate-edit-images-1295475": 1795402969.9109964,
-  "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/": 1795413691.5492532
+  "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/": 1795413691.5492532,
+  "https://brandequity.economictimes.indiatimes.com/news/digital/elo-elo-group-launches-dolphin-ai-film-studio-at-iffi-2026/136093103": 1795420870.630156
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1795072167.1746418,
-   "title": "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit",
-   "soha": "AI"
-  },
-  {
-   "t": 1795072167.1746418,
-   "title": "Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is ‘unpatchable’",
-   "soha": "AI"
-  },
-  {
-   "t": 1795072167.1746418,
-   "title": "Elon Musk says ousting Jensen Huang is like ‘kicking Michael Jordan off your team’",
-   "soha": "AI"
-  },
-  {
-   "t": 1795072167.1746418,
-   "title": "Satya Nadella predicts AI agents will reshuffle the economics of the web",
-   "soha": "AI"
-  },
-  {
-   "t": 1795072167.1746418,
-   "title": "Palmer Luckey warns AI-powered cyberattacks are outpacing defenses: ‘It’s time to start running’",
-   "soha": "AI"
-  },
-  {
-   "t": 1795075269.0206704,
-   "title": "Suno Promises Artist-Likeness Filters As It Expands Into AI Music Videos",
-   "soha": "AI musiqa"
-  },
-  {
-   "t": 1795075269.0206704,
-   "title": "Snapchat now lets developers build AR Lenses with AI assistants like Claude Code and Cursor",
-   "soha": "AI"
-  },
   {
    "t": 1795079336.648598,
    "title": "Uzbek cybersecurity official: UN, UNESCO and ITU should play important role in international dialogue on artificial intelligence",
@@ -1094,6 +1057,11 @@
    "t": 1795413691.5492532,
    "title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
    "soha": "AI"
+  },
+  {
+   "t": 1795420870.630156,
+   "title": "Elo Elo Group launches Dolphin AI Film Studio at IFFI 2026",
+   "soha": "AI tanlov"
   }
  ],
  "mavzu": {
@@ -2005,6 +1973,29 @@
      "X"
     ]
    ]
+  },
+  {
+   "t": 1795420870.630156,
+   "title": "Elo Elo Group Dolphin AI Film Studio'ni taqdim etdi",
+   "text": "Elo Elo Group Hindiston xalqaro kinofestivalida ijodkorlar uchun sun'iy intellekt yordamida kino ishlab chiqarishni inqilob qiluvchi Dolphin AI Film Studio'ni ishga tushirdi.",
+   "orig_title": "Elo Elo Group launches Dolphin AI Film Studio at IFFI 2026",
+   "link": "https://brandequity.economictimes.indiatimes.com/news/digital/elo-elo-group-launches-dolphin-ai-film-studio-at-iffi-2026/136093103",
+   "source": "brandequity.economictimes.indiatimes.com",
+   "soha": "AI tanlov",
+   "baho": 10,
+   "experts": [],
+   "effect": "Kino va reklama sohasida sun'iy intellekt texnologiyalarining joriy etilishi ishlab chiqarish xarajatlarini qisqartirishi, ammo yosh rassomlar va kelajakdagi rejissyorlarning amaliy tajriba orttirish imkoniyatlarini cheklashi ehtimoli bor.",
+   "image": "https://etimg.etb2bimg.com/thumb/msid-136093103,imgsize-10567259,width-1200,height=627,overlay-etbrandequity,resizemode-75/digital/elo-elo-group-launches-dolphin-ai-film-studio-at-iffi-2026.jpg",
+   "domains": [
+    "brandequity.economictimes.indiatimes.com",
+    "theguardian.com"
+   ],
+   "urls": [
+    "https://brandequity.economictimes.indiatimes.com/news/digital/elo-elo-group-launches-dolphin-ai-film-studio-at-iffi-2026/136093103",
+    "https://www.theguardian.com/film/2026/nov/10/storyboard-artists-ai",
+    "https://www.theguardian.com/film/2026/oct/09/ai-threat-britain-directors-ridley-scott-guy-ritchie"
+   ],
+   "videos": []
   }
  ]
 }
