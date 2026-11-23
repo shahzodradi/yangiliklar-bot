@@ -1,10 +1,5 @@
 {
  "seen": {
-  "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/": 1794549697.8480587,
-  "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/": 1794549697.8480587,
-  "https://about.fb.com/news/2026/11/meta-new-agreements-clean-manufacturing-data-center-supply-chains/": 1794549697.8480587,
-  "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/": 1794553355.0297549,
-  "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/": 1794553355.0297549,
   "https://openai.com/business/customer-stories/amplitude": 1794556851.815429,
   "https://openai.com/business/customer-stories/gondola": 1794556851.815429,
   "https://musically.com/2026/11/12/ai-powered-label-para-music-says-its-identified-the-next-big-indian-regional-music-sub-genre/": 1794556851.815429,
@@ -1106,54 +1101,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1795244548.1798391,
-   "title": "Talabalar sun'iy intellekt yordamida kampus hayotini yaxshilash uchun bellashdi",
-   "text": "USC talabalari sun'iy intellekt yordamida kampus hayotini yaxshilash bo'yicha o'tkazilgan tanlovda 14 ming dollar mukofot jamg'armasi uchun kurashdi.",
-   "orig_title": "Students compete to improve campus life using AI",
-   "link": "https://dailytrojan.com/2026/11/18/students-compete-to-improve-campus-life-using-ai/",
-   "source": "dailytrojan.com",
-   "soha": "AI tanlov",
-   "baho": 10,
-   "experts": [],
-   "effect": "Talabalarning sun'iy intellektga asoslangan ishlanmalari universitet hududidagi xizmatlar va infratuzilmani yaxshilashga hamda talabalar hayotini qulaylashtirishga xizmat qilishi mumkin.",
-   "image": "https://dailytrojan.com/wp-content/uploads/2026/11/IMG_8724-scaled.jpg",
-   "domains": [
-    "dailytrojan.com",
-    "yahoo.com",
-    "sports.yahoo.com"
-   ],
-   "urls": [
-    "https://dailytrojan.com/2026/11/18/students-compete-to-improve-campus-life-using-ai/",
-    "https://www.yahoo.com/news/videos/maryland-students-compete-regional-round-155118113.html",
-    "https://sports.yahoo.com/articles/mcalester-krebs-students-compete-special-045900525.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795244548.1798391,
-   "title": "Signal AI agentlarining shaxsiy chatlarni o'qishini bloklaydi",
-   "text": "Signal ilovasi iOS va Android uchun skrinshotlarni bloklash funksiyasini joriy qildi. Bu Apple Siri, Google Gemini va Meta Muse kabi AI agentlarining maxfiy chatlarni o'qishining oldini olish uchun qilingan.",
-   "orig_title": "Signal blocks screenshots on iOS 27 and Android to stop AI agents from reading private chats",
-   "link": "https://the-decoder.com/signal-blocks-screenshots-on-ios-27-and-android-to-stop-ai-agents-from-reading-private-chats/",
-   "source": "The Decoder",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Operatsion tizim darajasidagi sun'iy intellekt agentlarining shaxsiy chatlardagi ma'lumotlarni o'qishi cheklanishi maxfiylikni oshirishi hamda texnologiya kompaniyalari o'rtasida ma'lumotlar xavfsizligi borasidagi cheklovlarni yanada kuchaytirishi ehtimoli bor.",
-   "image": "https://the-decoder.com/wp-content/uploads/2026/11/signal_ai_agents.png",
-   "domains": [
-    "the-decoder.com",
-    "tech.yahoo.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://the-decoder.com/signal-blocks-screenshots-on-ios-27-and-android-to-stop-ai-agents-from-reading-private-chats/",
-    "https://tech.yahoo.com/ai/articles/two-nmsu-professors-earn-600k-013319424.html",
-    "https://finance.yahoo.com/technology/ai/articles/amazon-blocks-meta-muse-agent-123836124.html"
-   ],
-   "videos": []
-  },
   {
    "t": 1795248093.007624,
    "title": "PRAN-RFL Group sun'iy intellekt ijodkorlari uchun platforma taqdim etdi",
