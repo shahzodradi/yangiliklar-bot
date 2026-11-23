@@ -1,11 +1,5 @@
 {
  "seen": {
-  "https://www.gadgetguy.com.au/adobe-firefly-whats-new-and-who-its-really-for/": 1794542462.6867118,
-  "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/": 1794542462.6867118,
-  "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/": 1794542462.6867118,
-  "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/": 1794542462.6867118,
-  "https://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations": 1794542462.6867118,
-  "https://www.theverge.com/games/1032085/gdc-festival-of-gaming-annual-survey-ai-layoffs": 1794542462.6867118,
   "https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots/": 1794546541.9908485,
   "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/": 1794549697.8480587,
   "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/": 1794549697.8480587,
@@ -361,31 +355,6 @@
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1795060869.6064322,
-   "title": "Uzbekistan and Canada Discuss Cooperation on Artificial Intelligence",
-   "soha": "AI O'zbekiston"
-  },
-  {
-   "t": 1795060869.6064322,
-   "title": "Disney’s new Star Wars animatronics interact with guests using AI",
-   "soha": "AI video"
-  },
-  {
-   "t": 1795060869.6064322,
-   "title": "Anthropic prices IPO at $83 a share, above projected range",
-   "soha": "AI"
-  },
-  {
-   "t": 1795060869.6064322,
-   "title": "The nation’s largest school districts consider ditching Google Search",
-   "soha": "AI"
-  },
-  {
-   "t": 1795060869.6064322,
-   "title": "Amid AI Industry Chaos, Microsoft and OpenAI Drop New Models for Coding and Work",
-   "soha": "AI"
-  },
   {
    "t": 1795064755.821135,
    "title": "Best AI Image to Video Generator in 2026: 8 Tools Compared",
@@ -1147,30 +1116,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1795233672.1287954,
-   "title": "Sun'iy intellekt Riman gipotezasini yechishga da'vo qildi",
-   "text": "Matematiklar sun'iy intellekt yordamida erishilgan so'nggi natijadan hayratda qolishdi va bu jarayonda raqobatbardosh inson yechimi ham paydo bo'ldi.",
-   "orig_title": "AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too",
-   "link": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
-   "source": "TechCrunch AI",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Sun'iy intellekt yordamida matematikadagi fundamental muammolarning yechilishi ilmiy tadqiqotlar tezligini keskin oshirishi va sun'iy intellektning ilm-fandagi o'rnini tubdan o'zgartirishi mumkin.",
-   "image": "https://techcrunch.com/wp-content/uploads/2022/08/GettyImages-1219382595.jpg?resize=1200,750",
-   "domains": [
-    "techcrunch.com",
-    "yahoo.com",
-    "businessinsider.com"
-   ],
-   "urls": [
-    "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
-    "https://www.yahoo.com/news/science/articles/ai-riemann-hypothesis-proof-almost-210000837.html",
-    "https://www.businessinsider.com/riemann-hypothesis-math-human-ai-dueling-solution-alpoge-masullo-2026-11"
-   ],
-   "videos": []
-  },
   {
    "t": 1795237813.932109,
    "title": "OpenAI xavfsizlikni kuchaytirish uchun yangi usullarni joriy qildi",
