@@ -1,10 +1,5 @@
 {
  "seen": {
-  "https://finance.yahoo.com/technology/ai/articles/viam-host-nyc-robotics-hackathon-152100329.html": 1794510497.417995,
-  "https://www.digitalmusicnews.com/2026/11/12/reservoir-suno-lawsuit-anthropic-amended/": 1794510497.417995,
-  "https://thesource.com/2026/11/11/eminems-publisher-sues-ai-platform-suno-for-over-40-million-alleging-269-songs-used-for-ai-training/": 1794510497.417995,
-  "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/": 1794510497.417995,
-  "https://the-decoder.com/openais-data-suggests-that-frontier-models-are-hiding-their-thoughts-because-developers-optimize-for-capability-and-compute/": 1794510497.417995,
   "https://roastbrief.us/ai-movie-awards-announces-winners-of-first-london-edition-celebrating-global-ai-filmmaking-talent/": 1794539130.7424104,
   "https://kenya-today.com/report-nine-creators-win-aipowered-competition-at-afreximbanks-creative-africa-nexus-weekend-in-lagos-26512/": 1794539130.7424104,
   "https://phemex.com/news/article/bytedances-volcano-engine-launches-seedance-25-flash-video-model-with-doubled-speed-and-lower-costs-103289": 1794539130.7424104,
@@ -369,20 +364,13 @@
   "https://the-decoder.com/lean-and-mathlib-community-officially-confirms-levent-alpoges-proof-of-the-riemann-hypothesis-is-correct/": 1795363292.8490694,
   "https://www.wired.com/story/banks-are-cracking-down-on-ai-agents/": 1795363292.8490694,
   "https://www.msn.com/en-us/technology/artificial-intelligence/here-s-why-some-say-openai-s-latest-model-is-unusable-uneven-and-insufferable-to-work-with/ar-AA2hYAJK": 1795363292.8490694,
-  "https://openai.com/index/perplexity-and-intelligence": 1795370473.661142
+  "https://openai.com/index/perplexity-and-intelligence": 1795370473.661142,
+  "https://biz.heraldcorp.com/article/10945468": 1795402969.9109964,
+  "https://www.cbc.ca/news/canada/toronto/brampton-venture-zone-matching-students-with-businesses-for-ai-adoption-9.7432057": 1795402969.9109964,
+  "https://thedroidguy.com/gemini-generate-edit-images-1295475": 1795402969.9109964
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1795028976.7667918,
-   "title": "Microsoft is replacing outside AI models in its own products with cheaper in-house alternatives",
-   "soha": "AI"
-  },
-  {
-   "t": 1795028976.7667918,
-   "title": "OpenAI says its models delivered a year's worth of chip optimization on top of AMD's own engineering",
-   "soha": "AI"
-  },
   {
    "t": 1795057766.6398566,
    "title": "Google ships Gemini 4 Neon, its fourth new Gemini model in a month",
@@ -1177,6 +1165,21 @@
    "t": 1795370473.661142,
    "title": "Perplexity and Intelligence",
    "soha": "AI"
+  },
+  {
+   "t": 1795402969.9109964,
+   "title": "KAIST uses AI glasses to boost communication, learning at XR hackathon",
+   "soha": "AI tanlov"
+  },
+  {
+   "t": 1795402969.9109964,
+   "title": "Brampton hackathon asks students to use AI to fix local businesses' issues",
+   "soha": "AI tanlov"
+  },
+  {
+   "t": 1795402969.9109964,
+   "title": "How To Create And Edit Images In Gemini With Nano Banana (2026)",
+   "soha": "AI rasm"
   }
  ],
  "mavzu": {
@@ -1184,121 +1187,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1795201597.9731865,
-   "title": "Antropic matematigi Claude yordamida Riman gipotezasini yechganini da'vo qilmoqda",
-   "text": "Anthropic kompaniyasi matematigi Levent Alpöge o'nlab yillar davomida yechilmay kelingan Riman gipotezasini Claude yordamida isbotlaganini ma'lum qildi.",
-   "orig_title": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
-   "source": "The Verge AI",
-   "soha": "AI",
-   "baho": 10,
-   "experts": [],
-   "effect": "Bu yutuq mustaqil tekshiruvdan o'tsa, sun'iy intellektning matematika fanidagi imkoniyatlarini yanada kengaytirishi hamda murakkab ilmiy muammolarni yechishda raqamli vositalarning o'rnini oshirishi mumkin.",
-   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2305894185.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
-   "domains": [
-    "theverge.com",
-    "tech.yahoo.com"
-   ],
-   "urls": [
-    "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
-    "https://tech.yahoo.com/ai/claude/articles/anthropic-researcher-says-claude-solved-172553925.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795201597.9731865,
-   "title": "Xitoyda sun'iy intellekt ta'siridagi ish o'rinlari tezroq qisqarmoqda",
-   "text": "Bloomberg tahliliga ko'ra, Xitoyda AI sababli ijodiy va boshlang'ich darajadagi bo'sh ish o'rinlari tezroq kamaymoqda, mamlakatdagi qisqa metrajli dramalarning 90% dan ortig'i sun'iy intellekt yordamida yaratilmoqda.",
-   "orig_title": "Bloomberg analysis of 10 million job postings shows AI-exposed roles in China fell 10 percentage points faster than others",
-   "link": "https://the-decoder.com/bloomberg-analysis-of-10-million-job-postings-shows-ai-exposed-roles-in-china-fell-10-percentage-points-faster-than-others/",
-   "source": "The Decoder",
-   "soha": "AI",
-   "baho": 9,
-   "experts": [],
-   "effect": "Sun'iy intellekt ta'siridagi ish o'rinlarining qisqarishi boshlang'ich bosqichdagi xodimlar hamda ijodiy soha vakillari uchun mehnat bozoridagi raqobatni kuchaytirishi ehtimoli bor.",
-   "image": "https://the-decoder.com/wp-content/uploads/2026/08/china_flag_visual-1.png",
-   "domains": [
-    "the-decoder.com",
-    "forbes.com"
-   ],
-   "urls": [
-    "https://the-decoder.com/bloomberg-analysis-of-10-million-job-postings-shows-ai-exposed-roles-in-china-fell-10-percentage-points-faster-than-others/",
-    "https://www.forbes.com/connect/event/2026-forbes-iconoclast-summit/"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795201597.9731865,
-   "title": "Google Gemini Mac ilovalarini boshqarish imkoniyatiga ega bo'ldi",
-   "text": "Google Gemini uchun \"Computer Use\" funksiyasini taqdim etdi, bu foydalanuvchilarga ish jarayonida fonda turib Mac ilovalari, fayllari va veb-saytlarini boshqarish imkonini beradi.",
-   "orig_title": "Google's Gemini can now run Mac apps and finish desktop chores in the background while you keep working",
-   "link": "https://the-decoder.com/googles-gemini-can-now-run-mac-apps-and-finish-desktop-chores-in-the-background-while-you-keep-working/",
-   "source": "The Decoder",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Foydalanuvchilar o'z kompyuterlarida boshqa ishlar bilan band bo'lgan paytda ham sun'iy intellekt murakkab vazifalarni fon rejimida bajarib berishi ish unumdorligini oshirishi mumkin.",
-   "image": "https://the-decoder.com/wp-content/uploads/2026/09/gemini_blue.png",
-   "domains": [
-    "the-decoder.com",
-    "theverge.com"
-   ],
-   "urls": [
-    "https://the-decoder.com/googles-gemini-can-now-run-mac-apps-and-finish-desktop-chores-in-the-background-while-you-keep-working/",
-    "https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795201597.9731865,
-   "title": "Apple ham o'z qurilmalarini boshqaruvchi sun'iy intellekt agentini yaratmoqda",
-   "text": "Meta, OpenAI, Anthropic va Googledan keyin Apple ham o'z qurilmalarini boshqaruvchi sun'iy intellekt agentini ishlab chiqishni boshladi.",
-   "orig_title": "Apple joins the race for AI agents that control your device while raising new barriers for competitors",
-   "link": "https://the-decoder.com/apple-joins-the-race-for-ai-agents-that-control-your-device-while-raising-new-barriers-for-competitors/",
-   "source": "The Decoder",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Apple kompaniyasining o'z qurilmalarida raqobatchi agentlar uchun cheklovlar o'rnatishi boshqa kompaniyalarning sun'iy intellekt xizmatlarini rivojlantirishini sekinlashtirishi mumkin.",
-   "image": "https://the-decoder.com/wp-content/uploads/2026/07/apple_logo_neon_green.png",
-   "domains": [
-    "the-decoder.com",
-    "tech.yahoo.com"
-   ],
-   "urls": [
-    "https://the-decoder.com/apple-joins-the-race-for-ai-agents-that-control-your-device-while-raising-new-barriers-for-competitors/",
-    "https://tech.yahoo.com/ai/apple-intelligence/articles/apple-develops-ai-agent-control-160700103.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795201597.9731865,
-   "title": "AQShda sun'iy intellekt ma'lumotlar markazlari uchun yuqori soliq joriy etilishi mumkin",
-   "text": "Prezident Donald Trump ma'lumotlar markazlarini AQShdan tashqarida quradigan kompaniyalarga ulkan soliq solish bilan tahdid qildi.",
-   "orig_title": "Trump threatens ‘tremendous tax’ for moving AI data centers outside the US",
-   "link": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
-   "source": "The Verge AI",
-   "soha": "AI",
-   "baho": 7,
-   "experts": [],
-   "effect": "Ma'lumotlar markazlarini AQShdan tashqarida qurishga solinadigan soliqlar kompaniyalarning xarajatlarini oshirib, global miqyosdagi infratuzilma loyihalariga ta'sir ko'rsatishi mumkin.",
-   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/STK466_ELECTION_2024_CVirginia_E.jpg?quality=90&strip=all&crop=0%2C9.9676601489831%2C100%2C80.064679702034&w=1200",
-   "domains": [
-    "theverge.com",
-    "yahoo.com"
-   ],
-   "urls": [
-    "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
-    "https://www.yahoo.com/news/politics/articles/trump-says-us-penalize-firms-180803711.html"
-   ],
-   "videos": [
-    [
-     "https://www.youtube.com/watch?v=VD-KP5xTESY",
-     "YouTube"
-    ]
-   ]
-  },
   {
    "t": 1795230355.866579,
    "title": "OpenAI himoyani kuchaytirdi",
@@ -2293,6 +2181,77 @@
     "https://openai.com/index/perplexity-and-intelligence",
     "https://www.wired.com/story/openai-overhauls-safety-protocols-after-its-ai-agents-went-rogue/",
     "https://www.yahoo.com/news/world/articles/openai-model-breaches-australian-government-234307474.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795402969.9109964,
+   "title": "KAIST XR hackatonida sun'iy intellekt ko'zoynaklarini taqdim etdi",
+   "text": "KAIST universiteti talabalar uchun muloqot va o'qish jarayonini yaxshilash maqsadida sun'iy intellekt ko'zoynaklari va kengaytirilgan reallik qurilmalarini qo'llovchi texnologiyalarni ishlab chiqishni boshladi.",
+   "orig_title": "KAIST uses AI glasses to boost communication, learning at XR hackathon",
+   "link": "https://biz.heraldcorp.com/article/10945468",
+   "source": "biz.heraldcorp.com",
+   "soha": "AI tanlov",
+   "baho": 10,
+   "experts": [],
+   "effect": "Kengaytirilgan reallik va sun'iy intellekt qurilmalari bozorida raqobat kuchayishi va bunday aqlli ko'zoynaklar kundalik muloqot hamda ta'lim jarayonlarini tubdan o'zgartirishi mumkin.",
+   "image": "https://wimg.heraldcorp.com/news/cms/2026/11/23/news-p.v1.20261123.7904b443989a420b8e7a12ff72af7f4b_P1.jpg",
+   "domains": [
+    "biz.heraldcorp.com",
+    "wired.com",
+    "techcrunch.com"
+   ],
+   "urls": [
+    "https://biz.heraldcorp.com/article/10945468",
+    "https://www.wired.com/story/google-samsung-intelligent-eyewear-launch-warby-parker-gentle-monster-smart-glasses/",
+    "https://techcrunch.com/sponsor/zenni/with-zennis-ai-powered-search-its-easier-than-ever-to-find-a-great-pair-of-glasses/"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795402969.9109964,
+   "title": "Brampton hackatoni talabalarni AI yordamida biznes muammolarini hal etishga chaqirdi",
+   "text": "Brampton Venture Zone o'zining ilk talabalar hackatonini o'tkazdi. Unda yoshlar mahalliy kompaniyalarning muammolarini hal qilish uchun sun'iy intellekt vositalaridan foydalandi.",
+   "orig_title": "Brampton hackathon asks students to use AI to fix local businesses' issues",
+   "link": "https://www.cbc.ca/news/canada/toronto/brampton-venture-zone-matching-students-with-businesses-for-ai-adoption-9.7432057",
+   "source": "cbc.ca",
+   "soha": "AI tanlov",
+   "baho": 10,
+   "experts": [],
+   "effect": "Talabalar ishlab chiqqan sun'iy intellekt yechimlari mahalliy korxonalarning kundalik muammolarini hal etib, kichik biznesda samaradorlikni oshirishi kutilmoqda.",
+   "image": "https://i.cbc.ca/ais/2e295fe2-ed7f-4373-8cf7-c85b27e4006a,1795384920223/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C535%2C5712%2C3213%29%3BResize%3D620",
+   "domains": [
+    "cbc.ca",
+    "finance.yahoo.com",
+    "forbes.com"
+   ],
+   "urls": [
+    "https://www.cbc.ca/news/canada/toronto/brampton-venture-zone-matching-students-with-businesses-for-ai-adoption-9.7432057",
+    "https://finance.yahoo.com/technology/ai/articles/zoho-announces-finalists-ground-first-140000309.html",
+    "https://www.forbes.com/councils/forbestechcouncil/2024/10/21/empowering-ai-innovation-lessons-from-judging-an-ai-hackathon/"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795402969.9109964,
+   "title": "Gemini Nano Banana modellar yordamida rasm yaratish imkoniyatini taqdim etdi",
+   "text": "Google Gemini sun'iy intellekti Nano Banana rasm modellari yordamida matnli buyruqlar asosida yangi tasvirlar chizish va yuklangan fotosuratlarni o'zgartirish funksiyasini ishga tushirdi.",
+   "orig_title": "How To Create And Edit Images In Gemini With Nano Banana (2026)",
+   "link": "https://thedroidguy.com/gemini-generate-edit-images-1295475",
+   "source": "thedroidguy.com",
+   "soha": "AI rasm",
+   "baho": 8,
+   "experts": [],
+   "effect": "Adobe va Google hamkorligi raqamli ijodkorlar hamda korxona jamoalari uchun ish jarayonlarini sezilarli darajada tezlashtirishi va sifatli tarkib yaratish imkonini berishi mumkin.",
+   "image": "https://thedroidguy.com/wp-content/uploads/2026/11/gemini-generate-edit-images.jpg",
+   "domains": [
+    "thedroidguy.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://thedroidguy.com/gemini-generate-edit-images-1295475",
+    "https://finance.yahoo.com/technology/ai/articles/adobe-google-deepen-partnership-bring-140400160.html",
+    "https://finance.yahoo.com/quote/GEMI/"
    ],
    "videos": []
   }
