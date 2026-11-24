@@ -1,11 +1,5 @@
 {
  "seen": {
-  "https://www.marktechpost.com/2026/11/13/best-ai-video-generation-models-2026/": 1794596763.077386,
-  "https://www.analyticsinsight.net/artificial-intelligence/best-ai-drama-generator-tools-in-2026-ranked-for-short-dramas-anime-episodes-and-music-videos": 1794596763.077386,
-  "https://the-decoder.com/banks-bar-chinese-and-hong-kong-investors-from-anthropic-ipo-over-us-export-controls/": 1794596763.077386,
-  "https://the-decoder.com/nearly-70-percent-of-us-agencies-use-generative-ai-and-unions-are-finally-catching-up-with-guardrails/": 1794596763.077386,
-  "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/": 1794625332.36186,
-  "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/": 1794625332.36186,
   "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/": 1794628851.2830174,
   "https://allhiphop.com/news/nvidias-suno-investor-fights-music-labels-over-court-testimony/": 1794632543.1599967,
   "https://the-decoder.com/jensen-huangs-ouster-likely-traces-back-to-nvidias-risky-business-practices-more-than-his-personal-life/": 1794632543.1599967,
@@ -338,7 +332,12 @@
   "https://techcrunch.com/2026/11/23/jensen-huang-isnt-out-of-the-woods-yet/": 1795460602.959582,
   "https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday": 1795460602.959582,
   "https://the-decoder.com/anthropics-appetite-for-compute-is-pushing-xai-toward-a-rent-over-build-strategy/": 1795460602.959582,
-  "https://the-decoder.com/metas-alexandr-wang-warns-the-ai-industry-isnt-ready-for-whats-coming-after-riemann-breakthrough/": 1795460602.959582
+  "https://the-decoder.com/metas-alexandr-wang-warns-the-ai-industry-isnt-ready-for-whats-coming-after-riemann-breakthrough/": 1795460602.959582,
+  "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/": 1795489357.1250331,
+  "https://the-decoder.com/openai-updates-chatgpt-to-handle-complex-everyday-questions-web-searches-and-images-more-reliably/": 1795489357.1250331,
+  "https://cryptobriefing.com/openai-gpt-6-2-3d-simulation/": 1795489357.1250331,
+  "https://www.unite.ai/robot-ai-startup-embo-secures-110m-seed-investment-led-by-a16z/": 1795489357.1250331,
+  "https://www.geekwire.com/2026/beyond-nvidia-convoy-co-founder-and-former-microsoft-leader-raise-277m-to-rethink-ai-infrastructure/": 1795489357.1250331
  },
  "fails": 0,
  "sent": [
@@ -921,6 +920,31 @@
    "t": 1795460602.959582,
    "title": "Meta's Alexandr Wang warns the AI industry isn't ready for what's coming after Riemann breakthrough",
    "soha": "AI"
+  },
+  {
+   "t": 1795489357.1250331,
+   "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
+   "soha": "AI"
+  },
+  {
+   "t": 1795489357.1250331,
+   "title": "OpenAI updates ChatGPT to handle complex everyday questions, web searches, and images more reliably",
+   "soha": "AI"
+  },
+  {
+   "t": 1795489357.1250331,
+   "title": "OpenAI says GPT-6.2 Astra can understand, simulate, and help build 3D worlds",
+   "soha": "AI"
+  },
+  {
+   "t": 1795489357.1250331,
+   "title": "Robot AI Startup Embo Secures $110M Seed Investment Led by A16z",
+   "soha": "AI"
+  },
+  {
+   "t": 1795489357.1250331,
+   "title": "Beyond Nvidia: Convoy co-founder and former Microsoft leader raise $277M to rethink AI infrastructure",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -928,29 +952,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1795288058.93629,
-   "title": "The Binding of Isaac uchun Suno orqali yaratilgan musiqalar norozilik keltirib chiqardi",
-   "text": "The Binding of Isaac: Repentance+ uchun yangi GTA 6 mavzusidagi maxfiy bosqich musiqasi Suno yordamida yaratilgani aniqlangach, foydalanuvchilar Steam'da salbiy sharhlar qoldirdi.",
-   "orig_title": "Binding of Isaac fans review bomb DLC after discovering GTA 6 mode songs are AI",
-   "link": "https://www.dexerto.com/gaming/binding-of-isaac-fans-review-bomb-dlc-after-discovering-gta-6-mode-songs-are-ai-3430318/",
-   "source": "dexerto.com",
-   "soha": "AI musiqa",
-   "baho": 8,
-   "experts": [],
-   "effect": "Sun’iy intellekt musiqasidan yashirincha foydalanish Steam qoidalarining buzilishiga, o‘yin sotuvining pasayishiga va geymerlar auditoriyasining jiddiy noroziligiga sabab bo‘lishi mumkin.",
-   "image": "https://www.dexerto.com/cdn-image/wp-content/uploads/2023/12/13/The-Binding-of-Isaac-Repentance.jpg",
-   "domains": [
-    "dexerto.com",
-    "theguardian.com"
-   ],
-   "urls": [
-    "https://www.dexerto.com/gaming/binding-of-isaac-fans-review-bomb-dlc-after-discovering-gta-6-mode-songs-are-ai-3430318/",
-    "https://www.theguardian.com/music/2026/oct/19/australia-music-global-copywright-outlier-ai-music-body-warnsns",
-    "https://www.theguardian.com/music/2026/oct/09/jess-williamson-a-mile-south-of-heaven-review"
-   ],
-   "videos": []
-  },
   {
    "t": 1795316615.5396836,
    "title": "Perfect Corp. AI musiqa va klip yaratuvchi YouCam Muse platformasini chiqardi",
@@ -1902,6 +1903,116 @@
      "X"
     ]
    ]
+  },
+  {
+   "t": 1795489357.1250331,
+   "title": "Anthropic Claude Ship dasturlash agentlarini chiqardi",
+   "text": "Anthropic kompaniyasi dasturchilarga yordam berish uchun Claude Ship vositasini taqdim etdi, bu funksiya AI agentlarga kod o'zgarishlarini ko'rib chiqish va tasdiqlash imkonini beradi.",
+   "orig_title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
+   "link": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 9,
+   "experts": [],
+   "effect": "Dasturiy ta'minotni ishlab chiqish jarayonida kodni tekshirish va tasdiqlash bosqichlaridagi tirbandliklar kamayib, muhandislar va jamoalar uchun ish tezligi sezilarli darajada oshishi mumkin.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2295579000.jpg?resize=1200,800",
+   "domains": [
+    "techcrunch.com",
+    "theverge.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+    "https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795489357.1250331,
+   "title": "OpenAI ChatGPT uchun GPT-6.2 Sol modelini ishga tushirdi",
+   "text": "OpenAI ChatGPT chat oynasida GPT-6.2 Sol modelini yangi standart sifatida joriy etdi, bunda tasvirlarni tushunish va qiyin ko'rsatmalarni bajarish yaxshilandi.",
+   "orig_title": "OpenAI updates ChatGPT to handle complex everyday questions, web searches, and images more reliably",
+   "link": "https://the-decoder.com/openai-updates-chatgpt-to-handle-complex-everyday-questions-web-searches-and-images-more-reliably/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Murakkab so'rovlar va veb-qidiruvlarni ishonchliroq bajarish qobiliyati foydalanuvchilarning sun'iy intellekt bilan ishlash tajribasini yaxshilab, xavfsizlik va yoshlar himoyasi yanada kuchayishiga olib kelishi mumkin.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/11/openai_chatgpt_pattern-1200x675.png",
+   "domains": [
+    "the-decoder.com",
+    "theverge.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/openai-updates-chatgpt-to-handle-complex-everyday-questions-web-searches-and-images-more-reliably/",
+    "https://www.theverge.com/ai-artificial-intelligence/1040716/openai-launched-a-chat-specific-version-of-gpt-6-2-sol"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795489357.1250331,
+   "title": "OpenAI GPT-6.2 Astra 3D dunyolarni tushunishini bildirdi",
+   "text": "OpenAI modeli eskizlarni CAD qismlari va Blender sahnalariga aylantirib, AA-3Dreytingida yetakchilik qildi.",
+   "orig_title": "OpenAI says GPT-6.2 Astra can understand, simulate, and help build 3D worlds",
+   "link": "https://cryptobriefing.com/openai-gpt-6-2-3d-simulation/",
+   "source": "cryptobriefing.com",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Muhandislik va ilmiy sohalarda uch o'lchamli olamlarni tushunish hamda modellashtirish xarajatlari kamayib, murakkab loyihalarni bajarish vaqtida tokenlardan foydalanish samaradorligi oshishi mumkin.",
+   "image": "https://static.cryptobriefing.com/wp-content/uploads/2026/11/23152640/library-openai-says-gpt-6-2-astra-can-understand-simulate-and-he-800x450.jpg",
+   "domains": [
+    "cryptobriefing.com",
+    "tech.yahoo.com"
+   ],
+   "urls": [
+    "https://cryptobriefing.com/openai-gpt-6-2-3d-simulation/",
+    "https://tech.yahoo.com/ai/chatgpt/articles/openai-just-launched-gpt-6-200239442.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795489357.1250331,
+   "title": "Robot AI startapi Embo 110 million dollar investitsiya oldi",
+   "text": "Embo internet videolari va simulyatsiyalar yordamida aqlli robotlar uchun AI modellarini yaratish maqsadida Andreessen Horowitz boshchiligida 110 million dollar mablag' to'pladi.",
+   "orig_title": "Robot AI Startup Embo Secures $110M Seed Investment Led by A16z",
+   "link": "https://www.unite.ai/robot-ai-startup-embo-secures-110m-seed-investment-led-by-a16z/",
+   "source": "unite.ai",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Robototexnika sohasida sun'iy intellekt modellarini internet videolari va simulyatsiyalar yordamida o'qitish orqali mashinalar notanish vaziyatlarda ham barqaror va mustaqil harakat qilish qobiliyatiga ega bo'lishi mumkin.",
+   "image": "https://www.unite.ai/wp-content/uploads/2026/11/embo-raises-110m-seed-to-build-world-models-for-intelligent-robots.jpg",
+   "domains": [
+    "unite.ai",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://www.unite.ai/robot-ai-startup-embo-secures-110m-seed-investment-led-by-a16z/",
+    "https://finance.yahoo.com/technology/ai/articles/tutor-intelligence-raises-75-million-160000524.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795489357.1250331,
+   "title": "Marlowe infratuzilma startapi 277 million dollar mablag' oldi",
+   "text": "Marlowe startapi Nvidia'dan tashqari boshqa chiplarda sun'iy intellektni ishga tushirish uchun 1.15 milliard dollar bahoda 277 million dollar miqdorida sarmoya jalb qildi.",
+   "orig_title": "Beyond Nvidia: Convoy co-founder and former Microsoft leader raise $277M to rethink AI infrastructure",
+   "link": "https://www.geekwire.com/2026/beyond-nvidia-convoy-co-founder-and-former-microsoft-leader-raise-277m-to-rethink-ai-infrastructure/",
+   "source": "geekwire.com",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Sun'iy intellekt modellarini o'qitishdan ularni kundalik mahsulotlarda ishlatishga o'tish davrida muqobil chiplar va maxsus ma'lumotlar markazlari orqali xarajatlar kamayib, samaradorlik oshishi mumkin.",
+   "image": "https://cdn.geekwire.com/wp-content/uploads/2026/11/marlowe-founders-dan-lewis-kutta-srinivasan.jpg",
+   "domains": [
+    "geekwire.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://www.geekwire.com/2026/beyond-nvidia-convoy-co-founder-and-former-microsoft-leader-raise-277m-to-rethink-ai-infrastructure/",
+    "https://finance.yahoo.com/technology/ai/articles/infinity-raises-15-million-seed-150500491.html"
+   ],
+   "videos": []
   }
  ]
 }
