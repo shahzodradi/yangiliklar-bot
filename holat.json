@@ -344,35 +344,13 @@
   "https://www.telegraphindia.com/science-tech/visualising-music-suno-turns-ai-generated-songs-into-music-videos-with-new-visuals-feature-prnt/cid/2190983": 1795500061.1673725,
   "https://www.neowin.net/news/openai-upgrades-chatgpt-to-gpt-62-but-free-users-will-have-to-wait/": 1795503849.7693202,
   "https://www.indiewire.com/news/breaking-news/ai-film-gods-dont-give-gifts-ineligible-oscars-1235230159/": 1795507278.2729535,
-  "https://vc.ru/ai/3271985-luma-character-swap-insert-dream-machine": 1795514463.885317
+  "https://vc.ru/ai/3271985-luma-character-swap-insert-dream-machine": 1795514463.885317,
+  "https://www.heise.de/en/news/OpenAI-releases-GPT-6-2-for-ChatGPT-11535543.html": 1795518473.3801608,
+  "https://about.fb.com/news/2026/11/researchers-using-meta-open-weight-ai-models-medical-breakthroughs/": 1795518473.3801608,
+  "https://about.fb.com/news/2026/11/introducing-muse-in-the-uk-a-personal-ai-agent-you-control/": 1795518473.3801608
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1795168869.5862103,
-   "title": "Anthropic’s IPO could deliver $156B to charity",
-   "soha": "AI"
-  },
-  {
-   "t": 1795168869.5862103,
-   "title": "Anthropic’s IPO puts AI’s circular financing boom to the test",
-   "soha": "AI"
-  },
-  {
-   "t": 1795172759.6239216,
-   "title": "The UAE is offering $1 million for an AI short film",
-   "soha": "AI tanlov"
-  },
-  {
-   "t": 1795172759.6239216,
-   "title": "Parlak Nesil to Participate in Developing AI and Mining Centers in Uzbekistan",
-   "soha": "AI O'zbekiston"
-  },
-  {
-   "t": 1795172759.6239216,
-   "title": "Hermes Agent's Collective Wisdom feature turns one employee's AI trick into the whole team's skill",
-   "soha": "AI"
-  },
   {
    "t": 1795176101.1063173,
    "title": "Alibaba Cloud expands Malaysia AI investment with new data centre and youth innovation contest",
@@ -847,6 +825,21 @@
    "t": 1795514463.885317,
    "title": "Luma выкатила Character Swap и Insert в Dream Machine: замена актёров и предметов в готовом видео без потери дубля",
    "soha": "AI video"
+  },
+  {
+   "t": 1795518473.3801608,
+   "title": "OpenAI releases GPT-6.2 for ChatGPT",
+   "soha": "AI"
+  },
+  {
+   "t": 1795518473.3801608,
+   "title": "Researchers Are Using Meta’s Open-Weight AI Models to Transform Medicine",
+   "soha": "AI"
+  },
+  {
+   "t": 1795518473.3801608,
+   "title": "Introducing Muse in the UK: A Personal AI Agent You Control",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -854,59 +847,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1795341686.54873,
-   "title": "O‘zbekistonda ChatGPT, Gemini va Claude sun’iy intellekt platformalari yangi alifboga moslashtiriladi",
-   "text": "OpenAI, Google, Anthropic, xAI, DeepSeek, Meta va boshqa kompaniyalarga o‘zbek tilining takomillashtirilgan alifbosiga asoslangan platformalarni joriy etish yuzasidan murojaat qilindi.",
-   "orig_title": "O‘zbekistonda ChatGPT, Gemini va Claude ham yangi alifboga moslashtiriladi",
-   "link": "https://daryo.uz/2026/11/22/ozbekistonda-chatgpt-gemini-va-claude-ham-yangi-alifboga-moslashtiriladi/",
-   "source": "daryo.uz",
-   "soha": "AI O'zbekiston",
-   "baho": 10,
-   "experts": [],
-   "effect": "Sun’iy intellekt platformalarining yangi o‘zbek alifbosiga moslashuvi mamlakatda raqamli xizmatlar va elektron tijorat sifatini oshirishi, shuningdek, mahalliy foydalanuvchilar uchun qulayliklar yaratishi mumkin.",
-   "image": "https://gocdn.daryo.uz/large/2026/11/22/39ee57a296b3dff1a506d3c71210e8590c3ce1415fa09616dc36a7a3f2552fdc.webp",
-   "domains": [
-    "daryo.uz",
-    "cnbc.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://daryo.uz/2026/11/22/ozbekistonda-chatgpt-gemini-va-claude-ham-yangi-alifboga-moslashtiriladi/",
-    "https://www.cnbc.com/2025/11/19/alphabet-stock-gemini-3-ai.html",
-    "https://finance.yahoo.com/markets/stocks/articles/gemini-falls-behind-chatgpt-grok-155145121.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795341686.54873,
-   "title": "GPT-6.2 Astra va Sol modellarining shaffofligi Claude'dan ortda qolmoqda",
-   "text": "OpenAI'ning yangi modellari tezroq javob bersa-da, noaniqliklarni tan olishda kamroq shaffoflik ko'rsatmoqda, Anthropic esa bu borada oldinda bormoqda.",
-   "orig_title": "GPT-6.2 Astra and Sol get to the point faster but score lower on transparency than Claude",
-   "link": "https://the-decoder.com/gpt-6-2-astra-and-sol-get-to-the-point-faster-but-score-lower-on-transparency-than-claude/",
-   "source": "The Decoder",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Sun’iy intellekt modellarining tezroq va qisqaroq javob berishga o‘tishi foydalanuvchilar vaqtini tejashga yordam berishi, biroq shaffoflik va aniqlik ko‘rsatkichlarining pasayishi ma’lumotlarni tekshirishda qiyinchiliklar tug‘dirishi mumkin.",
-   "image": "https://the-decoder.com/wp-content/uploads/2026/11/OpenAI-Logo-1200x670.png",
-   "domains": [
-    "the-decoder.com",
-    "tech.yahoo.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://the-decoder.com/gpt-6-2-astra-and-sol-get-to-the-point-faster-but-score-lower-on-transparency-than-claude/",
-    "https://tech.yahoo.com/ai/copilot/articles/why-microsoft-thinks-smaller-cheaper-231603664.html",
-    "https://finance.yahoo.com/technology/ai/articles/openai-launches-gpt-6-sol-190038195.html"
-   ],
-   "videos": [
-    [
-     "https://x.com/ArtificialAnlys/status/2123236464003588136",
-     "X"
-    ]
-   ]
-  },
   {
    "t": 1795348868.7465935,
    "title": "Jahon banki O‘zbekiston bilan soliq ma'muriyatchiligini isloh qilishni muhokama qildi",
@@ -2133,6 +2073,77 @@
     "https://vc.ru/ai/3271985-luma-character-swap-insert-dream-machine",
     "https://sports.yahoo.com/articles/world-record-sticker-swap-brings-103053794.html",
     "https://www.businessinsider.com/swap-o-matic-the-vending-machine-that-gives-you-what-you-want-for-free-2012-1"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795518473.3801608,
+   "title": "OpenAI ChatGPT uchun GPT-6.2 Sol modelini chiqardi",
+   "text": "OpenAI Plus va undan yuqori obunachilar uchun ChatGPT'ni yangiladi. GPT-6.2 Sol Murakkab so'rovlarni ishonchliroq bajarishga va veb-qidiruvni yaxshilashga mo'ljallangan.",
+   "orig_title": "OpenAI releases GPT-6.2 for ChatGPT",
+   "link": "https://www.heise.de/en/news/OpenAI-releases-GPT-6-2-for-ChatGPT-11535543.html",
+   "source": "heise.de",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Kompaniyaning yangi sun'iy intellekt modeli kundalik suhbatlar va murakkab so'rovlarni bajarishda xatoliklar va gallyutsinatsiyalarni kamaytirishi, shuningdek, xavfsizlik va yosh foydalanuvchilarni himoya qilish darajasini oshirishi mumkin.",
+   "image": "https://heise.cloudimg.io/v7/_www-heise-de_/imgs/18/5/2/0/6/8/7/0/shutterstock_2701071735-e7dc62f2102e3c50.jpg?func=bound&height=1200&org_if_sml=1&q=85&width=1200",
+   "domains": [
+    "heise.de",
+    "theverge.com",
+    "tech.yahoo.com"
+   ],
+   "urls": [
+    "https://www.heise.de/en/news/OpenAI-releases-GPT-6-2-for-ChatGPT-11535543.html",
+    "https://www.theverge.com/ai-artificial-intelligence/1040716/openai-launched-a-chat-specific-version-of-gpt-6-2-sol",
+    "https://tech.yahoo.com/ai/chatgpt/articles/tested-chatgpt-gpt-6-2-064500873.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795518473.3801608,
+   "title": "Tadqiqotchilar tibbiyotni rivojlantirish uchun Meta ochiq vaznli AI modellaridan foydalanishmoqda",
+   "text": "Meta ilmiy kashfiyotlarni tezlashtirish uchun olimlarni Open Source AI For Science Summit sammitida jamladi, unda tadqiqotchilar sun'iy intellektdan qanday foydalanayotganini bo'lishishdi.",
+   "orig_title": "Researchers Are Using Meta’s Open-Weight AI Models to Transform Medicine",
+   "link": "https://about.fb.com/news/2026/11/researchers-using-meta-open-weight-ai-models-medical-breakthroughs/",
+   "source": "Meta Newsroom",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Ochiq vaznli sun'iy intellekt modellarining tibbiyot sohasiga tatbiq etilishi mutaxassislarni virtual reallikda o'qitish, epilepsiya manbalarini aniqlashni yaxshilash va kam uchraydigan kasalliklarni tushunishni tezlashtirishi mumkin.",
+   "image": "https://about.fb.com/wp-content/uploads/2027/11/Researchers-Are-Using-Metas-Open-Weight-AI-Models-to-Transform-Medicine_Header-1.jpg?w=1200",
+   "domains": [
+    "about.fb.com",
+    "businessinsider.com"
+   ],
+   "urls": [
+    "https://about.fb.com/news/2026/11/researchers-using-meta-open-weight-ai-models-medical-breakthroughs/",
+    "https://www.businessinsider.com/where-every-us-governor-stands-ai-data-centers-midterms-2026-10",
+    "https://www.businessinsider.com/college-majors-safest-from-ai-ranked"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795518473.3801608,
+   "title": "Meta Buyuk Britaniyada shaxsiy AI agenti Muse'ni taqdim etdi",
+   "text": "Muse Buyuk Britaniyadagi kattalar uchun foydalanishga topshirildi. Shaxsiy AI agenti foydalanuvchiga maishiy vazifalarni bajarishda va ilovalarni ulashda yordam beradi.",
+   "orig_title": "Introducing Muse in the UK: A Personal AI Agent You Control",
+   "link": "https://about.fb.com/news/2026/11/introducing-muse-in-the-uk-a-personal-ai-agent-you-control/",
+   "source": "Meta Newsroom",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Shaxsiy sun'iy intellekt agentining joriy etilishi foydalanuvchilarning kundalik xaridlar va rejalashtirish ishlarini avtomatlashtirishi hamda chakana savdo va xizmat ko'rsatish bozorida raqobat va qulayliklarni oshirishi mumkin.",
+   "image": "https://about.fb.com/wp-content/uploads/2026/11/England_v2a_4x3.png?w=1200",
+   "domains": [
+    "about.fb.com",
+    "bbc.com",
+    "theguardian.com"
+   ],
+   "urls": [
+    "https://about.fb.com/news/2026/11/introducing-muse-in-the-uk-a-personal-ai-agent-you-control/",
+    "https://www.bbc.com/news/articles/c9gkld2l38y6o",
+    "https://www.theguardian.com/technology/2026/nov/24/meta-launches-muse-uk-ai-agent-do-christmas-shopping"
    ],
    "videos": []
   }
