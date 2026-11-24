@@ -343,40 +343,11 @@
   "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/": 1795496904.665912,
   "https://www.telegraphindia.com/science-tech/visualising-music-suno-turns-ai-generated-songs-into-music-videos-with-new-visuals-feature-prnt/cid/2190983": 1795500061.1673725,
   "https://www.neowin.net/news/openai-upgrades-chatgpt-to-gpt-62-but-free-users-will-have-to-wait/": 1795503849.7693202,
-  "https://www.indiewire.com/news/breaking-news/ai-film-gods-dont-give-gifts-ineligible-oscars-1235230159/": 1795507278.2729535
+  "https://www.indiewire.com/news/breaking-news/ai-film-gods-dont-give-gifts-ineligible-oscars-1235230159/": 1795507278.2729535,
+  "https://vc.ru/ai/3271985-luma-character-swap-insert-dream-machine": 1795514463.885317
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1795165752.5138679,
-   "title": "iQIYI Revives 90-Year-Old Lost Film with NadouPro, Shortlisted for the AI Unit at the Golden Rooster Awards",
-   "soha": "AI tanlov"
-  },
-  {
-   "t": 1795165752.5138679,
-   "title": "From Film Sets to Animated Dramas: How AI Is Reshaping Film Production",
-   "soha": "AI video"
-  },
-  {
-   "t": 1795165752.5138679,
-   "title": "Anthropic rival says companies can (mostly) skip the pricey models",
-   "soha": "AI"
-  },
-  {
-   "t": 1795165752.5138679,
-   "title": "At Nasdaq opening bell, Anthropic CEO recommits to pacing AI development",
-   "soha": "AI"
-  },
-  {
-   "t": 1795165752.5138679,
-   "title": "With the biggest IPO of all time, Anthropic’s ‘good guy’ reputation is on the line",
-   "soha": "AI"
-  },
-  {
-   "t": 1795165752.5138679,
-   "title": "Kuaishou Flags Short-Term Impact as 'Intensifying Competition' Batters Third-Quarter Results",
-   "soha": "AI video"
-  },
   {
    "t": 1795168869.5862103,
    "title": "Anthropic’s IPO could deliver $156B to charity",
@@ -871,6 +842,11 @@
    "t": 1795507278.2729535,
    "title": "AI Film ‘Gods Don’t Give Gifts’ Deemed Ineligible by Academy for Best Animated Feature Oscar",
    "soha": "AI tanlov"
+  },
+  {
+   "t": 1795514463.885317,
+   "title": "Luma выкатила Character Swap и Insert в Dream Machine: замена актёров и предметов в готовом видео без потери дубля",
+   "soha": "AI video"
   }
  ],
  "mavzu": {
@@ -2135,6 +2111,30 @@
      "YouTube"
     ]
    ]
+  },
+  {
+   "t": 1795514463.885317,
+   "title": "Luma Dream Machine yangi funksiyalarni taqdim etdi",
+   "text": "Luma kompaniyasi Dream Machine dasturiga tayyor videolarda aktyorlar va narsalarni almashtirish imkonini beruvchi Character Swap hamda Insert funksiyalarini qo'shdi.",
+   "orig_title": "Luma выкатила Character Swap и Insert в Dream Machine: замена актёров и предметов в готовом видео без потери дубля",
+   "link": "https://vc.ru/ai/3271985-luma-character-swap-insert-dream-machine",
+   "source": "vc.ru",
+   "soha": "AI video",
+   "baho": 9,
+   "experts": [],
+   "effect": "Sun'iy intellekt video tahrirlash jarayonlarini soddalashtirib, reklama va qisqa roliklar ishlab chiqarish vaqtini sezilarli darajada qisqartirishi mumkin.",
+   "image": "https://api.vc.ru/v2.9/cover/fb/c/3271985/1795514458/cover.jpg",
+   "domains": [
+    "vc.ru",
+    "sports.yahoo.com",
+    "businessinsider.com"
+   ],
+   "urls": [
+    "https://vc.ru/ai/3271985-luma-character-swap-insert-dream-machine",
+    "https://sports.yahoo.com/articles/world-record-sticker-swap-brings-103053794.html",
+    "https://www.businessinsider.com/swap-o-matic-the-vending-machine-that-gives-you-what-you-want-for-free-2012-1"
+   ],
+   "videos": []
   }
  ]
 }
