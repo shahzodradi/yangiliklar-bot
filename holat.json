@@ -1,6 +1,5 @@
 {
  "seen": {
-  "https://www.cartoonbrew.com/awards/manchester-animation-festival-genai-ban-in-waves-269431.html": 1794636064.4992228,
   "https://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary/": 1794657675.029715,
   "https://the-decoder.com/anthropic-can-already-retrain-mythos-with-a-fraction-of-the-compute-originally-needed-says-former-researcher-coxon/": 1794657675.029715,
   "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/": 1794657675.029715,
@@ -342,25 +341,11 @@
   "https://uk.news.yahoo.com/creators-stolen-videos-being-altered-055900393.html": 1795496904.665912,
   "https://the-decoder.com/chinese-military-fears-ai-could-let-the-us-find-and-destroy-its-nuclear-missiles/": 1795496904.665912,
   "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/": 1795496904.665912,
-  "https://www.telegraphindia.com/science-tech/visualising-music-suno-turns-ai-generated-songs-into-music-videos-with-new-visuals-feature-prnt/cid/2190983": 1795500061.1673725
+  "https://www.telegraphindia.com/science-tech/visualising-music-suno-turns-ai-generated-songs-into-music-videos-with-new-visuals-feature-prnt/cid/2190983": 1795500061.1673725,
+  "https://www.neowin.net/news/openai-upgrades-chatgpt-to-gpt-62-but-free-users-will-have-to-wait/": 1795503849.7693202
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1795154476.520971,
-   "title": "SI o‘zbek tilida sifatli matn yaratishi uchun 6 mlrd so‘zli korpus Hugging Face platformasiga joylandi",
-   "soha": "AI O'zbekiston"
-  },
-  {
-   "t": 1795154476.520971,
-   "title": "The AI Music 'Revolution' Is Getting Stranger by the Day",
-   "soha": "AI musiqa"
-  },
-  {
-   "t": 1795154476.520971,
-   "title": "Adobe Firefly expands on AI audio generation tool with new features",
-   "soha": "AI video"
-  },
   {
    "t": 1795158402.4482796,
    "title": "Apple is hiring engineers to build its own AI agent",
@@ -910,6 +895,11 @@
    "t": 1795500061.1673725,
    "title": "Visualising music: Suno turns AI-generated songs into music videos with new Visuals feature",
    "soha": "AI musiqa"
+  },
+  {
+   "t": 1795503849.7693202,
+   "title": "OpenAI upgrades ChatGPT to GPT-6.2, but free users will have to wait",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -917,35 +907,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1795330976.5242789,
-   "title": "The Binding of Isaac o'yinining internet rejimida sun'iy intellekt musiqasi aniqlandi",
-   "text": "The Binding of Isaac Repentance+ Online rejimida AI yordamida yaratilgan musiqalar borligi aniqlandi va uni o'yindan olib tashlash ishlari boshlandi.",
-   "orig_title": "The Binding of Isaac: Repentance+ Online mode appears to contain AI generated music, creator working on getting it removed",
-   "link": "https://gonintendo.com/contents/67471-the-binding-of-isaac-repentance-online-mode-appears-to-contain-ai-generated-music",
-   "source": "gonintendo.com",
-   "soha": "AI musiqa",
-   "baho": 8,
-   "experts": [],
-   "effect": "Sun'iy intellekt yordamida yaratilgan musiqalarning chartlarga kiritilmasligi litsenziyasiz kontentlar tarqalishining oldini olishi va mualliflik huquqlarini himoya qilish choralarini kuchaytirishi mumkin.",
-   "image": "https://gonintendo.com/attachments/image/89295/file/medium-19ca6fd43c15d50f903fa1747978cb8b.png",
-   "domains": [
-    "gonintendo.com",
-    "theverge.com",
-    "yahoo.com"
-   ],
-   "urls": [
-    "https://gonintendo.com/contents/67471-the-binding-of-isaac-repentance-online-mode-appears-to-contain-ai-generated-music",
-    "https://www.theverge.com/23912370/google-pixel-8-pro-review-camera-assistant-magic-editor-best-take-audio-eraser",
-    "https://www.yahoo.com/entertainment/music/articles/ai-generated-music-barred-australian-000108610.html"
-   ],
-   "videos": [
-    [
-     "https://x.com/edmundmcmillen/status/2124169167880470745",
-     "X"
-    ]
-   ]
-  },
   {
    "t": 1795341686.54873,
    "title": "O‘zbekistonda ChatGPT, Gemini va Claude sun’iy intellekt platformalari yangi alifboga moslashtiriladi",
@@ -2150,6 +2111,28 @@
    "urls": [
     "https://www.theverge.com/ai-artificial-intelligence/1036415/suno-visuals-ai-generated-video-images-feature",
     "https://finance.yahoo.com/technology/ai/articles/youart-launches-youart-desktop-app-203000795.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795503849.7693202,
+   "title": "OpenAI upgrades ChatGPT to GPT-6.2 for main users",
+   "text": "Following the debut for enterprise users, OpenAI is bringing a conversation-tuned version of GPT-6.2 to ChatGPT's main chat experience.",
+   "orig_title": "OpenAI upgrades ChatGPT to GPT-6.2, but free users will have to wait",
+   "link": "https://www.neowin.net/news/openai-upgrades-chatgpt-to-gpt-62-but-free-users-will-have-to-wait/",
+   "source": "neowin.net",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Qimmatbaho obunaga bog'langan yangi funksiyalar foydalanuvchilarning keng qatlamini cheklab qo'yishi va Meta kabi raqobatchilarning bepul mahsulotlari foyasiga tanlov qilishiga olib kelishi mumkin. Bu holat sun'iy intellekt agentlari bozorida narx siyosati bo'yicha raqobatni yanada kuchaytirishi ehtimoli bor.",
+   "image": null,
+   "domains": [
+    "theverge.com",
+    "tech.yahoo.com"
+   ],
+   "urls": [
+    "https://www.theverge.com/ai-artificial-intelligence/1001681/openai-devday-2026-biggest-news-announcements",
+    "https://tech.yahoo.com/ai/chatgpt/articles/chatgpt-plus-worth-20-compared-134100046.html"
    ],
    "videos": []
   }
