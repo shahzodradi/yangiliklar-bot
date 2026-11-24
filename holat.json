@@ -347,7 +347,7 @@
   "https://www.analyticsinsight.net/news/openai-brings-chat-tuned-gpt-62-sol-to-chatgpt-with-smarter-web-search-and-image-reading": 1795521661.3913379,
   "https://www.detroitnews.com/press-release/story/203359/from-film-sets-to-animated-dramas-how-ai-is-reshaping-film-production/": 1795529019.6448472
  },
- "fails": 0,
+ "fails": 1,
  "sent": [
   {
    "t": 1795187202.6255264,
@@ -820,38 +820,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1795356357.7129755,
-   "title": "GTA 6 uslubidagi sun'iy intellekt rasmlari Instagram'ni egallamoqda",
-   "text": "Foydalanuvchilar o'z rasmlarini GTA 6 uslubidagi videoo'yin posterlariga aylantirib, tarmoqda ommalashtirmoqda. Bu jarayon uchun Gemini va ChatGPT kabi zamonaviy sun'iy intellekt vositalari ishlatilmoqda.",
-   "orig_title": "GTA 6-style AI photos flood Instagram: Gemini and ChatGPT prompts to turn your selfie into Vice City poster",
-   "link": "https://www.msn.com/en-in/news/other/gta-6-style-ai-photos-flood-instagram-gemini-and-chatgpt-prompts-to-turn-your-selfie-into-vice-city-poster/ar-AA2hXie9",
-   "source": "msn.com",
-   "soha": "AI rasm",
-   "baho": 8,
-   "experts": [],
-   "effect": null,
-   "image": null,
-   "domains": [],
-   "urls": [],
-   "videos": []
-  },
-  {
-   "t": 1795356357.7129755,
-   "title": "Sun'iy intellekt modellari xavfsizligini sinovdan o'tkazish qiyinlashmoqda",
-   "text": "METR tashkiloti hisobotiga ko'ra, ilg'or sun'iy intellekt modellari tadqiqot vazifalarida tezkorlik bilan o'smoqda, biroq ularning xavfsizligini o'lchash tobora qiyinlashmoqda.",
-   "orig_title": "AI is getting better faster than experts can reliably test whether new systems are safe, METR warns",
-   "link": "https://the-decoder.com/ai-is-getting-better-faster-than-experts-can-reliably-test-whether-new-systems-are-safe-metr-warns/",
-   "source": "The Decoder",
-   "soha": "AI",
-   "baho": 7,
-   "experts": [],
-   "effect": null,
-   "image": "https://the-decoder.com/wp-content/uploads/2026/06/metr_logo.png",
-   "domains": [],
-   "urls": [],
-   "videos": []
-  },
   {
    "t": 1795359984.6370823,
    "title": "Seedeo Suno, Kling va Veo modellarini ChatGPT hamda Claude uchun qo'shdi",
