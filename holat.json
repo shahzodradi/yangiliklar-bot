@@ -341,7 +341,8 @@
   "https://www.theverge.com/gadgets/1040357/nothing-ear-note-earbuds-ai-recording": 1795496904.665912,
   "https://uk.news.yahoo.com/creators-stolen-videos-being-altered-055900393.html": 1795496904.665912,
   "https://the-decoder.com/chinese-military-fears-ai-could-let-the-us-find-and-destroy-its-nuclear-missiles/": 1795496904.665912,
-  "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/": 1795496904.665912
+  "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/": 1795496904.665912,
+  "https://www.telegraphindia.com/science-tech/visualising-music-suno-turns-ai-generated-songs-into-music-videos-with-new-visuals-feature-prnt/cid/2190983": 1795500061.1673725
  },
  "fails": 0,
  "sent": [
@@ -904,6 +905,11 @@
    "t": 1795496904.665912,
    "title": "A legendary philosopher isn’t buying Anthropic’s consciousness argument",
    "soha": "AI"
+  },
+  {
+   "t": 1795500061.1673725,
+   "title": "Visualising music: Suno turns AI-generated songs into music videos with new Visuals feature",
+   "soha": "AI musiqa"
   }
  ],
  "mavzu": {
@@ -2124,6 +2130,28 @@
      "X"
     ]
    ]
+  },
+  {
+   "t": 1795500061.1673725,
+   "title": "Suno yangi Visuals funksiyasi bilan qo'shiqlarni videolarga aylantiradi",
+   "text": "Suno sun'iy intellekt yordamida foydalanuvchilar yaratgan qo'shiqlarni klip va videolarga aylantiruvchi yangi Visuals funksiyasini taqdim etdi.",
+   "orig_title": "Visualising music: Suno turns AI-generated songs into music videos with new Visuals feature",
+   "link": "https://www.telegraphindia.com/science-tech/visualising-music-suno-turns-ai-generated-songs-into-music-videos-with-new-visuals-feature-prnt/cid/2190983",
+   "source": "telegraphindia.com",
+   "soha": "AI musiqa",
+   "baho": 10,
+   "experts": [],
+   "effect": "Sun'iy intellekt yordamida musiqa uchun avtomatik videokliplar yaratish imkoniyati kontent yaratuvchilar va havaskorlar uchun ijodiy jarayonni sezilarli darajada tezlashtirishi hamda ijtimoiy tarmoqlarda tarqalish ehtimolini oshirishi mumkin.",
+   "image": null,
+   "domains": [
+    "theverge.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://www.theverge.com/ai-artificial-intelligence/1036415/suno-visuals-ai-generated-video-images-feature",
+    "https://finance.yahoo.com/technology/ai/articles/youart-launches-youart-desktop-app-203000795.html"
+   ],
+   "videos": []
   }
  ]
 }
