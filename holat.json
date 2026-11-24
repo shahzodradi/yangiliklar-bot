@@ -1,8 +1,5 @@
 {
  "seen": {
-  "https://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary/": 1794657675.029715,
-  "https://the-decoder.com/anthropic-can-already-retrain-mythos-with-a-fraction-of-the-compute-originally-needed-says-former-researcher-coxon/": 1794657675.029715,
-  "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/": 1794657675.029715,
   "https://www.desmoinesregister.com/press-release/story/150992/the-2026-boston-silicon-valley-ai-film-festival-11-awards-and-the-convergence-of-ai-filmmaking/": 1794664875.3591092,
   "https://www.wired.com/story/beware-the-new-ai-fueled-ransomware-boom/": 1794664875.3591092,
   "https://www.msn.com/en-us/technology/artificial-intelligence/runway-gen-4-could-change-the-ai-video-industry/vi-AA2hrqTD": 1794676080.9185567,
@@ -351,28 +348,8 @@
   "https://www.wired.com/story/ai-solved-maths-most-famous-problem/": 1795521661.3913379,
   "https://www.analyticsinsight.net/news/openai-brings-chat-tuned-gpt-62-sol-to-chatgpt-with-smarter-web-search-and-image-reading": 1795521661.3913379
  },
- "fails": 0,
+ "fails": 1,
  "sent": [
-  {
-   "t": 1795176101.1063173,
-   "title": "Alibaba Cloud expands Malaysia AI investment with new data centre and youth innovation contest",
-   "soha": "AI tanlov"
-  },
-  {
-   "t": 1795176101.1063173,
-   "title": "How can Uzbekistan become a regional IT hub? Key achievements and challenges",
-   "soha": "AI O'zbekiston"
-  },
-  {
-   "t": 1795176101.1063173,
-   "title": "How to create GTA-style images using Gemini and other AI tools",
-   "soha": "AI rasm"
-  },
-  {
-   "t": 1795176101.1063173,
-   "title": "GTA-style photo is just one AI prompt away: Here's how to create yours",
-   "soha": "AI rasm"
-  },
   {
    "t": 1795180243.5463223,
    "title": "Markaziy Osiyoda sun’iy intellekt poygasi: imkoniyatlar va tahdidlar",
@@ -859,30 +836,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1795348868.7465935,
-   "title": "Jahon banki O‘zbekiston bilan soliq ma'muriyatchiligini isloh qilishni muhokama qildi",
-   "text": "O‘zbekiston Soliq qo‘mitasi Jahon banki delegatsiyasi bilan sun'iy intellekt vositalari, soliq xavflarini boshqarish va xalqaro soliqqa tortish masalalari bo‘yicha texnik maslahatlashuvlar o‘tkazdi.",
-   "orig_title": "World Bank Discusses Tax Administration Reform with Uzbekistan",
-   "link": "https://www.uzdaily.uz/en/world-bank-discusses-tax-administration-reform-with-uzbekistan/",
-   "source": "uzdaily.uz",
-   "soha": "AI O'zbekiston",
-   "baho": 10,
-   "experts": [],
-   "effect": "Bu maslahatlashuvlar soliq ma'muriyatchiligini isloh qilish va sun'iy intellekt vositalarini joriy etish orqali jarayonlarni raqamlashtirishni tezlashtirishi mumkin.",
-   "image": "https://www.uzdaily.uz/media/filer_public/c5/26/c5265525-8f89-43d8-86c8-518b8859d016/soliqwb2211_20261122034201.webp",
-   "domains": [
-    "uzdaily.uz",
-    "bbc.com",
-    "techcrunch.com"
-   ],
-   "urls": [
-    "https://www.uzdaily.uz/en/world-bank-discusses-tax-administration-reform-with-uzbekistan/",
-    "https://www.bbc.com/news/resources/idt-4f79d09b-655a-42f8-82b4-9b2ecebab611",
-    "https://techcrunch.com/2024/12/20/uzbekistans-mobile-bank-tbc-bags-37m-to-expand-with-new-ai-and-insurance-products/"
-   ],
-   "videos": []
-  },
   {
    "t": 1795352777.0793417,
    "title": "OpenAI GPT-6.2 Astra va Sol uchun yangi yo'riqnomalarni taqdim etdi",
