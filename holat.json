@@ -342,20 +342,11 @@
   "https://the-decoder.com/chinese-military-fears-ai-could-let-the-us-find-and-destroy-its-nuclear-missiles/": 1795496904.665912,
   "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/": 1795496904.665912,
   "https://www.telegraphindia.com/science-tech/visualising-music-suno-turns-ai-generated-songs-into-music-videos-with-new-visuals-feature-prnt/cid/2190983": 1795500061.1673725,
-  "https://www.neowin.net/news/openai-upgrades-chatgpt-to-gpt-62-but-free-users-will-have-to-wait/": 1795503849.7693202
+  "https://www.neowin.net/news/openai-upgrades-chatgpt-to-gpt-62-but-free-users-will-have-to-wait/": 1795503849.7693202,
+  "https://www.indiewire.com/news/breaking-news/ai-film-gods-dont-give-gifts-ineligible-oscars-1235230159/": 1795507278.2729535
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1795158402.4482796,
-   "title": "Apple is hiring engineers to build its own AI agent",
-   "soha": "AI"
-  },
-  {
-   "t": 1795158402.4482796,
-   "title": "Superhuman pushes its Go assistant everywhere",
-   "soha": "AI"
-  },
   {
    "t": 1795161745.3864126,
    "title": "O‘zbekiston BMT Elektron hukumatni rivojlantirish indeksida 31 pog‘onaga ko‘tarildi",
@@ -900,6 +891,11 @@
    "t": 1795503849.7693202,
    "title": "OpenAI upgrades ChatGPT to GPT-6.2, but free users will have to wait",
    "soha": "AI"
+  },
+  {
+   "t": 1795507278.2729535,
+   "title": "AI Film ‘Gods Don’t Give Gifts’ Deemed Ineligible by Academy for Best Animated Feature Oscar",
+   "soha": "AI tanlov"
   }
  ],
  "mavzu": {
@@ -2135,6 +2131,35 @@
     "https://tech.yahoo.com/ai/chatgpt/articles/chatgpt-plus-worth-20-compared-134100046.html"
    ],
    "videos": []
+  },
+  {
+   "t": 1795507278.2729535,
+   "title": "AI Film ‘Gods Don’t Give Gifts’ Ineligible for Oscar",
+   "text": "The AI film 'Gods Don't Give Gifts' was officially deemed ineligible for consideration in the Best Animated Feature Oscar race.",
+   "orig_title": "AI Film ‘Gods Don’t Give Gifts’ Deemed Ineligible by Academy for Best Animated Feature Oscar",
+   "link": "https://www.indiewire.com/news/breaking-news/ai-film-gods-dont-give-gifts-ineligible-oscars-1235230159/",
+   "source": "indiewire.com",
+   "soha": "AI tanlov",
+   "baho": 9,
+   "experts": [],
+   "effect": "Sun'iy intellekt yordamida yaratilgan kinofilmlarning nufuzli mukofotlardagi maqomi va qoidalari yuzasidan jiddiy bahslar boshlanishi hamda kelgusida maxsus nominatsiyalar joriy etilishi ehtimoli bor.",
+   "image": "https://www.indiewire.com/wp-content/uploads/2026/11/Still-15.png?w=650",
+   "domains": [
+    "indiewire.com",
+    "yahoo.com",
+    "theguardian.com"
+   ],
+   "urls": [
+    "https://www.indiewire.com/news/breaking-news/ai-film-gods-dont-give-gifts-ineligible-oscars-1235230159/",
+    "https://www.yahoo.com/entertainment/movies/articles/ai-film-gods-don-t-214226223.html",
+    "https://www.theguardian.com/commentisfree/2026/oct/20/ai-supposed-to-save-time-opposite-government-uk"
+   ],
+   "videos": [
+    [
+     "https://www.youtube.com/watch?v=Pq_jcHj6914",
+     "YouTube"
+    ]
+   ]
   }
  ]
 }
