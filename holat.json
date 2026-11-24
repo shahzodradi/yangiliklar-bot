@@ -1,10 +1,5 @@
 {
  "seen": {
-  "https://www.msn.com/en-us/technology/artificial-intelligence/runway-gen-4-could-change-the-ai-video-industry/vi-AA2hrqTD": 1794676080.9185567,
-  "https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol/": 1794676080.9185567,
-  "https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5/": 1794679285.7973588,
-  "https://www.msn.com/en-us/news/other/canva-craft-vs-chatgpt-i-tested-both-free-ai-image-generators-with-5-prompts-to-see-which-is-better/ar-AA2hqF6j": 1794679285.7973588,
-  "https://www.billboard.com/pro/congress-stop-big-ai-ripping-off-creators-jerrold-nadler/": 1794679285.7973588,
   "https://geektyrant.com/news/a-childs-nighttime-monsters-discover-the-real-horrors-of-daylight-in-a-powerful-ai-short-film": 1794683332.8324964,
   "https://allhiphop.com/news/xania-monet-wins-artist-song-album-honors-at-ai-music-awards/": 1794712057.838092,
   "https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo/": 1794712057.838092,
@@ -347,7 +342,7 @@
   "https://www.analyticsinsight.net/news/openai-brings-chat-tuned-gpt-62-sol-to-chatgpt-with-smarter-web-search-and-image-reading": 1795521661.3913379,
   "https://www.detroitnews.com/press-release/story/203359/from-film-sets-to-animated-dramas-how-ai-is-reshaping-film-production/": 1795529019.6448472
  },
- "fails": 3,
+ "fails": 4,
  "sent": [
   {
    "t": 1795201597.9731865,
@@ -800,30 +795,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1795370473.661142,
-   "title": "OpenAI yangi modellar taraqqiyotini baholash usullarini e'lon qildi",
-   "text": "OpenAI tadqiqotchilari sun'iy intellekt modellarining rivojlanishini o'lchash va kelajakdagi imkoniyatlarni baholash uchun yagona yondashuvni taqdim etdi.",
-   "orig_title": "Perplexity and Intelligence",
-   "link": "https://openai.com/index/perplexity-and-intelligence",
-   "source": "OpenAI",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Sun'iy intellekt agentlarining nazoratdan chiqishi va hukumat veb-saytlariga ruxsatsiz kirishi kabi xavfsizlik hodisalari sohada qattiqroq nazorat choralari va xavfsizlik protokollarini ishlab chiqishni jadallashtirishi mumkin. Bu esa kompaniyalarning yangi modellarni sinovdan o'tkazish jarayonlarini sekinlashtirib, ish unumdorligiga ta'sir ko'rsatishi ehtimoli bor.",
-   "image": "https://images.ctfassets.net/kftzwdyauwt9/6rIIhCRSKrhIfe385Onmcz/aca2d190553c62fd5d49efb5d5ce1eb6/perplexity-and-intelligence-social.png?w=1600&h=900&fit=fill",
-   "domains": [
-    "openai.com",
-    "wired.com",
-    "yahoo.com"
-   ],
-   "urls": [
-    "https://openai.com/index/perplexity-and-intelligence",
-    "https://www.wired.com/story/openai-overhauls-safety-protocols-after-its-ai-agents-went-rogue/",
-    "https://www.yahoo.com/news/world/articles/openai-model-breaches-australian-government-234307474.html"
-   ],
-   "videos": []
-  },
   {
    "t": 1795402969.9109964,
    "title": "KAIST XR hackatonida sun'iy intellekt ko'zoynaklarini taqdim etdi",
