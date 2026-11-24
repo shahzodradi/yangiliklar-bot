@@ -347,7 +347,9 @@
   "https://vc.ru/ai/3271985-luma-character-swap-insert-dream-machine": 1795514463.885317,
   "https://www.heise.de/en/news/OpenAI-releases-GPT-6-2-for-ChatGPT-11535543.html": 1795518473.3801608,
   "https://about.fb.com/news/2026/11/researchers-using-meta-open-weight-ai-models-medical-breakthroughs/": 1795518473.3801608,
-  "https://about.fb.com/news/2026/11/introducing-muse-in-the-uk-a-personal-ai-agent-you-control/": 1795518473.3801608
+  "https://about.fb.com/news/2026/11/introducing-muse-in-the-uk-a-personal-ai-agent-you-control/": 1795518473.3801608,
+  "https://www.wired.com/story/ai-solved-maths-most-famous-problem/": 1795521661.3913379,
+  "https://www.analyticsinsight.net/news/openai-brings-chat-tuned-gpt-62-sol-to-chatgpt-with-smarter-web-search-and-image-reading": 1795521661.3913379
  },
  "fails": 0,
  "sent": [
@@ -839,6 +841,16 @@
   {
    "t": 1795518473.3801608,
    "title": "Introducing Muse in the UK: A Personal AI Agent You Control",
+   "soha": "AI"
+  },
+  {
+   "t": 1795521661.3913379,
+   "title": "AI Solved Math’s Most Famous Problem. Now Humans Are Struggling to Understand It",
+   "soha": "AI"
+  },
+  {
+   "t": 1795521661.3913379,
+   "title": "OpenAI Brings Chat-Tuned GPT-6.2 Sol to ChatGPT with Smarter Web Search and Image Reading",
    "soha": "AI"
   }
  ],
@@ -2144,6 +2156,59 @@
     "https://about.fb.com/news/2026/11/introducing-muse-in-the-uk-a-personal-ai-agent-you-control/",
     "https://www.bbc.com/news/articles/c9gkld2l38y6o",
     "https://www.theguardian.com/technology/2026/nov/24/meta-launches-muse-uk-ai-agent-do-christmas-shopping"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795521661.3913379,
+   "title": "AI solves Riemann hypothesis",
+   "text": "An Anthropic researcher produced a 17-million-line solution for the Riemann hypothesis using AI, though mathematicians note it will take months to understand.",
+   "orig_title": "AI Solved Math’s Most Famous Problem. Now Humans Are Struggling to Understand It",
+   "link": "https://www.wired.com/story/ai-solved-maths-most-famous-problem/",
+   "source": "Wired AI",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Bu yutuq matematikaga yangicha yondashuvlarni olib kelishi va insonlar tushunishi uchun natijalarni soddalashtirish zaruratini tug‘dirishi mumkin.",
+   "image": "https://media.wired.com/photos/6b04a99395eb5d98cc1eb23a/191:100/w_1280,c_limit/112326-Riemann-hypothesis-ai.jpg",
+   "domains": [
+    "wired.com",
+    "yahoo.com",
+    "techcrunch.com"
+   ],
+   "urls": [
+    "https://www.wired.com/story/ai-solved-maths-most-famous-problem/",
+    "https://www.yahoo.com/news/science/articles/anthropic-mathematician-claims-claude-helped-190054374.html",
+    "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/"
+   ],
+   "videos": [
+    [
+     "https://x.com/__alpoge__/status/2124987173439209561",
+     "X"
+    ]
+   ]
+  },
+  {
+   "t": 1795521661.3913379,
+   "title": "OpenAI rolls out GPT-6.2 Sol",
+   "text": "OpenAI has started rolling out GPT-6.2 Sol to the Chat tab in ChatGPT with improved web search and image reading capabilities.",
+   "orig_title": "OpenAI Brings Chat-Tuned GPT-6.2 Sol to ChatGPT with Smarter Web Search and Image Reading",
+   "link": "https://www.analyticsinsight.net/news/openai-brings-chat-tuned-gpt-62-sol-to-chatgpt-with-smarter-web-search-and-image-reading",
+   "source": "analyticsinsight.net",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Kunduzgi vazifalarni bajarishda sun'iy intellekt imkoniyatlari kengayishi va foydalanuvchilar uchun qidiruv hamda tasvirlarni o‘qish jarayonlari yanada qulaylashishi mumkin.",
+   "image": "https://media.assettype.com/analyticsinsight%2F2026-11-24%2Favvfb6bx%2FOpenAI-Brings-Chat-Tuned-GPT-6.2-Sol-to-ChatGPT-with-Smarter-Web-Search-and-Image-Reading.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+   "domains": [
+    "analyticsinsight.net",
+    "theverge.com",
+    "tech.yahoo.com"
+   ],
+   "urls": [
+    "https://www.analyticsinsight.net/news/openai-brings-chat-tuned-gpt-62-sol-to-chatgpt-with-smarter-web-search-and-image-reading",
+    "https://www.theverge.com/ai-artificial-intelligence/1040716/openai-launched-a-chat-specific-version-of-gpt-6-2-sol",
+    "https://tech.yahoo.com/ai/chatgpt/articles/tested-chatgpt-gpt-6-2-064500873.html"
    ],
    "videos": []
   }
