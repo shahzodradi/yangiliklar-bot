@@ -1,7 +1,5 @@
 {
  "seen": {
-  "https://www.desmoinesregister.com/press-release/story/150992/the-2026-boston-silicon-valley-ai-film-festival-11-awards-and-the-convergence-of-ai-filmmaking/": 1794664875.3591092,
-  "https://www.wired.com/story/beware-the-new-ai-fueled-ransomware-boom/": 1794664875.3591092,
   "https://www.msn.com/en-us/technology/artificial-intelligence/runway-gen-4-could-change-the-ai-video-industry/vi-AA2hrqTD": 1794676080.9185567,
   "https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol/": 1794676080.9185567,
   "https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5/": 1794679285.7973588,
@@ -346,30 +344,11 @@
   "https://about.fb.com/news/2026/11/researchers-using-meta-open-weight-ai-models-medical-breakthroughs/": 1795518473.3801608,
   "https://about.fb.com/news/2026/11/introducing-muse-in-the-uk-a-personal-ai-agent-you-control/": 1795518473.3801608,
   "https://www.wired.com/story/ai-solved-maths-most-famous-problem/": 1795521661.3913379,
-  "https://www.analyticsinsight.net/news/openai-brings-chat-tuned-gpt-62-sol-to-chatgpt-with-smarter-web-search-and-image-reading": 1795521661.3913379
+  "https://www.analyticsinsight.net/news/openai-brings-chat-tuned-gpt-62-sol-to-chatgpt-with-smarter-web-search-and-image-reading": 1795521661.3913379,
+  "https://www.detroitnews.com/press-release/story/203359/from-film-sets-to-animated-dramas-how-ai-is-reshaping-film-production/": 1795529019.6448472
  },
- "fails": 1,
+ "fails": 0,
  "sent": [
-  {
-   "t": 1795180243.5463223,
-   "title": "Markaziy Osiyoda sun’iy intellekt poygasi: imkoniyatlar va tahdidlar",
-   "soha": "AI O'zbekiston"
-  },
-  {
-   "t": 1795180243.5463223,
-   "title": "Signal is blocking Gemini and Siri AI from reading your screen",
-   "soha": "AI"
-  },
-  {
-   "t": 1795183334.803022,
-   "title": "Expanding Possibilities: How Adobe Is Powering a New Era of Creativity",
-   "soha": "AI rasm"
-  },
-  {
-   "t": 1795183334.803022,
-   "title": "Google's latest homepage update pushes its search engine further toward an AI answer engine",
-   "soha": "AI"
-  },
   {
    "t": 1795187202.6255264,
    "title": "Бекзод Муминов: ООН, ЮНЕСКО и МСЭ должны играть важную роль в международном диалоге в сфере ...",
@@ -829,6 +808,11 @@
    "t": 1795521661.3913379,
    "title": "OpenAI Brings Chat-Tuned GPT-6.2 Sol to ChatGPT with Smarter Web Search and Image Reading",
    "soha": "AI"
+  },
+  {
+   "t": 1795529019.6448472,
+   "title": "From Film Sets to Animated Dramas: How AI Is Reshaping Film Production",
+   "soha": "AI tanlov"
   }
  ],
  "mavzu": {
@@ -836,62 +820,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1795352777.0793417,
-   "title": "OpenAI GPT-6.2 Astra va Sol uchun yangi yo'riqnomalarni taqdim etdi",
-   "text": "OpenAI qisqa javoblar va ortiqcha savollarni to'g'rilash uchun mo'ljallangan GPT-6.2 Astra va Sol modellariga yangi prompt shablonlarini chiqardi.",
-   "orig_title": "OpenAI shares new prompting tips for GPT-6.2 Astra and Sol to fix brief answers and unnecessary questions",
-   "link": "https://the-decoder.com/openai-shares-new-prompting-tips-for-gpt-6-2-astra-and-sol-to-fix-brief-answers-and-unnecessary-questions/",
-   "source": "The Decoder",
-   "soha": "AI",
-   "baho": 7,
-   "experts": [
-    {
-     "kim": "Dan Herbatschek",
-     "lavozim": "Bosh direktor",
-     "fikr": "Nvidia Ising kvant fizikasidagi prinsipni amalda ishlatishga yaroqli qilib, tashkilotlarga real biznes qiymatini berdi.",
-     "url": "https://www.businessinsider.com/quantum-computing-stocks-nvidia-ising-ai-xndu-inoq-rgti-qbts-2026-4",
-     "domain": "businessinsider.com"
-    }
-   ],
-   "effect": "Infratuzilma xarajatlari va energiya cheklovlari yirik AI loyihalarini qayta ko'rib chiqishga olib kelishi, shuningdek, yangi texnologiyalar bozor talablariga mos ravishda tarmoqlarni kengaytirishi mumkin.",
-   "image": "https://the-decoder.com/wp-content/uploads/2026/06/openai_logo_chatgpt-2-1200x675.png",
-   "domains": [
-    "the-decoder.com",
-    "cnbc.com",
-    "businessinsider.com"
-   ],
-   "urls": [
-    "https://the-decoder.com/openai-shares-new-prompting-tips-for-gpt-6-2-astra-and-sol-to-fix-brief-answers-and-unnecessary-questions/",
-    "https://www.cnbc.com/2026/04/15/openai-stargate-norway-project-microsoft.html",
-    "https://www.businessinsider.com/quantum-computing-stocks-nvidia-ising-ai-xndu-inoq-rgti-qbts-2026-4"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795352777.0793417,
-   "title": "Tadqiqotchilar sun'iy intellekt ta'minotchilaridagi zaifliklarni aniqladi",
-   "text": "Dragos tadqiqotchilari sun'iy intellekt ta'minot zanjirida jiddiy zaifliklarni aniqlab, yuzlab o'g'irlangan AWS kalitlarini topishdi.",
-   "orig_title": "Security researchers show how cheap AI inference providers steal keys and snoop on users",
-   "link": "https://the-decoder.com/security-researchers-show-how-cheap-ai-inference-providers-steal-keys-and-snoop-on-users/",
-   "source": "The Decoder",
-   "soha": "AI",
-   "baho": 6,
-   "experts": [],
-   "effect": "Arzon AI provayderlaridagi xavfsizlik kamchiliklari va ma'lumotlar sizib chiqishi foydalanuvchilar va kompaniyalarni maxfiylik sozlamalarini jiddiy tekshirishga hamda marshrutlash jarayonlarini nazorat qilishga majbur qilishi mumkin.",
-   "image": "https://the-decoder.com/wp-content/uploads/2026/11/cybersecurity_data_leak-1200x670.png",
-   "domains": [
-    "the-decoder.com",
-    "businessinsider.com",
-    "forbes.com"
-   ],
-   "urls": [
-    "https://the-decoder.com/security-researchers-show-how-cheap-ai-inference-providers-steal-keys-and-snoop-on-users/",
-    "https://www.businessinsider.com/amazon-nvidia-ai-gpu-data-centers-power-shortages-2026-10",
-    "https://www.forbes.com/councils/forbestechcouncil/2026/02/20/how-ai-inference-costs-are-reshaping-the-cloud-economy/"
-   ],
-   "videos": []
-  },
   {
    "t": 1795356357.7129755,
    "title": "GTA 6 uslubidagi sun'iy intellekt rasmlari Instagram'ni egallamoqda",
@@ -2163,6 +2091,22 @@
     "https://www.theverge.com/ai-artificial-intelligence/1040716/openai-launched-a-chat-specific-version-of-gpt-6-2-sol",
     "https://tech.yahoo.com/ai/chatgpt/articles/tested-chatgpt-gpt-6-2-064500873.html"
    ],
+   "videos": []
+  },
+  {
+   "t": 1795529019.6448472,
+   "title": "Xitoy festivalida ilk bor sun'iy intellekt asosidagi filmlar bo'limi namoyish etildi",
+   "text": "Xiamen shahrida o'tgan China Golden Rooster and Hundred Flowers Film Festivali doirasida ilk bor sun'iy intellekt yordamida yaratilgan filmlar bo'limi taqdim etildi.",
+   "orig_title": "From Film Sets to Animated Dramas: How AI Is Reshaping Film Production",
+   "link": "https://www.detroitnews.com/press-release/story/203359/from-film-sets-to-animated-dramas-how-ai-is-reshaping-film-production/",
+   "source": "detroitnews.com",
+   "soha": "AI tanlov",
+   "baho": 10,
+   "experts": [],
+   "effect": null,
+   "image": null,
+   "domains": [],
+   "urls": [],
    "videos": []
   }
  ]
