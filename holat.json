@@ -363,15 +363,11 @@
   "https://openai.com/index/searching-for-distant-planets-with-astra": 1795590149.5808012,
   "https://daryo.uz/2026/11/25/hakerlar-aqsh-razvedka-idoralarining-tizimiga-buzib-kirdi-nyt/": 1795590149.5808012,
   "https://www.msn.com/en-us/news/other/chatgpt-just-got-a-major-gpt-62-upgrade-5-things-to-try-right-now/ar-AA2iaJzs": 1795593666.195283,
-  "https://www.digitaltrends.com/computing/chatgpt-is-getting-a-chat-tuned-gpt-6-2-sol-and-it-can-offer-to-watch-for-a-price-drop/": 1795593666.195283
+  "https://www.digitaltrends.com/computing/chatgpt-is-getting-a-chat-tuned-gpt-6-2-sol-and-it-can-offer-to-watch-for-a-price-drop/": 1795593666.195283,
+  "https://menafn.com/1112018946/Uzbekistan-China-Discuss-AI-And-Digital-Technology-In-Agriculture": 1795597352.7167559
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1795248093.007624,
-   "title": "PRAN-RFL presents platform for emerging AI creators",
-   "soha": "AI tanlov"
-  },
   {
    "t": 1795251955.8930604,
    "title": "Chips can survive the space environment — can their financing?",
@@ -891,6 +887,11 @@
    "t": 1795593666.195283,
    "title": "ChatGPT is getting a chat-tuned GPT-6.2 Sol, and it can offer to watch for a price drop",
    "soha": "AI"
+  },
+  {
+   "t": 1795597352.7167559,
+   "title": "Uzbekistan, China Discuss AI And Digital Technology In Agriculture",
+   "soha": "AI O'zbekiston"
   }
  ],
  "mavzu": {
@@ -898,29 +899,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1795420870.630156,
-   "title": "Elo Elo Group Dolphin AI Film Studio'ni taqdim etdi",
-   "text": "Elo Elo Group Hindiston xalqaro kinofestivalida ijodkorlar uchun sun'iy intellekt yordamida kino ishlab chiqarishni inqilob qiluvchi Dolphin AI Film Studio'ni ishga tushirdi.",
-   "orig_title": "Elo Elo Group launches Dolphin AI Film Studio at IFFI 2026",
-   "link": "https://brandequity.economictimes.indiatimes.com/news/digital/elo-elo-group-launches-dolphin-ai-film-studio-at-iffi-2026/136093103",
-   "source": "brandequity.economictimes.indiatimes.com",
-   "soha": "AI tanlov",
-   "baho": 10,
-   "experts": [],
-   "effect": "Kino va reklama sohasida sun'iy intellekt texnologiyalarining joriy etilishi ishlab chiqarish xarajatlarini qisqartirishi, ammo yosh rassomlar va kelajakdagi rejissyorlarning amaliy tajriba orttirish imkoniyatlarini cheklashi ehtimoli bor.",
-   "image": "https://etimg.etb2bimg.com/thumb/msid-136093103,imgsize-10567259,width-1200,height=627,overlay-etbrandequity,resizemode-75/digital/elo-elo-group-launches-dolphin-ai-film-studio-at-iffi-2026.jpg",
-   "domains": [
-    "brandequity.economictimes.indiatimes.com",
-    "theguardian.com"
-   ],
-   "urls": [
-    "https://brandequity.economictimes.indiatimes.com/news/digital/elo-elo-group-launches-dolphin-ai-film-studio-at-iffi-2026/136093103",
-    "https://www.theguardian.com/film/2026/nov/10/storyboard-artists-ai",
-    "https://www.theguardian.com/film/2026/oct/09/ai-threat-britain-directors-ridley-scott-guy-ritchie"
-   ],
-   "videos": []
-  },
   {
    "t": 1795425005.360213,
    "title": "Google Flow Filmathon tanlovida sun'iy intellekt yordamida yaratilgan filmlar g'olib bo'ldi",
@@ -2562,6 +2540,30 @@
      "X"
     ]
    ]
+  },
+  {
+   "t": 1795597352.7167559,
+   "title": "O‘zbekiston va Xitoy qishloq xo‘jaligida sun’iy intellektni muhokama qildi",
+   "text": "Toshkentda O‘zbekiston va Xitoy vakillari qishloq xo‘jaligida sun’iy intellekt va raqamli texnologiyalarni joriy etish masalalari bo‘yicha muzokaralar o‘tkazdi.",
+   "orig_title": "Uzbekistan, China Discuss AI And Digital Technology In Agriculture",
+   "link": "https://menafn.com/1112018946/Uzbekistan-China-Discuss-AI-And-Digital-Technology-In-Agriculture",
+   "source": "menafn.com",
+   "soha": "AI O'zbekiston",
+   "baho": 10,
+   "experts": [],
+   "effect": "Bu uchrashuv O'zbekiston qishloq xo'jaligiga sun'iy intellekt va raqamli texnologiyalarni joriy etish orqali sohada samaradorlikni oshirishi va Xitoy bilan amaliy hamkorlikni kengaytirishi mumkin.",
+   "image": "https://menafn.com/includes/img/logo.jpg",
+   "domains": [
+    "menafn.com",
+    "theguardian.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://menafn.com/1112018946/Uzbekistan-China-Discuss-AI-And-Digital-Technology-In-Agriculture",
+    "https://www.theguardian.com/environment/live/2026/nov/13/cop31-climate-crisis-talks-turkey-latest-news-updates",
+    "https://finance.yahoo.com/news/forced-labour-allegations-uzbekistan-silk-113031085.html"
+   ],
+   "videos": []
   }
  ]
 }
