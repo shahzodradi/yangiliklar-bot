@@ -1,9 +1,5 @@
 {
  "seen": {
-  "https://finance.yahoo.com/technology/ai/articles/a2e-ai-launches-ai-video-101800541.html": 1794740812.6366203,
-  "https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/": 1794740812.6366203,
-  "https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service/": 1794740812.6366203,
-  "https://allhiphop.com/news/suno-faces-bigger-reservoir-lawsuit-as-ai-claims-top-445-million/": 1794744061.3180876,
   "https://www.wired.com/story/ai-djs-completely-kill-my-groove/": 1794755437.4028902,
   "https://www.wired.com/story/this-ai-tamagotchi-oats-turns-everyday-objects-into-needy-virtual-pets/": 1794755437.4028902,
   "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/": 1794755437.4028902,
@@ -370,18 +366,8 @@
   "https://www.uzdaily.uz/uz/enterprise-uzbekistan-londonda-huquqiy-modelini-taqdim-etdi/": 1795604770.4042807,
   "https://www.uzdaily.uz/en/enterprise-uzbekistan-presents-legal-framework-in-london/": 1795604770.4042807
  },
- "fails": 0,
+ "fails": 1,
  "sent": [
-  {
-   "t": 1795259502.672911,
-   "title": "New open model Inkling 2 Mini thinks in loops to solve problems with fewer words and still runs on a laptop",
-   "soha": "AI"
-  },
-  {
-   "t": 1795262480.6524577,
-   "title": "US technology stocks suffer their worst weekly loss since the pandemic as AI doubts pile up",
-   "soha": "AI"
-  },
   {
    "t": 1795280875.502619,
    "title": "Singapore-India hackathon 2026: Indian students build AI platform to help farmers plan crops based on buyer demand; four teams win S$88,000 in prizes",
@@ -898,148 +884,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1795432009.5032444,
-   "title": "Epic Games tanlovida sun’iy intellektsiz yaratilgan o‘yin yetakchilik qilmoqda",
-   "text": "Epic Games tomonidan tashkil etilgan AI MegaJam tanlovida sun’iy intellekt vositalarisiz yaratilgan baliq otish o‘yini omma ovoz berish jarayonida birinchi o‘rinni egallamoqda.",
-   "orig_title": "Epic's AI MegaJam contest is being dominated by a game made entirely without AI",
-   "link": "https://www.tweaktown.com/news/114783/epics-ai-megajam-contest-is-being-dominated-by-a-game-made-entirely-without-ai/index.html",
-   "source": "tweaktown.com",
-   "soha": "AI tanlov",
-   "baho": 10,
-   "experts": [],
-   "effect": "Sun'iy intellekt tanlovlarida inson qo'li bilan yaratilgan o'yinlarning ustun kelishi va Microsoft'ning ma'lumotlar markazi loyihasidan chiqib ketishi texnologiya bozorida investorlar ishonchiga salbiy ta'sir ko'rsatishi mumkin.",
-   "image": "https://static.tweaktown.com/news/1/1/114783_4_epics-ai-megajam-contest-is-being-dominated-by-game-made-entirely-without_full.jpg?v=1795367153",
-   "domains": [
-    "tweaktown.com",
-    "forbes.com",
-    "theguardian.com"
-   ],
-   "urls": [
-    "https://www.tweaktown.com/news/114783/epics-ai-megajam-contest-is-being-dominated-by-a-game-made-entirely-without-ai/index.html",
-    "https://www.forbes.com/companies/epic-systems/",
-    "https://www.theguardian.com/uk-news/2026/oct/18/microsoft-drops-huge-ai-datacentre-project-in-essex-over-power-supply-concerns"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795432009.5032444,
-   "title": "Eminem qo‘shiqlarini muallifi Suno ustidan sudga da’vo kiritdi",
-   "text": "Eight Mile Style kompaniyasi Suno kompaniyasini Eminem ovozi va qiyofasini ruxsatsiz ishlatganlikda ayblab, 47.7 million dollarlik da’voga 108 ta qo‘shiqni qo‘shdi.",
-   "orig_title": "Eminem co-publisher Eight Mile Style adds 108 allegedly infringing AI tracks to $47.7m Suno lawsuit, calling Suno’s denials ‘false’",
-   "link": "https://www.musicbusinessworldwide.com/eminem-co-publisher-eight-mile-style-adds-108-allegedly-infringing-ai-tracks-to-47-7m-suno-lawsuit-calling-sunos-denials-false/",
-   "source": "musicbusinessworldwide.com",
-   "soha": "AI musiqa",
-   "baho": 9,
-   "experts": [],
-   "effect": "Mualliflik huquqi va ELVIS act qonuni bo'yicha ochilgan yirik sud da'volari sun'iy intellekt musiqiy platformalarining moliyaviy barqarorligiga jiddiy xavf tug'dirishi va kelgusida generativ texnologiyalar faoliyatini cheklashi mumkin.",
-   "image": null,
-   "domains": [
-    "yahoo.com"
-   ],
-   "urls": [
-    "https://www.yahoo.com/entertainment/music/articles/eminem-publisher-files-40m-lawsuit-171540862.html",
-    "https://www.yahoo.com/entertainment/music/articles/elvis-rights-holders-eminems-publisher-204744656.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795432009.5032444,
-   "title": "Suno sun’iy intellekt yordamida video yaratish bozoriga kirdi",
-   "text": "Musiqiy generatsiya vositasi bo‘lgan Suno o‘z faoliyatini kengaytirib, sun’iy intellekt yordamida video yaratish xizmatini ishga tushirdi va yangi hujjatlar taqdim etdi.",
-   "orig_title": "5 things to know about Suno’s move into AI video, the DistroKid documents, and the fight over v6",
-   "link": "https://www.musicbusinessworldwide.com/5-things-to-know-about-sunos-move-into-ai-video-the-distrokid-documents-and-the-fight-over-v6/",
-   "source": "musicbusinessworldwide.com",
-   "soha": "AI video",
-   "baho": 8,
-   "experts": [],
-   "effect": "Musiqa sanoati vakillari va ijodkorlarning sun'iy intellekt kompaniyalariga qarshi birlashishi hamda yirik kontent yaratuvchilarning AI-native formatlarga o'tishi raqamli o'yin-kulgi bozorida keskin o'zgarishlarga sabab bo'lishi mumkin.",
-   "image": null,
-   "domains": [
-    "theverge.com",
-    "businessinsider.com"
-   ],
-   "urls": [
-    "https://www.theverge.com/podcast/1029684/riaa-mitch-glazier-napster-ai-labels-music",
-    "https://www.businessinsider.com/mrbeast-plots-move-into-ai-native-entertainment-2026-4"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795432009.5032444,
-   "title": "SoundCloud sun’iy intellekt yaratgan spam kontentlarga qarshi kurashni boshladi",
-   "text": "SoundCloud platformasi sun’iy intellekt yordamida yaratilgan haddan tashqari ko‘p treklar va spam materiallarga qarshi chora ko‘rib, to‘lovlarni to‘xtatib turishini e'lon qildi.",
-   "orig_title": "SoundCloud cracks down on ‘AI slop, spam, and excessive uploads’ – weeks after striking AI deals with Moises and ElevenLabs",
-   "link": "https://www.musicbusinessworldwide.com/soundcloud-cracks-down-on-ai-slop-spam-and-excessive-uploads-weeks-after-striking-ai-deals-with-moises-and-elevenlabs/",
-   "source": "musicbusinessworldwide.com",
-   "soha": "AI musiqa",
-   "baho": 8,
-   "experts": [],
-   "effect": "Kompaniyalarning qat'iy ofis siyosati va sun'iy intellekt spamlariga qarshi kurashi xodimlar orasida norozilikni kuchaytirib, umumiy unumdorlikning pasayishiga va ishdan sovishiga olib kelishi mumkin.",
-   "image": null,
-   "domains": [
-    "theguardian.com",
-    "businessinsider.com"
-   ],
-   "urls": [
-    "https://www.theguardian.com/business/2026/oct/20/natwest-staff-back-two-days-a-week-policy",
-    "https://www.businessinsider.com/quiet-cracking-warning-signs-work-employees-for-2025-8"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795435272.246094,
-   "title": "Oregon va Virginia shtatlari SpaceX kompaniyasini Grok deepfakalari uchun sudga bermoqda",
-   "text": "Oregon va Virginia shtatlari bosh prokurorlari Elon Musk kompaniyalarini real shaxslar, jumladan bolalarning jinsiy mazmundagi tasvirlariga qarshi zaif himoya choralarini qo'llagani uchun sudga bermoqda.",
-   "orig_title": "States Sue SpaceX Over Grok Deepfakes",
-   "link": "https://www.wired.com/story/states-sue-spacex-over-grok-deepfakes/",
-   "source": "Wired AI",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Bu sud jarayonlari kompaniyaning obro'siga salbiy ta'sir ko'rsatishi va sun'iy intellekt xavfsizligi bo'yicha qat'iyroq qoidalar hamda jarimalar joriy etilishiga olib kelishi mumkin.",
-   "image": "https://media.wired.com/photos/6b00c213fb286bb31d23bec0/191:100/w_1280,c_limit/Security_Virginia%20and%20Oregon%20Sue%20Grok%20Over%20Nonconsensual%20Intimate%20Imagery_v1.jpg",
-   "domains": [
-    "wired.com",
-    "businessinsider.com",
-    "yahoo.com"
-   ],
-   "urls": [
-    "https://www.wired.com/story/states-sue-spacex-over-grok-deepfakes/",
-    "https://www.businessinsider.com/spacex-stock-shareholders-elon-musk-baron-thiel-nvidia-alphabet-pif-2026-8",
-    "https://www.yahoo.com/news/us/articles/grok-deepfakes-nude-arkansas-teen-195155837.html"
-   ],
-   "videos": [
-    [
-     "https://x.com/elonmusk/status/2007570821955363154",
-     "X"
-    ]
-   ]
-  },
-  {
-   "t": 1795435272.246094,
-   "title": "Notable Capital, GIC va Baillie Gifford Anthropic kompaniyasiga yirik sarmoya kiritdi",
-   "text": "Uchta yirik sarmodador Anthropic kompaniyasining IPO oldidan milliardlab dollar mablag' tikishiga turtki bo'lgan omillar bilan o'rtoqlashdi.",
-   "orig_title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
-   "link": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
-   "source": "TechCrunch AI",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Muvaffaqiyatli IPO va ulkan sarmoyalar kompaniyaning bozordagi mavqeini mustahkamlab, sun'iy intellekt bozorida raqobatning yanada keskinlashishiga olib kelishi mumkin.",
-   "image": "https://techcrunch.com/wp-content/uploads/2026/11/antrhopic-openingday-getty.jpg?resize=1200,801",
-   "domains": [
-    "techcrunch.com",
-    "cnbc.com",
-    "businessinsider.com"
-   ],
-   "urls": [
-    "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
-    "https://www.cnbc.com/video/2026/10/26/anthropic-investment-will-be-by-far-the-biggest-return-in-menlos-history-says-partner-matt-murphy.html",
-    "https://www.businessinsider.com/spark-capital-anthropic-s-1-yasmin-razavi-2026-10"
-   ],
-   "videos": []
-  },
   {
    "t": 1795456990.5738983,
    "title": "Amazon Decart AI texnologiyasini sotib oldi",
