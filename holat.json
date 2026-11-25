@@ -356,30 +356,15 @@
   "https://www.uzdaily.uz/ru/uzbekistan-rasshirit-vychislitelnye-moshchnosti-dlia-razvitiia-ii/": 1795586473.6054168,
   "https://www.billboard.com/pro/tidal-bans-ai-music-from-platform/": 1795586473.6054168,
   "https://the-decoder.com/german-researchers-call-for-computer-science-to-reinvent-itself-as-computer-and-ai-science/": 1795586473.6054168,
-  "https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/": 1795586473.6054168
+  "https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/": 1795586473.6054168,
+  "https://www.msn.com/en-us/entertainment/music/the-binding-of-isaac-rebirth-removes-ai-music-after-players-expose-suno-generated-tracks/ar-AA2i7Moq": 1795590149.5808012,
+  "https://www.msn.com/en-us/technology/artificial-intelligence/chatgpt-5-6-fans-mourn-model-s-demise-as-openai-confirms-retirement-date/ar-AA2i8KIQ": 1795590149.5808012,
+  "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/": 1795590149.5808012,
+  "https://openai.com/index/searching-for-distant-planets-with-astra": 1795590149.5808012,
+  "https://daryo.uz/2026/11/25/hakerlar-aqsh-razvedka-idoralarining-tizimiga-buzib-kirdi-nyt/": 1795590149.5808012
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1795240884.5004683,
-   "title": "Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.",
-   "soha": "AI"
-  },
-  {
-   "t": 1795240884.5004683,
-   "title": "Advancing Science Together: Highlights From the Open Source AI For Science Summit",
-   "soha": "AI"
-  },
-  {
-   "t": 1795244548.1798391,
-   "title": "Students compete to improve campus life using AI",
-   "soha": "AI tanlov"
-  },
-  {
-   "t": 1795244548.1798391,
-   "title": "Signal blocks screenshots on iOS 27 and Android to stop AI agents from reading private chats",
-   "soha": "AI"
-  },
   {
    "t": 1795248093.007624,
    "title": "PRAN-RFL presents platform for emerging AI creators",
@@ -869,6 +854,31 @@
    "t": 1795586473.6054168,
    "title": "Maple raises $5.3M to build AI products that protect your data, even from itself",
    "soha": "AI"
+  },
+  {
+   "t": 1795590149.5808012,
+   "title": "The Binding of Isaac Rebirth removes AI music after players expose Suno-generated tracks",
+   "soha": "AI musiqa"
+  },
+  {
+   "t": 1795590149.5808012,
+   "title": "ChatGPT-5.6 fans mourn model’s demise as OpenAI confirms retirement date",
+   "soha": "AI"
+  },
+  {
+   "t": 1795590149.5808012,
+   "title": "Meta brings its Muse AI assistant directly into Instagram DMs",
+   "soha": "AI"
+  },
+  {
+   "t": 1795590149.5808012,
+   "title": "Searching for distant planets with Astra",
+   "soha": "AI"
+  },
+  {
+   "t": 1795590149.5808012,
+   "title": "Hakerlar AQSH razvedka idoralarining tizimiga buzib kirdi — NYT",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -876,35 +886,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1795413691.5492532,
-   "title": "OpenAI bosh olimining sun'iy intellekt taraqqiyotini cheklash bo'yicha g'oyalari",
-   "text": "OpenAI bosh olimi sun'iy intellekt taraqqiyotini cheklash va uning tezligini o'lchash usullari haqida o'z fikrlarini bildirdi.",
-   "orig_title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
-   "link": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
-   "source": "TechCrunch AI",
-   "soha": "AI",
-   "baho": 7,
-   "experts": [],
-   "effect": "Sun'iy intellektni rivojlantirish tezligini cheklash bo'yicha umumiy standartlar va o'lchovlar joriy etilishi texnologiya bozorida xavfsizlik talablarini kuchaytirishi mumkin.",
-   "image": "https://techcrunch.com/wp-content/uploads/2026/05/openai-logo-code-background.jpg?resize=1200,798",
-   "domains": [
-    "techcrunch.com",
-    "wired.com",
-    "yahoo.com"
-   ],
-   "urls": [
-    "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
-    "https://www.wired.com/story/wired-yearbook-2026/",
-    "https://www.yahoo.com/entertainment/movies/articles/luca-guadagnino-artificial-details-openai-181500249.html"
-   ],
-   "videos": [
-    [
-     "https://x.com/sama/status/2124551594691932405",
-     "X"
-    ]
-   ]
-  },
   {
    "t": 1795420870.630156,
    "title": "Elo Elo Group Dolphin AI Film Studio'ni taqdim etdi",
@@ -2405,6 +2386,117 @@
     "https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/",
     "https://www.theguardian.com/technology/2026/oct/26/anthropics-claude-ai-model-accessed-georgia-voter-data-in-us",
     "https://finance.yahoo.com/quote/AIQ/"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795590149.5808012,
+   "title": "The Binding of Isaac Rebirth o'yindan AI musiqani olib tashladi",
+   "text": "O'yinchilar Suno orqali yaratilgan treklar qo'shilganini aniqlagach, The Binding of Isaac Rebirth o'yinidan AI musiqa olib tashlandi.",
+   "orig_title": "The Binding of Isaac Rebirth removes AI music after players expose Suno-generated tracks",
+   "link": "https://www.msn.com/en-us/entertainment/music/the-binding-of-isaac-rebirth-removes-ai-music-after-players-expose-suno-generated-tracks/ar-AA2i7Moq",
+   "source": "msn.com",
+   "soha": "AI musiqa",
+   "baho": 9,
+   "experts": [],
+   "effect": "O'yinlarga sun'iy intellekt yordamida yaratilgan kontentni bildirmasdan qo'shish iste'molchilarning qattiq noroziligiga, platformalarda past reytinglar va pulni qaytarib berish talablariga sabab bo'lishi mumkin.",
+   "image": null,
+   "domains": [
+    "tech.yahoo.com"
+   ],
+   "urls": [
+    "https://tech.yahoo.com/gaming/articles/binding-isaac-dev-removes-undisclosed-234206711.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795590149.5808012,
+   "title": "OpenAI GPT-5.6 modelini nafaqaga chiqarish sanasini e'lon qildi",
+   "text": "OpenAI GPT-6.2 tarqatilishi davomida GPT-5.6 modelini yopishini tasdiqladi, foydalanuvchilar esa yangi versiyadan noroziligini bildirishdi.",
+   "orig_title": "ChatGPT-5.6 fans mourn model’s demise as OpenAI confirms retirement date",
+   "link": "https://www.msn.com/en-us/technology/artificial-intelligence/chatgpt-5-6-fans-mourn-model-s-demise-as-openai-confirms-retirement-date/ar-AA2i8KIQ",
+   "source": "msn.com",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Mashhur sun'iy intellekt modellarining yopilishi foydalanuvchilarning obunalarini bekor qilishiga va muayyan tadqiqotlar uchun imkoniyatlar qisqarishiga olib kelishi mumkin.",
+   "image": null,
+   "domains": [
+    "tech.yahoo.com"
+   ],
+   "urls": [
+    "https://tech.yahoo.com/ai/chatgpt/articles/openai-sets-retirement-date-gpt-125859089.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795590149.5808012,
+   "title": "Meta Muse AI yordamchisini Instagram DM ga qo'shdi",
+   "text": "Meta foydalanuvchilarga ilovalar o'rtasida o'tirmasdan to'g'ridan-to'g'ri Instagram xabarlarida Muse AI agenti bilan muloqot qilish imkonini berdi.",
+   "orig_title": "Meta brings its Muse AI assistant directly into Instagram DMs",
+   "link": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Sun'iy intellekt yordamida obunani bekor qilganlarni kuzatish funksiyasi platformada foydalanuvchilar o'rtasida salbiy his-tuyg'ular va tushunmovchiliklarni keltirib chiqarishi mumkin edi.",
+   "image": "https://techcrunch.com/wp-content/uploads/2025/11/MuseCharm.png?w=1200",
+   "domains": [
+    "techcrunch.com",
+    "businessinsider.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
+    "https://www.businessinsider.com/muse-ad-instagram-see-who-unfollowed-you-2026-10"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795590149.5808012,
+   "title": "Astra yordamida yangi ekzoplanetalar qidirilmoqda",
+   "text": "Ikki havaskor astronom NASA kosmik teleskoplarining ochiq ma'lumotlaridan foydalanib potentsial ekzoplanetalarni topishdi.",
+   "orig_title": "Searching for distant planets with Astra",
+   "link": "https://openai.com/index/searching-for-distant-planets-with-astra",
+   "source": "OpenAI",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Sun'iy intellekt vositalarining kosmik ma'lumotlarni tahlil qilishda ishlatilishi yangi eksayyorikalarni topish jarayonini tezlashtirishi va havaskor tadqiqotchilarga ham katta imkoniyatlar ochishi mumkin.",
+   "image": "https://images.ctfassets.net/kftzwdyauwt9/318YLaAKlMKQFzOdMutjeX/8b6e4e516fd1a7894c97318838f43a0f/searching-for-distant-planets-with-astra-social.png?w=1600&h=900&fit=fill",
+   "domains": [
+    "openai.com",
+    "theguardian.com"
+   ],
+   "urls": [
+    "https://openai.com/index/searching-for-distant-planets-with-astra",
+    "https://www.theguardian.com/technology/2026/oct/14/openai-london-staff-earnings-2million-per-person"
+   ],
+   "videos": [
+    [
+     "https://vimeo.com/1248489014",
+     "Vimeo"
+    ]
+   ]
+  },
+  {
+   "t": 1795590149.5808012,
+   "title": "Hakerlar AQSH razvedka idoralariga kirdi",
+   "text": "Kiberhujumlar xitoylik muhandis yaratgan Artex nomli sun'iy intellekt vositasi yordamida amalga oshirilgani taxmin qilinmoqda.",
+   "orig_title": "Hakerlar AQSH razvedka idoralarining tizimiga buzib kirdi — NYT",
+   "link": "https://daryo.uz/2026/11/25/hakerlar-aqsh-razvedka-idoralarining-tizimiga-buzib-kirdi-nyt/",
+   "source": "daryo.uz",
+   "soha": "AI",
+   "baho": 6,
+   "experts": [],
+   "effect": "Sun'iy intellektga asoslangan kiberhujum vositalarining rivojlanishi davlat idoralari va yirik kompaniyalar xavfsizligiga jiddiy tahdid solib, kiberxurujlar tezligi va ko'lamini keskin oshirishi mumkin.",
+   "image": "https://gocdn.daryo.uz/large/2026/11/25/1a6db048e4c2b319e6044c248532693f566787ec0ccef517bba077be6bec03cf.webp",
+   "domains": [
+    "daryo.uz",
+    "yahoo.com"
+   ],
+   "urls": [
+    "https://daryo.uz/2026/11/25/hakerlar-aqsh-razvedka-idoralarining-tizimiga-buzib-kirdi-nyt/",
+    "https://www.yahoo.com/news/us/articles/artex-know-fbis-recent-ai-225858088.html"
    ],
    "videos": []
   }
