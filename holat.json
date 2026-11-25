@@ -366,25 +366,12 @@
   "https://www.digitaltrends.com/computing/chatgpt-is-getting-a-chat-tuned-gpt-6-2-sol-and-it-can-offer-to-watch-for-a-price-drop/": 1795593666.195283,
   "https://menafn.com/1112018946/Uzbekistan-China-Discuss-AI-And-Digital-Technology-In-Agriculture": 1795597352.7167559,
   "https://www.uzdaily.uz/en/uzbekistan-expands-digitalisation-of-healthcare-system/": 1795600884.5654054,
-  "https://wccftech.com/nvidia-quietly-releases-open-weights-for-nemotron-labs-image-30b-a3b/": 1795600884.5654054
+  "https://wccftech.com/nvidia-quietly-releases-open-weights-for-nemotron-labs-image-30b-a3b/": 1795600884.5654054,
+  "https://www.uzdaily.uz/uz/enterprise-uzbekistan-londonda-huquqiy-modelini-taqdim-etdi/": 1795604770.4042807,
+  "https://www.uzdaily.uz/en/enterprise-uzbekistan-presents-legal-framework-in-london/": 1795604770.4042807
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1795255325.7332647,
-   "title": "YourStory launches voice AI hackathon with Rs 8 lakh prize pool in collaboration with Google Cloud India",
-   "soha": "AI tanlov"
-  },
-  {
-   "t": 1795255325.7332647,
-   "title": "Bytedance argues most AI training phases are unnecessary and backs it up with a competitive open model",
-   "soha": "AI"
-  },
-  {
-   "t": 1795255325.7332647,
-   "title": "China’s Kuaishou slumps to record low after weak Q3 results",
-   "soha": "AI video"
-  },
   {
    "t": 1795259502.672911,
    "title": "New open model Inkling 2 Mini thinks in loops to solve problems with fewer words and still runs on a laptop",
@@ -894,6 +881,16 @@
    "t": 1795600884.5654054,
    "title": "NVIDIA Releases Open Weights For Nemotron-Labs-Image-30B-A3B, An Autoregressive Image Generator That Outpaces GPT Image 2 And Only Needs 3B Active Parameters",
    "soha": "AI rasm"
+  },
+  {
+   "t": 1795604770.4042807,
+   "title": "Enterprise Uzbekistan Londonda huquqiy modelini taqdim etdi",
+   "soha": "AI O'zbekiston"
+  },
+  {
+   "t": 1795604770.4042807,
+   "title": "Enterprise Uzbekistan presents legal framework in London",
+   "soha": "AI O'zbekiston"
   }
  ],
  "mavzu": {
@@ -2589,6 +2586,52 @@
     "https://wccftech.com/nvidia-quietly-releases-open-weights-for-nemotron-labs-image-30b-a3b/",
     "https://www.theguardian.com/technology/2026/nov/09/nvidia-jensen-huang-us-china-donald-trump-spy",
     "https://www.theguardian.com/technology/2026/oct/14/nvidia-donates-to-uk-ai-safety-research"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795604770.4042807,
+   "title": "Enterprise Uzbekistan Londonda huquqiy modelini taqdim etdi",
+   "text": "Enterprise Uzbekistan Londondagi biznes tadbirlarida huquqiy modeli, sun’iy intellekt uchun regulyator sinov maydonchasi va xalqaro hamkorlik imkoniyatlarini tanishtirdi.",
+   "orig_title": "Enterprise Uzbekistan Londonda huquqiy modelini taqdim etdi",
+   "link": "https://www.uzdaily.uz/uz/enterprise-uzbekistan-londonda-huquqiy-modelini-taqdim-etdi/",
+   "source": "uzdaily.uz",
+   "soha": "AI O'zbekiston",
+   "baho": 10,
+   "experts": [],
+   "effect": "Bu tashabbus Buyuk Britaniya va xalqaro kompaniyalarning O‘zbekiston bozoriga kirishini osonlashtirishi, sun’iy intellekt va autsorsing sohalarida investitsiyalar oqimini oshirishi mumkin.",
+   "image": "https://www.uzdaily.uz/media/filer_public/59/87/59875745-f64c-451f-9a4d-5efc362a29ad/enterpriseuzbekistan_20261125083119.webp",
+   "domains": [
+    "uzdaily.uz",
+    "cnbc.com"
+   ],
+   "urls": [
+    "https://www.uzdaily.uz/uz/enterprise-uzbekistan-londonda-huquqiy-modelini-taqdim-etdi/",
+    "https://www.cnbc.com/2025/06/09/uks-fca-teams-up-with-nvidia-to-let-banks-experiment-with-ai.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795604770.4042807,
+   "title": "Enterprise Uzbekistan presents legal framework in London",
+   "text": "Enterprise Uzbekistan has introduced its legal framework and AI regulatory sandbox to British and international companies at two business events in London.",
+   "orig_title": "Enterprise Uzbekistan presents legal framework in London",
+   "link": "https://www.uzdaily.uz/en/enterprise-uzbekistan-presents-legal-framework-in-london/",
+   "source": "uzdaily.uz",
+   "soha": "AI O'zbekiston",
+   "baho": 10,
+   "experts": [],
+   "effect": "Yuridik texnologiyalar bozorida raqobat kuchayishi, sun'iy intellekt xatolarini kamaytirish va yuridik firmalar uchun ma'lumotlar bazalariga kirish imkoniyatlari kengayishi ehtimoli bor.",
+   "image": "https://www.uzdaily.uz/media/filer_public/59/87/59875745-f64c-451f-9a4d-5efc362a29ad/enterpriseuzbekistan_20261125083119.webp",
+   "domains": [
+    "uzdaily.uz",
+    "finance.yahoo.com",
+    "businessinsider.com"
+   ],
+   "urls": [
+    "https://www.uzdaily.uz/en/enterprise-uzbekistan-presents-legal-framework-in-london/",
+    "https://finance.yahoo.com/quote/HPE/",
+    "https://www.businessinsider.com/legora-legal-research-duopoly-lexisnexis-westlaw-2026-9"
    ],
    "videos": []
   }
