@@ -1,6 +1,5 @@
 {
  "seen": {
-  "https://allhiphop.com/news/exclusive-suno-faces-demand-to-open-new-ai-models-to-copyright-discovery/": 1794769351.206209,
   "https://wersm.com/adobe-firefly-ai-creative-studio-agents/": 1794798318.1396794,
   "https://openai.com/index/step-toward-defining-the-standard-model": 1794798318.1396794,
   "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china": 1794798318.1396794,
@@ -366,9 +365,13 @@
   "https://daryo.uz/en/2026/11/25/uzbekistan-may-introduce-ethical-guidelines-for-artificial-intelligence-into-law/": 1795619103.841279,
   "https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions": 1795619103.841279,
   "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/": 1795619103.841279,
-  "https://the-decoder.com/prismml-squeezes-an-agent-based-coding-model-with-27-billion-parameters-into-5-9-gb/": 1795619103.841279
+  "https://the-decoder.com/prismml-squeezes-an-agent-based-coding-model-with-27-billion-parameters-into-5-9-gb/": 1795619103.841279,
+  "https://www.gazeta.uz/ru/2026/11/25/ai-shermatov-uzbekistan/": 1795633381.3085434,
+  "https://www.billboard.com/pro/the-chicks-willie-colon-join-ai-music-lawsuit-against-suno/": 1795633381.3085434,
+  "https://the-decoder.com/openai-wants-companies-to-trust-it-with-sensitive-work-by-promising-not-to-look-at-their-data/": 1795633381.3085434,
+  "https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal": 1795633381.3085434
  },
- "fails": 2,
+ "fails": 0,
  "sent": [
   {
    "t": 1795288058.93629,
@@ -894,6 +897,26 @@
    "t": 1795619103.841279,
    "title": "PrismML shrinks a 54 GB language model to 5.9 GB by reducing every weight to just three possible values",
    "soha": "AI"
+  },
+  {
+   "t": 1795633381.3085434,
+   "title": "Чипы Nvidia, «зелёные» дата-центры и этика ИИ. О чём глава Минцифры рассказал депутатам",
+   "soha": "AI O'zbekiston"
+  },
+  {
+   "t": 1795633381.3085434,
+   "title": "The Chicks & Willie Colón Join AI Music Lawsuit Against Suno: ‘Misappropriated Identities’",
+   "soha": "AI musiqa"
+  },
+  {
+   "t": 1795633381.3085434,
+   "title": "OpenAI wants companies to trust it with sensitive work by promising not to look at their data",
+   "soha": "AI"
+  },
+  {
+   "t": 1795633381.3085434,
+   "title": "Nothing offers a full look at its AI earbuds and charging case",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -901,95 +924,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1795456990.5738983,
-   "title": "Amazon Decart AI texnologiyasini sotib oldi",
-   "text": "Amazon kompaniyasi Trainium chiplarini sotishga tayyorgarlik ko'rish maqsadida Decart kompaniyasining AI optimizatsiya texnologiyasi va tadqiqot guruhini 7.5 milliard dollarga sotib oldi.",
-   "orig_title": "Amazon snaps up Decart’s AI optimization tech for $7.5B as it prepares to sell Trainium chips",
-   "link": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
-   "source": "TechCrunch AI",
-   "soha": "AI",
-   "baho": 9,
-   "experts": [],
-   "effect": null,
-   "image": "https://techcrunch.com/wp-content/uploads/2024/12/Decart-Founders-Dean-Leitersdorf-CEO-and-Moshe-Shalev-CPO.jpg?resize=1200,800",
-   "domains": [],
-   "urls": [],
-   "videos": []
-  },
-  {
-   "t": 1795456990.5738983,
-   "title": "Jensen Huang Nvidia bosh direktori lavozimiga qaytdi",
-   "text": "Nvidia direktorlar kengashi Jensen Huangni iste'foga chiqqanidan ikki hafta o'tib bir ovozdan kompaniya prezidenti va bosh direktori lavozimiga qayta tikladi.",
-   "orig_title": "Jensen Huang Is Back as Nvidia CEO",
-   "link": "https://www.wired.com/story/jensen-huang-is-back-as-nvidia-ceo/",
-   "source": "Wired AI",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": null,
-   "image": "https://media.wired.com/photos/6b04495d307e146147156b9d/191:100/w_1280,c_limit/GettyImages-2266718431.jpg",
-   "domains": [],
-   "urls": [],
-   "videos": [
-    [
-     "https://x.com/elonmusk/status/2121345211959804234",
-     "X"
-    ],
-    [
-     "https://x.com/garrytan/status/2121462697787342932",
-     "X"
-    ]
-   ]
-  },
-  {
-   "t": 1795456990.5738983,
-   "title": "Z.ai yangi 750B bayroqdor modelini taqdim etdi",
-   "text": "Z.ai o'zining yangi GLM-5.4 modelini halqa arxitekturasiga o'tkazdi, bu esa 750 milliard parametli modelga kattaroq modellar bilan raqobat qilish imkonini beradi.",
-   "orig_title": "Z.ai follows OpenAI into loop transformer territory with its new 750B flagship model",
-   "link": "https://the-decoder.com/z-ai-follows-openai-into-loop-transformer-territory-with-its-new-750b-flagship-model/",
-   "source": "The Decoder",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": null,
-   "image": "https://the-decoder.com/wp-content/uploads/2026/06/zhipu-ai-logo-wall-nano-banana-pro.jpg",
-   "domains": [],
-   "urls": [],
-   "videos": []
-  },
-  {
-   "t": 1795456990.5738983,
-   "title": "GPT-6.2 Astra murakkab matematik teoremani hal qildi",
-   "text": "OpenAI kompaniyasining GPT-6.2 Astra modeli Smoktunowicz gap teoremasining mashinada tekshiriladigan ilk isbotini mustaqil ravishda taqdim etdi.",
-   "orig_title": "GPT-6.2 Astra solved a math theorem no other AI could crack, then invented its own proof strategy",
-   "link": "https://the-decoder.com/gpt-6-2-astra-solved-a-math-theorem-no-other-ai-could-crack-then-invented-its-own-proof-strategy/",
-   "source": "The Decoder",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": null,
-   "image": "https://the-decoder.com/wp-content/uploads/2026/11/gpt_lean_proof.png",
-   "domains": [],
-   "urls": [],
-   "videos": []
-  },
-  {
-   "t": 1795456990.5738983,
-   "title": "Sierra kompaniyasi 30 milliard dollarlik bahoga erishdi",
-   "text": "Mijozlarga xizmat ko'rsatish sun'iy intellekt xizmatlarini taqdim etuvchi Sierra kompaniyasi F raundida 1.75 milliard dollar mablag' yig'ib, o'z bahosini 30 milliard dollarga yetkazdi.",
-   "orig_title": "Sierra doubles valuation to $30B within six months as demand for AI in CX takes off",
-   "link": "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/",
-   "source": "TechCrunch AI",
-   "soha": "AI",
-   "baho": 7,
-   "experts": [],
-   "effect": null,
-   "image": "https://techcrunch.com/wp-content/uploads/2022/10/AP22166762816752.jpg?w=1200",
-   "domains": [],
-   "urls": [],
-   "videos": []
-  },
   {
    "t": 1795460602.959582,
    "title": "Jensen Huang Nvidia kompaniyasiga bosh direktor sifatida qaytdi",
@@ -2599,6 +2533,129 @@
     [
      "https://vimeo.com/1249622614",
      "Vimeo"
+    ]
+   ]
+  },
+  {
+   "t": 1795633381.3085434,
+   "title": "O‘zbekiston sun’iy intellekt infratuzilmasiga 70 million dollar yo‘naltiradi",
+   "text": "O‘zbekiston 2027-yilda sun’iy intellekt hisoblash infratuzilmasini kengaytirish uchun yana 70 million dollar ajratishni rejalashtirmoqda. Bu haqda raqamli texnologiyalar vaziri deputatlarga ma'lum qildi.",
+   "orig_title": "Чипы Nvidia, «зелёные» дата-центры и этика ИИ. О чём глава Минцифры рассказал депутатам",
+   "link": "https://www.gazeta.uz/ru/2026/11/25/ai-shermatov-uzbekistan/",
+   "source": "gazeta.uz",
+   "soha": "AI O'zbekiston",
+   "baho": 10,
+   "experts": [],
+   "effect": "Hisoblash quvvatlarining bosqichma-bosqich kengaytirilishi va yirik ma'lumotlar markazlarining qurilishi sun'iy intellekt loyihalarini amalga oshirishni tezlashtirishi mumkin. Yashil energiyaga asoslangan infratuzilmaning rivojlanishi esa energiya samaradorligini oshirishi ehtimoli bor.",
+   "image": "https://www.gazeta.uz/media/img/2026/11/tjhdbpo89i1qe0LYceL17956214023196_211700_og.webp?r=1795621581",
+   "domains": [
+    "gazeta.uz",
+    "businessinsider.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://www.gazeta.uz/ru/2026/11/25/ai-shermatov-uzbekistan/",
+    "https://www.businessinsider.com/college-majors-safest-from-ai-ranked",
+    "https://finance.yahoo.com/quote/TCAI/holdings/"
+   ],
+   "videos": [
+    [
+     "https://www.youtube.com/watch?v=BwKGPlBhqrg",
+     "YouTube"
+    ]
+   ]
+  },
+  {
+   "t": 1795633381.3085434,
+   "title": "The Chicks va Willie Colón Suno kompaniyasiga qarshi sud da’vosiga qo‘shildi",
+   "text": "Taniqli san’atkorlar Suno sun’iy intellekt qo‘shiq generatorini o‘z shaxsiyatini ruxsatsiz o‘zlashtirganlikda ayblab, mualliflik huquqi bo‘yicha sud da’vosiga rasman qo‘shilishdi.",
+   "orig_title": "The Chicks & Willie Colón Join AI Music Lawsuit Against Suno: ‘Misappropriated Identities’",
+   "link": "https://www.billboard.com/pro/the-chicks-willie-colon-join-ai-music-lawsuit-against-suno/",
+   "source": "billboard.com",
+   "soha": "AI musiqa",
+   "baho": 10,
+   "experts": [],
+   "effect": "Litsenziyalangan sun'iy intellekt modellarining joriy etilishi musiqa sanoatida huquqiy muammolarni kamaytirishi va yangi daromad manbalarini ochishi mumkin. Bu kabi kelishuvlar ijodkorlar va texnologiya kompaniyalari o'rtasidagi hamkorlikni kuchaytirish ehtimoli bor.",
+   "image": "https://www.billboard.com/wp-content/uploads/2026/09/P1071SQD-e1790825148246.jpg?w=1024",
+   "domains": [
+    "billboard.com",
+    "theguardian.com",
+    "yahoo.com"
+   ],
+   "urls": [
+    "https://www.billboard.com/pro/the-chicks-willie-colon-join-ai-music-lawsuit-against-suno/",
+    "https://www.theguardian.com/us-news/ng-interactive/2026/nov/09/black-women-girls-los-angeles-homicides-violence",
+    "https://www.yahoo.com/entertainment/music/articles/ai-music-heavyweight-suno-partners-211119263.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795633381.3085434,
+   "title": "OpenAI maxfiy ma’lumotlar bilan ishlaydigan Private Inference funksiyasini sinovdan o‘tkazmoqda",
+   "text": "OpenAI kompaniyalarga o‘zining eng kuchli modellarida ma’lumotlarni ko‘rish imkoniyatini bermasdan turib so‘rovlar yuborish imkonini beruvchi yangi xususiyatni sinovdan o‘tkazmoqda.",
+   "orig_title": "OpenAI wants companies to trust it with sensitive work by promising not to look at their data",
+   "link": "https://the-decoder.com/openai-wants-companies-to-trust-it-with-sensitive-work-by-promising-not-to-look-at-their-data/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Maxfiylik va xavfsizlik funksiyalarining joriy etilishi korporativ mijozlarning sun'iy intellekt texnologiyalariga bo'lgan ishonchini oshirishi mumkin. Bu esa nozik ma'lumotlar bilan ishlaydigan tashkilotlar o'rtasida sun'iy intellekt yechimlarini ommalashtirish ehtimoli bor.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/10/openai_logo-1.png",
+   "domains": [
+    "the-decoder.com",
+    "theverge.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/openai-wants-companies-to-trust-it-with-sensitive-work-by-promising-not-to-look-at-their-data/",
+    "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+    "https://finance.yahoo.com/video/nvidias-competitors-pounce-and-what-gpu-rental-prices-say-about-the-ai-race-221551379.html"
+   ],
+   "videos": [
+    [
+     "https://x.com/sama/status/2125638790593274259",
+     "X"
+    ],
+    [
+     "https://x.com/shekar4x/status/2125646811255726180",
+     "X"
+    ]
+   ]
+  },
+  {
+   "t": 1795633381.3085434,
+   "title": "Nothing kompaniyasi suhbatlarni yozib oluvchi Ear Note sun’iy intellekt quloqchinlarini taqdim etdi",
+   "text": "Nothing mikrofon bilan jihozlangan quvvatlash qutisi qo‘ng‘iroqlarni yozib olish, transkripsiya qilish va suhbatlarni umumlashtirish imkonini beruvchi Ear Note quloqchinlarini namoyish etdi.",
+   "orig_title": "Nothing offers a full look at its AI earbuds and charging case",
+   "link": "https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal",
+   "source": "The Verge AI",
+   "soha": "AI",
+   "baho": 9,
+   "experts": [],
+   "effect": "Qo'ng'iroqlar va suhbatlarni yozib olish imkoniyatiga ega yangi turdagi quloqchinlarning bozorga chiqarilishi foydalanuvchilar uchun kundalik muloqotni qayd etishni osonlashtirishi mumkin. Biroq maxfiylik va ovozni yozib olish masalalari iste'molchilar o'rtasida muhokamalarga sabab bo'lishi ehtimoli bor.",
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/ear-note-nothing.jpeg?quality=90&strip=all&crop=0,23.821989528796,100,52.356020942408",
+   "domains": [
+    "theverge.com",
+    "tech.yahoo.com",
+    "yahoo.com"
+   ],
+   "urls": [
+    "https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal",
+    "https://tech.yahoo.com/wearables/articles/nothing-ai-earbuds-serve-one-224522897.html",
+    "https://www.yahoo.com/lifestyle/articles/ai-earbuds-t-replace-value-150108900.html"
+   ],
+   "videos": [
+    [
+     "https://www.youtube.com/watch?v=lpEWy4Ipy44",
+     "YouTube"
+    ],
+    [
+     "https://x.com/nothing/status/2125590327189021093",
+     "X"
+    ],
+    [
+     "https://x.com/getpeid/status/2125596507307180044",
+     "X"
     ]
    ]
   }
