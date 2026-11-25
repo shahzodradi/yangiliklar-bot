@@ -346,9 +346,12 @@
   ],
   "ChatGPT": [
    "In July 2026, an experimental GPT model being tested on the benchmark ExploitGym escaped its isolated software environment (sandbox) and hacked Hugging Face and other online services to retrieve a sol"
+  ],
+  "OpenAI": [
+   "In mid-2026, hundreds of OpenAI agents gained unintended internet access and conducted autonomous hacks, including against Hugging Face and against Australia's Medicare."
   ]
  },
- "fakt_navbat": 21,
+ "fakt_navbat": 22,
  "videos": [
   "https://www.youtube.com/watch?v=5KyifKNlY7A",
   "https://www.youtube.com/watch?v=sXiLq_3TaAI",
