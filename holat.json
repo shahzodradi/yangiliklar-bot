@@ -352,15 +352,14 @@
   "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities": 1795582982.1548715,
   "https://about.fb.com/news/2026/11/muse-now-available-in-the-uk-muse-does-the-work-you-stay-in-control/": 1795582982.1548715,
   "https://www.theverge.com/tech/1041222/jensen-huang-nvidia-scandal-deepfakes": 1795582982.1548715,
-  "https://the-decoder.com/anthropic-researcher-stands-by-his-ai-assisted-riemann-proof-but-owns-up-to-stupid-things-in-the-rollout/": 1795582982.1548715
+  "https://the-decoder.com/anthropic-researcher-stands-by-his-ai-assisted-riemann-proof-but-owns-up-to-stupid-things-in-the-rollout/": 1795582982.1548715,
+  "https://www.uzdaily.uz/ru/uzbekistan-rasshirit-vychislitelnye-moshchnosti-dlia-razvitiia-ii/": 1795586473.6054168,
+  "https://www.billboard.com/pro/tidal-bans-ai-music-from-platform/": 1795586473.6054168,
+  "https://the-decoder.com/german-researchers-call-for-computer-science-to-reinvent-itself-as-computer-and-ai-science/": 1795586473.6054168,
+  "https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/": 1795586473.6054168
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1795237813.932109,
-   "title": "Combatting adversarial distillation",
-   "soha": "AI"
-  },
   {
    "t": 1795240884.5004683,
    "title": "Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.",
@@ -849,6 +848,26 @@
   {
    "t": 1795582982.1548715,
    "title": "Anthropic researcher stands by his AI-assisted Riemann proof but owns up to \"stupid things\" in the rollout",
+   "soha": "AI"
+  },
+  {
+   "t": 1795586473.6054168,
+   "title": "Узбекистан расширит вычислительные мощности для развития ИИ",
+   "soha": "AI O'zbekiston"
+  },
+  {
+   "t": 1795586473.6054168,
+   "title": "Tidal Becomes First Streaming Service to Ban AI Music From Its Platform",
+   "soha": "AI musiqa"
+  },
+  {
+   "t": 1795586473.6054168,
+   "title": "German researchers call for computer science to reinvent itself as \"Computer and AI Science\"",
+   "soha": "AI"
+  },
+  {
+   "t": 1795586473.6054168,
+   "title": "Maple raises $5.3M to build AI products that protect your data, even from itself",
    "soha": "AI"
   }
  ],
@@ -2294,6 +2313,100 @@
      "X"
     ]
    ]
+  },
+  {
+   "t": 1795586473.6054168,
+   "title": "O‘zbekistonda sun’iy intellekt hisoblash quvvatlari kengaytiriladi",
+   "text": "O‘zbekistonda 2027-yilda 7 eksoflopdan ortiq quvvatga ega hisoblash klasterini ishga tushirish va sun’iy intellekt loyihalarini ko‘paytirish rejalashtirilmoqda.",
+   "orig_title": "Узбекистан расширит вычислительные мощности для развития ИИ",
+   "link": "https://www.uzdaily.uz/ru/uzbekistan-rasshirit-vychislitelnye-moshchnosti-dlia-razvitiia-ii/",
+   "source": "uzdaily.uz",
+   "soha": "AI O'zbekiston",
+   "baho": 10,
+   "experts": [],
+   "effect": "Sun'iy intellekt texnologiyalarining jadal rivojlanishi va hisoblash quvvatlarining oshishi energiya iste'moli va elektr tarmoqlariga yuklamani keskin ko'paytirishi mumkin. Shuningdek, sun'iy intellektning ta'lim va boshqa sohalarga chuqur kirib borishi yosh mutaxassislarning dastlabki ishga joylashishi va daromadlariga ta'sir ko'rsatishi ehtimoli bor.",
+   "image": "https://www.uzdaily.uz/media/filer_public/1e/5b/1e5b5c98-9640-4da9-8a9f-a768097d5388/shermatovoliymajlis2411_20261124143815.webp",
+   "domains": [
+    "uzdaily.uz",
+    "businessinsider.com"
+   ],
+   "urls": [
+    "https://www.uzdaily.uz/ru/uzbekistan-rasshirit-vychislitelnye-moshchnosti-dlia-razvitiia-ii/",
+    "https://www.businessinsider.com/cheaper-ai-models-may-strain-power-grid-consulting-firms-say-2026-10",
+    "https://www.businessinsider.com/college-majors-safest-from-ai-ranked"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795586473.6054168,
+   "title": "Tidal sun’iy intellekt yordamida yaratilgan musiqalarni taqiqladi",
+   "text": "Tidal striming platformasi 9-dekabrdan boshlab sun’iy intellekt tomonidan to‘liq yaratilgan musiqalarni o‘z platformasidan butunlay olib tashlashini e’lon qildi.",
+   "orig_title": "Tidal Becomes First Streaming Service to Ban AI Music From Its Platform",
+   "link": "https://www.billboard.com/pro/tidal-bans-ai-music-from-platform/",
+   "source": "billboard.com",
+   "soha": "AI musiqa",
+   "baho": 9,
+   "experts": [],
+   "effect": "Sun'iy intellekt yordamida yaratilgan musiqalarning taqiqlanishi boshqa striming xizmatlarini ham shunday qadam tashlashga undashi mumkin. Bu esa mualliflik huquqlarini himoya qilish va daromadlarni ishlashayotgan san'atkorlarga adolatli taqsimlashda muhim o'zgarishlarga olib kelishi mumkin.",
+   "image": "https://www.billboard.com/wp-content/uploads/2024/03/tidal-logo-phone-billboard-1548.jpg?w=1024",
+   "domains": [
+    "billboard.com",
+    "yahoo.com"
+   ],
+   "urls": [
+    "https://www.billboard.com/pro/tidal-bans-ai-music-from-platform/",
+    "https://www.yahoo.com/entertainment/music/articles/tidal-first-streaming-platform-ban-165814933.html",
+    "https://www.yahoo.com/entertainment/music/articles/tidal-first-streaming-ban-ai-212028866.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795586473.6054168,
+   "title": "Germaniyalik tadqiqotchilar informatika fanini qayta nomlashni taklif qilmoqda",
+   "text": "TU Darmstadt tadqiqotchilari dasturlash jarayonida sun'iy intellektning o'rni oshgani sababli informatika fanini \"Kompyuter va sun'iy intellekt fani\" deb qayta nomlashni so'ramoqda.",
+   "orig_title": "German researchers call for computer science to reinvent itself as \"Computer and AI Science\"",
+   "link": "https://the-decoder.com/german-researchers-call-for-computer-science-to-reinvent-itself-as-computer-and-ai-science/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Generativ sun'iy intellekt va avtomatlashtirilgan agentlarning rivojlanishi dasturiy ta'minot yaratish jarayonini tezlashtirib, uni kichik korxonalar uchun ham hamyonbop qilishi mumkin. Biroq bu holat kiberxavfsizlik va dinamik tizimlarni boshqarishda yangi xavf-xatarlarni keltirib chiqarishi ehtimoli bor.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/11/darmstadt_ai_computer_science.png",
+   "domains": [
+    "the-decoder.com",
+    "yahoo.com",
+    "tech.yahoo.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/german-researchers-call-for-computer-science-to-reinvent-itself-as-computer-and-ai-science/",
+    "https://www.yahoo.com/news/science/articles/claude-may-solved-167-math-125338616.html",
+    "https://tech.yahoo.com/ai/articles/ai-becoming-feral-152725575.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795586473.6054168,
+   "title": "Maple ma'lumotlarni himoya qiluvchi sun'iy intellekt arxitekturasini yaratdi",
+   "text": "Maple startapi foydalanuvchilarning shaxsiy ma'lumotlarini hatto kompaniyaning o'zidan ham himoya qiluvchi shifrlangan sun'iy intellekt arxitekturasini taqdim etdi.",
+   "orig_title": "Maple raises $5.3M to build AI products that protect your data, even from itself",
+   "link": "https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Foydalanuvchilar maxfiyligini qat'iy himoya qiluvchi va shifrlangan sun'iy intellekt ilovalarining rivojlanishi bozor raqobatini kuchaytirib, boshqa texnologiya kompaniyalarini ham ma'lumotlar xavfsizligiga e'tiborni oshirishga majbur qilishi mumkin. Shu bilan birga, avtonom agentlarning internetdagi faolligi ba'zi texnik cheklovlar va himoya qatlamlarini chetlab o'tish holatlarini ko'paytirishi ehtimoli bor.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/01-maple-hero-chargebacks-photo-16x9-1.png?resize=1200,675",
+   "domains": [
+    "techcrunch.com",
+    "theguardian.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/",
+    "https://www.theguardian.com/technology/2026/oct/26/anthropics-claude-ai-model-accessed-georgia-voter-data-in-us",
+    "https://finance.yahoo.com/quote/AIQ/"
+   ],
+   "videos": []
   }
  ]
 }
