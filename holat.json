@@ -368,23 +368,8 @@
   "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/": 1795619103.841279,
   "https://the-decoder.com/prismml-squeezes-an-agent-based-coding-model-with-27-billion-parameters-into-5-9-gb/": 1795619103.841279
  },
- "fails": 1,
+ "fails": 2,
  "sent": [
-  {
-   "t": 1795280875.502619,
-   "title": "Singapore-India hackathon 2026: Indian students build AI platform to help farmers plan crops based on buyer demand; four teams win S$88,000 in prizes",
-   "soha": "AI tanlov"
-  },
-  {
-   "t": 1795280875.502619,
-   "title": "Nvidia researchers argue huge AI context windows are a dead end",
-   "soha": "AI"
-  },
-  {
-   "t": 1795280875.502619,
-   "title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
-   "soha": "AI video"
-  },
   {
    "t": 1795288058.93629,
    "title": "Binding of Isaac fans review bomb DLC after discovering GTA 6 mode songs are AI",
