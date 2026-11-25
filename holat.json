@@ -1,9 +1,5 @@
 {
  "seen": {
-  "https://www.wired.com/story/ai-djs-completely-kill-my-groove/": 1794755437.4028902,
-  "https://www.wired.com/story/this-ai-tamagotchi-oats-turns-everyday-objects-into-needy-virtual-pets/": 1794755437.4028902,
-  "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/": 1794755437.4028902,
-  "https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them/": 1794758463.172664,
   "https://allhiphop.com/news/exclusive-suno-faces-demand-to-open-new-ai-models-to-copyright-discovery/": 1794769351.206209,
   "https://wersm.com/adobe-firefly-ai-creative-studio-agents/": 1794798318.1396794,
   "https://openai.com/index/step-toward-defining-the-standard-model": 1794798318.1396794,
@@ -372,7 +368,7 @@
   "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/": 1795619103.841279,
   "https://the-decoder.com/prismml-squeezes-an-agent-based-coding-model-with-27-billion-parameters-into-5-9-gb/": 1795619103.841279
  },
- "fails": 0,
+ "fails": 1,
  "sent": [
   {
    "t": 1795280875.502619,
