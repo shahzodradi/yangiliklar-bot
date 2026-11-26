@@ -1,6 +1,5 @@
 {
  "seen": {
-  "https://www.msn.com/en-xl/news/other/the-day-ai-music-claimed-the-nations-top-spot/ar-AA2hxKGq": 1794841559.0184994,
   "https://www.northjersey.com/press-release/story/267501/a-mothers-escape-from-the-paradise-fire-inspires-santa-fe-ai-hackathon/": 1794848685.9660392,
   "https://the-decoder.com/alibabas-qwen4-max-takes-on-opus-5-5-gpt-6-and-kimi-k3-1-pro-at-much-lower-prices/": 1794848685.9660392,
   "https://the-decoder.com/claude-now-builds-interactive-websites-inside-canvas-graphics-reviving-the-flash-era-with-real-html/": 1794848685.9660392,
@@ -395,21 +394,6 @@
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1795359984.6370823,
-   "title": "Seedeo MCP Adds Suno, Kling and Veo to ChatGPT and Claude Connectors",
-   "soha": "AI video"
-  },
-  {
-   "t": 1795359984.6370823,
-   "title": "Runway releases Praxis-1 open-weight world action model for robotics",
-   "soha": "AI video"
-  },
-  {
-   "t": 1795359984.6370823,
-   "title": "Perplexity's new Monitor API turns web search from a one-off query into a nonstop watchdog",
-   "soha": "AI"
-  },
   {
    "t": 1795363292.8490694,
    "title": "AI coding agents ace isolated tests but complete fewer than one in ten tasks in a simulated workplace",
