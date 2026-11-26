@@ -384,15 +384,11 @@
   "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/": 1795672869.871753,
   "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/": 1795672869.871753,
   "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers": 1795672869.871753,
-  "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/": 1795676535.4774277
+  "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/": 1795676535.4774277,
+  "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/": 1795680068.79551
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1795330976.5242789,
-   "title": "The Binding of Isaac: Repentance+ Online mode appears to contain AI generated music, creator working on getting it removed",
-   "soha": "AI musiqa"
-  },
   {
    "t": 1795341686.54873,
    "title": "O‘zbekistonda ChatGPT, Gemini va Claude ham yangi alifboga moslashtiriladi",
@@ -1027,6 +1023,11 @@
    "t": 1795676535.4774277,
    "title": "Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’",
    "soha": "AI"
+  },
+  {
+   "t": 1795680068.79551,
+   "title": "AI data centers are becoming harder to build, and neoclouds are feeling it",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -1034,28 +1035,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1795503849.7693202,
-   "title": "OpenAI upgrades ChatGPT to GPT-6.2 for main users",
-   "text": "Following the debut for enterprise users, OpenAI is bringing a conversation-tuned version of GPT-6.2 to ChatGPT's main chat experience.",
-   "orig_title": "OpenAI upgrades ChatGPT to GPT-6.2, but free users will have to wait",
-   "link": "https://www.neowin.net/news/openai-upgrades-chatgpt-to-gpt-62-but-free-users-will-have-to-wait/",
-   "source": "neowin.net",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Qimmatbaho obunaga bog'langan yangi funksiyalar foydalanuvchilarning keng qatlamini cheklab qo'yishi va Meta kabi raqobatchilarning bepul mahsulotlari foyasiga tanlov qilishiga olib kelishi mumkin. Bu holat sun'iy intellekt agentlari bozorida narx siyosati bo'yicha raqobatni yanada kuchaytirishi ehtimoli bor.",
-   "image": null,
-   "domains": [
-    "theverge.com",
-    "tech.yahoo.com"
-   ],
-   "urls": [
-    "https://www.theverge.com/ai-artificial-intelligence/1001681/openai-devday-2026-biggest-news-announcements",
-    "https://tech.yahoo.com/ai/chatgpt/articles/chatgpt-plus-worth-20-compared-134100046.html"
-   ],
-   "videos": []
-  },
   {
    "t": 1795507278.2729535,
    "title": "AI Film ‘Gods Don’t Give Gifts’ Ineligible for Oscar",
@@ -2827,6 +2806,30 @@
      "X"
     ]
    ]
+  },
+  {
+   "t": 1795680068.79551,
+   "title": "AI ma'lumotlar markazlarini qurish qiyinlashmoqda",
+   "text": "Nvidia hech qanday ma'lumotlar markazini ishga tushishga tayyor bo'lmaguncha qo'llab-quvvatlamasligini bildirdi. Bu esa neocloud kompaniyalarining qurilish jarayonida kechikishlarga duch kelishiga sabab bo'lmoqda.",
+   "orig_title": "AI data centers are becoming harder to build, and neoclouds are feeling it",
+   "link": "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Sun'iy intellekt markazlari qurilishidagi qiyinchiliklar va moliyalashtirish shartlarining qattiqlashuvi neoklodlar uchun qarz yuki oshishiga va spekulyativ loyihalar barbod bo‘lishiga olib kelishi mumkin.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/Anita-Verma-Lallian-2.jpg?w=1024",
+   "domains": [
+    "techcrunch.com",
+    "cnbc.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/",
+    "https://www.cnbc.com/2026/11/18/nvidia-neocloud-financing.html",
+    "https://finance.yahoo.com/technology/ai/articles/nvidias-ai-financing-guarantees-hit-142017847.html"
+   ],
+   "videos": []
   }
  ]
 }
