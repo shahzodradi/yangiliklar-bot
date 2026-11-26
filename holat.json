@@ -390,30 +390,11 @@
   "https://www.wired.com/story/meta-refused-to-share-muse-for-testing-uk-financial-watchdog-complains/": 1795705556.8875809,
   "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench": 1795705556.8875809,
   "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin": 1795705556.8875809,
-  "https://daryo.uz/2026/11/25/suniy-intellektdan-foydalanaman-va-u-menga-yoqadi-zelenskiy/": 1795705556.8875809
+  "https://daryo.uz/2026/11/25/suniy-intellektdan-foydalanaman-va-u-menga-yoqadi-zelenskiy/": 1795705556.8875809,
+  "https://www.techloy.com/most-realistic-ai-video-generators-in-2027/": 1795712545.9009743
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1795363292.8490694,
-   "title": "AI coding agents ace isolated tests but complete fewer than one in ten tasks in a simulated workplace",
-   "soha": "AI"
-  },
-  {
-   "t": 1795363292.8490694,
-   "title": "Lean and Mathlib community officially confirms Levent Alpöge's proof of the Riemann hypothesis is correct",
-   "soha": "AI"
-  },
-  {
-   "t": 1795363292.8490694,
-   "title": "Banks Have Had It Up to Here With Your AI Agent",
-   "soha": "AI"
-  },
-  {
-   "t": 1795363292.8490694,
-   "title": "Here's why some say OpenAI's latest model is 'unusable,' 'uneven' and 'insufferable to work with'",
-   "soha": "AI"
-  },
   {
    "t": 1795370473.661142,
    "title": "Perplexity and Intelligence",
@@ -1033,6 +1014,11 @@
    "t": 1795705556.8875809,
    "title": "“Sun’iy intellektdan foydalanaman va u menga yoqadi” — Zelenskiy",
    "soha": "AI"
+  },
+  {
+   "t": 1795712545.9009743,
+   "title": "Most Realistic AI Video Generators in 2027",
+   "soha": "AI video"
   }
  ],
  "mavzu": {
@@ -2865,6 +2851,29 @@
    "urls": [
     "https://daryo.uz/2026/11/25/suniy-intellektdan-foydalanaman-va-u-menga-yoqadi-zelenskiy/",
     "https://www.yahoo.com/news/articles/ukraine-envoy-row-hijacks-eu-060037124.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795712545.9009743,
+   "title": "Google DeepMind Veo 3.1 video modeli taqdim etildi",
+   "text": "Google DeepMind kompaniyasining yangi Veo 3.1 video modeli yorug'lik va tabiiy muhitni aks ettirishda yuqori natijalarni ko'rsatmoqda.",
+   "orig_title": "Most Realistic AI Video Generators in 2027",
+   "link": "https://www.techloy.com/most-realistic-ai-video-generators-in-2027/",
+   "source": "techloy.com",
+   "soha": "AI video",
+   "baho": 9,
+   "experts": [],
+   "effect": "Sun'iy intellekt asosida video yaratish vositalarining takomillashuvi kontent ishlab chiqaruvchilar va ijtimoiy tarmoq foydalanuvchilari uchun yanada realistik videolarni tezroq tayyorlash imkonini berishi mumkin. Raqobatning kuchayishi esa video muharrirlari va sun'iy intellekt modellari bozorida narxlar va xizmat shartlarining o'zgarishiga olib kelishi ehtimoli bor.",
+   "image": "https://storage.ghost.io/c/c1/a6/c1a6d111-d951-41ad-a392-c1e841210b93/content/images/size/w1200/2026/11/rea.png",
+   "domains": [
+    "techloy.com",
+    "techcrunch.com"
+   ],
+   "urls": [
+    "https://www.techloy.com/most-realistic-ai-video-generators-in-2027/",
+    "https://techcrunch.com/2026/01/13/googles-update-for-veo-3-1-lets-users-create-vertical-videos-through-reference-images/",
+    "https://techcrunch.com/2025/10/15/google-releases-veo-3-1-adds-it-to-flow-video-editor/"
    ],
    "videos": []
   }
