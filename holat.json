@@ -1,7 +1,5 @@
 {
  "seen": {
-  "https://about.fb.com/news/2026/11/94-of-singapore-small-business-owners-surveyed-say-more-ai-guidance-is-needed/": 1794827255.325033,
-  "https://www.martechcube.com/adobe-brings-ai-agents-and-creative-tools-to-creators-everywhere/": 1794830477.5447698,
   "https://www.msn.com/en-xl/news/other/the-day-ai-music-claimed-the-nations-top-spot/ar-AA2hxKGq": 1794841559.0184994,
   "https://www.northjersey.com/press-release/story/267501/a-mothers-escape-from-the-paradise-fire-inspires-santa-fe-ai-hackathon/": 1794848685.9660392,
   "https://the-decoder.com/alibabas-qwen4-max-takes-on-opus-5-5-gpt-6-and-kimi-k3-1-pro-at-much-lower-prices/": 1794848685.9660392,
@@ -384,15 +382,12 @@
   "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers": 1795672869.871753,
   "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/": 1795676535.4774277,
   "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/": 1795680068.79551,
-  "https://www.techrepublic.com/article/news-gpt-6-2-protein-design-biotech-it/": 1795690955.59051
+  "https://www.techrepublic.com/article/news-gpt-6-2-protein-design-biotech-it/": 1795690955.59051,
+  "https://the-decoder.com/microsoft-details-how-state-backed-hackers-use-the-artex-ai-framework-to-automate-cyberattacks/": 1795694488.268267,
+  "https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls/": 1795694488.268267
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1795348868.7465935,
-   "title": "World Bank Discusses Tax Administration Reform with Uzbekistan",
-   "soha": "AI O'zbekiston"
-  },
   {
    "t": 1795352777.0793417,
    "title": "OpenAI shares new prompting tips for GPT-6.2 Astra and Sol to fix brief answers and unnecessary questions",
@@ -1022,6 +1017,16 @@
    "t": 1795690955.59051,
    "title": "OpenAI’s GPT-6.2 Helped Design Proteins That Bound in Lab Tests",
    "soha": "AI"
+  },
+  {
+   "t": 1795694488.268267,
+   "title": "Microsoft details how state-backed hackers use the ARTEX AI framework to automate cyberattacks",
+   "soha": "AI"
+  },
+  {
+   "t": 1795694488.268267,
+   "title": "Nvidia halts server shipments to Malaysia, Singapore, Thailand, and Indonesia after tighter US export controls",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -1029,130 +1034,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1795518473.3801608,
-   "title": "OpenAI ChatGPT uchun GPT-6.2 Sol modelini chiqardi",
-   "text": "OpenAI Plus va undan yuqori obunachilar uchun ChatGPT'ni yangiladi. GPT-6.2 Sol Murakkab so'rovlarni ishonchliroq bajarishga va veb-qidiruvni yaxshilashga mo'ljallangan.",
-   "orig_title": "OpenAI releases GPT-6.2 for ChatGPT",
-   "link": "https://www.heise.de/en/news/OpenAI-releases-GPT-6-2-for-ChatGPT-11535543.html",
-   "source": "heise.de",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Kompaniyaning yangi sun'iy intellekt modeli kundalik suhbatlar va murakkab so'rovlarni bajarishda xatoliklar va gallyutsinatsiyalarni kamaytirishi, shuningdek, xavfsizlik va yosh foydalanuvchilarni himoya qilish darajasini oshirishi mumkin.",
-   "image": "https://heise.cloudimg.io/v7/_www-heise-de_/imgs/18/5/2/0/6/8/7/0/shutterstock_2701071735-e7dc62f2102e3c50.jpg?func=bound&height=1200&org_if_sml=1&q=85&width=1200",
-   "domains": [
-    "heise.de",
-    "theverge.com",
-    "tech.yahoo.com"
-   ],
-   "urls": [
-    "https://www.heise.de/en/news/OpenAI-releases-GPT-6-2-for-ChatGPT-11535543.html",
-    "https://www.theverge.com/ai-artificial-intelligence/1040716/openai-launched-a-chat-specific-version-of-gpt-6-2-sol",
-    "https://tech.yahoo.com/ai/chatgpt/articles/tested-chatgpt-gpt-6-2-064500873.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795518473.3801608,
-   "title": "Tadqiqotchilar tibbiyotni rivojlantirish uchun Meta ochiq vaznli AI modellaridan foydalanishmoqda",
-   "text": "Meta ilmiy kashfiyotlarni tezlashtirish uchun olimlarni Open Source AI For Science Summit sammitida jamladi, unda tadqiqotchilar sun'iy intellektdan qanday foydalanayotganini bo'lishishdi.",
-   "orig_title": "Researchers Are Using Meta’s Open-Weight AI Models to Transform Medicine",
-   "link": "https://about.fb.com/news/2026/11/researchers-using-meta-open-weight-ai-models-medical-breakthroughs/",
-   "source": "Meta Newsroom",
-   "soha": "AI",
-   "baho": 7,
-   "experts": [],
-   "effect": "Ochiq vaznli sun'iy intellekt modellarining tibbiyot sohasiga tatbiq etilishi mutaxassislarni virtual reallikda o'qitish, epilepsiya manbalarini aniqlashni yaxshilash va kam uchraydigan kasalliklarni tushunishni tezlashtirishi mumkin.",
-   "image": "https://about.fb.com/wp-content/uploads/2027/11/Researchers-Are-Using-Metas-Open-Weight-AI-Models-to-Transform-Medicine_Header-1.jpg?w=1200",
-   "domains": [
-    "about.fb.com",
-    "businessinsider.com"
-   ],
-   "urls": [
-    "https://about.fb.com/news/2026/11/researchers-using-meta-open-weight-ai-models-medical-breakthroughs/",
-    "https://www.businessinsider.com/where-every-us-governor-stands-ai-data-centers-midterms-2026-10",
-    "https://www.businessinsider.com/college-majors-safest-from-ai-ranked"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795518473.3801608,
-   "title": "Meta Buyuk Britaniyada shaxsiy AI agenti Muse'ni taqdim etdi",
-   "text": "Muse Buyuk Britaniyadagi kattalar uchun foydalanishga topshirildi. Shaxsiy AI agenti foydalanuvchiga maishiy vazifalarni bajarishda va ilovalarni ulashda yordam beradi.",
-   "orig_title": "Introducing Muse in the UK: A Personal AI Agent You Control",
-   "link": "https://about.fb.com/news/2026/11/introducing-muse-in-the-uk-a-personal-ai-agent-you-control/",
-   "source": "Meta Newsroom",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Shaxsiy sun'iy intellekt agentining joriy etilishi foydalanuvchilarning kundalik xaridlar va rejalashtirish ishlarini avtomatlashtirishi hamda chakana savdo va xizmat ko'rsatish bozorida raqobat va qulayliklarni oshirishi mumkin.",
-   "image": "https://about.fb.com/wp-content/uploads/2026/11/England_v2a_4x3.png?w=1200",
-   "domains": [
-    "about.fb.com",
-    "bbc.com",
-    "theguardian.com"
-   ],
-   "urls": [
-    "https://about.fb.com/news/2026/11/introducing-muse-in-the-uk-a-personal-ai-agent-you-control/",
-    "https://www.bbc.com/news/articles/c9gkld2l38y6o",
-    "https://www.theguardian.com/technology/2026/nov/24/meta-launches-muse-uk-ai-agent-do-christmas-shopping"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795521661.3913379,
-   "title": "AI solves Riemann hypothesis",
-   "text": "An Anthropic researcher produced a 17-million-line solution for the Riemann hypothesis using AI, though mathematicians note it will take months to understand.",
-   "orig_title": "AI Solved Math’s Most Famous Problem. Now Humans Are Struggling to Understand It",
-   "link": "https://www.wired.com/story/ai-solved-maths-most-famous-problem/",
-   "source": "Wired AI",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Bu yutuq matematikaga yangicha yondashuvlarni olib kelishi va insonlar tushunishi uchun natijalarni soddalashtirish zaruratini tug‘dirishi mumkin.",
-   "image": "https://media.wired.com/photos/6b04a99395eb5d98cc1eb23a/191:100/w_1280,c_limit/112326-Riemann-hypothesis-ai.jpg",
-   "domains": [
-    "wired.com",
-    "yahoo.com",
-    "techcrunch.com"
-   ],
-   "urls": [
-    "https://www.wired.com/story/ai-solved-maths-most-famous-problem/",
-    "https://www.yahoo.com/news/science/articles/anthropic-mathematician-claims-claude-helped-190054374.html",
-    "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/"
-   ],
-   "videos": [
-    [
-     "https://x.com/__alpoge__/status/2124987173439209561",
-     "X"
-    ]
-   ]
-  },
-  {
-   "t": 1795521661.3913379,
-   "title": "OpenAI rolls out GPT-6.2 Sol",
-   "text": "OpenAI has started rolling out GPT-6.2 Sol to the Chat tab in ChatGPT with improved web search and image reading capabilities.",
-   "orig_title": "OpenAI Brings Chat-Tuned GPT-6.2 Sol to ChatGPT with Smarter Web Search and Image Reading",
-   "link": "https://www.analyticsinsight.net/news/openai-brings-chat-tuned-gpt-62-sol-to-chatgpt-with-smarter-web-search-and-image-reading",
-   "source": "analyticsinsight.net",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Kunduzgi vazifalarni bajarishda sun'iy intellekt imkoniyatlari kengayishi va foydalanuvchilar uchun qidiruv hamda tasvirlarni o‘qish jarayonlari yanada qulaylashishi mumkin.",
-   "image": "https://media.assettype.com/analyticsinsight%2F2026-11-24%2Favvfb6bx%2FOpenAI-Brings-Chat-Tuned-GPT-6.2-Sol-to-ChatGPT-with-Smarter-Web-Search-and-Image-Reading.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
-   "domains": [
-    "analyticsinsight.net",
-    "theverge.com",
-    "tech.yahoo.com"
-   ],
-   "urls": [
-    "https://www.analyticsinsight.net/news/openai-brings-chat-tuned-gpt-62-sol-to-chatgpt-with-smarter-web-search-and-image-reading",
-    "https://www.theverge.com/ai-artificial-intelligence/1040716/openai-launched-a-chat-specific-version-of-gpt-6-2-sol",
-    "https://tech.yahoo.com/ai/chatgpt/articles/tested-chatgpt-gpt-6-2-064500873.html"
-   ],
-   "videos": []
-  },
   {
    "t": 1795529019.6448472,
    "title": "Xitoy festivalida ilk bor sun'iy intellekt asosidagi filmlar bo'limi namoyish etildi",
@@ -2791,6 +2672,53 @@
    "urls": [
     "https://www.businessinsider.com/chinese-ai-models-rankings-artificial-analysis-private-tests-anthropic-openai-2026-11",
     "https://techcrunch.com/2025/02/27/openai-unveils-gpt-4-5-orion-its-largest-ai-model-yet/"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795694488.268267,
+   "title": "Microsoft taqdim etgan ARTEX sun’iy intellekt tizimi kiberhujumlarni avtomatlashtirmoqda",
+   "text": "Microsoft kompaniyasi Xitoy va Shimoliy Koreya davlat xakerlari tomonidan foydalanilayotgan ARTEX sun’iy intellekt kiberhujumlar tizimining texnik arxitekturasini e'lon qildi.",
+   "orig_title": "Microsoft details how state-backed hackers use the ARTEX AI framework to automate cyberattacks",
+   "link": "https://the-decoder.com/microsoft-details-how-state-backed-hackers-use-the-artex-ai-framework-to-automate-cyberattacks/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 9,
+   "experts": [],
+   "effect": "Kiberhujumlarni avtomatlashtiruvchi vositalar tezligi himoyachilarning imkoniyatlarini pasaytirishi va korxonalarning xavfsizlik tizimlariga jiddiy tahdid solishi mumkin. Ushbu texnologiyalar tarmoqlarga tezkor kirish va ma'lumotlarni o'g'irlash holatlarini ko'paytirishi ehtimoli bor.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/10/microsoft_human_touch.png",
+   "domains": [
+    "the-decoder.com",
+    "techcrunch.com",
+    "yahoo.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/microsoft-details-how-state-backed-hackers-use-the-artex-ai-framework-to-automate-cyberattacks/",
+    "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/",
+    "https://www.yahoo.com/news/us/articles/fbi-reissues-warning-ai-powered-081358572.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795694488.268267,
+   "title": "AQShning eksport cheklovlari ortidan Nvidia Janubi-Sharqiy Osiyoga serverlar jo'natishni to'xtatdi",
+   "text": "Nvidia kompaniyasi Malayziya, Singapur, Tailand va Indoneziyadagi hamkorlariga serverlar yetkazib berishni to'xtatishni buyurdi.",
+   "orig_title": "Nvidia halts server shipments to Malaysia, Singapore, Thailand, and Indonesia after tighter US export controls",
+   "link": "https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "AQShning eksport nazorati choralari Janubi-Sharqiy Osiyoda bulutli xizmatlar bozorida noaniqlik va muammolarni keltirib chiqarishi mumkin. Xalqaro infratuzilma loyihalari va kreditlash jarayonlarining to'xtashiga olib kelishi ehtimoli bor.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/11/nvidia_logo_glitch.png",
+   "domains": [
+    "the-decoder.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls/",
+    "https://finance.yahoo.com/technology/ai/articles/nvidia-reportedly-halts-ai-server-105910523.html",
+    "https://finance.yahoo.com/technology/ai/articles/nvidia-stops-shipping-ai-servers-062916311.html"
    ],
    "videos": []
   }
