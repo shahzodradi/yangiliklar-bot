@@ -12,14 +12,14 @@ PANEL = """<!doctype html><html><head><meta charset="utf-8">
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@800&display=swap" rel="stylesheet">
 <style>*{margin:0;padding:0;box-sizing:border-box}
 html,body{width:1080px;height:1920px;overflow:hidden;background:transparent}
-.fade{position:absolute;top:%(fade)spx;height:160px;width:100%%;background:linear-gradient(transparent,#000)}
-.p{position:absolute;top:%(ph)spx;height:%(ph2)spx;width:100%%;background:#000;display:flex;flex-direction:column;
+.fade{position:absolute;top:%(fade)spx;height:160px;width:100%%;background:linear-gradient(transparent,#1a0000)}
+.p{position:absolute;top:%(ph)spx;height:%(ph2)spx;width:100%%;background:linear-gradient(#1a0000,#000);display:flex;flex-direction:column;
  align-items:center;padding:0 50px}
 .sm{font-family:Inter,sans-serif;font-weight:800;letter-spacing:2px;text-transform:uppercase}
-.logo{font-size:26px;color:#fff;margin-top:-22px;background:#000;padding:6px 20px}
+.logo{font-size:26px;color:#fff;margin-top:-22px;background:#e10600;padding:6px 20px}
 h1{font-family:Anton,Impact,sans-serif;font-weight:400;text-transform:uppercase;font-size:%(fs)spx;line-height:1.08;
  color:#fff;text-align:center;margin-top:44px}
-h1 b{color:#3d8bff;font-weight:400;white-space:nowrap}
+h1 b{color:#ff2b2b;font-weight:400;white-space:nowrap}
 .sw{font-size:28px;color:#cfcfcf;margin-top:auto;margin-bottom:150px}
 </style></head><body><div class="fade"></div><div class="p"><div class="logo sm">AI.TezkorYangiliklari</div>
 <h1>%(h1)s</h1><div class="sw sm">Batafsil izohlarda oʻqing 👇</div></div></body></html>"""
@@ -57,9 +57,9 @@ def browser_shot(html_path, png, w, h, transparent=False):
 CARD = """<!doctype html><html><head><meta charset="utf-8">
 <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
 <style>*{margin:0;padding:0;box-sizing:border-box}
-html,body{width:1080px;height:1100px;overflow:hidden;background:radial-gradient(circle at %(gx)s%% %(gy)s%%,%(glow)s,#020814 72%%)}
+html,body{width:1080px;height:1100px;overflow:hidden;background:radial-gradient(circle at %(gx)s%% %(gy)s%%,%(glow)s,#0a0000 72%%)}
 .n{position:absolute;left:70px;top:150px;font-family:Anton,Impact,sans-serif;font-size:420px;line-height:1;
- color:transparent;-webkit-text-stroke:6px #3d8bff;opacity:.9}
+ color:transparent;-webkit-text-stroke:6px #ff2b2b;opacity:.9}
 .t{position:absolute;left:80px;right:80px;top:590px;font-family:Anton,Impact,sans-serif;font-size:%(fs)spx;
  line-height:1.08;color:#fff;text-transform:uppercase}
 </style></head><body><div class="n">%(num)s</div><div class="t">%(text)s</div></body></html>"""
@@ -72,7 +72,7 @@ def title_card(name, num, text):
     page, png = OUT / f"{name}.html", OUT / f"{name}.png"
     fs = 96 if len(text) <= 40 else 80 if len(text) <= 65 else 68
     page.write_text(CARD % dict(num=num, text=html.escape(text), fs=fs,
-                                glow=random.choice(["#0d3b8f", "#5b1fa8", "#0f6e6e", "#8f1d3b", "#1f4fd1", "#2b2b8f"]),
+                                glow=random.choice(["#8f0000", "#b3001b", "#6e0010", "#a31515", "#7a0a0a", "#c40c0c"]),
                                 gx=random.randint(55, 85), gy=random.randint(15, 45)), encoding="utf-8")
     return png if browser_shot(page, png, W, PH) else None
 
@@ -213,13 +213,13 @@ def ass_time(t):
 
 
 def subtitles(words, path, hook="", y=960, per=3):
-    """So'zma-so'z subtitr (ASS): 3 so'zlik guruh, aytilayotgan so'z ko'k (#3d8bff).
-    hook: birinchi 2.2 soniyada tepada ko'k quti ichida "sakrab" chiqadigan katta yozuv."""
+    """So'zma-so'z subtitr (ASS): 3 so'zlik guruh, aytilayotgan so'z qizil (#ff2b2b).
+    hook: birinchi 2.2 soniyada tepada qizil quti ichida "sakrab" chiqadigan katta yozuv."""
     head = ("[Script Info]\nScriptType: v4.00+\nPlayResX: 1080\nPlayResY: 1920\n\n[V4+ Styles]\n"
             "Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, BorderStyle, "
             "Alignment, MarginL, MarginR, MarginV, Outline, Shadow\n"
             "Style: S,Anton,104,&H00FFFFFF,&H00000000,&H00000000,0,1,5,40,40,0,7,0\n"
-            "Style: H,Anton,120,&H00FFFFFF,&H00FF8B3D,&H00000000,0,3,5,60,60,0,22,0\n\n[Events]\n"
+            "Style: H,Anton,120,&H00FFFFFF,&H002B2BFF,&H00000000,0,3,5,60,60,0,22,0\n\n[Events]\n"
             "Format: Layer, Start, End, Style, Text\n")
     lines = []
     if hook:
@@ -229,7 +229,7 @@ def subtitles(words, path, hook="", y=960, per=3):
         grp = words[g:g + per]
         for i, (s, e, _) in enumerate(grp):
             end = grp[i + 1][0] if i + 1 < len(grp) else (words[g + per][0] if g + per < len(words) else e + 0.4)
-            txt = " ".join((r"{\c&H00FF8B3D&}" + w.upper() + r"{\c&H00FFFFFF&}") if j == i else w.upper()
+            txt = " ".join((r"{\c&H002B2BFF&}" + w.upper() + r"{\c&H00FFFFFF&}") if j == i else w.upper()
                            for j, (_, _, w) in enumerate(grp))
             # har yangi guruh kichik "pop" bilan chiqadi
             pop = r"\fscx115\fscy115\t(0,120,\fscx100\fscy100)" if i == 0 else ""
@@ -257,7 +257,7 @@ XFADES = ("slideleft", "smoothup", "circleopen", "zoomin", "wipeleft", "radial",
 
 def clip_filter(idx, path, logo, frames, move):
     """Bitta rasm -> 1080xPH harakatli klip (zoompan): yaqinlashish/uzoqlashish/chapga/o'ngga surilish."""
-    fit = (f"scale=-1:{PH - 300},pad={W}:{PH}:(ow-iw)/2:(oh-ih)/2:color=0x06122b" if logo
+    fit = (f"scale=-1:{PH - 300},pad={W}:{PH}:(ow-iw)/2:(oh-ih)/2:color=0x1a0000" if logo
            else f"scale={W}:{PH}:force_original_aspect_ratio=increase,crop={W}:{PH}")
     z, x = {"in": (f"1+0.16*on/{frames}", "iw/2-(iw/zoom/2)"),
             "out": (f"1.16-0.16*on/{frames}", "iw/2-(iw/zoom/2)"),
@@ -338,7 +338,7 @@ def make_reel(name, photos, h1_html, narration, hook="", fs=None, segments=None,
     pi, ai = k, k + 1  # panel va ovoz kirish indekslari
     vf = ";".join(parts) + (
         f";[{prev}]pad={W}:{H}:0:0:black[bg];[bg][{pi}:v]overlay=0:0[v1];"
-        f"color=c=0x3d8bff:s={W}x10:r=30[bar];[v1][bar]overlay=x='-{W}+{W}*t/{dur:.2f}':y={H - 10}:shortest=1[v2];"
+        f"color=c=0xff2b2b:s={W}x10:r=30[bar];[v1][bar]overlay=x='-{W}+{W}*t/{dur:.2f}':y={H - 10}:shortest=1[v2];"
         f"[v2]subtitles=filename='{esc(ass)}':fontsdir='{esc(HERE / 'fonts')}',"
         f"fade=t=in:st=0:d=0.3:color=white[v]")
     # fon musiqasi (musiqa/ dagi CC0 treklardan tasodifiy, aylanib turadi): ovoz ostida past, oxirida so'nadi

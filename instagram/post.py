@@ -11,13 +11,13 @@ HTML = """<!doctype html><html><head><meta charset="utf-8">
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@800&display=swap" rel="stylesheet">
 <style>*{margin:0;padding:0;box-sizing:border-box}
 html,body{width:1080px;height:1350px;overflow:hidden;background:#000}
-.ph{height:870px;background:url('%(img)s') %(pos)s/%(fit)s no-repeat,radial-gradient(circle at %(gx)s%% %(gy)s%%,%(glow)s,#020814 75%%)}
-.p{height:480px;background:#000;display:flex;flex-direction:column;align-items:center;padding:0 40px}
+.ph{height:870px;background:url('%(img)s') %(pos)s/%(fit)s no-repeat,radial-gradient(circle at %(gx)s%% %(gy)s%%,%(glow)s,#0a0000 75%%)}
+.p{height:480px;background:linear-gradient(#1a0000,#000);display:flex;flex-direction:column;align-items:center;padding:0 40px}
 .sm{font-family:Inter,sans-serif;font-weight:800;letter-spacing:2px;text-transform:uppercase}
-.logo{font-size:22px;color:#fff;margin-top:-16px;background:#000;padding:4px 16px}
+.logo{font-size:22px;color:#fff;margin-top:-16px;background:#e10600;padding:4px 16px}
 h1{font-family:Anton,Impact,sans-serif;font-weight:400;text-transform:uppercase;font-size:%(fs)spx;line-height:1.06;
  color:#fff;text-align:center;margin-top:30px;letter-spacing:.5px}
-h1 b{color:#3d8bff;font-weight:400;white-space:nowrap}
+h1 b{color:#ff2b2b;font-weight:400;white-space:nowrap}
 .sw{font-size:24px;color:#cfcfcf;margin-top:auto;margin-bottom:40px}
 </style></head><body><div class="ph"></div><div class="p"><div class="logo sm">%(handle)s</div>
 <h1>%(h1)s</h1><div class="sw sm">%(foot)s</div></div></body></html>"""
@@ -33,15 +33,15 @@ LOGO = HERE / "logo" / "L1_evolving.png"
 
 
 def render(name, image_path, h1, pos="center 15%"):
-    """image_path=None: sifatli rasm topilmagan yangilik — xira rasm o'rniga ko'k fonda logo kartasi."""
+    """image_path=None: sifatli rasm topilmagan yangilik — xira rasm o'rniga qizil fonda logo kartasi."""
     OUT.mkdir(exist_ok=True)
     html = OUT / f"{name}.html"
-    fit, glow, gx, gy = "cover", "#0d3b8f", 50, 45
+    fit, glow, gx, gy = "cover", "#8f0000", 50, 45
     if image_path is None:  # har karta boshqa rang va nur joyida (bir xil rasm takrorlanmasin)
         import random
         image_path, pos = LOGO, random.choice(["center", "50% 40%", "50% 60%"])
         fit = random.choice(["460px", "520px", "580px"])
-        glow = random.choice(["#0d3b8f", "#5b1fa8", "#0f6e6e", "#8f1d3b", "#1f4fd1", "#a85b0d", "#2b2b8f", "#0d7a3b"])
+        glow = random.choice(["#8f0000", "#b3001b", "#6e0010", "#a31515", "#7a0a0a", "#c40c0c"])
         gx, gy = random.randint(25, 75), random.randint(25, 70)
     html.write_text(HTML % dict(img=pathlib.Path(image_path).resolve().as_uri(), pos=pos, fit=fit, glow=glow, gx=gx, gy=gy, fs=font_size(h1),
                                 h1=h1, handle=HANDLE, foot=FOOT), encoding="utf-8")
