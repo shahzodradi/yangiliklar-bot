@@ -386,20 +386,15 @@
   "https://the-decoder.com/microsoft-details-how-state-backed-hackers-use-the-artex-ai-framework-to-automate-cyberattacks/": 1795694488.268267,
   "https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls/": 1795694488.268267,
   "https://www.musicbusinessworldwide.com/elevenlabs-in-early-talks-to-raise-at-33b-valuation-more-than-six-times-that-of-ai-music-rival-suno-report/": 1795698161.4741561,
-  "https://www.advanced-television.com/2026/11/26/how-are-ai-video-generators-affecting-tv-and-digital-content-production/": 1795701665.3770628
+  "https://www.advanced-television.com/2026/11/26/how-are-ai-video-generators-affecting-tv-and-digital-content-production/": 1795701665.3770628,
+  "https://www.uzdaily.uz/ru/zameniat-li-ii-agenty-cheloveka-otvet-ishchut-300-ekspertov-na-ai-journey/": 1795705556.8875809,
+  "https://www.wired.com/story/meta-refused-to-share-muse-for-testing-uk-financial-watchdog-complains/": 1795705556.8875809,
+  "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench": 1795705556.8875809,
+  "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin": 1795705556.8875809,
+  "https://daryo.uz/2026/11/25/suniy-intellektdan-foydalanaman-va-u-menga-yoqadi-zelenskiy/": 1795705556.8875809
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1795356357.7129755,
-   "title": "GTA 6-style AI photos flood Instagram: Gemini and ChatGPT prompts to turn your selfie into Vice City poster",
-   "soha": "AI rasm"
-  },
-  {
-   "t": 1795356357.7129755,
-   "title": "AI is getting better faster than experts can reliably test whether new systems are safe, METR warns",
-   "soha": "AI"
-  },
   {
    "t": 1795359984.6370823,
    "title": "Seedeo MCP Adds Suno, Kling and Veo to ChatGPT and Claude Connectors",
@@ -1029,6 +1024,31 @@
    "t": 1795701665.3770628,
    "title": "How are AI video generators affecting TV and digital content production?",
    "soha": "AI video"
+  },
+  {
+   "t": 1795705556.8875809,
+   "title": "Заменят ли ИИ-агенты человека? Ответ ищут 300 экспертов на AI Journey",
+   "soha": "AI"
+  },
+  {
+   "t": 1795705556.8875809,
+   "title": "Meta Refused to Share Muse for Testing, UK Financial Watchdog Complains",
+   "soha": "AI"
+  },
+  {
+   "t": 1795705556.8875809,
+   "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+   "soha": "AI"
+  },
+  {
+   "t": 1795705556.8875809,
+   "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
+   "soha": "AI"
+  },
+  {
+   "t": 1795705556.8875809,
+   "title": "“Sun’iy intellektdan foydalanaman va u menga yoqadi” — Zelenskiy",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -1036,22 +1056,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1795529019.6448472,
-   "title": "Xitoy festivalida ilk bor sun'iy intellekt asosidagi filmlar bo'limi namoyish etildi",
-   "text": "Xiamen shahrida o'tgan China Golden Rooster and Hundred Flowers Film Festivali doirasida ilk bor sun'iy intellekt yordamida yaratilgan filmlar bo'limi taqdim etildi.",
-   "orig_title": "From Film Sets to Animated Dramas: How AI Is Reshaping Film Production",
-   "link": "https://www.detroitnews.com/press-release/story/203359/from-film-sets-to-animated-dramas-how-ai-is-reshaping-film-production/",
-   "source": "detroitnews.com",
-   "soha": "AI tanlov",
-   "baho": 10,
-   "experts": [],
-   "effect": null,
-   "image": null,
-   "domains": [],
-   "urls": [],
-   "videos": []
-  },
   {
    "t": 1795576003.1548922,
    "title": "Jamin Tasker’ning ‘Everything Soft’ filmi DISRUPT AI Film Festivalida bosh sovrinni qo‘lga kiritdi",
@@ -2767,6 +2771,116 @@
     "https://www.advanced-television.com/2026/11/26/how-are-ai-video-generators-affecting-tv-and-digital-content-production/",
     "https://www.businessinsider.com/mrbeast-plots-move-into-ai-native-entertainment-2026-4",
     "https://www.wired.com/story/this-r-rated-film-studio-wants-to-be-the-hbo-of-ai/"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795705556.8875809,
+   "title": "AI Journey konferensiyasida sun'iy intellekt agentlari muhokama qilinmoqda",
+   "text": "Moskvada bo'lib o'tayotgan AI Journey xalqaro konferensiyasida 300 dan ortiq ekspertlar ishtirok etib, sun'iy intellekt agentlari insonning o'rnini egallay olishi mumkinligini muhokama qilmoqda.",
+   "orig_title": "Заменят ли ИИ-агенты человека? Ответ ищут 300 экспертов на AI Journey",
+   "link": "https://www.uzdaily.uz/ru/zameniat-li-ii-agenty-cheloveka-otvet-ishchut-300-ekspertov-na-ai-journey/",
+   "source": "uzdaily.uz",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Sun'iy intellekt agentlari va yangi modellarning jadal rivojlanishi biznes jarayonlarini avtomatlashtirish, turli sohalarda samaradorlikni oshirish hamda xavfsizlik va tartibga solish bo'yicha muhim muhokamalarga olib kelishi mumkin.",
+   "image": "https://www.uzdaily.uz/media/filer_public/a5/2d/a52dfc91-c4ee-4f91-9370-d1463ced35fe/aij2026conf_20261124130104.webp",
+   "domains": [
+    "uzdaily.uz",
+    "cnbc.com"
+   ],
+   "urls": [
+    "https://www.uzdaily.uz/ru/zameniat-li-ii-agenty-cheloveka-otvet-ishchut-300-ekspertov-na-ai-journey/",
+    "https://www.cnbc.com/2026/09/29/openai-devday-2026-live-updates.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795705556.8875809,
+   "title": "Buyuk Britaniya moliya regulyatori Meta kompaniyasining Muse agentidan xavotirda",
+   "text": "Buyuk Britaniyaning moliya nazorati idorasi Meta o'zining shaxsiy agentini ishga tushirishdan oldin qo'shma sinovlardan bosh tortgani sababli xavfsizlik xavflari haqida ogohlantirdi.",
+   "orig_title": "Meta Refused to Share Muse for Testing, UK Financial Watchdog Complains",
+   "link": "https://www.wired.com/story/meta-refused-to-share-muse-for-testing-uk-financial-watchdog-complains/",
+   "source": "Wired AI",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Shaxsiy yordamchi va agentik sun'iy intellekt vositalarining bozorga chiqishi iste'molchilarning shaxsiy ma'lumotlarini himoya qilish, moliyaviy xizmatlarni tartibga solish va chakana savdo sohasida yangi talablarni keltirib chiqarishi mumkin.",
+   "image": "https://media.wired.com/photos/6b07201067745997b8ffd8ed/191:100/w_1280,c_limit/Meta-Refused-to-Share-Muse-for-Testing-Business-2300550254.jpg",
+   "domains": [
+    "wired.com",
+    "malaysia.news.yahoo.com"
+   ],
+   "urls": [
+    "https://www.wired.com/story/meta-refused-to-share-muse-for-testing-uk-financial-watchdog-complains/",
+    "https://malaysia.news.yahoo.com/meta-launches-muse-personal-agent-151148314.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795705556.8875809,
+   "title": "llama.cpp uchun AMD Ryzen va Radeon uchun test paneli taqdim etildi",
+   "text": "Hugging Face platformasida AMD Ryzen protsessorlari va Radeon grafik kartalari uchun llama.cpp benchmark paneli taqdim etildi.",
+   "orig_title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+   "link": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+   "source": "Hugging Face",
+   "soha": "AI",
+   "baho": 6,
+   "experts": [],
+   "effect": "Mahalliy apparat ta'minoti va mahalliy sun'iy intellekt infratuzilmasini kuzatish dasturiy ta'minot samaradorligini oshirishga va texnologik ekotizimni rivojlantirishga xizmat qilishi mumkin.",
+   "image": "https://cdn-uploads.huggingface.co/production/uploads/67289c93ff90038d9a6e5675/tbIvyMSISXCm64WYP3atl.png",
+   "domains": [
+    "huggingface.co",
+    "ca.news.yahoo.com"
+   ],
+   "urls": [
+    "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+    "https://ca.news.yahoo.com/exodus-innovators-benchmark-canada-113409256.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795705556.8875809,
+   "title": "Nemotron 3.5 Parse modeli uchun yangi ma'lumotlar va tezkor ishlash imkoniyatlari",
+   "text": "Hugging Face platformasida Nemotron 3.5 Parse modeli asosida ochiq ma'lumotlar, nozik sozlash va tezroq inferensiya imkoniyatlari e'lon qilindi.",
+   "orig_title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
+   "link": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+   "source": "Hugging Face",
+   "soha": "AI",
+   "baho": 6,
+   "experts": [],
+   "effect": "Ochiq kodli sun'iy intellekt modellarining ommalashishi apparat ta'minoti va chip savdosining o'sishiga, shuningdek, dasturchilar uchun xarajatlarning kamayishiga olib kelishi mumkin.",
+   "image": "https://cdn-uploads.huggingface.co/production/uploads/6365c3f398da81987e2753f2/zArpuP9uLsLz9luMW0K2g.png",
+   "domains": [
+    "huggingface.co",
+    "cnbc.com"
+   ],
+   "urls": [
+    "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+    "https://www.cnbc.com/2026/08/11/nvidia-releases-nemotron-3point5-lightning-open-source-ai-model-.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795705556.8875809,
+   "title": "Volodimir Zelenskiy davlat organlarida sun'iy intellekt qo'llanilishini ma'qulladi",
+   "text": "Ukraina prezidenti davlat idoralari sun'iy intellektdan faol foydalanayotganini va bu rasmiy taqdimotlarni tayyorlashni osonlashtirayotganini bildirdi.",
+   "orig_title": "“Sun’iy intellektdan foydalanaman va u menga yoqadi” — Zelenskiy",
+   "link": "https://daryo.uz/2026/11/25/suniy-intellektdan-foydalanaman-va-u-menga-yoqadi-zelenskiy/",
+   "source": "daryo.uz",
+   "soha": "AI",
+   "baho": 5,
+   "experts": [],
+   "effect": "Davlat boshqaruvi va mudofaa sohasida sun'iy intellekt texnologiyalarining qo'llanilishi ish jarayonlarini tezlashtirishi hamda xavfsizlik va qurol-yarog' tizimlarini takomillashtirishga olib kelishi mumkin.",
+   "image": "https://gocdn.daryo.uz/large/2026/11/25/c4a80599cbe834815174252fde36aed3b2d30418a7b43d6ecbccf49e72bc10b7.webp",
+   "domains": [
+    "daryo.uz",
+    "yahoo.com"
+   ],
+   "urls": [
+    "https://daryo.uz/2026/11/25/suniy-intellektdan-foydalanaman-va-u-menga-yoqadi-zelenskiy/",
+    "https://www.yahoo.com/news/articles/ukraine-envoy-row-hijacks-eu-060037124.html"
    ],
    "videos": []
   }
