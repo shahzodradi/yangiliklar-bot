@@ -16,7 +16,7 @@ COUNT = 2                 # kuniga nechta post
 MIN_W, MIN_H = 1080, 900  # rasm sifati: reelda 1080x1100 maydon — bo'yi kichik rasm cho'zilib xira chiqadi
 MIN_SHARP = 400           # keskinlik (2026-11-26: xira rasm yo'q) (chegaralar dispersiyasi): kattalashtirilgan xira rasmlar ~200
 WINDOW_HOURS = 26         # shu soat ichida bot yuborgan yangiliklar nomzod
-CAPTION_MAX = 2200        # Instagram izoh limiti
+CAPTION_MAX = 2150        # Instagram limiti 2200 (UTF-16 bo'yicha sanaladi, Worker oldiga "| " qo'shadi) — zaxira bilan
 PROMO = ("🤖 AI yangiliklarini har 2 soatda birinchi boʻlib olish uchun Telegram botimiz: "
          "@yangiliklaraivabiznes_bot")
 log = bot.log
@@ -276,11 +276,18 @@ def build_caption(item, pick, photo_credit, detail=""):
         parts.append(" ".join(t if t.startswith("#") else f"#{t}" for t in pick["teglar"][:7]))
         return "\n\n".join(parts)
 
+    def size(t):  # Buffer/Instagram emoji'ni 2 belgi deb sanaydi
+        return len(t.encode("utf-16-le")) // 2
+
     for limit in (300, 200, 120, 0):
         caption = build(limit)
-        if len(caption) <= CAPTION_MAX:
+        if size(caption) <= CAPTION_MAX:
             return caption
-    return caption[:CAPTION_MAX]
+    item = {**item, "effect": ""}  # batafsil matn uzun bo'lsa: "Nimaga olib kelishi mumkin" bo'limisiz
+    caption = build(0)
+    while size(caption) > CAPTION_MAX:
+        caption = caption[:-50]
+    return caption
 
 
 def uz(text):

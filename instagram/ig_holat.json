@@ -1,7 +1,5 @@
 {
  "links": [
-  "https://www.uzdaily.uz/en/rezet-hackers-target-companies-in-uzbekistan-and-cis/",
-  "https://www.billboard.com/pro/distrokid-ai-data-umg-sony-lawsuit-suno/",
   "https://openai.com/index/introducing-chatgpt-for-sales",
   "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/",
   "https://the-decoder.com/reports-of-ai-generated-child-sexual-abuse-material-have-surged-more-than-8400-percent-in-two-years/",
@@ -299,7 +297,9 @@
   "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
   "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
   "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
-  "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/"
+  "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/",
+  "https://siliconangle.com/2026/11/25/voice-ai-startup-elevenlabs-reportedly-seeking-new-funding-at-33b-valuation/",
+  "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/"
  ],
  "faktlar": {
   "Alan Turing": [
@@ -402,7 +402,9 @@
   1795674769.5537324,
   1795674779.8836677,
   1795681929.6340816,
-  1795681938.8481264
+  1795681938.8481264,
+  1795690067.7129276,
+  1795690067.7129276
  ],
  "reel_vaqt": [
   1795595537.7911758,
@@ -423,7 +425,9 @@
   1795674720.2912343,
   1795674747.427341,
   1795674769.5537314,
-  1795681929.6340802
+  1795681929.6340802,
+  1795690067.7129276,
+  1795690067.7129276
  ],
  "rasmlar": [
   "fffc30000060f3ff",
@@ -1167,6 +1171,16 @@
    1795681885.8560727,
    "AI ma'lumotlar markazlarini qurish qiyinlashmoqda",
    "nvidia data center rules"
+  ],
+  [
+   1795690067.7129276,
+   "ElevenLabs 33 milliard dollarlik bahoda yangi investitsiya qidirmoqda",
+   ""
+  ],
+  [
+   1795690067.7129276,
+   "Nyu-Yorkda sun'iy intellektli o'yinchoqlar taqiqlandi",
+   ""
   ]
  ],
  "top3_kun": "2026-11-22"
