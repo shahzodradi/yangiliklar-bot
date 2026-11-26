@@ -97,7 +97,7 @@ def voice(text, mp3, eleven=False):
 GEMINI_VOICE = "Charon"
 # Bepul API ovozlari (foydalanuvchi tanlagan 2026-11-26): Charlie, Daniel, Chris — har kuni navbat bilan
 ELEVEN_VOICES = ["IKne3meq5aSn9XLyUdCD", "onwK4e9ZLuTAKqWW03F9", "iP95p4xoKVk53GoZ742B"]
-ELEVEN_TAGS = "[very fast] [emotional] "  # eleven_v3 audio teglari: tez va jonli (foydalanuvchi tanlagan uslub)
+ELEVEN_TAGS = ""  # teglar yo'q: ohang boshidan oxirigacha bir xil (teg almashsa ovoz "chalkashadi" — 2026-11-26)
 
 
 def eleven_voice(text, mp3):
@@ -109,7 +109,8 @@ def eleven_voice(text, mp3):
     import datetime
     vid = os.environ.get("ELEVENLABS_VOICE") or ELEVEN_VOICES[datetime.date.today().toordinal() % len(ELEVEN_VOICES)]
     body = {"text": text if text.startswith("[") else ELEVEN_TAGS + text, "model_id": "eleven_v4",
-            "voice_settings": {"stability": 0.5, "similarity_boost": 0.75}}
+            "language_code": "uz",  # o'zbek talaffuzi rejimi
+            "voice_settings": {"stability": 0.65, "similarity_boost": 0.8, "speed": 1.1}}
     d, err = None, None
     for key in keys:  # bir akkaunt krediti tugasa (401/402/429), keyingi akkaunt kaliti
         req = urllib.request.Request(f"https://api.elevenlabs.io/v1/text-to-speech/{vid}/with-timestamps"
@@ -287,10 +288,8 @@ def make_reel(name, photos, h1_html, narration, hook="", fs=None, segments=None,
     mp3 = OUT / f"{name}.mp3"
     if segments:
         narration = " ".join(t for t, _ in segments)
-    if eleven and hook:  # hook baqirmasin: oddiy ohangda, keyin odatiy tez-jonli uslub (foydalanuvchi 2026-11-26)
-        spoken = f"[calm] [conversational] {hook.replace('!', '').strip(' .')}. {ELEVEN_TAGS}{narration}"
-    else:
-        spoken = f"{hook}. {narration}" if hook else narration
+    # hook baqirmasin, butun reel bir xil ohangda (foydalanuvchi 2026-11-26): undovsiz, oddiy gap
+    spoken = f"{hook.replace('!', '').strip(' .')}. {narration}" if hook else narration
     words = voice(speakable(spoken), mp3, eleven=eleven)
     if not mp3.exists() or not mp3.stat().st_size:
         return None
