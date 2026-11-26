@@ -1,11 +1,5 @@
 {
  "seen": {
-  "https://wersm.com/adobe-firefly-ai-creative-studio-agents/": 1794798318.1396794,
-  "https://openai.com/index/step-toward-defining-the-standard-model": 1794798318.1396794,
-  "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china": 1794798318.1396794,
-  "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools": 1794798318.1396794,
-  "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/": 1794798318.1396794,
-  "https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed": 1794798318.1396794,
   "https://economictimes.indiatimes.com/news/short-videos/adobe-firefly-gets-major-ai-upgrades-generative-ai-and-audio-enhancement-at-adobe-max-2026/videoshow/135871429.cms": 1794801668.6522408,
   "https://openai.com/index/our-new-blog-for-science": 1794808920.9056406,
   "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/": 1794808920.9056406,
@@ -369,35 +363,13 @@
   "https://www.gazeta.uz/ru/2026/11/25/ai-shermatov-uzbekistan/": 1795633381.3085434,
   "https://www.billboard.com/pro/the-chicks-willie-colon-join-ai-music-lawsuit-against-suno/": 1795633381.3085434,
   "https://the-decoder.com/openai-wants-companies-to-trust-it-with-sensitive-work-by-promising-not-to-look-at-their-data/": 1795633381.3085434,
-  "https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal": 1795633381.3085434
+  "https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal": 1795633381.3085434,
+  "https://www.financialexpress.com/business/eloelo-group-introduces-ai-platform-to-simplify-film-production-4393965/": 1795662341.2942443,
+  "https://www.dezeen.com/2026/11/25/adobes-creative-agent-now-in-creative-cloud-tools-and-firefly/": 1795662341.2942443,
+  "https://siliconangle.com/2026/11/25/voice-ai-startup-elevenlabs-reportedly-seeking-new-funding-at-33b-valuation/": 1795662341.2942443
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1795288058.93629,
-   "title": "Binding of Isaac fans review bomb DLC after discovering GTA 6 mode songs are AI",
-   "soha": "AI musiqa"
-  },
-  {
-   "t": 1795316615.5396836,
-   "title": "Perfect Corp. Introduces Youcam Muse Ai Song and Music Video Platform",
-   "soha": "AI musiqa"
-  },
-  {
-   "t": 1795316615.5396836,
-   "title": "The UN fails to agree on rules regulating ‘killer robots’",
-   "soha": "AI"
-  },
-  {
-   "t": 1795316615.5396836,
-   "title": "The Outages Are Just Getting Started",
-   "soha": "AI"
-  },
-  {
-   "t": 1795316615.5396836,
-   "title": "Silicon Valley's growing obsession with AI doomsday is turning parts of the tech industry toward cult-like devotion",
-   "soha": "AI"
-  },
   {
    "t": 1795330976.5242789,
    "title": "The Binding of Isaac: Repentance+ Online mode appears to contain AI generated music, creator working on getting it removed",
@@ -917,6 +889,21 @@
    "t": 1795633381.3085434,
    "title": "Nothing offers a full look at its AI earbuds and charging case",
    "soha": "AI"
+  },
+  {
+   "t": 1795662341.2942443,
+   "title": "EloElo Group Introduces AI Platform to Simplify Film Production",
+   "soha": "AI tanlov"
+  },
+  {
+   "t": 1795662341.2942443,
+   "title": "Adobe’s Creative Agent transforms Creative Cloud tools and Firefly workflows",
+   "soha": "AI rasm"
+  },
+  {
+   "t": 1795662341.2942443,
+   "title": "Voice AI startup ElevenLabs reportedly seeking new funding at $33B valuation",
+   "soha": "AI musiqa"
   }
  ],
  "mavzu": {
@@ -924,194 +911,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1795460602.959582,
-   "title": "Jensen Huang Nvidia kompaniyasiga bosh direktor sifatida qaytdi",
-   "text": "Nvidia bosh direktori Jensen Huang o'z lavozimiga qaytdi. Kompaniya rahbariyatidagi bu o'zgarishlar texnologiya olamida katta muhokamalarga sabab bo'lmoqda.",
-   "orig_title": "Jensen Huang isn’t out of the woods yet",
-   "link": "https://techcrunch.com/2026/11/23/jensen-huang-isnt-out-of-the-woods-yet/",
-   "source": "TechCrunch AI",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": null,
-   "image": "https://techcrunch.com/wp-content/uploads/2026/09/Jensen-Huang.jpg?resize=1200,800",
-   "domains": [],
-   "urls": [],
-   "videos": []
-  },
-  {
-   "t": 1795460602.959582,
-   "title": "Walmart va Meta hamkorlikda xaridlar uchun AI agentini ishga tushirdi",
-   "text": "Walmart mijozlarga Meta'ning Muse AI agenti orqali xaridlarni amalga oshirish imkoniyatini taqdim etdi.",
-   "orig_title": "Meta Muse can do your Black Friday shopping at Walmart",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday",
-   "source": "The Verge AI",
-   "soha": "AI",
-   "baho": 7,
-   "experts": [],
-   "effect": null,
-   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Walmart-Meta-Muse-Agent-Gateway.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
-   "domains": [],
-   "urls": [],
-   "videos": [
-    [
-     "https://www.youtube.com/watch?v=SdKFDIAGF24",
-     "YouTube"
-    ],
-    [
-     "https://x.com/alexandr_wang/status/2122795379263750477",
-     "X"
-    ]
-   ]
-  },
-  {
-   "t": 1795460602.959582,
-   "title": "Anthropic kompaniyasining hisoblash quvvatlariga talabi oshmoqda",
-   "text": "Anthropic va boshqa kompaniyalar o'z loyihalari uchun katta miqdordagi hisoblash quvvatlarini ijaraga olmoqda.",
-   "orig_title": "Anthropic's appetite for compute is pushing xAI toward a rent-over-build strategy",
-   "link": "https://the-decoder.com/anthropics-appetite-for-compute-is-pushing-xai-toward-a-rent-over-build-strategy/",
-   "source": "The Decoder",
-   "soha": "AI",
-   "baho": 6,
-   "experts": [],
-   "effect": null,
-   "image": "https://the-decoder.com/wp-content/uploads/2026/06/xai_logo_wall-2.png",
-   "domains": [],
-   "urls": [],
-   "videos": []
-  },
-  {
-   "t": 1795460602.959582,
-   "title": "Aleksandr Vang sun'iy intellekt sohasidagi yutuqlar haqida ogohlantirdi",
-   "text": "Meta kompaniyasining bosh sun'iy intellekt direktori Aleksandr Vang so'nggi ilmiy yutuqlardan keyin sanoat kelajagi haqida fikr bildirdi.",
-   "orig_title": "Meta's Alexandr Wang warns the AI industry isn't ready for what's coming after Riemann breakthrough",
-   "link": "https://the-decoder.com/metas-alexandr-wang-warns-the-ai-industry-isnt-ready-for-whats-coming-after-riemann-breakthrough/",
-   "source": "The Decoder",
-   "soha": "AI",
-   "baho": 6,
-   "experts": [],
-   "effect": null,
-   "image": "https://the-decoder.com/wp-content/uploads/2026/07/meta_logo-2.png",
-   "domains": [],
-   "urls": [],
-   "videos": [
-    [
-     "https://x.com/alexandr_wang/status/2124636606959345776",
-     "X"
-    ]
-   ]
-  },
-  {
-   "t": 1795489357.1250331,
-   "title": "Anthropic Claude Ship dasturlash agentlarini chiqardi",
-   "text": "Anthropic kompaniyasi dasturchilarga yordam berish uchun Claude Ship vositasini taqdim etdi, bu funksiya AI agentlarga kod o'zgarishlarini ko'rib chiqish va tasdiqlash imkonini beradi.",
-   "orig_title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
-   "link": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
-   "source": "TechCrunch AI",
-   "soha": "AI",
-   "baho": 9,
-   "experts": [],
-   "effect": "Dasturiy ta'minotni ishlab chiqish jarayonida kodni tekshirish va tasdiqlash bosqichlaridagi tirbandliklar kamayib, muhandislar va jamoalar uchun ish tezligi sezilarli darajada oshishi mumkin.",
-   "image": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2295579000.jpg?resize=1200,800",
-   "domains": [
-    "techcrunch.com",
-    "theverge.com"
-   ],
-   "urls": [
-    "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
-    "https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795489357.1250331,
-   "title": "OpenAI ChatGPT uchun GPT-6.2 Sol modelini ishga tushirdi",
-   "text": "OpenAI ChatGPT chat oynasida GPT-6.2 Sol modelini yangi standart sifatida joriy etdi, bunda tasvirlarni tushunish va qiyin ko'rsatmalarni bajarish yaxshilandi.",
-   "orig_title": "OpenAI updates ChatGPT to handle complex everyday questions, web searches, and images more reliably",
-   "link": "https://the-decoder.com/openai-updates-chatgpt-to-handle-complex-everyday-questions-web-searches-and-images-more-reliably/",
-   "source": "The Decoder",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Murakkab so'rovlar va veb-qidiruvlarni ishonchliroq bajarish qobiliyati foydalanuvchilarning sun'iy intellekt bilan ishlash tajribasini yaxshilab, xavfsizlik va yoshlar himoyasi yanada kuchayishiga olib kelishi mumkin.",
-   "image": "https://the-decoder.com/wp-content/uploads/2026/11/openai_chatgpt_pattern-1200x675.png",
-   "domains": [
-    "the-decoder.com",
-    "theverge.com"
-   ],
-   "urls": [
-    "https://the-decoder.com/openai-updates-chatgpt-to-handle-complex-everyday-questions-web-searches-and-images-more-reliably/",
-    "https://www.theverge.com/ai-artificial-intelligence/1040716/openai-launched-a-chat-specific-version-of-gpt-6-2-sol"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795489357.1250331,
-   "title": "OpenAI GPT-6.2 Astra 3D dunyolarni tushunishini bildirdi",
-   "text": "OpenAI modeli eskizlarni CAD qismlari va Blender sahnalariga aylantirib, AA-3Dreytingida yetakchilik qildi.",
-   "orig_title": "OpenAI says GPT-6.2 Astra can understand, simulate, and help build 3D worlds",
-   "link": "https://cryptobriefing.com/openai-gpt-6-2-3d-simulation/",
-   "source": "cryptobriefing.com",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Muhandislik va ilmiy sohalarda uch o'lchamli olamlarni tushunish hamda modellashtirish xarajatlari kamayib, murakkab loyihalarni bajarish vaqtida tokenlardan foydalanish samaradorligi oshishi mumkin.",
-   "image": "https://static.cryptobriefing.com/wp-content/uploads/2026/11/23152640/library-openai-says-gpt-6-2-astra-can-understand-simulate-and-he-800x450.jpg",
-   "domains": [
-    "cryptobriefing.com",
-    "tech.yahoo.com"
-   ],
-   "urls": [
-    "https://cryptobriefing.com/openai-gpt-6-2-3d-simulation/",
-    "https://tech.yahoo.com/ai/chatgpt/articles/openai-just-launched-gpt-6-200239442.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795489357.1250331,
-   "title": "Robot AI startapi Embo 110 million dollar investitsiya oldi",
-   "text": "Embo internet videolari va simulyatsiyalar yordamida aqlli robotlar uchun AI modellarini yaratish maqsadida Andreessen Horowitz boshchiligida 110 million dollar mablag' to'pladi.",
-   "orig_title": "Robot AI Startup Embo Secures $110M Seed Investment Led by A16z",
-   "link": "https://www.unite.ai/robot-ai-startup-embo-secures-110m-seed-investment-led-by-a16z/",
-   "source": "unite.ai",
-   "soha": "AI",
-   "baho": 7,
-   "experts": [],
-   "effect": "Robototexnika sohasida sun'iy intellekt modellarini internet videolari va simulyatsiyalar yordamida o'qitish orqali mashinalar notanish vaziyatlarda ham barqaror va mustaqil harakat qilish qobiliyatiga ega bo'lishi mumkin.",
-   "image": "https://www.unite.ai/wp-content/uploads/2026/11/embo-raises-110m-seed-to-build-world-models-for-intelligent-robots.jpg",
-   "domains": [
-    "unite.ai",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://www.unite.ai/robot-ai-startup-embo-secures-110m-seed-investment-led-by-a16z/",
-    "https://finance.yahoo.com/technology/ai/articles/tutor-intelligence-raises-75-million-160000524.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795489357.1250331,
-   "title": "Marlowe infratuzilma startapi 277 million dollar mablag' oldi",
-   "text": "Marlowe startapi Nvidia'dan tashqari boshqa chiplarda sun'iy intellektni ishga tushirish uchun 1.15 milliard dollar bahoda 277 million dollar miqdorida sarmoya jalb qildi.",
-   "orig_title": "Beyond Nvidia: Convoy co-founder and former Microsoft leader raise $277M to rethink AI infrastructure",
-   "link": "https://www.geekwire.com/2026/beyond-nvidia-convoy-co-founder-and-former-microsoft-leader-raise-277m-to-rethink-ai-infrastructure/",
-   "source": "geekwire.com",
-   "soha": "AI",
-   "baho": 7,
-   "experts": [],
-   "effect": "Sun'iy intellekt modellarini o'qitishdan ularni kundalik mahsulotlarda ishlatishga o'tish davrida muqobil chiplar va maxsus ma'lumotlar markazlari orqali xarajatlar kamayib, samaradorlik oshishi mumkin.",
-   "image": "https://cdn.geekwire.com/wp-content/uploads/2026/11/marlowe-founders-dan-lewis-kutta-srinivasan.jpg",
-   "domains": [
-    "geekwire.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://www.geekwire.com/2026/beyond-nvidia-convoy-co-founder-and-former-microsoft-leader-raise-277m-to-rethink-ai-infrastructure/",
-    "https://finance.yahoo.com/technology/ai/articles/infinity-raises-15-million-seed-150500491.html"
-   ],
-   "videos": []
-  },
   {
    "t": 1795492864.1237469,
    "title": "Supertake $20M investitsiya jalb etdi",
@@ -2658,6 +2457,74 @@
      "X"
     ]
    ]
+  },
+  {
+   "t": 1795662341.2942443,
+   "title": "Dolphin AI Film Studio taqdim etildi",
+   "text": "EloElo guruhi 57-xalqaro kinofestivalida sun'iy intellekt yordamida to'liq metrajli video va filmlar yaratishga mo'ljallangan Dolphin AI Film Studio platformasini namoyish etdi.",
+   "orig_title": "EloElo Group Introduces AI Platform to Simplify Film Production",
+   "link": "https://www.financialexpress.com/business/eloelo-group-introduces-ai-platform-to-simplify-film-production-4393965/",
+   "source": "financialexpress.com",
+   "soha": "AI tanlov",
+   "baho": 10,
+   "experts": [],
+   "effect": "Film tarqatuvchi kompaniyalarning o'zgarishi va tanqidiy syujet tufayli loyiha atrofidagi muhokamalar yanada ortishi mumkin.",
+   "image": null,
+   "domains": [
+    "au.news.yahoo.com",
+    "theguardian.com"
+   ],
+   "urls": [
+    "https://au.news.yahoo.com/trailer-openai-film-artificial-pulls-122730215.html",
+    "https://www.theguardian.com/film/video/2026/oct/16/naza-the-film-israel-does-not-want-you-to-see-video"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795662341.2942443,
+   "title": "Adobe Creative Agent yangi funksiyalar bilan kengaytirildi",
+   "text": "Adobe Creative Agent dasturini Creative Cloud va Firefly vositalariga integratsiya qilib, ijodiy jarayonlar va ish oqimlarini avtomatlashtirmoqda.",
+   "orig_title": "Adobe’s Creative Agent transforms Creative Cloud tools and Firefly workflows",
+   "link": "https://www.dezeen.com/2026/11/25/adobes-creative-agent-now-in-creative-cloud-tools-and-firefly/",
+   "source": "dezeen.com",
+   "soha": "AI rasm",
+   "baho": 9,
+   "experts": [],
+   "effect": "Ijodiy vositalarning avtomatlashuvi mutaxassislarga vaqtni tejash va murakkab jarayonlarni tezlashtirish imkonini berishi mumkin.",
+   "image": "https://static-2026.dezeen.com/uploads/2026/11/Adobe_dezeen_2364_col_1.jpg",
+   "domains": [
+    "dezeen.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://www.dezeen.com/2026/11/25/adobes-creative-agent-now-in-creative-cloud-tools-and-firefly/",
+    "https://finance.yahoo.com/technology/ai/articles/adobe-adbe-turns-creative-cloud-191007810.html",
+    "https://finance.yahoo.com/sectors/technology/articles/adobe-ushers-era-creativity-creative-130000427.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795662341.2942443,
+   "title": "ElevenLabs 33 milliard dollarlik bahoda yangi investitsiya qidirmoqda",
+   "text": "Ovozli sun'iy intellekt texnologiyalarini ishlab chiquvchi ElevenLabs kompaniyasi 33 milliard dollarlik qiymatda yangi sarmoya jalb qilish bo'yicha dastlabki muzokaralarni boshladi.",
+   "orig_title": "Voice AI startup ElevenLabs reportedly seeking new funding at $33B valuation",
+   "link": "https://siliconangle.com/2026/11/25/voice-ai-startup-elevenlabs-reportedly-seeking-new-funding-at-33b-valuation/",
+   "source": "siliconangle.com",
+   "soha": "AI musiqa",
+   "baho": 9,
+   "experts": [],
+   "effect": "Sun'iy intellekt sektordagi startaplarning bahosini keskin oshirib, investorlar o'rtasida raqobatni kuchaytirishi ehtimoli bor.",
+   "image": "https://images.siliconangle.com/blogs.dir/1/files/2026/11/unsplash-1.png",
+   "domains": [
+    "siliconangle.com",
+    "uk.finance.yahoo.com"
+   ],
+   "urls": [
+    "https://siliconangle.com/2026/11/25/voice-ai-startup-elevenlabs-reportedly-seeking-new-funding-at-33b-valuation/",
+    "https://uk.finance.yahoo.com/news/elevenlabs-targets-33b-valuation-early-203810543.html",
+    "https://uk.finance.yahoo.com/news/sierra-doubles-valuation-30b-within-144303731.html"
+   ],
+   "videos": []
   }
  ]
 }
