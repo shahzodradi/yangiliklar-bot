@@ -302,7 +302,8 @@ def send_videos(items, state, token, chat, dry):
 
 HAR_MAX_RUN = 25    # bir ishga tushishda (bot bir soatda bundan ko'p yubormaydi)
 HAR_MAX_DAY = 48    # sutkada: Instagram API'ning qat'iy limiti 50 post/24 soat
-REEL_MAX_DAY = 24   # sutkada nechta yangilik reel bo'lib ham chiqadi (har yangilik; IG limiti 50 post/sutka)
+REEL_MAX_DAY = 8    # sutkada 8 reel (TOP-3 ham shu hisobda): spam belgisi bo'lmasin, ElevenLabs krediti yetsin
+REEL_GAP = 2.5 * 3600  # reellar orasida kamida 2.5 soat — kun bo'yi tekis tarqaladi (soatlik ishga tushishda har 3-chisi)
 IMG_MAX_DAY = 5     # rasmli post sutkada 5 ta (rasmlar 0 ko'rish oldi, reellar ~120): faqat eng kuchli, haqiqiy rasmli
 IMG_MAX_RUN = 1     # bir ishga tushishda bitta rasm — kun bo'yi tarqalsin, spamdek ko'rinmasin
 HAR_WINDOW = 6 * 3600
@@ -396,6 +397,8 @@ def har():
     import reel
     for _, i, item, pick, photo, caption, _png in sorted(reel_cands, key=lambda c: -c[0]):
         if len(reels) >= REEL_MAX_DAY or len(posted) >= HAR_MAX_DAY:
+            break
+        if not dry and reels and now - max(reels) < REEL_GAP:
             break
         title = re.sub(r"\*", "", pick["sarlavha"]).strip()
         tease = uz(pick.get("qiziqtir", "")).strip() or title  # qisqa: qiziqtiradi, tafsilot izohda
