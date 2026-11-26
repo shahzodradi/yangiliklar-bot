@@ -13,8 +13,8 @@ import post as ig  # noqa: E402
 IG_STATE = HERE / "ig_holat.json"
 IMG_DIR = HERE / "chiqish"
 COUNT = 2                 # kuniga nechta post
-MIN_W, MIN_H = 1080, 700  # rasm sifati: asl o'lcham (1080x870 panelga cho'zilmasin)
-MIN_SHARP = 300           # keskinlik (chegaralar dispersiyasi): kattalashtirilgan xira rasmlar ~200
+MIN_W, MIN_H = 1080, 900  # rasm sifati: reelda 1080x1100 maydon — bo'yi kichik rasm cho'zilib xira chiqadi
+MIN_SHARP = 400           # keskinlik (2026-11-26: xira rasm yo'q) (chegaralar dispersiyasi): kattalashtirilgan xira rasmlar ~200
 WINDOW_HOURS = 26         # shu soat ichida bot yuborgan yangiliklar nomzod
 CAPTION_MAX = 2200        # Instagram izoh limiti
 PROMO = ("🤖 AI yangiliklarini har 2 soatda birinchi boʻlib olish uchun Telegram botimiz: "
@@ -223,12 +223,45 @@ def find_photo(item, query):
 
 # ---------- Izoh ----------
 
-def build_caption(item, pick, photo_credit):
+BATAFSIL_PROMPT = """Sen o'zbek AI yangiliklari Instagram sahifasi muharririsan. Quyidagi yangilik va maqola
+matnlari asosida Instagram izohi uchun BATAFSIL yangilik matnini yoz: o'zbek tilida, lotin yozuvi (oʻ gʻ ʼ),
+kirill harfisiz. 5-8 jumla, 3 ta qisqa xatboshi (orasida bo'sh qator), jami 600-1000 belgi:
+1) nima bo'ldi — kim, qachon, aniq raqamlar; 2) tafsilotlar — qanday ishlaydi, narxi, kimlar uchun;
+3) nega muhim — oddiy odamga, kontent-meykerga ta'siri. FAQAT matnlardagi faktlar, o'ylab topma, reklama
+so'zlarisiz. Brend nomlarini tarjima qilma. Faqat JSON: {"batafsil": "..."}
+
+YANGILIK: {sarlavha}
+{mazmun}
+
+MAQOLALAR:
+{matn}
+"""
+
+
+def batafsil(env, item, pick):
+    """Joylanadigan reel uchun izohga to'liq yangilik matni (maqolalarni o'qib); xato bo'lsa — qisqa matn."""
+    try:
+        texts = [bot.article_text(bot.fetch_html(u), 2500) for u in [item["link"], *(item.get("urls") or [])[1:3]]]
+        matn = "\n---\n".join(t for t in texts if t)[:6000]
+        if len(matn) < 300:
+            return ""
+        res = bot.ask_models(env, BATAFSIL_PROMPT.replace("{sarlavha}", re.sub(r"\*", "", pick["sarlavha"]))
+                             .replace("{mazmun}", item["text"]).replace("{matn}", matn),
+                             {"type": "OBJECT", "properties": {"batafsil": {"type": "STRING"}}, "required": ["batafsil"]},
+                             fast=True)
+        t = uz(res.get("batafsil", "")).strip()
+        return t if len(t) > len(item["text"]) else ""
+    except Exception as e:
+        log.warning("Batafsil matn yozilmadi: %s", str(e)[:150])
+        return ""
+
+
+def build_caption(item, pick, photo_credit, detail=""):
     title = re.sub(r"\*", "", pick["sarlavha"]).strip()
     sources = list(dict.fromkeys([item["source"], *(item.get("domains") or [])]))
 
     def build(expert_limit):
-        parts = [f"{title} {pick['emoji']}".strip(), f"📝 {item['text']}"]
+        parts = [f"{title} {pick['emoji']}".strip(), f"📝 {detail or item['text']}"]
         if item.get("experts") and expert_limit:
             lines = ["🎓 Mutaxassislar fikri"]
             for v in item["experts"]:
@@ -336,7 +369,7 @@ def har():
                             "qiladigan voqealar.\nBir xil voqeani ikki marta olma.",
                             "HAR BIRI uchun ({count} ta, hammasini, tashlab ketma) Instagram posti yoz.")
     # Bir voqea turli saytlardan bir necha marta keladi: Gemini takrorni belgilaydi (shu ro'yxatda va oxirgi 48 soatda)
-    mavzular = [m for m in state.get("mavzular", []) if m[0] > now - 48 * 3600]
+    mavzular = [m for m in state.get("mavzular", []) if m[0] > now - 7 * 86400]  # 7 kun: bir voqea qayta chiqmaydi
     prompt = prompt.format(count=len(items), items=json.dumps(brief, ensure_ascii=False)) + (
         "\nTAKRORNI TEKSHIR: yangilik ro'yxatdagi kichikroq id'li yangilik bilan yoki quyidagi AVVAL JOYLANGAN "
         "voqealardan biri bilan BIR XIL voqea bo'lsa (boshqa sayt, boshqa so'zlar bilan yozilgan bo'lsa ham), "
@@ -344,7 +377,7 @@ def har():
         "Har biriga \"voqea\" ham yoz: voqeaning qisqa inglizcha kaliti, kichik harfda, 2-3 so'z: kompaniya + "
         "mahsulot/harakat (masalan \"suno visuals launch\", \"openai daybreak nato\"). Bir voqea haqidagi "
         "yangiliklarga AYNAN BIR XIL kalit ber.\nAVVAL JOYLANGAN:\n"
-        + json.dumps([m[1] for m in mavzular[-80:]], ensure_ascii=False))
+        + json.dumps([m[1] for m in mavzular[-150:]], ensure_ascii=False))
     result = bot.ask_models(env, prompt, SCHEMA, fast=True)
     keys = {m[2] for m in mavzular if len(m) > 2 and m[2]}  # voqea kalitlari (48 soat): bir voqea bir marta
     picks = {p["id"]: p for p in result.get("tanlov", []) if isinstance(p.get("id"), int) and 0 <= p["id"] < len(items)}
@@ -390,7 +423,7 @@ def har():
 
     def save():
         state["reel_vaqt"], state["har_vaqt"], state["rasmlar"] = reels, posted, list(used)[-2000:]
-        state["mavzular"] = mavzular[-150:]
+        state["mavzular"] = mavzular[-600:]
         if not dry:  # har qadamdan keyin: job uzilsa ham joylangan narsa qayta joylanmaydi
             IG_STATE.write_text(json.dumps(state, ensure_ascii=False, indent=1), encoding="utf-8")
     save()
@@ -407,6 +440,12 @@ def har():
                              hook=uz(pick.get("hook", "")).strip(" .!") + "!" if pick.get("hook") else "",
                              eleven=True)
         log.info("Reel: %s -> %s", title, mp4)
+        detail = batafsil(env, item, pick) if mp4 else ""
+        if detail:  # izohda yangilik batafsil (foydalanuvchi 2026-11-26)
+            m = re.search(r"\nRasm: (.+)", caption)
+            caption = build_caption(item, pick, m.group(1) if m else None, detail)
+        if dry:
+            print(f"\n=== BATAFSIL IZOH\n{caption}\n")
         if mp4 and not dry and ig.publish_reel(token, chat, mp4, caption):
             reels.append(time.time())
             posted.append(time.time())
