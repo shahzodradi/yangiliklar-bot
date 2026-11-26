@@ -1,9 +1,5 @@
 {
  "seen": {
-  "https://www.northjersey.com/press-release/story/267501/a-mothers-escape-from-the-paradise-fire-inspires-santa-fe-ai-hackathon/": 1794848685.9660392,
-  "https://the-decoder.com/alibabas-qwen4-max-takes-on-opus-5-5-gpt-6-and-kimi-k3-1-pro-at-much-lower-prices/": 1794848685.9660392,
-  "https://the-decoder.com/claude-now-builds-interactive-websites-inside-canvas-graphics-reviving-the-flash-era-with-real-html/": 1794848685.9660392,
-  "https://the-decoder.com/anthropic-says-the-key-to-agent-memory-is-knowing-what-to-forget-not-how-much-to-store/": 1794848685.9660392,
   "https://www.ewtnnews.com/vatican/from-the-virtual-to-the-sacramental-hackathon-in-rome-reimagines-parish-life-in-age-of-ai": 1794855913.0818884,
   "https://www.jsonline.com/press-release/story/269708/flova-introduces-ai-animation-generator-that-turns-text-or-images-into-animated-video/": 1794855913.0818884,
   "https://the-decoder.com/moonshot-ai-pivots-kimi-models-from-coding-to-science-as-benchmark-gains-flatten/": 1794855913.0818884,
@@ -391,7 +387,8 @@
   "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench": 1795705556.8875809,
   "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin": 1795705556.8875809,
   "https://daryo.uz/2026/11/25/suniy-intellektdan-foydalanaman-va-u-menga-yoqadi-zelenskiy/": 1795705556.8875809,
-  "https://www.techloy.com/most-realistic-ai-video-generators-in-2027/": 1795712545.9009743
+  "https://www.techloy.com/most-realistic-ai-video-generators-in-2027/": 1795712545.9009743,
+  "https://the-decoder.com/gpt-6-2-astra-users-now-hit-limits-40-faster-after-openai-patched-a-pricing-error/": 1795716071.1635885
  },
  "fails": 0,
  "sent": [
@@ -1019,6 +1016,11 @@
    "t": 1795712545.9009743,
    "title": "Most Realistic AI Video Generators in 2027",
    "soha": "AI video"
+  },
+  {
+   "t": 1795716071.1635885,
+   "title": "GPT-6.2 Astra users now hit limits 40% faster after OpenAI patched a pricing error",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -2876,6 +2878,39 @@
     "https://techcrunch.com/2025/10/15/google-releases-veo-3-1-adds-it-to-flow-video-editor/"
    ],
    "videos": []
+  },
+  {
+   "t": 1795716071.1635885,
+   "title": "OpenAI xatoni tuzatgach, GPT-6.2 Astra foydalanuvchilari limiti tezroq tugay boshladi",
+   "text": "OpenAI xatolik tufayli GPT-6.2 foydalanuvchilariga noto'g'ri chegirmalar berilganini ma'lum qildi. Yangilanishdan so'ng limiti tugash tezligi oshdi.",
+   "orig_title": "GPT-6.2 Astra users now hit limits 40% faster after OpenAI patched a pricing error",
+   "link": "https://the-decoder.com/gpt-6-2-astra-users-now-hit-limits-40-faster-after-openai-patched-a-pricing-error/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Foydalanuvchilar o'z limitlariga tezroq yetib qolishi sababli qidiruv va ishlatish jarayonida cheklovlarga duch kelishi mumkin. OpenAI kompaniyasi xatolikni tuzatgach, obunachilarning token sarflash tezligi oshadi va qo'shimcha kompensatsiyalar taqdim etilishi ehtimoli bor.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/10/openai.png",
+   "domains": [
+    "the-decoder.com",
+    "businessinsider.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/gpt-6-2-astra-users-now-hit-limits-40-faster-after-openai-patched-a-pricing-error/",
+    "https://www.businessinsider.com/openai-token-billing-cost-discount-mistake-sol-astra-2026-11",
+    "https://finance.yahoo.com/video/planes-banks-and-the-nsa-all-went-down-in-one-week-155221612.html"
+   ],
+   "videos": [
+    [
+     "https://x.com/thsottiaux/status/2125784147889393806",
+     "X"
+    ],
+    [
+     "https://x.com/thsottiaux/status/2125299248782778588",
+     "X"
+    ]
+   ]
   }
  ]
 }
