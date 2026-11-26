@@ -1,7 +1,5 @@
 {
  "seen": {
-  "https://openai.com/index/our-new-blog-for-science": 1794808920.9056406,
-  "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/": 1794808920.9056406,
   "https://techcrunch.com/2026/11/15/helsing-backer-plural-raises-1-1b-to-fund-europes-next-moonshots/": 1794820155.7761018,
   "https://openai.com/index/lvmh-media-division-partnership": 1794823259.1961713,
   "https://about.fb.com/news/2026/11/94-of-singapore-small-business-owners-surveyed-say-more-ai-guidance-is-needed/": 1794827255.325033,
@@ -385,7 +383,8 @@
   "https://the-decoder.com/anthropic-ceo-dario-amodei-says-letting-ai-govern-society-would-be-a-bad-idea/": 1795672869.871753,
   "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/": 1795672869.871753,
   "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/": 1795672869.871753,
-  "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers": 1795672869.871753
+  "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers": 1795672869.871753,
+  "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/": 1795676535.4774277
  },
  "fails": 0,
  "sent": [
@@ -1022,6 +1021,11 @@
   {
    "t": 1795672869.871753,
    "title": "FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space",
+   "soha": "AI"
+  },
+  {
+   "t": 1795676535.4774277,
+   "title": "Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’",
    "soha": "AI"
   }
  ],
@@ -2790,6 +2794,39 @@
     "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html"
    ],
    "videos": []
+  },
+  {
+   "t": 1795676535.4774277,
+   "title": "Anthropic rahbari sun’iy intellekt nazorati bo‘yicha tanqidlarga javob berdi",
+   "text": "Anthropic rahbari Dario Amodei raqiblarning odamlar agentligini sun’iy intellektga topshirish haqidagi ayblovlarini rad etdi.",
+   "orig_title": "Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’",
+   "link": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Sun'iy intellekt texnologiyalarining jadal rivojlanishi va avtomatlashtirish darajasi oshishi xavfsizlik, nazorat hamda jamiyatdagi inson roli masalalarida raqobatbardosh kompaniyalar va rahbarlar o'rtasida ziddiyatlar kuchayishiga olib kelishi mumkin.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/03/Dario-Amodei-Anthropic-viva-tech.jpg?w=1024",
+   "domains": [
+    "techcrunch.com",
+    "businessinsider.com",
+    "yahoo.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
+    "https://www.businessinsider.com/dario-amodei-anthropic-calls-out-rival-ai-ceos-over-messaging-2026-11",
+    "https://www.yahoo.com/news/politics/articles/anthropic-ceo-warns-against-handing-224319103.html"
+   ],
+   "videos": [
+    [
+     "https://x.com/DarioAmodei/status/2125656399392690605",
+     "X"
+    ],
+    [
+     "https://x.com/alexandr_wang/status/2124636606959345776",
+     "X"
+    ]
+   ]
   }
  ]
 }
