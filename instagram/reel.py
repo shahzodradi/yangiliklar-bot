@@ -95,24 +95,23 @@ def voice(text, mp3, eleven=False):
 
 
 GEMINI_VOICE = "Charon"
-# Bepul API ovozlari (foydalanuvchi tanlagan 2026-11-26): Charlie, Daniel, Chris — har kuni navbat bilan
-ELEVEN_VOICES = ["IKne3meq5aSn9XLyUdCD", "onwK4e9ZLuTAKqWW03F9", "iP95p4xoKVk53GoZ742B"]
+# (kalit env nomi, ovoz): navbat bilan sinaladi. "AI Tezkor" — foydalanuvchi Voice Design bilan yaratgan o'zbek ovozi
+# (faqat ELEVENLABS_API_KEY2 akkauntida); u akkaunt krediti tugasa, 1-akkauntda tayyor Charlie ovozi (2026-11-26)
+ELEVEN_VOICES = [("ELEVENLABS_API_KEY2", "o0V1rEBV3NzPRJwtGzVh"), ("ELEVENLABS_API_KEY", "IKne3meq5aSn9XLyUdCD")]
 ELEVEN_TAGS = ""  # teglar yo'q: ohang boshidan oxirigacha bir xil (teg almashsa ovoz "chalkashadi" — 2026-11-26)
 
 
 def eleven_voice(text, mp3):
     """ElevenLabs eleven_v3 (o'zbek tilini biladi) + harf vaqtlari -> so'z vaqtlari (subtitr aniq tushadi)."""
     import base64, os, urllib.request, urllib.error
-    keys = [k for k in (os.environ.get("ELEVENLABS_API_KEY2"), os.environ.get("ELEVENLABS_API_KEY")) if k]
-    if not keys:
+    pairs = [(os.environ[k], v) for k, v in ELEVEN_VOICES if os.environ.get(k)]
+    if not pairs:
         raise RuntimeError("ELEVENLABS_API_KEY yo'q")
-    import datetime
-    vid = os.environ.get("ELEVENLABS_VOICE") or ELEVEN_VOICES[datetime.date.today().toordinal() % len(ELEVEN_VOICES)]
     body = {"text": text if text.startswith("[") else ELEVEN_TAGS + text, "model_id": "eleven_v4",
             "language_code": "uz",  # o'zbek talaffuzi rejimi
             "voice_settings": {"stability": 0.65, "similarity_boost": 0.8, "speed": 1.1}}
     d, err = None, None
-    for key in keys:  # bir akkaunt krediti tugasa (401/402/429), keyingi akkaunt kaliti
+    for key, vid in pairs:  # bir akkaunt krediti tugasa (401/402/429), keyingi akkaunt + uning ovozi
         req = urllib.request.Request(f"https://api.elevenlabs.io/v1/text-to-speech/{vid}/with-timestamps"
                                      "?output_format=mp3_44100_128", json.dumps(body).encode(),
                                      {"Content-Type": "application/json", "xi-api-key": key})
