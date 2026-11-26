@@ -86,6 +86,7 @@ def voice(text, mp3, eleven=False):
             return eleven_voice(text, mp3)
         except Exception as e:
             print("ElevenLabs ishlamadi, Gemini bilan:", str(e)[:200])
+    text = re.sub(r"\[[^\]]*\]\s*", "", text)  # ElevenLabs teglari boshqa ovozlarda o'qilib ketmasin
     try:
         return gemini_voice(text, mp3)
     except Exception as e:
@@ -107,7 +108,7 @@ def eleven_voice(text, mp3):
         raise RuntimeError("ELEVENLABS_API_KEY yo'q")
     import datetime
     vid = os.environ.get("ELEVENLABS_VOICE") or ELEVEN_VOICES[datetime.date.today().toordinal() % len(ELEVEN_VOICES)]
-    body = {"text": ELEVEN_TAGS + text, "model_id": "eleven_v4",
+    body = {"text": text if text.startswith("[") else ELEVEN_TAGS + text, "model_id": "eleven_v4",
             "voice_settings": {"stability": 0.5, "similarity_boost": 0.75}}
     d, err = None, None
     for key in keys:  # bir akkaunt krediti tugasa (401/402/429), keyingi akkaunt kaliti
@@ -286,7 +287,11 @@ def make_reel(name, photos, h1_html, narration, hook="", fs=None, segments=None,
     mp3 = OUT / f"{name}.mp3"
     if segments:
         narration = " ".join(t for t, _ in segments)
-    words = voice(speakable(f"{hook}. {narration}" if hook else narration), mp3, eleven=eleven)
+    if eleven and hook:  # hook baqirmasin: oddiy ohangda, keyin odatiy tez-jonli uslub (foydalanuvchi 2026-11-26)
+        spoken = f"[calm] [conversational] {hook.replace('!', '').strip(' .')}. {ELEVEN_TAGS}{narration}"
+    else:
+        spoken = f"{hook}. {narration}" if hook else narration
+    words = voice(speakable(spoken), mp3, eleven=eleven)
     if not mp3.exists() or not mp3.stat().st_size:
         return None
     ass = subtitles(words, OUT / f"{name}.ass", hook=hook)
