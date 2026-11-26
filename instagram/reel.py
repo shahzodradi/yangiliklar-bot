@@ -94,7 +94,8 @@ def voice(text, mp3, eleven=False):
 
 
 GEMINI_VOICE = "Charon"
-ELEVEN_VOICE = "mYhf0DXKzjnVi3UQGtCB"  # "AI Tezkor - Jurnalist": Voice Design bilan yaratilgan o'zbek jurnalist ovozi (bepul API ishlatadi)
+# Bepul API ovozlari (foydalanuvchi tanlagan 2026-11-26): Charlie, Daniel, Chris — har kuni navbat bilan
+ELEVEN_VOICES = ["IKne3meq5aSn9XLyUdCD", "onwK4e9ZLuTAKqWW03F9", "iP95p4xoKVk53GoZ742B"]
 ELEVEN_TAGS = "[very fast] [emotional] "  # eleven_v3 audio teglari: tez va jonli (foydalanuvchi tanlagan uslub)
 
 
@@ -104,7 +105,8 @@ def eleven_voice(text, mp3):
     key = os.environ.get("ELEVENLABS_API_KEY")
     if not key:
         raise RuntimeError("ELEVENLABS_API_KEY yo'q")
-    vid = os.environ.get("ELEVENLABS_VOICE") or ELEVEN_VOICE
+    import datetime
+    vid = os.environ.get("ELEVENLABS_VOICE") or ELEVEN_VOICES[datetime.date.today().toordinal() % len(ELEVEN_VOICES)]
     body = {"text": ELEVEN_TAGS + text, "model_id": "eleven_v4",
             "voice_settings": {"stability": 0.5, "similarity_boost": 0.75}}
     req = urllib.request.Request(f"https://api.elevenlabs.io/v1/text-to-speech/{vid}/with-timestamps"
