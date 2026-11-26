@@ -383,20 +383,11 @@
   "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/": 1795672869.871753,
   "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers": 1795672869.871753,
   "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/": 1795676535.4774277,
-  "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/": 1795680068.79551
+  "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/": 1795680068.79551,
+  "https://www.techrepublic.com/article/news-gpt-6-2-protein-design-biotech-it/": 1795690955.59051
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1795341686.54873,
-   "title": "O‘zbekistonda ChatGPT, Gemini va Claude ham yangi alifboga moslashtiriladi",
-   "soha": "AI O'zbekiston"
-  },
-  {
-   "t": 1795341686.54873,
-   "title": "GPT-6.2 Astra and Sol get to the point faster but score lower on transparency than Claude",
-   "soha": "AI"
-  },
   {
    "t": 1795348868.7465935,
    "title": "World Bank Discusses Tax Administration Reform with Uzbekistan",
@@ -1026,6 +1017,11 @@
    "t": 1795680068.79551,
    "title": "AI data centers are becoming harder to build, and neoclouds are feeling it",
    "soha": "AI"
+  },
+  {
+   "t": 1795690955.59051,
+   "title": "OpenAI’s GPT-6.2 Helped Design Proteins That Bound in Lab Tests",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -1033,30 +1029,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1795514463.885317,
-   "title": "Luma Dream Machine yangi funksiyalarni taqdim etdi",
-   "text": "Luma kompaniyasi Dream Machine dasturiga tayyor videolarda aktyorlar va narsalarni almashtirish imkonini beruvchi Character Swap hamda Insert funksiyalarini qo'shdi.",
-   "orig_title": "Luma выкатила Character Swap и Insert в Dream Machine: замена актёров и предметов в готовом видео без потери дубля",
-   "link": "https://vc.ru/ai/3271985-luma-character-swap-insert-dream-machine",
-   "source": "vc.ru",
-   "soha": "AI video",
-   "baho": 9,
-   "experts": [],
-   "effect": "Sun'iy intellekt video tahrirlash jarayonlarini soddalashtirib, reklama va qisqa roliklar ishlab chiqarish vaqtini sezilarli darajada qisqartirishi mumkin.",
-   "image": "https://api.vc.ru/v2.9/cover/fb/c/3271985/1795514458/cover.jpg",
-   "domains": [
-    "vc.ru",
-    "sports.yahoo.com",
-    "businessinsider.com"
-   ],
-   "urls": [
-    "https://vc.ru/ai/3271985-luma-character-swap-insert-dream-machine",
-    "https://sports.yahoo.com/articles/world-record-sticker-swap-brings-103053794.html",
-    "https://www.businessinsider.com/swap-o-matic-the-vending-machine-that-gives-you-what-you-want-for-free-2012-1"
-   ],
-   "videos": []
-  },
   {
    "t": 1795518473.3801608,
    "title": "OpenAI ChatGPT uchun GPT-6.2 Sol modelini chiqardi",
@@ -2797,6 +2769,28 @@
     "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/",
     "https://www.cnbc.com/2026/11/18/nvidia-neocloud-financing.html",
     "https://finance.yahoo.com/technology/ai/articles/nvidias-ai-financing-guarantees-hit-142017847.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795690955.59051,
+   "title": "OpenAI’s GPT-6.2 Helped Design Proteins That Bound in Lab Tests",
+   "text": "OpenAI’s GPT-6.2 helped design proteins that bound in lab tests, demonstrating new computational biology capabilities in the latest model.",
+   "orig_title": "OpenAI’s GPT-6.2 Helped Design Proteins That Bound in Lab Tests",
+   "link": "https://www.techrepublic.com/article/news-gpt-6-2-protein-design-biotech-it/",
+   "source": "techrepublic.com",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Amerikalik va xitoylik sun'iy intellekt ishlab chiqaruvchilar orasidagi raqobat kuchayishi va sun'iy intellekt bozoridagi baholashlar o'zgarishi mumkin. Yangi test natijalari AQSh kompaniyalarining ustunligini ko'rsatib, investorlarning Anthropic va OpenAI IPO'lariga bo'lgan qiziqishini oshirishi ehtimoli bor.",
+   "image": null,
+   "domains": [
+    "businessinsider.com",
+    "techcrunch.com"
+   ],
+   "urls": [
+    "https://www.businessinsider.com/chinese-ai-models-rankings-artificial-analysis-private-tests-anthropic-openai-2026-11",
+    "https://techcrunch.com/2025/02/27/openai-unveils-gpt-4-5-orion-its-largest-ai-model-yet/"
    ],
    "videos": []
   }
