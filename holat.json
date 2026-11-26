@@ -380,7 +380,12 @@
   "https://www.msn.com/en-us/entertainment/general/google-filed-a-patent-application-for-an-ai-tv-channel-starring-you/ar-AA2iawyN": 1795669467.4188967,
   "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/": 1795669467.4188967,
   "https://www.kucoin.com/news/flash/former-openai-researcher-ruochen-wang-joins-tencent-hunyuan-team": 1795669467.4188967,
-  "https://www.techrepublic.com/article/news-gpt-6-2-protein-design-lab-binding-results/": 1795669467.4188967
+  "https://www.techrepublic.com/article/news-gpt-6-2-protein-design-lab-binding-results/": 1795669467.4188967,
+  "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/": 1795672869.871753,
+  "https://the-decoder.com/anthropic-ceo-dario-amodei-says-letting-ai-govern-society-would-be-a-bad-idea/": 1795672869.871753,
+  "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/": 1795672869.871753,
+  "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/": 1795672869.871753,
+  "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers": 1795672869.871753
  },
  "fails": 0,
  "sent": [
@@ -993,6 +998,31 @@
    "t": 1795669467.4188967,
    "title": "GPT-6.2 Protein Design: What the Lab Binding Data Show",
    "soha": "AI"
+  },
+  {
+   "t": 1795672869.871753,
+   "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
+   "soha": "AI"
+  },
+  {
+   "t": 1795672869.871753,
+   "title": "Anthropic CEO Dario Amodei says letting AI govern society would be \"a bad idea\"",
+   "soha": "AI"
+  },
+  {
+   "t": 1795672869.871753,
+   "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
+   "soha": "AI"
+  },
+  {
+   "t": 1795672869.871753,
+   "title": "Want to buy your kid an AI toy this Christmas? Not in New York",
+   "soha": "AI"
+  },
+  {
+   "t": 1795672869.871753,
+   "title": "FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -1000,194 +1030,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1795496904.665912,
-   "title": "OpenAI va Cisco Shirudo ochiq xavfsizlik platformasini chiqardi",
-   "text": "OpenAI hamda Cisco kompaniyalari Linux tizimlarini yangilash jarayonida himoya qilish uchun Shirudo nomli ochiq kodli xavfsizlik dasturini taqdim etdi.",
-   "orig_title": "OpenAI and Cisco introduce Shirudo",
-   "link": "https://openai.com/index/introducing-shirudo",
-   "source": "OpenAI",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Linux tizimlarini qayta ishga tushirmasdan himoya qilish imkoniyati xavfsizlik xizmatlarining ishini yengillashtirishi va kiberhujumlar xavfini kamaytirishi mumkin.",
-   "image": "https://images.ctfassets.net/kftzwdyauwt9/5K7gFDr3r8vgjdIcsW6RVY/aba5325ce7902e5d1499b907f8e78f0b/shirudo-partner-logos-landscape-2x.png?w=1600&h=900&fit=fill",
-   "domains": [
-    "openai.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://openai.com/index/introducing-shirudo",
-    "https://finance.yahoo.com/technology/ai/articles/cisco-openai-launch-shirudo-project-212000593.html"
-   ],
-   "videos": [
-    [
-     "https://www.youtube.com/watch?v=4v2xA_NJHt0",
-     "YouTube"
-    ]
-   ]
-  },
-  {
-   "t": 1795496904.665912,
-   "title": "Nothing AI transkripsiyaga ega Ear Note quloqchinlarini tayyorlamoqda",
-   "text": "Nothing kompaniyasi suhbatlarni yozib oluvchi, matnga o‘giruvchi va AI xulosalarini tayyorlovchi Ear Note quloqchinlari hamda maxsus g‘ilofini namoyish etdi.",
-   "orig_title": "Nothing’s upcoming Ear Note is a pair of earbuds with AI transcription",
-   "link": "https://www.theverge.com/gadgets/1040357/nothing-ear-note-earbuds-ai-recording",
-   "source": "The Verge AI",
-   "soha": "AI",
-   "baho": 7,
-   "experts": [
-    {
-     "kim": "Michael Burry",
-     "lavozim": "The Big Short investori",
-     "fikr": "Anthropicning IPO hujjati sun'iy intellekt sanoati butunlay falokatga uchrash xavfi ostida ekanini va ortiqcha qarzlar zarurligini ko'rsatmoqda.",
-     "url": "https://www.businessinsider.com/big-short-michael-burry-anthropic-ipo-filing-ai-claude-tokens-2026-10",
-     "domain": "businessinsider.com"
-    }
-   ],
-   "effect": "Kompaniyalarning ulkan moliyaviy majburiyatlari va murakkab kelishuvlari bozorda qarz yukining oshishiga va kutilmagan tanazzul ehtimoliga olib kelishi mumkin.",
-   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/nothing.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
-   "domains": [
-    "theverge.com",
-    "businessinsider.com"
-   ],
-   "urls": [
-    "https://www.theverge.com/gadgets/1040357/nothing-ear-note-earbuds-ai-recording",
-    "https://www.businessinsider.com/big-short-michael-burry-anthropic-ipo-filing-ai-claude-tokens-2026-10"
-   ],
-   "videos": [
-    [
-     "https://x.com/getpeid/status/2124935404134789334",
-     "X"
-    ],
-    [
-     "https://x.com/getpeid/status/2120161679229227270",
-     "X"
-    ]
-   ]
-  },
-  {
-   "t": 1795496904.665912,
-   "title": "Kreatorlar AI orqali o‘zgartirilgan firibgar videolardan xavotirda",
-   "text": "Kontent mualliflari o‘z videolarining AI yordamida manipulyatsiya qilinib, ruxsatsiz mahsulotlar va firibgarlik sxemalarini targ‘ib qilishda ishlatilayotganini ma’lum qildi.",
-   "orig_title": "Creators say their stolen videos are being altered with AI to sell products and promote scams",
-   "link": "https://uk.news.yahoo.com/creators-stolen-videos-being-altered-055900393.html",
-   "source": "uk.news.yahoo.com",
-   "soha": "AI video",
-   "baho": 7,
-   "experts": [],
-   "effect": "Sun'iy intellekt yordamida videolarni o'zgartirish holatlari mualliflik huquqining buzilishi va firibgarliklar ko'payishiga, shuningdek, asl ijodkorlarning jabr ko'rishiga olib kelishi mumkin.",
-   "image": "https://s.yimg.com/lo/mysterio/api/e8312d214b6dd5e4f392f9ba742174aa200452e4728935b1ad5786e6a12c159b/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fthe_cool_down_737%2F96e37eef8e49339ec8e509c2e45fcb71.jpg",
-   "domains": [
-    "uk.news.yahoo.com",
-    "sg.news.yahoo.com"
-   ],
-   "urls": [
-    "https://uk.news.yahoo.com/creators-stolen-videos-being-altered-055900393.html",
-    "https://sg.news.yahoo.com/connecticut-police-warn-scammers-ai-202900277.html"
-   ],
-   "videos": [
-    [
-     "https://www.instagram.com/reel/Df2MjFOHM8Q/",
-     "Instagram"
-    ]
-   ]
-  },
-  {
-   "t": 1795496904.665912,
-   "title": "Xitoy harbiylari AI yadroviy muvozanatni o‘zgartirishidan xavotirda",
-   "text": "Xitoy harbiy tadqiqotchilari sun’iy intellekt rivojlanishi AQShga yadroviy raketalarni aniqlash va yo‘q qilishda ustunlik berishi mumkinligini bildirdi.",
-   "orig_title": "Chinese military fears AI could let the US find and destroy its nuclear missiles",
-   "link": "https://the-decoder.com/chinese-military-fears-ai-could-let-the-us-find-and-destroy-its-nuclear-missiles/",
-   "source": "The Decoder",
-   "soha": "AI",
-   "baho": 6,
-   "experts": [
-    {
-     "kim": "Yoshua Bengio",
-     "lavozim": "AI tadqiqotchisi",
-     "fikr": "Sun'iy intellekt texnologiyalarining jadal rivojlanishi yadroviy muvozanat va xavfsizlikka jiddiy tahdid solishi mumkin.",
-     "url": "https://www.yahoo.com/news/politics/articles/us-helped-world-rein-nuclear-130000231.html",
-     "domain": "yahoo.com"
-    }
-   ],
-   "effect": "Harbiy sohada sun'iy intellektning qo'llanishi qaror qabul qilish vaqtini keskin qisqartirib, inqirozli vaziyatlarda xavfli xatolarga olib kelishi mumkin.",
-   "image": "https://the-decoder.com/wp-content/uploads/2026/03/AI-Fake-Carrier-Iran-small.png",
-   "domains": [
-    "the-decoder.com",
-    "yahoo.com"
-   ],
-   "urls": [
-    "https://the-decoder.com/chinese-military-fears-ai-could-let-the-us-find-and-destroy-its-nuclear-missiles/",
-    "https://www.yahoo.com/news/politics/articles/us-helped-world-rein-nuclear-130000231.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795496904.665912,
-   "title": "Falsafachi Anthropic AI ongi haqidagi xavflarni shubha ostiga oldi",
-   "text": "Mashhur faylasuf Anthropic kompaniyasining IPO oldidan sun’iy intellekt ongi yoki his-tuyg‘ulari rivojlanishi mumkinligi haqidagi ogohlantirishlarini rad etdi.",
-   "orig_title": "A legendary philosopher isn’t buying Anthropic’s consciousness argument",
-   "link": "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/",
-   "source": "MIT Tech Review",
-   "soha": "AI",
-   "baho": 5,
-   "experts": [
-    {
-     "kim": "Thomas Nagel",
-     "lavozim": "Falsafa bo'yicha mukofot sovrindori",
-     "fikr": "Sun'iy intellekt modellari ongiga ega bo'lishi va ularning farovonligi haqida qayg'urish mutlaqo asossiz va noto'g'ri qarashdir.",
-     "url": "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/",
-     "domain": "technologyreview.com"
-    }
-   ],
-   "effect": "Sun'iy intellektning ongi va huquqlari haqidagi muhokamalar kelgusida texnologiyalarni tartibga solish siyosatiga va ulardan foydalanish qoidalariga ta'sir ko'rsatishi mumkin.",
-   "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/simulacra2a.jpg?resize=1200,600",
-   "domains": [
-    "technologyreview.com",
-    "yahoo.com"
-   ],
-   "urls": [
-    "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/",
-    "https://www.yahoo.com/news/science/articles/rights-owe-machine-123000865.html"
-   ],
-   "videos": [
-    [
-     "https://x.com/PAHoyeck/status/2123277310740808190",
-     "X"
-    ],
-    [
-     "https://x.com/dmdebruijn/status/2123423391176630390",
-     "X"
-    ],
-    [
-     "https://x.com/bengrossbg/status/2123263674944991252",
-     "X"
-    ]
-   ]
-  },
-  {
-   "t": 1795500061.1673725,
-   "title": "Suno yangi Visuals funksiyasi bilan qo'shiqlarni videolarga aylantiradi",
-   "text": "Suno sun'iy intellekt yordamida foydalanuvchilar yaratgan qo'shiqlarni klip va videolarga aylantiruvchi yangi Visuals funksiyasini taqdim etdi.",
-   "orig_title": "Visualising music: Suno turns AI-generated songs into music videos with new Visuals feature",
-   "link": "https://www.telegraphindia.com/science-tech/visualising-music-suno-turns-ai-generated-songs-into-music-videos-with-new-visuals-feature-prnt/cid/2190983",
-   "source": "telegraphindia.com",
-   "soha": "AI musiqa",
-   "baho": 10,
-   "experts": [],
-   "effect": "Sun'iy intellekt yordamida musiqa uchun avtomatik videokliplar yaratish imkoniyati kontent yaratuvchilar va havaskorlar uchun ijodiy jarayonni sezilarli darajada tezlashtirishi hamda ijtimoiy tarmoqlarda tarqalish ehtimolini oshirishi mumkin.",
-   "image": null,
-   "domains": [
-    "theverge.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://www.theverge.com/ai-artificial-intelligence/1036415/suno-visuals-ai-generated-video-images-feature",
-    "https://finance.yahoo.com/technology/ai/articles/youart-launches-youart-desktop-app-203000795.html"
-   ],
-   "videos": []
-  },
   {
    "t": 1795503849.7693202,
    "title": "OpenAI upgrades ChatGPT to GPT-6.2 for main users",
@@ -2819,6 +2661,134 @@
    "image": null,
    "domains": [],
    "urls": [],
+   "videos": []
+  },
+  {
+   "t": 1795672869.871753,
+   "title": "S&P Nvidia kredit reyytigini pasaytirishi mumkin",
+   "text": "S&P reyting agentligi boshqaruv va asosiy shaxs xavflari tufayli Nvidia kompaniyasining kredit reytingini AA- darajasiga tushirishi mumkin.",
+   "orig_title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
+   "link": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Kredit reytingining pasayishi Nvidia uchun qarz olish xarajatlarini oshirishi va u qo‘llab-quvvatlaydigan infratuzilma kompaniyalarining qarz yuki qimmatlashishiga olib kelishi mumkin.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/01/GettyImages-2256813240.jpg?resize=1200,800",
+   "domains": [
+    "techcrunch.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
+    "https://finance.yahoo.com/markets/stocks/articles/p-global-warns-nvidia-credit-205320758.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795672869.871753,
+   "title": "Anthropic rahbari Dario Amodei jamiyatni boshqarishni sun'iy intellektga topshirishga qarshi chiqdi",
+   "text": "Anthropic bosh direktori Dario Amodei insoniyat superintellekt tizimlariga hokimiyatni topshirishi haqidagi xabarlarni rad etib, buni yomon g'oya deb atadi.",
+   "orig_title": "Anthropic CEO Dario Amodei says letting AI govern society would be \"a bad idea\"",
+   "link": "https://the-decoder.com/anthropic-ceo-dario-amodei-says-letting-ai-govern-society-would-be-a-bad-idea/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Aksiyadorlar va jamoatchilik bosimi ostida xavfsizlik va daromadlilikni muvozanatlash hamda moliyaviy xarajatlarni qoplash masalalari kompaniya faoliyatida asosiy qiyinchilikka aylanishi mumkin.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/09/anthropic_amodei.png",
+   "domains": [
+    "the-decoder.com",
+    "theverge.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/anthropic-ceo-dario-amodei-says-letting-ai-govern-society-would-be-a-bad-idea/",
+    "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure"
+   ],
+   "videos": [
+    [
+     "https://x.com/DarioAmodei/status/2125656399392690605",
+     "X"
+    ]
+   ]
+  },
+  {
+   "t": 1795672869.871753,
+   "title": "OpenAI Chat va Work funksiyalarini birlashtirmoqda",
+   "text": "OpenAI Chat va Work tajribalarini birlashtirgani sababli, ChatGPT'ning faol foydalanuvchilari cheklovlarga tezroq uchrashi mumkin.",
+   "orig_title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
+   "link": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Chat va ish maydonlari limitlarining birlashtirilishi foydalanuvchilarning ilg‘or modellardan foydalanish imkoniyatini cheklashi va abonentlarning noroziligini keltirib chiqarishi mumkin.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/openai-chatgpt.jpg?resize=1200,800",
+   "domains": [
+    "techcrunch.com",
+    "tech.yahoo.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+    "https://tech.yahoo.com/ai/copilot/articles/microsoft-unveiled-copilot-workspaces-ignite-231405090.html"
+   ],
+   "videos": [
+    [
+     "https://x.com/thsottiaux/status/2125284868414394550",
+     "X"
+    ],
+    [
+     "https://x.com/Mr_Salio/status/2125288213975605724",
+     "X"
+    ],
+    [
+     "https://x.com/StefanoGPT/status/2125287717642617266",
+     "X"
+    ]
+   ]
+  },
+  {
+   "t": 1795672869.871753,
+   "title": "Nyu-Yorkda sun'iy intellektli o'yinchoqlar taqiqlandi",
+   "text": "Nyu-York shtatida AI chat-bot o'yinchoqlari besh yilga taqiqlandi, chunki ular bolalar xavfsizligi va hissiy rivojlanishiga xavf tug'dirishi aniqlandi.",
+   "orig_title": "Want to buy your kid an AI toy this Christmas? Not in New York",
+   "link": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Qonun qoidalarining buzilishi uchun belgilangan kunlik jarimalar va Amazon kabi yetakchi e-tijorat platformalarining cheklovlar kiritishi sun’iy intellektga ega o‘yinchoqlarning savdosini sezilarli darajada qisqartirishi mumkin.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2237660127.jpg?resize=1200,800",
+   "domains": [
+    "techcrunch.com",
+    "yahoo.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
+    "https://www.yahoo.com/news/politics/articles/york-bans-ai-chatbot-toys-195119547.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795672869.871753,
+   "title": "SpaceX kosmosga sun'iy intellekt sun'iy yo'ldoshlarini uchratish huquqini oldi",
+   "text": "FCC SpaceX kompaniyasiga Starmind tashabbusi doirasida fazoga 1 milliongacha AI chipi bilan jihozlangan sun'iy yo'ldoshlarni joylashtirishga ruxsat berdi.",
+   "orig_title": "FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space",
+   "link": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+   "source": "The Verge AI",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Bir million ma'lumotlar markazi sun'iy yo'ldoshlarining uchirilishi tungi osmonning ifloslanishi hamda koinotda chiqindilar to'qnashuvi xavfini keskin oshirishi mumkin.",
+   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/gettyimages-2269580650.jpg?quality=90&strip=all&crop=0%2C10.756615395926%2C100%2C78.486769208148&w=1200",
+   "domains": [
+    "theverge.com",
+    "cnbc.com"
+   ],
+   "urls": [
+    "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+    "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html"
+   ],
    "videos": []
   }
  ]
