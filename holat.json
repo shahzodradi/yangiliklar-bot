@@ -373,7 +373,14 @@
   "https://the-decoder.com/us-chip-access-curbs-and-anti-distillation-measures-are-reportedly-already-slowing-chinese-ai-labs/": 1795665681.9929657,
   "https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent": 1795665681.9929657,
   "https://the-decoder.com/anthropic-study-shows-the-hardest-part-of-adopting-ai-at-work-has-little-to-do-with-learning-the-tools/": 1795665681.9929657,
-  "https://the-decoder.com/mit-team-discovers-that-unrealistic-training-data-makes-ai-climate-predictions-more-reliable/": 1795665681.9929657
+  "https://the-decoder.com/mit-team-discovers-that-unrealistic-training-data-makes-ai-climate-predictions-more-reliable/": 1795665681.9929657,
+  "https://www.msn.com/en-us/news/other/binding-of-isaac-pulls-ai-music-after-mcmillen-says-he-had-no-idea/ar-AA2id8pO": 1795669467.4188967,
+  "https://www.msn.com/en-gb/news/other/create-super-realistic-videos-good-for-ai-movies/vi-AA2ibXaA": 1795669467.4188967,
+  "https://www.tmcnet.com/topics/articles/2026/11/25/464464-artlist-vs-higgsfield-vs-luma-short-form-b2b.htm": 1795669467.4188967,
+  "https://www.msn.com/en-us/entertainment/general/google-filed-a-patent-application-for-an-ai-tv-channel-starring-you/ar-AA2iawyN": 1795669467.4188967,
+  "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/": 1795669467.4188967,
+  "https://www.kucoin.com/news/flash/former-openai-researcher-ruochen-wang-joins-tencent-hunyuan-team": 1795669467.4188967,
+  "https://www.techrepublic.com/article/news-gpt-6-2-protein-design-lab-binding-results/": 1795669467.4188967
  },
  "fails": 0,
  "sent": [
@@ -950,6 +957,41 @@
   {
    "t": 1795665681.9929657,
    "title": "MIT team discovers that unrealistic training data makes AI climate predictions more reliable",
+   "soha": "AI"
+  },
+  {
+   "t": 1795669467.4188967,
+   "title": "Binding of Isaac pulls AI music after McMillen says he had no idea",
+   "soha": "AI musiqa"
+  },
+  {
+   "t": 1795669467.4188967,
+   "title": "Create Super Realistic Videos Good For AI Movies",
+   "soha": "AI video"
+  },
+  {
+   "t": 1795669467.4188967,
+   "title": "Artlist vs. Higgsfield vs. Luma for Short-Form B2B Video Production",
+   "soha": "AI video"
+  },
+  {
+   "t": 1795669467.4188967,
+   "title": "Google filed a patent application for an AI TV channel starring you",
+   "soha": "AI video"
+  },
+  {
+   "t": 1795669467.4188967,
+   "title": "Character.AI’s plan to auction off users’ private chats challenged by state AGs",
+   "soha": "AI"
+  },
+  {
+   "t": 1795669467.4188967,
+   "title": "Former OpenAI researcher Ruochen Wang joins Tencent Hunyuan team.",
+   "soha": "AI"
+  },
+  {
+   "t": 1795669467.4188967,
+   "title": "GPT-6.2 Protein Design: What the Lab Binding Data Show",
    "soha": "AI"
   }
  ],
@@ -2665,6 +2707,118 @@
     "https://the-decoder.com/mit-team-discovers-that-unrealistic-training-data-makes-ai-climate-predictions-more-reliable/",
     "https://finance.yahoo.com/personal-finance/mortgages/article/is-the-housing-market-headed-for-a-crash-experts-weigh-in-151344789.html"
    ],
+   "videos": []
+  },
+  {
+   "t": 1795669467.4188967,
+   "title": "Binding of Isaac o'yinidan Suno treklari olib tashlandi",
+   "text": "Binding of Isaac o'yinchilari kunlik rejimda Suno tomonidan yaratilgan musiqalarni topishdi. Ijodkor Edmund Makmillen bu haqda bilmaganini aytib, sun'iy intellekt musiqasini o'chiruvchi yangilanishni chiqardi.",
+   "orig_title": "Binding of Isaac pulls AI music after McMillen says he had no idea",
+   "link": "https://www.msn.com/en-us/news/other/binding-of-isaac-pulls-ai-music-after-mcmillen-says-he-had-no-idea/ar-AA2id8pO",
+   "source": "msn.com",
+   "soha": "AI musiqa",
+   "baho": 10,
+   "experts": [],
+   "effect": null,
+   "image": null,
+   "domains": [],
+   "urls": [],
+   "videos": []
+  },
+  {
+   "t": 1795669467.4188967,
+   "title": "Midjourney yordamida realistik AI videolarini yaratish",
+   "text": "Qo'llanma Midjourney tasvir generatsiyasi va animatsiya vositalaridan foydalangan holda maxsus, realistik video kliplarni tayyorlash jarayonini tushuntiradi.",
+   "orig_title": "Create Super Realistic Videos Good For AI Movies",
+   "link": "https://www.msn.com/en-gb/news/other/create-super-realistic-videos-good-for-ai-movies/vi-AA2ibXaA",
+   "source": "msn.com",
+   "soha": "AI video",
+   "baho": 8,
+   "experts": [],
+   "effect": null,
+   "image": null,
+   "domains": [],
+   "urls": [],
+   "videos": []
+  },
+  {
+   "t": 1795669467.4188967,
+   "title": "Artlist, Higgsfield va Luma platformalarini qiyoslash",
+   "text": "Qisqa metrajli videolar B2B marketing jamoalari uchun asosiy formatga aylandi. Artlist, Higgsfield va Luma kabi vositalar mahsulot tizerlari va tadbirlar sharhlarini tayyorlashda ishlatilmoqda.",
+   "orig_title": "Artlist vs. Higgsfield vs. Luma for Short-Form B2B Video Production",
+   "link": "https://www.tmcnet.com/topics/articles/2026/11/25/464464-artlist-vs-higgsfield-vs-luma-short-form-b2b.htm",
+   "source": "tmcnet.com",
+   "soha": "AI video",
+   "baho": 8,
+   "experts": [],
+   "effect": null,
+   "image": "https://images.tmcnet.com/tmc/misc/articles/image/2026-nov/2146066268-video-1.jpg",
+   "domains": [],
+   "urls": [],
+   "videos": []
+  },
+  {
+   "t": 1795669467.4188967,
+   "title": "Google shaxsiy AI telekanali uchun patent ariza topshirdi",
+   "text": "Google tomonidan taklif qilingan \"My Channel\" loyihasida tomosha tarixi syujetni yozishga yordam beradi va ovozli buyruqlar bosh qahramonga ovoz berishi mumkin.",
+   "orig_title": "Google filed a patent application for an AI TV channel starring you",
+   "link": "https://www.msn.com/en-us/entertainment/general/google-filed-a-patent-application-for-an-ai-tv-channel-starring-you/ar-AA2iawyN",
+   "source": "msn.com",
+   "soha": "AI video",
+   "baho": 7,
+   "experts": [],
+   "effect": null,
+   "image": null,
+   "domains": [],
+   "urls": [],
+   "videos": []
+  },
+  {
+   "t": 1795669467.4188967,
+   "title": "Character.AI foydalanuvchilarining yopiq chatlarini sotish rejasiga qarshilik",
+   "text": "Character.ai bankrotligi doirasida rejalashtirilgan savdo 21 milliondan ortiq AQSh foydalanuvchilarining shaxsiy ma'lumotlarini o'z ichiga oladi, shundan 2,1 millioni voyaga yetmaganlarga tegishli.",
+   "orig_title": "Character.AI’s plan to auction off users’ private chats challenged by state AGs",
+   "link": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 6,
+   "experts": [],
+   "effect": null,
+   "image": "https://techcrunch.com/wp-content/uploads/2024/06/Character-Calls-Image-feat.jpg?resize=1200,675",
+   "domains": [],
+   "urls": [],
+   "videos": []
+  },
+  {
+   "t": 1795669467.4188967,
+   "title": "Sobiq OpenAI tadqiqotchisi Tencent Hunyuan jamoasiga qo'shildi",
+   "text": "OpenAI sobiq tadqiqotchi olimi Ruochen Vang o'z lavozimini tark etib, Xitoyga qaytdi va Tencent Hunyuan jamoasiga qo'shildi.",
+   "orig_title": "Former OpenAI researcher Ruochen Wang joins Tencent Hunyuan team.",
+   "link": "https://www.kucoin.com/news/flash/former-openai-researcher-ruochen-wang-joins-tencent-hunyuan-team",
+   "source": "kucoin.com",
+   "soha": "AI",
+   "baho": 6,
+   "experts": [],
+   "effect": null,
+   "image": "https://assets.staticimg.com/@kudos/runtime/1.0.1/assets/tw-ea52b6f9440e857c.jpg",
+   "domains": [],
+   "urls": [],
+   "videos": []
+  },
+  {
+   "t": 1795669467.4188967,
+   "title": "GPT-6.2 modeli yordamida oqsillarni loyihalash natijalari",
+   "text": "OpenAI ma'lumotlariga ko'ra, GPT-6.2 322 ta oqsil minibinderlarini loyihalashtirgan, ulardan 35 tasi laboratoriya sinovlarida bog'lanishni ko'rsatgan.",
+   "orig_title": "GPT-6.2 Protein Design: What the Lab Binding Data Show",
+   "link": "https://www.techrepublic.com/article/news-gpt-6-2-protein-design-lab-binding-results/",
+   "source": "techrepublic.com",
+   "soha": "AI",
+   "baho": 6,
+   "experts": [],
+   "effect": null,
+   "image": null,
+   "domains": [],
+   "urls": [],
    "videos": []
   }
  ]
