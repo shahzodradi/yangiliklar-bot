@@ -385,20 +385,11 @@
   "https://www.techrepublic.com/article/news-gpt-6-2-protein-design-biotech-it/": 1795690955.59051,
   "https://the-decoder.com/microsoft-details-how-state-backed-hackers-use-the-artex-ai-framework-to-automate-cyberattacks/": 1795694488.268267,
   "https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls/": 1795694488.268267,
-  "https://www.musicbusinessworldwide.com/elevenlabs-in-early-talks-to-raise-at-33b-valuation-more-than-six-times-that-of-ai-music-rival-suno-report/": 1795698161.4741561
+  "https://www.musicbusinessworldwide.com/elevenlabs-in-early-talks-to-raise-at-33b-valuation-more-than-six-times-that-of-ai-music-rival-suno-report/": 1795698161.4741561,
+  "https://www.advanced-television.com/2026/11/26/how-are-ai-video-generators-affecting-tv-and-digital-content-production/": 1795701665.3770628
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1795352777.0793417,
-   "title": "OpenAI shares new prompting tips for GPT-6.2 Astra and Sol to fix brief answers and unnecessary questions",
-   "soha": "AI"
-  },
-  {
-   "t": 1795352777.0793417,
-   "title": "Security researchers show how cheap AI inference providers steal keys and snoop on users",
-   "soha": "AI"
-  },
   {
    "t": 1795356357.7129755,
    "title": "GTA 6-style AI photos flood Instagram: Gemini and ChatGPT prompts to turn your selfie into Vice City poster",
@@ -1033,6 +1024,11 @@
    "t": 1795698161.4741561,
    "title": "ElevenLabs in early talks to raise at $33B valuation – more than six times that of AI music rival Suno (report)",
    "soha": "AI musiqa"
+  },
+  {
+   "t": 1795701665.3770628,
+   "title": "How are AI video generators affecting TV and digital content production?",
+   "soha": "AI video"
   }
  ],
  "mavzu": {
@@ -2747,6 +2743,30 @@
    "urls": [
     "https://uk.finance.yahoo.com/news/elevenlabs-targets-33b-valuation-early-203810543.html",
     "https://www.businessinsider.com/meta-equity-ai-funding-stock-sale-2026-10"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795701665.3770628,
+   "title": "AI video generatorlarining televizor va raqamli kontent ishlab chiqarishga ta'siri",
+   "text": "Dreamina kontent yaratuvchilarga vizual g'oyalarni videoklipga aylantirish imkoniyatini taqdim etib, teleradieshittirishda yangi imkoniyatlar ochmoqda.",
+   "orig_title": "How are AI video generators affecting TV and digital content production?",
+   "link": "https://www.advanced-television.com/2026/11/26/how-are-ai-video-generators-affecting-tv-and-digital-content-production/",
+   "source": "advanced-television.com",
+   "soha": "AI video",
+   "baho": 8,
+   "experts": [],
+   "effect": "Sun'iy intellektga asoslangan video generatorlar va platformalarning rivojlanishi teleko'rsatuvlar hamda raqamli kontent ishlab chiqarish xarajatlarini kamaytirishi, yaratish jarayonini tezlashtirishi va ijodiy imkoniyatlarni kengaytirishi mumkin. Shuningdek, kattas hajmdagi kontentni tezkor tayyorlash imkoniyati raqobatni kuchaytirishi va yangi formatdagi ko'ngilochar loyihalarni paydo qilishi ehtimoli bor.",
+   "image": null,
+   "domains": [
+    "advanced-television.com",
+    "businessinsider.com",
+    "wired.com"
+   ],
+   "urls": [
+    "https://www.advanced-television.com/2026/11/26/how-are-ai-video-generators-affecting-tv-and-digital-content-production/",
+    "https://www.businessinsider.com/mrbeast-plots-move-into-ai-native-entertainment-2026-4",
+    "https://www.wired.com/story/this-r-rated-film-studio-wants-to-be-the-hbo-of-ai/"
    ],
    "videos": []
   }
