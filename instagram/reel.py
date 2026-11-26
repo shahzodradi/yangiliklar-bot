@@ -79,7 +79,7 @@ def title_card(name, num, text):
 
 def voice(text, mp3, eleven=False):
     """MP3 yozadi va so'zlar vaqtini qaytaradi: [(boshlanish_s, tugash_s, so'z)].
-    eleven=True (kechki TOP-3): ElevenLabs — eng tabiiy ovoz (bepul 10k kredit/oy faqat shunga yetadi).
+    eleven=True: ElevenLabs (2 bepul akkaunt, kredit tugasa avtomatik Gemini).
     Asosiy: Gemini TTS (Charon); limit/xato bo'lsa edge-tts Sardor."""
     if eleven:
         try:
@@ -101,18 +101,26 @@ ELEVEN_TAGS = "[very fast] [emotional] "  # eleven_v3 audio teglari: tez va jonl
 
 def eleven_voice(text, mp3):
     """ElevenLabs eleven_v3 (o'zbek tilini biladi) + harf vaqtlari -> so'z vaqtlari (subtitr aniq tushadi)."""
-    import base64, os, urllib.request
-    key = os.environ.get("ELEVENLABS_API_KEY")
-    if not key:
+    import base64, os, urllib.request, urllib.error
+    keys = [k for k in (os.environ.get("ELEVENLABS_API_KEY2"), os.environ.get("ELEVENLABS_API_KEY")) if k]
+    if not keys:
         raise RuntimeError("ELEVENLABS_API_KEY yo'q")
     import datetime
     vid = os.environ.get("ELEVENLABS_VOICE") or ELEVEN_VOICES[datetime.date.today().toordinal() % len(ELEVEN_VOICES)]
     body = {"text": ELEVEN_TAGS + text, "model_id": "eleven_v4",
             "voice_settings": {"stability": 0.5, "similarity_boost": 0.75}}
-    req = urllib.request.Request(f"https://api.elevenlabs.io/v1/text-to-speech/{vid}/with-timestamps"
-                                 "?output_format=mp3_44100_128", json.dumps(body).encode(),
-                                 {"Content-Type": "application/json", "xi-api-key": key})
-    d = json.load(urllib.request.urlopen(req, timeout=180))
+    d, err = None, None
+    for key in keys:  # bir akkaunt krediti tugasa (401/402/429), keyingi akkaunt kaliti
+        req = urllib.request.Request(f"https://api.elevenlabs.io/v1/text-to-speech/{vid}/with-timestamps"
+                                     "?output_format=mp3_44100_128", json.dumps(body).encode(),
+                                     {"Content-Type": "application/json", "xi-api-key": key})
+        try:
+            d = json.load(urllib.request.urlopen(req, timeout=180))
+            break
+        except urllib.error.HTTPError as e:
+            err = f"{e.code} {e.read()[:150]!r}"
+    if d is None:
+        raise RuntimeError("ElevenLabs barcha kalitlar: " + str(err))
     mp3.write_bytes(base64.b64decode(d["audio_base64"]))
     al = d.get("alignment") or d.get("normalized_alignment") or {}
     chars, st, en = al.get("characters", []), al.get("character_start_times_seconds", []), \

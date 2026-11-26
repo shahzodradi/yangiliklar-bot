@@ -401,7 +401,8 @@ def har():
         tease = uz(pick.get("qiziqtir", "")).strip() or title  # qisqa: qiziqtiradi, tafsilot izohda
         narration = f"{OBUNA} {tease.rstrip('.!')}. Batafsil izohda oʻqing."
         mp4 = reel.make_reel(f"{stamp}_{i}_reel", photo, headline_html(pick["sarlavha"]), narration,
-                             hook=uz(pick.get("hook", "")).strip(" .!") + "!" if pick.get("hook") else "")
+                             hook=uz(pick.get("hook", "")).strip(" .!") + "!" if pick.get("hook") else "",
+                             eleven=True)
         log.info("Reel: %s -> %s", title, mp4)
         if mp4 and not dry and ig.publish_reel(token, chat, mp4, caption):
             reels.append(time.time())
