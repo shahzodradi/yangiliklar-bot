@@ -1,6 +1,5 @@
 {
  "seen": {
-  "https://www.musicbusinessworldwide.com/elevenlabs-agrees-to-acquire-japan-focused-voice-ai-company-kotoba-in-reported-100m-deal/": 1794924078.684282,
   "https://finance.yahoo.com/technology/ai/articles/perfect-corp-introduces-brand-ai-130000756.html": 1794931283.3393557,
   "https://www.unite.ai/suno-launches-visuals-for-ai-generated-lyric-videos-and-album-art/": 1794931283.3393557,
   "https://techcrunch.com/2026/11/17/spotifys-new-tool-aims-to-stop-deepfakes-from-being-attributed-to-real-artists/": 1794931283.3393557,
@@ -360,7 +359,8 @@
   "https://www.telegraphindia.com/entertainment/pranav-bhasins-we-were-here-qualifies-for-99th-oscars-in-live-action-short-category/cid/2191619": 1795777367.8796756,
   "https://en.tempo.co/read/2124548/alibaba-cloud-expands-ai-ties-with-three-indonesian-firms": 1795777367.8796756,
   "https://variety.com/2026/film/festivals/ai-horror-short-sikkal-wif-india-google-flow-filmathon-1236957898/": 1795780865.6701424,
-  "https://huggingface.co/blog/video-trainium3": 1795784797.242966
+  "https://huggingface.co/blog/video-trainium3": 1795784797.242966,
+  "https://the-decoder.com/sap-plans-to-cut-at-least-10000-jobs-as-it-pivots-to-ai/": 1795791817.6167395
  },
  "fails": 0,
  "sent": [
@@ -993,6 +993,11 @@
    "t": 1795784797.242966,
    "title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
    "soha": "AI video"
+  },
+  {
+   "t": 1795791817.6167395,
+   "title": "SAP plans to cut at least 10,000 jobs as it pivots to AI",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -2393,6 +2398,30 @@
     "https://huggingface.co/blog/video-trainium3",
     "https://finance.yahoo.com/news/2-5-million-roth-ira-110000154.html",
     "https://www.businessinsider.com/gen-z-delays-work-marriage-children-homebuying-delayed-development-2025-4"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795791817.6167395,
+   "title": "SAP sun'iy intellektga o'tish jarayonida kamida 10 ming ish o'rnini qisqartiradi",
+   "text": "SAP kompaniyasi sun'iy intellektga asoslangan yangi tuzilmaga o'tish doirasida kamida 10,000 ta ish o'rnini qisqartirishga tayyorlanmoqda.",
+   "orig_title": "SAP plans to cut at least 10,000 jobs as it pivots to AI",
+   "link": "https://the-decoder.com/sap-plans-to-cut-at-least-10000-jobs-as-it-pivots-to-ai/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Sun'iy intellekt texnologiyalarining joriy etilishi dasturiy ta'minot bozorida xarajatlarni qisqartirish va xodimlar unumdorligini oshirish tendentsiyasini kuchaytirishi mumkin.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/05/SAP-Logo-Silouette.png",
+   "domains": [
+    "the-decoder.com",
+    "finance.yahoo.com",
+    "businessinsider.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/sap-plans-to-cut-at-least-10000-jobs-as-it-pivots-to-ai/",
+    "https://finance.yahoo.com/technology/ai/articles/software-giant-sap-weighs-axing-213816936.html",
+    "https://www.businessinsider.com/microsoft-starts-a-new-round-of-job-cuts-2026-9"
    ],
    "videos": []
   }
