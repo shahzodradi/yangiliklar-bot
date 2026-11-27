@@ -363,7 +363,9 @@
   "https://24.kg/article/kyrgyzstan-provalilsya-v-rejtinge-gotovnosti-k-ii-otstav-ot-sosedej": 1795763254.7116108,
   "https://www.sherbrookerecord.com/of-artists-and-algorithms-rethinking-creativity-in-the-age-of-ai/": 1795763254.7116108,
   "https://www.wired.com/story/a-new-breed-of-chip-runs-ai-models-using-waves-of-light/": 1795766481.5418148,
-  "https://www.moneycontrol.com/technology/eloelo-group-launches-dolphin-ai-film-studio-at-iffi-2026-with-world-lock-technology-and-micro-drama-support-article-14089912.html": 1795770203.5510864
+  "https://www.moneycontrol.com/technology/eloelo-group-launches-dolphin-ai-film-studio-at-iffi-2026-with-world-lock-technology-and-micro-drama-support-article-14089912.html": 1795770203.5510864,
+  "https://www.telegraphindia.com/entertainment/pranav-bhasins-we-were-here-qualifies-for-99th-oscars-in-live-action-short-category/cid/2191619": 1795777367.8796756,
+  "https://en.tempo.co/read/2124548/alibaba-cloud-expands-ai-ties-with-three-indonesian-firms": 1795777367.8796756
  },
  "fails": 0,
  "sent": [
@@ -1006,6 +1008,16 @@
    "t": 1795770203.5510864,
    "title": "EloElo Group launches Dolphin AI Film Studio at IFFI 2026 with World Lock technology and micro-drama support",
    "soha": "AI tanlov"
+  },
+  {
+   "t": 1795777367.8796756,
+   "title": "Pranav Bhasin’s ‘We Were Here’ qualifies for 99th Oscars in Live Action Short category",
+   "soha": "AI tanlov"
+  },
+  {
+   "t": 1795777367.8796756,
+   "title": "Alibaba Cloud Expands AI Ties with Three Indonesian Firms",
+   "soha": "AI video"
   }
  ],
  "mavzu": {
@@ -1013,52 +1025,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1795600884.5654054,
-   "title": "O‘zbekistonda sog‘liqni saqlash tizimini raqamlashtirish kengaytirilmoqda",
-   "text": "O‘zbekistonda tibbiyot muassasalari uchun yangi sun'iy intellekt vositalari, elektron yozuvlar va yagona integratsiyalashgan platformani joriy etish orqali raqamli xizmatlar kengaytirilmoqda.",
-   "orig_title": "Uzbekistan expands digitalisation of healthcare system",
-   "link": "https://www.uzdaily.uz/en/uzbekistan-expands-digitalisation-of-healthcare-system/",
-   "source": "uzdaily.uz",
-   "soha": "AI O'zbekiston",
-   "baho": 10,
-   "experts": [],
-   "effect": "Sog'liqni saqlash tizimining raqamlashtirilishi ma'muriy yuklamani qisqartirib, tibbiy xatolar va takroriy tekshiruvlar sonini kamaytirishi mumkin. Shuningdek, sun'iy intellekt texnologiyalarining joriy etilishi kasalliklarni erta bosqichda aniqlash va tashxis qo'yish jarayonini tezlashtirish imkonini beradi.",
-   "image": "https://www.uzdaily.uz/media/filer_public/3b/b9/3bb96548-c5b0-4af9-85b6-b54399331112/eldorodilovminzdrav_20261118075648.webp",
-   "domains": [
-    "uzdaily.uz",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://www.uzdaily.uz/en/uzbekistan-expands-digitalisation-of-healthcare-system/",
-    "https://finance.yahoo.com/healthcare/articles/generative-ai-healthcare-market-size-112000846.html",
-    "https://finance.yahoo.com/healthcare/articles/ar-vr-healthcare-market-2026-155700278.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795600884.5654054,
-   "title": "NVIDIA chiqargan ochiq vaznli Nemotron-Labs-Image-30B-A3B modeli GPT Image 2'ni ortda qoldirdi",
-   "text": "NVIDIA Hugging Face platformasida Nemotron-Labs-Image-30B-A3B tasvir generatorining ochiq vaznlarini e'lon qildi, u GPT Image 2 modelini ortda qoldirib, atigi 3 milliard faol parametrni talab qiladi.",
-   "orig_title": "NVIDIA Releases Open Weights For Nemotron-Labs-Image-30B-A3B, An Autoregressive Image Generator That Outpaces GPT Image 2 And Only Needs 3B Active Parameters",
-   "link": "https://wccftech.com/nvidia-quietly-releases-open-weights-for-nemotron-labs-image-30b-a3b/",
-   "source": "wccftech.com",
-   "soha": "AI rasm",
-   "baho": 9,
-   "experts": [],
-   "effect": "Nvidia tomonidan ochiq vaznga ega tasvir generatorining chiqarilishi dasturchilarga lokal qurilmalarda katta hisoblash quvvatisiz ishlash imkonini berib, tuzilmaviy vizual generatsiya bozoridagi raqobatni kuchaytirishi mumkin. Britaniya tadqiqotchilariga ajratilgan hisoblash quvvati esa sun'iy intellekt xavfsizligi va agentlar xavfsizligini ta'minlash yo'nalishidagi tadqiqotlarni jadallashtirishi ehtimoli bor.",
-   "image": "https://cdn.wccftech.com/wp-content/uploads/2026/11/NVIDIAs-open-source-AI-models.jpg",
-   "domains": [
-    "wccftech.com",
-    "theguardian.com"
-   ],
-   "urls": [
-    "https://wccftech.com/nvidia-quietly-releases-open-weights-for-nemotron-labs-image-30b-a3b/",
-    "https://www.theguardian.com/technology/2026/nov/09/nvidia-jensen-huang-us-china-donald-trump-spy",
-    "https://www.theguardian.com/technology/2026/oct/14/nvidia-donates-to-uk-ai-safety-research"
-   ],
-   "videos": []
-  },
   {
    "t": 1795604770.4042807,
    "title": "Enterprise Uzbekistan Londonda huquqiy modelini taqdim etdi",
@@ -2399,6 +2365,50 @@
     "https://www.moneycontrol.com/technology/eloelo-group-launches-dolphin-ai-film-studio-at-iffi-2026-with-world-lock-technology-and-micro-drama-support-article-14089912.html",
     "https://sports.yahoo.com/nba/article/nba-cup-2026-schedule-results-groups-format-and-what-to-know-for-this-years-in-season-tournament-114105794.html",
     "https://finance.yahoo.com/technology/ai/articles/iqiyi-launches-chinas-first-ai-013900330.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795777367.8796756,
+   "title": "Pranav Bhasin's AI-themed film qualifies for Oscars",
+   "text": "Pranav Bhasin's short film We Were Here, exploring the impact of artificial intelligence, qualified for the 99th Oscars.",
+   "orig_title": "Pranav Bhasin’s ‘We Were Here’ qualifies for 99th Oscars in Live Action Short category",
+   "link": "https://www.telegraphindia.com/entertainment/pranav-bhasins-we-were-here-qualifies-for-99th-oscars-in-live-action-short-category/cid/2191619",
+   "source": "telegraphindia.com",
+   "soha": "AI tanlov",
+   "baho": 8,
+   "experts": [],
+   "effect": "Kompaniyaning kapital qo'yilmalar prognozini qisqartirishi va quvvatlar yetkazib berilishidagi kechikishlar sun'iy intellekt infratuzilmasini rivojlantirish sur'atlariga vaqtinchalik ta'sir ko'rsatishi mumkin. Shuningdek, bu holat bulutli xizmatlar bozoridagi boshqa ishtirokchilarning ham xarajatlari va rejasiga o'zgartirishlar kiritish ehtimolini oshiradi.",
+   "image": null,
+   "domains": [
+    "theguardian.com",
+    "businessinsider.com"
+   ],
+   "urls": [
+    "https://www.theguardian.com/world/2026/nov/16/is-is-india-travel-boom-travel-and-leisure-women",
+    "https://www.businessinsider.com/microsoft-trims-ai-spending-plans-to-170b-as-azure-revenue-surges-2026-10"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795777367.8796756,
+   "title": "Alibaba Cloud expands AI partnerships in Indonesia",
+   "text": "Alibaba Cloud partnered with CBN, EMTEK's Vidio, and PT Cerita Inovasi Kopi Indonesia to expand AI infrastructure and services.",
+   "orig_title": "Alibaba Cloud Expands AI Ties with Three Indonesian Firms",
+   "link": "https://en.tempo.co/read/2124548/alibaba-cloud-expands-ai-ties-with-three-indonesian-firms",
+   "source": "en.tempo.co",
+   "soha": "AI video",
+   "baho": 8,
+   "experts": [],
+   "effect": "Xitoy bozoriga chip ijaraga berish bo'yicha cheklovlar va rahbar almashinuvi Nvidia kompaniyasining daromadlariga ma'lum xavflarni tug'dirishi mumkin. Shunga qaramay, yuqori talab va o'sish prognozining oshirilishi chip ishlab chiqaruvchining umumiy bozor mavqei va moliyaviy ko'rsatkichlarini yaxshilab borishi ehtimoli bor.",
+   "image": null,
+   "domains": [
+    "cnbc.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://www.cnbc.com/2026/11/17/nvidia-nvda-earnings-report-q3-2027.html",
+    "https://finance.yahoo.com/technology/articles/global-personal-computer-cards-modems-143100800.html"
    ],
    "videos": []
   }
