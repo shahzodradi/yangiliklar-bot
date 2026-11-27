@@ -1,10 +1,5 @@
 {
  "seen": {
-  "https://www.uscannenbergmedia.com/2026/11/16/usc-students-build-ai-tools-for-campus-life-at-two-day-hackathon/": 1794888082.8592849,
-  "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/": 1794888082.8592849,
-  "https://www.theverge.com/tech/1034581/apple-intelligence-siri-ai-daily-usage-limits-icloud-subscription": 1794888082.8592849,
-  "https://www.theverge.com/policy/1034527/openai-csam-classifier": 1794888082.8592849,
-  "https://openai.com/index/expanding-chatgpt-for-academic-researchers": 1794888082.8592849,
   "https://www.msn.com/en-au/news/other/people-are-making-millions-without-showing-their-face-ai-influencers/vi-AA2hzQlX": 1794891779.9417048,
   "https://the-decoder.com/google-warns-that-fully-automated-cyberattacks-have-arrived-and-will-get-worse-fast/": 1794891779.9417048,
   "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/": 1794891779.9417048,
@@ -378,7 +373,10 @@
   "https://www.techloy.com/most-realistic-ai-video-generators-in-2027/": 1795712545.9009743,
   "https://the-decoder.com/gpt-6-2-astra-users-now-hit-limits-40-faster-after-openai-patched-a-pricing-error/": 1795716071.1635885,
   "https://www.bandt.com.au/its-pushed-my-imagination-further-disrupt-ai-film-festival-winner-jamin-tasker-on-ais-impact-on-filmmaking/": 1795748749.9861858,
-  "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/": 1795752061.496464
+  "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/": 1795752061.496464,
+  "https://daryo.uz/2026/11/26/hassa-tutsam-odamlar-yordam-bermay-qoyadi-suniy-intellekt-komagida-mustaqil-yashayotgan-kozi-ojiz-er-xotin-hikoyasi/": 1795755678.4438994,
+  "https://the-decoder.com/former-openai-researcher-says-the-riemann-proof-matters-less-than-the-fact-that-an-ai-system-can-produce-it/": 1795755678.4438994,
+  "https://www.nur.kz/technologies/software/2461516-kazahstan-zanyal-58-mesto-v-globalnom-reytinge-gotovnosti-k-vnedreniyu-ii/": 1795755678.4438994
  },
  "fails": 0,
  "sent": [
@@ -1001,6 +999,21 @@
    "t": 1795752061.496464,
    "title": "Nvidia hits pause on chip shipments to Southeast Asia",
    "soha": "AI"
+  },
+  {
+   "t": 1795755678.4438994,
+   "title": "“Hassa tutsam, odamlar yordam bermay qo‘yadi”. Sun’iy intellekt ko‘magida mustaqil yashayotgan ko‘zi ojiz er-xotin hikoyasi",
+   "soha": "AI O'zbekiston"
+  },
+  {
+   "t": 1795755678.4438994,
+   "title": "Former OpenAI researcher says the Riemann proof matters less than the fact that an AI system can produce it",
+   "soha": "AI"
+  },
+  {
+   "t": 1795755678.4438994,
+   "title": "Казахстан занял 58 место в глобальном рейтинге готовности к внедрению ИИ",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -1008,173 +1021,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1795579270.509654,
-   "title": "O‘zbekistonda 7 eksaflopli AI hisoblash klasteri ishga tushiriladi",
-   "text": "O‘zbekiston sun’iy intellekt infratuzilmasi, tadqiqotlar va amaliy loyihalarni kengaytirish maqsadida 2027-yilda 7 eksaflopdan ortiq quvvatga ega hisoblash klasterini ishga tushiradi.",
-   "orig_title": "Uzbekistan to launch 7-exaflop AI computing cluster in 2027",
-   "link": "https://www.uzdaily.uz/en/uzbekistan-to-launch-7-exaflop-ai-computing-cluster-in-2027/",
-   "source": "uzdaily.uz",
-   "soha": "AI O'zbekiston",
-   "baho": 10,
-   "experts": [],
-   "effect": "O‘zbekistonda sun'iy intellekt infratuzilmasining rivojlanishi raqamli xizmatlar va davlat boshqaruvida samaradorlikni oshirishi, shuningdek, sohada kadrlar tayyorlash va startaplar uchun imkoniyatlarni kengaytirishi mumkin.",
-   "image": "https://www.uzdaily.uz/media/filer_public/1e/5b/1e5b5c98-9640-4da9-8a9f-a768097d5388/shermatovoliymajlis2411_20261124143815.webp",
-   "domains": [
-    "uzdaily.uz",
-    "businessinsider.com"
-   ],
-   "urls": [
-    "https://www.uzdaily.uz/en/uzbekistan-to-launch-7-exaflop-ai-computing-cluster-in-2027/",
-    "https://www.businessinsider.com/college-majors-safest-from-ai-ranked"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795579270.509654,
-   "title": "Tidal sun’iy intellekt yordamida yaratilgan musiqalarni taqiqlaydi",
-   "text": "Tidal platformasi to‘liq sun’iy intellekt yordamida yaratilgan qo‘shiqlarini olib tashlashni boshlaydi va barcha kelgusidagi shunday yuklamalarni rad etadi.",
-   "orig_title": "Tidal Bans Music Made Entirely With Artificial Intelligence",
-   "link": "https://www.msn.com/en-us/news/other/tidal-bans-music-made-entirely-with-artificial-intelligence/ar-AA2i9P55",
-   "source": "msn.com",
-   "soha": "AI musiqa",
-   "baho": 10,
-   "experts": [],
-   "effect": "Musiqa platformalarining sun'iy intellekt yordamida yaratilgan kontentni cheklashi mualliflik huquqlarini himoya qilishni kuchaytirishi va musiqiy striming bozorida spam treklar hajmini kamaytirishi mumkin.",
-   "image": null,
-   "domains": [
-    "theverge.com"
-   ],
-   "urls": [
-    "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795579270.509654,
-   "title": "Ovoz yozish kompaniyalari shartnomalarga AI musiqa bandlarini kiritmoqda",
-   "text": "Sun’iy intellekt yordamida yaratilgan qo‘shiqlar musiqa chartlarining yuqori pog‘onalariga chiqib, bozorda ta’sirini ko‘rsatayotgani sababli sanoat tashkilotlari qoidalarni tezlashtirmoqda.",
-   "orig_title": "Record companies add AI music clauses to contracts",
-   "link": "https://www.msn.com/en-xl/news/other/record-companies-add-ai-music-clauses-to-contracts/ar-AA2ia9T7",
-   "source": "msn.com",
-   "soha": "AI musiqa",
-   "baho": 10,
-   "experts": [],
-   "effect": "Musiqa sanoatida sun'iy intellektga oid bandlarning shartnomalarga kiritilishi ijrochilar va studiyalar o'rtasidagi huquqiy munosabatlarni o'zgartirishi hamda mualliflik huquqini himoya qilishni qat'iylashtirishi mumkin.",
-   "image": null,
-   "domains": [
-    "yahoo.com"
-   ],
-   "urls": [
-    "https://www.yahoo.com/entertainment/music/new-albums/articles/d-not-really-heavy-key-112230584.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795579270.509654,
-   "title": "David Fincherning yangi filmida generativ AI ishlatilgani muhokama qilinmoqda",
-   "text": "Rejissyor David Fincherning yangi filmi namoyishlaridan so‘ng unda generativ sun’iy intellekt texnologiyalaridan foydalanilgani haqida savollar va e'tirozlar paydo bo‘ldi.",
-   "orig_title": "David Fincher is being dragged for suspected use of AI in his latest film",
-   "link": "https://www.theverge.com/entertainment/1041417/david-fincher-netflix-cliff-booth-ai-interpositive",
-   "source": "The Verge AI",
-   "soha": "AI video",
-   "baho": 9,
-   "experts": [],
-   "effect": "Kino sanoatida generativ sun'iy intellektdan foydalanish borasidagi muhokamalar tomoshabinlar va ijodkorlar orasida keskin tanqidlarga sabab bo'lib, studiyalarning kelgusidagi vizual jarayonlarga yondashuvini qayta ko'rib chiqishiga olib kelishi mumkin.",
-   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/UFP25_R4_Rec709_2p4gamma_6188x3240_20260828.0363314_R2.jpg?quality=90&strip=all&crop=20.043648851915%2C0%2C79.914576075467%2C100&w=1200",
-   "domains": [
-    "theverge.com",
-    "yahoo.com"
-   ],
-   "urls": [
-    "https://www.theverge.com/entertainment/1041417/david-fincher-netflix-cliff-booth-ai-interpositive",
-    "https://www.yahoo.com/entertainment/movies/articles/generative-ai-mis-adventures-cliff-234500619.html"
-   ],
-   "videos": [
-    [
-     "https://www.youtube.com/watch?v=RjEZaUBbUvU",
-     "YouTube"
-    ],
-    [
-     "https://www.youtube.com/watch?v=fJH-wfSXnWg",
-     "YouTube"
-    ],
-    [
-     "https://x.com/imPatrickT/status/2123512838832685394",
-     "X"
-    ],
-    [
-     "https://x.com/imPatrickT/status/2123508160581214590",
-     "X"
-    ]
-   ]
-  },
-  {
-   "t": 1795579270.509654,
-   "title": "The York Times fotograflarni Photoshop yangilanishidan ogohlantirdi",
-   "text": "The New York Times o‘z frilanser fotograflariga Adobe Photoshop’ning yangi versiyasidan foydalanmaslikni tavsiya qildi, chunki yangilanishdagi AI funksiyalari sezilmas tarzda ishlaydi.",
-   "orig_title": "The New York Times warns photographers not to update Photoshop over AI features",
-   "link": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
-   "source": "The Verge AI",
-   "soha": "AI rasm",
-   "baho": 8,
-   "experts": [],
-   "effect": "Adobe Photoshop dasturining yangi sun'iy intellekt funksiyalari tufayli fotorassomlar va media agentliklar fotosuratlarning haqiqiyligini tekshirishda qiyinchiliklarga duch kelishi va metama'lumotlar xavfsizligini ta'minlash choralarini kuchaytirishi mumkin.",
-   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2289911637.jpg?quality=90&strip=all&crop=0%2C10.232235952618%2C100%2C79.535528094764&w=1200",
-   "domains": [
-    "theverge.com",
-    "tech.yahoo.com"
-   ],
-   "urls": [
-    "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
-    "https://tech.yahoo.com/ai/copilot/articles/microsoft-unveils-ai-models-coding-181743738.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795579270.509654,
-   "title": "Novartis rahbari AI dori ishlab chiqish vaqtini qisqartirishini aytdi",
-   "text": "Novartis bosh direktori Vas Narasimhan sun’iy intellekt dori vositalarini yaratish jarayonini to‘rt yilga qisqartirishini, biroq barcha kasalliklarni bir zumda davolay olmasligini bildirdi.",
-   "orig_title": "Novartis CEO says AI will shave four years off drug development, not cure all disease",
-   "link": "https://the-decoder.com/novartis-ceo-says-ai-will-shave-four-years-off-drug-development-not-cure-all-disease/",
-   "source": "The Decoder",
-   "soha": "AI",
-   "baho": 7,
-   "experts": [],
-   "effect": "Farmatsevtika sohasida sun'iy intellektning qo'llanilishi dori vositalarini yaratish muddatini qisqartirishi va klinik sinovlar muvaffaqiyatini oshirishi mumkin.",
-   "image": "https://the-decoder.com/wp-content/uploads/2026/11/claude_novartis.png",
-   "domains": [
-    "the-decoder.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://the-decoder.com/novartis-ceo-says-ai-will-shave-four-years-off-drug-development-not-cure-all-disease/",
-    "https://finance.yahoo.com/video/novartis-ceo-ai-could-cut-140414935.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795579270.509654,
-   "title": "OpenAI va Anthropic xodimlari yangi modellarning xavfsizligidan xavotirda",
-   "text": "Ayrim xodimlarning fikricha, kompaniyalarning reliz qilinmagan ilg‘or modellari xavfsizlik choralaridan o‘tib ketgan va ularni jilovlash qiyinlashmoqda.",
-   "orig_title": "Dozens of insiders say OpenAI and Anthropic's unreleased models have outgrown their safety measures",
-   "link": "https://the-decoder.com/dozens-of-insiders-say-openai-and-anthropics-unreleased-models-have-outgrown-their-safety-measures/",
-   "source": "The Decoder",
-   "soha": "AI",
-   "baho": 7,
-   "experts": [],
-   "effect": "Ilg'or sun'iy intellekt modellarining xavfsizlik choralaridan o'zib ketishi kompaniyalarni yangi tizimlarni chiqarishni vaqtincha to'xtatishga yoki xavfsizlik standartlarini yanada kuchaytirishga majbur qilishi mumkin.",
-   "image": "https://the-decoder.com/wp-content/uploads/2026/10/openai_anthropic.png",
-   "domains": [
-    "the-decoder.com",
-    "tech.yahoo.com"
-   ],
-   "urls": [
-    "https://the-decoder.com/dozens-of-insiders-say-openai-and-anthropics-unreleased-models-have-outgrown-their-safety-measures/",
-    "https://tech.yahoo.com/ai/claude/articles/anthropic-openai-staff-warn-risks-150041738.html"
-   ],
-   "videos": []
-  },
   {
    "t": 1795582982.1548715,
    "title": "Anthropic suniy intellekt agentlari uchun maxsus sinov yaratdi",
@@ -2785,6 +2631,91 @@
     "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
     "https://finance.yahoo.com/technology/ai/articles/nvidia-reportedly-halts-ai-chip-111743617.html",
     "https://finance.yahoo.com/technology/ai/articles/nvidia-halts-chip-exports-south-091719430.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795755678.4438994,
+   "title": "Toshkentlik ko‘zi ojiz er-xotin sun’iy intellekt yordamida mustaqil hayot kechirmoqda",
+   "text": "Toshkentda yashovchi ko‘zi ojiz er-xotin kundalik hayotida sun’iy intellekt texnologiyalaridan qanday foydalanayotgani haqida so‘zlab berdi.",
+   "orig_title": "“Hassa tutsam, odamlar yordam bermay qo‘yadi”. Sun’iy intellekt ko‘magida mustaqil yashayotgan ko‘zi ojiz er-xotin hikoyasi",
+   "link": "https://daryo.uz/2026/11/26/hassa-tutsam-odamlar-yordam-bermay-qoyadi-suniy-intellekt-komagida-mustaqil-yashayotgan-kozi-ojiz-er-xotin-hikoyasi/",
+   "source": "daryo.uz",
+   "soha": "AI O'zbekiston",
+   "baho": 10,
+   "experts": [],
+   "effect": "Sun’iy intellekt va aqlli ko‘zoynaklarning rivojlanishi ko‘zi ojiz insonlarning mustaqil hayot kechirishini osonlashtirishi hamda inklyuziv gadjetlar bozorining tez sur’atlarda o‘sishiga turtki berishi mumkin.",
+   "image": "https://gocdn.daryo.uz/medium/2026/11/26/b3f94d0b6461633dbd64b5d2dec6b77d5e4a50b2350e8eef774778a2c95706c5.webp",
+   "domains": [
+    "daryo.uz",
+    "businessinsider.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://daryo.uz/2026/11/26/hassa-tutsam-odamlar-yordam-bermay-qoyadi-suniy-intellekt-komagida-mustaqil-yashayotgan-kozi-ojiz-er-xotin-hikoyasi/",
+    "https://www.businessinsider.com/envision-glasses-chatgpt-google-glass-help-blind-visually-impaired-2023-12",
+    "https://finance.yahoo.com/quote/INDB/"
+   ],
+   "videos": [
+    [
+     "https://www.youtube.com/watch?v=w6zEre5Gab8",
+     "YouTube"
+    ]
+   ]
+  },
+  {
+   "t": 1795755678.4438994,
+   "title": "Sobiq OpenAI tadqiqotchisi sun’iy intellektning matematik yutuqlari oqibatlaridan ogohlantirdi",
+   "text": "Skott Aaronson AI matematikadagi yutuqlari global iqtisodiyotni o‘zgartirishi yoki xavf tug‘dirishi mumkinligini aytib, laboratoriyalarda ilg‘or modellar borligini ta’kidladi.",
+   "orig_title": "Former OpenAI researcher says the Riemann proof matters less than the fact that an AI system can produce it",
+   "link": "https://the-decoder.com/former-openai-researcher-says-the-riemann-proof-matters-less-than-the-fact-that-an-ai-system-can-produce-it/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 6,
+   "experts": [
+    {
+     "kim": "Scott Aaronson",
+     "lavozim": "Kompyuter fanlari professori",
+     "fikr": "Riman gipotezasini isbotlashdan ko‘ra, sun’iy intellektning murakkab matematik vazifalarni bajara olish faktining o‘zi muhimroq bo‘lib, bu kundalik hayot va jahon iqtisodiyotiga mislsiz ta’sir ko‘rsatishi mumkin.",
+     "url": "https://the-decoder.com/former-openai-researcher-says-the-riemann-proof-matters-less-than-the-fact-that-an-ai-system-can-produce-it/",
+     "domain": "the-decoder.com"
+    }
+   ],
+   "effect": "Sun’iy intellektning nazariy fanlar va kriptografiyada kashfiyotlar qilishi ilmiy izlanishlar tezligini keskin oshirishi va an’anaviy tadqiqot usullari hamda shifrlash tizimlarini tubdan o‘zgartirishi mumkin.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/09/math_geometry_openai_hodge-1200x670.png",
+   "domains": [
+    "the-decoder.com",
+    "businessinsider.com",
+    "techcrunch.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/former-openai-researcher-says-the-riemann-proof-matters-less-than-the-fact-that-an-ai-system-can-produce-it/",
+    "https://www.businessinsider.com/category/ai-insider",
+    "https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795755678.4438994,
+   "title": "Qozog‘iston sun’iy intellektga tayyorlik global reytingida 58-o‘rinni egalladi",
+   "text": "Hukumatlarning sun’iy intellektni joriy etishga tayyorligi bo‘yicha global reytingda Qozog‘iston 58-o‘rinda qayd etildi.",
+   "orig_title": "Казахстан занял 58 место в глобальном рейтинге готовности к внедрению ИИ",
+   "link": "https://www.nur.kz/technologies/software/2461516-kazahstan-zanyal-58-mesto-v-globalnom-reytinge-gotovnosti-k-vnedreniyu-ii/",
+   "source": "nur.kz",
+   "soha": "AI",
+   "baho": 5,
+   "experts": [],
+   "effect": "Hukumatlarning sun’iy intellektga investitsiyalari ortishi Markaziy Osiyo mintaqasida davlat xizmatlarini raqamlashtirishni tezlashtirishi va xorijiy texnologik sarmoyalarni jalb qilish imkonini kengaytirishi mumkin.",
+   "image": "https://cdn.nur.kz/images/1200x675/72f7718171948415.jpeg?version=1",
+   "domains": [
+    "nur.kz",
+    "businessinsider.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://www.nur.kz/technologies/software/2461516-kazahstan-zanyal-58-mesto-v-globalnom-reytinge-gotovnosti-k-vnedreniyu-ii/",
+    "https://www.businessinsider.com/chinese-ai-models-rankings-artificial-analysis-private-tests-anthropic-openai-2026-11",
+    "https://finance.yahoo.com/quote/FRHC/"
    ],
    "videos": []
   }
