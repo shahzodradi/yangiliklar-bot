@@ -1,8 +1,5 @@
 {
  "seen": {
-  "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai": 1794902470.3692682,
-  "https://www.technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise/": 1794902470.3692682,
-  "https://www.wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess/": 1794902470.3692682,
   "https://musically.com/2026/11/17/tuneart-ai-music-video-maker/": 1794913920.5300534,
   "https://www.musicbusinessworldwide.com/elvis-presley-rightsholders-amend-suno-lawsuit-adding-more-than-100-allegedly-infringing-ai-tracks/": 1794916909.3477294,
   "https://www.wired.com/story/wired-yearbook-2026-clement-delangue/": 1794916909.3477294,
@@ -364,15 +361,11 @@
   "https://the-decoder.com/former-openai-researcher-says-the-riemann-proof-matters-less-than-the-fact-that-an-ai-system-can-produce-it/": 1795755678.4438994,
   "https://www.nur.kz/technologies/software/2461516-kazahstan-zanyal-58-mesto-v-globalnom-reytinge-gotovnosti-k-vnedreniyu-ii/": 1795755678.4438994,
   "https://24.kg/article/kyrgyzstan-provalilsya-v-rejtinge-gotovnosti-k-ii-otstav-ot-sosedej": 1795763254.7116108,
-  "https://www.sherbrookerecord.com/of-artists-and-algorithms-rethinking-creativity-in-the-age-of-ai/": 1795763254.7116108
+  "https://www.sherbrookerecord.com/of-artists-and-algorithms-rethinking-creativity-in-the-age-of-ai/": 1795763254.7116108,
+  "https://www.wired.com/story/a-new-breed-of-chip-runs-ai-models-using-waves-of-light/": 1795766481.5418148
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1795420870.630156,
-   "title": "Elo Elo Group launches Dolphin AI Film Studio at IFFI 2026",
-   "soha": "AI tanlov"
-  },
   {
    "t": 1795425005.360213,
    "title": "AI Films From Kerala to Andaman Islands Win Google Flow Filmathon",
@@ -1007,6 +1000,11 @@
    "t": 1795763254.7116108,
    "title": "Of artists and algorithms: Rethinking creativity in the age of AI",
    "soha": "AI"
+  },
+  {
+   "t": 1795766481.5418148,
+   "title": "A New Breed of Chip Runs AI Models Using Waves of Light",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -1014,57 +1012,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1795593666.195283,
-   "title": "ChatGPT GPT-6.2 yangilanishini oldi",
-   "text": "ChatGPT yaxshilangan mulohaza yuritish, rasmlarni tushunish va veb-tadqiqot imkoniyatlariga ega bo'lgan GPT-6.2 yangilanishini qabul qildi.",
-   "orig_title": "ChatGPT just got a major GPT-6.2 upgrade — 5 things to try right now",
-   "link": "https://www.msn.com/en-us/news/other/chatgpt-just-got-a-major-gpt-62-upgrade-5-things-to-try-right-now/ar-AA2iaJzs",
-   "source": "msn.com",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Sun'iy intellekt xizmatlarining imkoniyatlari kengayishi hisobiga foydalanuvchilar murakkab tahliliy vazifalarni bajarishda samaradorlikka erishishi hamda raqobat muhiti yanada kuchayishi mumkin.",
-   "image": null,
-   "domains": [
-    "tech.yahoo.com",
-    "techcrunch.com"
-   ],
-   "urls": [
-    "https://tech.yahoo.com/ai/chatgpt/articles/chatgpt-just-got-major-gpt-054500710.html",
-    "https://techcrunch.com/2025/02/02/openai-unveils-a-new-chatgpt-agent-for-deep-research/"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795593666.195283,
-   "title": "OpenAI GPT-6.2 Sol modelini taqdim etdi",
-   "text": "OpenAI Plus, Pro va biznes foydalanuvchilari uchun mo'ljallangan chat rejimiga moslashtirilgan GPT-6.2 Sol modelini ishga tushirdi.",
-   "orig_title": "ChatGPT is getting a chat-tuned GPT-6.2 Sol, and it can offer to watch for a price drop",
-   "link": "https://www.digitaltrends.com/computing/chatgpt-is-getting-a-chat-tuned-gpt-6-2-sol-and-it-can-offer-to-watch-for-a-price-drop/",
-   "source": "digitaltrends.com",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Eski modellarning foydalanishdan chiqarilishi ayrim foydalanuvchilarning noroziligiga sabab bo'lishi hamda kompaniya resurslarini yangi avlod texnologiyalariga yo'naltirish imkonini berishi mumkin.",
-   "image": "https://i0.wp.com/cdn.dtmg.xyz/uploads/2026/11/GPT-6.2.jpg?resize=1200%2C630&ssl=1",
-   "domains": [
-    "digitaltrends.com",
-    "tech.yahoo.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://www.digitaltrends.com/computing/chatgpt-is-getting-a-chat-tuned-gpt-6-2-sol-and-it-can-offer-to-watch-for-a-price-drop/",
-    "https://tech.yahoo.com/ai/chatgpt/articles/openai-sets-retirement-date-gpt-125859089.html",
-    "https://finance.yahoo.com/quote/STKE/"
-   ],
-   "videos": [
-    [
-     "https://x.com/ChatGPT/status/2124942186425069836",
-     "X"
-    ]
-   ]
-  },
   {
    "t": 1795597352.7167559,
    "title": "O‘zbekiston va Xitoy qishloq xo‘jaligida sun’iy intellektni muhokama qildi",
@@ -2424,6 +2371,35 @@
     "https://www.wired.com/story/this-copyright-lawsuit-could-shape-the-future-of-generative-ai/"
    ],
    "videos": []
+  },
+  {
+   "t": 1795766481.5418148,
+   "title": "Germaniyalik mutaxassislar yorug'lik to'lqinlari yordamida ishlaydigan yangi turdagi AI chipini yaratishdi",
+   "text": "Germaniyaning Q.ANT kompaniyasi sun'iy intellekt modellarini ishga tushirish uchun zarur bo'lgan energiya sarfini kamaytirish maqsadida hisob-kitoblarni yorug'lik yordamida bajaruvchi chipni sinovdan o'tkazmoqda.",
+   "orig_title": "A New Breed of Chip Runs AI Models Using Waves of Light",
+   "link": "https://www.wired.com/story/a-new-breed-of-chip-runs-ai-models-using-waves-of-light/",
+   "source": "Wired AI",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Fotonik protsessorlarning joriy etilishi ma'lumotlar markazlarining quvvat sarfini sezilarli darajada kamaytirishi hamda hisoblash quvvatini oshirishi mumkin. Bu texnologiya energiya tanqisligi va yuqori xarajatlar muammosini yumshatib, sun'iy intellekt ish yuklarini yanada barqaror rivojlantirish imkonini berishi ehtimoli bor.",
+   "image": "https://media.wired.com/photos/6b073e1d34813a006d725bef/191:100/w_1280,c_limit/QANT-CEO-QandA-Business.jpg",
+   "domains": [
+    "wired.com",
+    "markets.businessinsider.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://www.wired.com/story/a-new-breed-of-chip-runs-ai-models-using-waves-of-light/",
+    "https://markets.businessinsider.com/funds/aam-blue-chip-2025-4q-ca-us00783k5204",
+    "https://finance.yahoo.com/news/higher-performance-less-energy-q-090000156.html"
+   ],
+   "videos": [
+    [
+     "https://www.youtube.com/watch?v=vSUMLitF-dk",
+     "YouTube"
+    ]
+   ]
   }
  ]
 }
