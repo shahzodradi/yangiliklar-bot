@@ -13,5 +13,5 @@ jobs:
           cd instagram && python -c "
           import logging,sys,pathlib; logging.basicConfig(level=logging.INFO,format='%(message)s',stream=sys.stdout)
           import video
-          x={'title':'Nvidia','orig_title':'Nvidia halts server shipments to Malaysia, Singapore, Thailand, and Indonesia','link':'https://example.com','videos':[['https://www.youtube.com/watch?v=W1buDF2jVOQ','YouTube']]}
+          x={'title':'Nvidia','orig_title':'Nvidia halts server shipments to Malaysia, Singapore, Thailand, and Indonesia','link':'https://example.com','videos':[['https://x.com/nothing/status/2125590327189021093','X']],'title':'Nothing Phone','orig_title':'Nothing phone launch'}
           print(video.find_clips(x,set(),pathlib.Path('.'),'t',n=1))"
