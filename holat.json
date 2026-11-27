@@ -1,7 +1,5 @@
 {
  "seen": {
-  "https://finance.yahoo.com/technology/ai/articles/kling-ai-launches-kling-image-163300875.html": 1794935144.1480627,
-  "https://www.billboard.com/pro/soundcloud-ceo-ai-policies-qa/": 1794935144.1480627,
   "https://the-decoder.com/ai-agents-are-starting-to-fill-out-medical-forms-and-file-insurance-requests-in-place-of-human-staff/": 1794938627.3183923,
   "https://the-decoder.com/the-us-wants-to-block-china-from-renting-ai-power-abroad-but-china-already-built-a-parallel-supply-chain-from-us-ai-output/": 1794938627.3183923,
   "https://the-decoder.com/isomorphic-labs-raises-5-billion-in-its-second-mega-round-within-six-months/": 1794938627.3183923,
@@ -359,7 +357,9 @@
   "https://huggingface.co/blog/video-trainium3": 1795784797.242966,
   "https://the-decoder.com/sap-plans-to-cut-at-least-10000-jobs-as-it-pivots-to-ai/": 1795791817.6167395,
   "https://the-decoder.com/rockstars-ai-dilemma-can-gta-6s-staggered-release-model-survive-coding-agents/": 1795795306.0116005,
-  "https://www.eweek.com/news/openai-gpt-6-2-astra-humanoid-robotics-benchmark/": 1795795306.0116005
+  "https://www.eweek.com/news/openai-gpt-6-2-astra-humanoid-robotics-benchmark/": 1795795306.0116005,
+  "https://the-decoder.com/three-studies-from-meta-and-ami-labs-back-yann-lecuns-bet-on-jepa-world-models-over-large-language-models/": 1795799182.612519,
+  "https://the-decoder.com/openai-is-building-athena-data-platform-to-cut-down-on-ai-agent-guesswork/": 1795799182.612519
  },
  "fails": 0,
  "sent": [
@@ -1006,6 +1006,16 @@
   {
    "t": 1795795306.0116005,
    "title": "OpenAI Leads a Humanoid Robot Benchmark: What 61 Successful Trials Actually Show",
+   "soha": "AI"
+  },
+  {
+   "t": 1795799182.612519,
+   "title": "Three studies from Meta and AMI Labs back Yann LeCun's bet on JEPA world models over large language models",
+   "soha": "AI"
+  },
+  {
+   "t": 1795799182.612519,
+   "title": "OpenAI is building \"Athena\" data platform to cut down on AI agent guesswork",
    "soha": "AI"
   }
  ],
@@ -2370,6 +2380,54 @@
    "urls": [
     "https://www.businessinsider.com/humanoid-robotics-stocks-etfs-how-to-invest-koid-labor-manufacturing-2026-7",
     "https://www.businessinsider.com/math-ai-tools-openai-terence-tao-ucla-2026-10"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795799182.612519,
+   "title": "Meta va AMI Labs uchta tadqiqotda JEPA modellarini qo'llab-quvvatladi",
+   "text": "Yann LeCun boshchiligidagi AMI Labs startapi mashinalarga sabab-oqibat bog'liqligini tushuntiruvchi ichki dunyo modelini berishga intilmoqda. Uchta yangi tadqiqot robotlarni rejalashtirish va xatolarni tuzatishda o'sish borligini ko'rsatdi.",
+   "orig_title": "Three studies from Meta and AMI Labs back Yann LeCun's bet on JEPA world models over large language models",
+   "link": "https://the-decoder.com/three-studies-from-meta-and-ami-labs-back-yann-lecuns-bet-on-jepa-world-models-over-large-language-models/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Sun'iy intellekt bozorida katta til modellaridan tashqari real dunyoni tushunishga qaratilgan dunyo modellari yo'nalishiga investitsiyalar keskin oshishi va yangi startaplar ko'payishi mumkin.",
+   "image": "https://the-decoder.com/wp-content/uploads/2025/08/ai_story_lecun.png",
+   "domains": [
+    "the-decoder.com",
+    "businessinsider.com",
+    "techcrunch.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/three-studies-from-meta-and-ami-labs-back-yann-lecuns-bet-on-jepa-world-models-over-large-language-models/",
+    "https://www.businessinsider.com/meta-superintelligence-labs-4-job-offers-hunt-advice-strategy-2026-11",
+    "https://techcrunch.com/2026/03/09/yann-lecuns-ami-labs-raises-1-03-billion-to-build-world-models/"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795799182.612519,
+   "title": "OpenAI \"Athena\" ma'lumotlar platformasini ishlab chiqmoqda",
+   "text": "OpenAI ChatGPT Work'dagi ma'lumotlar agenti aniqligini oshirish uchun \"Athena\" kod nomi ostida semantik qatlamni yaratmoqda. Yangi vosita agentlarga biznes metrikalari uchun standart ta'riflarni beradi.",
+   "orig_title": "OpenAI is building \"Athena\" data platform to cut down on AI agent guesswork",
+   "link": "https://the-decoder.com/openai-is-building-athena-data-platform-to-cut-down-on-ai-agent-guesswork/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 7,
+   "experts": [],
+   "effect": "Sun'iy intellekt agentlarining biznes ma'lumotlari bilan ishlashdagi xatolari kamayishi va korporativ mijozlar uchun platformani almashtirish jarayoni qiyinlashishi mumkin.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/10/openai_logo-1.png",
+   "domains": [
+    "the-decoder.com",
+    "uk.finance.yahoo.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/openai-is-building-athena-data-platform-to-cut-down-on-ai-agent-guesswork/",
+    "https://uk.finance.yahoo.com/news/underappreciated-ai-beneficiary-zeta-global-164509491.html",
+    "https://finance.yahoo.com/markets/stocks/articles/securitize-corp-secz-q3-2026-145018842.html"
    ],
    "videos": []
   }
