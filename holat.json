@@ -1,17 +1,5 @@
 {
  "seen": {
-  "https://www.ewtnnews.com/vatican/from-the-virtual-to-the-sacramental-hackathon-in-rome-reimagines-parish-life-in-age-of-ai": 1794855913.0818884,
-  "https://www.jsonline.com/press-release/story/269708/flova-introduces-ai-animation-generator-that-turns-text-or-images-into-animated-video/": 1794855913.0818884,
-  "https://the-decoder.com/moonshot-ai-pivots-kimi-models-from-coding-to-science-as-benchmark-gains-flatten/": 1794855913.0818884,
-  "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/": 1794855913.0818884,
-  "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/": 1794855913.0818884,
-  "https://www.msn.com/en-us/entertainment/music/universal-music-v-suno-ii-intensifies-amid-discovery-sub-dispute/ar-AA2hz9A1": 1794855913.0818884,
-  "https://openai.com/index/the-kings-trust-and-openai": 1794855913.0818884,
-  "https://www.riotimesonline.com/afreximbank-canex-create-thon-nine-winners/": 1794884577.3722079,
-  "https://www.digitalmusicnews.com/2026/11/16/suno-bridge-daw-integrations-ableton/": 1794884577.3722079,
-  "https://the-decoder.com/openais-gpt-6-astra-tackles-the-standard-models-toughest-math-problem-on-a-lattice/": 1794884577.3722079,
-  "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit": 1794884577.3722079,
-  "https://techcrunch.com/2026/11/16/jordan-belforts-new-ai-voice-startup-tone-wants-to-sell-like-the-wolf-of-wall-street/": 1794884577.3722079,
   "https://www.uscannenbergmedia.com/2026/11/16/usc-students-build-ai-tools-for-campus-life-at-two-day-hackathon/": 1794888082.8592849,
   "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/": 1794888082.8592849,
   "https://www.theverge.com/tech/1034581/apple-intelligence-siri-ai-daily-usage-limits-icloud-subscription": 1794888082.8592849,
@@ -388,25 +376,11 @@
   "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin": 1795705556.8875809,
   "https://daryo.uz/2026/11/25/suniy-intellektdan-foydalanaman-va-u-menga-yoqadi-zelenskiy/": 1795705556.8875809,
   "https://www.techloy.com/most-realistic-ai-video-generators-in-2027/": 1795712545.9009743,
-  "https://the-decoder.com/gpt-6-2-astra-users-now-hit-limits-40-faster-after-openai-patched-a-pricing-error/": 1795716071.1635885
+  "https://the-decoder.com/gpt-6-2-astra-users-now-hit-limits-40-faster-after-openai-patched-a-pricing-error/": 1795716071.1635885,
+  "https://www.bandt.com.au/its-pushed-my-imagination-further-disrupt-ai-film-festival-winner-jamin-tasker-on-ais-impact-on-filmmaking/": 1795748749.9861858
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1795402969.9109964,
-   "title": "KAIST uses AI glasses to boost communication, learning at XR hackathon",
-   "soha": "AI tanlov"
-  },
-  {
-   "t": 1795402969.9109964,
-   "title": "Brampton hackathon asks students to use AI to fix local businesses' issues",
-   "soha": "AI tanlov"
-  },
-  {
-   "t": 1795402969.9109964,
-   "title": "How To Create And Edit Images In Gemini With Nano Banana (2026)",
-   "soha": "AI rasm"
-  },
   {
    "t": 1795413691.5492532,
    "title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
@@ -1016,6 +990,11 @@
    "t": 1795716071.1635885,
    "title": "GPT-6.2 Astra users now hit limits 40% faster after OpenAI patched a pricing error",
    "soha": "AI"
+  },
+  {
+   "t": 1795748749.9861858,
+   "title": "‘It’s Pushed My Imagination Further’ — Disrupt Film Festival Winner Jamin Tasker On AI’s Impact On Filmmaking",
+   "soha": "AI tanlov"
   }
  ],
  "mavzu": {
@@ -2904,6 +2883,47 @@
     [
      "https://x.com/thsottiaux/status/2125299248782778588",
      "X"
+    ]
+   ]
+  },
+  {
+   "t": 1795748749.9861858,
+   "title": "DISRUPT AI Film Festivalida g'olib chiqqan film",
+   "text": "Jamin Taskerning \"Everything Soft\" qisqa metrajli filmi 45 ta film orasidan saralanib, DISRUPT AI Film Festivalining Grand Prix mukofotini qo'lga kiritdi.",
+   "orig_title": "‘It’s Pushed My Imagination Further’ — Disrupt Film Festival Winner Jamin Tasker On AI’s Impact On Filmmaking",
+   "link": "https://www.bandt.com.au/its-pushed-my-imagination-further-disrupt-ai-film-festival-winner-jamin-tasker-on-ais-impact-on-filmmaking/",
+   "source": "bandt.com.au",
+   "soha": "AI tanlov",
+   "baho": 10,
+   "experts": [],
+   "effect": "Sun'iy intellekt vositalarining kinoindustriya va dasturlash jarayonlariga joriy etilishi kichik budjetli ijodkorlarga keng imkoniyatlar ochishi, dasturiy ta'minot yaratish tezligini keskin oshirishi hamda kelgusida mazkur tarmoqlarda yangi muhandislik to'siqlari va raqobat muhitini o'zgartirishi mumkin.",
+   "image": "https://www.bandt.com.au/information/uploads/2026/11/DISRUPT.jpg",
+   "domains": [
+    "bandt.com.au",
+    "businessinsider.com",
+    "yahoo.com"
+   ],
+   "urls": [
+    "https://www.bandt.com.au/its-pushed-my-imagination-further-disrupt-ai-film-festival-winner-jamin-tasker-on-ais-impact-on-filmmaking/",
+    "https://www.businessinsider.com/oracle-built-ai-rollout-came-much-later-2026-9",
+    "https://www.yahoo.com/entertainment/movies/articles/latvian-filmmaker-wins-400-000-083739969.html"
+   ],
+   "videos": [
+    [
+     "https://www.youtube.com/watch?v=8cgBkVUNBMg",
+     "YouTube"
+    ],
+    [
+     "https://www.youtube.com/watch?v=uOPMJnuKPc4",
+     "YouTube"
+    ],
+    [
+     "https://www.youtube.com/watch?v=Nz3eRKj5QdI",
+     "YouTube"
+    ],
+    [
+     "https://www.youtube.com/watch?v=eLAxaTSJetk",
+     "YouTube"
     ]
    ]
   }
