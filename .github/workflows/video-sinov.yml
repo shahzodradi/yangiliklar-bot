@@ -8,7 +8,7 @@ jobs:
       - uses: actions/checkout@v5
       - uses: actions/setup-python@v6
         with: {python-version: "3.12", cache: pip}
-      - run: pip install -r requirements.txt && sudo apt-get install -y -qq ffmpeg >/dev/null
+      - run: pip install -r requirements.txt && sudo apt-get update -qq >/dev/null && sudo apt-get install -y -qq ffmpeg >/dev/null
       - run: |
           cd instagram && python -c "
           import logging,sys,pathlib; logging.basicConfig(level=logging.INFO,format='%(message)s',stream=sys.stdout)
