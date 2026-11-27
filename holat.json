@@ -1,6 +1,5 @@
 {
  "seen": {
-  "https://musically.com/2026/11/17/tuneart-ai-music-video-maker/": 1794913920.5300534,
   "https://www.musicbusinessworldwide.com/elvis-presley-rightsholders-amend-suno-lawsuit-adding-more-than-100-allegedly-infringing-ai-tracks/": 1794916909.3477294,
   "https://www.wired.com/story/wired-yearbook-2026-clement-delangue/": 1794916909.3477294,
   "https://www.theverge.com/ai-artificial-intelligence/1034787/sam-altman-ram-shortage-semafor": 1794916909.3477294,
@@ -365,30 +364,11 @@
   "https://www.wired.com/story/a-new-breed-of-chip-runs-ai-models-using-waves-of-light/": 1795766481.5418148,
   "https://www.moneycontrol.com/technology/eloelo-group-launches-dolphin-ai-film-studio-at-iffi-2026-with-world-lock-technology-and-micro-drama-support-article-14089912.html": 1795770203.5510864,
   "https://www.telegraphindia.com/entertainment/pranav-bhasins-we-were-here-qualifies-for-99th-oscars-in-live-action-short-category/cid/2191619": 1795777367.8796756,
-  "https://en.tempo.co/read/2124548/alibaba-cloud-expands-ai-ties-with-three-indonesian-firms": 1795777367.8796756
+  "https://en.tempo.co/read/2124548/alibaba-cloud-expands-ai-ties-with-three-indonesian-firms": 1795777367.8796756,
+  "https://variety.com/2026/film/festivals/ai-horror-short-sikkal-wif-india-google-flow-filmathon-1236957898/": 1795780865.6701424
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1795432009.5032444,
-   "title": "Epic's AI MegaJam contest is being dominated by a game made entirely without AI",
-   "soha": "AI tanlov"
-  },
-  {
-   "t": 1795432009.5032444,
-   "title": "Eminem co-publisher Eight Mile Style adds 108 allegedly infringing AI tracks to $47.7m Suno lawsuit, calling Suno’s denials ‘false’",
-   "soha": "AI musiqa"
-  },
-  {
-   "t": 1795432009.5032444,
-   "title": "5 things to know about Suno’s move into AI video, the DistroKid documents, and the fight over v6",
-   "soha": "AI video"
-  },
-  {
-   "t": 1795432009.5032444,
-   "title": "SoundCloud cracks down on ‘AI slop, spam, and excessive uploads’ – weeks after striking AI deals with Moises and ElevenLabs",
-   "soha": "AI musiqa"
-  },
   {
    "t": 1795435272.246094,
    "title": "States Sue SpaceX Over Grok Deepfakes",
@@ -1018,6 +998,11 @@
    "t": 1795777367.8796756,
    "title": "Alibaba Cloud Expands AI Ties with Three Indonesian Firms",
    "soha": "AI video"
+  },
+  {
+   "t": 1795780865.6701424,
+   "title": "AI Horror Short ‘Sikkal’ Wins WIF India x Google Flow Filmathon as Director Promita Banerjee Aims to Make ‘Films With Humans’",
+   "soha": "AI tanlov"
   }
  ],
  "mavzu": {
@@ -1025,52 +1010,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1795604770.4042807,
-   "title": "Enterprise Uzbekistan Londonda huquqiy modelini taqdim etdi",
-   "text": "Enterprise Uzbekistan Londondagi biznes tadbirlarida huquqiy modeli, sun’iy intellekt uchun regulyator sinov maydonchasi va xalqaro hamkorlik imkoniyatlarini tanishtirdi.",
-   "orig_title": "Enterprise Uzbekistan Londonda huquqiy modelini taqdim etdi",
-   "link": "https://www.uzdaily.uz/uz/enterprise-uzbekistan-londonda-huquqiy-modelini-taqdim-etdi/",
-   "source": "uzdaily.uz",
-   "soha": "AI O'zbekiston",
-   "baho": 10,
-   "experts": [],
-   "effect": "Bu tashabbus Buyuk Britaniya va xalqaro kompaniyalarning O‘zbekiston bozoriga kirishini osonlashtirishi, sun’iy intellekt va autsorsing sohalarida investitsiyalar oqimini oshirishi mumkin.",
-   "image": "https://www.uzdaily.uz/media/filer_public/59/87/59875745-f64c-451f-9a4d-5efc362a29ad/enterpriseuzbekistan_20261125083119.webp",
-   "domains": [
-    "uzdaily.uz",
-    "cnbc.com"
-   ],
-   "urls": [
-    "https://www.uzdaily.uz/uz/enterprise-uzbekistan-londonda-huquqiy-modelini-taqdim-etdi/",
-    "https://www.cnbc.com/2025/06/09/uks-fca-teams-up-with-nvidia-to-let-banks-experiment-with-ai.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795604770.4042807,
-   "title": "Enterprise Uzbekistan presents legal framework in London",
-   "text": "Enterprise Uzbekistan has introduced its legal framework and AI regulatory sandbox to British and international companies at two business events in London.",
-   "orig_title": "Enterprise Uzbekistan presents legal framework in London",
-   "link": "https://www.uzdaily.uz/en/enterprise-uzbekistan-presents-legal-framework-in-london/",
-   "source": "uzdaily.uz",
-   "soha": "AI O'zbekiston",
-   "baho": 10,
-   "experts": [],
-   "effect": "Yuridik texnologiyalar bozorida raqobat kuchayishi, sun'iy intellekt xatolarini kamaytirish va yuridik firmalar uchun ma'lumotlar bazalariga kirish imkoniyatlari kengayishi ehtimoli bor.",
-   "image": "https://www.uzdaily.uz/media/filer_public/59/87/59875745-f64c-451f-9a4d-5efc362a29ad/enterpriseuzbekistan_20261125083119.webp",
-   "domains": [
-    "uzdaily.uz",
-    "finance.yahoo.com",
-    "businessinsider.com"
-   ],
-   "urls": [
-    "https://www.uzdaily.uz/en/enterprise-uzbekistan-presents-legal-framework-in-london/",
-    "https://finance.yahoo.com/quote/HPE/",
-    "https://www.businessinsider.com/legora-legal-research-duopoly-lexisnexis-westlaw-2026-9"
-   ],
-   "videos": []
-  },
   {
    "t": 1795619103.841279,
    "title": "O'zbekiston sun'iy intellektni o'qitish uchun o'zbek tili korpusini taqdim etdi",
@@ -2409,6 +2348,29 @@
    "urls": [
     "https://www.cnbc.com/2026/11/17/nvidia-nvda-earnings-report-q3-2027.html",
     "https://finance.yahoo.com/technology/articles/global-personal-computer-cards-modems-143100800.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795780865.6701424,
+   "title": "AI qo‘rqinchli filmi WIF India va Google Flow tanlovida g‘olib chiqdi",
+   "text": "Promita Banerjening 'Sikkal' nomli sun'iy intellekt yordamida yaratilgan qisqa metrajli qo'rqinchli filmi WIF India va Google Flow birinchi Filmathon tanlovida bosh mukofotni qo'lga kiritdi.",
+   "orig_title": "AI Horror Short ‘Sikkal’ Wins WIF India x Google Flow Filmathon as Director Promita Banerjee Aims to Make ‘Films With Humans’",
+   "link": "https://variety.com/2026/film/festivals/ai-horror-short-sikkal-wif-india-google-flow-filmathon-1236957898/",
+   "source": "variety.com",
+   "soha": "AI tanlov",
+   "baho": 10,
+   "experts": [],
+   "effect": "Sun'iy intellektga asoslangan vositalarning ommalashuvi yangi va kichik shaharchalardagi ijodkorlarga ham kino bozoriga kirish imkonini berishi hamda kelgusida muqobil formatdagi filmlar soni oshishiga olib kelishi mumkin.",
+   "image": "https://variety.com/wp-content/uploads/2026/11/Google-Flow-winners.jpg?w=1000&h=563&crop=1",
+   "domains": [
+    "variety.com",
+    "yahoo.com"
+   ],
+   "urls": [
+    "https://variety.com/2026/film/festivals/ai-horror-short-sikkal-wif-india-google-flow-filmathon-1236957898/",
+    "https://www.yahoo.com/entertainment/movies/articles/ai-horror-short-sikkal-wins-125227823.html",
+    "https://www.yahoo.com/entertainment/movies/articles/ai-films-kerala-andaman-islands-081412610.html"
    ],
    "videos": []
   }
