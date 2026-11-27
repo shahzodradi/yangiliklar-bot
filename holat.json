@@ -362,7 +362,8 @@
   "https://www.nur.kz/technologies/software/2461516-kazahstan-zanyal-58-mesto-v-globalnom-reytinge-gotovnosti-k-vnedreniyu-ii/": 1795755678.4438994,
   "https://24.kg/article/kyrgyzstan-provalilsya-v-rejtinge-gotovnosti-k-ii-otstav-ot-sosedej": 1795763254.7116108,
   "https://www.sherbrookerecord.com/of-artists-and-algorithms-rethinking-creativity-in-the-age-of-ai/": 1795763254.7116108,
-  "https://www.wired.com/story/a-new-breed-of-chip-runs-ai-models-using-waves-of-light/": 1795766481.5418148
+  "https://www.wired.com/story/a-new-breed-of-chip-runs-ai-models-using-waves-of-light/": 1795766481.5418148,
+  "https://www.moneycontrol.com/technology/eloelo-group-launches-dolphin-ai-film-studio-at-iffi-2026-with-world-lock-technology-and-micro-drama-support-article-14089912.html": 1795770203.5510864
  },
  "fails": 0,
  "sent": [
@@ -1005,6 +1006,11 @@
    "t": 1795766481.5418148,
    "title": "A New Breed of Chip Runs AI Models Using Waves of Light",
    "soha": "AI"
+  },
+  {
+   "t": 1795770203.5510864,
+   "title": "EloElo Group launches Dolphin AI Film Studio at IFFI 2026 with World Lock technology and micro-drama support",
+   "soha": "AI tanlov"
   }
  ],
  "mavzu": {
@@ -1012,30 +1018,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1795597352.7167559,
-   "title": "O‘zbekiston va Xitoy qishloq xo‘jaligida sun’iy intellektni muhokama qildi",
-   "text": "Toshkentda O‘zbekiston va Xitoy vakillari qishloq xo‘jaligida sun’iy intellekt va raqamli texnologiyalarni joriy etish masalalari bo‘yicha muzokaralar o‘tkazdi.",
-   "orig_title": "Uzbekistan, China Discuss AI And Digital Technology In Agriculture",
-   "link": "https://menafn.com/1112018946/Uzbekistan-China-Discuss-AI-And-Digital-Technology-In-Agriculture",
-   "source": "menafn.com",
-   "soha": "AI O'zbekiston",
-   "baho": 10,
-   "experts": [],
-   "effect": "Bu uchrashuv O'zbekiston qishloq xo'jaligiga sun'iy intellekt va raqamli texnologiyalarni joriy etish orqali sohada samaradorlikni oshirishi va Xitoy bilan amaliy hamkorlikni kengaytirishi mumkin.",
-   "image": "https://menafn.com/includes/img/logo.jpg",
-   "domains": [
-    "menafn.com",
-    "theguardian.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://menafn.com/1112018946/Uzbekistan-China-Discuss-AI-And-Digital-Technology-In-Agriculture",
-    "https://www.theguardian.com/environment/live/2026/nov/13/cop31-climate-crisis-talks-turkey-latest-news-updates",
-    "https://finance.yahoo.com/news/forced-labour-allegations-uzbekistan-silk-113031085.html"
-   ],
-   "videos": []
-  },
   {
    "t": 1795600884.5654054,
    "title": "O‘zbekistonda sog‘liqni saqlash tizimini raqamlashtirish kengaytirilmoqda",
@@ -2400,6 +2382,30 @@
      "YouTube"
     ]
    ]
+  },
+  {
+   "t": 1795770203.5510864,
+   "title": "EloElo Group Dolphin AI Film Studio'ni taqdim etdi",
+   "text": "EloElo Group Goa shahridagi IFFI 2026 festivalida ssenariydan tayyor video kontentgacha bo'lgan jarayonni ta'minlovchi Dolphin AI Film Studio platformasini taqdim etdi.",
+   "orig_title": "EloElo Group launches Dolphin AI Film Studio at IFFI 2026 with World Lock technology and micro-drama support",
+   "link": "https://www.moneycontrol.com/technology/eloelo-group-launches-dolphin-ai-film-studio-at-iffi-2026-with-world-lock-technology-and-micro-drama-support-article-14089912.html",
+   "source": "moneycontrol.com",
+   "soha": "AI tanlov",
+   "baho": 10,
+   "experts": [],
+   "effect": "Sun'iy intellektga asoslangan ushbu platformalar kinoijodkorlarga post-produksiya jarayonlarini tezlashtirish va sahna ko'rinishlarini o'zgartirishda keng imkoniyatlar yaratishi mumkin.",
+   "image": "https://images.moneycontrol.com/static-mcnews/2026/06/20260611110618_artificial-intelligence.jpg",
+   "domains": [
+    "moneycontrol.com",
+    "sports.yahoo.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://www.moneycontrol.com/technology/eloelo-group-launches-dolphin-ai-film-studio-at-iffi-2026-with-world-lock-technology-and-micro-drama-support-article-14089912.html",
+    "https://sports.yahoo.com/nba/article/nba-cup-2026-schedule-results-groups-format-and-what-to-know-for-this-years-in-season-tournament-114105794.html",
+    "https://finance.yahoo.com/technology/ai/articles/iqiyi-launches-chinas-first-ai-013900330.html"
+   ],
+   "videos": []
   }
  ]
 }
