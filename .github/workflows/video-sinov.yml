@@ -1,0 +1,17 @@
+name: video sinov (vaqtinchalik)
+on: workflow_dispatch
+jobs:
+  t:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with: {python-version: "3.12", cache: pip}
+      - run: pip install -r requirements.txt && sudo apt-get install -y -qq ffmpeg >/dev/null
+      - run: |
+          cd instagram && python -c "
+          import logging,sys,pathlib; logging.basicConfig(level=logging.INFO,format='%(message)s',stream=sys.stdout)
+          import video
+          x={'title':'Nvidia','orig_title':'Nvidia halts server shipments to Malaysia, Singapore, Thailand, and Indonesia','link':'https://example.com','videos':[['https://www.youtube.com/watch?v=W1buDF2jVOQ','YouTube']]}
+          print(video.find_clips(x,set(),pathlib.Path('.'),'t',n=1))"
