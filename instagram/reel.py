@@ -255,8 +255,15 @@ MOVES = ("in", "out", "left", "right")
 XFADES = ("slideleft", "smoothup", "circleopen", "zoomin", "wipeleft", "radial", "slideup", "fadeblack")
 
 
+VIDEO_EXT = (".mp4", ".webm", ".mkv", ".mov")
+
+
 def clip_filter(idx, path, logo, frames, move):
-    """Bitta rasm -> 1080xPH harakatli klip (zoompan): yaqinlashish/uzoqlashish/chapga/o'ngga surilish."""
+    """Bitta rasm -> 1080xPH harakatli klip (zoompan): yaqinlashish/uzoqlashish/chapga/o'ngga surilish.
+    Video parcha bo'lsa: kadrni to'ldirib kesiladi, kerakli uzunlikka qisqartiriladi (ovozi ishlatilmaydi)."""
+    if pathlib.Path(path).suffix.lower() in VIDEO_EXT:
+        return (f"[{idx}:v]scale={W}:{PH}:force_original_aspect_ratio=increase,crop={W}:{PH},setsar=1,fps=30,"
+                f"trim=end_frame={frames},setpts=PTS-STARTPTS,format=yuv420p[c{idx}]")
     fit = (f"scale=-1:{PH - 300},pad={W}:{PH}:(ow-iw)/2:(oh-ih)/2:color=0x1a0000" if logo
            else f"scale={W}:{PH}:force_original_aspect_ratio=increase,crop={W}:{PH}")
     z, x = {"in": (f"1+0.16*on/{frames}", "iw/2-(iw/zoom/2)"),
@@ -328,7 +335,7 @@ def make_reel(name, photos, h1_html, narration, hook="", fs=None, segments=None,
     parts, inputs = [], []
     for i, ph in enumerate(photos):
         length = bounds[i + 1] - bounds[i] + T
-        inputs += ["-i", str(ph)]
+        inputs += (["-stream_loop", "-1"] if ph.suffix.lower() in VIDEO_EXT else []) + ["-i", str(ph)]
         parts.append(clip_filter(i, ph, logo, math.ceil(length * 30) + 2, moves[i % len(moves)]))
     prev = "c0"
     for i in range(1, k):  # rasmlar orasida turli o'tish effektlari

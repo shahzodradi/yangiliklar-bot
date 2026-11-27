@@ -443,7 +443,15 @@ def har():
         title = re.sub(r"\*", "", pick["sarlavha"]).strip()
         tease = uz(pick.get("qiziqtir", "")).strip() or title  # qisqa: qiziqtiradi, tafsilot izohda
         narration = f"{OBUNA} {tease.rstrip('.!')}. Batafsil izohda oʻqing."
-        mp4 = reel.make_reel(f"{stamp}_{i}_reel", photo, headline_html(pick["sarlavha"]), narration,
+        # Videosi bor voqea: haqiqiy video parchalar birinchi, keyin rasmlar (foydalanuvchi 2026-11-27)
+        clips = []
+        try:
+            import video
+            clips = video.find_clips(item, set(state.get("video_used", [])), IMG_DIR, f"{stamp}_{i}", n=2)
+        except Exception as e:
+            log.warning("Video qidiruv xato: %s", str(e)[:150])
+        media = ([c[0] for c in clips] + list(photo or []))[:3] or None
+        mp4 = reel.make_reel(f"{stamp}_{i}_reel", media, headline_html(pick["sarlavha"]), narration,
                              hook=uz(pick.get("hook", "")).strip(" .!") + "!" if pick.get("hook") else "",
                              eleven=True)
         log.info("Reel: %s -> %s", title, mp4)
@@ -451,9 +459,13 @@ def har():
         if detail:  # izohda yangilik batafsil (foydalanuvchi 2026-11-26)
             m = re.search(r"\nRasm: (.+)", caption)
             caption = build_caption(item, pick, m.group(1) if m else None, detail)
+        if clips:  # video muallifi izohda
+            vc = ", ".join(dict.fromkeys(c[2] for c in clips))
+            caption = caption.replace("\n\n#", f"\nVideo: {vc}\n\n#", 1)
         if dry:
             print(f"\n=== BATAFSIL IZOH\n{caption}\n")
         if mp4 and not dry and ig.publish_reel(token, chat, mp4, caption):
+            state["video_used"] = (state.get("video_used", []) + [c[1] for c in clips])[-500:]
             reels.append(time.time())
             posted.append(time.time())
             save()
