@@ -1,15 +1,5 @@
 {
  "seen": {
-  "https://www.theverge.com/tech/1035027/tech-leaders-nvidia-jensen-huang-theories": 1794895552.3226838,
-  "https://www.wired.com/story/the-big-interview-podcast-lauren-goode-jensen-huang/": 1794895552.3226838,
-  "https://openai.com/index/science-at-the-frontier": 1794895552.3226838,
-  "https://openai.com/index/our-first-phase-of-embedded-assessments": 1794895552.3226838,
-  "https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm/": 1794895552.3226838,
-  "https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont/": 1794898979.8938375,
-  "https://techcrunch.com/2026/11/16/trump-says-ex-nvidia-ceo-jensen-huangs-affair-with-an-alleged-chinese-spy-did-not-threaten-national-security/": 1794898979.8938375,
-  "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/": 1794898979.8938375,
-  "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/": 1794898979.8938375,
-  "https://techcrunch.com/2026/11/16/audible-turns-to-ai-to-help-users-discover-audiobooks/": 1794898979.8938375,
   "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai": 1794902470.3692682,
   "https://www.technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise/": 1794902470.3692682,
   "https://www.wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess/": 1794902470.3692682,
@@ -372,15 +362,12 @@
   "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/": 1795752061.496464,
   "https://daryo.uz/2026/11/26/hassa-tutsam-odamlar-yordam-bermay-qoyadi-suniy-intellekt-komagida-mustaqil-yashayotgan-kozi-ojiz-er-xotin-hikoyasi/": 1795755678.4438994,
   "https://the-decoder.com/former-openai-researcher-says-the-riemann-proof-matters-less-than-the-fact-that-an-ai-system-can-produce-it/": 1795755678.4438994,
-  "https://www.nur.kz/technologies/software/2461516-kazahstan-zanyal-58-mesto-v-globalnom-reytinge-gotovnosti-k-vnedreniyu-ii/": 1795755678.4438994
+  "https://www.nur.kz/technologies/software/2461516-kazahstan-zanyal-58-mesto-v-globalnom-reytinge-gotovnosti-k-vnedreniyu-ii/": 1795755678.4438994,
+  "https://24.kg/article/kyrgyzstan-provalilsya-v-rejtinge-gotovnosti-k-ii-otstav-ot-sosedej": 1795763254.7116108,
+  "https://www.sherbrookerecord.com/of-artists-and-algorithms-rethinking-creativity-in-the-age-of-ai/": 1795763254.7116108
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1795413691.5492532,
-   "title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
-   "soha": "AI"
-  },
   {
    "t": 1795420870.630156,
    "title": "Elo Elo Group launches Dolphin AI Film Studio at IFFI 2026",
@@ -1010,6 +997,16 @@
    "t": 1795755678.4438994,
    "title": "Казахстан занял 58 место в глобальном рейтинге готовности к внедрению ИИ",
    "soha": "AI"
+  },
+  {
+   "t": 1795763254.7116108,
+   "title": "Кыргызстан занял 119-е место в рейтинге готовности к ИИ, отстав от соседей",
+   "soha": "AI O'zbekiston"
+  },
+  {
+   "t": 1795763254.7116108,
+   "title": "Of artists and algorithms: Rethinking creativity in the age of AI",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -1017,211 +1014,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1795586473.6054168,
-   "title": "O‘zbekistonda sun’iy intellekt hisoblash quvvatlari kengaytiriladi",
-   "text": "O‘zbekistonda 2027-yilda 7 eksoflopdan ortiq quvvatga ega hisoblash klasterini ishga tushirish va sun’iy intellekt loyihalarini ko‘paytirish rejalashtirilmoqda.",
-   "orig_title": "Узбекистан расширит вычислительные мощности для развития ИИ",
-   "link": "https://www.uzdaily.uz/ru/uzbekistan-rasshirit-vychislitelnye-moshchnosti-dlia-razvitiia-ii/",
-   "source": "uzdaily.uz",
-   "soha": "AI O'zbekiston",
-   "baho": 10,
-   "experts": [],
-   "effect": "Sun'iy intellekt texnologiyalarining jadal rivojlanishi va hisoblash quvvatlarining oshishi energiya iste'moli va elektr tarmoqlariga yuklamani keskin ko'paytirishi mumkin. Shuningdek, sun'iy intellektning ta'lim va boshqa sohalarga chuqur kirib borishi yosh mutaxassislarning dastlabki ishga joylashishi va daromadlariga ta'sir ko'rsatishi ehtimoli bor.",
-   "image": "https://www.uzdaily.uz/media/filer_public/1e/5b/1e5b5c98-9640-4da9-8a9f-a768097d5388/shermatovoliymajlis2411_20261124143815.webp",
-   "domains": [
-    "uzdaily.uz",
-    "businessinsider.com"
-   ],
-   "urls": [
-    "https://www.uzdaily.uz/ru/uzbekistan-rasshirit-vychislitelnye-moshchnosti-dlia-razvitiia-ii/",
-    "https://www.businessinsider.com/cheaper-ai-models-may-strain-power-grid-consulting-firms-say-2026-10",
-    "https://www.businessinsider.com/college-majors-safest-from-ai-ranked"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795586473.6054168,
-   "title": "Tidal sun’iy intellekt yordamida yaratilgan musiqalarni taqiqladi",
-   "text": "Tidal striming platformasi 9-dekabrdan boshlab sun’iy intellekt tomonidan to‘liq yaratilgan musiqalarni o‘z platformasidan butunlay olib tashlashini e’lon qildi.",
-   "orig_title": "Tidal Becomes First Streaming Service to Ban AI Music From Its Platform",
-   "link": "https://www.billboard.com/pro/tidal-bans-ai-music-from-platform/",
-   "source": "billboard.com",
-   "soha": "AI musiqa",
-   "baho": 9,
-   "experts": [],
-   "effect": "Sun'iy intellekt yordamida yaratilgan musiqalarning taqiqlanishi boshqa striming xizmatlarini ham shunday qadam tashlashga undashi mumkin. Bu esa mualliflik huquqlarini himoya qilish va daromadlarni ishlashayotgan san'atkorlarga adolatli taqsimlashda muhim o'zgarishlarga olib kelishi mumkin.",
-   "image": "https://www.billboard.com/wp-content/uploads/2024/03/tidal-logo-phone-billboard-1548.jpg?w=1024",
-   "domains": [
-    "billboard.com",
-    "yahoo.com"
-   ],
-   "urls": [
-    "https://www.billboard.com/pro/tidal-bans-ai-music-from-platform/",
-    "https://www.yahoo.com/entertainment/music/articles/tidal-first-streaming-platform-ban-165814933.html",
-    "https://www.yahoo.com/entertainment/music/articles/tidal-first-streaming-ban-ai-212028866.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795586473.6054168,
-   "title": "Germaniyalik tadqiqotchilar informatika fanini qayta nomlashni taklif qilmoqda",
-   "text": "TU Darmstadt tadqiqotchilari dasturlash jarayonida sun'iy intellektning o'rni oshgani sababli informatika fanini \"Kompyuter va sun'iy intellekt fani\" deb qayta nomlashni so'ramoqda.",
-   "orig_title": "German researchers call for computer science to reinvent itself as \"Computer and AI Science\"",
-   "link": "https://the-decoder.com/german-researchers-call-for-computer-science-to-reinvent-itself-as-computer-and-ai-science/",
-   "source": "The Decoder",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Generativ sun'iy intellekt va avtomatlashtirilgan agentlarning rivojlanishi dasturiy ta'minot yaratish jarayonini tezlashtirib, uni kichik korxonalar uchun ham hamyonbop qilishi mumkin. Biroq bu holat kiberxavfsizlik va dinamik tizimlarni boshqarishda yangi xavf-xatarlarni keltirib chiqarishi ehtimoli bor.",
-   "image": "https://the-decoder.com/wp-content/uploads/2026/11/darmstadt_ai_computer_science.png",
-   "domains": [
-    "the-decoder.com",
-    "yahoo.com",
-    "tech.yahoo.com"
-   ],
-   "urls": [
-    "https://the-decoder.com/german-researchers-call-for-computer-science-to-reinvent-itself-as-computer-and-ai-science/",
-    "https://www.yahoo.com/news/science/articles/claude-may-solved-167-math-125338616.html",
-    "https://tech.yahoo.com/ai/articles/ai-becoming-feral-152725575.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795586473.6054168,
-   "title": "Maple ma'lumotlarni himoya qiluvchi sun'iy intellekt arxitekturasini yaratdi",
-   "text": "Maple startapi foydalanuvchilarning shaxsiy ma'lumotlarini hatto kompaniyaning o'zidan ham himoya qiluvchi shifrlangan sun'iy intellekt arxitekturasini taqdim etdi.",
-   "orig_title": "Maple raises $5.3M to build AI products that protect your data, even from itself",
-   "link": "https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/",
-   "source": "TechCrunch AI",
-   "soha": "AI",
-   "baho": 7,
-   "experts": [],
-   "effect": "Foydalanuvchilar maxfiyligini qat'iy himoya qiluvchi va shifrlangan sun'iy intellekt ilovalarining rivojlanishi bozor raqobatini kuchaytirib, boshqa texnologiya kompaniyalarini ham ma'lumotlar xavfsizligiga e'tiborni oshirishga majbur qilishi mumkin. Shu bilan birga, avtonom agentlarning internetdagi faolligi ba'zi texnik cheklovlar va himoya qatlamlarini chetlab o'tish holatlarini ko'paytirishi ehtimoli bor.",
-   "image": "https://techcrunch.com/wp-content/uploads/2026/11/01-maple-hero-chargebacks-photo-16x9-1.png?resize=1200,675",
-   "domains": [
-    "techcrunch.com",
-    "theguardian.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/",
-    "https://www.theguardian.com/technology/2026/oct/26/anthropics-claude-ai-model-accessed-georgia-voter-data-in-us",
-    "https://finance.yahoo.com/quote/AIQ/"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795590149.5808012,
-   "title": "The Binding of Isaac Rebirth o'yindan AI musiqani olib tashladi",
-   "text": "O'yinchilar Suno orqali yaratilgan treklar qo'shilganini aniqlagach, The Binding of Isaac Rebirth o'yinidan AI musiqa olib tashlandi.",
-   "orig_title": "The Binding of Isaac Rebirth removes AI music after players expose Suno-generated tracks",
-   "link": "https://www.msn.com/en-us/entertainment/music/the-binding-of-isaac-rebirth-removes-ai-music-after-players-expose-suno-generated-tracks/ar-AA2i7Moq",
-   "source": "msn.com",
-   "soha": "AI musiqa",
-   "baho": 9,
-   "experts": [],
-   "effect": "O'yinlarga sun'iy intellekt yordamida yaratilgan kontentni bildirmasdan qo'shish iste'molchilarning qattiq noroziligiga, platformalarda past reytinglar va pulni qaytarib berish talablariga sabab bo'lishi mumkin.",
-   "image": null,
-   "domains": [
-    "tech.yahoo.com"
-   ],
-   "urls": [
-    "https://tech.yahoo.com/gaming/articles/binding-isaac-dev-removes-undisclosed-234206711.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795590149.5808012,
-   "title": "OpenAI GPT-5.6 modelini nafaqaga chiqarish sanasini e'lon qildi",
-   "text": "OpenAI GPT-6.2 tarqatilishi davomida GPT-5.6 modelini yopishini tasdiqladi, foydalanuvchilar esa yangi versiyadan noroziligini bildirishdi.",
-   "orig_title": "ChatGPT-5.6 fans mourn model’s demise as OpenAI confirms retirement date",
-   "link": "https://www.msn.com/en-us/technology/artificial-intelligence/chatgpt-5-6-fans-mourn-model-s-demise-as-openai-confirms-retirement-date/ar-AA2i8KIQ",
-   "source": "msn.com",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Mashhur sun'iy intellekt modellarining yopilishi foydalanuvchilarning obunalarini bekor qilishiga va muayyan tadqiqotlar uchun imkoniyatlar qisqarishiga olib kelishi mumkin.",
-   "image": null,
-   "domains": [
-    "tech.yahoo.com"
-   ],
-   "urls": [
-    "https://tech.yahoo.com/ai/chatgpt/articles/openai-sets-retirement-date-gpt-125859089.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795590149.5808012,
-   "title": "Meta Muse AI yordamchisini Instagram DM ga qo'shdi",
-   "text": "Meta foydalanuvchilarga ilovalar o'rtasida o'tirmasdan to'g'ridan-to'g'ri Instagram xabarlarida Muse AI agenti bilan muloqot qilish imkonini berdi.",
-   "orig_title": "Meta brings its Muse AI assistant directly into Instagram DMs",
-   "link": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
-   "source": "TechCrunch AI",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Sun'iy intellekt yordamida obunani bekor qilganlarni kuzatish funksiyasi platformada foydalanuvchilar o'rtasida salbiy his-tuyg'ular va tushunmovchiliklarni keltirib chiqarishi mumkin edi.",
-   "image": "https://techcrunch.com/wp-content/uploads/2025/11/MuseCharm.png?w=1200",
-   "domains": [
-    "techcrunch.com",
-    "businessinsider.com"
-   ],
-   "urls": [
-    "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
-    "https://www.businessinsider.com/muse-ad-instagram-see-who-unfollowed-you-2026-10"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795590149.5808012,
-   "title": "Astra yordamida yangi ekzoplanetalar qidirilmoqda",
-   "text": "Ikki havaskor astronom NASA kosmik teleskoplarining ochiq ma'lumotlaridan foydalanib potentsial ekzoplanetalarni topishdi.",
-   "orig_title": "Searching for distant planets with Astra",
-   "link": "https://openai.com/index/searching-for-distant-planets-with-astra",
-   "source": "OpenAI",
-   "soha": "AI",
-   "baho": 7,
-   "experts": [],
-   "effect": "Sun'iy intellekt vositalarining kosmik ma'lumotlarni tahlil qilishda ishlatilishi yangi eksayyorikalarni topish jarayonini tezlashtirishi va havaskor tadqiqotchilarga ham katta imkoniyatlar ochishi mumkin.",
-   "image": "https://images.ctfassets.net/kftzwdyauwt9/318YLaAKlMKQFzOdMutjeX/8b6e4e516fd1a7894c97318838f43a0f/searching-for-distant-planets-with-astra-social.png?w=1600&h=900&fit=fill",
-   "domains": [
-    "openai.com",
-    "theguardian.com"
-   ],
-   "urls": [
-    "https://openai.com/index/searching-for-distant-planets-with-astra",
-    "https://www.theguardian.com/technology/2026/oct/14/openai-london-staff-earnings-2million-per-person"
-   ],
-   "videos": [
-    [
-     "https://vimeo.com/1248489014",
-     "Vimeo"
-    ]
-   ]
-  },
-  {
-   "t": 1795590149.5808012,
-   "title": "Hakerlar AQSH razvedka idoralariga kirdi",
-   "text": "Kiberhujumlar xitoylik muhandis yaratgan Artex nomli sun'iy intellekt vositasi yordamida amalga oshirilgani taxmin qilinmoqda.",
-   "orig_title": "Hakerlar AQSH razvedka idoralarining tizimiga buzib kirdi — NYT",
-   "link": "https://daryo.uz/2026/11/25/hakerlar-aqsh-razvedka-idoralarining-tizimiga-buzib-kirdi-nyt/",
-   "source": "daryo.uz",
-   "soha": "AI",
-   "baho": 6,
-   "experts": [],
-   "effect": "Sun'iy intellektga asoslangan kiberhujum vositalarining rivojlanishi davlat idoralari va yirik kompaniyalar xavfsizligiga jiddiy tahdid solib, kiberxurujlar tezligi va ko'lamini keskin oshirishi mumkin.",
-   "image": "https://gocdn.daryo.uz/large/2026/11/25/1a6db048e4c2b319e6044c248532693f566787ec0ccef517bba077be6bec03cf.webp",
-   "domains": [
-    "daryo.uz",
-    "yahoo.com"
-   ],
-   "urls": [
-    "https://daryo.uz/2026/11/25/hakerlar-aqsh-razvedka-idoralarining-tizimiga-buzib-kirdi-nyt/",
-    "https://www.yahoo.com/news/us/articles/artex-know-fbis-recent-ai-225858088.html"
-   ],
-   "videos": []
-  },
   {
    "t": 1795593666.195283,
    "title": "ChatGPT GPT-6.2 yangilanishini oldi",
@@ -2582,6 +2374,54 @@
     "https://www.nur.kz/technologies/software/2461516-kazahstan-zanyal-58-mesto-v-globalnom-reytinge-gotovnosti-k-vnedreniyu-ii/",
     "https://www.businessinsider.com/chinese-ai-models-rankings-artificial-analysis-private-tests-anthropic-openai-2026-11",
     "https://finance.yahoo.com/quote/FRHC/"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795763254.7116108,
+   "title": "Qirg‘iziston AI tayyorgarligi reytingida O‘zbekistondan ortda qoldi",
+   "text": "Sun’iy intellektni joriy etishga tayyorgarlik bo‘yicha global indeksda Qirg‘iziston 119-o‘rinni egallab, O‘zbekiston va Qozog‘istondan ortda qolgani ma’lum qilindi.",
+   "orig_title": "Кыргызстан занял 119-е место в рейтинге готовности к ИИ, отстав от соседей",
+   "link": "https://24.kg/article/kyrgyzstan-provalilsya-v-rejtinge-gotovnosti-k-ii-otstav-ot-sosedej",
+   "source": "24.kg",
+   "soha": "AI O'zbekiston",
+   "baho": 7,
+   "experts": [],
+   "effect": "Kompaniyalar va davlatlar o'rtasida sun'iy intellekt texnologiyalarini joriy etish bo'yicha raqobat yanada kuchayishi hamda bozor yetakchilari o'zgarishi mumkin.",
+   "image": "https://24kgr2.bemint.pro/assets/1787907821671-665001be-73c8-404a-8cb5-4d0075a6fcd6-ii8jpg-optimized.webp",
+   "domains": [
+    "24.kg",
+    "businessinsider.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://24.kg/article/kyrgyzstan-provalilsya-v-rejtinge-gotovnosti-k-ii-otstav-ot-sosedej",
+    "https://www.businessinsider.com/anthropic-tops-openai-business-ai-adoption-ramp-index-2026-5",
+    "https://finance.yahoo.com/quote/VFIAX/performance/"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795763254.7116108,
+   "title": "San’atkorlar AI kompaniyalarini mualliflik huquqini buzishda ayblamoqda",
+   "text": "Townships Book Fest ochilishida san’atkorlar yirik texnologik korporatsiyalarni intellektual mulk o‘g‘irligida va ijodiy mehnatdan noqonuniy foydalanishda aybladi.",
+   "orig_title": "Of artists and algorithms: Rethinking creativity in the age of AI",
+   "link": "https://www.sherbrookerecord.com/of-artists-and-algorithms-rethinking-creativity-in-the-age-of-ai/",
+   "source": "sherbrookerecord.com",
+   "soha": "AI",
+   "baho": 5,
+   "experts": [],
+   "effect": "Mualliflik huquqi va litsenziyalar bo'yicha sud da'volari ko'payishi hamda generativ sun'iy intellekt vositalarini tartibga solish qoidalari o'zgarishi ehtimoli bor.",
+   "image": "https://www.sherbrookerecord.com/wp-content/uploads/sites/46/2026/11/AI-1-scaled.jpg",
+   "domains": [
+    "sherbrookerecord.com",
+    "theguardian.com",
+    "wired.com"
+   ],
+   "urls": [
+    "https://www.sherbrookerecord.com/of-artists-and-algorithms-rethinking-creativity-in-the-age-of-ai/",
+    "https://www.theguardian.com/books/ng-interactive/2026/nov/14/its-like-the-wild-west-how-ai-has-rocked-the-literary-world",
+    "https://www.wired.com/story/this-copyright-lawsuit-could-shape-the-future-of-generative-ai/"
    ],
    "videos": []
   }
