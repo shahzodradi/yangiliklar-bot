@@ -1,9 +1,5 @@
 {
  "seen": {
-  "https://the-decoder.com/ai-agents-are-starting-to-fill-out-medical-forms-and-file-insurance-requests-in-place-of-human-staff/": 1794938627.3183923,
-  "https://the-decoder.com/the-us-wants-to-block-china-from-renting-ai-power-abroad-but-china-already-built-a-parallel-supply-chain-from-us-ai-output/": 1794938627.3183923,
-  "https://the-decoder.com/isomorphic-labs-raises-5-billion-in-its-second-mega-round-within-six-months/": 1794938627.3183923,
-  "https://thenextweb.com/news/suno-visuals-ai-video-lyric-videos-album-art": 1794938627.3183923,
   "https://www.theverge.com/tech/1035756/google-spark-ai-tasks-free": 1794942420.6631453,
   "https://about.fb.com/news/2026/11/muse-is-now-available-in-australia/": 1794942420.6631453,
   "https://openai.com/index/introducing-gpt-6-2-astra-sol": 1794942420.6631453,
@@ -359,35 +355,12 @@
   "https://the-decoder.com/rockstars-ai-dilemma-can-gta-6s-staggered-release-model-survive-coding-agents/": 1795795306.0116005,
   "https://www.eweek.com/news/openai-gpt-6-2-astra-humanoid-robotics-benchmark/": 1795795306.0116005,
   "https://the-decoder.com/three-studies-from-meta-and-ami-labs-back-yann-lecuns-bet-on-jepa-world-models-over-large-language-models/": 1795799182.612519,
-  "https://the-decoder.com/openai-is-building-athena-data-platform-to-cut-down-on-ai-agent-guesswork/": 1795799182.612519
+  "https://the-decoder.com/openai-is-building-athena-data-platform-to-cut-down-on-ai-agent-guesswork/": 1795799182.612519,
+  "https://www.uzdaily.uz/en/eurasian-development-bank-to-support-uzbekistan-ai-cluster/": 1795806184.9444363,
+  "https://en.softonic.com/articles/adobe-firefly-black-friday-2026-which-paid-plan-fits-your-workflow-up-to-60-off-through-dec-6": 1795806184.9444363
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1795456990.5738983,
-   "title": "Amazon snaps up Decart’s AI optimization tech for $7.5B as it prepares to sell Trainium chips",
-   "soha": "AI"
-  },
-  {
-   "t": 1795456990.5738983,
-   "title": "Jensen Huang Is Back as Nvidia CEO",
-   "soha": "AI"
-  },
-  {
-   "t": 1795456990.5738983,
-   "title": "Z.ai follows OpenAI into loop transformer territory with its new 750B flagship model",
-   "soha": "AI"
-  },
-  {
-   "t": 1795456990.5738983,
-   "title": "GPT-6.2 Astra solved a math theorem no other AI could crack, then invented its own proof strategy",
-   "soha": "AI"
-  },
-  {
-   "t": 1795456990.5738983,
-   "title": "Sierra doubles valuation to $30B within six months as demand for AI in CX takes off",
-   "soha": "AI"
-  },
   {
    "t": 1795460602.959582,
    "title": "Jensen Huang isn’t out of the woods yet",
@@ -1017,6 +990,16 @@
    "t": 1795799182.612519,
    "title": "OpenAI is building \"Athena\" data platform to cut down on AI agent guesswork",
    "soha": "AI"
+  },
+  {
+   "t": 1795806184.9444363,
+   "title": "Eurasian Development Bank to support Uzbekistan AI cluster",
+   "soha": "AI O'zbekiston"
+  },
+  {
+   "t": 1795806184.9444363,
+   "title": "Adobe Firefly Black Friday 2026: Which Paid Plan Fits Your Workflow? Up to 60% Off Through Dec. 6",
+   "soha": "AI rasm"
   }
  ],
  "mavzu": {
@@ -1024,129 +1007,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1795633381.3085434,
-   "title": "O‘zbekiston sun’iy intellekt infratuzilmasiga 70 million dollar yo‘naltiradi",
-   "text": "O‘zbekiston 2027-yilda sun’iy intellekt hisoblash infratuzilmasini kengaytirish uchun yana 70 million dollar ajratishni rejalashtirmoqda. Bu haqda raqamli texnologiyalar vaziri deputatlarga ma'lum qildi.",
-   "orig_title": "Чипы Nvidia, «зелёные» дата-центры и этика ИИ. О чём глава Минцифры рассказал депутатам",
-   "link": "https://www.gazeta.uz/ru/2026/11/25/ai-shermatov-uzbekistan/",
-   "source": "gazeta.uz",
-   "soha": "AI O'zbekiston",
-   "baho": 10,
-   "experts": [],
-   "effect": "Hisoblash quvvatlarining bosqichma-bosqich kengaytirilishi va yirik ma'lumotlar markazlarining qurilishi sun'iy intellekt loyihalarini amalga oshirishni tezlashtirishi mumkin. Yashil energiyaga asoslangan infratuzilmaning rivojlanishi esa energiya samaradorligini oshirishi ehtimoli bor.",
-   "image": "https://www.gazeta.uz/media/img/2026/11/tjhdbpo89i1qe0LYceL17956214023196_211700_og.webp?r=1795621581",
-   "domains": [
-    "gazeta.uz",
-    "businessinsider.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://www.gazeta.uz/ru/2026/11/25/ai-shermatov-uzbekistan/",
-    "https://www.businessinsider.com/college-majors-safest-from-ai-ranked",
-    "https://finance.yahoo.com/quote/TCAI/holdings/"
-   ],
-   "videos": [
-    [
-     "https://www.youtube.com/watch?v=BwKGPlBhqrg",
-     "YouTube"
-    ]
-   ]
-  },
-  {
-   "t": 1795633381.3085434,
-   "title": "The Chicks va Willie Colón Suno kompaniyasiga qarshi sud da’vosiga qo‘shildi",
-   "text": "Taniqli san’atkorlar Suno sun’iy intellekt qo‘shiq generatorini o‘z shaxsiyatini ruxsatsiz o‘zlashtirganlikda ayblab, mualliflik huquqi bo‘yicha sud da’vosiga rasman qo‘shilishdi.",
-   "orig_title": "The Chicks & Willie Colón Join AI Music Lawsuit Against Suno: ‘Misappropriated Identities’",
-   "link": "https://www.billboard.com/pro/the-chicks-willie-colon-join-ai-music-lawsuit-against-suno/",
-   "source": "billboard.com",
-   "soha": "AI musiqa",
-   "baho": 10,
-   "experts": [],
-   "effect": "Litsenziyalangan sun'iy intellekt modellarining joriy etilishi musiqa sanoatida huquqiy muammolarni kamaytirishi va yangi daromad manbalarini ochishi mumkin. Bu kabi kelishuvlar ijodkorlar va texnologiya kompaniyalari o'rtasidagi hamkorlikni kuchaytirish ehtimoli bor.",
-   "image": "https://www.billboard.com/wp-content/uploads/2026/09/P1071SQD-e1790825148246.jpg?w=1024",
-   "domains": [
-    "billboard.com",
-    "theguardian.com",
-    "yahoo.com"
-   ],
-   "urls": [
-    "https://www.billboard.com/pro/the-chicks-willie-colon-join-ai-music-lawsuit-against-suno/",
-    "https://www.theguardian.com/us-news/ng-interactive/2026/nov/09/black-women-girls-los-angeles-homicides-violence",
-    "https://www.yahoo.com/entertainment/music/articles/ai-music-heavyweight-suno-partners-211119263.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795633381.3085434,
-   "title": "OpenAI maxfiy ma’lumotlar bilan ishlaydigan Private Inference funksiyasini sinovdan o‘tkazmoqda",
-   "text": "OpenAI kompaniyalarga o‘zining eng kuchli modellarida ma’lumotlarni ko‘rish imkoniyatini bermasdan turib so‘rovlar yuborish imkonini beruvchi yangi xususiyatni sinovdan o‘tkazmoqda.",
-   "orig_title": "OpenAI wants companies to trust it with sensitive work by promising not to look at their data",
-   "link": "https://the-decoder.com/openai-wants-companies-to-trust-it-with-sensitive-work-by-promising-not-to-look-at-their-data/",
-   "source": "The Decoder",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Maxfiylik va xavfsizlik funksiyalarining joriy etilishi korporativ mijozlarning sun'iy intellekt texnologiyalariga bo'lgan ishonchini oshirishi mumkin. Bu esa nozik ma'lumotlar bilan ishlaydigan tashkilotlar o'rtasida sun'iy intellekt yechimlarini ommalashtirish ehtimoli bor.",
-   "image": "https://the-decoder.com/wp-content/uploads/2026/10/openai_logo-1.png",
-   "domains": [
-    "the-decoder.com",
-    "theverge.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://the-decoder.com/openai-wants-companies-to-trust-it-with-sensitive-work-by-promising-not-to-look-at-their-data/",
-    "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
-    "https://finance.yahoo.com/video/nvidias-competitors-pounce-and-what-gpu-rental-prices-say-about-the-ai-race-221551379.html"
-   ],
-   "videos": [
-    [
-     "https://x.com/sama/status/2125638790593274259",
-     "X"
-    ],
-    [
-     "https://x.com/shekar4x/status/2125646811255726180",
-     "X"
-    ]
-   ]
-  },
-  {
-   "t": 1795633381.3085434,
-   "title": "Nothing kompaniyasi suhbatlarni yozib oluvchi Ear Note sun’iy intellekt quloqchinlarini taqdim etdi",
-   "text": "Nothing mikrofon bilan jihozlangan quvvatlash qutisi qo‘ng‘iroqlarni yozib olish, transkripsiya qilish va suhbatlarni umumlashtirish imkonini beruvchi Ear Note quloqchinlarini namoyish etdi.",
-   "orig_title": "Nothing offers a full look at its AI earbuds and charging case",
-   "link": "https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal",
-   "source": "The Verge AI",
-   "soha": "AI",
-   "baho": 9,
-   "experts": [],
-   "effect": "Qo'ng'iroqlar va suhbatlarni yozib olish imkoniyatiga ega yangi turdagi quloqchinlarning bozorga chiqarilishi foydalanuvchilar uchun kundalik muloqotni qayd etishni osonlashtirishi mumkin. Biroq maxfiylik va ovozni yozib olish masalalari iste'molchilar o'rtasida muhokamalarga sabab bo'lishi ehtimoli bor.",
-   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/ear-note-nothing.jpeg?quality=90&strip=all&crop=0,23.821989528796,100,52.356020942408",
-   "domains": [
-    "theverge.com",
-    "tech.yahoo.com",
-    "yahoo.com"
-   ],
-   "urls": [
-    "https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal",
-    "https://tech.yahoo.com/wearables/articles/nothing-ai-earbuds-serve-one-224522897.html",
-    "https://www.yahoo.com/lifestyle/articles/ai-earbuds-t-replace-value-150108900.html"
-   ],
-   "videos": [
-    [
-     "https://www.youtube.com/watch?v=lpEWy4Ipy44",
-     "YouTube"
-    ],
-    [
-     "https://x.com/nothing/status/2125590327189021093",
-     "X"
-    ],
-    [
-     "https://x.com/getpeid/status/2125596507307180044",
-     "X"
-    ]
-   ]
-  },
   {
    "t": 1795662341.2942443,
    "title": "Dolphin AI Film Studio taqdim etildi",
@@ -2428,6 +2288,59 @@
     "https://the-decoder.com/openai-is-building-athena-data-platform-to-cut-down-on-ai-agent-guesswork/",
     "https://uk.finance.yahoo.com/news/underappreciated-ai-beneficiary-zeta-global-164509491.html",
     "https://finance.yahoo.com/markets/stocks/articles/securitize-corp-secz-q3-2026-145018842.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795806184.9444363,
+   "title": "Yevroosiyo taraqqiyot banki O‘zbekiston sun’iy intellekt klasterini qo‘llab-quvvatlaydi",
+   "text": "Yevroosiyo taraqqiyot banki O‘zbekiston Investitsiyalar, sanoat va savdo vazirligi huzurida sun’iy intellekt klasterini tashkil etish uchun texnik yordam ko‘rsatadi.",
+   "orig_title": "Eurasian Development Bank to support Uzbekistan AI cluster",
+   "link": "https://www.uzdaily.uz/en/eurasian-development-bank-to-support-uzbekistan-ai-cluster/",
+   "source": "uzdaily.uz",
+   "soha": "AI O'zbekiston",
+   "baho": 10,
+   "experts": [],
+   "effect": "Bu tashabbus O‘zbekistonda sun'iy intellekt va raqamli infratuzilmani rivojlantirishga xorijiy investitsiyalarni keng jalb etishi hamda texnologik modernizatsiyani tezlashtirishi mumkin.",
+   "image": "https://www.uzdaily.uz/media/filer_public/59/44/594457cd-b39f-4c7c-98a4-c0dc0b8a5cec/eabrmipt2711_20261127101019.webp",
+   "domains": [
+    "uzdaily.uz",
+    "businessinsider.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://www.uzdaily.uz/en/eurasian-development-bank-to-support-uzbekistan-ai-cluster/",
+    "https://www.businessinsider.com/bank-of-america-hired-contractors-protect-software-rogue-ai-agents-2026-10",
+    "https://finance.yahoo.com/technology/ai/articles/ai-infrastructure-push-draws-6bn-120635508.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795806184.9444363,
+   "title": "Adobe Firefly uchun Black Friday 2026 chegirmalari e’lon qilindi",
+   "text": "Adobe sun’iy intellekt vositalari yaratish va tahrirlash uchun mo‘ljallangan Firefly pulli rejuslariga 60 foizgacha chegirmalarni taqdim etdi.",
+   "orig_title": "Adobe Firefly Black Friday 2026: Which Paid Plan Fits Your Workflow? Up to 60% Off Through Dec. 6",
+   "link": "https://en.softonic.com/articles/adobe-firefly-black-friday-2026-which-paid-plan-fits-your-workflow-up-to-60-off-through-dec-6",
+   "source": "en.softonic.com",
+   "soha": "AI rasm",
+   "baho": 8,
+   "experts": [
+    {
+     "kim": "Mark Moerdler",
+     "lavozim": "Bernstein tahlilchisi",
+     "fikr": "Bernstein tahlilchisi Mark Moerdler Adobe aksiyalari uchun 373 dollarlik maqsadli narxni belgiladi.",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/adobe-33-2026-slide-worth-174546119.html",
+     "domain": "finance.yahoo.com"
+    }
+   ],
+   "effect": "Chegirmalar va qisqa muddatli narx siyosatidan ko‘ra foydalanuvchilar qamrovini ustuvor ko‘rish Adobe kompaniyasining kelgusidagi daromadliligi va bozor qiymatiga uzoq muddatli ta'sir ko‘rsatishi mumkin.",
+   "image": null,
+   "domains": [
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://finance.yahoo.com/markets/stocks/articles/adobe-33-2026-slide-worth-174546119.html",
+    "https://finance.yahoo.com/markets/stocks/articles/adobe-adbe-stock-looks-bargain-171331328.html"
    ],
    "videos": []
   }
