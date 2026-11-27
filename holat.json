@@ -377,7 +377,8 @@
   "https://daryo.uz/2026/11/25/suniy-intellektdan-foydalanaman-va-u-menga-yoqadi-zelenskiy/": 1795705556.8875809,
   "https://www.techloy.com/most-realistic-ai-video-generators-in-2027/": 1795712545.9009743,
   "https://the-decoder.com/gpt-6-2-astra-users-now-hit-limits-40-faster-after-openai-patched-a-pricing-error/": 1795716071.1635885,
-  "https://www.bandt.com.au/its-pushed-my-imagination-further-disrupt-ai-film-festival-winner-jamin-tasker-on-ais-impact-on-filmmaking/": 1795748749.9861858
+  "https://www.bandt.com.au/its-pushed-my-imagination-further-disrupt-ai-film-festival-winner-jamin-tasker-on-ais-impact-on-filmmaking/": 1795748749.9861858,
+  "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/": 1795752061.496464
  },
  "fails": 0,
  "sent": [
@@ -995,6 +996,11 @@
    "t": 1795748749.9861858,
    "title": "‘It’s Pushed My Imagination Further’ — Disrupt Film Festival Winner Jamin Tasker On AI’s Impact On Filmmaking",
    "soha": "AI tanlov"
+  },
+  {
+   "t": 1795752061.496464,
+   "title": "Nvidia hits pause on chip shipments to Southeast Asia",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -1002,174 +1008,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1795576003.1548922,
-   "title": "Jamin Tasker’ning ‘Everything Soft’ filmi DISRUPT AI Film Festivalida bosh sovrinni qo‘lga kiritdi",
-   "text": "Jamin Tasker TBWA\\Australia's DISRUPT AI Film Festivalida 'Everything Soft' filmi uchun Grand Prix mukofotiga sazovor bo‘ldi.",
-   "orig_title": "Jamin Tasker’s ‘Everything Soft’ film wins Grand Prix at TBWA\\Australia’s DISRUPT AI Film Festival",
-   "link": "https://campaignbrief.com/jamin-taskers-everything-soft-film-wins-grand-prix-at-tbwaaustralias-disrupt-ai-film-festival/",
-   "source": "campaignbrief.com",
-   "soha": "AI tanlov",
-   "baho": 10,
-   "experts": [],
-   "effect": "Ijodiy sohada sun'iy intellekt vositalaridan foydalanish ko'paygani sari, g'oyalarning ko'pligidan ko'ra muallifning tanlov qilish va rejalashtirish qobiliyati asosiy qadrlanishiga olib kelishi mumkin.",
-   "image": "https://campaignbrief.com/wp-content/uploads/2026/11/Disrupt2026_EXPMedia-361.jpg",
-   "domains": [
-    "campaignbrief.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://campaignbrief.com/jamin-taskers-everything-soft-film-wins-grand-prix-at-tbwaaustralias-disrupt-ai-film-festival/",
-    "https://finance.yahoo.com/news/franklincovey-launches-disrupt-everything-innovate-102200143.html"
-   ],
-   "videos": [
-    [
-     "https://www.youtube.com/watch?v=8cgBkVUNBMg",
-     "YouTube"
-    ],
-    [
-     "https://www.youtube.com/watch?v=eLAxaTSJetk",
-     "YouTube"
-    ],
-    [
-     "https://www.youtube.com/watch?v=Nz3eRKj5QdI",
-     "YouTube"
-    ],
-    [
-     "https://www.youtube.com/watch?v=uOPMJnuKPc4",
-     "YouTube"
-    ]
-   ]
-  },
-  {
-   "t": 1795576003.1548922,
-   "title": "O‘zbekiston sun’iy intellekt uchun hisoblash quvvatlarini oshiradi",
-   "text": "O‘zbekiston 2027 yilda quvvati 7 ekzaflopsdan ortiq hisoblash klasterini ishga tushiradi va sun’iy intellekt sohasidagi loyihalarni kengaytiradi.",
-   "orig_title": "Özbekiston sun’iy intellekt uçun hisoblaş quvvatlarini oşiradi",
-   "link": "https://www.uzdaily.uz/uz/%C3%B6zbekiston-suniy-intellekt-u%C3%A7un-hisobla%C5%9F-quvvatlarini-o%C5%9Firadi/",
-   "source": "uzdaily.uz",
-   "soha": "AI O'zbekiston",
-   "baho": 10,
-   "experts": [],
-   "effect": "Hisoblash quvvatlarining oshishi va ta'lim loyihalarining kengayishi mamlakatda sun'iy intellekt texnologiyalarini rivojlantirish hamda raqamli xizmatlar eksportini yanada o'stirishga zamin yaratishi mumkin.",
-   "image": "https://www.uzdaily.uz/media/filer_public/1e/5b/1e5b5c98-9640-4da9-8a9f-a768097d5388/shermatovoliymajlis2411_20261124143815.webp",
-   "domains": [
-    "uzdaily.uz",
-    "businessinsider.com"
-   ],
-   "urls": [
-    "https://www.uzdaily.uz/uz/%C3%B6zbekiston-suniy-intellekt-u%C3%A7un-hisobla%C5%9F-quvvatlarini-o%C5%9Firadi/",
-    "https://www.businessinsider.com/college-majors-safest-from-ai-ranked"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795576003.1548922,
-   "title": "Tidal sun’iy intellekt yordamida yaratilgan musiqalarni taqiqlay boshlaydi",
-   "text": "Tidal platformasi 9-dekabrdan boshlab to‘liq sun’iy intellekt yordamida yaratilgan musiqalarni taqiqlab, millionlab treklarni o‘chirib tashlaydi.",
-   "orig_title": "Tidal will start banning AI-generated music next month",
-   "link": "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban",
-   "source": "The Verge AI",
-   "soha": "AI musiqa",
-   "baho": 10,
-   "experts": [],
-   "effect": "Sun'iy intellekt yaratgan qo'shiqlarning taqiqlanishi va platformadan o'chirilishi mualliflik huquqini himoya qilib, tinglovchilar va haqiqiy san'atkorlar uchun adolatli royalti taqsimotini ta'minlashi ehtimoli bor.",
-   "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25319678/STK301_Tidal_01.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
-   "domains": [
-    "theverge.com",
-    "yahoo.com"
-   ],
-   "urls": [
-    "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban",
-    "https://www.yahoo.com/entertainment/music/articles/tidal-first-streaming-ban-ai-212028866.html"
-   ],
-   "videos": [
-    [
-     "https://x.com/rsa/status/2125227949163180409",
-     "X"
-    ],
-    [
-     "https://x.com/TIDAL/status/2125233598714487170",
-     "X"
-    ]
-   ]
-  },
-  {
-   "t": 1795576003.1548922,
-   "title": "Anthropic Claude Artifacts ilovalarini macOS va Windows uchun taqdim etdi",
-   "text": "Anthropic foydalanuvchilarga kod yozmasdan chat orqali Claude Artifacts’ni Mac va Windows uchun mustaqil ish stoli ilovalari sifatida o‘rnatish imkonini berdi.",
-   "orig_title": "Anthropic turns Claude Artifacts into standalone desktop apps for macOS and Windows",
-   "link": "https://the-decoder.com/anthropic-turns-claude-artifacts-into-standalone-desktop-apps-for-macos-and-windows/",
-   "source": "The Decoder",
-   "soha": "AI",
-   "baho": 9,
-   "experts": [],
-   "effect": "Sun'iy intellekt vositalarining alohida ish stol ilovalariga aylanishi foydalanuvchilarga kod yozmasdan turib operatsion tizim imkoniyatlaridan kengroq foydalanish va ish jarayonlarini soddalashtirish imkonini berishi mumkin.",
-   "image": "https://the-decoder.com/wp-content/uploads/2026/11/claude_neon.png",
-   "domains": [
-    "the-decoder.com",
-    "businessinsider.com"
-   ],
-   "urls": [
-    "https://the-decoder.com/anthropic-turns-claude-artifacts-into-standalone-desktop-apps-for-macos-and-windows/",
-    "https://www.businessinsider.com/how-rich-anthropic-ipo-7-cofounders-2026-10"
-   ],
-   "videos": [
-    [
-     "https://x.com/felixrieseberg/status/2125310111149416682",
-     "X"
-    ]
-   ]
-  },
-  {
-   "t": 1795576003.1548922,
-   "title": "Anthropic MCP SDK yuklab olishlari 700 milliondan oshdi",
-   "text": "Anthropic MCP interfeys standarti oyiga 700 milliondan ortiq yuklab olindi va avtonom agentlar uchun yangi funksiyalar qo‘shildi.",
-   "orig_title": "Anthropic tops 700 million monthly MCP SDK downloads and expands the protocol for more autonomous AI agents",
-   "link": "https://the-decoder.com/anthropic-tops-700-million-monthly-mcp-sdk-downloads-and-expands-the-protocol-for-more-autonomous-ai-agents/",
-   "source": "The Decoder",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Model Context Protocol standartining ommalashuvi va yangi avtonom vazifalarning qo'shilishi turli sun'iy intellekt agentlari o'rtasida ma'lumot almashishni tezlashtirib, dasturchilar ishini qulaylashtirishi mumkin.",
-   "image": "https://the-decoder.com/wp-content/uploads/2026/11/anthropic_claude_logo.png",
-   "domains": [
-    "the-decoder.com",
-    "businessinsider.com"
-   ],
-   "urls": [
-    "https://the-decoder.com/anthropic-tops-700-million-monthly-mcp-sdk-downloads-and-expands-the-protocol-for-more-autonomous-ai-agents/",
-    "https://www.businessinsider.com/federal-government-sold-anthropic-shares-sam-bankman-fried-friends-2026-10"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795576003.1548922,
-   "title": "Noam Brown talabalarni o‘qishni tashlab AI sohasiga kirishga chaqirdi",
-   "text": "OpenAI tadqiqotchisi Noam Brown sun’iy intellektning tezkor rivojlanish davrida istiqbolli talabalarni chetda qolmaslikka undadi.",
-   "orig_title": "OpenAI o1 co-creator Noam Brown urges promising students to drop out as AI enters a \"very steep rate of progress\"",
-   "link": "https://the-decoder.com/openai-o1-co-creator-noam-brown-urges-promising-students-to-drop-out-as-ai-enters-a-very-steep-rate-of-progress/",
-   "source": "The Decoder",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Sun'iy intellektning mantiqiy fikrlash va mulohaza yuritish qobiliyatining jadal rivojlanishi kelgusida ta'lim tizimi va mutaxassislarni tayyorlash yondashuvlarini tubdan o'zgartirib yuborishi mumkin.",
-   "image": "https://the-decoder.com/wp-content/uploads/2026/11/openai_driscoll.png",
-   "domains": [
-    "the-decoder.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://the-decoder.com/openai-o1-co-creator-noam-brown-urges-promising-students-to-drop-out-as-ai-enters-a-very-steep-rate-of-progress/",
-    "https://finance.yahoo.com/technology/ai/articles/openai-revenue-run-rate-nears-151823201.html"
-   ],
-   "videos": [
-    [
-     "https://www.youtube.com/watch?v=tRaFbDFBl_A",
-     "YouTube"
-    ]
-   ]
-  },
   {
    "t": 1795579270.509654,
    "title": "O‘zbekistonda 7 eksaflopli AI hisoblash klasteri ishga tushiriladi",
@@ -2926,6 +2764,29 @@
      "YouTube"
     ]
    ]
+  },
+  {
+   "t": 1795752061.496464,
+   "title": "Nvidia Janubiy Osiyoga chip yetkazib berishni to'xtatdi",
+   "text": "AQShning sun'iy intellekt chiplarini Xitoydan cheklash siyosati doirasida Nvidia Malayziya, Singapur, Tailand va Indoneziyaga server yetkazib berishni to'xtatdi.",
+   "orig_title": "Nvidia hits pause on chip shipments to Southeast Asia",
+   "link": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+   "source": "TechCrunch AI",
+   "soha": "AI",
+   "baho": 9,
+   "experts": [],
+   "effect": "Janubi-Sharqiy Osiyo mamlakatlarida ma'lumotlar markazlari qurilishi va moliyalashtirilishi to'xtab qolishi, shuningdek, Xitoy kompaniyalarining masofaviy sun'iy intellekt quvvatlaridan foydalanish imkoniyati cheklanishi mumkin.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/Taiwan-Nvidia.jpg?w=1024",
+   "domains": [
+    "techcrunch.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+    "https://finance.yahoo.com/technology/ai/articles/nvidia-reportedly-halts-ai-chip-111743617.html",
+    "https://finance.yahoo.com/technology/ai/articles/nvidia-halts-chip-exports-south-091719430.html"
+   ],
+   "videos": []
   }
  ]
 }
