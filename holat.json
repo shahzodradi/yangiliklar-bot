@@ -1,11 +1,5 @@
 {
  "seen": {
-  "https://www.musicbusinessworldwide.com/elvis-presley-rightsholders-amend-suno-lawsuit-adding-more-than-100-allegedly-infringing-ai-tracks/": 1794916909.3477294,
-  "https://www.wired.com/story/wired-yearbook-2026-clement-delangue/": 1794916909.3477294,
-  "https://www.theverge.com/ai-artificial-intelligence/1034787/sam-altman-ram-shortage-semafor": 1794916909.3477294,
-  "https://www.theverge.com/ai-artificial-intelligence/1034668/data-centers-electricity-climate-pollution-study-harvard": 1794916909.3477294,
-  "https://www.theverge.com/tech/1034110/google-ask-maps-ai-trip-planning": 1794916909.3477294,
-  "https://www.msn.com/en-xl/news/other/nvidia-ceo-exit-risks-ai-startup-funding/ar-AA2huAOI": 1794916909.3477294,
   "https://www.musicbusinessworldwide.com/elevenlabs-agrees-to-acquire-japan-focused-voice-ai-company-kotoba-in-reported-100m-deal/": 1794924078.684282,
   "https://finance.yahoo.com/technology/ai/articles/perfect-corp-introduces-brand-ai-130000756.html": 1794931283.3393557,
   "https://www.unite.ai/suno-launches-visuals-for-ai-generated-lyric-videos-and-album-art/": 1794931283.3393557,
@@ -365,20 +359,11 @@
   "https://www.moneycontrol.com/technology/eloelo-group-launches-dolphin-ai-film-studio-at-iffi-2026-with-world-lock-technology-and-micro-drama-support-article-14089912.html": 1795770203.5510864,
   "https://www.telegraphindia.com/entertainment/pranav-bhasins-we-were-here-qualifies-for-99th-oscars-in-live-action-short-category/cid/2191619": 1795777367.8796756,
   "https://en.tempo.co/read/2124548/alibaba-cloud-expands-ai-ties-with-three-indonesian-firms": 1795777367.8796756,
-  "https://variety.com/2026/film/festivals/ai-horror-short-sikkal-wif-india-google-flow-filmathon-1236957898/": 1795780865.6701424
+  "https://variety.com/2026/film/festivals/ai-horror-short-sikkal-wif-india-google-flow-filmathon-1236957898/": 1795780865.6701424,
+  "https://huggingface.co/blog/video-trainium3": 1795784797.242966
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1795435272.246094,
-   "title": "States Sue SpaceX Over Grok Deepfakes",
-   "soha": "AI"
-  },
-  {
-   "t": 1795435272.246094,
-   "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
-   "soha": "AI"
-  },
   {
    "t": 1795456990.5738983,
    "title": "Amazon snaps up Decart’s AI optimization tech for $7.5B as it prepares to sell Trainium chips",
@@ -1003,6 +988,11 @@
    "t": 1795780865.6701424,
    "title": "AI Horror Short ‘Sikkal’ Wins WIF India x Google Flow Filmathon as Director Promita Banerjee Aims to Make ‘Films With Humans’",
    "soha": "AI tanlov"
+  },
+  {
+   "t": 1795784797.242966,
+   "title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+   "soha": "AI video"
   }
  ],
  "mavzu": {
@@ -2371,6 +2361,38 @@
     "https://variety.com/2026/film/festivals/ai-horror-short-sikkal-wif-india-google-flow-filmathon-1236957898/",
     "https://www.yahoo.com/entertainment/movies/articles/ai-horror-short-sikkal-wins-125227823.html",
     "https://www.yahoo.com/entertainment/movies/articles/ai-films-kerala-andaman-islands-081412610.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795784797.242966,
+   "title": "LTX-2.5 yordamida video yaratish",
+   "text": "Hugging Face platformasida Trainium3 chiplaridan foydalangan holda LTX-2.5 modeli yordamida video generatsiya qilish jarayoni namoyish etildi.",
+   "orig_title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+   "link": "https://huggingface.co/blog/video-trainium3",
+   "source": "Hugging Face",
+   "soha": "AI video",
+   "baho": 8,
+   "experts": [
+    {
+     "kim": "Mike Dever",
+     "lavozim": "asoschi va bosh direktor",
+     "fikr": "62 yoshda 3000 dollar olishni kutgan shaxs o'z Ijtimoiy ta'minot daromadini noto'g'ri hisoblagan.",
+     "url": "https://finance.yahoo.com/news/2-5-million-roth-ira-110000154.html",
+     "domain": "finance.yahoo.com"
+    }
+   ],
+   "effect": "Sun'iy intellekt yordamida video va ovoz generatsiya qilish tezligi oshishi va yangi apparat ta'minotining sinovdan o'tkazilishi bulutli hisoblash hamda generative AI bozorida raqobatni yanada kuchaytirishi mumkin.",
+   "image": "https://huggingface.co/blog/assets/video-trainium3/thumbnail.jpg",
+   "domains": [
+    "huggingface.co",
+    "finance.yahoo.com",
+    "businessinsider.com"
+   ],
+   "urls": [
+    "https://huggingface.co/blog/video-trainium3",
+    "https://finance.yahoo.com/news/2-5-million-roth-ira-110000154.html",
+    "https://www.businessinsider.com/gen-z-delays-work-marriage-children-homebuying-delayed-development-2025-4"
    ],
    "videos": []
   }
