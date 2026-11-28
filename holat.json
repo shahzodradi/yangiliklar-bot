@@ -1,8 +1,5 @@
 {
  "seen": {
-  "https://www.geeky-gadgets.com/extra-high/": 1795000116.2748084,
-  "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership": 1795000116.2748084,
-  "https://tech.yahoo.com/ai/chatgpt/articles/tested-chatgpt-gpt-6-2-064500873.html": 1795000116.2748084,
   "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/": 1795003288.0055163,
   "https://techcrunch.com/2026/11/18/felicis-leads-7-5m-bet-on-unsiloed-ai-to-make-enterprise-documents-usable-by-ai-agents/": 1795007185.7900019,
   "https://www.theverge.com/ai-artificial-intelligence/1036415/suno-visuals-ai-generated-video-images-feature": 1795010502.875698,
@@ -329,35 +326,11 @@
   "https://www.uzdaily.uz/ru/v-kazakhstane-vpervye-razrabotali-zakonoproekt-s-pomoshchiu-ii-platformy-ai-quryltai/": 1795842219.405864,
   "https://www.gazeta.uz/oz/2026/11/27/infinbank-uz/": 1795849501.6107714,
   "https://www.24-7pressrelease.com/press-release/540874/magi-2co-announces-online-availability-of-its-1080p-ai-video-generator": 1795852865.5676074,
-  "https://the-decoder.com/robotics-startup-embo-raises-110-million-in-seed-funding-to-build-world-model-ai-for-robots/": 1795864037.4923882
+  "https://the-decoder.com/robotics-startup-embo-raises-110-million-in-seed-funding-to-build-world-model-ai-for-robots/": 1795864037.4923882,
+  "https://the-decoder.com/google-deepminds-humanitys-first-exam-shows-top-ai-models-still-fail-simple-everyday-tasks-under-repeated-runs/": 1795867268.789745
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1795518473.3801608,
-   "title": "OpenAI releases GPT-6.2 for ChatGPT",
-   "soha": "AI"
-  },
-  {
-   "t": 1795518473.3801608,
-   "title": "Researchers Are Using Meta’s Open-Weight AI Models to Transform Medicine",
-   "soha": "AI"
-  },
-  {
-   "t": 1795518473.3801608,
-   "title": "Introducing Muse in the UK: A Personal AI Agent You Control",
-   "soha": "AI"
-  },
-  {
-   "t": 1795521661.3913379,
-   "title": "AI Solved Math’s Most Famous Problem. Now Humans Are Struggling to Understand It",
-   "soha": "AI"
-  },
-  {
-   "t": 1795521661.3913379,
-   "title": "OpenAI Brings Chat-Tuned GPT-6.2 Sol to ChatGPT with Smarter Web Search and Image Reading",
-   "soha": "AI"
-  },
   {
    "t": 1795529019.6448472,
    "title": "From Film Sets to Animated Dramas: How AI Is Reshaping Film Production",
@@ -926,6 +899,11 @@
   {
    "t": 1795864037.4923882,
    "title": "Robotics startup Embo raises $110 million in seed funding to build world-model AI for robots",
+   "soha": "AI"
+  },
+  {
+   "t": 1795867268.789745,
+   "title": "Google Deepmind's \"Humanity's First Exam\" shows top AI models still fail simple everyday tasks under repeated runs",
    "soha": "AI"
   }
  ],
@@ -2014,6 +1992,30 @@
      "YouTube"
     ]
    ]
+  },
+  {
+   "t": 1795867268.789745,
+   "title": "Google Deepmind sinovlarida yetakchi sun’iy intellekt modellari xatoga yo‘l qo‘ydi",
+   "text": "Google Deepmind 18 ta sun’iy intellekt modelini \"Humanity's First Exam\" yordamida sinovdan o‘tkazdi. Eng kuchli modellar ham qatorasiga to‘g‘ri javob berishda vizual idrok xatolari sababli qiyinchilikka duch keldi.",
+   "orig_title": "Google Deepmind's \"Humanity's First Exam\" shows top AI models still fail simple everyday tasks under repeated runs",
+   "link": "https://the-decoder.com/google-deepminds-humanitys-first-exam-shows-top-ai-models-still-fail-simple-everyday-tasks-under-repeated-runs/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Ko'p agentli sun'iy intellekt tizimlari va yangi testlash mezonlari joriy etilishi tadqiqotchilarga ilmiy kashfiyotlarni tezlashtirish hamda yanada murakkab strategik vazifalarni hal etish imkonini berishi mumkin.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/11/neural_network_coffee.png",
+   "domains": [
+    "the-decoder.com",
+    "techcrunch.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/google-deepminds-humanitys-first-exam-shows-top-ai-models-still-fail-simple-everyday-tasks-under-repeated-runs/",
+    "https://techcrunch.com/2025/08/01/google-rolls-out-gemini-deep-think-ai-a-reasoning-model-that-tests-multiple-ideas-in-parallel/",
+    "https://finance.yahoo.com/technology/ai/articles/rehearsals-launches-human-behavior-bench-150500065.html"
+   ],
+   "videos": []
   }
  ]
 }
