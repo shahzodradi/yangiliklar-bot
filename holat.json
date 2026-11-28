@@ -1,7 +1,5 @@
 {
  "seen": {
-  "https://www.androidauthority.com/google-pics-nano-banana-2-1-3736470/": 1794996065.2269773,
-  "https://www.msn.com/en-in/news/other/microsoft-takes-on-openai-and-anthropic-with-7-new-ai-models-check-what-they-can-do/ar-AA2hGUHh": 1794996065.2269773,
   "https://www.geeky-gadgets.com/extra-high/": 1795000116.2748084,
   "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership": 1795000116.2748084,
   "https://tech.yahoo.com/ai/chatgpt/articles/tested-chatgpt-gpt-6-2-064500873.html": 1795000116.2748084,
@@ -330,15 +328,11 @@
   "https://www.thehypemagazine.com/2026/11/25/ai-music-labeling-double-standard-hypebot-op-ed/": 1795842219.405864,
   "https://www.uzdaily.uz/ru/v-kazakhstane-vpervye-razrabotali-zakonoproekt-s-pomoshchiu-ii-platformy-ai-quryltai/": 1795842219.405864,
   "https://www.gazeta.uz/oz/2026/11/27/infinbank-uz/": 1795849501.6107714,
-  "https://www.24-7pressrelease.com/press-release/540874/magi-2co-announces-online-availability-of-its-1080p-ai-video-generator": 1795852865.5676074
+  "https://www.24-7pressrelease.com/press-release/540874/magi-2co-announces-online-availability-of-its-1080p-ai-video-generator": 1795852865.5676074,
+  "https://the-decoder.com/robotics-startup-embo-raises-110-million-in-seed-funding-to-build-world-model-ai-for-robots/": 1795864037.4923882
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1795514463.885317,
-   "title": "Luma выкатила Character Swap и Insert в Dream Machine: замена актёров и предметов в готовом видео без потери дубля",
-   "soha": "AI video"
-  },
   {
    "t": 1795518473.3801608,
    "title": "OpenAI releases GPT-6.2 for ChatGPT",
@@ -928,6 +922,11 @@
    "t": 1795852865.5676074,
    "title": "magi-2.co Announces Online Availability of Its 1080p AI Video Generator",
    "soha": "AI video"
+  },
+  {
+   "t": 1795864037.4923882,
+   "title": "Robotics startup Embo raises $110 million in seed funding to build world-model AI for robots",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -935,28 +934,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1795690955.59051,
-   "title": "OpenAI’s GPT-6.2 Helped Design Proteins That Bound in Lab Tests",
-   "text": "OpenAI’s GPT-6.2 helped design proteins that bound in lab tests, demonstrating new computational biology capabilities in the latest model.",
-   "orig_title": "OpenAI’s GPT-6.2 Helped Design Proteins That Bound in Lab Tests",
-   "link": "https://www.techrepublic.com/article/news-gpt-6-2-protein-design-biotech-it/",
-   "source": "techrepublic.com",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Amerikalik va xitoylik sun'iy intellekt ishlab chiqaruvchilar orasidagi raqobat kuchayishi va sun'iy intellekt bozoridagi baholashlar o'zgarishi mumkin. Yangi test natijalari AQSh kompaniyalarining ustunligini ko'rsatib, investorlarning Anthropic va OpenAI IPO'lariga bo'lgan qiziqishini oshirishi ehtimoli bor.",
-   "image": null,
-   "domains": [
-    "businessinsider.com",
-    "techcrunch.com"
-   ],
-   "urls": [
-    "https://www.businessinsider.com/chinese-ai-models-rankings-artificial-analysis-private-tests-anthropic-openai-2026-11",
-    "https://techcrunch.com/2025/02/27/openai-unveils-gpt-4-5-orion-its-largest-ai-model-yet/"
-   ],
-   "videos": []
-  },
   {
    "t": 1795694488.268267,
    "title": "Microsoft taqdim etgan ARTEX sun’iy intellekt tizimi kiberhujumlarni avtomatlashtirmoqda",
@@ -2008,6 +1985,35 @@
     "https://www.theguardian.com/film/2026/feb/13/new-ai-video-generator-seedance-tom-cruise-brad-pitt"
    ],
    "videos": []
+  },
+  {
+   "t": 1795864037.4923882,
+   "title": "Robotlar uchun dunyo modeli yaratuvchi Embo startapi 110 mln dollar jalb qildi",
+   "text": "Google Deepmind, Meta va MIT tadqiqotchilari asos solgan Embo startapi 110 million dollar investitsiya oldi. Kompaniya internet-videolardan o'rganuvchi robotlar aqli tizimini ishlab chiqmoqda.",
+   "orig_title": "Robotics startup Embo raises $110 million in seed funding to build world-model AI for robots",
+   "link": "https://the-decoder.com/robotics-startup-embo-raises-110-million-in-seed-funding-to-build-world-model-ai-for-robots/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Katta investitsiyalar hisobiga jismoniy dunyoni anglay oladigan robototexnika modellari rivojlanishi va robotlarning notanish vaziyatlarda mustaqil ishlash qobiliyati sezilarli darajada oshishi mumkin.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/11/embo_logo-1200x675.png",
+   "domains": [
+    "the-decoder.com",
+    "sports.yahoo.com",
+    "techcrunch.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/robotics-startup-embo-raises-110-million-in-seed-funding-to-build-world-model-ai-for-robots/",
+    "https://sports.yahoo.com/articles/military-world-games-seek-23m-195639269.html",
+    "https://techcrunch.com/2026/05/13/origin-lab-raises-8m-to-help-video-game-companies-sell-data-to-world-model-builders/"
+   ],
+   "videos": [
+    [
+     "https://www.youtube.com/watch?v=qkSk0HGkG5k",
+     "YouTube"
+    ]
+   ]
   }
  ]
 }
