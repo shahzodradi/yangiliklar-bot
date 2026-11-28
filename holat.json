@@ -333,7 +333,8 @@
   "https://the-decoder.com/banned-nvidia-blackwell-chips-turn-up-in-a-shanghai-data-center-linked-to-alice-huang-bloomberg-reports/": 1795838472.825607,
   "https://www.thehypemagazine.com/2026/11/25/ai-music-labeling-double-standard-hypebot-op-ed/": 1795842219.405864,
   "https://www.uzdaily.uz/ru/v-kazakhstane-vpervye-razrabotali-zakonoproekt-s-pomoshchiu-ii-platformy-ai-quryltai/": 1795842219.405864,
-  "https://www.gazeta.uz/oz/2026/11/27/infinbank-uz/": 1795849501.6107714
+  "https://www.gazeta.uz/oz/2026/11/27/infinbank-uz/": 1795849501.6107714,
+  "https://www.24-7pressrelease.com/press-release/540874/magi-2co-announces-online-availability-of-its-1080p-ai-video-generator": 1795852865.5676074
  },
  "fails": 0,
  "sent": [
@@ -931,6 +932,11 @@
    "t": 1795849501.6107714,
    "title": "“Har kuni taxminan 1 trln so‘mlik qarorlar qabul qilamiz”: InfinBANK boshqaruvi raisi o‘rinbosari — bank g‘aznachiligi qanday ishlashi haqida",
    "soha": "AI O'zbekiston"
+  },
+  {
+   "t": 1795852865.5676074,
+   "title": "magi-2.co Announces Online Availability of Its 1080p AI Video Generator",
+   "soha": "AI video"
   }
  ],
  "mavzu": {
@@ -2003,6 +2009,38 @@
      "YouTube"
     ]
    ]
+  },
+  {
+   "t": 1795852865.5676074,
+   "title": "Magi-2.co 1080p sun'iy intellekt video generatorini taqdim etdi",
+   "text": "Brauzerga asoslangan vosita matnli so'rovlar yoki suratlarni ixtiyoriy generatsiya qilingan ovoz va kadr oxirini boshqarish imkoniyati bilan 1080p videolarga aylantiradi.",
+   "orig_title": "magi-2.co Announces Online Availability of Its 1080p AI Video Generator",
+   "link": "https://www.24-7pressrelease.com/press-release/540874/magi-2co-announces-online-availability-of-its-1080p-ai-video-generator",
+   "source": "24-7pressrelease.com",
+   "soha": "AI video",
+   "baho": 8,
+   "experts": [
+    {
+     "kim": "Rhett Reese",
+     "lavozim": "Ssenariynavis",
+     "fikr": "Birgina shaxs kompyuter qarshisida o'tirib, Gollivud chiqarayotgan filmlardan farq qilmaydigan kino yaratishi ehtimoli bor.",
+     "url": "https://www.theguardian.com/film/2026/feb/13/new-ai-video-generator-seedance-tom-cruise-brad-pitt",
+     "domain": "theguardian.com"
+    }
+   ],
+   "effect": "Sun'iy intellektga asoslangan video generatorlarning ommalashuvi kontent yaratish jarayonini tezlashtirishi va mustaqil ijodkorlarga imkoniyatlar kengaytirishi mumkin. Shu bilan birga, mualliflik huquqi buzilishi bilan bog'liq e'tirozlar va huquqiy nizolar kuchayish ehtimoli bor.",
+   "image": "https://www.24-7pressrelease.com/images/icon-247pressrelease.jpg",
+   "domains": [
+    "24-7pressrelease.com",
+    "theverge.com",
+    "theguardian.com"
+   ],
+   "urls": [
+    "https://www.24-7pressrelease.com/press-release/540874/magi-2co-announces-online-availability-of-its-1080p-ai-video-generator",
+    "https://www.theverge.com/news/610876/adobe-generate-video-ai-public-beta-available",
+    "https://www.theguardian.com/film/2026/feb/13/new-ai-video-generator-seedance-tom-cruise-brad-pitt"
+   ],
+   "videos": []
   }
  ]
 }
