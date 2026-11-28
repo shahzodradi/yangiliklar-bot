@@ -1,13 +1,5 @@
 {
  "seen": {
-  "https://www.theverge.com/tech/1035756/google-spark-ai-tasks-free": 1794942420.6631453,
-  "https://about.fb.com/news/2026/11/muse-is-now-available-in-australia/": 1794942420.6631453,
-  "https://openai.com/index/introducing-gpt-6-2-astra-sol": 1794942420.6631453,
-  "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/": 1794942420.6631453,
-  "https://techcrunch.com/2026/11/17/daydreams-new-ai-agent-acts-as-your-personal-stylist-and-can-shop-for-you-too/": 1794942420.6631453,
-  "https://www.msn.com/en-us/money/general/adobe-completes-topaz-labs-acquisition-adds-ai-media-tools/ar-AA2hE97t": 1794942420.6631453,
-  "https://www.musicbusinessworldwide.com/universal-and-sony-fight-sunos-bid-to-freeze-second-lawsuit-warning-its-latest-ai-models-could-escape-scrutiny-until-at-least-2028/": 1794942420.6631453,
-  "https://musically.com/2026/11/16/suno-bridge-takes-ai-music-to-daws-starting-with-ableton-live/": 1794942420.6631453,
   "https://www.bostonglobe.com/2026/11/17/business/ai-music-generator-suno-let-users-create-music-videos/": 1794971153.8142672,
   "https://www.musicbusinessworldwide.com/suno-launches-ai-music-video-tool-built-on-model-from-minimax-the-chinese-ai-firm-being-sued-by-disney-and-other-hollywood-studios/": 1794971153.8142672,
   "https://www.billboard.com/pro/suno-moves-into-ai-filmmaking-with-visuals-product/": 1794971153.8142672,
@@ -357,30 +349,13 @@
   "https://the-decoder.com/three-studies-from-meta-and-ami-labs-back-yann-lecuns-bet-on-jepa-world-models-over-large-language-models/": 1795799182.612519,
   "https://the-decoder.com/openai-is-building-athena-data-platform-to-cut-down-on-ai-agent-guesswork/": 1795799182.612519,
   "https://www.uzdaily.uz/en/eurasian-development-bank-to-support-uzbekistan-ai-cluster/": 1795806184.9444363,
-  "https://en.softonic.com/articles/adobe-firefly-black-friday-2026-which-paid-plan-fits-your-workflow-up-to-60-off-through-dec-6": 1795806184.9444363
+  "https://en.softonic.com/articles/adobe-firefly-black-friday-2026-which-paid-plan-fits-your-workflow-up-to-60-off-through-dec-6": 1795806184.9444363,
+  "https://www.msn.com/en-ae/money/general/1-billion-followers-summit-announces-jury-members-for-world-s-largest-prize-of-its-kind-worth-1-million/ar-AA2imuqE": 1795834939.0534382,
+  "https://www.msn.com/en-us/money/general/kuaishou-s-kling-launches-8k-image-model-as-revenue-goes-quiet/ar-AA2io9MD": 1795834939.0534382,
+  "https://www.msn.com/en-us/news/other/tidal-to-reject-and-remove-music-that-is-100-ai/ar-AA2icM25": 1795834939.0534382
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1795460602.959582,
-   "title": "Jensen Huang isn’t out of the woods yet",
-   "soha": "AI"
-  },
-  {
-   "t": 1795460602.959582,
-   "title": "Meta Muse can do your Black Friday shopping at Walmart",
-   "soha": "AI"
-  },
-  {
-   "t": 1795460602.959582,
-   "title": "Anthropic's appetite for compute is pushing xAI toward a rent-over-build strategy",
-   "soha": "AI"
-  },
-  {
-   "t": 1795460602.959582,
-   "title": "Meta's Alexandr Wang warns the AI industry isn't ready for what's coming after Riemann breakthrough",
-   "soha": "AI"
-  },
   {
    "t": 1795489357.1250331,
    "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
@@ -1000,6 +975,21 @@
    "t": 1795806184.9444363,
    "title": "Adobe Firefly Black Friday 2026: Which Paid Plan Fits Your Workflow? Up to 60% Off Through Dec. 6",
    "soha": "AI rasm"
+  },
+  {
+   "t": 1795834939.0534382,
+   "title": "1 Billion Followers Summit announces jury members for world’s largest prize of its kind worth $1 million",
+   "soha": "AI tanlov"
+  },
+  {
+   "t": 1795834939.0534382,
+   "title": "Kuaishou’s Kling launches 8K image model as revenue goes quiet",
+   "soha": "AI rasm"
+  },
+  {
+   "t": 1795834939.0534382,
+   "title": "Tidal to Reject and Remove Music That Is 100% AI",
+   "soha": "AI musiqa"
   }
  ],
  "mavzu": {
@@ -2341,6 +2331,72 @@
    "urls": [
     "https://finance.yahoo.com/markets/stocks/articles/adobe-33-2026-slide-worth-174546119.html",
     "https://finance.yahoo.com/markets/stocks/articles/adobe-adbe-stock-looks-bargain-171331328.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795834939.0534382,
+   "title": "1 Billion Followers Summit mukofoti hakamlar hay’atini e’lon qildi",
+   "text": "Kontent yaratuvchilar iqtisodiyotiga bag‘ishlangan 1 Billion Followers Summit o‘zining bir million dollarlik mukofoti uchun hakamlar hay’ati a’zolarini e’lon qildi.",
+   "orig_title": "1 Billion Followers Summit announces jury members for world’s largest prize of its kind worth $1 million",
+   "link": "https://www.msn.com/en-ae/money/general/1-billion-followers-summit-announces-jury-members-for-world-s-largest-prize-of-its-kind-worth-1-million/ar-AA2imuqE",
+   "source": "msn.com",
+   "soha": "AI tanlov",
+   "baho": 10,
+   "experts": [],
+   "effect": "Kompaniyaning an'anaviy reklamadan voz kechib, muxlislarni brend elchilariga aylantirish strategiyasi sodiq mijozlar bazasini kengaytirishga xizmat qilishi mumkin. Bu kabi turmush tarzi brendiga aylanish urinishlari kelgusida raqobat muhitiga va mijozlarning xarid qilish odatlariga jiddiy ta'sir ko'rsatishi kutilmoqda.",
+   "image": null,
+   "domains": [
+    "businessinsider.com",
+    "forbes.com"
+   ],
+   "urls": [
+    "https://www.businessinsider.com/bilts-marketing-strategy-to-become-generation-defining-brand-2026-10",
+    "https://www.forbes.com/connect/event/2025-forbes-3050-summit-abu-dhabi/"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795834939.0534382,
+   "title": "Kuaishou Kling 8K rasm modelini taqdim etdi",
+   "text": "Kuaishou kompaniyasining AI bo‘linmasi Kling 8K rasm modelini chiqardi, biroq moliyaviy hisobotda daromad ko‘rsatkichlari keltirilmadi.",
+   "orig_title": "Kuaishou’s Kling launches 8K image model as revenue goes quiet",
+   "link": "https://www.msn.com/en-us/money/general/kuaishou-s-kling-launches-8k-image-model-as-revenue-goes-quiet/ar-AA2io9MD",
+   "source": "msn.com",
+   "soha": "AI rasm",
+   "baho": 9,
+   "experts": [],
+   "effect": "Sun'iy intellekt bozorida raqobat kuchayib, tahlilchilar va investorlar moliyaviy ko'rsatkichlarga ko'proq e'tibor qaratishi ehtimoli bor. Yangi 8K rasm generatorining taqdim etilishi e-tijorat sotuvchilari hamda kontent yaratuvchilar uchun vizual ishlab chiqarish xarajatlarini qisqartirishi mumkin.",
+   "image": null,
+   "domains": [
+    "malaysia.news.yahoo.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://malaysia.news.yahoo.com/kuaishou-kling-launches-8k-image-020300597.html",
+    "https://finance.yahoo.com/technology/ai/articles/kling-ai-launches-kling-image-163300875.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795834939.0534382,
+   "title": "Tidal platformasi to‘liq sun’iy intellekt yaratgan musiqalarni taqiqlaydi",
+   "text": "Tidal striming ilovasi platformaga sun’iy intellekt yordamida yaratilgan treklar oqimi ko‘payib ketgani sababli ularni rad etish va o‘chirishini bildirdi.",
+   "orig_title": "Tidal to Reject and Remove Music That Is 100% AI",
+   "link": "https://www.msn.com/en-us/news/other/tidal-to-reject-and-remove-music-that-is-100-ai/ar-AA2icM25",
+   "source": "msn.com",
+   "soha": "AI musiqa",
+   "baho": 9,
+   "experts": [],
+   "effect": "Striming platformalarida sun'iy intellekt orqali yaratilgan past sifatli musiqalarning keskin kamayishi haqiqiy san'atkorlarning huquqlari va royalti to'lovlarini himoya qilishga yordam berishi mumkin. Boshqa yirik platformalar ham mualliflik huquqini qattiqlashtirish bo'yicha shunga o'xshash qadamlar qo'yish ehtimoli bor.",
+   "image": null,
+   "domains": [
+    "theverge.com",
+    "yahoo.com"
+   ],
+   "urls": [
+    "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban",
+    "https://www.yahoo.com/entertainment/music/articles/tidal-bans-wholly-ai-generated-163146944.html"
    ],
    "videos": []
   }
