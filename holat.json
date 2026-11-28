@@ -339,11 +339,6 @@
  "fails": 0,
  "sent": [
   {
-   "t": 1795507278.2729535,
-   "title": "AI Film ‘Gods Don’t Give Gifts’ Deemed Ineligible by Academy for Best Animated Feature Oscar",
-   "soha": "AI tanlov"
-  },
-  {
    "t": 1795514463.885317,
    "title": "Luma выкатила Character Swap и Insert в Dream Machine: замена актёров и предметов в готовом видео без потери дубля",
    "soha": "AI video"
@@ -944,30 +939,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1795680068.79551,
-   "title": "AI ma'lumotlar markazlarini qurish qiyinlashmoqda",
-   "text": "Nvidia hech qanday ma'lumotlar markazini ishga tushishga tayyor bo'lmaguncha qo'llab-quvvatlamasligini bildirdi. Bu esa neocloud kompaniyalarining qurilish jarayonida kechikishlarga duch kelishiga sabab bo'lmoqda.",
-   "orig_title": "AI data centers are becoming harder to build, and neoclouds are feeling it",
-   "link": "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/",
-   "source": "TechCrunch AI",
-   "soha": "AI",
-   "baho": 8,
-   "experts": [],
-   "effect": "Sun'iy intellekt markazlari qurilishidagi qiyinchiliklar va moliyalashtirish shartlarining qattiqlashuvi neoklodlar uchun qarz yuki oshishiga va spekulyativ loyihalar barbod bo‘lishiga olib kelishi mumkin.",
-   "image": "https://techcrunch.com/wp-content/uploads/2026/11/Anita-Verma-Lallian-2.jpg?w=1024",
-   "domains": [
-    "techcrunch.com",
-    "cnbc.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/",
-    "https://www.cnbc.com/2026/11/18/nvidia-neocloud-financing.html",
-    "https://finance.yahoo.com/technology/ai/articles/nvidias-ai-financing-guarantees-hit-142017847.html"
-   ],
-   "videos": []
-  },
   {
    "t": 1795690955.59051,
    "title": "OpenAI’s GPT-6.2 Helped Design Proteins That Bound in Lab Tests",
