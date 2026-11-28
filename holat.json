@@ -1,12 +1,5 @@
 {
  "seen": {
-  "https://www.bostonglobe.com/2026/11/17/business/ai-music-generator-suno-let-users-create-music-videos/": 1794971153.8142672,
-  "https://www.musicbusinessworldwide.com/suno-launches-ai-music-video-tool-built-on-model-from-minimax-the-chinese-ai-firm-being-sued-by-disney-and-other-hollywood-studios/": 1794971153.8142672,
-  "https://www.billboard.com/pro/suno-moves-into-ai-filmmaking-with-visuals-product/": 1794971153.8142672,
-  "https://the-decoder.com/openai-launches-gpt-6-2-astra-and-sol-with-lower-api-prices-and-some-benchmark-gains/": 1794971153.8142672,
-  "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/": 1794971153.8142672,
-  "https://the-decoder.com/openai-opens-its-cybersecurity-tool-daybreak-to-nato-and-european-governments/": 1794971153.8142672,
-  "https://www.digitalmusicnews.com/2026/11/17/umg-v-suno-subpoena/": 1794974472.6818342,
   "https://www.uzdaily.uz/uz/%C3%B6zbekiston-va-kanada-suniy-intellekt-sohasidagi-hamkorlikni-muhokama-qildi/": 1794978365.1363087,
   "https://www.uzdaily.uz/uz/%C3%B6zbekiston-markaziy-banki-suniy-intellekt-sohasida-%C3%B6z-ye%C3%A7imlarini-i%C5%9Flab-%C3%A7iqmoqda/": 1794978365.1363087,
   "https://www.uzdaily.uz/en/rezet-hackers-target-companies-in-uzbekistan-and-cis/": 1794978365.1363087,
@@ -352,50 +345,14 @@
   "https://en.softonic.com/articles/adobe-firefly-black-friday-2026-which-paid-plan-fits-your-workflow-up-to-60-off-through-dec-6": 1795806184.9444363,
   "https://www.msn.com/en-ae/money/general/1-billion-followers-summit-announces-jury-members-for-world-s-largest-prize-of-its-kind-worth-1-million/ar-AA2imuqE": 1795834939.0534382,
   "https://www.msn.com/en-us/money/general/kuaishou-s-kling-launches-8k-image-model-as-revenue-goes-quiet/ar-AA2io9MD": 1795834939.0534382,
-  "https://www.msn.com/en-us/news/other/tidal-to-reject-and-remove-music-that-is-100-ai/ar-AA2icM25": 1795834939.0534382
+  "https://www.msn.com/en-us/news/other/tidal-to-reject-and-remove-music-that-is-100-ai/ar-AA2icM25": 1795834939.0534382,
+  "https://www.freep.com/press-release/story/277263/silicon-valley-ai-film-festival-connects-eastern-creativity-and-ai-innovation-in-shanghai/": 1795838472.825607,
+  "https://www.msn.com/en-ca/news/other/brampton-hackathon-asks-students-to-use-ai-to-fix-local-businesses-issues/ar-AA2i3l3w": 1795838472.825607,
+  "https://the-decoder.com/openai-countersues-apple-over-trade-secret-theft-and-alleged-coercion-of-shared-suppliers/": 1795838472.825607,
+  "https://the-decoder.com/banned-nvidia-blackwell-chips-turn-up-in-a-shanghai-data-center-linked-to-alice-huang-bloomberg-reports/": 1795838472.825607
  },
  "fails": 0,
  "sent": [
-  {
-   "t": 1795489357.1250331,
-   "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
-   "soha": "AI"
-  },
-  {
-   "t": 1795489357.1250331,
-   "title": "OpenAI updates ChatGPT to handle complex everyday questions, web searches, and images more reliably",
-   "soha": "AI"
-  },
-  {
-   "t": 1795489357.1250331,
-   "title": "OpenAI says GPT-6.2 Astra can understand, simulate, and help build 3D worlds",
-   "soha": "AI"
-  },
-  {
-   "t": 1795489357.1250331,
-   "title": "Robot AI Startup Embo Secures $110M Seed Investment Led by A16z",
-   "soha": "AI"
-  },
-  {
-   "t": 1795489357.1250331,
-   "title": "Beyond Nvidia: Convoy co-founder and former Microsoft leader raise $277M to rethink AI infrastructure",
-   "soha": "AI"
-  },
-  {
-   "t": 1795492864.1237469,
-   "title": "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios",
-   "soha": "AI"
-  },
-  {
-   "t": 1795492864.1237469,
-   "title": "Google Search’s AI Mode can now tap into Drive and Wallet for more personalized responses",
-   "soha": "AI"
-  },
-  {
-   "t": 1795492864.1237469,
-   "title": "Nvidia Is Powering Brain-Computer Interfaces Now",
-   "soha": "AI"
-  },
   {
    "t": 1795496904.665912,
    "title": "OpenAI and Cisco introduce Shirudo",
@@ -990,6 +947,26 @@
    "t": 1795834939.0534382,
    "title": "Tidal to Reject and Remove Music That Is 100% AI",
    "soha": "AI musiqa"
+  },
+  {
+   "t": 1795838472.825607,
+   "title": "Silicon Valley AI Film Festival Connects Eastern Creativity and AI Innovation in Shanghai",
+   "soha": "AI tanlov"
+  },
+  {
+   "t": 1795838472.825607,
+   "title": "Brampton hackathon asks students to use AI to fix local businesses' issues",
+   "soha": "AI tanlov"
+  },
+  {
+   "t": 1795838472.825607,
+   "title": "OpenAI countersues Apple over trade secret theft and alleged coercion of shared suppliers",
+   "soha": "AI"
+  },
+  {
+   "t": 1795838472.825607,
+   "title": "Banned Nvidia Blackwell chips turn up in a Shanghai data center linked to Alice Huang, Bloomberg reports",
+   "soha": "AI"
   }
  ],
  "mavzu": {
@@ -997,74 +974,6 @@
   "sent": []
  },
  "kunlik": [
-  {
-   "t": 1795662341.2942443,
-   "title": "Dolphin AI Film Studio taqdim etildi",
-   "text": "EloElo guruhi 57-xalqaro kinofestivalida sun'iy intellekt yordamida to'liq metrajli video va filmlar yaratishga mo'ljallangan Dolphin AI Film Studio platformasini namoyish etdi.",
-   "orig_title": "EloElo Group Introduces AI Platform to Simplify Film Production",
-   "link": "https://www.financialexpress.com/business/eloelo-group-introduces-ai-platform-to-simplify-film-production-4393965/",
-   "source": "financialexpress.com",
-   "soha": "AI tanlov",
-   "baho": 10,
-   "experts": [],
-   "effect": "Film tarqatuvchi kompaniyalarning o'zgarishi va tanqidiy syujet tufayli loyiha atrofidagi muhokamalar yanada ortishi mumkin.",
-   "image": null,
-   "domains": [
-    "au.news.yahoo.com",
-    "theguardian.com"
-   ],
-   "urls": [
-    "https://au.news.yahoo.com/trailer-openai-film-artificial-pulls-122730215.html",
-    "https://www.theguardian.com/film/video/2026/oct/16/naza-the-film-israel-does-not-want-you-to-see-video"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795662341.2942443,
-   "title": "Adobe Creative Agent yangi funksiyalar bilan kengaytirildi",
-   "text": "Adobe Creative Agent dasturini Creative Cloud va Firefly vositalariga integratsiya qilib, ijodiy jarayonlar va ish oqimlarini avtomatlashtirmoqda.",
-   "orig_title": "Adobe’s Creative Agent transforms Creative Cloud tools and Firefly workflows",
-   "link": "https://www.dezeen.com/2026/11/25/adobes-creative-agent-now-in-creative-cloud-tools-and-firefly/",
-   "source": "dezeen.com",
-   "soha": "AI rasm",
-   "baho": 9,
-   "experts": [],
-   "effect": "Ijodiy vositalarning avtomatlashuvi mutaxassislarga vaqtni tejash va murakkab jarayonlarni tezlashtirish imkonini berishi mumkin.",
-   "image": "https://static-2026.dezeen.com/uploads/2026/11/Adobe_dezeen_2364_col_1.jpg",
-   "domains": [
-    "dezeen.com",
-    "finance.yahoo.com"
-   ],
-   "urls": [
-    "https://www.dezeen.com/2026/11/25/adobes-creative-agent-now-in-creative-cloud-tools-and-firefly/",
-    "https://finance.yahoo.com/technology/ai/articles/adobe-adbe-turns-creative-cloud-191007810.html",
-    "https://finance.yahoo.com/sectors/technology/articles/adobe-ushers-era-creativity-creative-130000427.html"
-   ],
-   "videos": []
-  },
-  {
-   "t": 1795662341.2942443,
-   "title": "ElevenLabs 33 milliard dollarlik bahoda yangi investitsiya qidirmoqda",
-   "text": "Ovozli sun'iy intellekt texnologiyalarini ishlab chiquvchi ElevenLabs kompaniyasi 33 milliard dollarlik qiymatda yangi sarmoya jalb qilish bo'yicha dastlabki muzokaralarni boshladi.",
-   "orig_title": "Voice AI startup ElevenLabs reportedly seeking new funding at $33B valuation",
-   "link": "https://siliconangle.com/2026/11/25/voice-ai-startup-elevenlabs-reportedly-seeking-new-funding-at-33b-valuation/",
-   "source": "siliconangle.com",
-   "soha": "AI musiqa",
-   "baho": 9,
-   "experts": [],
-   "effect": "Sun'iy intellekt sektordagi startaplarning bahosini keskin oshirib, investorlar o'rtasida raqobatni kuchaytirishi ehtimoli bor.",
-   "image": "https://images.siliconangle.com/blogs.dir/1/files/2026/11/unsplash-1.png",
-   "domains": [
-    "siliconangle.com",
-    "uk.finance.yahoo.com"
-   ],
-   "urls": [
-    "https://siliconangle.com/2026/11/25/voice-ai-startup-elevenlabs-reportedly-seeking-new-funding-at-33b-valuation/",
-    "https://uk.finance.yahoo.com/news/elevenlabs-targets-33b-valuation-early-203810543.html",
-    "https://uk.finance.yahoo.com/news/sierra-doubles-valuation-30b-within-144303731.html"
-   ],
-   "videos": []
-  },
   {
    "t": 1795665681.9929657,
    "title": "Hong Kong launched The Global Greenlight Fast-Track with $1M creator subsidy pool",
@@ -2397,6 +2306,97 @@
    "urls": [
     "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban",
     "https://www.yahoo.com/entertainment/music/articles/tidal-bans-wholly-ai-generated-163146944.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795838472.825607,
+   "title": "Silicon Valley AI Film Festivali Shanxayda o'tkazildi",
+   "text": "Shanxayda bo'lib o'tgan Silicon Valley AI Film Festivali kino, texnologiya va madaniyat sohalaridagi global hamkorlikni namoyish etdi.",
+   "orig_title": "Silicon Valley AI Film Festival Connects Eastern Creativity and AI Innovation in Shanghai",
+   "link": "https://www.freep.com/press-release/story/277263/silicon-valley-ai-film-festival-connects-eastern-creativity-and-ai-innovation-in-shanghai/",
+   "source": "freep.com",
+   "soha": "AI tanlov",
+   "baho": 10,
+   "experts": [],
+   "effect": "Bu tadbir Sharq va G'arb ijodkorlari hamda sun'iy intellekt mutaxassislari o'rtasidagi hamkorlikni kengaytirishi, shuningdek, Shanxayda ilg'or texnologik va madaniy loyihalar sonining oshishiga olib kelishi mumkin.",
+   "image": null,
+   "domains": [
+    "yahoo.com",
+    "businessinsider.com"
+   ],
+   "urls": [
+    "https://www.yahoo.com/lifestyle/articles/125-people-shaped-houston-124500872.html",
+    "https://www.businessinsider.com/author/katie-roof"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795838472.825607,
+   "title": "Brampton talabalar uchun sun'iy intellekt hackathonini o'tkazdi",
+   "text": "Brampton Venture Zone o'zining ilk talabalar hackathonini o'tkazib, ishtirokchilarga sun'iy intellekt yordamida mahalliy biznes muammolarini hal qilishni taklif qildi.",
+   "orig_title": "Brampton hackathon asks students to use AI to fix local businesses' issues",
+   "link": "https://www.msn.com/en-ca/news/other/brampton-hackathon-asks-students-to-use-ai-to-fix-local-businesses-issues/ar-AA2i3l3w",
+   "source": "msn.com",
+   "soha": "AI tanlov",
+   "baho": 10,
+   "experts": [],
+   "effect": "Talabalar o'rtasida o'tkaziladigan bunday xalqaro musobaqalar amaliy ko'nikmalarni oshirib, mintaqadagi real ijtimoiy va sanoat muammolariga innovatsion yechimlar topilishini ta'minlashi ehtimoli bor.",
+   "image": null,
+   "domains": [
+    "techcrunch.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://techcrunch.com/contributor-content/ai-in-enterprise-where-are-businesses-actually-seeing-roi/",
+    "https://finance.yahoo.com/small-business/articles/singapore-india-hackathon-brings-together-025700321.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795838472.825607,
+   "title": "OpenAI Apple'ni savdo sirlarini o'g'irlashda aybladi",
+   "text": "OpenAI Apple kompaniyasiga qarshi sudga murojaat qilib, uni savdo sirlarini o'g'irlash va umumiy ta'minotchilarga bosim o'tkazishda aybladi.",
+   "orig_title": "OpenAI countersues Apple over trade secret theft and alleged coercion of shared suppliers",
+   "link": "https://the-decoder.com/openai-countersues-apple-over-trade-secret-theft-and-alleged-coercion-of-shared-suppliers/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Ikki gigant kompaniya o'rtasidagi sud jarayonlari sun'iy intellekt bozorida raqobat muhitini o'zgartirishi, yetakchi korxonalarning qurilmalar ishlab chiqarish rejalariga ta'sir ko'rsatishi va ta'minot zanjirlarida qo'shimcha qiyinchiliklarni keltirib chiqarishi mumkin.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/11/openai_apple.png",
+   "domains": [
+    "the-decoder.com",
+    "finance.yahoo.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/openai-countersues-apple-over-trade-secret-theft-and-alleged-coercion-of-shared-suppliers/",
+    "https://finance.yahoo.com/technology/ai/articles/openai-countersues-apple-ongoing-trade-195831333.html",
+    "https://finance.yahoo.com/technology/ai/articles/openai-countersues-apple-over-trade-193855054.html"
+   ],
+   "videos": []
+  },
+  {
+   "t": 1795838472.825607,
+   "title": "Shanxay ma'lumotlar markazidan taqiqlangan Nvidia chiplari topildi",
+   "text": "Bloomberg ma'lumotiga ko'ra, Xitoyning ikkita kompaniyasi Shanxay ma'lumotlar markazida Nvidia'ning quvvatli Blackwell chiplarini o'rnatgan.",
+   "orig_title": "Banned Nvidia Blackwell chips turn up in a Shanghai data center linked to Alice Huang, Bloomberg reports",
+   "link": "https://the-decoder.com/banned-nvidia-blackwell-chips-turn-up-in-a-shanghai-data-center-linked-to-alice-huang-bloomberg-reports/",
+   "source": "The Decoder",
+   "soha": "AI",
+   "baho": 8,
+   "experts": [],
+   "effect": "Taqiqlangan chip qismlarining Xitoy markazlarida topilishi AQSh eksport nazoratining yanada qattiqlashishiga, Xitoydagi sun'iy intellekt startuplari uchun texnologiya olish jarayonining murakkablashishiga olib kelishi mumkin.",
+   "image": "https://the-decoder.com/wp-content/uploads/2026/11/jensen_huang_china-1200x670.png",
+   "domains": [
+    "the-decoder.com",
+    "finance.yahoo.com",
+    "yahoo.com"
+   ],
+   "urls": [
+    "https://the-decoder.com/banned-nvidia-blackwell-chips-turn-up-in-a-shanghai-data-center-linked-to-alice-huang-bloomberg-reports/",
+    "https://finance.yahoo.com/technology/ai/articles/nvidia-blackwell-chips-found-shanghai-124008621.html",
+    "https://www.yahoo.com/news/politics/articles/nvidias-blackwell-chips-turn-china-170930530.html"
    ],
    "videos": []
   }
